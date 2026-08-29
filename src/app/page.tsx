@@ -1,6 +1,5 @@
 import { getAllBikes, getAllBrands, getAllCategories } from "@/lib/data/bikes";
 import { CatalogView } from "@/components/catalog/CatalogView";
-import { AdBanner } from "@/components/layout/AdBanner";
 import { Discipline } from "@/lib/schema/bike";
 import {
   Compass,
@@ -80,18 +79,26 @@ export default function HomePage({ searchParams }: PageProps) {
               href={isActive ? "/" : `/?discipline=${cat.id}`}
               className={`p-4 rounded-2xl border transition-all ${
                 isActive
-                  ? "bg-slate-900 text-white border-slate-900 shadow-md ring-2 ring-teal-500/30"
-                  : "bg-white text-slate-800 border-slate-200 hover:border-slate-300 hover:shadow-xs"
+                  ? "bg-slate-900 text-white border-slate-900 shadow-md ring-2 ring-teal-500/50"
+                  : "bg-white text-slate-800 border-slate-200 hover:border-teal-400 hover:shadow-xs"
               }`}
             >
               <div className="flex items-center justify-between mb-2">
-                <span className="text-xs font-bold uppercase tracking-wider text-teal-600">
+                <span
+                  className={`text-xs font-extrabold uppercase tracking-wider ${
+                    isActive ? "text-teal-300" : "text-teal-600"
+                  }`}
+                >
                   {cat.targetClearanceRange}
                 </span>
                 {cat.id === "gravel" ? (
                   <Compass className="w-4 h-4 text-amber-500" />
-                ) : (
+                ) : cat.id === "road_endurance" ? (
                   <Zap className="w-4 h-4 text-sky-500" />
+                ) : cat.id === "road_race" ? (
+                  <Flame className="w-4 h-4 text-rose-500" />
+                ) : (
+                  <Sparkles className="w-4 h-4 text-emerald-400" />
                 )}
               </div>
               <h3 className="font-bold text-sm sm:text-base leading-snug">{cat.name}</h3>
@@ -107,12 +114,6 @@ export default function HomePage({ searchParams }: PageProps) {
         })}
       </section>
 
-      {/* AdSense Leaderboard Banner Slot */}
-      <AdBanner
-        slotType="leaderboard"
-        ctaUrl="https://www.canyon.com/es-es/bicicletas-gravel/"
-        ctaText="Ver Gama Gravel 2025"
-      />
 
       {/* Main Catalog with Live Filters and Grid */}
       <section>
@@ -130,6 +131,7 @@ export default function HomePage({ searchParams }: PageProps) {
         </div>
 
         <CatalogView
+          key={selectedDiscipline || "all"}
           initialBikes={bikes}
           brands={brands}
           initialDiscipline={selectedDiscipline}

@@ -1,11 +1,11 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import { BikeProduct, Discipline } from "@/lib/schema/bike";
 import { BikeFilterCriteria, filterBikes } from "@/lib/data/bikes";
+import { formatDisciplineName, formatMaterialName } from "@/lib/utils/formatters";
 import { BikeCard } from "./BikeCard";
 import { FilterSidebar } from "./FilterSidebar";
-import { AdBanner } from "../layout/AdBanner";
 import {
   Search,
   SlidersHorizontal,
@@ -30,6 +30,14 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
     sortBy: "price_asc",
   });
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
+
+  // Sincronizar disciplina cuando cambia la URL / navegación
+  useEffect(() => {
+    setFilters((prev) => ({
+      ...prev,
+      disciplines: initialDiscipline ? [initialDiscipline] : [],
+    }));
+  }, [initialDiscipline]);
 
   // Filtrado reactivo en cliente para respuesta instantánea
   const filteredBikes = useMemo(() => {
@@ -135,9 +143,9 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
             {filters.disciplines?.map((d) => (
               <span
                 key={d}
-                className="inline-flex items-center gap-1 rounded-lg bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-800"
+                className="inline-flex items-center gap-1 rounded-lg bg-teal-50 px-2.5 py-1 text-xs font-bold text-teal-900 border border-teal-200"
               >
-                {d}
+                {formatDisciplineName(d)}
                 <button
                   onClick={() =>
                     setFilters({
@@ -145,15 +153,16 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
                       disciplines: filters.disciplines?.filter((x) => x !== d),
                     })
                   }
+                  aria-label={`Eliminar filtro ${formatDisciplineName(d)}`}
                 >
-                  <X className="w-3 h-3 hover:text-rose-600" />
+                  <X className="w-3 h-3 text-teal-700 hover:text-rose-600" />
                 </button>
               </span>
             ))}
             {filters.brands?.map((b) => (
               <span
                 key={b}
-                className="inline-flex items-center gap-1 rounded-lg bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-800"
+                className="inline-flex items-center gap-1 rounded-lg bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-800 border border-slate-200"
               >
                 {b}
                 <button
@@ -163,24 +172,95 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
                       brands: filters.brands?.filter((x) => x !== b),
                     })
                   }
+                  aria-label={`Eliminar filtro ${b}`}
                 >
-                  <X className="w-3 h-3 hover:text-rose-600" />
+                  <X className="w-3 h-3 text-slate-500 hover:text-rose-600" />
+                </button>
+              </span>
+            ))}
+            {filters.frameMaterials?.map((m) => (
+              <span
+                key={m}
+                className="inline-flex items-center gap-1 rounded-lg bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-800 border border-slate-200"
+              >
+                {formatMaterialName(m)}
+                <button
+                  onClick={() =>
+                    setFilters({
+                      ...filters,
+                      frameMaterials: filters.frameMaterials?.filter((x) => x !== m),
+                    })
+                  }
+                  aria-label={`Eliminar filtro ${formatMaterialName(m)}`}
+                >
+                  <X className="w-3 h-3 text-slate-500 hover:text-rose-600" />
+                </button>
+              </span>
+            ))}
+            {filters.groupsetBrands?.map((g) => (
+              <span
+                key={g}
+                className="inline-flex items-center gap-1 rounded-lg bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-800 uppercase border border-slate-200"
+              >
+                {g}
+                <button
+                  onClick={() =>
+                    setFilters({
+                      ...filters,
+                      groupsetBrands: filters.groupsetBrands?.filter((x) => x !== g),
+                    })
+                  }
+                  aria-label={`Eliminar filtro ${g}`}
+                >
+                  <X className="w-3 h-3 text-slate-500 hover:text-rose-600" />
                 </button>
               </span>
             ))}
             {filters.isElectronic !== undefined && filters.isElectronic !== null && (
-              <span className="inline-flex items-center gap-1 rounded-lg bg-teal-50 px-2 py-0.5 text-xs font-semibold text-teal-800 border border-teal-200">
+              <span className="inline-flex items-center gap-1 rounded-lg bg-teal-50 px-2.5 py-1 text-xs font-semibold text-teal-800 border border-teal-200">
                 {filters.isElectronic ? "Electrónico Di2/AXS" : "Mecánico"}
                 <button onClick={() => setFilters({ ...filters, isElectronic: null })}>
-                  <X className="w-3 h-3 hover:text-teal-900" />
+                  <X className="w-3 h-3 hover:text-rose-600" />
+                </button>
+              </span>
+            )}
+            {filters.isOneBy !== undefined && filters.isOneBy !== null && (
+              <span className="inline-flex items-center gap-1 rounded-lg bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-800 border border-slate-200">
+                {filters.isOneBy ? "1x Monoplato" : "2x Biplato"}
+                <button onClick={() => setFilters({ ...filters, isOneBy: null })}>
+                  <X className="w-3 h-3 hover:text-rose-600" />
                 </button>
               </span>
             )}
             {filters.minTireClearanceMm && (
-              <span className="inline-flex items-center gap-1 rounded-lg bg-amber-50 px-2 py-0.5 text-xs font-semibold text-amber-800 border border-amber-200">
+              <span className="inline-flex items-center gap-1 rounded-lg bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-900 border border-amber-200">
                 Paso ≥ {filters.minTireClearanceMm}mm
                 <button onClick={() => setFilters({ ...filters, minTireClearanceMm: undefined })}>
-                  <X className="w-3 h-3 hover:text-amber-900" />
+                  <X className="w-3 h-3 hover:text-rose-600" />
+                </button>
+              </span>
+            )}
+            {filters.maxPriceEur && (
+              <span className="inline-flex items-center gap-1 rounded-lg bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-800 border border-slate-200">
+                ≤ {filters.maxPriceEur.toLocaleString("es-ES")} €
+                <button onClick={() => setFilters({ ...filters, maxPriceEur: undefined })}>
+                  <X className="w-3 h-3 hover:text-rose-600" />
+                </button>
+              </span>
+            )}
+            {filters.onlyOutlets && (
+              <span className="inline-flex items-center gap-1 rounded-lg bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-800 border border-rose-200">
+                Sólo Rebajas
+                <button onClick={() => setFilters({ ...filters, onlyOutlets: false })}>
+                  <X className="w-3 h-3 hover:text-rose-900" />
+                </button>
+              </span>
+            )}
+            {filters.bikepackingMounts && (
+              <span className="inline-flex items-center gap-1 rounded-lg bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-900 border border-amber-200">
+                Roscas Bikepacking
+                <button onClick={() => setFilters({ ...filters, bikepackingMounts: undefined })}>
+                  <X className="w-3 h-3 hover:text-rose-900" />
                 </button>
               </span>
             )}
@@ -245,18 +325,8 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
             </div>
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {filteredBikes.map((bike, index) => (
-                <React.Fragment key={bike.id}>
-                  <BikeCard bike={bike} />
-                  {/* Insert sponsored showcase card every 6 bikes */}
-                  {index === 5 && (
-                    <AdBanner
-                      slotType="in_feed"
-                      title="Novedades Gravel & All-Road 2025"
-                      ctaUrl="https://www.orbea.com/es-es/bicicletas/carretera/terra/cat/terra-m20team-2025"
-                    />
-                  )}
-                </React.Fragment>
+              {filteredBikes.map((bike) => (
+                <BikeCard key={bike.id} bike={bike} />
               ))}
             </div>
           )}

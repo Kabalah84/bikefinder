@@ -11,7 +11,6 @@ import {
 } from "@/lib/utils/formatters";
 import { analyzeGearRatio } from "@/lib/utils/gear-calculator";
 import { analyzePosture } from "@/lib/utils/geometry-analysis";
-import { AdBanner } from "@/components/layout/AdBanner";
 import { BikeCard } from "@/components/catalog/BikeCard";
 import {
   ExternalLink,

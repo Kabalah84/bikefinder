@@ -14,6 +14,7 @@ import {
   Compass,
   Sparkles,
   TrendingUp,
+  Flame,
 } from "lucide-react";
 
 export function Navbar() {
@@ -150,6 +151,22 @@ export function Navbar() {
           >
             <Zap className="w-4 h-4 text-sky-600" />
             Carretera Gran Fondo
+          </Link>
+          <Link
+            href="/?discipline=road_race"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center gap-2 px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg"
+          >
+            <Flame className="w-4 h-4 text-rose-600" />
+            Carretera Competición & Aero
+          </Link>
+          <Link
+            href="/?discipline=all_road"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center gap-2 px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg"
+          >
+            <Sparkles className="w-4 h-4 text-emerald-600" />
+            All-Road Polivalente
           </Link>
           <Link
             href="/comparador"

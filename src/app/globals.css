@@ -32,17 +32,23 @@ body {
 }
 
 .badge-gravel {
-  @apply bg-amber-50 text-amber-900 border-amber-200 border;
+  @apply bg-amber-50 text-amber-950 border-amber-300 border;
 }
 
 .badge-road-endurance {
-  @apply bg-sky-50 text-sky-900 border-sky-200 border;
+  @apply bg-sky-50 text-sky-950 border-sky-300 border;
 }
 
 .badge-road-race {
-  @apply bg-rose-50 text-rose-900 border-rose-200 border;
+  @apply bg-rose-50 text-rose-950 border-rose-300 border;
 }
 
 .badge-all-road {
-  @apply bg-emerald-50 text-emerald-900 border-emerald-200 border;
+  @apply bg-emerald-50 text-emerald-950 border-emerald-300 border;
+}
+
+/* Prevent accidental horizontal overflow */
+html, body {
+  max-width: 100vw;
+  overflow-x: clip;
 }

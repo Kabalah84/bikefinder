@@ -129,8 +129,8 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
           {/* Header Row: Bicicletas y Enlaces Oficiales */}
           <thead>
             <tr className="border-b border-slate-200 bg-slate-50/70">
-              <th className="p-4 sm:p-6 w-48 sm:w-64 min-w-[180px] align-bottom">
-                <span className="text-xs font-black uppercase tracking-wider text-slate-400 block mb-1">
+              <th className="sticky left-0 bg-slate-50 p-4 sm:p-6 w-48 sm:w-64 min-w-[180px] align-bottom shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-20">
+                <span className="text-xs font-black uppercase tracking-wider text-slate-500 block mb-1">
                   Especificación
                 </span>
                 <span className="text-base sm:text-lg font-bold text-slate-900">
@@ -204,13 +204,13 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
             <tr className="bg-slate-100/60">
               <td
                 colSpan={bikes.length + 1}
-                className="p-3 px-4 sm:px-6 font-bold text-slate-700 text-xs uppercase tracking-wider"
+                className="sticky left-0 bg-slate-100 p-3 px-4 sm:px-6 font-bold text-slate-800 text-xs uppercase tracking-wider"
               >
                 Información General y Disciplina
               </td>
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Disciplina</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Disciplina</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4">
                   <span className="font-semibold text-slate-900">
@@ -220,7 +220,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Año de Temporada</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Año de Temporada</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4 font-semibold text-slate-900">
                   {bike.year}
@@ -232,13 +232,13 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
             <tr className="bg-slate-100/60">
               <td
                 colSpan={bikes.length + 1}
-                className="p-3 px-4 sm:px-6 font-bold text-slate-700 text-xs uppercase tracking-wider"
+                className="sticky left-0 bg-slate-100 p-3 px-4 sm:px-6 font-bold text-slate-800 text-xs uppercase tracking-wider"
               >
                 Cuadro, Peso y Paso de Rueda
               </td>
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">
                 Paso de Rueda Máximo (Clearance)
               </td>
               {bikes.map((bike) => (
@@ -254,7 +254,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
                       {bike.maxTireClearanceMm} mm
                     </span>
                     {bike.maxTireClearanceMm === maxClearance && bikes.length > 1 && (
-                      <span className="text-[10px] bg-amber-200 text-amber-900 px-1.5 py-0.2 rounded-md font-bold">
+                      <span className="text-[10px] bg-amber-200 text-amber-950 px-1.5 py-0.5 rounded-md font-bold">
                         Mayor
                       </span>
                     )}
@@ -263,7 +263,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Peso Oficial Declarado</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Peso Oficial Declarado</td>
               {bikes.map((bike) => (
                 <td
                   key={bike.id}
@@ -276,7 +276,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
                       {formatWeight(bike.weightKg, bike.weightSizeReference)}
                     </span>
                     {minWeight && bike.weightKg === minWeight && bikes.length > 1 && (
-                      <span className="text-[10px] bg-sky-200 text-sky-900 px-1.5 py-0.2 rounded-md font-bold">
+                      <span className="text-[10px] bg-sky-200 text-sky-950 px-1.5 py-0.5 rounded-md font-bold">
                         Más Ligera
                       </span>
                     )}
@@ -285,7 +285,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Material del Cuadro</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Material del Cuadro</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4 font-semibold text-slate-900">
                   {formatMaterialName(bike.frameMaterial)}
@@ -293,7 +293,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Horquilla</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Horquilla</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4 font-semibold text-slate-900">
                   {formatMaterialName(bike.forkMaterial)}
@@ -301,29 +301,29 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Cockpit / Cableado Interno</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Cockpit / Cableado Interno</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4">
                   {bike.integratedCockpit ? (
-                    <span className="inline-flex items-center gap-1 text-emerald-700 font-bold">
+                    <span className="inline-flex items-center gap-1 text-emerald-800 font-bold">
                       <Check className="w-4 h-4" /> 100% Integrado
                     </span>
                   ) : (
-                    <span className="text-slate-500 font-medium">Semi-integrado</span>
+                    <span className="text-slate-600 font-medium">Semi-integrado</span>
                   )}
                 </td>
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Roscas Bikepacking</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Roscas Bikepacking</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4">
                   {bike.bikepackingMounts ? (
-                    <span className="inline-flex items-center gap-1 text-teal-700 font-bold">
+                    <span className="inline-flex items-center gap-1 text-teal-800 font-bold">
                       <Check className="w-4 h-4" /> Cuadro + Horquilla
                     </span>
                   ) : (
-                    <span className="text-slate-400 font-medium flex items-center gap-1">
+                    <span className="text-slate-500 font-medium flex items-center gap-1">
                       <Minus className="w-4 h-4" /> Estándar
                     </span>
                   )}
@@ -335,13 +335,13 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
             <tr className="bg-slate-100/60">
               <td
                 colSpan={bikes.length + 1}
-                className="p-3 px-4 sm:px-6 font-bold text-slate-700 text-xs uppercase tracking-wider"
+                className="sticky left-0 bg-slate-100 p-3 px-4 sm:px-6 font-bold text-slate-800 text-xs uppercase tracking-wider"
               >
                 Transmisión y Calculador de Desarrollos
               </td>
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Grupo Completo</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Grupo Completo</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4 font-bold text-slate-900">
                   {bike.groupset.name}
@@ -349,23 +349,23 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Tipo de Cambio</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Tipo de Cambio</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4">
                   {bike.groupset.isElectronic ? (
-                    <span className="inline-flex items-center gap-1 text-teal-700 font-bold bg-teal-50 px-2 py-0.5 rounded-lg border border-teal-200">
+                    <span className="inline-flex items-center gap-1 text-teal-900 font-bold bg-teal-50 px-2 py-0.5 rounded-lg border border-teal-200">
                       <Zap className="w-3.5 h-3.5 text-teal-600" /> Electrónico Di2/AXS
                     </span>
                   ) : (
-                    <span className="inline-flex items-center gap-1 text-slate-700 font-semibold bg-slate-100 px-2 py-0.5 rounded-lg">
-                      <Cog className="w-3.5 h-3.5 text-slate-500" /> Mecánico {bike.groupset.speedCount}v
+                    <span className="inline-flex items-center gap-1 text-slate-800 font-semibold bg-slate-100 px-2 py-0.5 rounded-lg">
+                      <Cog className="w-3.5 h-3.5 text-slate-600" /> Mecánico {bike.groupset.speedCount}v
                     </span>
                   )}
                 </td>
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Platos y Cassette</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Platos y Cassette</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4 font-medium text-slate-800">
                   {bike.groupset.chainrings} con {bike.groupset.cassette}
@@ -373,12 +373,12 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">
                 <span className="flex items-center gap-1">
                   <TrendingUp className="w-3.5 h-3.5 text-teal-600" />
                   Ratio Mínimo (Subida)
                 </span>
-                <span className="text-[11px] text-slate-400 font-normal block">
+                <span className="text-[11px] text-slate-500 font-normal block">
                   Menor número = mayor facilidad en pendientes duras
                 </span>
               </td>
@@ -403,9 +403,9 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               })}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">
                 Ratio Máximo (Llano / Bajada)
-                <span className="text-[11px] text-slate-400 font-normal block">
+                <span className="text-[11px] text-slate-500 font-normal block">
                   Mayor número = mayor velocidad punta
                 </span>
               </td>
@@ -421,7 +421,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
                     <div className="text-sm font-bold text-slate-900">
                       {bike.groupset.maxGearRatio.toFixed(2)}
                     </div>
-                    <span className="text-[11px] text-slate-500 font-medium">
+                    <span className="text-[11px] text-slate-600 font-medium">
                       {gear.sprintBadge.label}
                     </span>
                   </td>
@@ -433,15 +433,15 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
             <tr className="bg-slate-100/60">
               <td
                 colSpan={bikes.length + 1}
-                className="p-3 px-4 sm:px-6 font-bold text-slate-700 text-xs uppercase tracking-wider"
+                className="sticky left-0 bg-slate-100 p-3 px-4 sm:px-6 font-bold text-slate-800 text-xs uppercase tracking-wider"
               >
                 Geometría Oficial Talla M (Postura & Manejo)
               </td>
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">
                 Ratio Stack / Reach
-                <span className="text-[11px] text-slate-400 font-normal block">
+                <span className="text-[11px] text-slate-500 font-normal block">
                   &gt;1.50 = Confort · &lt;1.45 = Racing
                 </span>
               </td>
@@ -462,7 +462,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               })}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Stack / Reach</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Stack / Reach</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4 font-medium text-slate-800">
                   {bike.geometry.stackMm} mm / {bike.geometry.reachMm} mm
@@ -470,7 +470,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Ángulo de Dirección</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Ángulo de Dirección</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4 font-medium text-slate-800">
                   {bike.geometry.headTubeAngleDeg}°
@@ -478,7 +478,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Longitud de Vainas</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Longitud de Vainas</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4 font-medium text-slate-800">
                   {bike.geometry.chainstayLengthMm} mm
@@ -490,13 +490,13 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
             <tr className="bg-slate-100/60">
               <td
                 colSpan={bikes.length + 1}
-                className="p-3 px-4 sm:px-6 font-bold text-slate-700 text-xs uppercase tracking-wider"
+                className="sticky left-0 bg-slate-100 p-3 px-4 sm:px-6 font-bold text-slate-800 text-xs uppercase tracking-wider"
               >
                 Ruedas, Neumáticos y Frenos
               </td>
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Ruedas de Serie</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Ruedas de Serie</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4 font-medium text-slate-800">
                   {bike.wheels || "N/D"}
@@ -504,7 +504,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Cubiertas de Serie</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Cubiertas de Serie</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4 font-medium text-slate-800">
                   {bike.tires || "N/D"}
@@ -512,7 +512,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
               ))}
             </tr>
             <tr>
-              <td className="p-4 sm:px-6 font-semibold text-slate-600">Frenos</td>
+              <td className="sticky left-0 bg-white p-4 sm:px-6 font-semibold text-slate-700 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10">Frenos</td>
               {bikes.map((bike) => (
                 <td key={bike.id} className="p-4 font-medium text-slate-800">
                   {bike.brakes || "Frenos de disco hidráulicos"}

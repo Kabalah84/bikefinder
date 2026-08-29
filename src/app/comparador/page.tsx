@@ -1,17 +1,20 @@
 "use client";
 
-import React, { Suspense, useEffect } from "react";
+import React, { Suspense, useEffect, useMemo } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { getAllBikes, getBikesByIds } from "@/lib/data/bikes";
 import { useComparison } from "@/lib/context/ComparisonContext";
 import { ComparisonTable } from "@/components/comparator/ComparisonTable";
+import { CategorizedBikePicker } from "@/components/comparator/CategorizedBikePicker";
+import { formatDisciplineName } from "@/lib/utils/formatters";
+import { Discipline } from "@/lib/schema/bike";
 import { Scale, Plus, Sparkles, ArrowLeft, RefreshCw } from "lucide-react";
 import Link from "next/link";
 
 function ComparadorContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const { selectedBikes, addBike, removeBike, clearAll } = useComparison();
+  const { selectedBikes, addBike, removeBike, clearAll, maxBikes } = useComparison();
   const allBikes = getAllBikes();
 
   const idsParam = searchParams.get("ids");
@@ -41,6 +44,26 @@ function ComparadorContent() {
     presetBikes.forEach((b) => addBike(b));
   };
 
+  // Agrupar bicicletas disponibles por disciplina para el dropdown
+  const availableBikesByDiscipline = useMemo(() => {
+    const available = allBikes.filter((b) => !selectedBikes.some((sb) => sb.id === b.id));
+    const groups: { discipline: Discipline; label: string; bikes: typeof allBikes }[] = [
+      { discipline: "gravel", label: "Gravel", bikes: [] },
+      { discipline: "road_endurance", label: "Carretera Gran Fondo", bikes: [] },
+      { discipline: "road_race", label: "Carretera Competición & Aero", bikes: [] },
+      { discipline: "all_road", label: "All-Road", bikes: [] },
+    ];
+
+    available.forEach((bike) => {
+      const group = groups.find((g) => g.discipline === bike.discipline);
+      if (group) {
+        group.bikes.push(bike);
+      }
+    });
+
+    return groups.filter((g) => g.bikes.length > 0);
+  }, [allBikes, selectedBikes]);
+
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 space-y-8">
       {/* Top Breadcrumb & Header */}
@@ -62,9 +85,9 @@ function ComparadorContent() {
           </p>
         </div>
 
-        {/* Quick Add Model Dropdown */}
+        {/* Quick Add Model Dropdown (Categorized by optgroup) */}
         <div className="flex items-center gap-2">
-          {selectedBikes.length < 4 && (
+          {selectedBikes.length < maxBikes && (
             <div className="flex items-center gap-2">
               <label htmlFor="add-bike-select" className="text-xs font-bold text-slate-600 shrink-0">
                 Añadir modelo:
@@ -73,18 +96,20 @@ function ComparadorContent() {
                 id="add-bike-select"
                 onChange={handleAddBikeFromSelect}
                 defaultValue=""
-                className="rounded-xl border border-slate-300 bg-white py-2 px-3 text-xs font-semibold text-slate-800 focus:border-teal-500 focus:outline-hidden shadow-2xs"
+                className="rounded-xl border border-slate-300 bg-white py-2 px-3 text-xs font-semibold text-slate-800 focus:border-teal-500 focus:outline-hidden shadow-2xs max-w-[260px] truncate"
               >
                 <option value="" disabled>
                   Seleccionar bicicleta...
                 </option>
-                {allBikes
-                  .filter((b) => !selectedBikes.some((sb) => sb.id === b.id))
-                  .map((b) => (
-                    <option key={b.id} value={b.id}>
-                      {b.brand} {b.model} ({b.year}) · {b.currentPriceEur}€
-                    </option>
-                  ))}
+                {availableBikesByDiscipline.map((group) => (
+                  <optgroup key={group.discipline} label={`── ${group.label} ──`}>
+                    {group.bikes.map((b) => (
+                      <option key={b.id} value={b.id}>
+                        {b.brand} {b.model} ({b.year}) · {b.currentPriceEur}€
+                      </option>
+                    ))}
+                  </optgroup>
+                ))}
               </select>
             </div>
           )}
@@ -94,7 +119,7 @@ function ComparadorContent() {
               onClick={clearAll}
               className="rounded-xl border border-slate-200 bg-slate-100 hover:bg-rose-50 hover:border-rose-200 hover:text-rose-700 py-2 px-3 text-xs font-bold text-slate-600 transition-colors"
             >
-              Vaciar
+              Vaciar ({selectedBikes.length})
             </button>
           )}
         </div>
@@ -146,11 +171,31 @@ function ComparadorContent() {
         </div>
       </div>
 
-      {/* Comparison Table View */}
-      <ComparisonTable
-        bikes={selectedBikes}
-        onRemoveBike={removeBike}
-      />
+      {/* Comparison View & Categorized Picker */}
+      {selectedBikes.length > 0 ? (
+        <div className="space-y-8">
+          <ComparisonTable
+            bikes={selectedBikes}
+            onRemoveBike={removeBike}
+          />
+
+          {/* Quick Picker to add more bikes if less than 4 */}
+          {selectedBikes.length < maxBikes && (
+            <CategorizedBikePicker
+              allBikes={allBikes}
+              title={`Añadir más bicicletas (${selectedBikes.length}/${maxBikes})`}
+              subtitle="Haz clic en cualquier modelo para incorporarlo a la tabla comparativa superior."
+            />
+          )}
+        </div>
+      ) : (
+        /* Empty state: full categorized picker */
+        <CategorizedBikePicker
+          allBikes={allBikes}
+          title="Elige tus Bicicletas para Comparar"
+          subtitle="Selecciona hasta 4 bicicletas filtrando por categorías (Gravel, Gran Fondo, Competición, All-Road) para ver su comparativa técnica al instante."
+        />
+      )}
     </div>
   );
 }

@@ -235,7 +235,7 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
               onChange={(e) => setTargetCadence(Number(e.target.value))}
               className="w-full accent-teal-600 h-2 bg-slate-200 rounded-lg cursor-pointer"
             />
-            <div className="flex justify-between text-[10px] text-slate-400 mt-1">
+            <div className="flex justify-between text-[10px] text-slate-600 font-medium mt-1">
               <span>60 RPM (Fuerza)</span>
               <span>85-90 RPM (Óptima)</span>
               <span>110 RPM (Agilidad)</span>
