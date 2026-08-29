@@ -1,0 +1,34 @@
+[
+  {
+    "id": "gravel",
+    "name": "Gravel",
+    "subtitle": "Aventura, pistas de tierra y bikepacking sin límites",
+    "description": "Bicicletas diseñadas para rodar tanto por asfalto roto como pistas forestales y senderos, con gran paso de rueda (40-50mm+), geometría estable y puntos de anclaje para bolsas.",
+    "targetClearanceRange": "40mm - 55mm",
+    "idealFor": "Exploración mixta, pistas de tierra, eventos gravel y viajes de bikepacking."
+  },
+  {
+    "id": "road_endurance",
+    "name": "Carretera Gran Fondo (Endurance)",
+    "subtitle": "Máximo confort en largas distancias y carreteras secundarias",
+    "description": "Bicicletas de carretera con postura más erguida (Stack/Reach > 1.48), absorción de vibraciones y paso de rueda generoso (32-38mm) para pasar horas sobre el sillín sin fatiga.",
+    "targetClearanceRange": "32mm - 38mm",
+    "idealFor": "Marchas cicloturistas, rutas de más de 100km y asfalto rugoso."
+  },
+  {
+    "id": "road_race",
+    "name": "Carretera Competición & Aero",
+    "subtitle": "Pura velocidad, aerodinámica y rigidez para competición",
+    "description": "Bicicletas ligeras y reactivas con postura agresiva y aerodinámica (Stack/Reach < 1.45), integración total de cables y relaciones de transmisión orientadas a alta velocidad.",
+    "targetClearanceRange": "28mm - 32mm",
+    "idealFor": "Competición en ruta, critériums, triatlón y entrenamientos de alta intensidad."
+  },
+  {
+    "id": "all_road",
+    "name": "All-Road",
+    "subtitle": "El puente perfecto entre asfalto y pistas fáciles",
+    "description": "Bicicletas de carretera hiperversátiles con paso de rueda de hasta 38-40mm, capaces de rodar rápido en carretera y adentrarse en pistas compactas sin el peso de una gravel pura.",
+    "targetClearanceRange": "35mm - 40mm",
+    "idealFor": "Ciclistas 70% carretera y 30% pistas de grava compacta."
+  }
+]

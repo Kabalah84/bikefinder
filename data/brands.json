@@ -1,0 +1,58 @@
+[
+  {
+    "id": "canyon",
+    "name": "Canyon",
+    "country": "Alemania",
+    "officialWebsite": "https://www.canyon.com/es-es/",
+    "description": "Líder alemán de venta directa al consumidor con ingeniería de referencia en gravel (Grizl, Grail) y carretera (Endurace, Ultimate, Aeroad)."
+  },
+  {
+    "id": "orbea",
+    "name": "Orbea",
+    "country": "España",
+    "officialWebsite": "https://www.orbea.com/es-es/",
+    "description": "Histórico fabricante de Mallabia (País Vasco), referente mundial con sus modelos Terra en gravel y Orca / Orca Aero en carretera con personalización MyO."
+  },
+  {
+    "id": "trek",
+    "name": "Trek",
+    "country": "Estados Unidos",
+    "officialWebsite": "https://www.trekbikes.com/es/es_ES/",
+    "description": "Gigante norteamericano pionero en absorción IsoSpeed con la Checkpoint en gravel y las series Domane y Madone en carretera."
+  },
+  {
+    "id": "specialized",
+    "name": "Specialized",
+    "country": "Estados Unidos",
+    "officialWebsite": "https://www.specialized.com/es/es/",
+    "description": "Marca californiana de referencia con sistemas Future Shock en Diverge y Roubaix, y el icono de competición Tarmac SL8."
+  },
+  {
+    "id": "giant",
+    "name": "Giant",
+    "country": "Taiwán",
+    "officialWebsite": "https://www.giant-bicycles.com/es",
+    "description": "Mayor fabricante mundial de cuadros de carbono y aluminio, famoso por la gama Revolt en gravel y TCR / Defy en carretera."
+  },
+  {
+    "id": "scott",
+    "name": "Scott",
+    "country": "Suiza",
+    "officialWebsite": "https://www.scott-sports.com/es/es/",
+    "description": "Ingeniería suiza ligera de vanguardia con sus modelos Addict Gravel y Addict RC."
+  },
+  {
+    "id": "cannondale",
+    "name": "Cannondale",
+    "country": "Estados Unidos",
+    "officialWebsite": "https://www.cannondale.com/es-es",
+    "description": "Innovación audaz con suspensión trasera Kingpin en Topstone y ligereza extrema en SuperSix EVO y Synapse."
+  },
+  {
+    "id": "bmc",
+    "name": "BMC",
+    "country": "Suiza",
+    "officialWebsite": "https://bmc-switzerland.com/es",
+    "description": "Alta tecnología helvética de carbono con URS (Unrestricted) para gravel y Teammachine / Roadmachine en asfalto."
+  }
+]
