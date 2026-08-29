@@ -62,7 +62,7 @@ export function BikeCard({ bike }: BikeCardProps) {
       <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-100">
         <img
           src={bike.officialImageUrl}
-          alt={`${bike.brand} ${bike.model} (${bike.year})`}
+          alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year}) de ${formatDisciplineName(bike.discipline)}`}
           className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
           loading="lazy"
         />

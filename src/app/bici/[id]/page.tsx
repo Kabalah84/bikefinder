@@ -12,21 +12,20 @@ import {
 import { analyzeGearRatio } from "@/lib/utils/gear-calculator";
 import { analyzePosture } from "@/lib/utils/geometry-analysis";
 import { BikeCard } from "@/components/catalog/BikeCard";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { generateProductSchema, generateBreadcrumbsSchema } from "@/lib/seo/schema";
+import { constructMetadata } from "@/lib/seo/metadata";
 import {
   ExternalLink,
-  Scale,
   ShieldCheck,
   Zap,
   Cog,
-  CircleDot,
-  Weight,
-  Layers,
-  TrendingUp,
-  ArrowLeft,
-  Flame,
-  CheckCircle2,
-  Luggage,
   Sparkles,
+  TrendingUp,
+  Layers,
+  CheckCircle2,
+  Flame,
+  ArrowLeft,
 } from "lucide-react";
 
 interface BikePageProps {
@@ -45,23 +44,32 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: BikePageProps): Metadata {
   const bike = getBikeById(params.id);
   if (!bike) {
-    return {
-      title: "Bicicleta no encontrada · BikeFinder.es",
-    };
+    return constructMetadata({
+      title: "Bicicleta no encontrada",
+      description: "La ficha técnica solicitada no está disponible en el catálogo de BikeFinder.es.",
+      noIndex: true,
+    });
   }
 
+  const discipline = formatDisciplineName(bike.discipline);
   const title = `${bike.brand} ${bike.model} (${bike.year}) · Ficha Técnica y Precio Oficial`;
-  const description = `Especificaciones oficiales de la ${bike.brand} ${bike.model}: peso ${bike.weightKg ? `${bike.weightKg}kg` : "oficial"}, paso de rueda ${bike.maxTireClearanceMm}mm, grupo ${bike.groupset.name} y PVP oficial ${bike.currentPriceEur}€. Enlace directo al fabricante.`;
+  const description = `Especificaciones oficiales de la ${bike.brand} ${bike.model} de ${discipline}: peso ${bike.weightKg ? `${bike.weightKg} kg` : "oficial"}, paso de rueda ${bike.maxTireClearanceMm} mm, grupo ${bike.groupset.name} (${bike.groupset.isElectronic ? "electrónico" : "mecánico"}) y PVP oficial ${bike.currentPriceEur} €. Enlace directo al fabricante.`;
 
-  return {
-    title: `${title} | BikeFinder.es`,
+  return constructMetadata({
+    title,
     description,
-    openGraph: {
-      title,
-      description,
-      images: [bike.officialImageUrl],
-    },
-  };
+    canonicalPath: `/bici/${bike.id}`,
+    ogImage: bike.officialImageUrl,
+    ogType: "article",
+    keywords: [
+      `${bike.brand.toLowerCase()} ${bike.model.toLowerCase()}`,
+      `${bike.brand.toLowerCase()} ${bike.year}`,
+      `peso ${bike.brand.toLowerCase()} ${bike.model.toLowerCase()}`,
+      `paso de rueda ${bike.model.toLowerCase()}`,
+      `${bike.groupset.name.toLowerCase()}`,
+      `bicicleta ${discipline.toLowerCase()}`,
+    ],
+  });
 }
 
 export default function BikeDetailPage({ params }: BikePageProps) {
@@ -84,37 +92,21 @@ export default function BikeDetailPage({ params }: BikePageProps) {
     .filter((b) => b.id !== bike.id)
     .slice(0, 3);
 
-  // JSON-LD Structured Data para SEO en Google
-  const jsonLd = {
-    "@context": "https://schema.org/",
-    "@type": "Product",
-    name: `${bike.brand} ${bike.model} (${bike.year})`,
-    image: bike.officialImageUrl,
-    description: bike.description || `Bicicleta ${bike.brand} ${bike.model} de ${formatDisciplineName(bike.discipline)}.`,
-    brand: {
-      "@type": "Brand",
-      name: bike.brand,
-    },
-    offers: {
-      "@type": "Offer",
-      url: bike.officialUrl,
-      priceCurrency: "EUR",
-      price: bike.currentPriceEur,
-      availability: "https://schema.org/InStock",
-      itemCondition: "https://schema.org/NewCondition",
-    },
-  };
+  // JSON-LD Structured Data
+  const productSchema = generateProductSchema(bike);
+  const breadcrumbsSchema = generateBreadcrumbsSchema([
+    { name: "Inicio", url: "/" },
+    { name: formatDisciplineName(bike.discipline), url: `/?discipline=${bike.discipline}` },
+    { name: `${bike.brand} ${bike.model}`, url: `/bici/${bike.id}` },
+  ]);
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-6 space-y-10">
+    <article className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-6 space-y-10">
       {/* Schema JSON-LD */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={[productSchema, breadcrumbsSchema]} />
 
       {/* Breadcrumb & Navigation */}
-      <div className="flex items-center gap-2 text-xs font-semibold text-slate-500">
+      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-500">
         <Link href="/" className="hover:text-teal-600 flex items-center gap-1">
           <ArrowLeft className="w-3.5 h-3.5" /> Catálogo
         </Link>
@@ -123,17 +115,19 @@ export default function BikeDetailPage({ params }: BikePageProps) {
           {formatDisciplineName(bike.discipline)}
         </Link>
         <span>/</span>
-        <span className="text-slate-900 font-bold">{bike.brand} {bike.model}</span>
-      </div>
+        <span className="text-slate-900 font-bold" aria-current="page">
+          {bike.brand} {bike.model}
+        </span>
+      </nav>
 
       {/* Hero Product Overview */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <section aria-label="Resumen del producto" className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         {/* Left: Image Showcase */}
         <div className="lg:col-span-7 space-y-4">
           <div className="relative aspect-[16/10] w-full overflow-hidden rounded-3xl bg-slate-100 border border-slate-200 shadow-md">
             <img
               src={bike.officialImageUrl}
-              alt={`${bike.brand} ${bike.model}`}
+              alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year}) de ${formatDisciplineName(bike.discipline)} - Vista oficial`}
               className="h-full w-full object-cover"
             />
             {bike.discountPercentage && bike.discountPercentage > 0 && (
@@ -250,10 +244,10 @@ export default function BikeDetailPage({ params }: BikePageProps) {
           {/* Highlights */}
           {bike.highlights && bike.highlights.length > 0 && (
             <div className="p-5 rounded-2xl bg-white border border-slate-200 space-y-2.5">
-              <h3 className="text-xs font-bold uppercase tracking-wider text-slate-900 flex items-center gap-1.5">
+              <h2 className="text-xs font-bold uppercase tracking-wider text-slate-900 flex items-center gap-1.5">
                 <Sparkles className="w-4 h-4 text-teal-600" />
                 Puntos Fuertes Destacados
-              </h3>
+              </h2>
               <ul className="space-y-2 text-xs sm:text-sm text-slate-700">
                 {bike.highlights.map((h, i) => (
                   <li key={i} className="flex items-start gap-2">
@@ -265,17 +259,17 @@ export default function BikeDetailPage({ params }: BikePageProps) {
             </div>
           )}
         </div>
-      </div>
+      </section>
 
       {/* Technical Deep Dive: Gear Ratios & Geometry */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <section aria-label="Análisis técnico y geometría" className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Gear Calculator & Ratio Analysis */}
         <div className="rounded-3xl bg-white p-6 border border-slate-200 shadow-xs space-y-5">
           <div className="flex items-center justify-between pb-3 border-b border-slate-100">
-            <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
+            <h2 className="text-base font-bold text-slate-900 flex items-center gap-2">
               <TrendingUp className="w-5 h-5 text-teal-600" />
               Análisis de Desarrollos y Ratios
-            </h3>
+            </h2>
             <span className="text-xs font-bold bg-slate-100 text-slate-700 px-2.5 py-0.5 rounded-lg">
               {gearRatio.chainringType}
             </span>
@@ -328,10 +322,10 @@ export default function BikeDetailPage({ params }: BikePageProps) {
         {/* Geometry & Posture Analyzer */}
         <div className="rounded-3xl bg-white p-6 border border-slate-200 shadow-xs space-y-5">
           <div className="flex items-center justify-between pb-3 border-b border-slate-100">
-            <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
+            <h2 className="text-base font-bold text-slate-900 flex items-center gap-2">
               <Layers className="w-5 h-5 text-teal-600" />
               Geometría y Postura (Talla M)
-            </h3>
+            </h2>
             <span
               className={`text-xs font-bold px-2.5 py-0.5 rounded-lg border ${posture.badgeColor}`}
             >
@@ -374,13 +368,13 @@ export default function BikeDetailPage({ params }: BikePageProps) {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Full Specs Table */}
-      <div className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
-        <h3 className="text-lg font-bold text-slate-900 pb-3 border-b border-slate-100">
+      <section aria-label="Ficha técnica detallada" className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+        <h2 className="text-lg font-bold text-slate-900 pb-3 border-b border-slate-100">
           Ficha Técnica Detallada
-        </h3>
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 text-xs sm:text-sm">
           <div className="flex justify-between py-2 border-b border-slate-100">
@@ -450,21 +444,21 @@ export default function BikeDetailPage({ params }: BikePageProps) {
             <span className="font-bold text-slate-900">{formatCurrencyEur(bike.currentPriceEur)}</span>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Related Bikes in Same Category */}
       {relatedBikes.length > 0 && (
-        <div className="space-y-4 pt-6">
-          <h3 className="text-xl font-extrabold text-slate-900">
+        <section aria-label="Modelos alternativos" className="space-y-4 pt-6">
+          <h2 className="text-xl font-extrabold text-slate-900">
             Modelos Alternativos en {formatDisciplineName(bike.discipline)}
-          </h3>
+          </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {relatedBikes.map((relBike) => (
               <BikeCard key={relBike.id} bike={relBike} />
             ))}
           </div>
-        </div>
+        </section>
       )}
-    </div>
+    </article>
   );
 }

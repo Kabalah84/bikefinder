@@ -4,6 +4,9 @@ import { ComparisonProvider } from "@/lib/context/ComparisonContext";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ComparisonDrawer } from "@/components/comparator/ComparisonDrawer";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { generateOrganizationSchema, generateWebSiteSchema } from "@/lib/seo/schema";
+import { SITE_CONFIG } from "@/lib/seo/metadata";
 
 export const viewport: Viewport = {
   themeColor: "#0d9488",
@@ -13,31 +16,16 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bikefinder.es"),
-  title: "BikeFinder.es · Buscador y Comparador de Bicicletas de Gravel y Carretera",
-  description:
-    "Compara especificaciones oficiales reales: pesos en báscula, paso de rueda (tire clearance), grupos electrónicos Di2/AXS, ratios de desarrollo y tablas de geometría de Canyon, Orbea, Trek, Specialized, Giant, Scott, Cannondale y BMC.",
-  keywords: [
-    "bicicletas gravel",
-    "bicicletas carretera",
-    "comparador bicicletas",
-    "paso de rueda",
-    "tire clearance",
-    "shimano grx 12v",
-    "sram axs gravel",
-    "canyon grizl",
-    "orbea terra",
-    "trek checkpoint",
-    "specialized diverge",
-    "giant revolt",
-    "scott addict gravel",
-    "cannondale topstone",
-    "bmc urs",
-    "geometría stack reach",
-  ],
-  authors: [{ name: "BikeFinder.es", url: "https://bikefinder.es" }],
-  creator: "BikeFinder.es",
-  publisher: "BikeFinder.es",
+  metadataBase: new URL(SITE_CONFIG.baseUrl),
+  title: {
+    default: SITE_CONFIG.defaultTitle,
+    template: SITE_CONFIG.titleTemplate,
+  },
+  description: SITE_CONFIG.defaultDescription,
+  keywords: SITE_CONFIG.keywords,
+  authors: [{ name: SITE_CONFIG.name, url: SITE_CONFIG.baseUrl }],
+  creator: SITE_CONFIG.name,
+  publisher: SITE_CONFIG.name,
   robots: {
     index: true,
     follow: true,
@@ -50,23 +38,32 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "BikeFinder.es · Comparador Técnico de Bicicletas",
-    description:
-      "Encuentra y compara técnicamente bicicletas de Gravel y Carretera con datos oficiales de fabricantes.",
-    url: "https://bikefinder.es",
-    siteName: "BikeFinder.es",
-    locale: "es_ES",
+    title: SITE_CONFIG.defaultTitle,
+    description: SITE_CONFIG.defaultDescription,
+    url: SITE_CONFIG.baseUrl,
+    siteName: SITE_CONFIG.name,
+    locale: SITE_CONFIG.locale,
     type: "website",
+    images: [
+      {
+        url: SITE_CONFIG.defaultOgImage,
+        width: 1200,
+        height: 630,
+        alt: `${SITE_CONFIG.name} · Comparador Técnico Oficial de Ciclismo`,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "BikeFinder.es · Comparador de Bicicletas",
-    description:
-      "Buscador y comparador técnico oficial de bicicletas de Gravel y Carretera sin intermediarios de Amazon.",
+    title: SITE_CONFIG.defaultTitle,
+    description: SITE_CONFIG.defaultDescription,
+    images: [SITE_CONFIG.defaultOgImage],
+    creator: SITE_CONFIG.twitterHandle,
   },
   alternates: {
-    canonical: "https://bikefinder.es",
+    canonical: SITE_CONFIG.baseUrl,
   },
+  category: "Sports",
 };
 
 export default function RootLayout({
@@ -74,8 +71,14 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const organizationSchema = generateOrganizationSchema();
+  const webSiteSchema = generateWebSiteSchema();
+
   return (
     <html lang="es" className="scroll-smooth">
+      <head>
+        <JsonLd data={[organizationSchema, webSiteSchema]} />
+      </head>
       <body className="flex flex-col min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-teal-500 selection:text-white">
         <ComparisonProvider>
           <Navbar />

@@ -1,13 +1,16 @@
 import { MetadataRoute } from "next";
-import { getAllBikes } from "@/lib/data/bikes";
+import { getAllBikes, getAllCategories } from "@/lib/data/bikes";
+import { POPULAR_DUELS } from "@/lib/data/duels";
+import { SITE_CONFIG } from "@/lib/seo/metadata";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://bikefinder.es";
+  const baseUrl = SITE_CONFIG.baseUrl;
   const now = new Date();
 
   const bikes = getAllBikes();
+  const categories = getAllCategories();
 
-  // Páginas principales
+  // Páginas estáticas principales
   const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
@@ -31,9 +34,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/comparador`,
       lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.8,
+      priority: 0.9,
     },
   ];
+
+  // Páginas de categorías principales
+  const categoryRoutes: MetadataRoute.Sitemap = categories.map((cat) => ({
+    url: `${baseUrl}/?discipline=${cat.id}`,
+    lastModified: now,
+    changeFrequency: "daily",
+    priority: 0.85,
+  }));
 
   // Fichas de producto individuales (/bici/[id])
   const bikeRoutes: MetadataRoute.Sitemap = bikes.map((bike) => ({
@@ -44,26 +55,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // Duelos comparativos populares (/comparativa/[slug])
-  const popularDuelSlugs = [
-    "giant-revolt-vs-canyon-grizl",
-    "cannondale-topstone-vs-specialized-diverge",
-    "giant-defy-vs-trek-domane",
-    "cannondale-supersix-vs-specialized-tarmac",
-    "bmc-teammachine-vs-giant-tcr",
-    "canyon-grizl-vs-orbea-terra",
-    "canyon-grizl-vs-trek-checkpoint",
-    "canyon-endurace-vs-trek-domane",
-    "trek-domane-vs-specialized-roubaix",
-    "canyon-ultimate-vs-specialized-tarmac",
-    "orbea-orca-vs-specialized-tarmac",
-  ];
-
-  const duelRoutes: MetadataRoute.Sitemap = popularDuelSlugs.map((slug) => ({
-    url: `${baseUrl}/comparativa/${slug}`,
+  const duelRoutes: MetadataRoute.Sitemap = POPULAR_DUELS.map((duel) => ({
+    url: `${baseUrl}/comparativa/${duel.slug}`,
     lastModified: now,
     changeFrequency: "weekly",
-    priority: 0.7,
+    priority: 0.75,
   }));
 
-  return [...staticRoutes, ...bikeRoutes, ...duelRoutes];
+  return [...staticRoutes, ...categoryRoutes, ...bikeRoutes, ...duelRoutes];
 }

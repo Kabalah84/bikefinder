@@ -157,7 +157,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
                   <div className="aspect-[16/10] w-full overflow-hidden rounded-xl bg-slate-100 mb-3 shadow-2xs">
                     <img
                       src={bike.officialImageUrl}
-                      alt={bike.model}
+                      alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year})`}
                       className="h-full w-full object-cover"
                     />
                   </div>

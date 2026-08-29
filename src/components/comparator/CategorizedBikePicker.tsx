@@ -153,7 +153,7 @@ export function CategorizedBikePicker({
                 <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-slate-100 mb-2">
                   <img
                     src={bike.officialImageUrl}
-                    alt={bike.model}
+                    alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year})`}
                     className="h-full w-full object-cover group-hover:scale-103 transition-transform"
                     loading="lazy"
                   />

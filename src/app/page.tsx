@@ -1,6 +1,10 @@
+import { Metadata } from "next";
 import { getAllBikes, getAllBrands, getAllCategories } from "@/lib/data/bikes";
 import { CatalogView } from "@/components/catalog/CatalogView";
 import { Discipline } from "@/lib/schema/bike";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { generateBreadcrumbsSchema } from "@/lib/seo/schema";
+import { constructMetadata, SITE_CONFIG } from "@/lib/seo/metadata";
 import {
   Compass,
   Zap,
@@ -8,7 +12,6 @@ import {
   ShieldCheck,
   Scale,
   Sparkles,
-  Layers,
   CircleDot,
 } from "lucide-react";
 import Link from "next/link";
@@ -19,15 +22,66 @@ interface PageProps {
   };
 }
 
+export function generateMetadata({ searchParams }: PageProps): Metadata {
+  const discipline = searchParams.discipline as Discipline | undefined;
+  const categories = getAllCategories();
+  const currentCategory = categories.find((c) => c.id === discipline);
+
+  if (currentCategory) {
+    return constructMetadata({
+      title: `Bicicletas de ${currentCategory.name} · Catálogo y Comparador Oficial`,
+      description: `Compara bicicletas de ${currentCategory.name} (${currentCategory.targetClearanceRange}). Pesos reales, paso de rueda máximo, desarrollos y PVP oficial de primeras marcas.`,
+      canonicalPath: `/?discipline=${discipline}`,
+      keywords: [
+        `${currentCategory.name.toLowerCase()}`,
+        `bicicletas ${currentCategory.name.toLowerCase()}`,
+        "comparador bicicletas",
+        "paso de rueda",
+        "tire clearance",
+      ],
+    });
+  }
+
+  return constructMetadata({
+    title: "Buscador y Comparador de Bicicletas de Gravel y Carretera",
+    description:
+      "Compara especificaciones oficiales reales: pesos en báscula, paso de rueda (tire clearance), grupos Di2/AXS, ratios de desarrollo y tablas de geometría sin intermediarios.",
+    canonicalPath: "/",
+  });
+}
+
 export default function HomePage({ searchParams }: PageProps) {
   const bikes = getAllBikes();
   const brands = getAllBrands().map((b) => b.name);
   const categories = getAllCategories();
 
   const selectedDiscipline = searchParams.discipline as Discipline | undefined;
+  const activeCategory = categories.find((c) => c.id === selectedDiscipline);
+
+  const breadcrumbsSchema = generateBreadcrumbsSchema([
+    { name: "Inicio", url: "/" },
+    ...(activeCategory
+      ? [{ name: activeCategory.name, url: `/?discipline=${activeCategory.id}` }]
+      : []),
+  ]);
+
+  // ItemList Schema para el catálogo destacado
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: bikes.slice(0, 10).map((bike, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: `${bike.brand} ${bike.model} (${bike.year})`,
+      url: `${SITE_CONFIG.baseUrl}/bici/${bike.id}`,
+    })),
+  };
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-6 sm:pt-10 space-y-8">
+      {/* JSON-LD Structured Data */}
+      <JsonLd data={[breadcrumbsSchema, itemListSchema]} />
+
       {/* Hero Section */}
       <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-950 via-slate-900 to-teal-950 px-6 py-10 sm:px-12 sm:py-14 text-white shadow-xl">
         <div className="relative z-10 max-w-3xl space-y-4">
@@ -70,7 +124,7 @@ export default function HomePage({ searchParams }: PageProps) {
       </section>
 
       {/* Category Pills Selector */}
-      <section className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+      <section aria-label="Categorías de bicicletas" className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
         {categories.map((cat) => {
           const isActive = selectedDiscipline === cat.id;
           return (
@@ -101,7 +155,7 @@ export default function HomePage({ searchParams }: PageProps) {
                   <Sparkles className="w-4 h-4 text-emerald-400" />
                 )}
               </div>
-              <h3 className="font-bold text-sm sm:text-base leading-snug">{cat.name}</h3>
+              <h2 className="font-bold text-sm sm:text-base leading-snug">{cat.name}</h2>
               <p
                 className={`text-xs mt-1 line-clamp-1 ${
                   isActive ? "text-slate-300" : "text-slate-500"
@@ -114,15 +168,14 @@ export default function HomePage({ searchParams }: PageProps) {
         })}
       </section>
 
-
       {/* Main Catalog with Live Filters and Grid */}
-      <section>
+      <section aria-label="Listado de bicicletas">
         <div className="flex items-baseline justify-between mb-4">
           <div>
             <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
               {selectedDiscipline
                 ? `Catálogo: ${categories.find((c) => c.id === selectedDiscipline)?.name}`
-                : "Catálogo de Bicicletas"}
+                : "Catálogo Completo de Bicicletas"}
             </h2>
             <p className="text-xs sm:text-sm text-slate-500">
               Filtra por paso de rueda, transmisión electrónica Di2/AXS, peso y presupuesto.

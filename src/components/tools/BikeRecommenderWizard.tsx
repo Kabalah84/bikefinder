@@ -447,7 +447,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                     <div className="aspect-[16/10] w-full overflow-hidden rounded-2xl bg-slate-100 mb-4">
                       <img
                         src={bike.officialImageUrl}
-                        alt={bike.model}
+                        alt={`Bicicleta recomendada ${bike.brand} ${bike.model} (${bike.year})`}
                         className="h-full w-full object-cover"
                       />
                     </div>

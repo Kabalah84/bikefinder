@@ -2,118 +2,18 @@ import React from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Metadata } from "next";
-import { getBikeById, getAllBikes } from "@/lib/data/bikes";
+import { getBikeById } from "@/lib/data/bikes";
+import { POPULAR_DUELS, getDuelBySlug } from "@/lib/data/duels";
 import { ComparisonTable } from "@/components/comparator/ComparisonTable";
-import { formatCurrencyEur, formatDisciplineName } from "@/lib/utils/formatters";
+import { formatCurrencyEur } from "@/lib/utils/formatters";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { generateArticleComparisonSchema, generateBreadcrumbsSchema } from "@/lib/seo/schema";
+import { constructMetadata } from "@/lib/seo/metadata";
 import {
   Scale,
   ArrowLeft,
-  Trophy,
-  ShieldCheck,
-  CheckCircle2,
-  ExternalLink,
   Sparkles,
-  Zap,
 } from "lucide-react";
-
-interface DuelConfig {
-  slug: string;
-  bikeIdA: string;
-  bikeIdB: string;
-  title: string;
-  summary: string;
-}
-
-const POPULAR_DUELS: DuelConfig[] = [
-  {
-    slug: "canyon-grizl-vs-orbea-terra",
-    bikeIdA: "canyon-grizl-cf-sl-7-2025",
-    bikeIdB: "orbea-terra-m20team-2025",
-    title: "Canyon Grizl CF SL 7 vs Orbea Terra M20TEAM: Duelo Gravel de Referencia",
-    summary:
-      "Dos de las bicicletas de gravel más vendidas del mercado frente a frente. La Canyon Grizl destaca por su paso de rueda de hasta 50 mm y precio directo ajustado, mientras que la Orbea Terra ofrece almacenamiento LOCKR interno en cuadro y ligereza.",
-  },
-  {
-    slug: "canyon-grizl-vs-trek-checkpoint",
-    bikeIdA: "canyon-grizl-cf-sl-7-2025",
-    bikeIdB: "trek-checkpoint-sl-6-axs-gen-3-2025",
-    title: "Canyon Grizl vs Trek Checkpoint SL 6: Mecánica vs Electrónica e IsoSpeed",
-    summary:
-      "Comparativa técnica entre la aventurera Canyon Grizl y la Trek Checkpoint de 3ª generación con tecnología de absorción IsoSpeed y cambio electrónico inalámbrico SRAM AXS.",
-  },
-  {
-    slug: "canyon-endurace-vs-trek-domane",
-    bikeIdA: "canyon-endurace-cf-7-2025",
-    bikeIdB: "trek-domane-sl-6-gen-4-2025",
-    title: "Canyon Endurace CF 7 vs Trek Domane SL 6: La Batalla del Gran Fondo",
-    summary:
-      "Las dos reinas de la comodidad en carretera. Analizamos su geometría Stack/Reach para evitar dolor de espalda, paso de rueda para neumáticos de 35-38mm y peso en báscula.",
-  },
-  {
-    slug: "trek-domane-vs-specialized-roubaix",
-    bikeIdA: "trek-domane-sl-6-gen-4-2025",
-    bikeIdB: "specialized-roubaix-sl8-expert-2025",
-    title: "Trek Domane SL 6 vs Specialized Roubaix SL8: IsoSpeed vs Future Shock 3.2",
-    summary:
-      "El gran enfrentamiento de la micro-suspensión en carretera. IsoSpeed trasero en la Domane frente al cartucho hidráulico delantero Future Shock 3.2 y paso de rueda de 40mm en la Roubaix.",
-  },
-  {
-    slug: "canyon-ultimate-vs-specialized-tarmac",
-    bikeIdA: "canyon-ultimate-cf-sl-8-aero-2025",
-    bikeIdB: "specialized-tarmac-sl8-pro-2025",
-    title: "Canyon Ultimate CF SL Aero vs Specialized Tarmac SL8: Duelo WorldTour",
-    summary:
-      "Pura escalada y aerodinámica al más alto nivel. Peso pluma de 7.36 kg frente a 7.16 kg con transmisiones electrónicas Shimano Ultegra Di2 y cockpits 100% integrados.",
-  },
-  {
-    slug: "orbea-orca-vs-specialized-tarmac",
-    bikeIdA: "orbea-orca-m30iltd-2025",
-    bikeIdB: "specialized-tarmac-sl8-pro-2025",
-    title: "Orbea Orca OMX vs Specialized Tarmac SL8: Escaladoras Puras",
-    summary:
-      "Confrontamos el cuadro de carbono OMX de 750g de Orbea personalizable con MyO frente al cono frontal Speed Sniffer de la campeona del mundo Tarmac SL8.",
-  },
-  {
-    slug: "giant-revolt-vs-canyon-grizl",
-    bikeIdA: "giant-revolt-advanced-pro-1-2025",
-    bikeIdB: "canyon-grizl-cf-sl-7-2025",
-    title: "Giant Revolt Advanced Pro vs Canyon Grizl CF SL: Duelo de Paso de Rueda",
-    summary:
-      "Giant Revolt con puntera Flip Chip (53 mm) y tija D-Fuse frente a la todoterreno Canyon Grizl (50 mm). Ambas con cuadros de carbono y gran capacidad de aventura.",
-  },
-  {
-    slug: "cannondale-topstone-vs-specialized-diverge",
-    bikeIdA: "cannondale-topstone-carbon-2-l-2025",
-    bikeIdB: "specialized-diverge-str-expert-2025",
-    title: "Cannondale Topstone vs Specialized Diverge STR: Suspensión Kingpin vs Future Shock",
-    summary:
-      "La batalla de la suspensión en gravel. El pivote Kingpin sin amortiguador de Cannondale frente a la doble suspensión activa delantera y trasera Future Shock de Specialized.",
-  },
-  {
-    slug: "giant-defy-vs-trek-domane",
-    bikeIdA: "giant-defy-advanced-sl-1-2025",
-    bikeIdB: "trek-domane-sl-6-gen-4-2025",
-    title: "Giant Defy Advanced SL vs Trek Domane SL 6: Ligereza vs IsoSpeed",
-    summary:
-      "Confrontamos los 7.30 kg de peso pluma de la Giant Defy frente a la tecnología de absorción IsoSpeed y almacenamiento interno en cuadro de la Trek Domane.",
-  },
-  {
-    slug: "cannondale-supersix-vs-specialized-tarmac",
-    bikeIdA: "cannondale-supersix-evo-hi-mod-2-2025",
-    bikeIdB: "specialized-tarmac-sl8-pro-2025",
-    title: "Cannondale SuperSix EVO vs Specialized Tarmac SL8: Clásicas del WorldTour",
-    summary:
-      "Dos de las bicicletas más laureadas del pelotón profesional. Tubo de dirección Delta Steerer de Cannondale frente a aerodinámica Speed Sniffer de la Tarmac SL8.",
-  },
-  {
-    slug: "bmc-teammachine-vs-giant-tcr",
-    bikeIdA: "bmc-teammachine-slr01-one-2025",
-    bikeIdB: "giant-tcr-advanced-sl-0-2025",
-    title: "BMC Teammachine SLR01 vs Giant TCR Advanced SL: Supercomputación vs 6.6 kg",
-    summary:
-      "Ingeniería suiza ACE+ y portabidones integrados frente al peso récord de 6.60 kg con tija integrada de la 10ª generación de la Giant TCR.",
-  },
-];
 
 export function generateStaticParams() {
   return POPULAR_DUELS.map((d) => ({
@@ -122,25 +22,38 @@ export function generateStaticParams() {
 }
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
-  const duel = POPULAR_DUELS.find((d) => d.slug === params.slug);
+  const duel = getDuelBySlug(params.slug);
   if (!duel) {
-    return {
-      title: "Comparativa de Bicicletas | BikeFinder.es",
-    };
+    return constructMetadata({
+      title: "Comparativa de Bicicletas no encontrada",
+      description: "La comparativa solicitada no existe o ha sido trasladada.",
+      noIndex: true,
+    });
   }
 
-  return {
-    title: `${duel.title} | BikeFinder.es`,
+  const bikeA = getBikeById(duel.bikeIdA);
+  const bikeB = getBikeById(duel.bikeIdB);
+  const image = bikeA?.officialImageUrl || bikeB?.officialImageUrl;
+
+  return constructMetadata({
+    title: duel.title,
     description: duel.summary,
-    openGraph: {
-      title: duel.title,
-      description: duel.summary,
-    },
-  };
+    canonicalPath: `/comparativa/${duel.slug}`,
+    ogImage: image,
+    ogType: "article",
+    keywords: [
+      "comparativa bicicletas",
+      "duelo ciclista",
+      `${bikeA?.brand.toLowerCase()} vs ${bikeB?.brand.toLowerCase()}`,
+      `${bikeA?.model.toLowerCase()}`,
+      `${bikeB?.model.toLowerCase()}`,
+      "confrontación técnica bicicletas",
+    ],
+  });
 }
 
 export default function DueloPage({ params }: { params: { slug: string } }) {
-  const duel = POPULAR_DUELS.find((d) => d.slug === params.slug);
+  const duel = getDuelBySlug(params.slug);
 
   if (!duel) {
     notFound();
@@ -169,23 +82,43 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
       ? bikeB
       : null;
 
+  // JSON-LD Structured Data
+  const articleSchema = generateArticleComparisonSchema({
+    title: duel.title,
+    summary: duel.summary,
+    slug: duel.slug,
+    bikeA,
+    bikeB,
+  });
+
+  const breadcrumbsSchema = generateBreadcrumbsSchema([
+    { name: "Inicio", url: "/" },
+    { name: "Comparador", url: "/comparador" },
+    { name: `${bikeA.brand} vs ${bikeB.brand}`, url: `/comparativa/${duel.slug}` },
+  ]);
+
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 space-y-8">
+    <article className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8 space-y-8">
+      {/* Schema JSON-LD */}
+      <JsonLd data={[articleSchema, breadcrumbsSchema]} />
+
       {/* Breadcrumbs */}
-      <div className="flex items-center gap-2 text-xs font-semibold text-slate-500">
+      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-500">
         <Link href="/" className="hover:text-teal-600 flex items-center gap-1">
           <ArrowLeft className="w-3.5 h-3.5" /> Catálogo
         </Link>
         <span>/</span>
         <Link href="/comparador" className="hover:text-teal-600">
-          Comparativas
+          Comparador
         </Link>
         <span>/</span>
-        <span className="text-slate-900 font-bold">{bikeA.brand} vs {bikeB.brand}</span>
-      </div>
+        <span className="text-slate-900 font-bold" aria-current="page">
+          {bikeA.brand} vs {bikeB.brand}
+        </span>
+      </nav>
 
       {/* Header */}
-      <div className="space-y-3">
+      <header className="space-y-3">
         <div className="inline-flex items-center gap-1.5 rounded-full bg-teal-50 px-3 py-1 text-xs font-bold text-teal-800 border border-teal-200">
           <Scale className="w-3.5 h-3.5 text-teal-600" />
           <span>Duelo Técnico 1v1</span>
@@ -196,13 +129,13 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
         <p className="text-xs sm:text-sm text-slate-600 max-w-3xl leading-relaxed">
           {duel.summary}
         </p>
-      </div>
+      </header>
 
       {/* Tarjeta de Veredicto Rápido */}
-      <div className="rounded-3xl bg-gradient-to-br from-slate-900 via-slate-800 to-teal-950 p-6 sm:p-8 text-white shadow-xl space-y-4">
+      <section aria-label="Veredicto técnico" className="rounded-3xl bg-gradient-to-br from-slate-900 via-slate-800 to-teal-950 p-6 sm:p-8 text-white shadow-xl space-y-4">
         <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-teal-400">
           <Sparkles className="w-4 h-4" />
-          <span>Veredicto Técnico BikeFinder</span>
+          <h2 className="text-xs font-bold uppercase tracking-wider text-teal-400">Veredicto Técnico BikeFinder</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
@@ -251,14 +184,16 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
             </div>
           )}
         </div>
-      </div>
+      </section>
 
       {/* Tabla Comparativa 1v1 */}
-      <ComparisonTable bikes={[bikeA, bikeB]} />
+      <section aria-label="Tabla comparativa de especificaciones">
+        <ComparisonTable bikes={[bikeA, bikeB]} />
+      </section>
 
       {/* Otros Duelos Populares */}
-      <div className="pt-8 border-t border-slate-200 space-y-4">
-        <h3 className="text-lg font-bold text-slate-900">Otras comparativas populares:</h3>
+      <section aria-label="Otras comparativas recomendadas" className="pt-8 border-t border-slate-200 space-y-4">
+        <h2 className="text-lg font-bold text-slate-900">Otras comparativas populares:</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
           {POPULAR_DUELS.filter((d) => d.slug !== duel.slug).map((d) => (
             <Link
@@ -271,7 +206,7 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
             </Link>
           ))}
         </div>
-      </div>
-    </div>
+      </section>
+    </article>
   );
 }
