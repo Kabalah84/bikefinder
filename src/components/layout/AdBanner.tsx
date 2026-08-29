@@ -1,5 +1,6 @@
 import React from "react";
 import { Sparkles, ExternalLink } from "lucide-react";
+import { sanitizeExternalUrl } from "@/lib/utils/security";
 
 interface AdBannerProps {
   slotType?: "leaderboard" | "in_feed" | "sidebar";
@@ -37,7 +38,7 @@ export function AdBanner({
           </div>
           {ctaUrl && (
             <a
-              href={ctaUrl}
+              href={sanitizeExternalUrl(ctaUrl)}
               target="_blank"
               rel="noopener noreferrer"
               className="shrink-0 inline-flex items-center gap-2 rounded-xl bg-teal-500 px-4 py-2 text-xs sm:text-sm font-bold text-slate-950 hover:bg-teal-400 transition-colors shadow-lg shadow-teal-500/20"
@@ -70,7 +71,7 @@ export function AdBanner({
 
       <div className="pt-3 mt-2 border-t border-teal-100">
         <a
-          href={ctaUrl || "https://www.canyon.com/es-es/"}
+          href={sanitizeExternalUrl(ctaUrl || "https://www.canyon.com/es-es/")}
           target="_blank"
           rel="noopener noreferrer"
           className="w-full inline-flex items-center justify-center gap-1.5 rounded-xl bg-slate-900 py-2.5 px-3 text-xs font-semibold text-white hover:bg-teal-700 transition-colors shadow-sm"

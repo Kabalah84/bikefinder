@@ -1,7 +1,8 @@
 "use client";
 
 import React, { createContext, useContext, useState, useEffect } from "react";
-import { BikeProduct } from "@/lib/schema/bike";
+import { BikeProduct, BikeProductSchema } from "@/lib/schema/bike";
+import { z } from "zod";
 
 interface ComparisonContextType {
   selectedBikes: BikeProduct[];
@@ -14,27 +15,39 @@ interface ComparisonContextType {
 }
 
 const ComparisonContext = createContext<ComparisonContextType | undefined>(undefined);
+const MAX_COMPARISON_ITEMS = 4;
+const STORAGE_KEY = "bikefinder_comparison";
+
+// Esquema de validación para almacenamiento local
+const SavedComparisonSchema = z.array(BikeProductSchema).max(MAX_COMPARISON_ITEMS);
 
 export function ComparisonProvider({ children }: { children: React.ReactNode }) {
   const [selectedBikes, setSelectedBikes] = useState<BikeProduct[]>([]);
-  const maxBikes = 4;
+  const maxBikes = MAX_COMPARISON_ITEMS;
 
-  // Cargar de localStorage en cliente
+  // Cargar de localStorage en cliente de forma defensiva
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("bikefinder_comparison");
+      const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
-        setSelectedBikes(JSON.parse(saved));
+        const rawJson = JSON.parse(saved);
+        const parsed = SavedComparisonSchema.safeParse(rawJson);
+        if (parsed.success) {
+          setSelectedBikes(parsed.data);
+        } else {
+          console.warn("Estado no válido detectado en localStorage. Reiniciando comparador.");
+          localStorage.removeItem(STORAGE_KEY);
+        }
       }
-    } catch (e) {
-      console.warn("No se pudo leer localStorage:", e);
+    } catch {
+      localStorage.removeItem(STORAGE_KEY);
     }
   }, []);
 
   // Guardar en localStorage
   useEffect(() => {
     try {
-      localStorage.setItem("bikefinder_comparison", JSON.stringify(selectedBikes));
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(selectedBikes));
     } catch (e) {
       console.warn("No se pudo escribir en localStorage:", e);
     }

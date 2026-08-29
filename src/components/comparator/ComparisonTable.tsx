@@ -9,6 +9,7 @@ import {
   formatMaterialName,
   formatWeight,
 } from "@/lib/utils/formatters";
+import { sanitizeExternalUrl } from "@/lib/utils/security";
 import { analyzeGearRatio } from "@/lib/utils/gear-calculator";
 import { analyzePosture } from "@/lib/utils/geometry-analysis";
 import {
@@ -186,7 +187,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
 
                   {/* CTA Oficial */}
                   <a
-                    href={bike.officialUrl}
+                    href={sanitizeExternalUrl(bike.officialUrl)}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full inline-flex items-center justify-center gap-1.5 rounded-xl bg-slate-900 py-2 px-3 text-xs font-bold text-white hover:bg-teal-700 transition-colors shadow-xs"

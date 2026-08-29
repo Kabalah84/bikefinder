@@ -2,10 +2,26 @@
 import fs from "fs";
 import path from "path";
 import { BikeProduct, BikeProductSchema, Discipline } from "../src/lib/schema/bike";
+import { isSafeExternalUrl } from "../src/lib/utils/security";
 
 // Directorios de datos
 const GRAVEL_FILE = path.join(process.cwd(), "data", "bikes", "gravel.json");
 const CARRETERA_FILE = path.join(process.cwd(), "data", "bikes", "carretera.json");
+
+function isPrivateHost(hostname: string): boolean {
+  const lower = hostname.toLowerCase();
+  return (
+    lower === "localhost" ||
+    lower.endsWith(".local") ||
+    lower.endsWith(".internal") ||
+    lower === "127.0.0.1" ||
+    lower === "::1" ||
+    lower.startsWith("10.") ||
+    lower.startsWith("192.168.") ||
+    lower.startsWith("169.254.") || // Link-local / Cloud Metadata
+    lower.startsWith("172.16.")
+  );
+}
 
 function calculateRatios(chainrings: string, cassette: string) {
   // Parsear platos: "48/31T" o "40T"
@@ -61,6 +77,15 @@ function detectDiscipline(text: string): Discipline {
 }
 
 export async function importBikeFromUrl(url: string) {
+  if (!isSafeExternalUrl(url)) {
+    throw new Error(`[Seguridad] Protocolo no permitido o URL inválida: ${url}`);
+  }
+
+  const parsedUrl = new URL(url);
+  if (isPrivateHost(parsedUrl.hostname)) {
+    throw new Error(`[Seguridad] Acceso a red privada o interna bloqueado: ${parsedUrl.hostname}`);
+  }
+
   console.log(`\n🚴‍♂️ [BikeFinder Ingest] Iniciando extracción oficial desde: ${url}\n`);
 
   const brand = detectBrandFromUrl(url);

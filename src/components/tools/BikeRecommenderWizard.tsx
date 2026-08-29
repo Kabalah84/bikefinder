@@ -10,6 +10,7 @@ import {
 } from "@/lib/utils/bike-recommender";
 import { useComparison } from "@/lib/context/ComparisonContext";
 import { formatCurrencyEur, formatDisciplineName } from "@/lib/utils/formatters";
+import { sanitizeExternalUrl } from "@/lib/utils/security";
 import {
   Compass,
   Zap,
@@ -518,7 +519,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                       </button>
 
                       <a
-                        href={bike.officialUrl}
+                        href={sanitizeExternalUrl(bike.officialUrl)}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="rounded-xl bg-slate-900 hover:bg-teal-700 py-2 px-2.5 text-xs font-bold text-white transition-colors flex items-center justify-center gap-1 shadow-xs"

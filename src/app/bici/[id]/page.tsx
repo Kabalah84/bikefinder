@@ -15,6 +15,7 @@ import { BikeCard } from "@/components/catalog/BikeCard";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { generateProductSchema, generateBreadcrumbsSchema } from "@/lib/seo/schema";
 import { constructMetadata } from "@/lib/seo/metadata";
+import { sanitizeExternalUrl } from "@/lib/utils/security";
 import {
   ExternalLink,
   ShieldCheck,
@@ -191,7 +192,7 @@ export default function BikeDetailPage({ params }: BikePageProps) {
 
             {/* Official Button */}
             <a
-              href={bike.officialUrl}
+              href={sanitizeExternalUrl(bike.officialUrl)}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-teal-500 py-3.5 px-4 text-sm font-bold text-slate-950 hover:bg-teal-400 transition-colors shadow-md"

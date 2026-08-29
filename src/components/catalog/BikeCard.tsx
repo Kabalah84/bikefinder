@@ -5,6 +5,7 @@ import Link from "next/link";
 import { BikeProduct } from "@/lib/schema/bike";
 import { useComparison } from "@/lib/context/ComparisonContext";
 import { formatCurrencyEur, formatDisciplineName, formatMaterialName } from "@/lib/utils/formatters";
+import { sanitizeExternalUrl } from "@/lib/utils/security";
 import { analyzeGearRatio } from "@/lib/utils/gear-calculator";
 import {
   ExternalLink,
@@ -215,7 +216,7 @@ export function BikeCard({ bike }: BikeCardProps) {
 
             {/* Official Web Link */}
             <a
-              href={bike.officialUrl}
+              href={sanitizeExternalUrl(bike.officialUrl)}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-1 rounded-xl bg-slate-900 py-2 px-2.5 text-xs font-bold text-white hover:bg-teal-700 transition-colors shadow-xs"
