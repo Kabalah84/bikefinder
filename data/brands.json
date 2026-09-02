@@ -28,13 +28,6 @@
     "description": "Marca californiana de referencia con sistemas Future Shock en Diverge y Roubaix, y el icono de competición Tarmac SL8."
   },
   {
-    "id": "giant",
-    "name": "Giant",
-    "country": "Taiwán",
-    "officialWebsite": "https://www.giant-bicycles.com/es",
-    "description": "Mayor fabricante mundial de cuadros de carbono y aluminio, famoso por la gama Revolt en gravel y TCR / Defy en carretera."
-  },
-  {
     "id": "scott",
     "name": "Scott",
     "country": "Suiza",
@@ -42,17 +35,10 @@
     "description": "Ingeniería suiza ligera de vanguardia con sus modelos Addict Gravel y Addict RC."
   },
   {
-    "id": "cannondale",
-    "name": "Cannondale",
-    "country": "Estados Unidos",
-    "officialWebsite": "https://www.cannondale.com/es-es",
-    "description": "Innovación audaz con suspensión trasera Kingpin en Topstone y ligereza extrema en SuperSix EVO y Synapse."
-  },
-  {
-    "id": "bmc",
-    "name": "BMC",
-    "country": "Suiza",
-    "officialWebsite": "https://bmc-switzerland.com/es",
-    "description": "Alta tecnología helvética de carbono con URS (Unrestricted) para gravel y Teammachine / Roadmachine en asfalto."
+    "id": "giant",
+    "name": "Giant",
+    "country": "Taiwán",
+    "officialWebsite": "https://www.giant-bicycles.com/es",
+    "description": "Mayor fabricante mundial de cuadros de carbono y aluminio, famoso por la gama Revolt en gravel y TCR / Defy en carretera."
   }
 ]

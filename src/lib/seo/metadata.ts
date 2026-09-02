@@ -8,7 +8,7 @@ export const SITE_CONFIG = {
   defaultTitle: "BikeFinder.es · Buscador y Comparador de Bicicletas de Gravel y Carretera",
   titleTemplate: "%s · BikeFinder.es",
   defaultDescription:
-    "Compara especificaciones oficiales reales: pesos en báscula, paso de rueda (tire clearance), grupos electrónicos Di2/AXS, ratios de desarrollo y tablas de geometría de Canyon, Orbea, Trek, Specialized, Giant, Scott, Cannondale y BMC.",
+    "Compara especificaciones oficiales reales: pesos en báscula, paso de rueda (tire clearance), grupos electrónicos Di2/AXS, ratios de desarrollo y tablas de geometría de Canyon, Orbea, Trek, Specialized, Scott y Giant.",
   defaultOgImage: "https://bikefinder.es/og-image.jpg",
   twitterHandle: "@bikefinder_es",
   locale: "es_ES",
@@ -26,8 +26,6 @@ export const SITE_CONFIG = {
     "specialized diverge",
     "giant revolt",
     "scott addict gravel",
-    "cannondale topstone",
-    "bmc urs",
     "geometría stack reach",
     "calculadora desarrollos ciclismo",
     "pesos reales bicicletas",
