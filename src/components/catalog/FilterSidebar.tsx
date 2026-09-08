@@ -66,21 +66,25 @@ export function FilterSidebar({
   };
 
   return (
-    <aside className="w-full rounded-2xl bg-white p-5 border border-slate-200 shadow-xs space-y-6">
-      {/* Header & Reset */}
-      <div className="flex items-center justify-between pb-4 border-b border-slate-100">
+    <aside className="w-full rounded-2xl bg-white border border-slate-200 shadow-xs md:max-h-[calc(100vh-6rem)] md:flex md:flex-col overflow-hidden">
+      {/* Header & Reset (Fixed at top of filter card) */}
+      <div className="p-4 sm:p-5 border-b border-slate-100 bg-white flex items-center justify-between shrink-0">
         <div className="flex items-center gap-2">
           <SlidersHorizontal className="w-4 h-4 text-teal-600" />
           <h2 className="font-bold text-slate-900 text-sm">Filtros Técnicos</h2>
         </div>
         <button
           onClick={onReset}
-          className="flex items-center gap-1 text-xs font-semibold text-slate-500 hover:text-teal-600 hover:underline"
+          className="flex items-center gap-1 text-xs font-semibold text-slate-500 hover:text-teal-600 hover:underline transition-colors"
         >
           <RotateCcw className="w-3 h-3" />
           Limpiar
         </button>
       </div>
+
+      {/* Scrollable Filters Content */}
+      <div className="p-4 sm:p-5 space-y-6 md:overflow-y-auto md:overscroll-contain flex-1">
+
 
       {/* Disciplina */}
       <div>
@@ -378,9 +382,10 @@ export function FilterSidebar({
           </span>
         </label>
       </div>
+      </div>
 
-      {/* Resultados counter */}
-      <div className="pt-3 border-t border-slate-100 text-center text-xs font-medium text-slate-500">
+      {/* Resultados counter footer (Fixed at bottom of filter card) */}
+      <div className="p-3 border-t border-slate-100 text-center text-xs font-medium text-slate-500 bg-slate-50/80 shrink-0">
         Mostrando <span className="font-bold text-slate-900">{filteredBikesCount}</span> de{" "}
         <span className="font-bold text-slate-900">{totalBikesCount}</span> bicicletas
       </div>

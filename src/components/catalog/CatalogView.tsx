@@ -15,7 +15,11 @@ import {
   Zap,
   Sparkles,
   RefreshCw,
+  ArrowUp,
+  ChevronDown,
 } from "lucide-react";
+
+const PAGE_SIZE = 24;
 
 interface CatalogViewProps {
   initialBikes: BikeProduct[];
@@ -30,6 +34,8 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
     sortBy: "price_asc",
   });
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [showScrollTop, setShowScrollTop] = useState(false);
 
   // Sincronizar disciplina cuando cambia la URL / navegación
   useEffect(() => {
@@ -39,6 +45,24 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
     }));
   }, [initialDiscipline]);
 
+  // Restablecer paginación progresiva cuando cambian los filtros o la búsqueda
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [filters, searchTerm]);
+
+  // Listener para botón flotante "Volver arriba"
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollTop(window.scrollY > 400);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   // Filtrado reactivo en cliente para respuesta instantánea
   const filteredBikes = useMemo(() => {
     return filterBikes(initialBikes, {
@@ -46,6 +70,11 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
       searchTerm,
     });
   }, [initialBikes, filters, searchTerm]);
+
+  // Lista visible recortada para carga progresiva y alto rendimiento en DOM
+  const displayedBikes = useMemo(() => {
+    return filteredBikes.slice(0, visibleCount);
+  }, [filteredBikes, visibleCount]);
 
   const handleResetFilters = () => {
     setSearchTerm("");
@@ -324,14 +353,64 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
               </button>
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {filteredBikes.map((bike) => (
-                <BikeCard key={bike.id} bike={bike} />
-              ))}
-            </div>
+            <>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                {displayedBikes.map((bike) => (
+                  <BikeCard key={bike.id} bike={bike} />
+                ))}
+              </div>
+
+              {/* Paginación progresiva / Cargar más */}
+              {filteredBikes.length > visibleCount && (
+                <div className="flex flex-col items-center justify-center pt-8 pb-4 space-y-3.5 border-t border-slate-200">
+                  <div className="text-xs font-semibold text-slate-500">
+                    Mostrando <span className="font-bold text-slate-800">{displayedBikes.length}</span> de{" "}
+                    <span className="font-bold text-slate-800">{filteredBikes.length}</span> bicicletas
+                  </div>
+                  <div className="w-full max-w-xs h-1.5 bg-slate-200 rounded-full overflow-hidden">
+                    <div
+                      className="h-full bg-teal-600 rounded-full transition-all duration-300"
+                      style={{
+                        width: `${Math.min(100, Math.round((displayedBikes.length / filteredBikes.length) * 100))}%`,
+                      }}
+                    />
+                  </div>
+                  <div className="flex flex-wrap items-center justify-center gap-2.5 pt-1">
+                    <button
+                      type="button"
+                      onClick={() =>
+                        setVisibleCount((prev) => Math.min(prev + PAGE_SIZE, filteredBikes.length))
+                      }
+                      className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 text-white text-xs sm:text-sm font-bold shadow-xs hover:bg-teal-700 active:scale-98 transition-all cursor-pointer"
+                    >
+                      <span>Cargar más (+{Math.min(PAGE_SIZE, filteredBikes.length - visibleCount)})</span>
+                      <ChevronDown className="w-4 h-4" />
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setVisibleCount(filteredBikes.length)}
+                      className="px-4 py-2.5 rounded-xl border border-slate-300 bg-white text-slate-700 text-xs sm:text-sm font-semibold hover:bg-slate-50 transition-colors cursor-pointer"
+                    >
+                      Ver todas ({filteredBikes.length})
+                    </button>
+                  </div>
+                </div>
+              )}
+            </>
           )}
         </div>
       </div>
+
+      {/* Botón flotante para volver arriba */}
+      {showScrollTop && (
+        <button
+          onClick={scrollToTop}
+          aria-label="Volver arriba"
+          className="fixed bottom-6 right-6 z-40 p-3 rounded-full bg-slate-900/90 text-white shadow-xl backdrop-blur-xs hover:bg-teal-600 transition-all active:scale-95 cursor-pointer"
+        >
+          <ArrowUp className="w-5 h-5" />
+        </button>
+      )}
     </div>
   );
 }
