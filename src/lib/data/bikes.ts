@@ -12,6 +12,7 @@ import {
 
 import gravelData from "../../../data/bikes/gravel.json";
 import carreteraData from "../../../data/bikes/carretera.json";
+import montanaData from "../../../data/bikes/montana.json";
 import brandsData from "../../../data/brands.json";
 import categoriesData from "../../../data/categories.json";
 
@@ -19,7 +20,7 @@ import categoriesData from "../../../data/categories.json";
 const parsedBrands: Brand[] = BrandSchema.array().parse(brandsData);
 const parsedCategories: Category[] = CategorySchema.array().parse(categoriesData);
 
-const rawBikes = [...gravelData, ...carreteraData];
+const rawBikes = [...gravelData, ...carreteraData, ...montanaData];
 const parsedBikes: BikeProduct[] = rawBikes.map((item) => {
   const result = BikeProductSchema.safeParse(item);
   if (!result.success) {

@@ -30,13 +30,15 @@ function main() {
   const brandsPath = path.join(__dirname, "../data/brands.json");
   const gravelPath = path.join(__dirname, "../data/bikes/gravel.json");
   const roadPath = path.join(__dirname, "../data/bikes/carretera.json");
+  const mtbPath = path.join(__dirname, "../data/bikes/montana.json");
 
   const brandsOk = validateJson(brandsPath, BrandSchema, "Marcas");
   const gravelOk = validateJson(gravelPath, BikeProductSchema, "Gravel");
   const roadOk = validateJson(roadPath, BikeProductSchema, "Carretera");
+  const mtbOk = validateJson(mtbPath, BikeProductSchema, "Montaña (MTB)");
 
-  if (brandsOk && gravelOk && roadOk) {
-    console.log("🎉 ¡El catálogo de las 6 marcas (Canyon, Orbea, Trek, Specialized, Scott, Giant) está 100% validado!");
+  if (brandsOk && gravelOk && roadOk && mtbOk) {
+    console.log("🎉 ¡El catálogo de las marcas está 100% validado!");
     process.exit(0);
   } else {
     console.error("💥 Se detectaron errores de validación en el catálogo.");

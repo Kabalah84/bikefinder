@@ -9,6 +9,7 @@
     "lint": "next lint",
     "validate:catalog": "tsx scripts/validate-catalog.ts",
     "bike:import": "tsx scripts/import-bike.ts",
+    "bike:import:links": "tsx scripts/import-links-file.ts",
     "bike:sync": "tsx scripts/sync-official-prices.ts"
   },
   "dependencies": {

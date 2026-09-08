@@ -30,5 +30,13 @@
     "description": "Bicicletas de carretera hiperversátiles con paso de rueda de hasta 38-40mm, capaces de rodar rápido en carretera y adentrarse en pistas compactas sin el peso de una gravel pura.",
     "targetClearanceRange": "35mm - 40mm",
     "idealFor": "Ciclistas 70% carretera y 30% pistas de grava compacta."
+  },
+  {
+    "id": "mtb",
+    "name": "Montaña (MTB)",
+    "subtitle": "Cross-Country, Trail, Enduro, Descenso y e-MTB",
+    "description": "Bicicletas preparadas para senderos, piedras, raíces y trialeras técnicas con suspensión delantera o integral, transmisiones monoplato de amplio rango y cubiertas de gran tracción.",
+    "targetClearanceRange": "55mm - 66mm (2.2\" - 2.6\")",
+    "idealFor": "Senderos técnicos de montaña, pistas forestales rotas, trialeras, bike parks y maratones XC."
   }
 ]

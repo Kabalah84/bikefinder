@@ -25,6 +25,8 @@ export function formatDisciplineName(discipline: string): string {
       return "Competición & Aero";
     case "all_road":
       return "All-Road";
+    case "mtb":
+      return "Montaña (MTB)";
     default:
       return discipline;
   }

@@ -23,6 +23,7 @@ export const DisciplineEnum = z.enum([
   "road_endurance",
   "road_race",
   "all_road",
+  "mtb",
 ]);
 export type Discipline = z.infer<typeof DisciplineEnum>;
 
@@ -34,7 +35,7 @@ export const FrameMaterialEnum = z.enum([
 ]);
 export type FrameMaterial = z.infer<typeof FrameMaterialEnum>;
 
-export const ForkMaterialEnum = z.enum(["carbon", "aluminum"]);
+export const ForkMaterialEnum = z.enum(["carbon", "aluminum", "suspension", "steel"]);
 export type ForkMaterial = z.infer<typeof ForkMaterialEnum>;
 
 export const GroupsetBrandEnum = z.enum([

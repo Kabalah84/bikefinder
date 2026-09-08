@@ -1,0 +1,119 @@
+# ==============================================================================
+# BIKEFINDER.ES - LISTA DE ENLACES OFICIALES PARA IMPORTACIÓN
+# ==============================================================================
+# Instrucciones:
+# 1. Pega aquí las URLs oficiales de los modelos que quieras añadir o actualizar.
+# 2. Una URL por línea.
+# 3. Las líneas que empiezan por '#' son comentarios para organizarte.
+# 4. Cuando termines de añadir enlaces, avísame en el chat para procesarlos.
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# CARRETERA (Road Race, Aero, Gran Fondo / Endurance)
+# ------------------------------------------------------------------------------
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-aero/aeroad/aeroad-cf-slx/aeroad-cf-slx-9-axs/4607.html?dwvar_4607_pv_rahmenfarbe=R107_P01
+https://www.canyon.com/es-es/bicicletas-de-carretera/gran-fondo/endurace/cf/endurace-cf-6/4426.html?dwvar_4426_pv_rahmenfarbe=R129_P01
+
+# Pega aquí más enlaces de Carretera (Orbea, Trek, Specialized, Scott, Giant, Canyon)...
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-aero/aeroad/aeroad-cf-slx/aeroad-cf-slx-8-axs/4532.html?dwvar_4532_pv_rahmenfarbe=R107_P12
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-aero/aeroad/aeroad-cf-slx/aeroad-cf-slx-8-di2/4533.html?dwvar_4533_pv_rahmenfarbe=R107_P01
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-carreras/ultimate/cf-sl/ultimate-cf-8-di2/4369.html?dwvar_4369_pv_rahmenfarbe=R101_P06
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-triatlon/speedmax/cfr/speedmax-cfr-axs/4524.html
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-triatlon/speedmax/cf-slx/speedmax-cf-slx-8-di2/4520.html
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-triatlon/speedmax/cfr/speedmax-cfr-di2/4525.html
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-triatlon/speedmax/cf-slx/speedmax-cf-slx-8-axs/4519.html
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-de-ciclocross/inflite/cfr/inflite-cfr-team/4051.html?dwvar_4051_pv_rahmenfarbe=R059_P33
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-triatlon/speedmax/cf-slx/speedmax-cf-slx-7-di2/4518.html
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-aero/aeroad/aeroad-cf-slx/aeroad-cf-slx-9-di2/4534.html?dwvar_4534_pv_rahmenfarbe=R107_P12
+https://www.canyon.com/es-es/electric-bikes/electric-road-bikes/endurace-on-fly/endurace-onfly-cf-6/4043.html?dwvar_4043_pv_rahmenfarbe=R137_P01
+https://www.canyon.com/es-es/bicicletas-de-carretera/road-track/speedmax-track/speedmax-cfr-track/3923.html?dwvar_3923_pv_rahmenfarbe=R115_P01
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-aero/aeroad/aeroad-cfr/aeroad-cfr-di2/4480.html?dwvar_4480_pv_rahmenfarbe=R136_P01
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-triatlon/speedmax/cfr/speedmax-cfr-tt/3728.html?dwvar_3728_pv_rahmenfarbe=R090_P01
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-carreras/ultimate/cf-sl/ultimate-cf-7-axs/4368.html?dwvar_4368_pv_rahmenfarbe=R101_P06
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-carreras/ultimate/cf-slx/ultimate-cf-slx-7-di2/4370.html?dwvar_4370_pv_rahmenfarbe=R100_P08
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-carreras/ultimate/cf-slx/ultimate-cf-slx-8-axs/4371.html?dwvar_4371_pv_rahmenfarbe=R100_P08
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-aero/aeroad/aeroad-cfr/aeroad-cfr-axs/4478.html?dwvar_4478_pv_rahmenfarbe=R136_P01
+https://www.canyon.com/es-es/bicicletas-de-carretera/bicicletas-carreras/ultimate/cfr/ultimate-cfr-axs/4071.html?dwvar_4071_pv_rahmenfarbe=R102_P09
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ------------------------------------------------------------------------------
+# GRAVEL (Gravel Aventura, Gravel Race, Bikepacking)
+# ------------------------------------------------------------------------------
+
+# Pega aquí tus enlaces de Gravel (Orbea Terra, Canyon Grizl/Grail, Trek Checkpoint, Giant Revolt, Specialized Diverge/Crux, Scott Addict Gravel)...
+https://www.canyon.com/es-es/bicicletas-gravel/adventure/grizl/cf/grizl-cf-8-di2/4143.html?dwvar_4143_pv_rahmenfarbe=R126_P01
+https://www.canyon.com/es-es/bicicletas-gravel/adventure/grizl/cf/grizl-cf-7/4553.html?dwvar_4553_pv_rahmenfarbe=R126_P05
+https://www.canyon.com/es-es/bicicletas-gravel/adventure/grizl/cf/grizl-cf-6/4552.html?dwvar_4552_pv_rahmenfarbe=R126_P06
+https://www.canyon.com/es-es/bicicletas-gravel/adventure/grizl/al/grizl-6/4444.html?dwvar_4444_pv_rahmenfarbe=R124_P01
+https://www.canyon.com/es-es/bicicletas-electricas/bicicletas-electricas-gravel/grizl-on/grizl-onfly-cf-9/3546.html?dwvar_3546_pv_rahmenfarbe=R112_P01
+https://www.canyon.com/es-es/bicicletas-gravel/race/grail/cfr/grail-cfr-w%2F-rift/4153.html?dwvar_4153_pv_rahmenfarbe=R121_P06
+https://www.canyon.com/es-es/bicicletas-gravel/adventure/grizl/cf/grizl-cf-7-axs/4554.html?dwvar_4554_pv_rahmenfarbe=R126_P05
+https://www.canyon.com/es-es/bicicletas-electricas/bicicletas-electricas-gravel/grizl-on/grizl-onfly-cf-trail/3545.html?dwvar_3545_pv_rahmenfarbe=R112_P04
+https://www.canyon.com/es-es/bicicletas-gravel/adventure/grizl/al/grizl-5/4443.html?dwvar_4443_pv_rahmenfarbe=R124_P03
+https://www.canyon.com/es-es/bicicletas-gravel/adventure/grizl/al/grizl-7-esc/4445.html?dwvar_4445_pv_rahmenfarbe=R124_P01
+https://www.canyon.com/es-es/bicicletas-gravel/adventure/grizl/cf/grizl-cf-8-w%2F-rift/4558.html?dwvar_4558_pv_rahmenfarbe=R126_P05
+https://www.canyon.com/es-es/bicicletas-gravel/adventure/grizl/cf/grizl-cf-7-esc/4142.html?dwvar_4142_pv_rahmenfarbe=R126_P01
+https://www.canyon.com/es-es/bicicletas-gravel/race/grail/cfr/grail-cfr-di2/4154.html?dwvar_4154_pv_rahmenfarbe=R121_P06
+https://www.canyon.com/es-es/bicicletas-gravel/race/grail/cf-slx/grail-cf-slx-8-di2/4474.html?dwvar_4474_pv_rahmenfarbe=R120_P04
+https://www.canyon.com/es-es/bicicletas-electricas/bicicletas-electricas-gravel/grizl-on/grizl-onfly-cf-8/4742.html?dwvar_4742_pv_rahmenfarbe=R112_P03
+https://www.canyon.com/es-es/bicicletas-de-montana/cross-country-bikes/exceed/exceed-cfr/exceed-cfr-gravel/4583.html?dwvar_4583_pv_rahmenfarbe=M160_P07
+https://www.canyon.com/es-es/bicicletas-gravel/race/grail/cfr/grail-cfr-axs/4152.html?dwvar_4152_pv_rahmenfarbe=R121_P06
+https://www.canyon.com/es-es/bicicletas-gravel/race/grail/cf/grail-cf-sl-7-aero/4150.html?dwvar_4150_pv_rahmenfarbe=R119_P04
+https://www.canyon.com/es-es/bicicletas-gravel/race/grail/cf/grail-cf-7/4149.html?dwvar_4149_pv_rahmenfarbe=R119_P05
+https://www.canyon.com/es-es/bicicletas-gravel/race/grail/cf/grail-cf-8-1by/4148.html?dwvar_4148_pv_rahmenfarbe=R119_P05
+https://www.canyon.com/es-es/bicicletas-gravel/race/grail/cf-slx/grail-cf-slx-8-w%2F-rift/4473.html?dwvar_4473_pv_rahmenfarbe=R120_P04
+https://www.canyon.com/es-es/bicicletas-gravel/race/grail/cf-slx/grail-cf-slx-8-axs/4475.html?dwvar_4475_pv_rahmenfarbe=R120_P04
+
+
+
+
+# ------------------------------------------------------------------------------
+# MONTAÑA
+# ------------------------------------------------------------------------------
+https://www.canyon.com/es-es/bicicletas-de-montana/trail-bikes/lux-trail/cf/lux-trail-cf-6/4402.html?dwvar_4402_pv_rahmenfarbe=M194_P01
+https://www.canyon.com/es-es/bicicletas-de-montana/downhill-bikes/sender/sender-cfr-underdog/4448.html?dwvar_4448_pv_rahmenfarbe=M180_P01
+https://www.canyon.com/es-es/bicicletas-de-montana/trail-bikes/spectral/cf/spectral-cf-8/4381.html?dwvar_4381_pv_rahmenfarbe=M179_P08
+https://www.canyon.com/es-es/bicicletas-de-montana/trail-bikes/spectral/al/spectral-al-ltd/4379.html?dwvar_4379_pv_rahmenfarbe=M178_P06
+https://www.canyon.com/es-es/bicicletas-electricas/mountain-bike-electrica/neuron-on/neuron-on-fly/neuron-onfly-cf-7/4060.html?dwvar_4060_pv_rahmenfarbe=M166_P01
+https://www.canyon.com/es-es/bicicletas-electricas/mountain-bike-electrica/mountain-ebikes-striveon/cf/strive-on-cf-9/4294.html?dwvar_4294_pv_rahmenfarbe=M188_P01
+https://www.canyon.com/es-es/bicicletas-de-montana/trail-bikes/lux-trail/cf/lux-trail-cf-7/4403.html?dwvar_4403_pv_rahmenfarbe=M194_P02
+https://www.canyon.com/es-es/bicicletas-electricas/mountain-bike-electrica/mountain-ebikes-striveon/cf/strive-on-cf-8/4295.html?dwvar_4295_pv_rahmenfarbe=M188_P01
+https://www.canyon.com/es-es/bicicletas-de-montana/cross-country-bikes/exceed/exceed-cf/exceed-cf-8/4399.html?dwvar_4399_pv_rahmenfarbe=M160_P04
+https://www.canyon.com/es-es/bicicletas-de-montana/trail-bikes/lux-trail/cf/lux-trail-cf-8/4404.html?dwvar_4404_pv_rahmenfarbe=M194_P03
+https://www.canyon.com/es-es/bicicletas-de-montana/trail-bikes/grand-canyon/grand-canyon/grand-canyon-al-7/4392.html?dwvar_4392_pv_rahmenfarbe=M196_P14
+https://www.canyon.com/es-es/bicicletas-de-montana/cross-country-bikes/exceed/exceed-cf/exceed-cf-9/4400.html?dwvar_4400_pv_rahmenfarbe=M160_P05
+https://www.canyon.com/es-es/bicicletas-electricas/mountain-bike-electrica/torque-on/torque-on-cf/torque-on-cf-9/4028.html?dwvar_4028_pv_rahmenfarbe=M124_P01
+https://www.canyon.com/es-es/bicicletas-de-montana/cross-country-bikes/lux/cfr/lux-world-cup-cfr-xtr-di2/4409.html?dwvar_4409_pv_rahmenfarbe=M195_P03
+https://www.canyon.com/es-es/bicicletas-de-montana/cross-country-bikes/lux/cfr/lux-world-cup-cfr-x0-axs/4408.html?dwvar_4408_pv_rahmenfarbe=M195_P06
+https://www.canyon.com/es-es/bicicletas-de-montana/cross-country-bikes/exceed/exceed-cfr/exceed-cfr/4401.html?dwvar_4401_pv_rahmenfarbe=M160_P06
+
+
+
+
+
+

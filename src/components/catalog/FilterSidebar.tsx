@@ -90,9 +90,10 @@ export function FilterSidebar({
         <div className="grid grid-cols-2 gap-1.5">
           {[
             { id: "gravel", label: "Gravel", color: "hover:border-amber-400" },
-            { id: "road_endurance", label: "Gran Fondo", color: "hover:border-sky-400" },
-            { id: "road_race", label: "Racing & Aero", color: "hover:border-rose-400" },
+            { id: "road_endurance", label: "Gran Fondo", color: "hover:border-blue-400" },
+            { id: "road_race", label: "Aero / Racing", color: "hover:border-rose-400" },
             { id: "all_road", label: "All-Road", color: "hover:border-emerald-400" },
+            { id: "mtb", label: "Montaña (MTB)", color: "hover:border-purple-400" },
           ].map((item) => {
             const isSelected = (filters.disciplines || []).includes(item.id as Discipline);
             return (
