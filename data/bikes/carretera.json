@@ -7301,5 +7301,2874 @@
         ]
       }
     ]
+  },
+  {
+    "id": "scott-foil-rc-pro-2027",
+    "brand": "Scott",
+    "model": "Foil RC Pro",
+    "year": 2027,
+    "discipline": "road_race",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-foil-rc-pro-bike?article=4275938575008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131456/2288158.png",
+    "msrpEur": 8999,
+    "currentPriceEur": 8999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.1,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Dura-Ace Di2 RD-R9250",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 548,
+      "reachMm": 389,
+      "stackReachRatio": 1.41,
+      "headTubeAngleDeg": 72.5,
+      "chainstayLengthMm": 412,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 523,
+      "headTubeLengthMm": 141,
+      "seatTubeAngleDeg": 73.6,
+      "wheelbaseMm": 993,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 7.1 kg",
+      "Ruedas Syncros Capital 60 CF I"
+    ],
+    "brakes": "Shimano BR-R9270 Hyd.Disc",
+    "wheels": "Syncros Capital 60 CF I, Carbon spokes 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool",
+    "tires": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Foil RC Disc HMX, Race geometry, replaceable derailleur hanger, internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Foil RC Disc HMX, 1\" eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1138S"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano Dura-Ace Di2 RD-R9250 24 Speed, Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Dura-Ace Di2 FD-R9250, Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano Dura-Ace Di2 ST-R9270, 24 Speed Electronic Shift System, Shimano BR-R9270 Hyd.Disc"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano Dura-Ace FC-R9200, Hollowtech II 52-36T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano SM-BB92-41B"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Dura-Ace CS-R9200-12, 11-34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M9100"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-R9270 Hyd.Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL900, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL900, 140mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston iC SL Aero, Carbon combo"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros Duncan SL Aero CFT"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Belcarra V1.0 Cut-out, Carbon rails"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Capital 60 CF I, Carbon spokes 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "7.1 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Shimano Built in DN300"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-premium-2026",
+    "brand": "Scott",
+    "model": "Addict Premium",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-premium-bike?article=4253538099008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114304/2223049.png",
+    "msrpEur": 7799,
+    "currentPriceEur": 7799,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.4,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 38,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Dura-Ace RD-R925024 Speed",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 578,
+      "reachMm": 386,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 72.2,
+      "chainstayLengthMm": 418,
+      "topTubeLengthMm": 551,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 161,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1009,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 7.4 kg",
+      "Ruedas Fulcrum WIND 42 DB Carbon24 Front"
+    ],
+    "brakes": "Shimano BR-R9270 Hyd.Disc",
+    "wheels": "Fulcrum WIND 42 DB Carbon24 Front, 24 RearSyncros SL Axle",
+    "tires": "Schwalbe PRO ONE Fold, 700x34C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict HMX CarbonEndurance geometry, Replaceable UDH Derailleur HangerInternal cable routingIntegrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict HMX Flatmount Disc27.2mm Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317S"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano Dura-Ace RD-R925024 Speed Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Dura-Ace FD-R9250Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano Dura-Ace ST-R9270Dual control 24 Speed Electronic Shift System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano Dura-Ace FC-R9200Hollowtech II 50x34"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano SM-BB92-41B"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-R810111-34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M8100-12"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-R9270 Hyd.Disc"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros IC-R100-SLCarbon combo"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino V 1.0 Cut Out"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Fulcrum WIND 42 DB Carbon24 Front, 24 RearSyncros SL Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe PRO ONE Fold, 700x34C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe PRO ONE Fold,700x34C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "7.4 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros Save the day kit IS-R300Syncros iS Drop Bar Tool 2 Composite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-10-2026",
+    "brand": "Scott",
+    "model": "Addict 10",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-10-bike?article=4253548339008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114304/2223050.png",
+    "msrpEur": 6799,
+    "currentPriceEur": 6799,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.8,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 38,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM FORCE AXS24 Speed",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 578,
+      "reachMm": 386,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 72.2,
+      "chainstayLengthMm": 418,
+      "topTubeLengthMm": 551,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 161,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1009,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 7.8 kg",
+      "Ruedas Fulcrum WIND 42 DB Carbon24 Front"
+    ],
+    "brakes": "SRAM FORCE AXS HRD Shift-Brake System",
+    "wheels": "Fulcrum WIND 42 DB Carbon24 Front, 24 RearSyncros SL Axle",
+    "tires": "Schwalbe ONE Fold, 700x34C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict HMX CarbonEndurance geometry, Replaceable UDH Derailleur HangerInternal cable routingIntegrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict HMX Flatmount Disc27.2mm Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM FORCE AXS24 Speed Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "SRAM FORCE AXS Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM FORCE AXS HRD Shift-Brake System Electronic Shift System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM FORCE Spindle Power Meter Crankset46/33"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM FORCE XG1270 E110-36"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM FORCE"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM FORCE AXS HRD Shift-Brake System"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros HB-R100-CF"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros ST-R300-ALWe must notify you that, due to technical reasons, the Syncros ST-R300-AL stem (sold aftermarket as Product No. 425195) is no longer compatible with the following computer mounts: 424253 Sycros MT-R-201-AL and 292892 Syncros Foil Aero"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino V 2.0 Cut Out"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Fulcrum WIND 42 DB Carbon24 Front, 24 RearSyncros SL Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "7.8 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros Save the day kit IS-R300Syncros iS Drop Bar Tool 2 Composite"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-foil-rc-ultimate-2027",
+    "brand": "Scott",
+    "model": "Foil RC Ultimate",
+    "year": 2027,
+    "discipline": "road_race",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-foil-rc-ultimate-bike?article=4275928570008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131456/2288157.png",
+    "msrpEur": 13399,
+    "currentPriceEur": 13399,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.86,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED AXS 24",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "48/35T",
+      "cassette": "10-33T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.8
+    },
+    "geometry": {
+      "stackMm": 548,
+      "reachMm": 389,
+      "stackReachRatio": 1.41,
+      "headTubeAngleDeg": 72.5,
+      "chainstayLengthMm": 412,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 523,
+      "headTubeLengthMm": 141,
+      "seatTubeAngleDeg": 73.6,
+      "wheelbaseMm": 993,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 6.86 kg",
+      "Ruedas Syncros Capital SL Aero 60mm"
+    ],
+    "brakes": "SRAM RED AXS HRD Shift-Brake System",
+    "wheels": "Syncros Capital SL Aero 60mm, Syncros SL Axle, removable lever with tool",
+    "tires": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Foil RC HMX SL, Race geometry, replaceable derailleur hanger, internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Foil RC HMX SL, Flatmount Disc, 1\" eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1138S"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM RED AXS, 24 Speed, Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "SRAM RED AXS Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM RED AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM RED Powermeter Crankset, 48-35T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5 Ceramic Bearing"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XG1290 E1, 10-33"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM RED AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "SRAM Paceline X CL, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "SRAM Paceline X CL, 140mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston iC SL Aero, Carbon combo"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros Duncan SL Aero CFT"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Belcarra V1.0 Cut-out, Carbon rails"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Capital SL Aero 60mm, Syncros SL Axle, removable lever with tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "6.86 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "SRAM AXS powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-25-2026",
+    "brand": "Scott",
+    "model": "Addict 25",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-25-bike?article=4276098566008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131474/2288185.png",
+    "msrpEur": 5199,
+    "currentPriceEur": 5199,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.2,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 38,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RIVAL eTap AXS",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "46/33T",
+      "cassette": "10-36T",
+      "minGearRatio": 0.92,
+      "maxGearRatio": 4.6
+    },
+    "geometry": {
+      "stackMm": 578,
+      "reachMm": 386,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 72.2,
+      "chainstayLengthMm": 418,
+      "topTubeLengthMm": 551,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 161,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1009,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8.2 kg",
+      "Ruedas Fulcrum WIND 42 DB Carbon"
+    ],
+    "brakes": "SRAM RIVAL AXS HRD Shift-Brake System",
+    "wheels": "Fulcrum WIND 42 DB Carbon, 24 Front, 24 Rear, Syncros Axle",
+    "tires": "Schwalbe ONE Fold, 700x34C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict HMF Carbon, ride geometry, replaceable UDH derailleur hanger, internal cable routing, integrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict HMF Flatmount Disc, 27.2 mm eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM RIVAL eTap AXS, 24 Speed, Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "SRAM RIVAL eTap AXS Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM RIVAL AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM RIVAL Crankset, 46-33T, Powermeter"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RIVAL XG1250, 10-36T"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RIVAL"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM RIVAL AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "SRAM Paceline CL, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "SRAM Paceline CL, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros HB-R100-CF"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros ST-R310-AL"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino V 2.0 Cut Out"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Fulcrum WIND 42 DB Carbon, 24 Front, 24 Rear, Syncros Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "8.2 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros handlebar tool, SRAM AXS Powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-20-2026",
+    "brand": "Scott",
+    "model": "Addict 20",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-20-bike?article=4253553020008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131445/2288138.png",
+    "msrpEur": 5199,
+    "currentPriceEur": 5199,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.3,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 38,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra Di2 RD-R8150",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 578,
+      "reachMm": 386,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 72.2,
+      "chainstayLengthMm": 418,
+      "topTubeLengthMm": 551,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 161,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1009,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8.3 kg",
+      "Ruedas Fulcrum WIND 42 DB Carbon"
+    ],
+    "brakes": "Shimano BR-R8170 Hyd.Disc",
+    "wheels": "Fulcrum WIND 42 DB Carbon, 24 Front, 24 Rear, Syncros Axle",
+    "tires": "Schwalbe ONE Fold, 700x34C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict HMF Carbon, ride geometry, replaceable UDH derailleur hanger, internal cable routing, integrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict HMF Flatmount Disc, 27.2 mm eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano Ultegra Di2 RD-R8150 24 Speed, Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Ultegra Di2 FD-R8150, Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano Ultegra Di2 ST-R8170, 24 Speed Electronic Shift System, Shimano BR-R8170 Hyd.Disc"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano Ultegra FC-R8100, Hollowtech II, 50-34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano SM-BB71-41B"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-R7100, 11-34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-R8170 Hyd.Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL800, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL800, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros HB-R100-CF"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros ST-R310-AL"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino V 2.0 Cut Out"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Fulcrum WIND 42 DB Carbon, 24 Front, 24 Rear, Syncros Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "8.3 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros handlebar tool, Shimano Built in DN300"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-30-2026",
+    "brand": "Scott",
+    "model": "Addict 30",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-30-bike?article=4253568576008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131446/2288140.png",
+    "msrpEur": 3899,
+    "currentPriceEur": 3899,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.4,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 38,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 Di2 RD-R7150",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 578,
+      "reachMm": 386,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 72.2,
+      "chainstayLengthMm": 418,
+      "topTubeLengthMm": 551,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 161,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1009,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8.4 kg",
+      "Ruedas Syncros Capital 1.0 40 Disc"
+    ],
+    "brakes": "Shimano BR-R7170 Hyd.Disc",
+    "wheels": "Syncros Capital 1.0 40 Disc, 24 Front, 24 Rear, Syncros Axle",
+    "tires": "Schwalbe ONE Fold, 700x34C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict HMF Carbon, ride geometry, replaceable UDH derailleur hanger, internal cable routing, integrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict HMF Flatmount Disc, 27.2 mm eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano 105 Di2 RD-R7150 24 Speed, Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano 105 Di2 FD-R7150, Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano 105 Di2 ST-R7170, 24 Speed Electronic Shift System, Shimano BR-R7170 Hyd.Disc"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano 105 FC-R7100, Hollowtech II, 50-34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500-PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-R7100, 11-34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-R7170 Hyd.Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL700, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL700, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros HB-R100-AL"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros ST-R310-AL"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino V 2.0 Cut Out"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Capital 1.0 40 Disc, 24 Front, 24 Rear, Syncros Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "8.4 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros handlebar tool, Shimano Built in DN300"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-40-2026",
+    "brand": "Scott",
+    "model": "Addict 40",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-40-bike?article=4253578526008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131446/2288142.png",
+    "msrpEur": 3349,
+    "currentPriceEur": 3349,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.7,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 38,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 Di2 RD-R7150",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 578,
+      "reachMm": 386,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 72.2,
+      "chainstayLengthMm": 418,
+      "topTubeLengthMm": 551,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 161,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1009,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8.7 kg",
+      "Ruedas Syncros RP2.0 Disc"
+    ],
+    "brakes": "Shimano BR-R7170 Hyd.Disc",
+    "wheels": "Syncros RP2.0 Disc, 28 Front, 28 Rear, Syncros Axle",
+    "tires": "Schwalbe ONE Fold, 700x34C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict HMF Carbon, ride geometry, replaceable UDH derailleur hanger, internal cable routing, integrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict HMF Flatmount Disc, 27.2 mm eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano 105 Di2 RD-R7150 24 Speed, Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano 105 Di2 FD-R7150, Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano 105 Di2 ST-R7170, 24 Speed Electronic Shift System, Shimano BR-R7170 Hyd.Disc"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano 105 FC-R7100, Hollowtech II, 50-34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500-PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-R7100, 11-34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-R7170 Hyd.Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL700, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL700, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros HB-R100-AL"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros ST-R310-AL"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino V 2.0 Cut Out"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros RP2.0 Disc, 28 Front, 28 Rear, Syncros Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "8.7 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros handlebar tool, Shimano Built in DN300"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-50-2026",
+    "brand": "Scott",
+    "model": "Addict 50",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-50-bike?article=4253588350008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131446/2288143.png",
+    "msrpEur": 2699,
+    "currentPriceEur": 2699,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.9,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 38,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 RD-R7100 24",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 578,
+      "reachMm": 386,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 72.2,
+      "chainstayLengthMm": 418,
+      "topTubeLengthMm": 551,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 161,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1009,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 8.9 kg",
+      "Ruedas Syncros RP2.0 Disc"
+    ],
+    "brakes": "Shimano BR-R7170 Hyd.Disc",
+    "wheels": "Syncros RP2.0 Disc, 28 Front, 28 Rear, Syncros Axle",
+    "tires": "Schwalbe ONE Fold, 700x34C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict HMF Carbon, ride geometry, replaceable UDH derailleur hanger, internal cable routing, integrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict HMF Flatmount Disc, 27.2 mm eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano 105 RD-R7100, 24 Speed"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano 105 FD-R7100, 24-Speed"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano 105 ST-R7120, 24 Speed System, Shimano BR-R7170 Hyd.Disc"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano 105 FC-R7100, Hollowtech II, 50-34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500-PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-R7100, 11-34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-R7170 Hyd.Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL700, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL700, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros HB-R100-AL"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros ST-R310-AL"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino V 2.0 Cut Out"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros RP2.0 Disc, 28 Front, 28 Rear, Syncros Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe ONE Fold, 700x34C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "8.9 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros handlebar tool"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-speedster-10-2026",
+    "brand": "Scott",
+    "model": "Speedster 10",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-speedster-10-bike?article=4233037965008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778101146/2147396.png",
+    "msrpEur": 1849,
+    "currentPriceEur": 1849,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 10.5,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 38,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 RD-R7100 24",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 572,
+      "reachMm": 391,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 72.5,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 554,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 143,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1016,
+      "standoverHeightMm": 800
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 10.5 kg"
+    ],
+    "brakes": "Shimano BR-R7170 Hyd. Disc",
+    "tires": "Schwalbe Lugano, 700x32C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Speedster Disc, 6061 D.Butted Alloy, ride geometry, int. cable routing, Syncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Speedster HMF Disc, 1 1/4\"-1 1/2\" eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1113"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano 105 RD-R7100, 24 Speed"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano 105 FD-R7100, 24-Speed"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano 105 ST-R7120, 24 Speed System, Shimano BR-R7170 Hyd.Disc"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano FC-RS520, 50-34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500-PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-R7100, 11-34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-R7170 Hyd. Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL700, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL700, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 Compact, 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.5, 1 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros RR2.5 27.2/350mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino R 2.5"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe Lugano, 700x32C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe Lugano, 700x32C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-speedster-20-2026",
+    "brand": "Scott",
+    "model": "Speedster 20",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-speedster-20-bike?article=4255858350008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114310/2223064.png",
+    "msrpEur": 1549,
+    "currentPriceEur": 1549,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 10.4,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 38,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Tiagra RD-4700-GS20 Speed",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 572,
+      "reachMm": 391,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 72.5,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 554,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 143,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1016,
+      "standoverHeightMm": 800
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 10.4 kg"
+    ],
+    "brakes": "Shimano BR-R4770 Hydr.Disc",
+    "tires": "Schwalbe Lugano, 700x32C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Speedster Disc, 6061 D.Butted AlloyEndurance geometry, int. cable routingSyncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Speedster HMF Disc1 1/4\"-1 1/2\" Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1133"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano Tiagra RD-4700-GS20 Speed"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Tiagra FD-4700"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano Tiagra ST-4720Dual control 20 Speed"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano Tiagra FC-R470050/34"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500-PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-HG50010 Speed 11-34"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X10"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-R4770 Hydr.Disc"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 Compact31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.51 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros RR2.5 27.2/350mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino Regular 2.5"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe Lugano, 700x32C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe Lugano, 700x32C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-foil-rc-tri-2027",
+    "brand": "Scott",
+    "model": "Foil RC TRI",
+    "year": 2027,
+    "discipline": "road_race",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-foil-rc-tri-bike?article=4275868558008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131451/2288149.png",
+    "msrpEur": 6999,
+    "currentPriceEur": 6999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM FORCE AXS 24-Speed",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "48/35T",
+      "cassette": "10-33T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.8
+    },
+    "geometry": {
+      "stackMm": 478,
+      "reachMm": 413,
+      "stackReachRatio": 1.16,
+      "headTubeAngleDeg": 72.3,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 540,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 75,
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 991,
+      "standoverHeightMm": 781
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8 kg",
+      "Ruedas Syncros Capital 1.0 60mm"
+    ],
+    "brakes": "SRAM eTap AXS Wireless Blips",
+    "wheels": "Syncros Capital 1.0 60mm, 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool",
+    "tires": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Foil RC Disc HMX, Race geometry, replaceable derailleur hanger, internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Foil RC Disc HMX, 1\" eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1138"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM FORCE AXS 24-Speed, Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "SRAM FORCE AXS Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM eTap AXS Wireless Blips"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM FORCE Powermeter 48-35T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM FORCE XG1270, 10-33T"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM FORCE"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM eTap AXS Wireless Blips"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "SRAM Paceline CL, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "SRAM Paceline CL, 140mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "ZIPP VUKA Bull, VUKA clip with carbon EVO extensions"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros Foil 1.5 Aero"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros Duncan SL Aero TRI"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Belcarra V 2.0 Cut-out, CrMo rails"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Capital 1.0 60mm, 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "8 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "SRAM AXS powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-foil-rc-team-replica-2027",
+    "brand": "Scott",
+    "model": "Foil RC Team Replica",
+    "year": 2027,
+    "discipline": "road_race",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-foil-rc-team-replica-bike?article=4279728652008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131756/2288905.png",
+    "msrpEur": 12399,
+    "currentPriceEur": 12399,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED AXS 24",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "48/35T",
+      "cassette": "10-33T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.8
+    },
+    "geometry": {
+      "stackMm": 548,
+      "reachMm": 389,
+      "stackReachRatio": 1.41,
+      "headTubeAngleDeg": 72.5,
+      "chainstayLengthMm": 412,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 523,
+      "headTubeLengthMm": 141,
+      "seatTubeAngleDeg": 73.6,
+      "wheelbaseMm": 993,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 7 kg",
+      "Ruedas ZIPP 454 NSW Carbon Tubeless"
+    ],
+    "brakes": "SRAM RED AXS HRD Shift-Brake System",
+    "wheels": "ZIPP 454 NSW Carbon Tubeless, 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool",
+    "tires": "Continental Grand Prix 5000 S TR 30x622",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Foil RC Disc HMX, Race geometry, replaceable derailleur hanger, internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Foil RC Disc HMX, 1\" eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1138S"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM RED AXS, 24 Speed, Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "SRAM RED AXS Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM RED AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM RED Powermeter Crankset, 48-35T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5 Ceramic Bearing"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XG1290 E1, 10-33"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM RED AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "SRAM Paceline X CL, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "SRAM Paceline X CL, 140mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston iC SL Aero, Carbon combo"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros Duncan SL Aero CFT"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Italia SLR 3D Carbon"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "ZIPP 454 NSW Carbon Tubeless, 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Continental Grand Prix 5000 S TR 30x622"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Continental Grand Prix 5000 S TR 30x622"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "7 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "SRAM AXS powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-foil-rc-team-2027",
+    "brand": "Scott",
+    "model": "Foil RC Team",
+    "year": 2027,
+    "discipline": "road_race",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-foil-rc-team-bike?article=4275948350008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131457/2288159.png",
+    "msrpEur": 7299,
+    "currentPriceEur": 7299,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.5,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM FORCE AXS 24-Speed",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "48/35T",
+      "cassette": "10-36T",
+      "minGearRatio": 0.97,
+      "maxGearRatio": 4.8
+    },
+    "geometry": {
+      "stackMm": 548,
+      "reachMm": 389,
+      "stackReachRatio": 1.41,
+      "headTubeAngleDeg": 72.5,
+      "chainstayLengthMm": 412,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 523,
+      "headTubeLengthMm": 141,
+      "seatTubeAngleDeg": 73.6,
+      "wheelbaseMm": 993,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 7.5 kg",
+      "Ruedas Syncros Capital 1.0S Aero 60mm"
+    ],
+    "brakes": "SRAM FORCE AXS HRD Shift-Brake System",
+    "wheels": "Syncros Capital 1.0S Aero 60mm, 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool",
+    "tires": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Foil RC Disc HMX, Race geometry, replaceable derailleur hanger, internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Foil RC Disc HMX, 1\" eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1138"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM FORCE AXS 24-Speed, Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "SRAM FORCE AXS Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM FORCE AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM FORCE Powermeter 48-35T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM FORCE XG1270, 10-36T"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM FORCE"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM FORCE AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "SRAM Paceline CL, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "SRAM Paceline CL, 140mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston iC SL Aero, Carbon combo"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros Duncan SL Aero CFT"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Belcarra V 2.0 Cut-out, CrMo rails"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Capital 1.0S Aero 60mm, 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "7.5 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "SRAM AXS Powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-foil-rc-10-2027",
+    "brand": "Scott",
+    "model": "Foil RC 10",
+    "year": 2027,
+    "discipline": "road_race",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-foil-rc-10-bike?article=4275953020008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131458/2288160.png",
+    "msrpEur": 6199,
+    "currentPriceEur": 6199,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.9,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra Di2 RD-R8150",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 548,
+      "reachMm": 389,
+      "stackReachRatio": 1.41,
+      "headTubeAngleDeg": 72.5,
+      "chainstayLengthMm": 412,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 523,
+      "headTubeLengthMm": 141,
+      "seatTubeAngleDeg": 73.6,
+      "wheelbaseMm": 993,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 7.9 kg",
+      "Ruedas Syncros Capital 1.0 60mm"
+    ],
+    "brakes": "Shimano BR-R8170 Hyd.Disc",
+    "wheels": "Syncros Capital 1.0 60mm, 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool",
+    "tires": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Foil RC Disc HMX, Race geometry, replaceable derailleur hanger, internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Foil RC Disc HMX, 1\" eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1138"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano Ultegra Di2 RD-R8150 24 Speed, Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Ultegra Di2 FD-R8150, Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano Ultegra Di2 ST-R8170, 24 Speed Electronic Shift System, Shimano BR-R8170 Hyd.Disc"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano Ultegra FC-R8100, Hollowtech II 52-36T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano SM-BB71-41B"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra CS-R8100-12, 11-34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M8100"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-R8170 Hyd.Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL800, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL800, 140mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 1.0 Aero"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros Foil 1.5 Aero"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros Duncan SL Aero CFT"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Belcarra V 2.0 Cut-out, CrMo rails"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Capital 1.0 60mm, 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "7.9 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Shimano Built in DN300"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-foil-rc-20-2027",
+    "brand": "Scott",
+    "model": "Foil RC 20",
+    "year": 2027,
+    "discipline": "road_race",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-foil-rc-20-bike?article=4275968086008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131463/2288162.png",
+    "msrpEur": 5199,
+    "currentPriceEur": 5199,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.1,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 Di2 RD-R7150",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 548,
+      "reachMm": 389,
+      "stackReachRatio": 1.41,
+      "headTubeAngleDeg": 72.5,
+      "chainstayLengthMm": 412,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 523,
+      "headTubeLengthMm": 141,
+      "seatTubeAngleDeg": 73.6,
+      "wheelbaseMm": 993,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8.1 kg",
+      "Ruedas Syncros Capital 1.0 60mm"
+    ],
+    "brakes": "Shimano BR-R7170 Hyd.Disc",
+    "wheels": "Syncros Capital 1.0 60mm, 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool",
+    "tires": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Foil RC Disc HMX, Race geometry, replaceable derailleur hanger, internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Foil RC Disc HMX, 1\" eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1138"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano 105 Di2 RD-R7150 24 Speed, Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano 105 Di2 FD-R7150, Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano 105 Di2 ST-R7170, 24 Speed Electronic Shift System, Shimano BR-R7170 Hyd.Disc"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano 105 FC-R7100, Hollowtech II 52-36T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500-PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-R7100, 11-34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-R7170 Hyd.Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL700, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL700, 140mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 Aero"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros Foil 1.5 Aero"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros Duncan SL Aero CFT"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Belcarra V 2.0 Cut-out, CrMo rails"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Capital 1.0 60mm, 24 Front, 24 Rear, Syncros SL Axle, removable lever with tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold, 700x28C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "8.1 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Shimano Built in DN300"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-foil-rc-tri-2026",
+    "brand": "Scott",
+    "model": "Foil RC TRI",
+    "year": 2026,
+    "discipline": "road_race",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-foil-rc-tri-bike?article=4253488087008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114303/2223048.png",
+    "msrpEur": 6999,
+    "currentPriceEur": 6999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM FORCE AXS24 Speed",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 548,
+      "reachMm": 389,
+      "stackReachRatio": 1.41,
+      "headTubeAngleDeg": 72.5,
+      "chainstayLengthMm": 412,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 523,
+      "headTubeLengthMm": 141,
+      "seatTubeAngleDeg": 73.6,
+      "wheelbaseMm": 993,
+      "standoverHeightMm": 801
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8 kg",
+      "Ruedas ZIPP 303S Carbon tubeless24 Front"
+    ],
+    "brakes": "SRAM S900 HRD flat mount",
+    "wheels": "ZIPP 303S Carbon tubeless24 Front, 24 RearSyncros SL Axle, Removable Lever with Tool",
+    "tires": "Schwalbe PRO ONE Aero, TL-Easy, Fold,700x28C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "FOIL RC HMXRoad Race geometry, Replaceable Derailleur HangerInternal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "FOIL RC HMXFlatmount Disc1\" Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1138"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM FORCE AXS24 Speed Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "SRAM FORCE AXS Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM eTap AXS Wireless Blips"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM FORCE Crankset48/35"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM FORCE XG127010-36"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM FORCE"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM S900 HRD flat mount"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "ZIPP VUKA Bull, VUKA clip with carbon EVO extensions"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros Foil 1.5 Aero"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros Duncan SL Aero CFT"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Belcarra V 2.0 NEO Cut Out"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "ZIPP 303S Carbon tubeless24 Front, 24 RearSyncros SL Axle, Removable Lever with Tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold,700x28C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe PRO ONE Aero, TL-Easy, Fold,700x28C"
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -5406,5 +5406,3902 @@
         ]
       }
     ]
+  },
+  {
+    "id": "scott-scale-gravel-rc-2026",
+    "brand": "Scott",
+    "model": "Scale Gravel RC",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-scale-gravel-rc-bike?article=4254903020008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114285/2222974.png",
+    "msrpEur": 5099,
+    "currentPriceEur": 5099,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9.1,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM X0 Eagle AXS",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "34T",
+      "cassette": "10-52T",
+      "minGearRatio": 0.65,
+      "maxGearRatio": 3.4
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 442,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 67.9,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 440,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 75.4,
+      "wheelbaseMm": 1131,
+      "standoverHeightMm": 781
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 9.1 kg",
+      "Ruedas Syncros Silverton 1.0X CLF: 15x110mm"
+    ],
+    "brakes": "SRAM Motive Silver 4-Piston Disc",
+    "wheels": "Syncros Silverton 1.0X CLF: 15x110mm, R: 12x148mmTubeless ready Carbon rim 28H, XD DriverSyncros Axl",
+    "tires": "Schwalbe Thunder Burt 29x2.35\" EVOSuper Ground, TLE, 67EPI, Addix Speed",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Scale Carbon HMFAdjustable head angle, Syncros Cable Integration SystemAdvanced Shock & Standing Damping SystemBB92, UDH Interface, 12x148mm with 55mm Chainline"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Scale Rigid HMFPostmount Disc StandardTapered Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Syncros - Acros Angle adjust & Cable Routing HS System+-0.6° head angle adjustmentZS56/28.6 – ZS56/40 MTB"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM X0 Eagle AXS Transmission 12 SpeedWireless Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM AXS Rocker Pod Controller"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM X0 Eagle TransmissionSpindle Power Meter, DUB, 55mm CL, 34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF 92 MTB Wide, shell 41x92mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM X0 Eagle XS 1295 Transmission 10-52"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM CN X0 Eagle Transmission"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM Motive Silver 4-Piston Disc"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Fraser iC SL XC Carbon-20° rise, back sweep 8°, 740mmSyncros Performance XC lock-on grips"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros Duncan 1.0 Carbon, 10mm offset31.6x400mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Belcarra V2.0 Cut OutCRMO rails"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Silverton 1.0X CLF: 15x110mm, R: 12x148mmTubeless ready Carbon rim 28H, XD DriverSyncros Axle w/Removable Leverwith 6mm Allen, T30 and T25 Tools"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe Thunder Burt 29x2.35\" EVOSuper Ground, TLE, 67EPI, Addix Speed"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe Thunder Burt 29x2.35\" EVOSuper Ground, TLE, 67EPI, Addix Speed"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "9.1 (Tubless setup) kg"
+          },
+          {
+            "label": "Extras",
+            "value": "SRAM AXS Powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-gravel-premium-2027",
+    "brand": "Scott",
+    "model": "Addict Gravel Premium",
+    "year": 2027,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-gravel-premium-bike?article=4276128602008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131508/2288210.png",
+    "msrpEur": 9499,
+    "currentPriceEur": 9499,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.4,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED XPLR AXS",
+      "isElectronic": true,
+      "speedCount": 13,
+      "chainrings": "42T",
+      "cassette": "10-46T",
+      "minGearRatio": 0.91,
+      "maxGearRatio": 4.2
+    },
+    "geometry": {
+      "stackMm": 575,
+      "reachMm": 398,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 70,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 562,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 147,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1060,
+      "standoverHeightMm": 813
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8.4 kg",
+      "Ruedas Fulcrum Sharq GR Cult Carbon"
+    ],
+    "brakes": "SRAM RED AXS HRD Shift-Brake System",
+    "wheels": "Fulcrum Sharq GR Cult Carbon, 24 Front - 24 Rear, Syncros SL Axle",
+    "tires": "Schwalbe G-One RX PRO Evolution, 700x50C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict Gravel HMX Carbon, Ride geometry, replaceable UDH derailleur hanger, internal cable routing, integrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMX Flatmount Disc, 27.2 mm eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317S stainless"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM RED XPLR AXS, 13 Speed, Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM RED AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM RED XPLR AXS Crankset, 42T, Powermeter"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5 Wide"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XPLR XG1391, 10-46T"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM RED AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "SRAM Paceline X CL, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "SRAM Paceline X CL, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros SYN IC-R501-CF2, Carbon combo"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Kildala SD-R501"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Fulcrum Sharq GR Cult Carbon, 24 Front - 24 Rear, Syncros SL Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX PRO Evolution, 700x50C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX PRO Evolution, 700x50C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "8.4 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros Save the Day KitIS-M100, Syncros handlebar tool and tubeless kit, SRAM AXS powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-gravel-10-2027",
+    "brand": "Scott",
+    "model": "Addict Gravel 10",
+    "year": 2027,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-gravel-10-bike-427613?article=4276138517008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131509/2288211.png",
+    "msrpEur": 6799,
+    "currentPriceEur": 6799,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.7,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM FORCE XPLR AXS",
+      "isElectronic": true,
+      "speedCount": 13,
+      "chainrings": "42T",
+      "cassette": "10-46T",
+      "minGearRatio": 0.91,
+      "maxGearRatio": 4.2
+    },
+    "geometry": {
+      "stackMm": 575,
+      "reachMm": 398,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 70,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 562,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 147,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1060,
+      "standoverHeightMm": 813
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8.7 kg",
+      "Ruedas Fulcrum Soniq GR Carbon"
+    ],
+    "brakes": "SRAM FORCE AXS HRD Shift-Brake System",
+    "wheels": "Fulcrum Soniq GR Carbon, 24 Front, 24 Rear, Syncros SL Axle",
+    "tires": "Schwalbe G-One RX PRO Evolution, 700x50C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict Gravel HMX Carbon, ride geometry, replaceable UDH derailleur hanger, internal cable routing, integrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMX Flatmount Disc, 27.2 mm eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM FORCE XPLR AXS, 13 Speed Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM FORCE AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM FORCE XPLR AXS Crankset, 42T, Powermeter"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5 Wide"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM FORCE XPLR XG1371, 10-46T"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM FORCE"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM FORCE AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "SRAM Paceline CL, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "SRAM Paceline CL, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros SYN IC-R501-CF2, Carbon combo"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Kildala SD-R505"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Fulcrum Soniq GR Carbon, 24 Front, 24 Rear, Syncros SL Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX PRO Evolution, 700x50C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX PRO Evolution, 700x50C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "8.7 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros Save the Day KitIS-M100, Syncros handlebar tool and tubeless kit, SRAM AXS powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-gravel-20-2027",
+    "brand": "Scott",
+    "model": "Addict Gravel 20",
+    "year": 2027,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-gravel-20-bike-427614?article=4276148554008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131475/2288189.png",
+    "msrpEur": 5799,
+    "currentPriceEur": 5799,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.9,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM FORCE XPLR AXS",
+      "isElectronic": true,
+      "speedCount": 13,
+      "chainrings": "42T",
+      "cassette": "10-46T",
+      "minGearRatio": 0.91,
+      "maxGearRatio": 4.2
+    },
+    "geometry": {
+      "stackMm": 575,
+      "reachMm": 398,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 70,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 562,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 147,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1060,
+      "standoverHeightMm": 813
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8.9 kg",
+      "Ruedas Fulcrum Soniq GR Carbon"
+    ],
+    "brakes": "SRAM FORCE AXS HRD Shift-Brake System",
+    "wheels": "Fulcrum Soniq GR Carbon, 24 Front, 24 Rear, Syncros SL Axle",
+    "tires": "Schwalbe G-One RX PRO Evolution, 700x50C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict Gravel HMF Carbon, ride geometry, replaceable UDH derailleur hanger, internal cable routing, integrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMF Flatmount Disc, 27.2 mm eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM FORCE XPLR AXS, 13 Speed Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM FORCE AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM FORCE XPLR AXS Crankset, 42T, Powermeter"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5 Wide"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM FORCE XPLR XG1371, 10-46T"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM FORCE"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM FORCE AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "SRAM Paceline CL, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "SRAM Paceline CL, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros HB-R502-AL2, 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros ST-R310-AL"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Kildala SD-R505"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Fulcrum Soniq GR Carbon, 24 Front, 24 Rear, Syncros SL Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX PRO Evolution, 700x50C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX PRO Evolution, 700x50C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "8.9 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros Save the Day KitIS-M100, Syncros handlebar tool, SRAM AXS powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-gravel-30-2027",
+    "brand": "Scott",
+    "model": "Addict Gravel 30",
+    "year": 2027,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-gravel-30-bike-427615?article=4276158557008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131482/2288192.png",
+    "msrpEur": 4299,
+    "currentPriceEur": 4299,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RIVAL XPLR AXS",
+      "isElectronic": true,
+      "speedCount": 13,
+      "chainrings": "42T",
+      "cassette": "10-46T",
+      "minGearRatio": 0.91,
+      "maxGearRatio": 4.2
+    },
+    "geometry": {
+      "stackMm": 575,
+      "reachMm": 398,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 70,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 562,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 147,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1060,
+      "standoverHeightMm": 813
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 9 kg",
+      "Ruedas Syncros Capital GR 35 CF II"
+    ],
+    "brakes": "SRAM RIVAL AXS HRD Shift-Brake System",
+    "wheels": "Syncros Capital GR 35 CF II, 24 Front, 24 Rear, Syncros Axle",
+    "tires": "Schwalbe G-One RX PRO Evolution, 700x50C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict Gravel HMF Carbon, ride geometry, replaceable UDH derailleur hanger, internal cable routing, integrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMF Flatmount Disc, 27.2 mm eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM RIVAL XPLR AXS, 13 Speed, Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM RIVAL AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM RIVAL XPLR Crankset, 42T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5 Wide"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RIVAL XPLR XG1351, 10-46T"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RIVAL"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM RIVAL AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "SRAM Paceline CL, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "SRAM Paceline CL, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros HB-R502-AL2, 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros ST-R310-AL"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Kildala SD-R505"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Capital GR 35 CF II, 24 Front, 24 Rear, Syncros Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX PRO Evolution, 700x50C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX PRO Evolution, 700x50C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "9 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros handlebar tool, SRAM AXS powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-gravel-40-2027",
+    "brand": "Scott",
+    "model": "Addict Gravel 40",
+    "year": 2027,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-gravel-40-bike?article=4276163020008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131483/2288193.png",
+    "msrpEur": 2899,
+    "currentPriceEur": 2899,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9.7,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RD-RX822 GS",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "40T",
+      "cassette": "11-45T",
+      "minGearRatio": 0.89,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 575,
+      "reachMm": 398,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 70,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 562,
+      "seatTubeLengthMm": 495,
+      "headTubeLengthMm": 147,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1060,
+      "standoverHeightMm": 813
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 9.7 kg",
+      "Ruedas Syncros Capital GR 25 AL II"
+    ],
+    "brakes": "Shimano BR-RX410 Hyd. Disc",
+    "wheels": "Syncros Capital GR 25 AL II, 24 Front, 24 Rear, Syncros Axle",
+    "tires": "Schwalbe G-One RX PRO Evolution, 700x50C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict Gravel HMF Carbon, ride geometry, replaceable UDH derailleur hanger, internal cable routing, integrated storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMF Flatmount Disc, 27.2 mm eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1317"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano GRX RD-RX822 GS, 12 Speed"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano BR-RX410 Hyd. Disc, Shimano GRX ST-RX610, BL-RX610L, 12 Speed"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano GRX FC-RX610-1, 40T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500-PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano SLX CS-M7100, 11-45T"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RX410 Hyd. Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL700, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL700, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros HB-R502-AL2, 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros ST-R310-AL"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Kildala SD-R505"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Capital GR 25 AL II, 24 Front, 24 Rear, Syncros Axle"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX PRO Evolution, 700x50C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX PRO Evolution, 700x50C"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "9.7 kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Syncros handlebar tool"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-gravel-10-2026",
+    "brand": "Scott",
+    "model": "Addict Gravel 10",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-gravel-10-bike?article=4253648329008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114284/2222966.png",
+    "msrpEur": 5449,
+    "currentPriceEur": 5449,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.4,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM FORCE XPLR AXS13",
+      "isElectronic": true,
+      "speedCount": 13,
+      "chainrings": "40T",
+      "cassette": "10-46T",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "geometry": {
+      "stackMm": 565,
+      "reachMm": 387,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 528,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1029,
+      "standoverHeightMm": 807
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8.4 kg",
+      "Ruedas Fulcrum Rapid RED Carbon24 Front"
+    ],
+    "brakes": "SRAM FORCE AXS HRD Shift-Brake System",
+    "wheels": "Fulcrum Rapid RED Carbon24 Front, 24 RearSyncros SL Axle, Removable Lever with Tool",
+    "tires": "Schwalbe G-One RX, 700x45C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict Gravel HMF CarbonGravel geometry, Replaceable UDH Derailleur HangerInternal cable routingSyncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMF Flatmount Disc1 1/4\"-1 1/2\" Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1134"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM FORCE XPLR AXS13 Speed Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM FORCE AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM FORCE XPLR Crankset, 42 T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM FORCE XPLR XG1371, 10-46"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM FORCE"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM FORCE AXS HRD Shift-Brake System"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 1.0 XCarbon 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.0 1 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino Regular 2.0 Cutout"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Fulcrum Rapid RED Carbon24 Front, 24 RearSyncros SL Axle, Removable Lever with Tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-gravel-15-2026",
+    "brand": "Scott",
+    "model": "Addict Gravel 15",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-gravel-15-bike?article=4256873020008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114289/2222983.png",
+    "msrpEur": 5249,
+    "currentPriceEur": 5249,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.7,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano RD-RX825 GRX Di224",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "48/31T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.91,
+      "maxGearRatio": 4.36
+    },
+    "geometry": {
+      "stackMm": 565,
+      "reachMm": 387,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 528,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1029,
+      "standoverHeightMm": 807
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8.7 kg",
+      "Ruedas Fulcrum Rapid RED Carbon24 Front"
+    ],
+    "brakes": "Shimano BR-RX820 Hyd.Disc",
+    "wheels": "Fulcrum Rapid RED Carbon24 Front, 24 RearSyncros SL Axle, Removable Lever with Tool",
+    "tires": "Schwalbe G-One RX, 700x45C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict Gravel HMF CarbonGravel geometry, Replaceable UDH Derailleur HangerInternal cable routingSyncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMF Flatmount Disc1 1/4\"-1 1/2\" Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1134"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano RD-RX825 GRX Di224 Speed Electronic Shift System"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano FD-RX825F GRX Di2Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano GRX ST-RX825Dual control 24 Speed Electronic Shift System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano GRX FC-RX820-2 48/31"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano SM-BB71-41B"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-HG710-1211-36"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M8100-12"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RX820 Hyd.Disc"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 1.0 XCarbon 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.0 1 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino Regular 2.0 Cutout"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Fulcrum Rapid RED Carbon24 Front, 24 RearSyncros SL Axle, Removable Lever with Tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-gravel-20-2026",
+    "brand": "Scott",
+    "model": "Addict Gravel 20",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-gravel-20-bike?article=4253658318008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114284/2222967.png",
+    "msrpEur": 4249,
+    "currentPriceEur": 4249,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.8,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RIVAL XPLR AXS13",
+      "isElectronic": true,
+      "speedCount": 13,
+      "chainrings": "40T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.18,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 565,
+      "reachMm": 387,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 528,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1029,
+      "standoverHeightMm": 807
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 8.8 kg",
+      "Ruedas Syncros Capital 1.0 40 Carbon24 Front"
+    ],
+    "brakes": "SRAM RIVAL AXS HRD Shift-Brake System",
+    "wheels": "Syncros Capital 1.0 40 Carbon24 Front, 24 RearSyncros SL Axle, Removable Lever with Tool",
+    "tires": "Schwalbe G-One RX, 700x45C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict Gravel HMF CarbonGravel geometry, Replaceable UDH Derailleur HangerInternal cable routingSyncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMF Flatmount Disc1 1/4\"-1 1/2\" Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1134"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM RIVAL XPLR AXS13 Speed Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM RIVAL AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM RIVAL XPLR Crankset, 42 T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RIVAL XPLR XG135110-46"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RIVAL"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM RIVAL AXS HRD Shift-Brake System"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 XAlloy 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.0 1 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino Regular 2.0 Cutout"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Capital 1.0 40 Carbon24 Front, 24 RearSyncros SL Axle, Removable Lever with Tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-gravel-30-2026",
+    "brand": "Scott",
+    "model": "Addict Gravel 30",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-gravel-30-bike?article=4253663020008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114284/2222969.png",
+    "msrpEur": 2849,
+    "currentPriceEur": 2849,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9.5,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RD-RX822 GS12",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "40T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.18,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 565,
+      "reachMm": 387,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 528,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1029,
+      "standoverHeightMm": 807
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 9.5 kg",
+      "Ruedas Syncros RP2.0 DiscSyncros SL Axle"
+    ],
+    "brakes": "Shimano BR-RX410 Hyd. Disc",
+    "wheels": "Syncros RP2.0 DiscSyncros SL Axle, Removable Lever with Tool",
+    "tires": "Schwalbe G-One RX, 700x45C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict Gravel HMF CarbonGravel geometry, Replaceable UDH Derailleur HangerInternal cable routingSyncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMF Flatmount Disc1 1/4\"-1 1/2\" Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1134"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano GRX RD-RX822 GS12 Speed"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano GRX ST-RX610, BL-RX610L12 Speed"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano GRX FC-RX610-140"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500 PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-M7100-1210-45"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100-12"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RX410 Hyd. Disc"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 XAlloy 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.0 1 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino Regular 2.0 Cutout"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros RP2.0 DiscSyncros SL Axle, Removable Lever with Tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-gravel-40-2026",
+    "brand": "Scott",
+    "model": "Addict Gravel 40",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-gravel-40-bike?article=4253678355008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114286/2222973.png",
+    "msrpEur": 2849,
+    "currentPriceEur": 2849,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9.5,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RD-RX82024 Speed",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "46/30T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 565,
+      "reachMm": 387,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 528,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1029,
+      "standoverHeightMm": 807
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 9.5 kg",
+      "Ruedas Syncros RP2.0 DiscSyncros SL Axle"
+    ],
+    "brakes": "Shimano BR-RX410 Hyd. Disc",
+    "wheels": "Syncros RP2.0 DiscSyncros SL Axle, Removable Lever with Tool",
+    "tires": "Schwalbe G-One RX, 700x45C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict Gravel HMF CarbonGravel geometry, Replaceable UDH Derailleur HangerInternal cable routingSyncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMF Flatmount Disc1 1/4\"-1 1/2\" Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1134"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano GRX RD-RX82024 Speed"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX FD-RX820-F"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano GRX ST-RX610, 24 Speed"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano GRX FC-RX610-246-30"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500 PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-HG710-1211-36"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100-12"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RX410 Hyd. Disc"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 XAlloy 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.0 1 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino Regular 2.0 Cutout"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros RP2.0 DiscSyncros SL Axle, Removable Lever with Tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-speedster-gravel-10-2026",
+    "brand": "Scott",
+    "model": "Speedster Gravel 10",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-speedster-gravel-10-bike?article=4256358320008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114287/2222977.png",
+    "msrpEur": 1999,
+    "currentPriceEur": 1999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 10.7,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RD-RX822 GS12",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "40T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.18,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 575,
+      "reachMm": 385,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 439,
+      "topTubeLengthMm": 561,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 148,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1045,
+      "standoverHeightMm": 806
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 10.7 kg"
+    ],
+    "brakes": "Shimano BR-RX410 Hyd. Disc",
+    "tires": "Schwalbe G-One RX, 700x45C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Speedster Gravel, D.Butted 6061 AlloySCOTT Gravel geometry, Replaceable UDH Derailleur HangerInternal cable routingSyncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Speedster Gravel HMF Flatmount Disc1 1/4\"-1 1/2\" Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1133"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano GRX RD-RX822 GS12 Speed"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano GRX ST-RX610, BL-RX610L12 Speed"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano GRX FC-RX610-140"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500 PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-M7100-1210-45"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100-12"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RX410 Hyd. Disc"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 XAlloy 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.5 1 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros RR2.5 27.2/350mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino Regular 2.5"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-speedster-gravel-20-2026",
+    "brand": "Scott",
+    "model": "Speedster Gravel 20",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-speedster-gravel-20-bike?article=4256368355008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114288/2222979.png",
+    "msrpEur": 1749,
+    "currentPriceEur": 1749,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 11.3,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano CUES RD-U6020-1020 Speed",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "46/30T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 575,
+      "reachMm": 385,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 439,
+      "topTubeLengthMm": 561,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 148,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1045,
+      "standoverHeightMm": 806
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 11.3 kg"
+    ],
+    "brakes": "Shimano BR-RS405 Hyd. Disc",
+    "tires": "Schwalbe G-One RX, 700x45C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Speedster Gravel, D.Butted 6061 AlloySCOTT Gravel geometry, Replaceable UDH Derailleur HangerInternal cable routingSyncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "1 1/4\"-1 1/2\" Eccentric Carbon steererSpeedster Gravel HMF Flatmount Disc"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1133"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano CUES RD-U6020-1020 Speed"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano CUES FD-U6030"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano CUES BR-RS405/ST-U6030-10/11"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano CUES FC-U6040-2-46/32T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-LG400-1011-39"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-LG500"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RS405 Hyd. Disc"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 XAlloy 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.5 1 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros RR2.5 27.2/350mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino Regular 2.5"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-speedster-gravel-30-2026",
+    "brand": "Scott",
+    "model": "Speedster Gravel 30",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-speedster-gravel-30-bike?article=4256370001008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114288/2222980.png",
+    "msrpEur": 1599,
+    "currentPriceEur": 1599,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 11.1,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano CUES RD-U600010 Speed",
+      "isElectronic": false,
+      "speedCount": 10,
+      "chainrings": "40T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.18,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 575,
+      "reachMm": 385,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 439,
+      "topTubeLengthMm": 561,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 148,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1045,
+      "standoverHeightMm": 806
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 11.1 kg"
+    ],
+    "brakes": "Shimano BR-RS405 Hyd. Disc",
+    "tires": "Schwalbe G-One RX, 700x45C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Speedster Gravel, D.Butted 6061 AlloySCOTT Gravel geometry, Replaceable UDH Derailleur HangerInternal cable routingSyncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Speedster Gravel HMF Flatmount Disc1 1/4\"-1 1/2\" Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1133"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano CUES RD-U600010 Speed"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano CUES BR-RS405/ST-U6030-10/11/BL-U6030"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano FC-U6030-1-42T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-LG400-1011-48"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-LG500"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RS405 Hyd. Disc"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 XAlloy 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.5 1 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros RR2.5 27.2/350mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino Regular 2.5"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-speedster-gravel-40-2026",
+    "brand": "Scott",
+    "model": "Speedster Gravel 40",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-speedster-gravel-40-bike?article=4276238513008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131503/2288203.png",
+    "msrpEur": 1599,
+    "currentPriceEur": 1599,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 11,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Cues RD-U6000 10/11-Speed",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "40T",
+      "cassette": "11-48T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 575,
+      "reachMm": 385,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 439,
+      "topTubeLengthMm": 561,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 148,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1045,
+      "standoverHeightMm": 806
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 11 kg"
+    ],
+    "brakes": "Shimano BR-RS405 Hyd. Disc.",
+    "tires": "Schwalbe G-One RX, 700x45C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Speedster Gravel, D.Butted 6061 alloy, SCOTT ride geometry, Replaceable UDH derailleur hanger, Internal cable routing, Syncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMF Flatmount Disc, 1 1/4\"-1 1/2\" eccentric carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1113"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano Cues RD-U6000 10/11-Speed"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano Cues FC-U6030 40T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500-PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Cues CS-LG400, 10-Speed 11-48T"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-LG500"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RS405 Hyd. Disc."
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL300, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL300, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 X, Alloy 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.5, 1 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros RR2.5 27.2/350mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino R 2.5"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-speedster-gravel-team-2026",
+    "brand": "Scott",
+    "model": "Speedster Gravel Team",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-speedster-gravel-team-bike?article=4256888339008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114289/2222984.png",
+    "msrpEur": 1999,
+    "currentPriceEur": 1999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 10.6,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RD-RX82024 Speed",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "46/30T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 575,
+      "reachMm": 385,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 439,
+      "topTubeLengthMm": 561,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 148,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1045,
+      "standoverHeightMm": 806
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 10.6 kg"
+    ],
+    "brakes": "Shimano BR-RX410 Hyd. Disc",
+    "tires": "Schwalbe G-One RX, 700x45C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Speedster Gravel, D.Butted 6061 AlloySCOTT Gravel geometry, Replaceable UDH Derailleur HangerInternal cable routingSyncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Speedster Gravel HMF Flatmount Disc1 1/4\"-1 1/2\" Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1133"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano GRX RD-RX82024 Speed"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX FD-RX820-F"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano GRX ST-RX610 Disc24 Speed"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano GRX FC-RX610-246-30"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS500 PB"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-HG71011-36"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100-12"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RX410 Hyd. Disc"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 XAlloy 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros RR2.5 1 1/4\", four Bolt 31.8mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros RR2.5 27.2/350mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino Regular 2.5"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RX, 700x45C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-scale-gravel-10-2027",
+    "brand": "Scott",
+    "model": "Scale Gravel 10",
+    "year": 2027,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-scale-gravel-10-bike?article=4276178531008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131492/2288196.png",
+    "msrpEur": 5199,
+    "currentPriceEur": 5199,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM X0 Eagle AXS",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "34T",
+      "cassette": "10-52T",
+      "minGearRatio": 0.65,
+      "maxGearRatio": 3.4
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 442,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 67.9,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 440,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 75.4,
+      "wheelbaseMm": 1131,
+      "standoverHeightMm": 781
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 9 kg",
+      "Ruedas Syncros Silverton 1.0X CL"
+    ],
+    "brakes": "SRAM Motive Silver 4-Piston",
+    "wheels": "Syncros Silverton 1.0X CL, F: 15x110mm, R: 12x148mm, Tubeless ready Carbon rim 28H, XD Driver",
+    "tires": "Maxxis Rekon Race 29x2.4”, 60TPI Foldable, Tubeless Ready, EXO",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Scale HMF Carbon, adjustable head angle, Syncros Cable Integration System, advanced shock & standing damping system, BB92, UDH interface, 12x148mm with 55mm chainline"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Scale Rigid HMF, postmount disc standard, tapered carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Syncros - Acros Angle adjust & Cable Routing HS System, Stainless, +-0.6° head angle adjustment, ZS56/28.6 – ZS56/40 MTB"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM X0 Eagle AXS Transmission 12 Speed, Wireless Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM AXS Rocker Pod Controller"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM X0 Eagle Transmission, Spindle Powermeter, DUB, 55mm CL, 34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF 92 MTB Wide, shell 41x92mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM X0 Eagle XS-1295 Transmisson, 10-52T"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM X0 Eagle Transmission"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM Motive Silver 4-Piston"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "SRAM HS2 CL, 180mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "SRAM HS2 CL, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Fraser iC SL XC Carbon, -20° rise, back sweep 8°, 740mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros Carbon, 10mm offset, 31.6x400mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Celista Cut Out, Carbon Rails"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros Performance XC Lock-On"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Syncros Silverton 1.0X CL, F: 15x110mm, R: 12x148mm, Tubeless ready Carbon rim 28H, XD Driver"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Maxxis Rekon Race 29x2.4”, 60TPI Foldable, Tubeless Ready, EXO"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Maxxis Rekon Race 29x2.4”, 60TPI Foldable, Tubeless Ready, EXO"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "9 Tubless kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Spirgrips Inner Bar ends, SRAM AXS powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-scale-gravel-20-2027",
+    "brand": "Scott",
+    "model": "Scale Gravel 20",
+    "year": 2027,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-scale-gravel-20-bike?article=4276188513008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131493/2288197.png",
+    "msrpEur": 2849,
+    "currentPriceEur": 2849,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 11.4,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM S1000 Eagle AXS",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "34T",
+      "cassette": "10-52T",
+      "minGearRatio": 0.65,
+      "maxGearRatio": 3.4
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 442,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 67.9,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 440,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 75.4,
+      "wheelbaseMm": 1131,
+      "standoverHeightMm": 781
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 11.4 kg"
+    ],
+    "brakes": "SRAM DB6 4-Piston",
+    "tires": "Maxxis Aspen 29x2.4\", 120TPI Foldable Bead, Tubeless Ready, EXO",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Scale HMF Carbon, adjustable head angle, Syncros Cable Integration System, advanced shock & standing damping system, BB92, UDH interface, 12x148mm with 55mm chainline"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Scale Rigid HMF, postmount disc standard, tapered carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Syncros - Acros Angle adjust & Cable Routing HS System, Stainless, +-0.6° head angle adjustment, ZS56/28.6 – ZS56/40 MTB"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM S1000 Eagle AXS Transmission 12 Speed, Wireless Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM AXS Pod Controller"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM Eagle 70 Transmission, DUB, 55mm CL, 34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF 92 MTB Wide, shell 41x92mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Eagle XS-1270 Transmission, 10-52T"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Eagle 70 Transmission"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM DB6 4-Piston"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "SRAM Centerline CL, 180mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "SRAM Centerline CL, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Alloy 6061, T shape Flat, 9°, 740mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros Alloy 6061, oversized 31.8mm, 1 1/8\", 6° angle"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros alloy, 10mm offset, 31.6x400mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Celista Cut Out"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros Performance XC Lock-On"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Maxxis Aspen 29x2.4\", 120TPI Foldable Bead, Tubeless Ready, EXO"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Maxxis Aspen 29x2.4\", 120TPI Foldable Bead, Tubeless Ready, EXO"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "11.4 Tubless kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Spirgrips Inner Bar ends, SRAM AXS powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-scale-gravel-30-2027",
+    "brand": "Scott",
+    "model": "Scale Gravel 30",
+    "year": 2027,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-scale-gravel-30-bike?article=4276198554008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131498/2288198.png",
+    "msrpEur": 1599,
+    "currentPriceEur": 1599,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 11.7,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Deore RD-M7200 12-speed",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "34T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.67,
+      "maxGearRatio": 3.4
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 442,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 67.9,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 440,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 75.4,
+      "wheelbaseMm": 1131,
+      "standoverHeightMm": 781
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 11.7 kg"
+    ],
+    "brakes": "Shimano BR-MT401 2-Piston",
+    "tires": "Maxxis Aspen 29x2.4\", 120TPI Foldable Bead, Tubeless Ready, EXO",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Scale Alloy 6061 Custom Butted Tubing, Tapered Headtube, BB92, UDH interface, Boost 12x148mm with 55mm chainline"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Scale Rigid HMF, postmount disc standard, tapered carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Cable Routing Headset ZS56/28.6 – ZS56/40"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano Deore RD-M7200 12-speed"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano Deore SL-M6200"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano FC-MT520, 34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-MT500 PF"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore CS-M6200, 10-51T"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-MT401 2-Piston"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano SM-RT10 CL, 180mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano SM-RT10 CL, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Alloy 6061, T shape Flat, 9°, 740mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros Alloy 6061, oversized 31.8mm, 1 1/8\", 6° angle"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros alloy, 10mm offset, 31.6x400mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Celista Cut Out"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros Performance XC"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Maxxis Aspen 29x2.4\", 120TPI Foldable Bead, Tubeless Ready, EXO"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Maxxis Aspen 29x2.4\", 120TPI Foldable Bead, Tubeless Ready, EXO"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "11.7 without pedals kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Spirgrips Inner Bar ends"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-scale-gravel-10-2026",
+    "brand": "Scott",
+    "model": "Scale Gravel 10",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-scale-gravel-10-bike?article=4254918318008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114286/2222975.png",
+    "msrpEur": 2849,
+    "currentPriceEur": 2849,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 10.5,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM S1000 Eagle AXS",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "34T",
+      "cassette": "10-52T",
+      "minGearRatio": 0.65,
+      "maxGearRatio": 3.4
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 442,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 67.9,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 440,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 75.4,
+      "wheelbaseMm": 1131,
+      "standoverHeightMm": 781
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 10.5 kg"
+    ],
+    "brakes": "SRAM DB6 4-Piston Disc",
+    "tires": "Maxxis Aspen, 29x2.4\", 120TPI Foldable BeadTubeless Ready, EXO",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Scale Carbon HMFAdjustable head angle, Syncros Cable Integration SystemAdvanced Shock & Standing Damping SystemBB92, UDH Interface, 12x148mm with 55mm Chainline"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Scale Rigid HMFPostmount Disc StandardTapered Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Syncros - Acros Angle adjust & Cable Routing HS System+-0.6° head angle adjustmentZS56/28.6 – ZS56/40 MTB"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM S1000 Eagle AXS Transmission 12 SpeedWireless Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM AXS Pod Controller"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM Eagle 70 TransmissionDUB, 55mm CL, 34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF 92 MTB Wide, shell 41x92mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Eagle XS 1270 V2 Transmission 10-52"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM CN Eagle 70 Transmission"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM DB6 4-Piston Disc"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Fraser 2.0 XC Alloy 6061 D.B.Flat Bar, 8°, 740mm, Syncros Performance XC lock-on grips"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros XC 2.0Syncros Cable Integration System-12° rise, 6061 Alloy, 31.8mm, 1 1/8\""
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros Duncan 2.0, 10mm offset31.6x400mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Belcarra V2.0 Cut OutCRMO rails"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Maxxis Aspen, 29x2.4\", 120TPI Foldable BeadTubeless Ready, EXO"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Maxxis Aspen, 29x2.4\", 120TPI Foldable BeadTubeless Ready, EXO"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "10.5 (Tubless setup) kg"
+          },
+          {
+            "label": "Extras",
+            "value": "SRAM AXS Powerpack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-scale-gravel-20-2026",
+    "brand": "Scott",
+    "model": "Scale Gravel 20",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-scale-gravel-20-bike?article=4254928332008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114287/2222976.png",
+    "msrpEur": 1599,
+    "currentPriceEur": 1599,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 11.4,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Eagle 70 Transmission",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "34T",
+      "cassette": "10-52T",
+      "minGearRatio": 0.65,
+      "maxGearRatio": 3.4
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 442,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 67.9,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 440,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 75.4,
+      "wheelbaseMm": 1131,
+      "standoverHeightMm": 781
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 11.4 kg"
+    ],
+    "brakes": "Shimano MT401 Disc Brake",
+    "tires": "Maxxis Aspen, 29x2.4\", 120TPI Foldable BeadTubeless Ready, EXO",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Scale Alloy 6061 Custom Butted Tubing, Syncros Cable Integration SystemBB92, UDH Interface, 12x148mm with 55mm Chainline"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Scale Rigid HMFPostmount Disc StandardTapered Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Syncros - Acros OE Cable Routing HS SystemOD 50/62mm, ID 42/56mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM Eagle 70 Transmission 12 Speed"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM Eagle 70 Trigger"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM Eagle 70 TransmissionDUB, 55mm CL, 34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF 92 MTB Wide, shell 41x92mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Eagle XS 1270 V2 Transmission 10-52"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM CN Eagle 70 Transmission"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano MT401 Disc Brake"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Alloy 6061T shape Flat, 9°, 740mmSyncros Performance XC lock-on grips"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros DC 3.0Syncros Cable Integration System0° rise, 6061 Alloy, 31.8mm, 1 1/8\""
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros, 31.6x400mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Belcarra V2.5 Cut Out"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Maxxis Aspen, 29x2.4\", 120TPI Foldable BeadTubeless Ready, EXO"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Maxxis Aspen, 29x2.4\", 120TPI Foldable BeadTubeless Ready, EXO"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios y Peso",
+        "items": [
+          {
+            "label": "Peso declarado",
+            "value": "11.4 (Tubless setup without pedals) kg"
+          },
+          {
+            "label": "Extras",
+            "value": "Spirgrips+ Inner Bar ends"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-overland-10-2027",
+    "brand": "Scott",
+    "model": "Overland 10",
+    "year": 2027,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-overland-10-bike?article=4276248548008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131506/2288206.png",
+    "msrpEur": 2199,
+    "currentPriceEur": 2199,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 13.1,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RD-RX820 GS",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "48/31T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.91,
+      "maxGearRatio": 4.36
+    },
+    "geometry": {
+      "stackMm": 598,
+      "reachMm": 400,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 70,
+      "chainstayLengthMm": 376,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 535,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 1075,
+      "bbDropMm": 70,
+      "standoverHeightMm": 820
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 13.1 kg"
+    ],
+    "brakes": "Shimano BR-RX410 Hyd. Disc",
+    "tires": "Schwalbe G-One Allround Performance, 400x40C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "28\", ultra lite AL-6061"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Allroad Carbon, 12x100 mm axle, 1 1/8\" carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AZA-813"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano GRX RD-RX820 GS, 24 Speed"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano FD-RX820F GRX"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano BR-RX410 Hyd. Disc, Shimano GRX ST-RX610, 24 Speed"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano GRX FC-RX820-2, 48-31T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS501 BSA"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-R7100, 11-34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-M6100"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RX410 Hyd. Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL700, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL700, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 X, Alloy 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros, 1 1/8\", four Bolt 31.8mm, GoPro Mount"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros alloy, 10mm offset, 31.6x400mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino R 2.5"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One Allround Performance, 400x40C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One Allround Performance, 400x40C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-overland-20-2027",
+    "brand": "Scott",
+    "model": "Overland 20",
+    "year": 2027,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-overland-20-bike?article=4276253909008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131507/2288207.png",
+    "msrpEur": 1899,
+    "currentPriceEur": 1899,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "aluminum",
+    "weightKg": 14.1,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Cues RD-U6040 22",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.94,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 598,
+      "reachMm": 400,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 70,
+      "chainstayLengthMm": 376,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 535,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 1075,
+      "bbDropMm": 70,
+      "standoverHeightMm": 820
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 14.1 kg"
+    ],
+    "brakes": "Shimano Cues BR-RS405 Hyd. Disc",
+    "tires": "Schwalbe G-One Comp, 700x40C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "28\", ultra lite AL-6061"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Allroad alloy, 12x100 mm axle, 1 1/8\" alloy steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AZA-812"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano Cues RD-U6040, 22 Speed"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Cues FD-U6030"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano Cues BR-RS405, Shimano ST-U6030 22 Speed"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano Cues FC-U6040, 50-34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS501 BSA"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CS-RS400, 11-36"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-LG500"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano Cues BR-RS405 Hyd. Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL300, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL300, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 X, Alloy 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros, 1 1/8\", four Bolt 31.8mm, GoPro Mount"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros alloy, 10mm offset, 31.6x400mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino R 2.5"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One Comp, 700x40C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One Comp, 700x40C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-overland-30-2027",
+    "brand": "Scott",
+    "model": "Overland 30",
+    "year": 2027,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-overland-30-bike?article=4276268550008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778131507/2288209.png",
+    "msrpEur": 1699,
+    "currentPriceEur": 1699,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "aluminum",
+    "weightKg": 14.9,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Cues RD-U6020 20-Speed",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-39T",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 598,
+      "reachMm": 400,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 70,
+      "chainstayLengthMm": 376,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 535,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 1075,
+      "bbDropMm": 70,
+      "standoverHeightMm": 820
+    },
+    "highlights": [
+      "Cuadro Scott de aluminio hidroformado",
+      "Transmisión SHIMANO mecánica de alta precisión",
+      "Peso oficial verificado de 14.9 kg"
+    ],
+    "brakes": "Shimano Cues BR-UR6030 Hyd. Disc",
+    "tires": "Schwalbe G-One Comp, 700x40C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "28\", ultra lite AL-6061"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Allroad alloy, 12x100 mm axle, 1 1/8\" alloy steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AZA-812"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "Shimano Cues RD-U6020 20-Speed"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Cues FD-U6030"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "Shimano Cues BR-U6030, Shimano ST-U6030 20 Speed"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "Shimano Cues FC-U6030, 50-34T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano BB-RS501 BSA"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Cues CS-LG300 10-Speed 11-39T"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-LG500"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano Cues BR-UR6030 Hyd. Disc"
+          },
+          {
+            "label": "Disco Delantero",
+            "value": "Shimano RT-CL300, 160mm"
+          },
+          {
+            "label": "Disco Trasero",
+            "value": "Shimano RT-CL300, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston 2.0 X, Alloy 31.8mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Syncros, 1 1/8\", four Bolt 31.8mm, GoPro Mount"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros alloy, 10mm offset, 31.6x400mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino R 2.5"
+          },
+          {
+            "label": "Puños / Cinta",
+            "value": "Syncros RC Bartape"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One Comp, 700x40C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One Comp, 700x40C"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scott-addict-gravel-rc-2026",
+    "brand": "Scott",
+    "model": "Addict Gravel RC",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.scott-sports.com/es/es/product/scott-addict-gravel-rc-bike?article=4253633020008",
+    "officialImageUrl": "https://static.scott-sports.com/image/upload/t_assetformatopengraph/v1778114283/2222965.png",
+    "msrpEur": 9299,
+    "currentPriceEur": 9299,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.9,
+    "weightSizeReference": "M / 54",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED XPLR AXS13",
+      "isElectronic": true,
+      "speedCount": 13,
+      "chainrings": "40T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.18,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 565,
+      "reachMm": 387,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 528,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1029,
+      "standoverHeightMm": 807
+    },
+    "highlights": [
+      "Cuadro Scott de carbono de alta ligereza (HMX/HMF)",
+      "Transmisión SRAM electrónica inalámbrica de alta precisión",
+      "Peso oficial verificado de 7.9 kg",
+      "Ruedas Fulcrum Sharq Carbon24 Front"
+    ],
+    "brakes": "SRAM RED AXS HRD Shift-Brake System",
+    "wheels": "Fulcrum Sharq Carbon24 Front, 24 RearSyncros SL Axle, Removable Lever with Tool",
+    "tires": "Schwalbe G-One RS Pro, 700x45C",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Addict Gravel HMX CarbonGravel geometry, Replaceable UDH Derailleur HangerInternal cable routingSyncros fender kit ready"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Addict Gravel HMX Flatmount Disc1 1/4\"-1 1/2\" Eccentric Carbon steerer"
+          },
+          {
+            "label": "Juego de dirección",
+            "value": "Acros AIF-1135"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador Trasero",
+            "value": "SRAM RED XPLR AXS13 Speed Electronic Shift System"
+          },
+          {
+            "label": "Palancas de Cambio",
+            "value": "SRAM RED AXS HRD Shift-Brake System"
+          },
+          {
+            "label": "Bielas y Platos",
+            "value": "SRAM RED XPLR Power Meter Crankset, 42 T"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM DUB PF ROAD 86.5"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XPLR XG139110-46"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM RED AXS HRD Shift-Brake System"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit y Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Syncros Creston iC SL XCarbon combo"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Syncros SP-R101-CF"
+          },
+          {
+            "label": "Sillín",
+            "value": "Syncros Tofino Regular 1.0 Cutout"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Juego de Ruedas",
+            "value": "Fulcrum Sharq Carbon24 Front, 24 RearSyncros SL Axle, Removable Lever with Tool"
+          },
+          {
+            "label": "Neumático Delantero",
+            "value": "Schwalbe G-One RS Pro, 700x45C"
+          },
+          {
+            "label": "Neumático Trasero",
+            "value": "Schwalbe G-One RS Pro, 700x45C"
+          }
+        ]
+      }
+    ]
   }
 ]
