@@ -1664,5 +1664,5642 @@
         ]
       }
     ]
+  },
+  {
+    "id": "specialized-s-works-tarmac-sl9-shimano-dura-ace-di2-2026",
+    "brand": "Specialized",
+    "model": "S-Works Tarmac SL9: Shimano Dura-Ace Di2",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.6,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Dura-Ace RD-R9250",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "52/36",
+      "cassette": "11-34",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "brakes": "Shimano Dura-Ace BR-R9270",
+    "wheels": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineer",
+    "tires": "Cotton TLR, 700x30",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 13999,
+    "msrpEur": 13999,
+    "geometry": {
+      "stackMm": 544,
+      "reachMm": 384,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 540,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 140,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 986,
+      "bbDropMm": 72,
+      "standoverHeightMm": 767
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94927-02_TARMAC-SL9-SW-DI2-CARB-WHT_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94927-02_TARMAC-SL9-SW-DI2-CARB-WHT_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-tarmac-sl9-shimano-dura-ace-di2/p/4293532?color=5470182-4293532",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano Dura-Ace RD-R9250)",
+      "Cuadro de carbono de alto rendimiento (S-Works Tarmac SL9 FACT 12r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval Rapide CLX III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "S-Works Tarmac SL9 FACT 12r Carbon, Rider First Engineered, Win Tunnel Engineered, Ceramic Speed SLT headset bearings, Threaded BB, 12x142mm thru-axle"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano Dura-Ace BR-R9270"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano Dura-Ace BR-R9270"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano Dura-Ace ST-R9270"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano Dura-Ace FD-R9250, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano Dura-Ace RD-R9250, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Dura-Ace CS-R9200, 12-speed, 11-34t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XTR M9100, 12-speed w/ quick link"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano Dura-Ace FC-R9200, HollowTech II, 12-speed with 4iiii Precision Pro dual-sided powermeter, 52/36t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "CeramicSpeed Alpha Bottom Bracket, BSA Threaded Shimano"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineered, Roval LF18F 18H hub with Sinc Ceramic Bearings, Rov"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 48.5mm depth, Win Tunnel Engineered, Roval LF19-R 24H hub with Sinc Ceramic Bearings, "
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x25-35mm, 65mm Presta valve, TPU tube"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Rapide Cockpit, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Rapide Post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Tarmac integrated wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-tarmac-sl9-ltd-built-for-legends-2026",
+    "brand": "Specialized",
+    "model": "S-Works Tarmac SL9 LTD: Built for Legends",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.6,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "50/37",
+      "cassette": "10-36",
+      "minGearRatio": 1.03,
+      "maxGearRatio": 5
+    },
+    "brakes": "SRAM RED E1, hydraulic disc",
+    "wheels": "Roval Rapide Sprint CLX, Tubeless, 21mm internal width carbon rim, 63mm depth, Win Tunnel Engin",
+    "tires": "Cotton TLR, 700x30",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 14999,
+    "msrpEur": 14999,
+    "geometry": {
+      "stackMm": 544,
+      "reachMm": 384,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 540,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 140,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 986,
+      "bbDropMm": 72,
+      "standoverHeightMm": 767
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94927-04_TARMAC-SL9-SW-LTD-MADE-IN-RACING-REDTNT-BLKTNT-METWHTSIL_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94927-04_TARMAC-SL9-SW-LTD-MADE-IN-RACING-REDTNT-BLKTNT-METWHTSIL_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-tarmac-sl9-ltd-built-for-legends/p/4296507?color=5474191-4296507",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM RED AXS E1)",
+      "Cuadro de carbono de alto rendimiento (S-Works Tarmac SL9 FACT 12r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval Rapide Sprint CLX"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "S-Works Tarmac SL9 FACT 12r Carbon, Rider First Engineered, Win Tunnel Engineered, Ceramic Speed SLT headset bearings, Threaded BB, 12x142mm thru-axle"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM RED E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM RED E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM RED AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "SRAM RED AXS E1, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM RED AXS E1, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XG-1290 E1, 12-speed, 10-36t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM RED AXS E1 with Quarq Power Meter, 50/37t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Ceramic Speed BB Alpha, BSA DUB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Rapide Sprint CLX, Tubeless, 21mm internal width carbon rim, 63mm depth, Win Tunnel Engineered, Roval LF18-F hub, 18h, Roval by ARRIS Composite "
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Rapide Sprint CLX, Tubeless, 21mm internal width carbon rim, 58mm depth, Win Tunnel Engineered, Roval LF19-R hub, 24h, Roval by ARRIS Composite "
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x25-35, 80mm Presta Valve, TPU"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Rapide Cockpit, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Rapide Post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Tarmac integrated wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-tarmac-sl9-sram-red-axs-2026",
+    "brand": "Specialized",
+    "model": "S-Works Tarmac SL9: SRAM RED AXS",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.6,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "50/37",
+      "cassette": "10-36",
+      "minGearRatio": 1.03,
+      "maxGearRatio": 5
+    },
+    "brakes": "SRAM RED E1, hydraulic disc",
+    "wheels": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineer",
+    "tires": "Cotton TLR, 700x30",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 13999,
+    "msrpEur": 13999,
+    "geometry": {
+      "stackMm": 544,
+      "reachMm": 384,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 540,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 140,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 986,
+      "bbDropMm": 72,
+      "standoverHeightMm": 767
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94927-00_TARMAC-SL9-SW-AXS-SILDST-SPCTFLR-CHRM_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94927-00_TARMAC-SL9-SW-AXS-SILDST-SPCTFLR-CHRM_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-tarmac-sl9-sram-red-axs/p/4293533?color=5473733-4293533",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM RED AXS E1)",
+      "Cuadro de carbono de alto rendimiento (S-Works Tarmac SL9 FACT 12r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval Rapide CLX III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "S-Works Tarmac SL9 FACT 12r Carbon, Rider First Engineered, Win Tunnel Engineered, Ceramic Speed SLT headset bearings, Threaded BB, 12x142mm thru-axle"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM RED E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM RED E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM RED AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "SRAM RED AXS E1, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM RED AXS E1, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XG-1290 E1, 12-speed, 10-36t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM RED AXS E1 with Quarq Power Meter, 50/37"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Ceramic Speed BB Alpha, BSA DUB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineered, Roval LF18F 18H hub with Sinc Ceramic Bearings, Rov"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 48.5mm depth, Win Tunnel Engineered, Roval LF19-R 24H hub with Sinc Ceramic Bearings, "
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x25-35mm, 65mm Presta valve, TPU tube"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Rapide Cockpit, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Rapide Post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Tarmac integrated wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-tarmac-sl9-s-level-shimano-dura-ace-di2-2026",
+    "brand": "Specialized",
+    "model": "Tarmac SL9 S-Level: Shimano Dura-Ace Di2",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.1,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Dura-Ace RD-R9250",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "52/36",
+      "cassette": "11-34",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "brakes": "Shimano Dura-Ace BR-R9270, hydraulic disc",
+    "wheels": "Roval Rapide CL III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineere",
+    "tires": "Cotton TLR, 700x30",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 10499,
+    "msrpEur": 10499,
+    "geometry": {
+      "stackMm": 544,
+      "reachMm": 384,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 540,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 140,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 986,
+      "bbDropMm": 72,
+      "standoverHeightMm": 767
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94927-13_TARMAC-SL9-S-LEVEL-DI2-METWHTSIL-TARBLK_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94927-13_TARMAC-SL9-S-LEVEL-DI2-METWHTSIL-TARBLK_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/tarmac-sl9-s-level-shimano-dura-ace-di2/p/4293535?color=5470199-4293535",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano Dura-Ace RD-R9250)",
+      "Cuadro de carbono de alto rendimiento (Tarmac SL9 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval Rapide CL III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Tarmac SL9 FACT 10r Carbon, Rider First Engineered, Win Tunnel Engineered, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano Dura-Ace BR-R9270, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano Dura-Ace BR-R9270, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano Dura-Ace ST-R9270"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano Dura-Ace FD-R9250, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano Dura-Ace RD-R9250, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Dura-Ace CS-R9200, 12-speed, 11-34t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XTR M9100, 12-speed w/ quick link"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano Dura-Ace FC-R9200, HollowTech II, 12-speed with 4iiii Precision Pro dual-sided powermeter, 52/36t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Rapide CL III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineered, DT350 hub, 18h, DT Swiss Competition Race Straight P"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Rapide CL III, Tubeless, 21mm internal width carbon rim, 48.5mm depth, Win Tunnel Engineered, DT350 hub, 24h, DT Swiss Competition Race Straight"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x24-34, 80mm presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Rapide Cockpit, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Power Pro Mirror, hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Tarmac integrated wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-tarmac-sl9-expert-sram-force-axs-2026",
+    "brand": "Specialized",
+    "model": "Tarmac SL9 Expert: SRAM Force AXS",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.55,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Force AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "48/35",
+      "cassette": "10-36",
+      "minGearRatio": 0.97,
+      "maxGearRatio": 4.8
+    },
+    "brakes": "SRAM Force E1, hydraulic disc",
+    "wheels": "Roval C38, 21mm internal width carbon rim, tubeless ready",
+    "tires": "S-Works Turbo, 700x30",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 6999,
+    "msrpEur": 6999,
+    "geometry": {
+      "stackMm": 544,
+      "reachMm": 384,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 540,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 140,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 986,
+      "bbDropMm": 72,
+      "standoverHeightMm": 767
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94927-30_TARMAC-SL9-EXPERT-AXS-WRMSMKMET-SILDST_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94927-30_TARMAC-SL9-EXPERT-AXS-WRMSMKMET-SILDST_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/tarmac-sl9-expert-sram-force-axs/p/4293530?color=5470188-4293530",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM Force AXS E1)",
+      "Cuadro de carbono de alto rendimiento (Tarmac SL9 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval C38"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Tarmac SL9 FACT 10r Carbon, Rider First Engineered, Win Tunnel Engineered, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Force E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Force E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Force AXS E1"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "SRAM Force AXS E1, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Force AXS E1, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Force XG-1270 E1, 12 speed 10-36"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Force E1, Flattop"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Force E1 Crankset, 48/35t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval C38, 21mm internal width carbon rim, tubeless ready"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval C38, 21mm internal width carbon rim, tubeless ready"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x24-34, 60mm presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Roval Rapide, alloy, 4 bolt, -6 degrees"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Expert Shallow Drop, alloy, 125mm drop x 75mm reach"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Expert, hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Tarmac integrated wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-tarmac-sl9-expert-shimano-ultegra-di2-2026",
+    "brand": "Specialized",
+    "model": "Tarmac SL9 Expert: Shimano Ultegra Di2",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.53,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra Di2 RD-R8150",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "52/36",
+      "cassette": "11-34",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "brakes": "Shimano Ultegra BR-8170, hydraulic disc",
+    "wheels": "Roval C38, 21mm internal width carbon rim, tubeless ready",
+    "tires": "S-Works Turbo, 700x30",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 6999,
+    "msrpEur": 6999,
+    "geometry": {
+      "stackMm": 544,
+      "reachMm": 384,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 540,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 140,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 986,
+      "bbDropMm": 72,
+      "standoverHeightMm": 767
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94927-32_TARMAC-SL9-EXPERT-DI2-PCFBLUMET-WHT_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94927-32_TARMAC-SL9-EXPERT-DI2-PCFBLUMET-WHT_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/tarmac-sl9-expert-shimano-ultegra-di2/p/4293531?color=5470178-4293531",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano Ultegra Di2 RD-R8150)",
+      "Cuadro de carbono de alto rendimiento (Tarmac SL9 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval C38"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Tarmac SL9 FACT 10r Carbon, Rider First Engineered, Win Tunnel Engineered, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano Ultegra BR-8170, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano Ultegra BR-8170, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano Ultegra Di2 ST-R8170, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano Ultegra Di2 FD-R8150, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano Ultegra Di2 RD-R8150, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra CS-R8100, 12-speed, 11-34t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT CN-M8100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano Ultegra R8100, 52/36t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "Roval C38, 21mm internal width carbon rim, tubeless ready"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval C38, 21mm internal width carbon rim, tubeless ready"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x24-34, 60mm presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Roval Rapide, alloy, 4 bolt, -6 degrees"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Expert Shallow Drop, alloy, 125mm drop x 75mm reach"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Expert, hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Tarmac integrated wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-tarmac-sl9-s-level-sram-red-axs-2026",
+    "brand": "Specialized",
+    "model": "Tarmac SL9 S-Level: SRAM RED AXS",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.1,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "50/37",
+      "cassette": "10-36",
+      "minGearRatio": 1.03,
+      "maxGearRatio": 5
+    },
+    "brakes": "SRAM RED E1, hydraulic disc",
+    "wheels": "Roval Rapide CL III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineere",
+    "tires": "Cotton TLR, 700x30",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 10499,
+    "msrpEur": 10499,
+    "geometry": {
+      "stackMm": 544,
+      "reachMm": 384,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 540,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 140,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 986,
+      "bbDropMm": 72,
+      "standoverHeightMm": 767
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94927-10_TARMAC-SL9-S-LEVEL-AXS-WHT-MAJBLUMET-METOBSD_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94927-10_TARMAC-SL9-S-LEVEL-AXS-WHT-MAJBLUMET-METOBSD_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/tarmac-sl9-s-level-sram-red-axs/p/4293534?color=5479570-4293534",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM RED AXS E1)",
+      "Cuadro de carbono de alto rendimiento (Tarmac SL9 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval Rapide CL III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Tarmac SL9 FACT 10r Carbon, Rider First Engineered, Win Tunnel Engineered, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM RED E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM RED E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM RED AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "SRAM RED AXS E1, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM RED AXS E1, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XG-1290 E1, 12-speed, 10-36t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED E1, Flattop"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM RED AXS E1 with Quarq Power Meter, 50/37t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Rapide CL III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineered, DT350 hub, 18h, DT Swiss Competition Race Straight P"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Rapide CL III, Tubeless, 21mm internal width carbon rim, 48.5mm depth, Win Tunnel Engineered, DT350 hub, 24h, DT Swiss Competition Race Straight"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x24-34, 80mm presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Rapide Cockpit, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Power Pro Mirror, hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Tarmac integrated wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-tarmac-sl9-comp-shimano-105-di2-2026",
+    "brand": "Specialized",
+    "model": "Tarmac SL9 Comp: Shimano 105 Di2",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.21,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 Di2 R7150",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "52/36",
+      "cassette": "11-34",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "brakes": "Shimano 105 BR-R7170, hydraulic disc",
+    "wheels": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "S-Works Turbo, 700x30",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 4499,
+    "msrpEur": 4499,
+    "geometry": {
+      "stackMm": 544,
+      "reachMm": 384,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 540,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 140,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 986,
+      "bbDropMm": 72,
+      "standoverHeightMm": 767
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94927-52_TARMAC-SL9-COMP-DI2-DLMMET-CAYNMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94927-52_TARMAC-SL9-COMP-DI2-DLMMET-CAYNMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/tarmac-sl9-comp-shimano-105-di2/p/4293528?color=5470174-4293528",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano 105 Di2 R7150)",
+      "Cuadro de carbono de alto rendimiento (Tarmac SL9 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas DT Swiss R470 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Tarmac SL9 FACT 10r Carbon, Rider First Engineered, Win Tunnel Engineered, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano 105 BR-R7170, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano 105 BR-R7170, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano 105 Di2 R7170, 12-speed hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano 105 R7170, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano 105 Di2 R7150, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 CS-R7100, 12-speed, 11-34t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano SLX CN-M7100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano 105 FC-R7100, 12-speed, 52/36t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28-38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Roval Rapide, alloy, 4 bolt, -6 degrees"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Shallow Drop, 6061, 70x125mm, 31.8mm clamp"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Comp, chrome alloy rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Tarmac integrated wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-allez-sprint-comp-2026",
+    "brand": "Specialized",
+    "model": "Allez Sprint Comp",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 8.68,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105",
+      "speedCount": 12,
+      "isElectronic": false,
+      "chainrings": "52/36",
+      "cassette": "11-34",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "brakes": "Shimano 105, Hydraulic disc",
+    "wheels": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "Turbo Pro, 60 TPI, folding bead, BlackBelt protection, 700x26mm",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 2499,
+    "msrpEur": 2499,
+    "geometry": {
+      "stackMm": 537,
+      "reachMm": 387,
+      "stackReachRatio": 1.39,
+      "headTubeAngleDeg": 73,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 541,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 133,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 979,
+      "bbDropMm": 72,
+      "standoverHeightMm": 765
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/90025-50_ALLEZ-SPRINT-COMP-PRPHZ-RBLPNK_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/90025-50_ALLEZ-SPRINT-COMP-PRPHZ-RBLPNK_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/allez-sprint-comp/p/4221550?color=5428722-4221550",
+    "highlights": [
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas DT Swiss R470 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized E5 Premium Aluminum Disc frame with D'Aluisio Smartweld Sprint Technology, hydroformed aluminum tubing, tapered head tube, fully internall"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano 105, Hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano 105, Hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano 105, 12-speed"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105, 12-speed, 11-34t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105, 12sp"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano 105 R7100, HollowTech 2, 12-speed"
+          },
+          {
+            "label": "Platos",
+            "value": "52/36T"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "Turbo Pro, 60 TPI, folding bead, BlackBelt protection, 700x26mm"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Turbo Pro, 60 TPI, folding bead, BlackBelt protection, 700x26mm"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, alloy freehub body, DT Sw"
+          },
+          {
+            "label": "Cámaras",
+            "value": "Presta, 40mm valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Specialized Pro SL, alloy, 4-bolt"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Shallow Drop, 6061, 70x125mm, 31.8mm clamp"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac Carbon seat post, FACT Carbon, 20mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Allez Sprint seat collar"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-tarmac-sl9-comp-sram-rival-axs-2026",
+    "brand": "Specialized",
+    "model": "Tarmac SL9 Comp: SRAM Rival AXS",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.14,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Rival AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "48/35",
+      "cassette": "10-36",
+      "minGearRatio": 0.97,
+      "maxGearRatio": 4.8
+    },
+    "brakes": "SRAM Rival E1, hydraulic disc",
+    "wheels": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "S-Works Turbo, 700x30",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 4499,
+    "msrpEur": 4499,
+    "geometry": {
+      "stackMm": 544,
+      "reachMm": 384,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 540,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 140,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 986,
+      "bbDropMm": 72,
+      "standoverHeightMm": 767
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94927-50_TARMAC-SL9-COMP-AXS-VIVRED-WHT_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94927-50_TARMAC-SL9-COMP-AXS-VIVRED-WHT_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/tarmac-sl9-comp-sram-rival-axs/p/4293529?color=5470201-4293529",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM Rival AXS E1)",
+      "Cuadro de carbono de alto rendimiento (Tarmac SL9 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas DT Swiss R470 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Tarmac SL9 FACT 10r Carbon, Rider First Engineered, Win Tunnel Engineered, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Rival E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Rival E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Rival AXS E1"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "SRAM Rival AXS E1, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Rival AXS E1, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Rival XG-1250 D1, 12-speed 10-36t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Rival Flattop E1, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Rival E1, 48/35t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28-38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Roval Rapide, alloy, 4 bolt, -6 degrees"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Shallow Drop, 6061, 70x125mm, 31.8mm clamp"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Comp, chrome alloy rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Tarmac integrated wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-tarmac-sl7-sport-shimano-105-2026",
+    "brand": "Specialized",
+    "model": "Tarmac SL7 Sport - Shimano 105",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.27,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimnao 105 R7100",
+      "speedCount": 12,
+      "isElectronic": false,
+      "chainrings": "52/36",
+      "cassette": "11-34",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "brakes": "Shimano 105, Hydraulic disc",
+    "wheels": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "Turbo Pro, 700x26",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 3299,
+    "msrpEur": 3299,
+    "geometry": {
+      "stackMm": 544,
+      "reachMm": 384,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 73,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 541,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 137,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 978,
+      "bbDropMm": 72,
+      "standoverHeightMm": 768
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/90626-63_TARMAC-SL7-SPORT-WHT-METDKNVY_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/90626-63_TARMAC-SL7-SPORT-WHT-METDKNVY_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/tarmac-sl7-sport-shimano-105/p/4221579?color=5466386-4221579",
+    "highlights": [
+      "Cuadro de carbono de alto rendimiento (Tarmac SL7 FACT 9r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas DT Swiss R470 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Tarmac SL7 FACT 9r Carbon, Rider First Engineered™, Win Tunnel Engineered, Clean Routing, Threaded BB, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano 105, Hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano 105, Hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "See override"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano 105 R7100, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimnao 105 R7100, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 CS-R7100, 12-speed, 11-34t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano SLX CN-M7100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano 105 FC-R7100, 12-speed, 52/36t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Turbo Pro, 700x26"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Turbo Pro, 700x26"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss R470 rim, 20mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x20-28, 48mm Presta Valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Tarmac integrated stem, 6-degree"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Shallow Drop, 6061, 70x125mm, 31.8mm clamp"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac Carbon seat post, FACT Carbon, 20mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Tarmac integrated wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-aethos-2-sram-red-axs-2026",
+    "brand": "Specialized",
+    "model": "S-Works Aethos 2 - SRAM RED AXS",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.28,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "48/35",
+      "cassette": "10-33",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.8
+    },
+    "brakes": "SRAM RED E1, hydraulic disc",
+    "wheels": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineer",
+    "tires": "Cotton TLR, 700x30",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 13999,
+    "msrpEur": 13999,
+    "geometry": {
+      "stackMm": 559,
+      "reachMm": 384,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 544,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 150,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 992,
+      "bbDropMm": 75,
+      "standoverHeightMm": 759
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/97227-04_AETHOS-SW-AXS-RAPIDE-CHARTNT-AMTHFRST-METOBSD_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/97227-04_AETHOS-SW-AXS-RAPIDE-CHARTNT-AMTHFRST-METOBSD_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-aethos-2-sram-red-axs/p/4296498?color=5476621-4296498",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM RED AXS E1)",
+      "Cuadro de carbono de alto rendimiento (S-Works Aethos 2 FACT 12r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval Rapide CLX III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "S-Works Aethos 2 FACT 12r Carbon, Rider First Engineered™, Ceramic Speed SLT Headset Bearings, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, "
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works Aethos 2 FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM RED E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM RED E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM RED AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "SRAM RED AXS E1, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM RED AXS E1, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XG-1290 E1, 12-speed, 10-33t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED E1 Flattop 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM RED AXS E1 with Quarq Power Meter, 48/35"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Ceramic Speed BB Alpha, BSA DUB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineered, Roval LF18-F hub, 18h, Roval by ARRIS Composite Aer"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 48.5mm depth, Win Tunnel Engineered, Roval LF19-R hub, 24h, Roval by ARRIS Composite A"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x25-35mm, 65mm Presta valve, TPU tube"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Alpinist Cockpit II, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost, light weight clamp"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.0mm, titanium bolt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-allez-comp-2026",
+    "brand": "Specialized",
+    "model": "Allez Comp",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 9.09,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimnao 105 R7100",
+      "speedCount": 12,
+      "isElectronic": false,
+      "chainrings": "50/34",
+      "cassette": "11-34",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "brakes": "Shimano 105, Hydraulic disc, 160mm rotor",
+    "wheels": "DT R470 Disc",
+    "tires": "Turbo Pro, 700x30",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 1999,
+    "msrpEur": 1999,
+    "geometry": {
+      "stackMm": 569,
+      "reachMm": 370,
+      "stackReachRatio": 1.54,
+      "headTubeAngleDeg": 72,
+      "seatTubeAngleDeg": 73.3,
+      "topTubeLengthMm": 541,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 155,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 998,
+      "bbDropMm": 76,
+      "standoverHeightMm": 781
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/90026-70_ALLEZ-E5-COMP-CSTBLUMET-DUNEWHT_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/90026-70_ALLEZ-E5-COMP-CSTBLUMET-DUNEWHT_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/allez-comp/p/4221810?color=5444472-4221810",
+    "highlights": [
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas DT R470 Disc"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized E5 Premium Aluminum, flat mount disc, fully manipulated tubing w/ SmoothWelds, internal cable routing, threaded BB, 12x142mm thru-axle"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Specialized FACT full carbon, flat mount disc, 1-1/8\" to 1-3/8\" taper, fender eyelets, 12x100mm thru-axle"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano 105, Hydraulic disc, 160mm rotor"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano 105, Hydraulic disc, 160mm rotor"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano 105 R7120, 12 speed Mechanical"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano 105, Braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimnao 105 R7100, 12-Speed Mechanical"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105, 12-speed, 11-34t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano SLX CN-M7100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano 105, 12-speed Hollowtech 2, 50/34t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Turbo Pro, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "DT R470 Disc"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Turbo Pro, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT R470 Disc"
+          },
+          {
+            "label": "Cámaras",
+            "value": "Presta, 700x28-32mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "3D-forged alloy, 31.8mm, 7-degree rise"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Shallow Drop, 6061, 70x125mm, 31.8mm clamp"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Suave"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Bridge Saddle, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Alloy, 2-bolt Clamp, 12mm offset, 27.2mm, anti-corrosion hardware"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Bolt-type, Rack Compatable 31.8mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-allez-sport-shimano-tiagra-2026",
+    "brand": "Specialized",
+    "model": "Allez Sport - Shimano Tiagra",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 9.04,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Tiagra",
+      "speedCount": 10,
+      "isElectronic": false,
+      "chainrings": "50/34",
+      "cassette": "11-32",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.55
+    },
+    "brakes": "Shimano Tiagra, Hydraulic disc - 160mm rotor",
+    "wheels": "Axis Sport Disc",
+    "tires": "Specialized Roadsport, 700X30c",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 1749,
+    "msrpEur": 1749,
+    "geometry": {
+      "stackMm": 569,
+      "reachMm": 370,
+      "stackReachRatio": 1.54,
+      "headTubeAngleDeg": 72,
+      "seatTubeAngleDeg": 73.3,
+      "topTubeLengthMm": 541,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 155,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 998,
+      "bbDropMm": 76,
+      "standoverHeightMm": 781
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/90022-62_ALLEZ-E5-DISC-SPORT-TARBLK_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/90022-62_ALLEZ-E5-DISC-SPORT-TARBLK_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/allez-sport-shimano-tiagra/p/4221797?color=5368203-4221797",
+    "highlights": [
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Axis Sport Disc"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized E5 Premium Aluminum, flat mount disc, rack and fender eyelets, fully manipulated tubing w/ SmoothWelds, internal cable routing, threaded B"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Specialized FACT full carbon, flat mount disc, 1-1/8\" to 1-3/8\" taper, fender eyelets, 12x100mm thru-axle"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano Tiagra, Hydraulic disc - 160mm rotor"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano Tiagra, Hydraulic disc - 160mm rotor"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano Tiagra Disc 4720, 10-speed"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano Tiagra, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano Tiagra, 10-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Sunrace, 10-speed, 11-32t"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X10, 10-Speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Praxis Alba - 50/34t"
+          },
+          {
+            "label": "Platos",
+            "value": "50/34T"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Praxis 68mm BSA"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Specialized Roadsport, 700X30c"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Axis Sport Disc"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Specialized Roadsport, 700X30c"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Axis Sport Disc"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28-32, 48mm Presta Valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "3D-forged alloy, 31.8mm, 7-degree rise"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Shallow Drop, 70x125mm, 31.8mm clamp"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Specialized S-Wrap"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Bridge Saddle, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Alloy, 2-bolt Clamp, 12mm offset, 27.2mm, anti-corrosion hardware"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Bolt-type, Rack Compatable 31.8mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-allez-2026",
+    "brand": "Specialized",
+    "model": "Allez",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 10,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano CUES RD-U6020",
+      "speedCount": 10,
+      "isElectronic": false,
+      "chainrings": "50/34",
+      "cassette": "00-10",
+      "minGearRatio": 3.4,
+      "maxGearRatio": 4.5
+    },
+    "brakes": "Shimano CUES Hydraulic Brake",
+    "wheels": "AXIS Sport Disc",
+    "tires": "RoadSport, 700x30",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 1499,
+    "msrpEur": 1499,
+    "geometry": {
+      "stackMm": 569,
+      "reachMm": 370,
+      "stackReachRatio": 1.54,
+      "headTubeAngleDeg": 72,
+      "seatTubeAngleDeg": 73.3,
+      "topTubeLengthMm": 541,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 155,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 998,
+      "bbDropMm": 76,
+      "standoverHeightMm": 781
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/90026-60_ALLEZ-E5-OBSD-DOVGRY_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/90026-60_ALLEZ-E5-OBSD-DOVGRY_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/allez/p/4221808?color=5465747-4221808",
+    "highlights": [
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas AXIS Sport Disc"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized E5 Premium Aluminum, flat mount disc, fully manipulated tubing w/ SmoothWelds, internal cable routing, threaded BB, 12x142mm thru-axle"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Specialized FACT full carbon, flat mount disc, 1-1/8\" to 1-3/8\" taper, fender eyelets, 12x100mm thru-axle"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano CUES Hydraulic Brake"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano CUES Hydraulic Brake"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano CUES ST-U6030"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano CUES FD-U6030, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano CUES RD-U6020, 10-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CUES CS-LG300-10, 10 speed, 11-39t"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC XGlide"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano CUES FC-U6030, 50/34T"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "RoadSport, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "AXIS Sport Disc"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "RoadSport, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "AXIS Sport Disc"
+          },
+          {
+            "label": "Cámaras",
+            "value": "Presta, 700x28-32mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "3D-forged alloy, 31.8mm, 7-degree rise"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Shallow Drop, 6061, 70x125mm, 31.8mm clamp"
+          },
+          {
+            "label": "Grips",
+            "value": "Supacaz Suave"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Bridge Saddle, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Alloy, 2-bolt Clamp, 12mm offset, 27.2mm, anti-corrosion hardware"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Bolt-type, Rack Compatable 31.8mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-aethos-2-shimano-dura-ace-di2-2026",
+    "brand": "Specialized",
+    "model": "S-Works Aethos 2 - Shimano Dura-Ace Di2",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.05,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Dura-Ace Di2 R9250",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "52/36",
+      "cassette": "11-30",
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
+    },
+    "brakes": "Shimano Dura-Ace BR-R9270 hydraulic brake",
+    "wheels": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, ",
+    "tires": "S-Works Turbo TLR Race Tire, 700x28c",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 13499,
+    "msrpEur": 13499,
+    "geometry": {
+      "stackMm": 559,
+      "reachMm": 384,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 544,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 150,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 992,
+      "bbDropMm": 75,
+      "standoverHeightMm": 759
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/97226-00_AETHOS-SW-DI2-PRMFJDMET-DLMMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/97226-00_AETHOS-SW-DI2-PRMFJDMET-DLMMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-aethos-2-shimano-dura-ace-di2/p/4221562?color=5446328-4221562",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano Dura-Ace Di2 R9250)",
+      "Cuadro de carbono de alto rendimiento (S-Works Aethos 2 FACT 12r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval Alpinist CLX III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "S-Works Aethos 2 FACT 12r Carbon, Rider First Engineered™, Ceramic Speed SLT Headset Bearings, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, "
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works Aethos 2 FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano Dura-Ace BR-R9270 hydraulic brake"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano Dura-Ace BR-R9270 hydraulic brake"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano Dura-Ace Di2 R9270, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano Dura-Ace Di2 R9250, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano Dura-Ace Di2 R9250, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Dura-Ace, 12-speed, 11-30t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XTR M9100, 12-speed w/ quick link"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano Dura-Ace R9200, HollowTech II, 12-speed with 4iiii Precision Pro dual-sided powermeter, 52/36t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Dura-Ace, BB-R9100"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Turbo TLR Race Tire, 700x28c"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, Roval LF21-F  21H hub with Sinc Ceramic Bearings, Roval"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Turbo TLR Race Tire, 700x28c"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, Roval LF19-R  24H hub with Sinc Ceramic Bearings, Roval"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x25-35, 50mm Presta Valve, TPU"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Alpinist Cockpit II, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost, light weight clamp"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.0mm, titanium bolt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-aethos-2-pro-shimano-ultegra-di2-2026",
+    "brand": "Specialized",
+    "model": "Aethos 2 Pro - Shimano Ultegra Di2",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.73,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra Di2 R8150",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "52/36",
+      "cassette": "11-30",
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
+    },
+    "brakes": "Shimano Ultegra BR-R8170, hydraulic disc",
+    "wheels": "Roval Alpinist CL II, 21mm internal width carbon rim, 33mm depth, Win Tunnel Engineered, DT for",
+    "tires": "S-Works Turbo TLR Race Tire, 700x28c",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 8499,
+    "msrpEur": 8499,
+    "geometry": {
+      "stackMm": 559,
+      "reachMm": 384,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 544,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 150,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 992,
+      "bbDropMm": 75,
+      "standoverHeightMm": 759
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/97226-11_AETHOS-PRO-DI2-REDSKY-CHRM_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/97226-11_AETHOS-PRO-DI2-REDSKY-CHRM_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/aethos-2-pro-shimano-ultegra-di2/p/4279155?color=5446312-4279155",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano Ultegra Di2 R8150)",
+      "Cuadro de carbono de alto rendimiento (Aethos 2 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval Alpinist CL II"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aethos 2 FACT 10r Carbon, Rider First Engineered™, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Aethos 2 FACT 10r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano Ultegra BR-R8170, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano Ultegra BR-R8170, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano Ultegra Di2 R8170, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano Ultegra Di2 R8150, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano Ultegra Di2 R8150, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra, 12-speed, 11-30t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT CN-M8100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano Ultegra R8100 with 4iiii Precision 3+ single-sided Power Meter, 52/36t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Turbo TLR Race Tire, 700x28c"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Alpinist CL II, 21mm internal width carbon rim, 33mm depth, Win Tunnel Engineered, DT for Roval 350 hub, DT Swiss Aerolite spokes, Tubeless Read"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Turbo TLR Race Tire, 700x28c"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Alpinist CL II, 21mm internal width carbon rim, 33mm depth, Win Tunnel Engineered, DT for Roval 350 hub, DT Swiss Aerolite spokes, Tubeless Read"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x25-35, 50mm Presta Valve, TPU"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Alpinist Cockpit II, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Power Pro Mirror, Hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-aethos-2-pro-sram-force-axs-2026",
+    "brand": "Specialized",
+    "model": "Aethos 2 Pro - SRAM Force AXS",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.81,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Force AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "48/35",
+      "cassette": "10-33",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.8
+    },
+    "brakes": "SRAM Force E1, hydraulic disc",
+    "wheels": "Roval Rapide CL III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineere",
+    "tires": "Cotton TLR, 700x30",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 8699,
+    "msrpEur": 8699,
+    "geometry": {
+      "stackMm": 559,
+      "reachMm": 384,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 544,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 150,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 992,
+      "bbDropMm": 75,
+      "standoverHeightMm": 759
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/97227-13_AETHOS-PRO-AXS-RAPIDE-CMLNSPN-BRCH-STLNMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/97227-13_AETHOS-PRO-AXS-RAPIDE-CMLNSPN-BRCH-STLNMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/aethos-2-pro-sram-force-axs/p/4263245?color=5472525-4263245",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM Force AXS E1)",
+      "Cuadro de carbono de alto rendimiento (Aethos 2 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval Rapide CL III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aethos 2 FACT 10r Carbon, Rider First Engineered™, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Aethos 2 FACT 10r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Force E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Force E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Force AXS E1"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "SRAM Force AXS E1, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Force AXS E1, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Force XG-1270, 12-speed, 10-33t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Force Flattop E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Force with Quarq Power Meter, 48/35t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Rapide CL III, Tubeless, 21mm internal width carbon rim, 51mm depth, Win Tunnel Engineered, DT350 hub, 18h, DT Swiss Competition Race Straight P"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Cotton TLR, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Rapide CL III, Tubeless, 21mm internal width carbon rim, 48.5mm depth, Win Tunnel Engineered, DT350 hub, 24h, DT Swiss Competition Race Straight"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x25-35mm, 65mm Presta valve, TPU tube"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Alpinist Cockpit II, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Power Pro Mirror, hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-aethos-2-sram-red-axs-2026-4221563",
+    "brand": "Specialized",
+    "model": "S-Works Aethos 2 - SRAM RED AXS",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 5.98,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "48/35",
+      "cassette": "10-33",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.8
+    },
+    "brakes": "SRAM RED E1, hydraulic disc",
+    "wheels": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, ",
+    "tires": "S-Works Turbo TLR Race Tire, 700x28c",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 13499,
+    "msrpEur": 13499,
+    "geometry": {
+      "stackMm": 559,
+      "reachMm": 384,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 544,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 150,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 992,
+      "bbDropMm": 75,
+      "standoverHeightMm": 759
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/97226-03_AETHOS-SW-AXS-SNDSTNMET-REDTNT-SILPRL_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/97226-03_AETHOS-SW-AXS-SNDSTNMET-REDTNT-SILPRL_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-aethos-2-sram-red-axs/p/4221563?color=5466405-4221563",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM RED AXS E1)",
+      "Cuadro de carbono de alto rendimiento (S-Works Aethos 2 FACT 12r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval Alpinist CLX III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "S-Works Aethos 2 FACT 12r Carbon, Rider First Engineered™, Ceramic Speed SLT Headset Bearings, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, "
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works Aethos 2 FACT 12r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM RED E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM RED E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM RED AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "SRAM RED AXS E1, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM RED AXS E1"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XG-1290 E1, 12-speed, 10-33t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED E1 Flattop 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM RED AXS Power Meter, 48/35"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Turbo TLR Race Tire, 700x28c"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, Roval LF21-F  21H hub with Sinc Ceramic Bearings, Roval"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Turbo TLR Race Tire, 700x28c"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, Roval LF19-R  24H hub with Sinc Ceramic Bearings, Roval"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x25-35, 50mm Presta Valve, TPU"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Alpinist Cockpit II, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost, light weight clamp"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.0mm, titanium bolt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-aethos-2-expert-sram-force-axs-2026",
+    "brand": "Specialized",
+    "model": "Aethos 2 Expert: SRAM Force AXS",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.22,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Force AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "48/35",
+      "cassette": "10-33",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.8
+    },
+    "brakes": "SRAM Force E1, hydraulic disc",
+    "wheels": "Roval C38, 21mm internal width carbon rim, tubeless ready",
+    "tires": "S-Works Turbo, 700x30",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 6299,
+    "msrpEur": 6299,
+    "geometry": {
+      "stackMm": 559,
+      "reachMm": 384,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 544,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 150,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 992,
+      "bbDropMm": 75,
+      "standoverHeightMm": 759
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/97227-30_AETHOS-EXPERT-AXS-DLMMET-SHDWSIL-BLUPRL_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/97227-30_AETHOS-EXPERT-AXS-DLMMET-SHDWSIL-BLUPRL_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/aethos-2-expert-sram-force-axs/p/4263244?color=5472505-4263244",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM Force AXS E1)",
+      "Cuadro de carbono de alto rendimiento (Aethos 2 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval C38"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aethos 2 FACT 10r Carbon, Rider First Engineered™, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Aethos 2 FACT 10r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Force E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Force E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Force AXS E1"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "SRAM Force AXS E1, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Force AXS E1, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Force XG-1270, 12-speed, 10-33t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Force Flattop E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Force E1 Crankset, 48/35t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval C38, 21mm internal width carbon rim, tubeless ready"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval C38, 21mm internal width carbon rim, tubeless ready"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28-38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Roval Alpinist, alloy, 4 bolt, -6 degrees"
+          },
+          {
+            "label": "Manillar",
+            "value": "Roval Alpinist Carbon Handlebar, 125mm drop, 75mm reach"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Expert, hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-aethos-2-expert-shimano-ultegra-di2-2026",
+    "brand": "Specialized",
+    "model": "Aethos 2 Expert - Shimano Ultegra Di2",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.27,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra Di2 R8150",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "52/36",
+      "cassette": "11-30",
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
+    },
+    "brakes": "Shimano Ultegra BR-R8170 Hydraulic Brake",
+    "wheels": "Roval C38, 21mm internal width carbon rim",
+    "tires": "S-Works Turbo, 700x30",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 6299,
+    "msrpEur": 6299,
+    "geometry": {
+      "stackMm": 559,
+      "reachMm": 384,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 544,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 150,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 992,
+      "bbDropMm": 75,
+      "standoverHeightMm": 759
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/97227-32_AETHOS-EXPERT-DI2-DLMMET-SHDWSIL-BLUPRL_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/97227-32_AETHOS-EXPERT-DI2-DLMMET-SHDWSIL-BLUPRL_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/aethos-2-expert-shimano-ultegra-di2/p/4294984?color=5472523-4294984",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano Ultegra Di2 R8150)",
+      "Cuadro de carbono de alto rendimiento (Aethos 2 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval C38"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aethos 2 FACT 10r Carbon, Rider First Engineered™, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Aethos 2 FACT 10r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano Ultegra BR-R8170 Hydraulic Brake"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano Ultegra BR-R8170 Hydraulic Brake"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano Ultegra Di2 R8170, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano Ultegra Di2 R8150, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano Ultegra Di2 R8150, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra, 12-speed, 11-30t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT CN-M8100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano Ultegra R8100, 52/36t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "Roval C38, 21mm internal width carbon rim"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Turbo, 700x30"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval C38, 21mm internal width carbon rim, tubeless ready"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28-38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Roval Alpinist, alloy, 4 bolt, -6 degrees"
+          },
+          {
+            "label": "Manillar",
+            "value": "Roval Alpinist Carbon Handlebar, 125mm drop, 75mm reach"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Expert, hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-aethos-2-pro-sram-force-axs-2026-4221564",
+    "brand": "Specialized",
+    "model": "Aethos 2 Pro - SRAM Force AXS",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.71,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Force AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "48/35",
+      "cassette": "10-33",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.8
+    },
+    "brakes": "SRAM Force E1, hydraulic disc",
+    "wheels": "Roval Alpinist CL II, 21mm internal width carbon rim, 33mm depth, Win Tunnel Engineered, DT for",
+    "tires": "S-Works Turbo TLR Race Tire, 700x28c",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 8499,
+    "msrpEur": 8499,
+    "geometry": {
+      "stackMm": 559,
+      "reachMm": 384,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 544,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 150,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 992,
+      "bbDropMm": 75,
+      "standoverHeightMm": 759
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/97226-13_AETHOS-PRO-AXS-REDSKY-CHRM_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/97226-13_AETHOS-PRO-AXS-REDSKY-CHRM_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/aethos-2-pro-sram-force-axs/p/4221564?color=5466393-4221564",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM Force AXS E1)",
+      "Cuadro de carbono de alto rendimiento (Aethos 2 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval Alpinist CL II"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aethos 2 FACT 10r Carbon, Rider First Engineered™, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Aethos 2 FACT 10r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Force E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Force E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Force AXS E1"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "SRAM Force AXS E1, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Force AXS E1, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Force XG-1270, 12-speed, 10-33t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Force Flattop E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Force E1 with Power Meter, 48/35t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Turbo TLR Race Tire, 700x28c"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Alpinist CL II, 21mm internal width carbon rim, 33mm depth, Win Tunnel Engineered, DT for Roval 350 hub, DT Swiss Aerolite spokes, Tubeless Read"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Turbo TLR Race Tire, 700x28c"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Alpinist CL II, 21mm internal width carbon rim, 33mm depth, Win Tunnel Engineered, DT for Roval 350 hub, DT Swiss Aerolite spokes, Tubeless Read"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x25-35, 50mm Presta Valve, TPU"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Alpinist Cockpit II, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Power Pro Mirror, Hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-aethos-2-expert-shimano-ultegra-di2-2026-4221565",
+    "brand": "Specialized",
+    "model": "Aethos 2 Expert - Shimano Ultegra Di2",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.12,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra Di2 R8150",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "52/36",
+      "cassette": "11-30",
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
+    },
+    "brakes": "Shimano Ultegra BR-R8170 Hydraulic Brake",
+    "wheels": "Roval C38, 21mm internal width carbon rim",
+    "tires": "S-Works Turbo, 700x28",
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "currentPriceEur": 6299,
+    "msrpEur": 6299,
+    "geometry": {
+      "stackMm": 559,
+      "reachMm": 384,
+      "stackReachRatio": 1.46,
+      "headTubeAngleDeg": 72.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 544,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 150,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 992,
+      "bbDropMm": 75,
+      "standoverHeightMm": 759
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/97226-31_AETHOS-EXPERT-DI2-DLMMET-SHDWSIL-BLUPRL_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/97226-31_AETHOS-EXPERT-DI2-DLMMET-SHDWSIL-BLUPRL_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/aethos-2-expert-shimano-ultegra-di2/p/4221565?color=5446311-4221565",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano Ultegra Di2 R8150)",
+      "Cuadro de carbono de alto rendimiento (Aethos 2 FACT 10r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas Roval C38"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aethos 2 FACT 10r Carbon, Rider First Engineered™, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Aethos 2 FACT 10r Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano Ultegra BR-R8170 Hydraulic Brake"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano Ultegra BR-R8170 Hydraulic Brake"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano Ultegra Di2 R8170, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano Ultegra Di2 R8150, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano Ultegra Di2 R8150, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra, 12-speed, 11-30t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT CN-M8100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano Ultegra R8100, 52/36t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "Roval C38, 21mm internal width carbon rim"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Turbo, 700x28"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Turbo, 700x28"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval C38, 21mm internal width carbon rim, tubeless ready"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x20-28, 48mm Presta Valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Specialized Pro SL, alloy, 4-bolt"
+          },
+          {
+            "label": "Manillar",
+            "value": "Roval Alpinist Carbon Handlebar, 125mm drop, 75mm reach"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Expert"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-roubaix-sl8-shimano-dura-ace-di2-2026",
+    "brand": "Specialized",
+    "model": "S-Works Roubaix SL8 - Shimano Dura-Ace Di2",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.25,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 38,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Dura-Ace R9250",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "50/34",
+      "cassette": "11-34",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "brakes": "Shimano Dura-Ace, Hydraulic Disc, 160mm",
+    "wheels": "Roval Terra CLX II, 25mm internal width, 32mm depth, 21h, Tubeless ready, Roval LFD hub with ce",
+    "tires": "S-Works Mondo 2BR, 700x32c",
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "currentPriceEur": 10499,
+    "msrpEur": 10499,
+    "geometry": {
+      "stackMm": 585,
+      "reachMm": 381,
+      "stackReachRatio": 1.54,
+      "headTubeAngleDeg": 72.3,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 465,
+      "headTubeLengthMm": 122,
+      "chainstayLengthMm": 420,
+      "wheelbaseMm": 1005,
+      "bbDropMm": 78,
+      "standoverHeightMm": 766
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94425-01_ROUBAIX-SW-DI2-TPE-GUN-BLKTNT_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94425-01_ROUBAIX-SW-DI2-TPE-GUN-BLKTNT_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-roubaix-sl8-shimano-dura-ace-di2/p/4221816?color=5428638-4221816",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano Dura-Ace R9250)",
+      "Cuadro de carbono de alto rendimiento (FACT 12R)",
+      "Confort de larga distancia con absorción de irregularidades",
+      "Ruedas Roval Terra CLX II"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "FACT 12R, Rider First Engineered™ (RFE), FreeFoil Shape Library tubes, threaded BB, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.3 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano Dura-Ace, Hydraulic Disc, 160mm"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano Dura-Ace, Hydraulic Disc, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano Dura-Ace R9270, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano Dura-Ace R9250, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano Dura-Ace R9250, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Dura-Ace, 12-speed, 11-34t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Dura-Ace, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano Dura-Ace R9200, HollowTech II, 12-speed with 4iiii Precision Pro dual-sided powermeter"
+          },
+          {
+            "label": "Platos",
+            "value": "50/34t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Dura-Ace, BB-R9100"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Mondo 2BR, 700x32c"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra CLX II, 25mm internal width, 32mm depth, 21h, Tubeless ready, Roval LFD hub with ceramic SINC bearings, Centerlock disc, DT Swiss Aerolite"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Mondo 2BR, 700x32c"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra CLX II, 25mm internal width, 32mm depth, 24h, Tubeless ready, Roval LFD hub with ceramic SINC bearings, Centerlock disc, DT Swiss Aerolite"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28/38mm, 60mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "S-Works Future Stem, w/ Integrated Computer Mount"
+          },
+          {
+            "label": "Manillar",
+            "value": "S-Works Carbon Hover Drop 125mm, Reach 75mm, w/Di2 hole"
+          },
+          {
+            "label": "Grips",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Pave Seat post"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Hidden drop clamp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-roubaix-sl8-sram-red-axs-2026",
+    "brand": "Specialized",
+    "model": "S-Works Roubaix SL8 – SRAM RED AXS",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.2,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 38,
+    "groupset": {
+      "brand": "sram",
+      "name": "NEW SRAM RED  AXS",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "46/33",
+      "cassette": "10-36",
+      "minGearRatio": 0.92,
+      "maxGearRatio": 4.6
+    },
+    "brakes": "NEW SRAM RED, Hydraulic Disc, 160mm",
+    "wheels": "Roval Terra CLX II, 25mm internal width, 32mm depth, 21h, Tubeless ready, Roval LFD hub with ce",
+    "tires": "S-Works Mondo 2BR, 700x32c",
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "currentPriceEur": 13999,
+    "msrpEur": 13999,
+    "geometry": {
+      "stackMm": 585,
+      "reachMm": 381,
+      "stackReachRatio": 1.54,
+      "headTubeAngleDeg": 72.3,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 465,
+      "headTubeLengthMm": 122,
+      "chainstayLengthMm": 420,
+      "wheelbaseMm": 1005,
+      "bbDropMm": 78,
+      "standoverHeightMm": 766
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94425-02_ROUBAIX-SW-ETAP-TPE-GUN-BLKTNT_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94425-02_ROUBAIX-SW-ETAP-TPE-GUN-BLKTNT_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-roubaix-sl8--sram-red-axs/p/4275485?color=5432474-4275485",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (NEW SRAM RED  AXS)",
+      "Cuadro de carbono de alto rendimiento (FACT 12R)",
+      "Confort de larga distancia con absorción de irregularidades",
+      "Ruedas Roval Terra CLX II"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "FACT 12R, Rider First Engineered™ (RFE), FreeFoil Shape Library tubes, threaded BB, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.3 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "NEW SRAM RED, Hydraulic Disc, 160mm"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "NEW SRAM RED, Hydraulic Disc, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "NEW SRAM RED AXS, 12-speed"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "NEW SRAM RED AXS, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "NEW SRAM RED  AXS, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "NEW SRAM RED XG-1290, 12-speed, 10-36t"
+          },
+          {
+            "label": "Cadena",
+            "value": "NEW SRAM RED 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "NEW SRAM RED AXS Power Meter"
+          },
+          {
+            "label": "Platos",
+            "value": "46/33"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "S-Works Mondo 2BR, 700x32c"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra CLX II, 25mm internal width, 32mm depth, 21h, Tubeless ready, Roval LFD hub with ceramic SINC bearings, Centerlock disc, DT Swiss Aerolite"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-Works Mondo 2BR, 700x32c"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra CLX II, 25mm internal width, 32mm depth, 24h, Tubeless ready, Roval LFD hub with ceramic SINC bearings, Centerlock disc, DT Swiss Aerolite"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28/38mm, 60mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "S-Works Future Stem, w/ Integrated Computer Mount"
+          },
+          {
+            "label": "Manillar",
+            "value": "S-Works Carbon Hover Drop 125mm, Reach 75mm, w/Di2 hole"
+          },
+          {
+            "label": "Tape",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Pave Seat post"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Hidden drop clamp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-roubaix-sl8-pro-sram-force-axs-2026",
+    "brand": "Specialized",
+    "model": "Roubaix SL8 Pro - SRAM Force AXS",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.87,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 38,
+    "groupset": {
+      "brand": "sram",
+      "name": "NEW SRAM Force AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "46/33",
+      "cassette": "10-36",
+      "minGearRatio": 0.92,
+      "maxGearRatio": 4.6
+    },
+    "brakes": "NEW SRAM Force AXS E1, hydraulic disc 160mm rotor",
+    "wheels": "Roval Rapide CL III",
+    "tires": "Mondo TLR Endurance Tire, 700x32, GRIPTON T2/T5",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 7999,
+    "msrpEur": 7999,
+    "geometry": {
+      "stackMm": 585,
+      "reachMm": 381,
+      "stackReachRatio": 1.54,
+      "headTubeAngleDeg": 72.3,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 465,
+      "headTubeLengthMm": 122,
+      "chainstayLengthMm": 420,
+      "wheelbaseMm": 1005,
+      "bbDropMm": 78,
+      "standoverHeightMm": 766
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94426-10_ROUBAIX-PRO-CARB-SHDWSIL_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94426-10_ROUBAIX-PRO-CARB-SHDWSIL_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/roubaix-sl8-pro-sram-force-axs-/p/4221819?color=5383387-4221819",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (NEW SRAM Force AXS E1)",
+      "Cuadro de carbono de alto rendimiento (FACT 10R)",
+      "Confort de larga distancia con absorción de irregularidades",
+      "Ruedas Roval Rapide CL III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "FACT 10R, Rider First Engineered™ (RFE), FreeFoil Shape Library tubes, threaded BB, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.3 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "NEW SRAM Force AXS E1, hydraulic disc 160mm rotor"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "NEW SRAM Force AXS E1, hydraulic disc 160mm rotor"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "NEW SRAM Force AXS E1 HRD"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "NEW SRAM Force AXS E1"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "NEW SRAM Force AXS E1"
+          },
+          {
+            "label": "Cadena",
+            "value": "NEW SRAM Force E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "NEW SRAM Force E1 Power Meter, 46/33t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA"
+          }
+        ]
+      },
+      {
+        "category": "Drivetrain",
+        "items": [
+          {
+            "label": "Cassette",
+            "value": "SRAM Force XG-1270 E1, 12 speed 10-36"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Mondo TLR Endurance Tire, 700x32, GRIPTON T2/T5"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Rapide CL III"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Mondo TLR Endurance Tire, 700x32, GRIPTON T2/T5"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Rapide CL III"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28-38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Specialized Pro SL, alloy, 4-bolt"
+          },
+          {
+            "label": "Manillar",
+            "value": "Roval Alpinist Carbon Handlebar, 125mm drop, 75mm reach"
+          },
+          {
+            "label": "Grips",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Pro Mirror, Hollow Ti Rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Pave"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Hidden drop clamp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-roubaix-sl8-sport-105-2026",
+    "brand": "Specialized",
+    "model": "Roubaix SL8 Sport 105",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9.03,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 38,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimnao 105 R7100",
+      "speedCount": 12,
+      "isElectronic": false,
+      "chainrings": "50/34",
+      "cassette": "11-36",
+      "minGearRatio": 0.94,
+      "maxGearRatio": 4.55
+    },
+    "brakes": "Shimano 105 Hydraulic Brake",
+    "wheels": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "Mondo Folding Endurance Tire, 700x32, GRIPTON T5",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 3299,
+    "msrpEur": 3299,
+    "geometry": {
+      "stackMm": 585,
+      "reachMm": 381,
+      "stackReachRatio": 1.54,
+      "headTubeAngleDeg": 72.3,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 465,
+      "headTubeLengthMm": 122,
+      "chainstayLengthMm": 420,
+      "wheelbaseMm": 1005,
+      "bbDropMm": 78,
+      "standoverHeightMm": 766
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94426-61_ROUBAIX-SPORT-FLORED-OBSD_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94426-61_ROUBAIX-SPORT-FLORED-OBSD_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/roubaix-sl8-sport-105/p/4221828?color=5383375-4221828",
+    "highlights": [
+      "Cuadro de carbono de alto rendimiento (FACT 10R)",
+      "Confort de larga distancia con absorción de irregularidades",
+      "Ruedas DT Swiss G540 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "FACT 10R, Rider First Engineered™ (RFE), FreeFoil Shape Library tubes, threaded BB, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.2 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano 105 Hydraulic Brake"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano 105 Hydraulic Brake"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano 105 R7120, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano 105 R7100, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimnao 105 R7100, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 R7100, 12-speed 11-36t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano SLX CN-M7100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano 105, 12-speed 50/34t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "Mondo Folding Endurance Tire, 700x32, GRIPTON T5"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Mondo Folding Endurance Tire, 700x32, GRIPTON T5"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28-38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Future Stem, Comp"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Hover Comp, Alloy, 125mm Drop, 75mm Reach w/Di2 Hole"
+          },
+          {
+            "label": "Grips",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Pave"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Hidden drop clamp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-roubaix-sl8-comp-2026",
+    "brand": "Specialized",
+    "model": "Roubaix SL8 Comp",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.76,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 38,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 Di2 R7150",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "50/34",
+      "cassette": "11-36",
+      "minGearRatio": 0.94,
+      "maxGearRatio": 4.55
+    },
+    "brakes": "Shimano 105, Hydraulic disc, 160mm",
+    "wheels": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "Mondo Folding Endurance Tire, 700x32, GRIPTON T5",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 4299,
+    "msrpEur": 4299,
+    "geometry": {
+      "stackMm": 585,
+      "reachMm": 381,
+      "stackReachRatio": 1.54,
+      "headTubeAngleDeg": 72.3,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 465,
+      "headTubeLengthMm": 122,
+      "chainstayLengthMm": 420,
+      "wheelbaseMm": 1005,
+      "bbDropMm": 78,
+      "standoverHeightMm": 766
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94426-53_ROUBAIX-COMP-DI2-SLDMET-METOBSD-SMK_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94426-53_ROUBAIX-COMP-DI2-SLDMET-METOBSD-SMK_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/roubaix-sl8-comp/p/4221824?color=5383377-4221824",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano 105 Di2 R7150)",
+      "Cuadro de carbono de alto rendimiento (FACT 10R)",
+      "Confort de larga distancia con absorción de irregularidades",
+      "Ruedas DT Swiss G540 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "FACT 10R, Rider First Engineered™ (RFE), FreeFoil Shape Library tubes, threaded BB, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.2 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano 105, Hydraulic disc, 160mm"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano 105, Hydraulic disc, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano 105 Di2 R7170, 12-speed hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano 105 Di2 R7150, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano 105 Di2 R7150"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 R7100, 12-speed 11-36t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano SLX CN-M7100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano 105, 12-speed, 50/34T"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "Mondo Folding Endurance Tire, 700x32, GRIPTON T5"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Mondo Folding Endurance Tire, 700x32, GRIPTON T5"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28-38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Future Stem, Comp"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Hover Comp, Alloy, 125mm Drop, 75mm Reach w/Di2 Hole"
+          },
+          {
+            "label": "Grips",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Pave"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Hidden drop clamp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-roubaix-sl8-expert-shimano-ultegra-di2-2026",
+    "brand": "Specialized",
+    "model": "Roubaix SL8 Expert - Shimano Ultegra Di2",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.17,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 38,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra R8150",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "50/34",
+      "cassette": "11-34",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "brakes": "Shimano Ultegra R8100, hydraulic brake",
+    "wheels": "Roval C38, 21mm internal width carbon rim",
+    "tires": "Mondo TLR Endurance Tire, 700x32, GRIPTON T2/T5",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 5999,
+    "msrpEur": 5999,
+    "geometry": {
+      "stackMm": 585,
+      "reachMm": 381,
+      "stackReachRatio": 1.54,
+      "headTubeAngleDeg": 72.3,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 465,
+      "headTubeLengthMm": 122,
+      "chainstayLengthMm": 420,
+      "wheelbaseMm": 1005,
+      "bbDropMm": 78,
+      "standoverHeightMm": 766
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94426-31_ROUBAIX-EXPERT-FJDMET-PRL-EMDMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94426-31_ROUBAIX-EXPERT-FJDMET-PRL-EMDMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/roubaix-sl8-expert-shimano-ultegra-di2/p/4221822?color=5383376-4221822",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano Ultegra R8150)",
+      "Cuadro de carbono de alto rendimiento (FACT 10R)",
+      "Confort de larga distancia con absorción de irregularidades",
+      "Ruedas Roval C38"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Frameset",
+        "items": [
+          {
+            "label": "Frame",
+            "value": "FACT 10R, Rider First Engineered™ (RFE), FreeFoil Shape Library tubes, threaded BB, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspension",
+        "items": [
+          {
+            "label": "Fork",
+            "value": "Future Shock 3.2 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Brakes",
+        "items": [
+          {
+            "label": "Front Brake",
+            "value": "Shimano Ultegra R8100, hydraulic brake"
+          },
+          {
+            "label": "Rear Brake",
+            "value": "Shimano Ultegra R8100, hydraulic brake"
+          }
+        ]
+      },
+      {
+        "category": "Drivetrain",
+        "items": [
+          {
+            "label": "Shift Levers",
+            "value": "Shimano Ultegra Di2 R8170, hydraulic disc"
+          },
+          {
+            "label": "Front Derailleur",
+            "value": "Shimano Ultegra Di2 R8150, braze-on"
+          },
+          {
+            "label": "Rear Derailleur",
+            "value": "Shimano Ultegra R8150, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra CS-R8100, 12-speed, 11-34t"
+          },
+          {
+            "label": "Chain",
+            "value": "Shimano XT CN-M8100, 12-speed"
+          },
+          {
+            "label": "Crankset",
+            "value": "Shimano Ultegra R8100, 50/34t"
+          },
+          {
+            "label": "Bottom Bracket",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Wheels & Tires",
+        "items": [
+          {
+            "label": "Front Wheel",
+            "value": "Roval C38, 21mm internal width carbon rim"
+          },
+          {
+            "label": "Front Tire",
+            "value": "Mondo TLR Endurance Tire, 700x32, GRIPTON T2/T5"
+          },
+          {
+            "label": "Rear Tire",
+            "value": "Mondo TLR Endurance Tire, 700x32, GRIPTON T2/T5"
+          },
+          {
+            "label": "Rear Wheel",
+            "value": "Roval C38, 21mm internal width carbon rim, tubeless ready"
+          },
+          {
+            "label": "Inner Tubes",
+            "value": "700x28-38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Stem",
+            "value": "Future Stem, Pro"
+          },
+          {
+            "label": "Handlebars",
+            "value": "Specialized Hover Expert, Alloy, 125mm Drop, 75mm Reach w/Di2 Hole"
+          },
+          {
+            "label": "Grips",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Saddle",
+            "value": "Body Geometry Power Expert"
+          },
+          {
+            "label": "SeatPost",
+            "value": "S-Works Pave"
+          },
+          {
+            "label": "Seat Binder",
+            "value": "Hidden drop clamp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-roubaix-sl8-shimano-tiagra-2026",
+    "brand": "Specialized",
+    "model": "Roubaix SL8: Shimano Tiagra",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9.44,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 38,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Tiagra RD-R4000",
+      "speedCount": 11,
+      "isElectronic": false,
+      "chainrings": "50/34",
+      "cassette": "11-36",
+      "minGearRatio": 0.94,
+      "maxGearRatio": 4.55
+    },
+    "brakes": "Shimano BR-RS405, hyrdaulic disc",
+    "wheels": "Axis Elite Disc",
+    "tires": "Roadsport Wirebead Tire 700x32",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 2499,
+    "msrpEur": 2499,
+    "geometry": {
+      "stackMm": 585,
+      "reachMm": 381,
+      "stackReachRatio": 1.54,
+      "headTubeAngleDeg": 72.3,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 465,
+      "headTubeLengthMm": 122,
+      "chainstayLengthMm": 420,
+      "wheelbaseMm": 1005,
+      "bbDropMm": 78,
+      "standoverHeightMm": 766
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94427-72_ROUBAIX-BASE-METDPMRNBLU-SHDWSIL_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94427-72_ROUBAIX-BASE-METDPMRNBLU-SHDWSIL_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/roubaix-sl8-shimano-tiagra/p/4263270?color=5476702-4263270",
+    "highlights": [
+      "Cuadro de carbono de alto rendimiento (FACT 10R)",
+      "Confort de larga distancia con absorción de irregularidades",
+      "Ruedas Axis Elite Disc"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "FACT 10R, Rider First Engineered™ (RFE), FreeFoil Shape Library tubes, threaded BB, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.1 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano BR-RS405, hyrdaulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano BR-RS405, hyrdaulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano Tiagra R4000, hydraulic disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano Tiagra R4000, braze on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano Tiagra RD-R4000, 11 speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CUES CS-RS400, 11-36t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-LG500"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano Tiagra FC-R4000, 11-speed, 50/34t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "Axis Elite Disc"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "Roadsport Wirebead Tire 700x32"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Roadsport Wirebead Tire 700x32"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Axis Elite Disc"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28-38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Future Stem, Comp"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Hover Comp, Alloy, 125mm Drop, 75mm Reach w/Di2 Hole"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Suave"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Pave"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Hidden drop clamp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-roubaix-sl8-2026",
+    "brand": "Specialized",
+    "model": "Roubaix SL8",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9.46,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 38,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimnao Tiagra",
+      "speedCount": 10,
+      "isElectronic": false,
+      "chainrings": "50/34",
+      "cassette": "11-34",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "brakes": "Shimano Tiagra Hydraulic Disc, 160mm",
+    "wheels": "Axis Elite Disc",
+    "tires": "Road Sport, 700x32c",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 2499,
+    "msrpEur": 2499,
+    "geometry": {
+      "stackMm": 585,
+      "reachMm": 381,
+      "stackReachRatio": 1.54,
+      "headTubeAngleDeg": 72.3,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 465,
+      "headTubeLengthMm": 122,
+      "chainstayLengthMm": 420,
+      "wheelbaseMm": 1005,
+      "bbDropMm": 78,
+      "standoverHeightMm": 766
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94423-70_ROUBAIX-RSTDRED-OBSD_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94423-70_ROUBAIX-RSTDRED-OBSD_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/roubaix-sl8/p/216946?color=349866-216946",
+    "highlights": [
+      "Cuadro de carbono de alto rendimiento (FACT 10R)",
+      "Confort de larga distancia con absorción de irregularidades",
+      "Ruedas Axis Elite Disc"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "FACT 10R, Rider First Engineered™ (RFE), FreeFoil Shape Library tubes, threaded BB, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.1 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano Tiagra Hydraulic Disc, 160mm"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano Tiagra Hydraulic Disc, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano Tiagra 4720, Hydraulic Disc"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano 105 R7100, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimnao Tiagra"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Tiagra, 10-speed, 11-34T"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X10, 10-Speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano Tiagra, 10-Speed"
+          },
+          {
+            "label": "Platos",
+            "value": "50/34"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano BSA"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "Axis Elite Disc"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "Road Sport, 700x32c"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Road Sport, 700x32c"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Axis Elite Disc"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28/38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Future Stem Comp"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Hover Comp, Alloy, 125mm Drop, 75mm Reach w/Di2 Hole"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Roubaix S-Wrap"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Pave Seat post"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Hidden drop clamp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-aethos-campagnolo-ltd-2026",
+    "brand": "Specialized",
+    "model": "S-Works Aethos – Campagnolo LTD",
+    "year": 2026,
+    "discipline": "road_race",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "groupset": {
+      "brand": "campagnolo",
+      "name": "CAMPAGNOLO Super Record",
+      "speedCount": 12,
+      "isElectronic": false,
+      "chainrings": "48/32",
+      "cassette": "10-29",
+      "minGearRatio": 1.1,
+      "maxGearRatio": 4.8
+    },
+    "brakes": "CAMPAGNOLO Super Record, Hydraulic Disc",
+    "wheels": "CAMPAGNOLO Hyperon Ultra, 21mm internal carbon rim, 37mm depth, tubeless ready",
+    "tires": "S-works Turbo 2BR, 700x28mm",
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "currentPriceEur": 10499,
+    "msrpEur": 15500,
+    "geometry": {
+      "stackMm": 544,
+      "reachMm": 384,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 73,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 540,
+      "seatTubeLengthMm": 481,
+      "headTubeLengthMm": 137,
+      "chainstayLengthMm": 410,
+      "wheelbaseMm": 978,
+      "bbDropMm": 72,
+      "standoverHeightMm": 748
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/97222-05_AETHOS-SW-LTD-BRCH-BLKPRL_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/97222-05_AETHOS-SW-LTD-BRCH-BLKPRL_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-aethos--campagnolo-ltd/p/205572?color=335142-205572",
+    "highlights": [
+      "Cuadro de carbono de alto rendimiento (S-Works Aethos FACT 12r Carbon)",
+      "Geometría pura de competición aero con relación peso/rigidez optimizada",
+      "Ruedas CAMPAGNOLO Hyperon Ultra"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "S-Works Aethos FACT 12r Carbon, Rider First Engineered™, Threaded BB, Electronic cable routing only, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "CAMPAGNOLO Super Record, Hydraulic Disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "CAMPAGNOLO Super Record, Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "CAMPAGNOLO Super Record"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "CAMPAGNOLO Super Record, Braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "CAMPAGNOLO Super Record, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "CAMPAGNOLO Super Record, 12-speed, 10-29t"
+          },
+          {
+            "label": "Cadena",
+            "value": "CAMPAGNOLO Super Record, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "CAMPAGNOLO Super Record, 12-speed"
+          },
+          {
+            "label": "Platos",
+            "value": "48/32T"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "CAMPAGNOLO, Threaded"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "S-works Turbo 2BR, 700x28mm"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "CAMPAGNOLO Hyperon Ultra, 21mm internal carbon rim, 37mm depth, tubeless ready"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "S-works Turbo 2BR, 700x28mm"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "CAMPAGNOLO Hyperon Ultra, 21mm internal carbon rim, 37mm depth, tubeless ready"
+          },
+          {
+            "label": "Cámaras",
+            "value": "Turbo Ultralight, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "S-Works SL, alloy, titanium bolts, 6-degree rise"
+          },
+          {
+            "label": "Manillar",
+            "value": "S-Works Short & Shallow, 125mm Drop, 75mm Reach w/Di2 Hole"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry S-Works Power, carbon fiber rails, carbon fiber base"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.0mm, titanium bolt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-roubaix-sl8-comp-sram-rival-axs-2026",
+    "brand": "Specialized",
+    "model": "Roubaix SL8 Comp - SRAM Rival AXS",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 38,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Rival AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "46/33",
+      "cassette": "10-36",
+      "minGearRatio": 0.92,
+      "maxGearRatio": 4.6
+    },
+    "brakes": "SRAM Rival E1, hyrdaulic disc",
+    "wheels": "DT Swiss G500 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "Mondo Folding Endurance Tire, 700x32, GRIPTON T5",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 4499,
+    "msrpEur": 4499,
+    "geometry": {
+      "stackMm": 545,
+      "reachMm": 385,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 72.5,
+      "chainstayLengthMm": 410
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/94427-52_ROUBAIX-COMP-AXS-STLNMET-WRMSMKMET-DLMMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/94427-52_ROUBAIX-COMP-AXS-STLNMET-WRMSMKMET-DLMMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/roubaix-sl8-comp-sram-rival-axs/p/4263268?color=5473749-4263268",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM Rival AXS E1)",
+      "Cuadro de carbono de alto rendimiento (FACT 10R)",
+      "Confort de larga distancia con absorción de irregularidades",
+      "Ruedas DT Swiss G500 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Frameset",
+        "items": [
+          {
+            "label": "Frame",
+            "value": "FACT 10R, Rider First Engineered™ (RFE), FreeFoil Shape Library tubes, threaded BB, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspension",
+        "items": [
+          {
+            "label": "Fork",
+            "value": "Future Shock 3.2 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Brakes",
+        "items": [
+          {
+            "label": "Front Brake",
+            "value": "SRAM Rival E1, hyrdaulic disc"
+          },
+          {
+            "label": "Rear Brake",
+            "value": "SRAM Rival E1, hyrdaulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Drivetrain",
+        "items": [
+          {
+            "label": "Shift Levers",
+            "value": "SRAM Rival AXS E1"
+          },
+          {
+            "label": "Front Derailleur",
+            "value": "SRAM Rival AXS E1, braze-on"
+          },
+          {
+            "label": "Rear Derailleur",
+            "value": "SRAM Rival AXS E1, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Rival XG-1250 D1, 12-speed 10-36t"
+          },
+          {
+            "label": "Chain",
+            "value": "SRAM Rival Flattop E1"
+          },
+          {
+            "label": "Crankset",
+            "value": "SRAM Rival E1 46/33T"
+          },
+          {
+            "label": "Bottom Bracket",
+            "value": "SRAM DUB BSA 68"
+          }
+        ]
+      },
+      {
+        "category": "Wheels & Tires",
+        "items": [
+          {
+            "label": "Front Tire",
+            "value": "Mondo Folding Endurance Tire, 700x32, GRIPTON T5"
+          },
+          {
+            "label": "Front Wheel",
+            "value": "DT Swiss G500 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Rear Tire",
+            "value": "Mondo Folding Endurance Tire, 700x32, GRIPTON T5"
+          },
+          {
+            "label": "Rear Wheel",
+            "value": "DT Swiss G500 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Inner Tubes",
+            "value": "700x28-38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Stem",
+            "value": "Future Stem, Comp"
+          },
+          {
+            "label": "Handlebars",
+            "value": "Specialized Hover Comp, Alloy, 125mm Drop, 75mm Reach w/Di2 Hole"
+          },
+          {
+            "label": "Grips",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Saddle",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "SeatPost",
+            "value": "S-Works Pave"
+          },
+          {
+            "label": "Seat Binder",
+            "value": "Hidden drop clamp"
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -1644,5 +1644,3767 @@
         ]
       }
     ]
+  },
+  {
+    "id": "specialized-crux-5-expert-sram-force-xplr-2026",
+    "brand": "Specialized",
+    "model": "Crux 5 Expert: SRAM Force XPLR",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.22,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Force AXS E1 XPLR",
+      "speedCount": 13,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-46",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "brakes": "SRAM Force E1, hydraulic disc",
+    "wheels": "Roval Terra C III, 27mm inner width carbon rim, tubeless ready, 25.5mm depth, DT 370 hub, 24h, ",
+    "tires": "Pathfinder 700x45, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 6999,
+    "msrpEur": 6999,
+    "geometry": {
+      "stackMm": 560,
+      "reachMm": 388,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74.5,
+      "topTubeLengthMm": 543,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 125,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 78,
+      "standoverHeightMm": 781
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/91427-31_CRUX-5-EXPERT-AXS-GLDPRL-DLMMET-METOBSD_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/91427-31_CRUX-5-EXPERT-AXS-GLDPRL-DLMMET-METOBSD_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/crux-5-expert-sram-force-xplr/p/4294830?color=5469837-4294830",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM Force AXS E1 XPLR)",
+      "Cuadro de carbono de alto rendimiento (Crux 5 FACT 10r Carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra C III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Crux 5 FACT 10r Carbon, Rider First Engineered™, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Force E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Force E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Force AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Force AXS E1 XPLR, 13-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Force E1 XPLR, 13-speed, 10-46t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Force Flattop E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Force E1 XPLR, DUB Wide, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68 Wide"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra C III, 27mm inner width carbon rim, tubeless ready, 25.5mm depth, DT 370 hub, 24h, Sapim D-Light spokes"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra C III, 27mm inner width carbon rim, tubeless ready, 25.5mm depth, DT 370 hub, 24h, Sapim D-Light spokes"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 40mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Roval Rapide, alloy, 4 bolt, -6 degrees"
+          },
+          {
+            "label": "Manillar",
+            "value": "Roval Terra, carbon, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Expert, hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Integrated Wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-crux-5-s-level-sram-red-xplr-2026",
+    "brand": "Specialized",
+    "model": "Crux 5 S-Level: SRAM RED XPLR",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.7,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED AXS XPLR E1",
+      "speedCount": 13,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-46",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "brakes": "SRAM RED E1, hydraulic disc",
+    "wheels": "Roval Terra Aero CL, 27mm internal width, tubeless ready, 50mm depth, 21h, DT 350 hub, Centerlo",
+    "tires": "Pathfinder 700x45, Tubeless Ready",
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "currentPriceEur": 10499,
+    "msrpEur": 10499,
+    "geometry": {
+      "stackMm": 560,
+      "reachMm": 388,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74.5,
+      "topTubeLengthMm": 543,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 125,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 78,
+      "standoverHeightMm": 781
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/91427-10_CRUX-5-S-LEVEL-AXS-REDPRL-REDWD-BRCH_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/91427-10_CRUX-5-S-LEVEL-AXS-REDPRL-REDWD-BRCH_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/crux-5-s-level-sram-red-xplr/p/4294829?color=5469836-4294829",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM RED AXS XPLR E1)",
+      "Cuadro de carbono de alto rendimiento (Crux 5 FACT 10r Carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra Aero CL"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Crux 5 FACT 10r Carbon, Rider First Engineered™, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM RED E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM RED E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM RED AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM RED AXS XPLR E1, 13-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XPLR E1, 13-speed, 10-46t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED E1 Flattop 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM RED XPLR E1, Quarq power meter, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68 Wide"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra Aero CL, 27mm internal width, tubeless ready, 50mm depth, 21h, DT 350 hub, Centerlock disc, DT Swiss Competition spokes"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra Aero CL, 27mm internal width, tubeless ready, 45mm depth, 24h, DT 350 hub, Centerlock disc, DT Swiss Competition spokes"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 60mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Terra Cockpit, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Power Pro Mirror, hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Integrated Wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-crux-5-sram-red-xplr-2026",
+    "brand": "Specialized",
+    "model": "S-Works Crux 5: SRAM RED XPLR",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.1,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED AXS XPLR E1",
+      "speedCount": 13,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-46",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "brakes": "SRAM RED E1, hydraulic disc",
+    "wheels": "Roval Terra Aero CLX, 27mm internal width, tubeless ready, 50mm depth, 18h, Roval LF18-F hub wi",
+    "tires": "Pathfinder 700x45, Tubeless Ready",
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "currentPriceEur": 13999,
+    "msrpEur": 13999,
+    "geometry": {
+      "stackMm": 560,
+      "reachMm": 388,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74.5,
+      "topTubeLengthMm": 543,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 125,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 78,
+      "standoverHeightMm": 781
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/91427-01_CRUX-5-SW-AXS-GLDPRL-SILDST-NBLMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/91427-01_CRUX-5-SW-AXS-GLDPRL-SILDST-NBLMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-crux-5-sram-red-xplr/p/4294828?color=5469834-4294828",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM RED AXS XPLR E1)",
+      "Cuadro de carbono de alto rendimiento (S-Works Crux 5 FACT 12r Carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra Aero CLX"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "S-Works Crux 5 FACT 12r Carbon, Rider First Engineered™, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM RED E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM RED E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM RED AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM RED AXS XPLR E1, 13-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XPLR E1, 13-speed, 10-46t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM RED XPLR E1, Quarq power meter, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Ceramic Speed BB Alpha, BSA DUB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra Aero CLX, 27mm internal width, tubeless ready, 50mm depth, 18h, Roval LF18-F hub with ceramic SINC bearings, Centerlock disc, Roval by ARR"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra Aero CLX, 27mm internal width, tubeless ready, 45mm depth, 24h, Roval LF19-R hub with ceramic SINC bearings, Centerlock disc, Roval by ARR"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 60mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Terra Cockpit, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Seatpost",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset, Lightweight Saddle Clamp"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Integrated Wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-crux-5-ltd-built-for-legends-2026",
+    "brand": "Specialized",
+    "model": "S-Works Crux 5 LTD: Built for Legends",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.1,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED AXS XPLR E1",
+      "speedCount": 13,
+      "isElectronic": true,
+      "chainrings": "44",
+      "cassette": "10-46",
+      "minGearRatio": 0.96,
+      "maxGearRatio": 4.4
+    },
+    "brakes": "SRAM RED E1, hydraulic disc",
+    "wheels": "Roval Terra Aero CLX, 27mm internal width, tubeless ready, 50mm depth, 18h, Roval LF18-F hub wi",
+    "tires": "Pathfinder 700x45, Tubeless Ready",
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "currentPriceEur": 14999,
+    "msrpEur": 14999,
+    "geometry": {
+      "stackMm": 560,
+      "reachMm": 388,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74.5,
+      "topTubeLengthMm": 543,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 125,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 78,
+      "standoverHeightMm": 781
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/91427-02_CRUX-5-SW-LTD-MADE-IN-RACING-REDPRL-REDTNT-METWHTSIL_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/91427-02_CRUX-5-SW-LTD-MADE-IN-RACING-REDPRL-REDTNT-METWHTSIL_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-crux-5-ltd-built-for-legends/p/4294839?color=5469835-4294839",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM RED AXS XPLR E1)",
+      "Cuadro de carbono de alto rendimiento (S-Works Crux 5 FACT 12r Carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra Aero CLX"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "S-Works Crux 5 FACT 12r Carbon, Rider First Engineered™, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM RED E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM RED E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM RED AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM RED AXS XPLR E1, 13-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XPLR E1, 13-speed, 10-46t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM RED E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM RED XPLR E1, Aero-X Sync chainring with Quarq power meter, 44t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Ceramic Speed BB Alpha, BSA DUB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra Aero CLX, 27mm internal width, tubeless ready, 50mm depth, 18h, Roval LF18-F hub with ceramic SINC bearings, Centerlock disc, Roval by ARR"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra Aero CLX, 27mm internal width, tubeless ready, 50mm depth, 18h, Roval LF18-F hub with ceramic SINC bearings, Centerlock disc, Roval by ARR"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 60mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Roval Terra Cockpit, Integrated Bar/Stem"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset, Lightweight Saddle Clamp"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Integrated Wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-crux-5-sport-shimano-grx-800-2026",
+    "brand": "Specialized",
+    "model": "Crux 5 Sport: Shimano GRX 800",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.94,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RD-RX822-GS",
+      "speedCount": 12,
+      "isElectronic": false,
+      "chainrings": "40",
+      "cassette": "10-45",
+      "minGearRatio": 0.89,
+      "maxGearRatio": 4
+    },
+    "brakes": "Shimano GRX BR-RX820",
+    "wheels": "DT Swiss G500 rim, 26mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "Pathfinder 700x45, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 3999,
+    "msrpEur": 3999,
+    "geometry": {
+      "stackMm": 560,
+      "reachMm": 388,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74.5,
+      "topTubeLengthMm": 543,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 125,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 78,
+      "standoverHeightMm": 781
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/91427-61_CRUX-5-SPORT-SILPRL-SMK-SILDST_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/91427-61_CRUX-5-SPORT-SILPRL-SMK-SILDST_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/crux-5-sport-shimano-grx-800/p/4312531?color=5479431-4312531",
+    "highlights": [
+      "Cuadro de carbono de alto rendimiento (Crux 5 FACT 10r Carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas DT Swiss G500 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Crux 5 FACT 10r Carbon, Rider First Engineered™, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano GRX BR-RX820"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano GRX BR-RX820"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shiimano GRX ST-RX820"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano GRX RD-RX822-GS, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano XT CS-M8100, 12-speed, 10-45t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT CN-M8100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano GRX FC-RX820, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss G500 rim, 26mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss G500 rim, 26mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 40mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Roval Rapide, alloy, 4 bolt, -6 degrees"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear, 118.9mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Integrated Wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-crux-5-comp-sram-rival-xplr-2026",
+    "brand": "Specialized",
+    "model": "Crux 5 Comp: SRAM Rival XPLR",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.89,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Rival AXS E1 XPLR",
+      "speedCount": 13,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-46",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "brakes": "SRAM Rival E1, hydraulic disc",
+    "wheels": "DT Swiss G500 rim, 26mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "Pathfinder 700x45, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 4499,
+    "msrpEur": 4499,
+    "geometry": {
+      "stackMm": 560,
+      "reachMm": 388,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74.5,
+      "topTubeLengthMm": 543,
+      "seatTubeLengthMm": 473,
+      "headTubeLengthMm": 125,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 78,
+      "standoverHeightMm": 781
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/91427-51_CRUX-5-COMP-METOBSD-DUNEWHT_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/91427-51_CRUX-5-COMP-METOBSD-DUNEWHT_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/crux-5-comp-sram-rival-xplr/p/4294832?color=5469856-4294832",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM Rival AXS E1 XPLR)",
+      "Cuadro de carbono de alto rendimiento (Crux 5 FACT 10r Carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas DT Swiss G500 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Crux 5 FACT 10r Carbon, Rider First Engineered™, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Rival E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Rival E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Rival AXS E1"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Rival AXS E1 XPLR, 13-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Rival E1 XPLR, 13-speed, 10-46t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Rival E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Rival E1 XPLR, DUB Wide, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68 Wide"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss G500 rim, 26mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss G500 rim, 26mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 40mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Roval Rapide, alloy, 4 bolt, -6 degrees"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear, 118.9mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Comp, chrome alloy rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "S-Works Tarmac SL8 Carbon seat post, FACT Carbon, 15mm offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Integrated Wedge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-crux-2026",
+    "brand": "Specialized",
+    "model": "S-Works Crux",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.94,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM RED AXS XPLR E1",
+      "speedCount": 13,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-46",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "brakes": "See override",
+    "wheels": "Roval Terra CLX II, 25mm internal width, Tubeless Ready, 32mm depth, 21h, Roval LF13 hub with c",
+    "tires": "Pathfinder 700x40, Tubeless Ready",
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "currentPriceEur": 12999,
+    "msrpEur": 12999,
+    "geometry": {
+      "stackMm": 560,
+      "reachMm": 388,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 71.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 549,
+      "seatTubeLengthMm": 521,
+      "headTubeLengthMm": 130,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 1023,
+      "bbDropMm": 72,
+      "standoverHeightMm": 794
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/91426-00_CRUX-SW-FJDMET-DLMMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/91426-00_CRUX-SW-FJDMET-DLMMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-crux/p/4223487?color=5448056-4223487",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM RED AXS XPLR E1)",
+      "Cuadro de carbono de alto rendimiento (S-Works Crux FACT 12r Carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra CLX II"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "S-Works Crux FACT 12r Carbon, Rider First Engineered™, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "See override"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "See override"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM RED AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM RED AXS XPLR E1, 13-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM RED XPLR E1, 13-speed, 10-46t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Red XPLR, 13sp"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM RED E1 XPLR, DUB Wide, 40t, Quarq Power Meter"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68 Wide"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder 700x40, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra CLX II, 25mm internal width, Tubeless Ready, 32mm depth, 21h, Roval LF13 hub with ceramic SINC bearings, Centerlock disc, DT Swiss Aerolit"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder 700x40, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra CLX II, 25mm internal width, Tubeless Ready, 32mm depth, 24h, Roval LF14R2, Centerlock, DT Swiss EXP internals, SRAM XDR, DT Swiss Aerolit"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 40mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "S-Works SL, alloy, titanium bolts, 6-degree rise"
+          },
+          {
+            "label": "Manillar",
+            "value": "Roval Terra, carbon, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.0mm, titanium bolt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-s-works-crux-2026-4223480",
+    "brand": "Specialized",
+    "model": "S-Works Crux",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.94,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "NEW SRAM Red XPLR",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-46",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "brakes": "NEW SRAM Red XPLR, Hydraulic Disc",
+    "wheels": "Roval Terra CLX II, 25mm internal width, Tubeless ready, 32mm depth, 21h, Roval AFD1, Centerloc",
+    "tires": "Pathfinder Pro 2Bliss Ready, Transparent Sidewall, 700x38c",
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "currentPriceEur": 12999,
+    "msrpEur": 12999,
+    "geometry": {
+      "stackMm": 560,
+      "reachMm": 388,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 71.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 549,
+      "seatTubeLengthMm": 521,
+      "headTubeLengthMm": 130,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 1023,
+      "bbDropMm": 72,
+      "standoverHeightMm": 794
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/91425-00_CRUX-SW-CYPRMET-GLDPRL_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/91425-00_CRUX-SW-CYPRMET-GLDPRL_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/s-works-crux/p/4223480?color=5381911-4223480",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (NEW SRAM Red XPLR)",
+      "Cuadro de carbono de alto rendimiento (S-Works Crux FACT 12r Carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra CLX II"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "S-Works Crux FACT 12r Carbon, Rider First Engineered™, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "NEW SRAM Red XPLR, Hydraulic Disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "NEW SRAM Red XPLR, Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Red AXS"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "NEW SRAM Red XPLR, 13sp"
+          },
+          {
+            "label": "Cassette",
+            "value": "NEW SRAM Red XPLR, 13sp, 10-46t"
+          },
+          {
+            "label": "Cadena",
+            "value": "NEW SRAM Red XPLR, 13sp"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Red AXS Power Meter"
+          },
+          {
+            "label": "Platos",
+            "value": "40T"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder Pro 2Bliss Ready, Transparent Sidewall, 700x38c"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra CLX II, 25mm internal width, Tubeless ready, 32mm depth, 21h, Roval AFD1, Centerlock, DT Swiss Aerolite spokes"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder Pro 2Bliss Ready, Transparent Sidewall, 700x38c"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra CLX II, 25mm internal width, Tubeless Ready, 32mm depth, 24h, Roval AFD2, Centerlock, DT Swiss EXP internals, SRAM XDR, DT Swiss Aerolite "
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28/38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "S-Works SL, alloy, titanium bolts, 6-degree rise"
+          },
+          {
+            "label": "Manillar",
+            "value": "Roval Terra, carbon, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Alpinist Carbon Seatpost"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.0mm, titanium bolt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-crux-dsw-2026",
+    "brand": "Specialized",
+    "model": "Crux DSW",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 9.44,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Apex XPLR",
+      "speedCount": 12,
+      "isElectronic": false,
+      "chainrings": "40",
+      "cassette": "11-44",
+      "minGearRatio": 0.91,
+      "maxGearRatio": 3.64
+    },
+    "brakes": "SRAM Apex, Hydraulic Disc",
+    "wheels": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "Pathfinder 700x40, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 2699,
+    "msrpEur": 2699,
+    "geometry": {
+      "stackMm": 560,
+      "reachMm": 388,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 71.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 549,
+      "seatTubeLengthMm": 521,
+      "headTubeLengthMm": 130,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 1023,
+      "bbDropMm": 72,
+      "standoverHeightMm": 794
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/91426-52_CRUX-DSW-COMP-EMDMET-FJDMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/91426-52_CRUX-DSW-COMP-EMDMET-FJDMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/crux-dsw/p/4221804?color=5461538-4221804",
+    "highlights": [
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas DT Swiss G540 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized E5 Premium Aluminum Disc frame with D'Aluisio Smartweld Technology, hydroformed aluminum tubing, tapered head tube, threaded BB, UDH dropo"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Apex, Hydraulic Disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Apex, Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Apex"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Apex XPLR, mechanical, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM APEX XPLR, 12sp, 11-44T"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Apex D1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Apex DUB Wide, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68 Wide"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder 700x40, Tubeless Ready"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder 700x40, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 40mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Specialized, 3D-forged alloy, 4-bolt, 7-degree rise"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear, 118.9mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Alloy, 2-bolt Clamp, 12mm offset, 27.2mm, anti-corrosion hardware"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.8mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-diverge-4-pro-ltd-shimano-xtr-grx-di2-2026",
+    "brand": "Specialized",
+    "model": "Diverge 4 Pro LTD - Shimano XTR/GRX Di2",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.5,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XTR Di2 RD-M9250",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-51",
+      "minGearRatio": 0.78,
+      "maxGearRatio": 4
+    },
+    "brakes": "Shimano GRX BR-RX820, hydraulic disc",
+    "wheels": "Roval Terra CLX III, Tubeless, 27mm internal width carbon rim, 25.5 mm depth, 4.9mm bead hook w",
+    "tires": "Tracer TLR All Terrain Gravel Tire, 700x50c, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 9999,
+    "msrpEur": 9999,
+    "geometry": {
+      "stackMm": 592,
+      "reachMm": 387,
+      "stackReachRatio": 1.53,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 556,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 116,
+      "chainstayLengthMm": 430,
+      "wheelbaseMm": 1041,
+      "bbDropMm": 85,
+      "standoverHeightMm": 754
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/95427-11_DIVERGE-PRO-LTD-SILDST-SHDWSIL-METOBSD_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/95427-11_DIVERGE-PRO-LTD-SILDST-SHDWSIL-METOBSD_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/diverge-4-pro-ltd-shimano-xtrgrx-di2/p/4296390?color=5473802-4296390",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano XTR Di2 RD-M9250)",
+      "Cuadro de carbono de alto rendimiento (Specialized Diverge FACT 9r carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra CLX III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized Diverge FACT 9r carbon, SWAT™ Door integration, Future Shock suspension, threaded BB, internal routing, 12x142mm thru-axle, flat-mount dis"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.3 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano GRX BR-RX820, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano GRX BR-RX820, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano GRX Di2 ST-RX825"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano XTR Di2 RD-M9250, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano XTR CS-M9200, 12-speed, 10-51t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XTR CN-M9100"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Easton EC90 ALX, 40t chainring, 4iiii power meter"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Easton Bottom Bracket, BSA 68"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Tracer TLR All Terrain Gravel Tire, 700x50c, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra CLX III, Tubeless, 27mm internal width carbon rim, 25.5 mm depth, 4.9mm bead hook width, Roval LF18-F hub, 21h, Roval by ARRIS Composite S"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Tracer TLR All Terrain Gravel Tire, 700x50c, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra CLX III, Tubeless, 27mm internal width carbon rim, 25.5 mm depth, 4.9mm bead hook width, Roval LF19-R hub, 24h, Roval by ARRIS Composite S"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 40mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "S-Works SL, alloy, titanium bolts, 6-degree rise"
+          },
+          {
+            "label": "Manillar",
+            "value": "Roval Terra, carbon, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "S-Works Power with Mirror"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Terra Carbon Seat Post, 20mm Offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.8mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-crux-comp-2026",
+    "brand": "Specialized",
+    "model": "Crux Comp",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.66,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RD-RX822-GS",
+      "speedCount": 12,
+      "isElectronic": false,
+      "chainrings": "40",
+      "cassette": "10-45",
+      "minGearRatio": 0.89,
+      "maxGearRatio": 4
+    },
+    "brakes": "Shimano GRX BR-RX820",
+    "wheels": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "Pathfinder 700x40, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 3999,
+    "msrpEur": 3999,
+    "geometry": {
+      "stackMm": 560,
+      "reachMm": 388,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 71.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 549,
+      "seatTubeLengthMm": 521,
+      "headTubeLengthMm": 130,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 1023,
+      "bbDropMm": 72,
+      "standoverHeightMm": 794
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/91426-50_CRUX-COMP-DUNEWHT-SNDSTNMET-ORGZST_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/91426-50_CRUX-COMP-DUNEWHT-SNDSTNMET-ORGZST_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/crux-comp/p/4223490?color=5448058-4223490",
+    "highlights": [
+      "Cuadro de carbono de alto rendimiento (Crux FACT 10r Carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas DT Swiss G540 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Crux FACT 10r Carbon, Rider First Engineered™, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano GRX BR-RX820"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano GRX BR-RX820"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano GRX ST-RX820"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano GRX RD-RX822-GS, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano XT CS-M8100, 12-speed, 10-45t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT CN-M8100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano GRX RX820 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder 700x40, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder 700x40, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 40mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "3D-forged alloy, 31.8mm, 7-degree rise"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear, 118.9mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Terra Carbon Seat Post, 20mm Offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-crux-expert-sram-rival-xplr-axs-2026",
+    "brand": "Specialized",
+    "model": "Crux Expert - SRAM Rival XPLR AXS",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.1,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "NEW SRAM Rival XPLR AXS E1",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-46",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "brakes": "NEW SRAM Rival AXS E1, hydraulic disc 160mm rotor",
+    "wheels": "Roval Terra C, 25mm inner width carbon rim, 32mm depth, DT 370 hub, 24h, DT Swiss Comp Race spo",
+    "tires": "Pathfinder 700x40, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 5999,
+    "msrpEur": 5999,
+    "geometry": {
+      "stackMm": 560,
+      "reachMm": 388,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 71.5,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 549,
+      "seatTubeLengthMm": 521,
+      "headTubeLengthMm": 130,
+      "chainstayLengthMm": 425,
+      "wheelbaseMm": 1023,
+      "bbDropMm": 72,
+      "standoverHeightMm": 794
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/91426-30_CRUX-EXPERT-AXS-GRYBLU-LGNBLU-DUNEWHT_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/91426-30_CRUX-EXPERT-AXS-GRYBLU-LGNBLU-DUNEWHT_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/crux-expert-sram-rival-xplr-axs-/p/4223489?color=5448068-4223489",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (NEW SRAM Rival XPLR AXS E1)",
+      "Cuadro de carbono de alto rendimiento (Crux FACT 10r Carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra C"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Crux FACT 10r Carbon, Rider First Engineered™, Threaded BB, 12x142mm thru-axle, flat-mount disc, UDH dropout"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "S-Works FACT Carbon, 12x100mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "NEW SRAM Rival AXS E1, hydraulic disc 160mm rotor"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "NEW SRAM Rival AXS E1, hydraulic disc 160mm rotor"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "NEW SRAM Rival AXS E1 HRD"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "NEW SRAM Rival XPLR AXS E1"
+          },
+          {
+            "label": "Cassette",
+            "value": "NEW SRAM Rival XPLR XG-1351, 13sp, 10-46t"
+          },
+          {
+            "label": "Cadena",
+            "value": "NEW SRAM Rival E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "NEW SRAM Rival XPLR E1"
+          },
+          {
+            "label": "Platos",
+            "value": "40T, INCLUDED W/CRANK SET"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder 700x40, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra C, 25mm inner width carbon rim, 32mm depth, DT 370 hub, 24h, DT Swiss Comp Race spokes"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder 700x40, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra C, 25mm inner width carbon rim, 32mm depth, DT 370 hub, 24h, DT Swiss Comp Race spokes"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 40mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Specialized Pro SL, alloy, 4-bolt"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear, 118.9mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Expert"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Terra Carbon Seat Post, 20mm Offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-diverge-4-expert-shimano-grx-di2-2026",
+    "brand": "Specialized",
+    "model": "Diverge 4 Expert - Shimano GRX Di2",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.9,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX Di2 RD-RX827",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-51",
+      "minGearRatio": 0.78,
+      "maxGearRatio": 4
+    },
+    "brakes": "NEW Shimano GRX Hydraulic Brake",
+    "wheels": "Roval Terra C Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 370 hub, ",
+    "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 6499,
+    "msrpEur": 6499,
+    "geometry": {
+      "stackMm": 592,
+      "reachMm": 387,
+      "stackReachRatio": 1.53,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 556,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 116,
+      "chainstayLengthMm": 430,
+      "wheelbaseMm": 1041,
+      "bbDropMm": 85,
+      "standoverHeightMm": 754
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/95426-30_DIVERGE-EXPERT-DI2-FJDMET-GRNPRL-EMDMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/95426-30_DIVERGE-EXPERT-DI2-FJDMET-GRNPRL-EMDMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/diverge-4-expert-shimano-grx-di2/p/4279306?color=5464899-4279306",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (Shimano GRX Di2 RD-RX827)",
+      "Cuadro de carbono de alto rendimiento (Specialized Diverge FACT 9r carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra C Rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized Diverge FACT 9r carbon, SWAT™ Door integration, Future Shock suspension, threaded BB, internal routing, 12x142mm thru-axle, flat-mount dis"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.2 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "NEW Shimano GRX Hydraulic Brake"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "NEW Shimano GRX Hydraulic Brake"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano GRX Di2 ST-RX825"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano GRX Di2 RD-RX827, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore XT CS-M8100, 12-speed, 10-51t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT CN-M8100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "NEW Shimano GRX RX820, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra C Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 370 hub, Centerlock disc, DT Swiss Competition Race spokes"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra C Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 370 hub, Centerlock disc, DT Swiss Competition Race spokes"
+          },
+          {
+            "label": "Cámaras",
+            "value": "Presta, 700x32-50mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Future Stem, Pro"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear Hover, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Expert"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Terra Carbon Seat Post, 20mm Offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.8mm"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios",
+        "items": [
+          {
+            "label": "SWAT",
+            "value": "SWAT 4.0 internal downtube storage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-diverge-4-pro-sram-force-xplr-2026",
+    "brand": "Specialized",
+    "model": "Diverge 4 Pro - SRAM Force XPLR",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.39,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "New SRAM Force AXS E1 XPLR",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-46",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "brakes": "New SRAM Force E1, hydraulic disc",
+    "wheels": "Roval Terra CL Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 350 hub,",
+    "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 7999,
+    "msrpEur": 7999,
+    "geometry": {
+      "stackMm": 592,
+      "reachMm": 387,
+      "stackReachRatio": 1.53,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 556,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 116,
+      "chainstayLengthMm": 430,
+      "wheelbaseMm": 1041,
+      "bbDropMm": 85,
+      "standoverHeightMm": 754
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/95426-10_DIVERGE-PRO-BDXMET-REDPRL-DLMMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/95426-10_DIVERGE-PRO-BDXMET-REDPRL-DLMMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/diverge-4-pro-sram-force-xplr/p/4293747?color=5466666-4293747",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (New SRAM Force AXS E1 XPLR)",
+      "Cuadro de carbono de alto rendimiento (Specialized Diverge FACT 9r carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra CL Rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized Diverge FACT 9r carbon, SWAT™ Door integration, Future Shock suspension, threaded BB, internal routing, 12x142mm thru-axle, flat-mount dis"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.3 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "New SRAM Force E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "New SRAM Force E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Force AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "New SRAM Force AXS E1 XPLR"
+          },
+          {
+            "label": "Cassette",
+            "value": "New SRAM Force E1 XPLR 10-46t, 13sp"
+          },
+          {
+            "label": "Cadena",
+            "value": "New SRAM Force XPLR, 13sp"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "New SRAM Force E1 XPLR, DUB Wide, 40t, Quarq Power Meter"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68 Wide"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra CL Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 350 hub, Centerlock disc, DT Swiss Competition Race spokes"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra CL Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 350 hub, Centerlock disc, DT Swiss Competition Race spokes"
+          },
+          {
+            "label": "Cámaras",
+            "value": "Presta, 700x32-50mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Specialized Pro SL, alloy, 4-bolt"
+          },
+          {
+            "label": "Manillar",
+            "value": "Roval Terra, carbon, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Power Pro Mirror, Hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Terra Carbon Seat Post, 20mm Offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.8mm"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios",
+        "items": [
+          {
+            "label": "SWAT",
+            "value": "SWAT 4.0 internal downtube storage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-diverge-4-pro-sram-force-xplr-2026-4296445",
+    "brand": "Specialized",
+    "model": "Diverge 4 Pro: SRAM Force XPLR",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.72,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Force AXS E1 XPLR",
+      "speedCount": 13,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-46",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "brakes": "SRAM Force E1, hydraulic disc",
+    "wheels": "Roval Terra CL III, 27mm internal width, tubeless ready, 25.5mm depth, 21h, DT 350 hub, Centerl",
+    "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 7999,
+    "msrpEur": 7999,
+    "geometry": {
+      "stackMm": 592,
+      "reachMm": 387,
+      "stackReachRatio": 1.53,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 556,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 116,
+      "chainstayLengthMm": 430,
+      "wheelbaseMm": 1041,
+      "bbDropMm": 85,
+      "standoverHeightMm": 754
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/95427-10_DIVERGE-PRO-DUNEWHT-GLDPRL-BNTGLDMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/95427-10_DIVERGE-PRO-DUNEWHT-GLDPRL-BNTGLDMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/diverge-4-pro-sram-force-xplr/p/4296445?color=5473841-4296445",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM Force AXS E1 XPLR)",
+      "Cuadro de carbono de alto rendimiento (Specialized Diverge FACT 9r carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra CL III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized Diverge FACT 9r carbon, SWAT™ Door integration, Future Shock suspension, threaded BB, internal routing, 12x142mm thru-axle, flat-mount dis"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.3 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Force E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Force E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Force AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Force AXS E1 XPLR, 13-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Force E1 XPLR, 13-speed, 10-46t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Force E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Force E1 XPLR, DUB Wide, 40t, Quarq Power Meter"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68 Wide"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra CL III, 27mm internal width, tubeless ready, 25.5mm depth, 21h, DT 350 hub, Centerlock disc, DT Swiss Revolution spokes"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra CL III, 27mm internal width, tubeless ready, 25.5mm depth, 24h, DT 350 hub, Centerlock disc, DT Swiss Revolution spokes"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 40mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Specialized Pro SL, alloy, 4-bolt"
+          },
+          {
+            "label": "Manillar",
+            "value": "Roval Terra, carbon, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Power Pro Mirror, hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Terra Carbon Seat Post, 20mm Offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.8mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-diverge-4-expert-sram-rival-xplr-2026",
+    "brand": "Specialized",
+    "model": "Diverge 4 Expert: SRAM Rival XPLR",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9.36,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Rival AXS E1 XPLR",
+      "speedCount": 13,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-46",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "brakes": "SRAM Rival E1, hydraulic disc",
+    "wheels": "Roval Terra C III, 27mm inner width carbon rim, tubeless ready, 25.5mm depth, DT 370 hub, 24h, ",
+    "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 6299,
+    "msrpEur": 6299,
+    "geometry": {
+      "stackMm": 592,
+      "reachMm": 387,
+      "stackReachRatio": 1.53,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 556,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 116,
+      "chainstayLengthMm": 430,
+      "wheelbaseMm": 1041,
+      "bbDropMm": 85,
+      "standoverHeightMm": 754
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/95427-30_DIVERGE-EXPERT-AXS-FJDMET-GRNPRL-EMDMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/95427-30_DIVERGE-EXPERT-AXS-FJDMET-GRNPRL-EMDMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/diverge-4-expert-sram-rival-xplr/p/4297823?color=5476650-4297823",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM Rival AXS E1 XPLR)",
+      "Cuadro de carbono de alto rendimiento (Specialized Diverge FACT 9r carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra C III"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized Diverge FACT 9r carbon, SWAT™ Door integration, Future Shock suspension, threaded BB, internal routing, 12x142mm thru-axle, flat-mount dis"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.2 w/ Smooth Boot, FACT 9r Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Rival E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Rival E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Rival AXS E1, hydraulic disc"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Rival AXS E1 XPLR, 13-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Rival E1 XPLR, 13-speed, 10-46t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Rival E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Rival E1 XPLR, DUB Wide, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68 Wide"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra C III, 27mm inner width carbon rim, tubeless ready, 25.5mm depth, DT 370 hub, 24h, Sapim D-Light spokes"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra C III, 27mm inner width carbon rim, tubeless ready, 25.5mm depth, DT 370 hub, 24h, Sapim D-Light spokes"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 40mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Future Stem, Pro"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear Hover, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Expert, hollow Ti rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Terra Carbon Seat Post, 20mm Offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.8mm"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios",
+        "items": [
+          {
+            "label": "SWAT",
+            "value": "SWAT 4.0 internal downtube storage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-diverge-4-comp-carbon-sram-apex-axs-s1000-2026",
+    "brand": "Specialized",
+    "model": "Diverge 4 Comp Carbon - SRAM Apex AXS/S1000",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9.7,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM S1000 Eagle AXS",
+      "speedCount": 12,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-52",
+      "minGearRatio": 0.77,
+      "maxGearRatio": 4
+    },
+    "brakes": "SRAM Apex, hydraulic disc",
+    "wheels": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 4499,
+    "msrpEur": 4499,
+    "geometry": {
+      "stackMm": 592,
+      "reachMm": 387,
+      "stackReachRatio": 1.53,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 556,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 116,
+      "chainstayLengthMm": 430,
+      "wheelbaseMm": 1041,
+      "bbDropMm": 85,
+      "standoverHeightMm": 754
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/95426-50_DIVERGE-COMP-DLMMET-ORGZST_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/95426-50_DIVERGE-COMP-DLMMET-ORGZST_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/diverge-4-comp-carbon-sram-apex-axss1000/p/4223513?color=5464898-4223513",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM S1000 Eagle AXS)",
+      "Cuadro de carbono de alto rendimiento (Specialized Diverge FACT 9r carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas DT Swiss G540 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized Diverge FACT 9r carbon, SWAT™ Door integration, Future Shock suspension, threaded BB, internal routing, 12x142mm thru-axle, flat-mount dis"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.2 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Apex, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Apex, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Apex AXS"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM S1000 Eagle AXS"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM 12-speed,10-52t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM GX T-Type 12 speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Apex DUB Wide, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68 Wide"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Cámaras",
+            "value": "Presta, 700x32-50mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Future Stem, Comp"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear Hover, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Terra Carbon Seat Post, 20mm Offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.8mm"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios",
+        "items": [
+          {
+            "label": "SWAT",
+            "value": "SWAT 4.0 internal downtube storage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-diverge-4-sport-carbon-shimano-grx-600-2026",
+    "brand": "Specialized",
+    "model": "Diverge 4 Sport Carbon - Shimano GRX 600",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9.79,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RX822",
+      "speedCount": 12,
+      "isElectronic": false,
+      "chainrings": "40",
+      "cassette": "10-51",
+      "minGearRatio": 0.78,
+      "maxGearRatio": 4
+    },
+    "brakes": "Shimano GRX BR-RX410 Hydraulic Disc",
+    "wheels": "DT Swiss G540 700c, Center Lock Disc",
+    "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 3499,
+    "msrpEur": 3499,
+    "geometry": {
+      "stackMm": 592,
+      "reachMm": 387,
+      "stackReachRatio": 1.53,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 556,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 116,
+      "chainstayLengthMm": 430,
+      "wheelbaseMm": 1041,
+      "bbDropMm": 85,
+      "standoverHeightMm": 754
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/95426-60_DIVERGE-SPORT-EMDMET-SILDST_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/95426-60_DIVERGE-SPORT-EMDMET-SILDST_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/diverge-4-sport-carbon-shimano-grx-600/p/4223514?color=5448986-4223514",
+    "highlights": [
+      "Cuadro de carbono de alto rendimiento (Specialized Diverge FACT 9r carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas DT Swiss G540 700c"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized Diverge FACT 9r carbon, SWAT™ Door integration, Future Shock suspension, threaded BB, internal routing, 12x142mm thru-axle, flat-mount dis"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.1 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Brakes",
+        "items": [
+          {
+            "label": "Front Brake",
+            "value": "Shimano GRX BR-RX410 Hydraulic Disc"
+          },
+          {
+            "label": "Rear Brake",
+            "value": "Shimano GRX BR-RX410 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Drivetrain",
+        "items": [
+          {
+            "label": "Shift Levers",
+            "value": "Shimano GRX ST-RX610 12-speed"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano GRX RX822, 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano SLX, CS-M7100, 12-speed, 10-51t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano SLX CN-M7100, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano GRX FC-RX610, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano BSA Threaded 68mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss G540 700c, Center Lock Disc"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss G540 700c, Center Lock Disc"
+          },
+          {
+            "label": "Cámaras",
+            "value": "Presta, 700x32-50mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Future Stem, Comp"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear Hover, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Carbon, single-bolt, 27.2mm"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.8mm"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios",
+        "items": [
+          {
+            "label": "SWAT",
+            "value": "SWAT 4.0 internal downtube storage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-diverge-4-comp-alloy-sram-apex-2026",
+    "brand": "Specialized",
+    "model": "Diverge 4 Comp Alloy - SRAM Apex",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 10.6,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Apex Eagle 12-speed",
+      "speedCount": 12,
+      "isElectronic": false,
+      "chainrings": "40",
+      "cassette": "11-50",
+      "minGearRatio": 0.8,
+      "maxGearRatio": 3.64
+    },
+    "brakes": "SRAM Apex, Hydraulic disc",
+    "wheels": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing th",
+    "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 2799,
+    "msrpEur": 2799,
+    "geometry": {
+      "stackMm": 592,
+      "reachMm": 387,
+      "stackReachRatio": 1.53,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 556,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 116,
+      "chainstayLengthMm": 430,
+      "wheelbaseMm": 1041,
+      "bbDropMm": 85,
+      "standoverHeightMm": 754
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/95426-51_DIVERGE-E5-COMP-MVEMET-OBSD_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/95426-51_DIVERGE-E5-COMP-MVEMET-OBSD_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/diverge-4-comp-alloy-sram-apex/p/4223512?color=5459909-4223512",
+    "highlights": [
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas DT Swiss G540 rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized Diverge E5 Premium Aluminum, SWAT™ Door integration, Future Shock suspension, threaded BB, internal routing, 12x142mm thru-axle, flat-moun"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios",
+        "items": [
+          {
+            "label": "SWAT",
+            "value": "SWAT 3.0 internal downtube storage"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.1 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Apex, Hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Apex, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Apex"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Apex Eagle 12-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM PG-1210 Eagle, 12-speed, 11-50t"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM NX Eagle, 12-speed"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Apex DUB Wide, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68 Wide"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "DT Swiss G540 rim, 24mm internal width, tubeless ready, 24h, Specialized full sealed bearing thru axle hub, centerlock disc, DT Swiss Champion 14G sta"
+          },
+          {
+            "label": "Cámaras",
+            "value": "Presta, 700x32-50mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Future Stem, Comp"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear Hover, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Suave"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Alloy, 2-bolt Clamp, 12mm offset, 27.2mm, anti-corrosion hardware"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Alloy, 30.8mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-diverge-4-expert-sram-rival-xplr-2026-4293758",
+    "brand": "Specialized",
+    "model": "Diverge 4 Expert - SRAM Rival XPLR",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.9,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Rival AXS E1 XPLR",
+      "speedCount": 13,
+      "isElectronic": true,
+      "chainrings": "40",
+      "cassette": "10-46",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4
+    },
+    "brakes": "SRAM Rival E1, hydraulic disc",
+    "wheels": "Roval Terra C Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 370 hub, ",
+    "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 6299,
+    "msrpEur": 6299,
+    "geometry": {
+      "stackMm": 592,
+      "reachMm": 387,
+      "stackReachRatio": 1.53,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 556,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 116,
+      "chainstayLengthMm": 430,
+      "wheelbaseMm": 1041,
+      "bbDropMm": 85,
+      "standoverHeightMm": 754
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/95426-32_DIVERGE-EXPERT-AXS-NBLMET-SNDSTNMET_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/95426-32_DIVERGE-EXPERT-AXS-NBLMET-SNDSTNMET_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/diverge-4-expert-sram-rival-xplr/p/4293758?color=5466865-4293758",
+    "highlights": [
+      "Transmisión electrónica inalámbrica de precisión (SRAM Rival AXS E1 XPLR)",
+      "Cuadro de carbono de alto rendimiento (Specialized Diverge FACT 9r carbon)",
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas Roval Terra C Rim"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized Diverge FACT 9r carbon, SWAT™ Door integration, Future Shock suspension, threaded BB, internal routing, 12x142mm thru-axle, flat-mount dis"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.2 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "SRAM Rival E1, hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "SRAM Rival E1, hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "SRAM Rival AXS E1"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "SRAM Rival AXS E1 XPLR, 13-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "SRAM Rival E1 XPLR 10-46t, 13sp"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Rival E1"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "SRAM Rival E1 XPLR, DUB Wide, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "SRAM DUB BSA 68 Wide"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Rueda delantera",
+            "value": "Roval Terra C Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 370 hub, Centerlock disc, DT Swiss Competition Race spokes"
+          },
+          {
+            "label": "Neumático delantero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "Roval Terra C Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 370 hub, Centerlock disc, DT Swiss Competition Race spokes"
+          },
+          {
+            "label": "Cámaras",
+            "value": "Presta, 700x32-50mm"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Future Stem, Pro"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear Hover, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Super Sticky Kush"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Expert"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Roval Terra Carbon Seat Post, 20mm Offset"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.8mm"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios",
+        "items": [
+          {
+            "label": "SWAT",
+            "value": "SWAT 4.0 internal downtube storage"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-diverge-e5-2026",
+    "brand": "Specialized",
+    "model": "Diverge E5",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 10.48,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano CUES RD-U6020",
+      "speedCount": 10,
+      "isElectronic": false,
+      "chainrings": "46/32",
+      "cassette": "00-10",
+      "minGearRatio": 3.2,
+      "maxGearRatio": 4.5
+    },
+    "brakes": "Shimano CUES BR-U6030 Hydraulic disc",
+    "wheels": "AXIS Sport Disc",
+    "tires": "Pathfinder Wirebead Fast Gravel 700X40C",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 1549,
+    "msrpEur": 1549,
+    "geometry": {
+      "stackMm": 578,
+      "reachMm": 383,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71.3,
+      "seatTubeAngleDeg": 73.5,
+      "topTubeLengthMm": 554,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 155,
+      "chainstayLengthMm": 432,
+      "wheelbaseMm": 1035,
+      "bbDropMm": 80,
+      "standoverHeightMm": 808
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/95426-70_DIVERGE-E5-DUNEWHT-ASHGRY_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/95426-70_DIVERGE-E5-DUNEWHT-ASHGRY_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/diverge-e5/p/4223510?color=5459910-4223510",
+    "highlights": [
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas AXIS Sport Disc"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized Diverge E5 Premium Aluminum, threaded BB, internal routing, 12x142mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "FACT carbon, full carbon steerer, 12x100 mm thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano CUES BR-U6030 Hydraulic disc"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano CUES BR-U6030 Hydraulic disc"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano CUES ST-U6030"
+          },
+          {
+            "label": "Desviador delantero",
+            "value": "Shimano CUES FD-U6030, braze-on"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano CUES RD-U6020, 10-speed"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano CUES CS-LG300-10, 10 speed, 11-39t"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC XGlide"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano CUES FC-U6030, 46/32T"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Pathfinder Wirebead Fast Gravel 700X40C"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "AXIS Sport Disc"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Pathfinder Wirebead Fast Gravel 700X40C"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "AXIS Sport Disc"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x28-38mm, 48mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "3D-forged alloy, 31.8mm, 7-degree rise"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Shallow Drop, 6061, 70x125mm, 31.8mm clamp"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Suave"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Bridge Saddle, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Alloy, 2-bolt Clamp, 12mm offset, 27.2mm, anti-corrosion hardware"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Specialized Alloy, 30.8mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "specialized-diverge-4-sport-alloy-shimano-cues-2026",
+    "brand": "Specialized",
+    "model": "Diverge 4 Sport Alloy - Shimano CUES",
+    "year": 2026,
+    "discipline": "gravel",
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 10.74,
+    "weightSizeReference": "56",
+    "maxTireClearanceMm": 47,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano CUES 11-speed w/ Shadow Plus",
+      "speedCount": 11,
+      "isElectronic": false,
+      "chainrings": "40",
+      "cassette": "00-11",
+      "minGearRatio": 3.64,
+      "maxGearRatio": 4.5
+    },
+    "brakes": "Shimano CUES Hydraulic Brake",
+    "wheels": "AXIS Elite Disc",
+    "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tubeless Ready",
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "currentPriceEur": 2299,
+    "msrpEur": 2299,
+    "geometry": {
+      "stackMm": 592,
+      "reachMm": 387,
+      "stackReachRatio": 1.53,
+      "headTubeAngleDeg": 71,
+      "seatTubeAngleDeg": 74,
+      "topTubeLengthMm": 556,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 116,
+      "chainstayLengthMm": 430,
+      "wheelbaseMm": 1041,
+      "bbDropMm": 85,
+      "standoverHeightMm": 754
+    },
+    "imageUrl": "https://assets.specialized.com/i/specialized/95426-62_DIVERGE-E5-SPORT-BNTGLDMET-SHDWSIL_HERO-SQUARE",
+    "officialImageUrl": "https://assets.specialized.com/i/specialized/95426-62_DIVERGE-E5-SPORT-BNTGLDMET-SHDWSIL_HERO-SQUARE",
+    "officialUrl": "https://www.specialized.com/es/es/diverge-4-sport-alloy-shimano-cues/p/4223511?color=5459925-4223511",
+    "highlights": [
+      "Gran polivalencia gravel con paso de rueda de hasta 47 mm",
+      "Ruedas AXIS Elite Disc"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Specialized Diverge E5 Premium Aluminum, SWAT™ Door integration, Future Shock suspension, threaded BB, internal routing, 12x142mm thru-axle, flat-moun"
+          }
+        ]
+      },
+      {
+        "category": "Accesorios",
+        "items": [
+          {
+            "label": "SWAT",
+            "value": "SWAT 3.0 internal downtube storage"
+          }
+        ]
+      },
+      {
+        "category": "Suspensión",
+        "items": [
+          {
+            "label": "Horquilla",
+            "value": "Future Shock 3.1 w/ Smooth Boot, FACT Carbon 12x100mm, thru-axle, flat-mount disc"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno delantero",
+            "value": "Shimano CUES Hydraulic Brake"
+          },
+          {
+            "label": "Freno trasero",
+            "value": "Shimano CUES Hydraulic Brake"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Manetas de cambio",
+            "value": "Shimano CUES ST-U6030"
+          },
+          {
+            "label": "Desviador trasero",
+            "value": "Shimano CUES 11-speed w/ Shadow Plus"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano, CS-LG400-11, CUES, 11-Speed, 11-50t"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano CN-LG500"
+          },
+          {
+            "label": "Platos y bielas",
+            "value": "Shimano CUES FC-U6040, 40t"
+          },
+          {
+            "label": "Caja de pedalier",
+            "value": "Shimano Threaded BSA BB"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y neumáticos",
+        "items": [
+          {
+            "label": "Neumático delantero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda delantera",
+            "value": "AXIS Elite Disc"
+          },
+          {
+            "label": "Neumático trasero",
+            "value": "Tracer TLR All Terrain Gravel Tire 700x45, Tubeless Ready"
+          },
+          {
+            "label": "Rueda trasera",
+            "value": "AXIS Elite Disc"
+          },
+          {
+            "label": "Cámaras",
+            "value": "700x32-50mm, 40mm Presta valve"
+          }
+        ]
+      },
+      {
+        "category": "Cockpit",
+        "items": [
+          {
+            "label": "Potencia",
+            "value": "Future Stem, Comp"
+          },
+          {
+            "label": "Manillar",
+            "value": "Specialized Adventure Gear Hover, 103mm drop x 70mm reach x 12º flare"
+          },
+          {
+            "label": "Cinta de manillar",
+            "value": "Supacaz Suave"
+          },
+          {
+            "label": "Sillín",
+            "value": "Body Geometry Power Sport, steel rails"
+          },
+          {
+            "label": "Tija del sillín",
+            "value": "Alloy, 2-bolt Clamp, 12mm offset, 27.2mm, anti-corrosion hardware"
+          },
+          {
+            "label": "Abrazadera del sillín",
+            "value": "Alloy, 30.8mm"
+          }
+        ]
+      }
+    ]
   }
 ]
