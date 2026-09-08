@@ -1,4 +1,4 @@
-import { BikeProduct, BikeProductSchema, Discipline } from "../src/lib/schema/bike";
+import { BikeProduct, BikeProductSchema, DetailedSpecCategory, Discipline } from "../src/lib/schema/bike";
 
 interface CanyonRawProperty {
   name: string;
@@ -54,9 +54,7 @@ export function parseCanyonHtml(html: string, originalUrl: string, sectionDiscip
         productJson = Array.isArray(data) ? data.find((d) => d["@type"] === "Product") : data;
         if (productJson) break;
       }
-    } catch {
-      // Ignorar scripts no válidos
-    }
+    } catch {}
   }
 
   // 2. Extraer nombre, año y modelo
@@ -176,50 +174,80 @@ export function parseCanyonHtml(html: string, originalUrl: string, sectionDiscip
     officialImageUrl = "https://dma.canyon.com/image/upload/w_1439,c_fit/b_rgb:F2F2F2/f_auto/q_auto/placeholder_canyon";
   }
 
-  // Geometría talla M
+  // Geometría talla M y cotas extendidas
   let stackMm = sectionDiscipline === "mtb" ? 610 : sectionDiscipline === "gravel" ? 580 : 560;
   let reachMm = sectionDiscipline === "mtb" ? 450 : sectionDiscipline === "gravel" ? 395 : 390;
   let headTubeAngleDeg = sectionDiscipline === "mtb" ? 66.5 : sectionDiscipline === "gravel" ? 71.5 : 73.0;
   let chainstayLengthMm = sectionDiscipline === "mtb" ? 435 : sectionDiscipline === "gravel" ? 425 : 410;
+
+  let topTubeLengthMm: number | undefined = sectionDiscipline === "mtb" ? 615 : sectionDiscipline === "gravel" ? 565 : 555;
+  let seatTubeLengthMm: number | undefined = 530;
+  let headTubeLengthMm: number | undefined = 145;
+  let seatTubeAngleDeg: number | undefined = 73.5;
+  let wheelbaseMm: number | undefined = sectionDiscipline === "mtb" ? 1180 : sectionDiscipline === "gravel" ? 1025 : 995;
+  let bbDropMm: number | undefined = 70;
+  let standoverHeightMm: number | undefined = 805;
 
   // Buscar bloque de talla M en las variantes
   const mSizeBlock = html.match(/Product",\s*"name":\s*"[^"]*?\|\s*M"[\s\S]*?additionalProperty":(\[[\s\S]*?\])\s*\}/);
   if (mSizeBlock) {
     try {
       const mProps: CanyonRawProperty[] = JSON.parse(mSizeBlock[1]);
-      
-      const sItem = mProps.find((p) => p.name.toLowerCase().trim() === "stack");
-      if (sItem && sItem.value) {
-        const sVal = parseFloat(String(sItem.value).replace(",", "."));
-        if (sVal >= 450 && sVal <= 750) stackMm = sVal;
-      }
 
-      const rItem = mProps.find((p) => p.name.toLowerCase().trim() === "reach");
-      if (rItem && rItem.value) {
-        const rVal = parseFloat(String(rItem.value).replace(",", "."));
-        if (rVal >= 300 && rVal <= 550) reachMm = rVal;
-      }
+      const findProp = (key: string, min: number, max: number): number | undefined => {
+        const item = mProps.find((p) => p.name.toLowerCase().includes(key));
+        if (item && item.value) {
+          const val = parseFloat(String(item.value).replace(",", "."));
+          if (!isNaN(val) && val >= min && val <= max) return val;
+        }
+        return undefined;
+      };
 
-      const aItem = mProps.find((p) => {
+      const s = findProp("stack", 450, 750);
+      if (s) stackMm = s;
+
+      const r = findProp("reach", 300, 550);
+      if (r) reachMm = r;
+
+      const a = mProps.find((p) => {
         const n = p.name.toLowerCase();
         return (n.includes("ángulo") || n.includes("angulo")) && n.includes("direcc");
       });
-      if (aItem && aItem.value) {
-        const aVal = parseFloat(String(aItem.value).replace(",", "."));
+      if (a && a.value) {
+        const aVal = parseFloat(String(a.value).replace(",", "."));
         if (aVal >= 60 && aVal <= 85) headTubeAngleDeg = aVal;
       }
 
-      const vItem = mProps.find((p) => p.name.toLowerCase().includes("vainas"));
-      if (vItem && vItem.value) {
-        const vVal = parseFloat(String(vItem.value).replace(",", "."));
-        if (vVal >= 390 && vVal <= 500) chainstayLengthMm = vVal;
+      const v = findProp("vainas", 390, 500);
+      if (v) chainstayLengthMm = v;
+
+      const tt = findProp("tubo superior", 480, 680);
+      if (tt) topTubeLengthMm = tt;
+
+      const st = findProp("tubo de sill", 400, 650);
+      if (st) seatTubeLengthMm = st;
+
+      const ht = findProp("tubo de direcc", 90, 250);
+      if (ht) headTubeLengthMm = ht;
+
+      const sa = mProps.find((p) => {
+        const n = p.name.toLowerCase();
+        return (n.includes("ángulo") || n.includes("angulo")) && n.includes("sill");
+      });
+      if (sa && sa.value) {
+        const saVal = parseFloat(String(sa.value).replace(",", "."));
+        if (saVal >= 70 && saVal <= 80) seatTubeAngleDeg = saVal;
       }
+
+      const wb = findProp("batalla", 900, 1350);
+      if (wb) wheelbaseMm = wb;
+
+      const bbd = findProp("pedalier", 30, 95);
+      if (bbd) bbDropMm = bbd;
+
+      const so = findProp("altura del cuadro", 650, 950);
+      if (so) standoverHeightMm = so;
     } catch {}
-  } else {
-    const stackMatch = html.match(/"name":"Stack","value":(\d+)/);
-    if (stackMatch) stackMm = parseFloat(stackMatch[1]);
-    const reachMatch = html.match(/"name":"Reach","value":(\d+)/);
-    if (reachMatch) reachMm = parseFloat(reachMatch[1]);
   }
 
   if (headTubeAngleDeg > 85 || headTubeAngleDeg < 60) {
@@ -227,6 +255,81 @@ export function parseCanyonHtml(html: string, originalUrl: string, sectionDiscip
   }
 
   const stackReachRatio = Number((stackMm / reachMm).toFixed(2));
+
+  // 5. Construcción del Despiece Técnico Detallado (detailedSpecs)
+  const detailedSpecs: DetailedSpecCategory[] = [];
+
+  const addCategory = (categoryName: string, icon: string, propNames: { label: string; keys: string[] }[]) => {
+    const items: { label: string; value: string }[] = [];
+    for (const p of propNames) {
+      for (const k of p.keys) {
+        const val = getProp(k);
+        if (val) {
+          items.push({
+            label: p.label.slice(0, 100),
+            value: val.slice(0, 300),
+          });
+          break;
+        }
+      }
+    }
+    if (items.length > 0) {
+      detailedSpecs.push({
+        category: categoryName.slice(0, 100),
+        icon: icon.slice(0, 50),
+        items,
+      });
+    }
+  };
+
+  // Cuadro y Horquilla
+  addCategory("Cuadro y Horquilla", "Layers", [
+    { label: "Cuadro", keys: ["Cuadro"] },
+    { label: "Material del Cuadro", keys: ["Material"] },
+    { label: "Horquilla", keys: ["Horquilla"] },
+    { label: "Espacio para Cubiertas", keys: ["Espacio del cuadro para cubiertas"] },
+    { label: "Eje Pasante", keys: ["Eje pasante"] },
+    { label: "Cierre de Tija", keys: ["Cierre de tija de sillín", "Abrazadera de sillín"] },
+  ]);
+
+  // Transmisión
+  addCategory("Transmisión & Desarrollo", "Cog", [
+    { label: "Cambio Trasero", keys: ["Modelo con cambio trasero", "Cambio trasero"] },
+    { label: "Desviador Delantero", keys: ["Desviador"] },
+    { label: "Manetas de Cambio", keys: ["Maneta de cambio y freno"] },
+    { label: "Casete", keys: ["Casete"] },
+    { label: "Bielas", keys: ["Bielas"] },
+    { label: "Platos", keys: ["Tamaño del plato"] },
+    { label: "Pedalier", keys: ["Pedalier"] },
+    { label: "Cadena", keys: ["Cadena"] },
+    { label: "Batería", keys: ["Bateria"] },
+  ]);
+
+  // Frenos
+  addCategory("Frenos", "ShieldCheck", [
+    { label: "Sistema de Frenos", keys: ["Tipo de freno", "Marca de frenos"] },
+    { label: "Discos de Freno", keys: ["Disco de freno"] },
+    { label: "Manetas de Freno", keys: ["Maneta de cambio y freno"] },
+  ]);
+
+  // Ruedas y Cubiertas
+  addCategory("Ruedas y Neumáticos", "CircleDot", [
+    { label: "Rueda Delantera", keys: ["Rueda delantera"] },
+    { label: "Rueda Trasera", keys: ["Rueda trasera"] },
+    { label: "Material de Ruedas", keys: ["Material de la rueda"] },
+    { label: "Altura de Perfil", keys: ["Altura de llanta"] },
+    { label: "Cubiertas", keys: ["Cubiertas"] },
+    { label: "Diámetro de Rueda", keys: ["Tamaño de las ruedas"] },
+  ]);
+
+  // Cockpit y Sillín
+  addCategory("Cockpit y Componentes", "Sparkles", [
+    { label: "Manillar / Cockpit", keys: ["Cockpit", "Manillar", "Manillar de Carreter"] },
+    { label: "Potencia", keys: ["Potencia"] },
+    { label: "Tija de Sillín", keys: ["Tija de sillín"] },
+    { label: "Sillín", keys: ["Sillín"] },
+    { label: "Cinta de Manillar", keys: ["Cinta de manillar"] },
+  ]);
 
   // Generar slug seguro
   const cleanSlug = slugify(modelName);
@@ -267,6 +370,13 @@ export function parseCanyonHtml(html: string, originalUrl: string, sectionDiscip
       stackReachRatio,
       headTubeAngleDeg,
       chainstayLengthMm,
+      topTubeLengthMm,
+      seatTubeLengthMm,
+      headTubeLengthMm,
+      seatTubeAngleDeg,
+      wheelbaseMm,
+      bbDropMm,
+      standoverHeightMm,
     },
     description: `Bicicleta oficial Canyon ${modelName} (${year}) para la disciplina de ${sectionDiscipline}. Cuadro de ${frameMaterial === "carbon" ? "carbono" : "aluminio"}, transmisión ${gsBrand.toUpperCase()} y componentes de alto rendimiento seleccionados por Canyon.`.slice(0, 1000),
     highlights: [
@@ -278,6 +388,7 @@ export function parseCanyonHtml(html: string, originalUrl: string, sectionDiscip
     brakes,
     wheels,
     tires,
+    detailedSpecs,
   };
 
   const validation = BikeProductSchema.safeParse(bike);

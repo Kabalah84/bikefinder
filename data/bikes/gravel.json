@@ -33,7 +33,14 @@
       "reachMm": 404,
       "stackReachRatio": 1.48,
       "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 440
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 581,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 158,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 826
     },
     "description": "Bicicleta oficial Canyon Grizl CF 8 Di2 (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -44,7 +51,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "30"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grizl-cf-6-2027",
@@ -80,7 +113,14 @@
       "reachMm": 404,
       "stackReachRatio": 1.48,
       "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 440
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 581,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 158,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 66,
+      "standoverHeightMm": 826
     },
     "description": "Bicicleta oficial Canyon Grizl CF 6 (2027) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -91,7 +131,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "26"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grizl-cf-7-2027",
@@ -127,7 +193,14 @@
       "reachMm": 404,
       "stackReachRatio": 1.48,
       "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 440
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 581,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 158,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 66,
+      "standoverHeightMm": 826
     },
     "description": "Bicicleta oficial Canyon Grizl CF 7 (2027) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -138,7 +211,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "26"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grizl-6-2027",
@@ -174,7 +273,14 @@
       "reachMm": 404,
       "stackReachRatio": 1.48,
       "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 440
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 581,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 158,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 826
     },
     "description": "Bicicleta oficial Canyon Grizl 6 (2027) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -185,7 +291,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "24"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grizl-onfly-cf-9-2026",
@@ -221,7 +353,14 @@
       "reachMm": 403,
       "stackReachRatio": 1.52,
       "headTubeAngleDeg": 69.5,
-      "chainstayLengthMm": 445
+      "chainstayLengthMm": 445,
+      "topTubeLengthMm": 578,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 156,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 72,
+      "standoverHeightMm": 832
     },
     "description": "Bicicleta oficial Canyon Grizl:ONfly CF 9 (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -232,7 +371,23 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "42"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grizl-cf-7-axs-2027",
@@ -268,7 +423,14 @@
       "reachMm": 404,
       "stackReachRatio": 1.48,
       "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 440
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 581,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 158,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 826
     },
     "description": "Bicicleta oficial Canyon Grizl CF 7 AXS (2027) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -279,7 +441,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "25"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grail-cfr-w-rift-2026",
@@ -315,7 +503,14 @@
       "reachMm": 411,
       "stackReachRatio": 1.44,
       "headTubeAngleDeg": 71.5,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 586,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 163,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 813
     },
     "description": "Bicicleta oficial Canyon Grail CFR w/ RIFT (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -326,7 +521,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "48/31"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "50"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grizl-5-2027",
@@ -362,7 +583,14 @@
       "reachMm": 404,
       "stackReachRatio": 1.48,
       "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 440
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 581,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 158,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 826
     },
     "description": "Bicicleta oficial Canyon Grizl 5 (2027) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -373,7 +601,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "24"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grizl-onfly-cf-trail-2026",
@@ -409,7 +663,14 @@
       "reachMm": 403,
       "stackReachRatio": 1.52,
       "headTubeAngleDeg": 69.5,
-      "chainstayLengthMm": 445
+      "chainstayLengthMm": 445,
+      "topTubeLengthMm": 578,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 156,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 72,
+      "standoverHeightMm": 832
     },
     "description": "Bicicleta oficial Canyon Grizl:ONfly CF Trail (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -420,7 +681,23 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "42"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grizl-7-esc-2027",
@@ -456,7 +733,14 @@
       "reachMm": 404,
       "stackReachRatio": 1.48,
       "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 440
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 581,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 158,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 826
     },
     "description": "Bicicleta oficial Canyon Grizl 7 ESC (2027) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -467,7 +751,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "25"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grizl-cf-8-w-rift-2027",
@@ -503,7 +813,14 @@
       "reachMm": 404,
       "stackReachRatio": 1.48,
       "headTubeAngleDeg": 69.9,
-      "chainstayLengthMm": 440
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 581,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 158,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 66,
+      "standoverHeightMm": 826
     },
     "description": "Bicicleta oficial Canyon Grizl CF 8 w/ RIFT (2027) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -514,7 +831,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "25"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grizl-cf-7-esc-2026",
@@ -550,7 +893,14 @@
       "reachMm": 404,
       "stackReachRatio": 1.48,
       "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 440
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 581,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 158,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 826
     },
     "description": "Bicicleta oficial Canyon Grizl CF 7 ESC (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -561,7 +911,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "25"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grail-cf-slx-8-di2-2026",
@@ -597,7 +973,14 @@
       "reachMm": 411,
       "stackReachRatio": 1.44,
       "headTubeAngleDeg": 71.5,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 586,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 163,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 813
     },
     "description": "Bicicleta oficial Canyon Grail CF SLX 8 Di2 (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -608,7 +991,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "48/31"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "50"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grizl-onfly-cf-8-2027",
@@ -644,7 +1053,14 @@
       "reachMm": 403,
       "stackReachRatio": 1.52,
       "headTubeAngleDeg": 69.5,
-      "chainstayLengthMm": 445
+      "chainstayLengthMm": 445,
+      "topTubeLengthMm": 578,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 156,
+      "seatTubeAngleDeg": 74,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 72,
+      "standoverHeightMm": 805
     },
     "description": "Bicicleta oficial Canyon Grizl:ONfly CF 8 (2027) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -655,7 +1071,23 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "25"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grail-cfr-di2-2026",
@@ -691,7 +1123,14 @@
       "reachMm": 411,
       "stackReachRatio": 1.44,
       "headTubeAngleDeg": 71.5,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 586,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 163,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 813
     },
     "description": "Bicicleta oficial Canyon Grail CFR Di2 (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -702,7 +1141,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "48/31"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "50"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grail-cf-sl-7-aero-2026",
@@ -738,7 +1203,14 @@
       "reachMm": 411,
       "stackReachRatio": 1.44,
       "headTubeAngleDeg": 71.5,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 586,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 163,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 813
     },
     "description": "Bicicleta oficial Canyon Grail CF SL 7 AERO (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -749,7 +1221,29 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grail-cfr-axs-2026",
@@ -785,7 +1279,14 @@
       "reachMm": 411,
       "stackReachRatio": 1.44,
       "headTubeAngleDeg": 71.5,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 586,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 163,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 813
     },
     "description": "Bicicleta oficial Canyon Grail CFR AXS (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -796,7 +1297,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "54"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grail-cf-7-2026",
@@ -832,7 +1359,14 @@
       "reachMm": 411,
       "stackReachRatio": 1.44,
       "headTubeAngleDeg": 71.5,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 586,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 163,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 813
     },
     "description": "Bicicleta oficial Canyon Grail CF 7 (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -843,7 +1377,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "46/30"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "25"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grail-cf-slx-8-w-rift-2026",
@@ -879,7 +1439,14 @@
       "reachMm": 411,
       "stackReachRatio": 1.44,
       "headTubeAngleDeg": 71.5,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 586,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 163,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 813
     },
     "description": "Bicicleta oficial Canyon Grail CF SLX 8 w/ RIFT (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -890,7 +1457,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "50"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grail-cf-8-1by-2026",
@@ -926,7 +1519,14 @@
       "reachMm": 411,
       "stackReachRatio": 1.44,
       "headTubeAngleDeg": 71.5,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 586,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 163,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 813
     },
     "description": "Bicicleta oficial Canyon Grail CF 8 1by (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -937,7 +1537,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "25"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grail-cf-slx-8-axs-2026",
@@ -973,7 +1599,14 @@
       "reachMm": 411,
       "stackReachRatio": 1.44,
       "headTubeAngleDeg": 71.5,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 586,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 163,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 75,
+      "standoverHeightMm": 813
     },
     "description": "Bicicleta oficial Canyon Grail CF SLX 8 AXS (2026) para la disciplina de gravel. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -984,6 +1617,32 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Schwalbe G-One 40mm"
+    "tires": "Schwalbe G-One 40mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "50"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   }
 ]

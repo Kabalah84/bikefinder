@@ -33,7 +33,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.42,
       "headTubeAngleDeg": 73.25,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 531,
+      "headTubeLengthMm": 142,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 988,
+      "bbDropMm": 70,
+      "standoverHeightMm": 801
     },
     "description": "Bicicleta oficial Canyon Aeroad CF SLX 9 AXS (2026) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -44,7 +51,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "48/35"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "58"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-endurace-cf-6-2027",
@@ -80,7 +113,14 @@
       "reachMm": 392,
       "stackReachRatio": 1.49,
       "headTubeAngleDeg": 72.5,
-      "chainstayLengthMm": 420
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 565,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 158,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 995,
+      "bbDropMm": 74,
+      "standoverHeightMm": 815
     },
     "description": "Bicicleta oficial Canyon Endurace CF 6 (2027) para la disciplina de road_endurance. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -91,7 +131,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "50/34"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "24"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-speedmax-cfr-axs-2027",
@@ -127,7 +193,14 @@
       "reachMm": 440,
       "stackReachRatio": 1.09,
       "headTubeAngleDeg": 73,
-      "chainstayLengthMm": 420
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 537,
+      "seatTubeLengthMm": 513,
+      "headTubeLengthMm": 145,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 995,
+      "bbDropMm": 75,
+      "standoverHeightMm": 780
     },
     "description": "Bicicleta oficial Canyon Speedmax CFR AXS (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -138,7 +211,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "50/37"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "85"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-speedmax-cfr-di2-2027",
@@ -174,7 +273,14 @@
       "reachMm": 440,
       "stackReachRatio": 1.09,
       "headTubeAngleDeg": 73,
-      "chainstayLengthMm": 420
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 537,
+      "seatTubeLengthMm": 513,
+      "headTubeLengthMm": 145,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 995,
+      "bbDropMm": 75,
+      "standoverHeightMm": 780
     },
     "description": "Bicicleta oficial Canyon Speedmax CFR Di2 (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -185,7 +291,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "54/40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "85"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-speedmax-cf-slx-8-di2-2027",
@@ -221,7 +353,14 @@
       "reachMm": 440,
       "stackReachRatio": 1.09,
       "headTubeAngleDeg": 73,
-      "chainstayLengthMm": 420
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 537,
+      "seatTubeLengthMm": 513,
+      "headTubeLengthMm": 145,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 995,
+      "bbDropMm": 75,
+      "standoverHeightMm": 780
     },
     "description": "Bicicleta oficial Canyon Speedmax CF SLX 8 Di2 (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -232,7 +371,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "52/36"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "85"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-speedmax-cf-slx-8-axs-2027",
@@ -268,7 +433,14 @@
       "reachMm": 440,
       "stackReachRatio": 1.09,
       "headTubeAngleDeg": 73,
-      "chainstayLengthMm": 420
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 537,
+      "seatTubeLengthMm": 513,
+      "headTubeLengthMm": 145,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 995,
+      "bbDropMm": 75,
+      "standoverHeightMm": 780
     },
     "description": "Bicicleta oficial Canyon Speedmax CF SLX 8 AXS (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -279,7 +451,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "50/37"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "65"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-speedmax-cf-slx-7-di2-2027",
@@ -315,7 +513,14 @@
       "reachMm": 440,
       "stackReachRatio": 1.09,
       "headTubeAngleDeg": 73,
-      "chainstayLengthMm": 420
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 537,
+      "seatTubeLengthMm": 513,
+      "headTubeLengthMm": 145,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 995,
+      "bbDropMm": 75,
+      "standoverHeightMm": 780
     },
     "description": "Bicicleta oficial Canyon Speedmax CF SLX 7 Di2 (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -326,7 +531,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "52/36"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "85"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-aeroad-cf-slx-8-axs-2027",
@@ -362,7 +593,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.42,
       "headTubeAngleDeg": 73.25,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 531,
+      "headTubeLengthMm": 142,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 988,
+      "bbDropMm": 70,
+      "standoverHeightMm": 801
     },
     "description": "Bicicleta oficial Canyon Aeroad CF SLX 8 AXS (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -373,7 +611,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "50/37"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "50"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-aeroad-cf-slx-8-di2-2027",
@@ -409,7 +673,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.42,
       "headTubeAngleDeg": 73.25,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 531,
+      "headTubeLengthMm": 142,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 988,
+      "bbDropMm": 70,
+      "standoverHeightMm": 801
     },
     "description": "Bicicleta oficial Canyon Aeroad CF SLX 8 Di2 (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -420,7 +691,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "52/36"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "55"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-ultimate-cf-8-di2-2027",
@@ -456,7 +753,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.42,
       "headTubeAngleDeg": 73.25,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 142,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 988,
+      "bbDropMm": 73,
+      "standoverHeightMm": 801
     },
     "description": "Bicicleta oficial Canyon Ultimate CF 8 Di2 (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -467,7 +771,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "52/36"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "50"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "27.5"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-inflite-cfr-team-2026",
@@ -503,7 +833,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.46,
       "headTubeAngleDeg": 73.5,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 562,
+      "seatTubeLengthMm": 542,
+      "headTubeLengthMm": 146,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 995,
+      "bbDropMm": 64,
+      "standoverHeightMm": 839
     },
     "description": "Bicicleta oficial Canyon Inflite CFR Team (2026) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -514,7 +851,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "46/36"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "45"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-aeroad-cf-slx-9-di2-2027",
@@ -550,7 +913,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.42,
       "headTubeAngleDeg": 73.25,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 531,
+      "headTubeLengthMm": 142,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 988,
+      "bbDropMm": 70,
+      "standoverHeightMm": 801
     },
     "description": "Bicicleta oficial Canyon Aeroad CF SLX 9 Di2 (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -561,7 +931,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "52/36"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "55"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-speedmax-cfr-track-2026",
@@ -597,7 +993,14 @@
       "reachMm": 440,
       "stackReachRatio": 1.1,
       "headTubeAngleDeg": 72.5,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 542,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 78,
+      "wheelbaseMm": 995,
+      "bbDropMm": 55,
+      "standoverHeightMm": 822
     },
     "description": "Bicicleta oficial Canyon Speedmax CFR Track (2026) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -608,7 +1011,19 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-speedmax-cfr-tt-2024",
@@ -644,7 +1059,14 @@
       "reachMm": 435,
       "stackReachRatio": 1.14,
       "headTubeAngleDeg": 73,
-      "chainstayLengthMm": 420
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 495,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 91,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 995,
+      "bbDropMm": 75,
+      "standoverHeightMm": 815
     },
     "description": "Bicicleta oficial Canyon Speedmax CFR TT (2024) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -655,7 +1077,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "54/40"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "80"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-aeroad-cfr-di2-2027",
@@ -691,7 +1139,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.42,
       "headTubeAngleDeg": 73.25,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 142,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 988,
+      "bbDropMm": 70,
+      "standoverHeightMm": 807
     },
     "description": "Bicicleta oficial Canyon Aeroad CFR Di2 (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -702,7 +1157,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "52/36"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "55"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-endurace-onfly-cf-6-2025",
@@ -738,7 +1219,14 @@
       "reachMm": 388,
       "stackReachRatio": 1.52,
       "headTubeAngleDeg": 72,
-      "chainstayLengthMm": 420
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 553,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 167,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 995,
+      "bbDropMm": 73,
+      "standoverHeightMm": 813
     },
     "description": "Bicicleta oficial Canyon Endurace:ONfly CF 6 (2025) para la disciplina de road_endurance. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -749,7 +1237,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "50/34"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "22"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-ultimate-cf-slx-7-di2-2027",
@@ -785,7 +1299,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.42,
       "headTubeAngleDeg": 73.25,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 142,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 988,
+      "bbDropMm": 73,
+      "standoverHeightMm": 801
     },
     "description": "Bicicleta oficial Canyon Ultimate CF SLX 7 Di2 (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -796,7 +1317,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "52/36"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "55"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-ultimate-cf-slx-8-axs-2027",
@@ -832,7 +1379,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.42,
       "headTubeAngleDeg": 73.25,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 142,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 988,
+      "bbDropMm": 73,
+      "standoverHeightMm": 801
     },
     "description": "Bicicleta oficial Canyon Ultimate CF SLX 8 AXS (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -843,7 +1397,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "50/37"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "50"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-aeroad-cfr-axs-2027",
@@ -879,7 +1459,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.42,
       "headTubeAngleDeg": 73.25,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 522,
+      "headTubeLengthMm": 142,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 988,
+      "bbDropMm": 70,
+      "standoverHeightMm": 807
     },
     "description": "Bicicleta oficial Canyon Aeroad CFR AXS (2027) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -890,7 +1477,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "50/37"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "55"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-ultimate-cf-7-axs-2026",
@@ -926,7 +1539,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.42,
       "headTubeAngleDeg": 73.25,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 142,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 987,
+      "bbDropMm": 73,
+      "standoverHeightMm": 801
     },
     "description": "Bicicleta oficial Canyon Ultimate CF 7 AXS (2026) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -937,7 +1557,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "48/35"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "50"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-ultimate-cfr-axs-2026",
@@ -973,7 +1619,14 @@
       "reachMm": 393,
       "stackReachRatio": 1.42,
       "headTubeAngleDeg": 73.25,
-      "chainstayLengthMm": 410
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 510,
+      "headTubeLengthMm": 142,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 988,
+      "bbDropMm": 73,
+      "standoverHeightMm": 801
     },
     "description": "Bicicleta oficial Canyon Ultimate CFR AXS (2026) para la disciplina de road_race. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -984,6 +1637,32 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Continental Grand Prix 28mm"
+    "tires": "Continental Grand Prix 28mm",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "48/35"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "38"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "28"
+          }
+        ]
+      }
+    ]
   }
 ]

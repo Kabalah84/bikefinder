@@ -29,11 +29,18 @@
       "maxGearRatio": 3.2
     },
     "geometry": {
-      "stackMm": 612,
-      "reachMm": 425,
-      "stackReachRatio": 1.44,
+      "stackMm": 610,
+      "reachMm": 450,
+      "stackReachRatio": 1.36,
       "headTubeAngleDeg": 66.5,
-      "chainstayLengthMm": 435
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 615,
+      "seatTubeLengthMm": 530,
+      "headTubeLengthMm": 145,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 70,
+      "standoverHeightMm": 805
     },
     "description": "Bicicleta oficial Canyon Spectral AL LTD (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -44,7 +51,29 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "32"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29\"/27.5"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-spectral-cf-8-2027",
@@ -76,11 +105,18 @@
       "maxGearRatio": 3.2
     },
     "geometry": {
-      "stackMm": 612,
-      "reachMm": 425,
-      "stackReachRatio": 1.44,
+      "stackMm": 610,
+      "reachMm": 450,
+      "stackReachRatio": 1.36,
       "headTubeAngleDeg": 66.5,
-      "chainstayLengthMm": 435
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 615,
+      "seatTubeLengthMm": 530,
+      "headTubeLengthMm": 145,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 70,
+      "standoverHeightMm": 805
     },
     "description": "Bicicleta oficial Canyon Spectral CF 8 (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -91,7 +127,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "32"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "20"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29\"/27.5"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-exceed-cfr-gravel-2027",
@@ -127,7 +189,14 @@
       "reachMm": 425,
       "stackReachRatio": 1.4,
       "headTubeAngleDeg": 69.3,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 584,
+      "seatTubeLengthMm": 415,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 58,
+      "standoverHeightMm": 771
     },
     "description": "Bicicleta oficial Canyon Exceed CFR Gravel (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -138,7 +207,29 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "38"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-lux-trail-cf-6-2027",
@@ -174,7 +265,14 @@
       "reachMm": 450,
       "stackReachRatio": 1.34,
       "headTubeAngleDeg": 64.8,
-      "chainstayLengthMm": 435
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 420,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 76.1,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 38,
+      "standoverHeightMm": 808
     },
     "description": "Bicicleta oficial Canyon Lux Trail CF 6 (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -185,7 +283,29 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "32"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-sender-cfr-underdog-2027",
@@ -221,7 +341,14 @@
       "reachMm": 468,
       "stackReachRatio": 1.35,
       "headTubeAngleDeg": 63,
-      "chainstayLengthMm": 438
+      "chainstayLengthMm": 438,
+      "topTubeLengthMm": 596,
+      "seatTubeLengthMm": 400,
+      "headTubeLengthMm": 105,
+      "seatTubeAngleDeg": 78.5,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 70,
+      "standoverHeightMm": 756
     },
     "description": "Bicicleta oficial Canyon Sender CFR Underdog (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -232,7 +359,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "36"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "21"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29\"/27.5"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-neuron-onfly-cf-7-2025",
@@ -268,7 +421,14 @@
       "reachMm": 460,
       "stackReachRatio": 1.38,
       "headTubeAngleDeg": 64.5,
-      "chainstayLengthMm": 450
+      "chainstayLengthMm": 450,
+      "topTubeLengthMm": 612,
+      "seatTubeLengthMm": 415,
+      "headTubeLengthMm": 130,
+      "seatTubeAngleDeg": 76.5,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 36,
+      "standoverHeightMm": 770
     },
     "description": "Bicicleta oficial Canyon Neuron:ONfly CF 7 (2025) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -279,7 +439,19 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-strive-on-cf-8-2027",
@@ -315,7 +487,14 @@
       "reachMm": 475,
       "stackReachRatio": 1.35,
       "headTubeAngleDeg": 63.5,
-      "chainstayLengthMm": 445
+      "chainstayLengthMm": 445,
+      "topTubeLengthMm": 611,
+      "seatTubeLengthMm": 420,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 78,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 70,
+      "standoverHeightMm": 776
     },
     "description": "Bicicleta oficial Canyon Strive:ON CF 8 (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -326,7 +505,23 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "20"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29\"/27.5"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-strive-on-cf-9-2027",
@@ -362,7 +557,14 @@
       "reachMm": 475,
       "stackReachRatio": 1.35,
       "headTubeAngleDeg": 63.5,
-      "chainstayLengthMm": 445
+      "chainstayLengthMm": 445,
+      "topTubeLengthMm": 611,
+      "seatTubeLengthMm": 420,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 78,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 70,
+      "standoverHeightMm": 776
     },
     "description": "Bicicleta oficial Canyon Strive:ON CF 9 (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -373,7 +575,23 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "20"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29\"/27.5"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-exceed-cf-8-2027",
@@ -409,7 +627,14 @@
       "reachMm": 447,
       "stackReachRatio": 1.37,
       "headTubeAngleDeg": 67,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 611,
+      "seatTubeLengthMm": 455,
+      "headTubeLengthMm": 105,
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 58,
+      "standoverHeightMm": 820
     },
     "description": "Bicicleta oficial Canyon Exceed CF 8 (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -420,7 +645,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "34"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "25"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-lux-trail-cf-7-2027",
@@ -456,7 +707,14 @@
       "reachMm": 450,
       "stackReachRatio": 1.34,
       "headTubeAngleDeg": 64.8,
-      "chainstayLengthMm": 435
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 420,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 76.1,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 38,
+      "standoverHeightMm": 808
     },
     "description": "Bicicleta oficial Canyon Lux Trail CF 7 (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -467,7 +725,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "32"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "25"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-torque-on-cf-9-2025",
@@ -503,7 +787,14 @@
       "reachMm": 475,
       "stackReachRatio": 1.36,
       "headTubeAngleDeg": 63.5,
-      "chainstayLengthMm": 445
+      "chainstayLengthMm": 445,
+      "topTubeLengthMm": 619,
+      "seatTubeLengthMm": 420,
+      "headTubeLengthMm": 115,
+      "seatTubeAngleDeg": 77.5,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 32,
+      "standoverHeightMm": 745
     },
     "description": "Bicicleta oficial Canyon Torque:ON CF 9 (2025) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -514,7 +805,29 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "34"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-grand-canyon-al-7-2026",
@@ -550,7 +863,14 @@
       "reachMm": 450,
       "stackReachRatio": 1.38,
       "headTubeAngleDeg": 66,
-      "chainstayLengthMm": 435
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 617,
+      "seatTubeLengthMm": 420,
+      "headTubeLengthMm": 105,
+      "seatTubeAngleDeg": 74.3,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 65,
+      "standoverHeightMm": 777
     },
     "description": "Bicicleta oficial Canyon Grand Canyon AL 7 (2026) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -561,7 +881,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "30"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "17"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "27.5"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-lux-trail-cf-8-2027",
@@ -597,7 +943,14 @@
       "reachMm": 450,
       "stackReachRatio": 1.34,
       "headTubeAngleDeg": 64.8,
-      "chainstayLengthMm": 435
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 420,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 76.1,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 38,
+      "standoverHeightMm": 808
     },
     "description": "Bicicleta oficial Canyon Lux Trail CF 8 (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -608,7 +961,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "32"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "25"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-exceed-cf-9-2027",
@@ -644,7 +1023,14 @@
       "reachMm": 447,
       "stackReachRatio": 1.37,
       "headTubeAngleDeg": 67,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 611,
+      "seatTubeLengthMm": 455,
+      "headTubeLengthMm": 105,
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 58,
+      "standoverHeightMm": 820
     },
     "description": "Bicicleta oficial Canyon Exceed CF 9 (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -655,7 +1041,33 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "34"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "25"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-lux-world-cup-cfr-xtr-di2-2027",
@@ -691,7 +1103,14 @@
       "reachMm": 455,
       "stackReachRatio": 1.31,
       "headTubeAngleDeg": 66,
-      "chainstayLengthMm": 435
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 609,
+      "seatTubeLengthMm": 440,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 75.5,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 42,
+      "standoverHeightMm": 808
     },
     "description": "Bicicleta oficial Canyon Lux World Cup CFR XTR Di2 (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -702,7 +1121,29 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "34"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-lux-world-cup-cfr-x0-axs-2027",
@@ -738,7 +1179,14 @@
       "reachMm": 455,
       "stackReachRatio": 1.31,
       "headTubeAngleDeg": 66,
-      "chainstayLengthMm": 435
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 609,
+      "seatTubeLengthMm": 440,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 75.5,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 42,
+      "standoverHeightMm": 808
     },
     "description": "Bicicleta oficial Canyon Lux World Cup CFR X0 AXS (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -749,7 +1197,29 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "34"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "canyon-exceed-cfr-2027",
@@ -785,7 +1255,14 @@
       "reachMm": 447,
       "stackReachRatio": 1.37,
       "headTubeAngleDeg": 67,
-      "chainstayLengthMm": 425
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 611,
+      "seatTubeLengthMm": 455,
+      "headTubeLengthMm": 105,
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 58,
+      "standoverHeightMm": 820
     },
     "description": "Bicicleta oficial Canyon Exceed CFR (2027) para la disciplina de mtb. Cuadro de carbono, transmisión SHIMANO y componentes de alto rendimiento seleccionados por Canyon.",
     "highlights": [
@@ -796,6 +1273,32 @@
     ],
     "brakes": "Shimano hidráulicos",
     "wheels": "DT Swiss",
-    "tires": "Maxxis Dissector 2.4\""
+    "tires": "Maxxis Dissector 2.4\"",
+    "detailedSpecs": [
+      {
+        "category": "Transmisión & Desarrollo",
+        "icon": "Cog",
+        "items": [
+          {
+            "label": "Platos",
+            "value": "34"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "icon": "CircleDot",
+        "items": [
+          {
+            "label": "Altura de Perfil",
+            "value": "20"
+          },
+          {
+            "label": "Diámetro de Rueda",
+            "value": "29"
+          }
+        ]
+      }
+    ]
   }
 ]

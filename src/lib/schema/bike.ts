@@ -58,12 +58,33 @@ export const GroupsetSpecSchema = z.object({
 });
 export type GroupsetSpec = z.infer<typeof GroupsetSpecSchema>;
 
+export const DetailedSpecItemSchema = z.object({
+  label: z.string().max(100),
+  value: z.string().max(300),
+  description: z.string().max(300).optional(),
+});
+export type DetailedSpecItem = z.infer<typeof DetailedSpecItemSchema>;
+
+export const DetailedSpecCategorySchema = z.object({
+  category: z.string().max(100),
+  icon: z.string().max(50).optional(),
+  items: z.array(DetailedSpecItemSchema),
+});
+export type DetailedSpecCategory = z.infer<typeof DetailedSpecCategorySchema>;
+
 export const GeometrySpecSchema = z.object({
   stackMm: z.number().positive().max(1000),
   reachMm: z.number().positive().max(1000),
   stackReachRatio: z.number().positive().max(3), // e.g. 1.44
   headTubeAngleDeg: z.number().positive().max(90), // e.g. 72.5
   chainstayLengthMm: z.number().positive().max(1000), // e.g. 435
+  topTubeLengthMm: z.number().positive().max(1000).optional(),
+  seatTubeLengthMm: z.number().positive().max(1000).optional(),
+  headTubeLengthMm: z.number().positive().max(500).optional(),
+  seatTubeAngleDeg: z.number().positive().max(90).optional(),
+  wheelbaseMm: z.number().positive().max(2000).optional(),
+  bbDropMm: z.number().max(200).optional(),
+  standoverHeightMm: z.number().positive().max(1200).optional(),
 });
 export type GeometrySpec = z.infer<typeof GeometrySpecSchema>;
 
@@ -94,6 +115,7 @@ export const BikeProductSchema = z.object({
   wheels: z.string().max(100).optional(),
   tires: z.string().max(100).optional(),
   colors: z.array(z.string().max(50)).max(10).optional(),
+  detailedSpecs: z.array(DetailedSpecCategorySchema).optional(),
 });
 export type BikeProduct = z.infer<typeof BikeProductSchema>;
 

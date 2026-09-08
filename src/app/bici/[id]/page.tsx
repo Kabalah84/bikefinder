@@ -12,6 +12,8 @@ import {
 import { analyzeGearRatio } from "@/lib/utils/gear-calculator";
 import { analyzePosture } from "@/lib/utils/geometry-analysis";
 import { BikeCard } from "@/components/catalog/BikeCard";
+import { BikeGeometryDiagram } from "@/components/bike/BikeGeometryDiagram";
+import { DetailedSpecsAccordion } from "@/components/bike/DetailedSpecsAccordion";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { generateProductSchema, generateBreadcrumbsSchema } from "@/lib/seo/schema";
 import { constructMetadata } from "@/lib/seo/metadata";
@@ -320,61 +322,62 @@ export default function BikeDetailPage({ params }: BikePageProps) {
           </div>
         </div>
 
-        {/* Geometry & Posture Analyzer */}
-        <div className="rounded-3xl bg-white p-6 border border-slate-200 shadow-xs space-y-5">
-          <div className="flex items-center justify-between pb-3 border-b border-slate-100">
-            <h2 className="text-base font-bold text-slate-900 flex items-center gap-2">
-              <Layers className="w-5 h-5 text-teal-600" />
-              Geometría y Postura (Talla M)
-            </h2>
-            <span
-              className={`text-xs font-bold px-2.5 py-0.5 rounded-lg border ${posture.badgeColor}`}
-            >
-              {posture.badgeLabel}
-            </span>
-          </div>
-
-          <p className="text-xs text-slate-600">
-            El ratio <strong>Stack / Reach</strong> define la posición del cuerpo sobre la bicicleta: &gt;1.50 favorece la comodidad lumbar en salidas largas, mientras que &lt;1.45 optimiza la aerodinámica para competir.
-          </p>
-
-          <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
-            <div className="flex items-center justify-between">
-              <span className="text-xs font-bold text-slate-700">Ratio Stack / Reach Oficial:</span>
-              <span className="text-lg font-black text-slate-900">
-                {bike.geometry.stackReachRatio.toFixed(2)}
+        {/* Posture Analyzer Card */}
+        <div className="rounded-3xl bg-white p-6 border border-slate-200 shadow-xs space-y-5 flex flex-col justify-between">
+          <div className="space-y-4">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-100">
+              <h2 className="text-base font-bold text-slate-900 flex items-center gap-2">
+                <Layers className="w-5 h-5 text-teal-600" />
+                Diagnóstico de Posición Ciclista
+              </h2>
+              <span
+                className={`text-xs font-bold px-2.5 py-0.5 rounded-lg border ${posture.badgeColor}`}
+              >
+                {posture.badgeLabel}
               </span>
             </div>
-            <p className="text-xs text-slate-600 leading-relaxed">
-              {posture.description}
+
+            <p className="text-xs text-slate-600">
+              El ratio <strong>Stack / Reach</strong> define el ángulo del torso sobre la bicicleta: &gt;1.50 favorece la comodidad lumbar y el cuello en largas distancias, mientras que &lt;1.45 reduce la resistencia aerodinámica para competir.
             </p>
+
+            <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-bold text-slate-700">Ratio Stack / Reach Oficial:</span>
+                <span className="text-xl font-black text-slate-900">
+                  {bike.geometry.stackReachRatio.toFixed(2)}
+                </span>
+              </div>
+              <p className="text-xs text-slate-600 leading-relaxed">
+                {posture.description}
+              </p>
+            </div>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center">
+          <div className="grid grid-cols-2 gap-2 text-center pt-2 border-t border-slate-100">
             <div className="p-2 rounded-xl bg-slate-50 border border-slate-100">
-              <span className="text-[10px] text-slate-500 block">Stack</span>
+              <span className="text-[10px] text-slate-500 block">Stack Oficial</span>
               <span className="text-xs font-bold text-slate-900">{bike.geometry.stackMm} mm</span>
             </div>
             <div className="p-2 rounded-xl bg-slate-50 border border-slate-100">
-              <span className="text-[10px] text-slate-500 block">Reach</span>
+              <span className="text-[10px] text-slate-500 block">Reach Oficial</span>
               <span className="text-xs font-bold text-slate-900">{bike.geometry.reachMm} mm</span>
-            </div>
-            <div className="p-2 rounded-xl bg-slate-50 border border-slate-100">
-              <span className="text-[10px] text-slate-500 block">Ángulo Dirección</span>
-              <span className="text-xs font-bold text-slate-900">{bike.geometry.headTubeAngleDeg}°</span>
-            </div>
-            <div className="p-2 rounded-xl bg-slate-50 border border-slate-100">
-              <span className="text-[10px] text-slate-500 block">Vainas</span>
-              <span className="text-xs font-bold text-slate-900">{bike.geometry.chainstayLengthMm} mm</span>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Plano de Geometría Vectorial Interactivo */}
+      <BikeGeometryDiagram
+        geometry={bike.geometry}
+        discipline={bike.discipline}
+        sizeRef={bike.weightSizeReference || "M"}
+      />
+
       {/* Full Specs Table */}
       <section aria-label="Ficha técnica detallada" className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
         <h2 className="text-lg font-bold text-slate-900 pb-3 border-b border-slate-100">
-          Ficha Técnica Detallada
+          Ficha Técnica Resumen
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 text-xs sm:text-sm">
@@ -446,6 +449,13 @@ export default function BikeDetailPage({ params }: BikePageProps) {
           </div>
         </div>
       </section>
+
+      {/* Despiece Técnico Completo (Acordeón Desplegable) */}
+      <DetailedSpecsAccordion
+        categories={bike.detailedSpecs}
+        fallbackBrand={bike.brand}
+        fallbackModel={bike.model}
+      />
 
       {/* Related Bikes in Same Category */}
       {relatedBikes.length > 0 && (
