@@ -12,19 +12,21 @@ import Link from "next/link";
 
 export function ComparadorClient() {
   const searchParams = useSearchParams();
-  const { selectedBikes, addBike, removeBike, clearAll, maxBikes } = useComparison();
+  const { selectedBikes, addBike, setComparisonBikes, removeBike, clearAll, maxBikes } = useComparison();
   const allBikes = getAllBikes();
 
   const idsParam = searchParams.get("ids");
 
-  // Si se pasa query param ids, sincronizar con el contexto
+  // Si se pasa query param ids, sincronizar con el contexto de forma atómica y limpia
   useEffect(() => {
     if (idsParam) {
       const ids = idsParam.split(",").filter(Boolean);
       const urlBikes = getBikesByIds(ids);
-      urlBikes.forEach((b) => addBike(b));
+      if (urlBikes.length > 0) {
+        setComparisonBikes(urlBikes);
+      }
     }
-  }, [idsParam]);
+  }, [idsParam, setComparisonBikes]);
 
   const handleAddBikeFromSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const bikeId = e.target.value;
@@ -37,9 +39,8 @@ export function ComparadorClient() {
   };
 
   const handleLoadPreset = (ids: string[]) => {
-    clearAll();
     const presetBikes = getBikesByIds(ids);
-    presetBikes.forEach((b) => addBike(b));
+    setComparisonBikes(presetBikes);
   };
 
   // Agrupar bicicletas disponibles por disciplina para el dropdown
@@ -49,6 +50,7 @@ export function ComparadorClient() {
       { discipline: "gravel", label: "Gravel", bikes: [] },
       { discipline: "road_endurance", label: "Carretera Gran Fondo", bikes: [] },
       { discipline: "road_race", label: "Carretera Competición & Aero", bikes: [] },
+      { discipline: "mtb", label: "Montaña (MTB)", bikes: [] },
       { discipline: "all_road", label: "All-Road", bikes: [] },
     ];
 

@@ -37,6 +37,7 @@ export function CategorizedBikePicker({
     { id: "gravel", label: "Gravel", icon: Compass, color: "text-amber-500" },
     { id: "road_endurance", label: "Gran Fondo", icon: Zap, color: "text-sky-500" },
     { id: "road_race", label: "Competición & Aero", icon: Flame, color: "text-rose-500" },
+    { id: "mtb", label: "Montaña (MTB)", icon: Sparkles, color: "text-purple-600" },
     { id: "all_road", label: "All-Road", icon: Sparkles, color: "text-emerald-500" },
   ];
 
