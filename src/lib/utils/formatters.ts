@@ -46,3 +46,17 @@ export function formatMaterialName(material: string): string {
       return material;
   }
 }
+
+export function formatSuspensionName(suspension: string): string {
+  switch (suspension) {
+    case "full":
+      return "Doble";
+    case "hardtail":
+      return "Delantera";
+    case "rigid":
+      return "Rígida";
+    default:
+      return suspension;
+  }
+}
+

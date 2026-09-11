@@ -2,9 +2,15 @@
 
 import React from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { BikeProduct } from "@/lib/schema/bike";
 import { useComparison } from "@/lib/context/ComparisonContext";
-import { formatCurrencyEur, formatDisciplineName, formatMaterialName } from "@/lib/utils/formatters";
+import {
+  formatCurrencyEur,
+  formatDisciplineName,
+  formatMaterialName,
+  formatSuspensionName,
+} from "@/lib/utils/formatters";
 import { sanitizeExternalUrl } from "@/lib/utils/security";
 import { analyzeGearRatio } from "@/lib/utils/gear-calculator";
 import {
@@ -18,6 +24,7 @@ import {
   CircleDot,
   TrendingUp,
   Flame,
+  Activity,
   Info,
 } from "lucide-react";
 
@@ -26,9 +33,18 @@ interface BikeCardProps {
 }
 
 export function BikeCard({ bike }: BikeCardProps) {
+  const router = useRouter();
   const { isInComparison, toggleBike } = useComparison();
   const selected = isInComparison(bike.id);
   const [imageError, setImageError] = React.useState(false);
+
+  const handleCardClick = (e: React.MouseEvent) => {
+    const target = e.target as HTMLElement;
+    if (target.closest("button") || target.closest("a")) {
+      return;
+    }
+    router.push(`/bici/${bike.id}`);
+  };
 
   const gearRatio = analyzeGearRatio(
     bike.groupset.chainrings,
@@ -54,10 +70,11 @@ export function BikeCard({ bike }: BikeCardProps) {
 
   return (
     <div
-      className={`group flex flex-col justify-between rounded-2xl bg-white border transition-all duration-200 overflow-hidden ${
+      onClick={handleCardClick}
+      className={`group flex flex-col justify-between rounded-2xl bg-white border transition-all duration-200 overflow-hidden cursor-pointer ${
         selected
           ? "border-teal-500 ring-2 ring-teal-500/20 shadow-lg shadow-teal-500/10"
-          : "border-slate-200 hover:border-slate-300 hover:shadow-md"
+          : "border-slate-200 hover:border-slate-300 hover:shadow-lg hover:-translate-y-0.5"
       }`}
     >
       {/* Top Image & Badges */}
@@ -136,7 +153,9 @@ export function BikeCard({ bike }: BikeCardProps) {
               {bike.brand}
             </span>
             <h3 className="text-base font-bold text-slate-900 group-hover:text-teal-600 transition-colors line-clamp-1">
-              <Link href={`/bici/${bike.id}`}>{bike.model}</Link>
+              <Link href={`/bici/${bike.id}`} onClick={(e) => e.stopPropagation()}>
+                {bike.model}
+              </Link>
             </h3>
           </div>
 
@@ -147,16 +166,28 @@ export function BikeCard({ bike }: BikeCardProps) {
 
           {/* Technical Spec Matrix (Grid) */}
           <div className="grid grid-cols-3 gap-1.5 py-2.5 px-3 rounded-xl bg-slate-50 border border-slate-100 text-center mb-3">
-            {/* Paso de rueda */}
-            <div className="flex flex-col items-center">
-              <span className="text-[10px] font-medium text-slate-600 flex items-center gap-0.5">
-                <CircleDot className="w-3 h-3 text-teal-600" />
-                Paso Rueda
-              </span>
-              <span className="text-xs font-bold text-slate-900">
-                {bike.maxTireClearanceMm} mm
-              </span>
-            </div>
+            {/* Suspensión (en MTB) o Paso de rueda (en Carretera/Gravel) */}
+            {bike.discipline === "mtb" ? (
+              <div className="flex flex-col items-center">
+                <span className="text-[10px] font-medium text-slate-600 flex items-center gap-0.5">
+                  <Activity className="w-3 h-3 text-purple-600" />
+                  Suspensión
+                </span>
+                <span className="text-xs font-bold text-slate-900">
+                  {formatSuspensionName(bike.suspensionType)}
+                </span>
+              </div>
+            ) : (
+              <div className="flex flex-col items-center">
+                <span className="text-[10px] font-medium text-slate-600 flex items-center gap-0.5">
+                  <CircleDot className="w-3 h-3 text-teal-600" />
+                  Paso Rueda
+                </span>
+                <span className="text-xs font-bold text-slate-900">
+                  {bike.maxTireClearanceMm} mm
+                </span>
+              </div>
+            )}
 
             {/* Peso */}
             <div className="flex flex-col items-center border-x border-slate-200/80 px-1">
@@ -181,14 +212,41 @@ export function BikeCard({ bike }: BikeCardProps) {
             </div>
           </div>
 
-          {/* Gear Ratio badge */}
-          <div className="flex items-center justify-between text-[11px] px-2.5 py-1.5 rounded-lg bg-teal-50/70 border border-teal-100/80 mb-3">
-            <span className="font-medium text-teal-900 flex items-center gap-1">
-              <TrendingUp className="w-3 h-3 text-teal-600" />
-              Subida (Ratio Mín):
+          {/* Gear Ratio or E-Bike Assistance */}
+          <div
+            className={`flex items-center justify-between text-[11px] px-2.5 py-1.5 rounded-lg border mb-3 ${
+              bike.isElectric
+                ? "bg-amber-50/90 border-amber-200/90 text-amber-950"
+                : "bg-teal-50/70 border-teal-100/80 text-teal-950"
+            }`}
+          >
+            <span
+              className={`font-medium flex items-center gap-1 ${
+                bike.isElectric ? "text-amber-900" : "text-teal-900"
+              }`}
+            >
+              {bike.isElectric ? (
+                <>
+                  <Zap className="w-3 h-3 text-amber-600 fill-amber-500" />
+                  Motor & Asistencia:
+                </>
+              ) : (
+                <>
+                  <TrendingUp className="w-3 h-3 text-teal-600" />
+                  Subida (Ratio Mín):
+                </>
+              )}
             </span>
-            <span className="font-bold text-teal-950">
-              {bike.groupset.minGearRatio.toFixed(2)} ({gearRatio.climbingBadge.label.split(" ")[0]})
+            <span className="font-bold">
+              {bike.isElectric ? (
+                <span className="text-amber-950 font-bold">
+                  Asistencia 25 km/h · {bike.groupset.minGearRatio.toFixed(2)}
+                </span>
+              ) : (
+                <span>
+                  {bike.groupset.minGearRatio.toFixed(2)} ({gearRatio.climbingBadge.label.split(" ")[0]})
+                </span>
+              )}
             </span>
           </div>
         </div>
@@ -216,7 +274,10 @@ export function BikeCard({ bike }: BikeCardProps) {
           <div className="grid grid-cols-2 gap-2">
             {/* Compare Toggle */}
             <button
-              onClick={() => toggleBike(bike)}
+              onClick={(e) => {
+                e.stopPropagation();
+                toggleBike(bike);
+              }}
               type="button"
               className={`flex items-center justify-center gap-1.5 rounded-xl py-2 px-2.5 text-xs font-bold transition-all ${
                 selected
@@ -242,6 +303,7 @@ export function BikeCard({ bike }: BikeCardProps) {
               href={sanitizeExternalUrl(bike.officialUrl)}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
               className="flex items-center justify-center gap-1 rounded-xl bg-slate-900 py-2 px-2.5 text-xs font-bold text-white hover:bg-teal-700 transition-colors shadow-xs"
               title={`Ver ${bike.brand} ${bike.model} en la web oficial`}
             >
@@ -254,6 +316,7 @@ export function BikeCard({ bike }: BikeCardProps) {
           <div className="mt-2 text-center">
             <Link
               href={`/bici/${bike.id}`}
+              onClick={(e) => e.stopPropagation()}
               className="text-[11px] font-semibold text-slate-500 hover:text-teal-600 hover:underline"
             >
               Ver geometría y ficha técnica completa →
