@@ -1,7 +1,14 @@
 import { BikeProduct, Discipline } from "@/lib/schema/bike";
 
 export interface UserPreferences {
-  terrain: "gravel_adventure" | "road_endurance" | "road_race" | "all_road";
+  terrain:
+    | "gravel_adventure"
+    | "road_endurance"
+    | "road_race"
+    | "all_road"
+    | "mtb_hardtail"
+    | "mtb_full"
+    | "ebike";
   budgetMax: number;
   shifting: "electronic" | "mechanical" | "any";
   priority: "weight" | "comfort" | "clearance" | "value";
@@ -55,6 +62,31 @@ export function calculateRecommendations(
       } else if (bike.discipline === "gravel") {
         score += 30;
       }
+    } else if (prefs.terrain === "mtb_hardtail") {
+      if (bike.discipline === "mtb" && bike.suspensionType === "hardtail") {
+        score += 40;
+        reasons.push("Geometría MTB rígida (Hardtail) con horquilla delantera: máxima reactividad y ligereza en subidas.");
+      } else if (bike.discipline === "mtb") {
+        score += 28;
+        reasons.push("Bicicleta de montaña polivalente para senderos y pistas rotas.");
+      } else if (bike.discipline === "gravel") {
+        score += 15;
+      }
+    } else if (prefs.terrain === "mtb_full") {
+      if (bike.discipline === "mtb" && bike.suspensionType === "full") {
+        score += 40;
+        reasons.push("Doble suspensión integral: máxima tracción, seguridad y absorción en bajadas rotas y trialeras.");
+      } else if (bike.discipline === "mtb") {
+        score += 25;
+        reasons.push("Opción de montaña delantera ágil y ligera para terrenos mixtos.");
+      }
+    } else if (prefs.terrain === "ebike") {
+      if (bike.isElectric) {
+        score += 40;
+        reasons.push("Motor eléctrico con asistencia homologada hasta 25 km/h para conquistar cualquier pendiente sin límites.");
+      } else {
+        score -= 25;
+      }
     }
 
     // 2. Evaluación de Presupuesto (hasta 25 pts)
@@ -95,24 +127,56 @@ export function calculateRecommendations(
 
     // 4. Prioridad Clave del Ciclista (hasta 20 pts)
     if (prefs.priority === "weight") {
-      if (bike.weightKg && bike.weightKg <= 7.5) {
-        score += 20;
-        reasons.push(`Peso pluma oficial de solo ${bike.weightKg} kg, insuperable en subidas.`);
-      } else if (bike.weightKg && bike.weightKg <= 8.8) {
-        score += 14;
-        reasons.push(`Excelente ligereza de ${bike.weightKg} kg.`);
+      if (bike.discipline === "mtb") {
+        if (bike.weightKg && bike.weightKg <= 11.5) {
+          score += 20;
+          reasons.push(`Peso muy contenido para montaña de solo ${bike.weightKg} kg.`);
+        } else if (bike.weightKg && bike.weightKg <= 13.5) {
+          score += 14;
+          reasons.push(`Buena ligereza para MTB (${bike.weightKg} kg).`);
+        } else {
+          score += 8;
+        }
+      } else if (bike.isElectric) {
+        if (bike.weightKg && bike.weightKg <= 19) {
+          score += 20;
+          reasons.push(`E-Bike excepcionalmente ligera de solo ${bike.weightKg} kg.`);
+        } else {
+          score += 10;
+        }
       } else {
-        score += 5;
+        if (bike.weightKg && bike.weightKg <= 7.5) {
+          score += 20;
+          reasons.push(`Peso pluma oficial de solo ${bike.weightKg} kg, insuperable en subidas.`);
+        } else if (bike.weightKg && bike.weightKg <= 8.8) {
+          score += 14;
+          reasons.push(`Excelente ligereza de ${bike.weightKg} kg.`);
+        } else {
+          score += 5;
+        }
       }
     } else if (prefs.priority === "comfort") {
-      if (bike.geometry.stackReachRatio >= 1.50 || bike.maxTireClearanceMm >= 40) {
-        score += 20;
-        reasons.push("Filtración de vibraciones superior gracias a su geometría y absorción del cuadro.");
+      if (bike.discipline === "mtb") {
+        if (bike.suspensionType === "full") {
+          score += 20;
+          reasons.push("Máximo confort y descanso articular gracias a su doble suspensión integral.");
+        } else {
+          score += 14;
+          reasons.push("Horquilla con suspensión delantera para absorber baches y raíces.");
+        }
       } else {
-        score += 8;
+        if (bike.geometry.stackReachRatio >= 1.50 || bike.maxTireClearanceMm >= 40) {
+          score += 20;
+          reasons.push("Filtración de vibraciones superior gracias a su geometría y absorción del cuadro.");
+        } else {
+          score += 8;
+        }
       }
     } else if (prefs.priority === "clearance") {
-      if (bike.maxTireClearanceMm >= 47) {
+      if (bike.discipline === "mtb") {
+        score += 20;
+        reasons.push(`Balón ancho de montaña (${bike.maxTireClearanceMm} mm) para máxima tracción en barro y piedras.`);
+      } else if (bike.maxTireClearanceMm >= 47) {
         score += 20;
         reasons.push(`Paso de rueda masivo de ${bike.maxTireClearanceMm} mm para montar cubiertas de gran balón.`);
       } else if (bike.maxTireClearanceMm >= 38) {

@@ -15,6 +15,7 @@ import {
   Sparkles,
   TrendingUp,
   Flame,
+  Mountain,
 } from "lucide-react";
 
 export function Navbar() {
@@ -35,7 +36,7 @@ export function Navbar() {
                 BikeFinder<span className="text-teal-600 font-extrabold">.es</span>
               </span>
               <span className="block text-[10px] font-semibold uppercase tracking-wider text-slate-500">
-                Gravel & Carretera Oficial
+                Gravel, Carretera & MTB Oficial
               </span>
             </div>
           </Link>
@@ -61,6 +62,13 @@ export function Navbar() {
             >
               <Zap className="w-4 h-4 text-sky-600" />
               Gran Fondo
+            </Link>
+            <Link
+              href="/?discipline=mtb"
+              className="px-3 py-2 text-sm font-medium text-slate-700 hover:text-teal-600 hover:bg-slate-50 rounded-lg transition-colors flex items-center gap-1.5"
+            >
+              <Mountain className="w-4 h-4 text-purple-600" />
+              Montaña
             </Link>
             <Link
               href="/asistente"
@@ -151,6 +159,14 @@ export function Navbar() {
           >
             <Zap className="w-4 h-4 text-sky-600" />
             Carretera Gran Fondo
+          </Link>
+          <Link
+            href="/?discipline=mtb"
+            onClick={() => setMobileMenuOpen(false)}
+            className="flex items-center gap-2 px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 rounded-lg"
+          >
+            <Mountain className="w-4 h-4 text-purple-600" />
+            Montaña (MTB)
           </Link>
           <Link
             href="/?discipline=road_race"

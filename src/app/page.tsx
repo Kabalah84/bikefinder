@@ -43,9 +43,9 @@ export function generateMetadata({ searchParams }: PageProps): Metadata {
   }
 
   return constructMetadata({
-    title: "Buscador y Comparador de Bicicletas de Gravel y Carretera",
+    title: "Buscador y Comparador de Bicicletas de Carretera, Gravel y Montaña",
     description:
-      "Compara especificaciones oficiales reales: pesos en báscula, paso de rueda (tire clearance), grupos Di2/AXS, ratios de desarrollo y tablas de geometría sin intermediarios.",
+      "Compara especificaciones oficiales reales: pesos en báscula, suspensiones rígidas y dobles, e-bikes, grupos Di2/AXS, ratios de desarrollo y tablas de geometría sin intermediarios.",
     canonicalPath: "/",
   });
 }
@@ -88,18 +88,18 @@ export default function HomePage({ searchParams }: PageProps) {
         <div className="relative z-10 max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 rounded-full bg-teal-500/20 px-3 py-1 text-xs font-semibold text-teal-300 border border-teal-500/30 backdrop-blur-xs">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Comparador Técnico de Ciclismo Oficial · Temporada 2025</span>
+            <span>Comparador Técnico de Ciclismo Oficial · Temporadas 2025 - 2027</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight text-white">
             Encuentra y compara tu bicicleta de{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-emerald-400">
-              Gravel y Carretera
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-emerald-400 to-amber-300">
+              Carretera, Gravel y Montaña
             </span>
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl leading-relaxed">
-            Sin intermediarios ni enlaces de Amazon. Confronta pesos reales en báscula, paso de rueda máximo, desarrollos para escalada y geometría de marcas líderes: BH, Canyon, Giant, Liv, Scott, Specialized y más.
+            Sin intermediarios ni enlaces de Amazon. Confronta pesos reales en báscula, suspensión rígida o doble, asistencia eléctrica, desarrollos para escalada y geometría de marcas líderes: BH, Bianchi, Cannondale, Canyon, Giant, Liv, Megamo, Merida, Pinarello, Scott, Specialized y más.
           </p>
 
           {/* Quick value badges */}
@@ -109,11 +109,11 @@ export default function HomePage({ searchParams }: PageProps) {
               <span>Enlaces 100% Oficiales</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <CircleDot className="w-4 h-4 text-teal-400" />
-              <span>Filtro de Tire Clearance (mm)</span>
+              <Zap className="w-4 h-4 text-amber-400" />
+              <span>Filtro E-Bikes y Suspensión</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <Scale className="w-4 h-4 text-amber-400" />
+              <Scale className="w-4 h-4 text-teal-400" />
               <span>Comparador 1v1 y Multivía</span>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function HomePage({ searchParams }: PageProps) {
       </section>
 
       {/* Category Pills Selector */}
-      <section aria-label="Categorías de bicicletas" className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+      <section aria-label="Categorías de bicicletas" className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
         {categories.map((cat) => {
           const isActive = selectedDiscipline === cat.id;
           return (

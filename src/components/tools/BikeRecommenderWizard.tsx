@@ -9,7 +9,11 @@ import {
   RecommendationResult,
 } from "@/lib/utils/bike-recommender";
 import { useComparison } from "@/lib/context/ComparisonContext";
-import { formatCurrencyEur, formatDisciplineName } from "@/lib/utils/formatters";
+import {
+  formatCurrencyEur,
+  formatDisciplineName,
+  formatSuspensionName,
+} from "@/lib/utils/formatters";
 import { sanitizeExternalUrl } from "@/lib/utils/security";
 import {
   Compass,
@@ -27,6 +31,8 @@ import {
   CircleDot,
   Weight,
   Layers,
+  Mountain,
+  Activity,
 } from "lucide-react";
 
 interface BikeRecommenderWizardProps {
@@ -137,6 +143,27 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                 desc: "Bicicleta rápida en carretera con capacidad para enlazar pistas de tierra compacta.",
                 icon: Sparkles,
                 color: "text-emerald-600 bg-emerald-50 border-emerald-200",
+              },
+              {
+                id: "mtb_hardtail",
+                title: "Montaña XC & Rally (Rígida / Delantera)",
+                desc: "Pistas rotas, senderos rápidos y subidas exigentes con suspensión delantera y gran ligereza.",
+                icon: Mountain,
+                color: "text-purple-600 bg-purple-50 border-purple-200",
+              },
+              {
+                id: "mtb_full",
+                title: "Montaña Doble Suspensión (Trail & Enduro)",
+                desc: "Trialeras técnicas, piedras, bajadas agresivas y máxima absorción integral delantera y trasera.",
+                icon: Activity,
+                color: "text-indigo-600 bg-indigo-50 border-indigo-200",
+              },
+              {
+                id: "ebike",
+                title: "Bicicleta Eléctrica (E-Bike Asistida)",
+                desc: "Motor eléctrico integrado (25 km/h) para conquistar grandes desniveles y rodar sin barreras físicas.",
+                icon: Zap,
+                color: "text-amber-600 bg-amber-50 border-amber-200",
               },
             ].map((option) => {
               const isSelected = preferences.terrain === option.id;
@@ -468,12 +495,23 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
 
                     {/* Spec badges */}
                     <div className="flex flex-wrap gap-1.5 mb-4 text-xs font-semibold">
-                      <span className="rounded-md bg-slate-100 px-2 py-0.5 text-slate-700">
-                        Ø {bike.maxTireClearanceMm} mm
-                      </span>
+                      {bike.discipline === "mtb" ? (
+                        <span className="rounded-md bg-purple-100 text-purple-900 px-2 py-0.5 font-bold">
+                          {formatSuspensionName(bike.suspensionType)}
+                        </span>
+                      ) : (
+                        <span className="rounded-md bg-slate-100 px-2 py-0.5 text-slate-700">
+                          Ø {bike.maxTireClearanceMm} mm
+                        </span>
+                      )}
                       <span className="rounded-md bg-slate-100 px-2 py-0.5 text-slate-700">
                         {bike.weightKg ? `${bike.weightKg} kg` : "Peso N/D"}
                       </span>
+                      {bike.isElectric && (
+                        <span className="rounded-md bg-amber-100 text-amber-950 px-2 py-0.5 font-bold">
+                          ⚡ E-Bike
+                        </span>
+                      )}
                       <span className="rounded-md bg-slate-100 px-2 py-0.5 text-slate-700">
                         {bike.groupset.isElectronic ? "⚡ Di2/AXS" : "⚙️ Mecánico"}
                       </span>
