@@ -6,6 +6,8 @@ import { BikeFilterCriteria, filterBikes } from "@/lib/data/bikes";
 import { formatDisciplineName, formatMaterialName } from "@/lib/utils/formatters";
 import { BikeCard } from "./BikeCard";
 import { FilterSidebar } from "./FilterSidebar";
+import { SponsoredBikeCard } from "@/components/sponsors/SponsoredBikeCard";
+import { SponsoredWideBanner } from "@/components/sponsors/SponsoredWideBanner";
 import {
   Search,
   SlidersHorizontal,
@@ -384,9 +386,26 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
           ) : (
             <>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                {displayedBikes.map((bike) => (
-                  <BikeCard key={bike.id} bike={bike} />
+                {displayedBikes.map((bike, index) => (
+                  <React.Fragment key={bike.id}>
+                    {/* Opción 1: Card patrocinada con las mismas dimensiones que BikeCard (posición 4) */}
+                    {index === 3 && <SponsoredBikeCard />}
+                    <BikeCard bike={bike} />
+                    {/* Opción 1: Banner panorámico horizontal tras la segunda fila (después del índice 7) */}
+                    {index === 7 && (
+                      <SponsoredWideBanner
+                        onFilterGiant={() =>
+                          setFilters((prev) => ({
+                            ...prev,
+                            brands: ["Giant"],
+                          }))
+                        }
+                      />
+                    )}
+                  </React.Fragment>
                 ))}
+                {/* En caso de haber 3 o menos resultados, mostrar la card patrocinada al final */}
+                {displayedBikes.length > 0 && displayedBikes.length <= 3 && <SponsoredBikeCard />}
               </div>
 
               {/* Paginación progresiva / Cargar más */}

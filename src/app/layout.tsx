@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { ComparisonProvider } from "@/lib/context/ComparisonContext";
+import { AnnouncementBar } from "@/components/sponsors/AnnouncementBar";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { ComparisonDrawer } from "@/components/comparator/ComparisonDrawer";
@@ -81,6 +82,7 @@ export default function RootLayout({
       </head>
       <body className="flex flex-col min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-teal-500 selection:text-white">
         <ComparisonProvider>
+          <AnnouncementBar />
           <Navbar />
           <main className="flex-1 pb-24">{children}</main>
           <ComparisonDrawer />

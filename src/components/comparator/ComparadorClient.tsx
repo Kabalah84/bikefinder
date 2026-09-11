@@ -6,6 +6,7 @@ import { getAllBikes, getBikesByIds } from "@/lib/data/bikes";
 import { useComparison } from "@/lib/context/ComparisonContext";
 import { ComparisonTable } from "@/components/comparator/ComparisonTable";
 import { CategorizedBikePicker } from "@/components/comparator/CategorizedBikePicker";
+import { SponsoredComparatorBanner } from "@/components/sponsors/SponsoredComparatorBanner";
 import { Discipline } from "@/lib/schema/bike";
 import { Scale, Sparkles, ArrowLeft } from "lucide-react";
 import Link from "next/link";
@@ -163,6 +164,13 @@ export function ComparadorClient() {
           </button>
         </div>
       </div>
+
+      {/* Opción 5: Banner Patrocinador Giant en Comparador */}
+      <SponsoredComparatorBanner
+        allBikes={allBikes}
+        selectedBikes={selectedBikes}
+        onAddBike={addBike}
+      />
 
       {/* Comparison View & Categorized Picker */}
       {selectedBikes.length > 0 ? (

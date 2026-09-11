@@ -15,6 +15,7 @@ import {
   Sparkles,
   Luggage,
 } from "lucide-react";
+import { SponsoredSidebarSpotlight } from "@/components/sponsors/SponsoredSidebarSpotlight";
 
 interface FilterSidebarProps {
   filters: BikeFilterCriteria;
@@ -352,12 +353,18 @@ export function FilterSidebar({
 
       {/* Marcas */}
       <div>
-        <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
-          Fabricantes
-        </label>
-        <div className="flex flex-wrap gap-1.5">
+        <div className="flex items-center justify-between mb-2">
+          <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+            Fabricantes
+          </label>
+          <span className="text-[10px] font-extrabold text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded border border-blue-200">
+            ⭐ Giant Partner
+          </span>
+        </div>
+        <div className="flex flex-wrap gap-1.5 mb-3">
           {availableBrands.map((brand) => {
             const isSelected = (filters.brands || []).includes(brand);
+            const isGiant = brand.toLowerCase() === "giant";
             return (
               <button
                 key={brand}
@@ -365,15 +372,25 @@ export function FilterSidebar({
                 onClick={() => handleBrandToggle(brand)}
                 className={`py-1 px-2.5 rounded-lg text-xs font-semibold border transition-all ${
                   isSelected
-                    ? "bg-teal-600 text-white border-teal-600"
+                    ? isGiant
+                      ? "bg-blue-600 text-white border-blue-600 shadow-xs font-bold"
+                      : "bg-teal-600 text-white border-teal-600"
+                    : isGiant
+                    ? "bg-blue-50 text-blue-900 border-blue-300 hover:bg-blue-100 font-bold ring-1 ring-blue-400/30"
                     : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
                 }`}
               >
-                {brand}
+                {isGiant ? "⭐ Giant" : brand}
               </button>
             );
           })}
         </div>
+
+        {/* Brand Spotlight Card (Opción 3) */}
+        <SponsoredSidebarSpotlight
+          isGiantSelected={(filters.brands || []).includes("Giant")}
+          onToggleGiant={() => handleBrandToggle("Giant")}
+        />
       </div>
 
       {/* Transmisión: Monoplato vs Biplato & Marca */}
