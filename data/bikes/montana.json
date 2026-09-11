@@ -29491,69 +29491,1197 @@
     ]
   },
   {
-    "id": "orbea-oiz-m-ltd-2025",
-    "brand": "Orbea",
-    "model": "Oiz M-LTD",
-    "year": 2025,
+    "id": "bh-spike-2-0-2026",
+    "brand": "BH",
+    "model": "SPIKE 2.0",
+    "year": 2026,
     "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m-ltd-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 10499,
-    "currentPriceEur": 10499,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/sport/spike-2-0-a2097?c=syy",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Altus 8sp",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "36/22T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.65,
+      "maxGearRatio": 3.27
+    },
+    "geometry": {
+      "stackMm": 633,
+      "reachMm": 406,
+      "stackReachRatio": 1.56,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 455,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1124,
+      "bbDropMm": 60
+    },
+    "description": "Bicicleta oficial BH SPIKE 2.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano Altus 8sp.",
+    "highlights": [
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano Altus 8sp (11v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT200, 180mm",
+    "wheels": "BH, Shimano TX505 32H",
+    "tires": "Mitas Ocelot 2.35",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Spike Alloy 29\", 135x9, Integrated Headset 42ACB"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SR Suntour XCT HLO 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Altus 8sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Altus 36/ 22"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Altus"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano M315 36/22, 175mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano HG31 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC Z51 8sp"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano M315 36/22, 175mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT200, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT200, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "BH, Shimano TX505 32H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Mitas Ocelot 2.35"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH 90mm"
+          },
+          {
+            "label": "Tija",
+            "value": "BH"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-lynx-trail-9-0-2026",
+    "brand": "BH",
+    "model": "LYNX TRAIL 9.0",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/trail/lynx-trail-9-0-da903?c=ccc",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/6db5e7/da903_ccc_n1.jpg",
+    "msrpEur": 2820,
+    "currentPriceEur": 2820,
     "discountPercentage": 0,
     "isOutlet": false,
     "frameMaterial": "carbon",
     "forkMaterial": "suspension",
-    "weightKg": 9.9,
-    "weightSizeReference": "M",
+    "maxTireClearanceMm": 50,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 8100 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "30T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.59,
+      "maxGearRatio": 3
+    },
+    "geometry": {
+      "stackMm": 610,
+      "reachMm": 455,
+      "stackReachRatio": 1.34,
+      "headTubeAngleDeg": 65,
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 582,
+      "seatTubeLengthMm": 420,
+      "headTubeLengthMm": 100,
+      "seatTubeAngleDeg": 77,
+      "wheelbaseMm": 1169,
+      "bbDropMm": 30
+    },
+    "description": "Bicicleta oficial BH LYNX TRAIL 9.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 8100 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 8100 12sp (12v)",
+      "Paso de rueda hasta 50 mm"
+    ],
+    "brakes": "Shimano MT520 4 Pistons 180mm",
+    "wheels": "Race Face Aeffect 30mm, SuperBoost",
+    "tires": "Maxxis High Roller EXO, 3C, 2.35",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Lynx Trail Carbon 150mm, BC Layup, ISCG 0.5Lite, UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 36 Performance Grip Kabolt 150mm Sweep Adjust"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 8100 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore 6100 12sp"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano Deore 6130 SuperBoost, 32, 170mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 6100 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano Deore 6130 SuperBoost, 32, 170mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT520 4 Pistons 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT520 4 Pistons 180mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Race Face Aeffect 30mm, SuperBoost"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis High Roller EXO, 3C, 2.35"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Trail Carbon, 800mm, 10mm Rise, 9º Back Sweep"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH TRAIL 45mm, 35mm, 0º"
+          },
+          {
+            "label": "Tija",
+            "value": "Race Face Aeffect 31,6mm, 425mm, 150mm Drop"
+          },
+          {
+            "label": "Sillín",
+            "value": "Scratch X8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-lynx-race-8-0-2026",
+    "brand": "BH",
+    "model": "LYNX RACE 8.0",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-race-8-0-dx807?c=ccc",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
     "maxTireClearanceMm": 62,
-    "integratedCockpit": true,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "20T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.39,
+      "maxGearRatio": 2
+    },
+    "geometry": {
+      "stackMm": 598,
+      "reachMm": 470,
+      "stackReachRatio": 1.27,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 619,
+      "seatTubeLengthMm": 460,
+      "headTubeLengthMm": 100,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1190,
+      "bbDropMm": 40
+    },
+    "description": "Bicicleta oficial BH LYNX RACE 8.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano M6100,180mm",
+    "wheels": "Race Face Aeffect 32H 27mm internal",
+    "tires": "Pirelli Scorpion XCM2.4SP FR/ Pirelli Scorpion XCH2.4SP R",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Lynx Race, ECL Carbon Layup, AcrosICR, PF92 148x12 UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34SC Factory Push to Lock Kabolt 120mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano XT"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano XT 8120, 175mm, 34T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano XT 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT 8100, 116L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano XT 8120, 175mm, 34T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano M6100,180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano M6100, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Race Face Aeffect 32H 27mm internal"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Pirelli Scorpion XCM2.4SP FR/ Pirelli Scorpion XCH2.4SP R"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Evo Carbon Top Flat, 760mm, 10mm rise"
+          },
+          {
+            "label": "Potencia",
+            "value": "FIT Race EVO 60mm 31,8mm 6º"
+          },
+          {
+            "label": "Tija",
+            "value": "Race Face Aeffect 31,6mm, 125mm Drop"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Scratch M5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-lynx-trail-9-5-2026",
+    "brand": "BH",
+    "model": "LYNX TRAIL 9.5",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/trail/lynx-trail-9-5-da953?c=ncc",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/ae6ae3/da953_ccc_n1.jpg",
+    "msrpEur": 2820,
+    "currentPriceEur": 2820,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 50,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 8100 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "30T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.59,
+      "maxGearRatio": 3
+    },
+    "geometry": {
+      "stackMm": 610,
+      "reachMm": 455,
+      "stackReachRatio": 1.34,
+      "headTubeAngleDeg": 65,
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 582,
+      "seatTubeLengthMm": 420,
+      "headTubeLengthMm": 100,
+      "seatTubeAngleDeg": 77,
+      "wheelbaseMm": 1169,
+      "bbDropMm": 30
+    },
+    "description": "Bicicleta oficial BH LYNX TRAIL 9.5 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 8100 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 8100 12sp (12v)",
+      "Paso de rueda hasta 50 mm"
+    ],
+    "brakes": "Shimano XT Enduro 180mm",
+    "wheels": "Race Face Turbine, 31mm, SuperBoost",
+    "tires": "Maxxis High Roller EXO, 3C, 2.35",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Lynx Trail Carbon 150mm, BC Layup, ISCG 0.5Lite, UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 36 Factory Grip 2 HSC, LSC, HSR, LSR Kabolt 150mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 8100 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano XT 8100 12sp"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano XT 8130 SuperBoost, 32, 170mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano XT 8100 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano XT 8130 SuperBoost, 32, 170mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano XT Enduro 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano XT Enduro 180mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Race Face Turbine, 31mm, SuperBoost"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis High Roller EXO, 3C, 2.35"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Trail Carbon, 800mm, 10mm Rise, 9º Back Sweep"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH TRAIL 45mm, 35mm, 0º"
+          },
+          {
+            "label": "Tija",
+            "value": "Bike Yoke Revive 31,6mm, 400mm, 160mm Drop"
+          },
+          {
+            "label": "Sillín",
+            "value": "Scratch X8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-lynx-race-7-0-2026",
+    "brand": "BH",
+    "model": "LYNX RACE 7.0",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-race-7-0-dx707?c=nrr",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "20T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.39,
+      "maxGearRatio": 2
+    },
+    "geometry": {
+      "stackMm": 598,
+      "reachMm": 470,
+      "stackReachRatio": 1.27,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 619,
+      "seatTubeLengthMm": 460,
+      "headTubeLengthMm": 100,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1190,
+      "bbDropMm": 40
+    },
+    "description": "Bicicleta oficial BH LYNX RACE 7.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano XT, 180mm",
+    "wheels": "EVO Alloy 28H 30mm Internal 6H Ratchet 40T",
+    "tires": "Maxxis Rekon 29x2.25 FR/ Maxxis Ikon 29x2.25 R",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Lynx Race, PCL Carbon Layup, AcrosICR, PF92 148x12 UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34SC Performance Push to Lock 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano XT"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano XT 8120, 175mm, 34T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano XT 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT 8100, 116L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano XT 8120, 175mm, 34T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano XT, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano XT, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "EVO Alloy 28H 30mm Internal 6H Ratchet 40T"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon 29x2.25 FR/ Maxxis Ikon 29x2.25 R"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH SL Top Flat, 780mm, 10mm, Rise"
+          },
+          {
+            "label": "Potencia",
+            "value": "FIT Race EVO 60mm 31,8mm 6º"
+          },
+          {
+            "label": "Tija",
+            "value": "Race Face Aeffect 31,6mm, 125mm Drop"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago RS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-lynx-race-6-5-2026",
+    "brand": "BH",
+    "model": "LYNX RACE 6.5",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-race-6-5-dx657?c=nrr",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "01T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
+    },
+    "geometry": {
+      "stackMm": 598,
+      "reachMm": 470,
+      "stackReachRatio": 1.27,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 619,
+      "seatTubeLengthMm": 460,
+      "headTubeLengthMm": 100,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1190,
+      "bbDropMm": 40
+    },
+    "description": "Bicicleta oficial BH LYNX RACE 6.5 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano M6100, 180mm",
+    "wheels": "Race Face Aeffect 32H 27mm internal",
+    "tires": "Maxxis Rekon 29x2.25 FR/ Maxxis Ikon 29x2.25 R",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Lynx Race, PCL Carbon Layup, AcrosICR, PF92 148x12 UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34SC Performance Push to Lock 120mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore 12sp, 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano M6100, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano M6100, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Race Face Aeffect 32H 27mm internal"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon 29x2.25 FR/ Maxxis Ikon 29x2.25 R"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH LITE Flat 780mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "FIT Race EVO 60mm 31,8mm 6º"
+          },
+          {
+            "label": "Tija",
+            "value": "Race Face Aeffect 31,6mm, 125mm Drop"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago RS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-lynx-race-6-0-2026",
+    "brand": "BH",
+    "model": "LYNX RACE 6.0",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-race-6-0-dx607?c=ccc",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "01T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
+    },
+    "geometry": {
+      "stackMm": 598,
+      "reachMm": 470,
+      "stackReachRatio": 1.27,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 619,
+      "seatTubeLengthMm": 460,
+      "headTubeLengthMm": 100,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1190,
+      "bbDropMm": 40
+    },
+    "description": "Bicicleta oficial BH LYNX RACE 6.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT410, 180mm",
+    "wheels": "Race Face Aeffect 32H 27mm internal",
+    "tires": "Maxxis Rekon 29x2.25 FR/ Maxxis Ikon 29x2.25 R",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Lynx Race, PCL Carbon Layup, AcrosICR, PF92 148x12 UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 32 Rhythm 120mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore 12sp, 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT410, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT410, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Race Face Aeffect 32H 27mm internal"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon 29x2.25 FR/ Maxxis Ikon 29x2.25 R"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH LITE Flat 780mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "FIT Race EVO 60mm 31,8mm 6º"
+          },
+          {
+            "label": "Tija",
+            "value": "Race Face Aeffect 31,6mm, 125mm Drop"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago RS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-lynx-race-4-0-2026",
+    "brand": "BH",
+    "model": "LYNX RACE 4.0",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-race-4-0-dx407?c=nrr",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "01T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
+    },
+    "geometry": {
+      "stackMm": 595,
+      "reachMm": 456,
+      "stackReachRatio": 1.3,
+      "headTubeAngleDeg": 68,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 605,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 110,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 152,
+      "bbDropMm": 40
+    },
+    "description": "Bicicleta oficial BH LYNX RACE 4.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT410, 180mm",
+    "wheels": "Race Face Aeffect 32H 27mm internal",
+    "tires": "Maxxis Rekon EXO 2.25 Front/ Maxxis Ikon EXO 2.25 rear",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Lynx Race, PCL Carbon Layup , AcrosICR / Alloy 7005 Rear"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 32 Rhythm 120mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT, 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT410, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT410, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Race Face Aeffect 32H 27mm internal"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon EXO 2.25 Front/ Maxxis Ikon EXO 2.25 rear"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH LITE Flat 780mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH SL 80mm, 31,8mm, +/6º"
+          },
+          {
+            "label": "Tija",
+            "value": "Race Face Aeffect 150mm 31,6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo R4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-lynx-sls-9-5-2026",
+    "brand": "BH",
+    "model": "LYNX SLS 9.5",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-sls-9-5-ds957?c=nob",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "sram",
-      "name": "SRAM XX SL Eagle AXS Transmission",
-      "isElectronic": true,
-      "speedCount": 12,
+      "name": "SRAM XX SL TType",
+      "isElectronic": false,
+      "speedCount": 10,
       "chainrings": "34T",
       "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
     },
     "geometry": {
-      "stackMm": 605,
-      "reachMm": 450,
-      "stackReachRatio": 1.34,
+      "stackMm": 609,
+      "reachMm": 470,
+      "stackReachRatio": 1.3,
       "headTubeAngleDeg": 67,
-      "chainstayLengthMm": 432,
-      "topTubeLengthMm": 598,
-      "seatTubeLengthMm": 432,
-      "headTubeLengthMm": 95,
-      "seatTubeAngleDeg": 76.5,
-      "wheelbaseMm": 1163,
-      "bbDropMm": 42
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 617,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 110,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1177,
+      "bbDropMm": 50
     },
-    "description": "Bicicleta oficial Orbea Oiz M-LTD (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial SRAM XX SL Eagle AXS Transmission.",
+    "description": "Bicicleta oficial BH LYNX SLS 9.5 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial SRAM XX SL TType.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo SRAM XX SL Eagle AXS Transmission (12v)",
-      "Paso de rueda hasta 62 mm",
-      "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR"
+      "Cuadro oficial BH CARBON",
+      "Grupo SRAM XX SL TType (10v)",
+      "Paso de rueda hasta 62 mm"
     ],
-    "brakes": "SRAM Level Ultimate Stealth 4-piston Hydraulic Disc",
-    "wheels": "Oquo Mountain Performance MP30LTD Carbon Tubeless Ready",
-    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
+    "brakes": "Shimano XTR 9200, 180mm",
+    "wheels": "EVO Carbon SL 28H 30mm Internal 6H Ratchet 40T",
+    "tires": "Pirelli Scorpion XC RC Lite 2.4",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Oiz Carbon OMX, Fiberlink, Boost, BSA, UFO, I-line shock, 120mm travel, thru axle 12x148mm"
+            "value": "Lynx SLS, ECL Evo Carbon Layup 29\", 80mm, PF92, Boost"
           },
           {
             "label": "Horquilla",
-            "value": "Fox 34 Float SC Factory 120 FIT4 Remote-Adj Push-Unlock QR15x110 Kashima"
+            "value": "FOX 34SL Factory PTL 2P 110mm"
           }
         ]
       },
@@ -29561,16 +30689,28 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "SRAM XX SL Eagle AXS Transmission"
+            "label": "Cambio Trasero",
+            "value": "SRAM XX SL TType"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "34T"
+            "label": "Manetas de Cambio",
+            "value": "SRAM POD Ultimate"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "SRAM XX SL Quark PM TType, 34T, 175mm, 55mm"
           },
           {
             "label": "Cassette",
-            "value": "10-52T"
+            "value": "SRAM XX SL TType 10/52"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM XX SL TType, 116L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM XX SL Quark PM TType, 34T, 175mm, 55mm"
           }
         ]
       },
@@ -29578,8 +30718,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "SRAM Level Ultimate Stealth 4-piston Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano XTR 9200, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano XTR 9200, 160mm"
           }
         ]
       },
@@ -29588,11 +30732,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Oquo Mountain Performance MP30LTD Carbon Tubeless Ready"
+            "value": "EVO Carbon SL 28H 30mm Internal 6H Ratchet 40T"
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
+            "value": "Pirelli Scorpion XC RC Lite 2.4"
           }
         ]
       },
@@ -29601,87 +30745,80 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Mountain Performance MP10 Carbon, Width 760, Sweep 9"
+            "value": "Stealth integrated, 760mm, 60mm, 9º 14º"
           },
           {
-            "label": "Potencia",
-            "value": "OC Mountain Performance MP10 Alu SL, -10º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "Fox Transfer SL Factory Kashima 31.6mm Dropper"
+            "label": "Tija",
+            "value": "Bike Yoke Divine SL 31,6mm, 125mm"
           },
           {
             "label": "Sillín",
-            "value": "Selle Italia SLR Boost Fill Carbon Rail"
+            "value": "Prologo Nago R4 Nack"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-oiz-m-pro-2025",
-    "brand": "Orbea",
-    "model": "Oiz M-PRO",
-    "year": 2025,
+    "id": "bh-lynx-race-3-0-2026",
+    "brand": "BH",
+    "model": "LYNX RACE 3.0",
+    "year": 2026,
     "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m-pro-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 6299,
-    "currentPriceEur": 6299,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-race-3-0-dx307?c=nrr",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
     "discountPercentage": 0,
     "isOutlet": false,
-    "frameMaterial": "carbon",
+    "frameMaterial": "aluminum",
     "forkMaterial": "suspension",
-    "weightKg": 10.4,
-    "weightSizeReference": "M",
     "maxTireClearanceMm": 62,
-    "integratedCockpit": true,
+    "integratedCockpit": false,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano XTR M9100 / XT M8100",
+      "name": "Shimano SLX 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "34T",
+      "chainrings": "01T",
       "cassette": "10-51T",
-      "minGearRatio": 0.67,
-      "maxGearRatio": 3.4
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
     },
     "geometry": {
-      "stackMm": 605,
-      "reachMm": 450,
-      "stackReachRatio": 1.34,
-      "headTubeAngleDeg": 67,
-      "chainstayLengthMm": 432,
-      "topTubeLengthMm": 598,
-      "seatTubeLengthMm": 432,
-      "headTubeLengthMm": 95,
-      "seatTubeAngleDeg": 76.5,
-      "wheelbaseMm": 1163,
-      "bbDropMm": 42
+      "stackMm": 595,
+      "reachMm": 456,
+      "stackReachRatio": 1.3,
+      "headTubeAngleDeg": 68,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 605,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 110,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 152,
+      "bbDropMm": 40
     },
-    "description": "Bicicleta oficial Orbea Oiz M-PRO (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XTR M9100 / XT M8100.",
+    "description": "Bicicleta oficial BH LYNX RACE 3.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano SLX 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano XTR M9100 / XT M8100 (12v)",
-      "Paso de rueda hasta 62 mm",
-      "Cockpit integrado y cableado interno ICR"
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano SLX 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
     ],
-    "brakes": "Shimano XT M8100 Hydraulic Disc",
-    "wheels": "Oquo Mountain Performance MP30TEAM Carbon Tubeless Ready",
-    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
+    "brakes": "Shimano MT410, 180mm",
+    "wheels": "Race Face Aeffect 32H 27mm internal",
+    "tires": "Continental RaceKing2.20/Maxxis ArdentRaceIkonEXO2.20",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Oiz Carbon OMX, Fiberlink, Boost, BSA, UFO, I-line shock, 120mm travel"
+            "value": "Lynx Race, PCL Carbon Layup, AcrosICR / Alloy 7005 Rear"
           },
           {
             "label": "Horquilla",
-            "value": "Fox 34 Float SC Factory 120 FIT4 Remote Kashima, QR15x110"
+            "value": "Rock Shox Recon RL Remote 100mm"
           }
         ]
       },
@@ -29689,16 +30826,28 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano XTR M9100 / XT M8100"
+            "label": "Cambio Trasero",
+            "value": "Shimano SLX 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "34T"
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
           },
           {
             "label": "Cassette",
-            "value": "10-51T"
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore 12sp, 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
           }
         ]
       },
@@ -29706,8 +30855,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano XT M8100 Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano MT410, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT410, 160mm"
           }
         ]
       },
@@ -29716,11 +30869,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Oquo Mountain Performance MP30TEAM Carbon Tubeless Ready"
+            "value": "Race Face Aeffect 32H 27mm internal"
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
+            "value": "Continental RaceKing2.20/Maxxis ArdentRaceIkonEXO2.20"
           }
         ]
       },
@@ -29729,87 +30882,85 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Mountain Performance MP10 Carbon, Width 760"
+            "value": "BH LITE Flat 780mm"
           },
           {
             "label": "Potencia",
-            "value": "OC Mountain Performance MP20, -8º"
+            "value": "BH SL 80mm, 31,8mm, +/6º"
           },
           {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+            "label": "Tija",
+            "value": "Race Face Aeffect 150mm 31,6mm"
           },
           {
             "label": "Sillín",
-            "value": "Selle Italia SLR Boost Titanio Rail"
+            "value": "Prologo R4"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-oiz-m10-2025",
-    "brand": "Orbea",
-    "model": "Oiz M10",
-    "year": 2025,
+    "id": "bh-lynx-sls-9-0-2026",
+    "brand": "BH",
+    "model": "LYNX SLS 9.0",
+    "year": 2026,
     "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m10-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 5499,
-    "currentPriceEur": 5499,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-sls-9-0-ds907?c=nob",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
     "discountPercentage": 0,
     "isOutlet": false,
     "frameMaterial": "carbon",
     "forkMaterial": "suspension",
-    "weightKg": 10.7,
-    "weightSizeReference": "M",
     "maxTireClearanceMm": 62,
-    "integratedCockpit": true,
+    "integratedCockpit": false,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano XT M8100",
-      "isElectronic": false,
+      "name": "Shimano XTR DI2 9200 12sp",
+      "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34T",
+      "chainrings": "00T",
       "cassette": "10-51T",
       "minGearRatio": 0.67,
-      "maxGearRatio": 3.4
+      "maxGearRatio": 5
     },
     "geometry": {
-      "stackMm": 605,
-      "reachMm": 450,
-      "stackReachRatio": 1.34,
+      "stackMm": 609,
+      "reachMm": 470,
+      "stackReachRatio": 1.3,
       "headTubeAngleDeg": 67,
-      "chainstayLengthMm": 432,
-      "topTubeLengthMm": 598,
-      "seatTubeLengthMm": 432,
-      "headTubeLengthMm": 95,
-      "seatTubeAngleDeg": 76.5,
-      "wheelbaseMm": 1163,
-      "bbDropMm": 42
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 617,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 110,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1177,
+      "bbDropMm": 50
     },
-    "description": "Bicicleta oficial Orbea Oiz M10 (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XT M8100.",
+    "description": "Bicicleta oficial BH LYNX SLS 9.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XTR DI2 9200 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano XT M8100 (12v)",
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XTR DI2 9200 12sp (12v)",
       "Paso de rueda hasta 62 mm",
-      "Cockpit integrado y cableado interno ICR"
+      "Cambio electrónico Di2 / AXS"
     ],
-    "brakes": "Shimano XT M8100 Hydraulic Disc",
-    "wheels": "Oquo Mountain Performance MP30TEAM Carbon Tubeless Ready",
-    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
+    "brakes": "Shimano XTR 9200, 180mm",
+    "wheels": "EVO Carbon SL 28H 30mm Internal 6H Ratchet 40T",
+    "tires": "Pirelli Scorpion XC RC Lite 2.4",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Oiz Carbon OMR, Fiberlink, Boost, BSA, UFO, I-line shock, 120mm travel"
+            "value": "Lynx SLS, ECL Evo Carbon Layup 29\", 80mm, PF92, Boost"
           },
           {
             "label": "Horquilla",
-            "value": "Fox 34 Float SC Factory 120 FIT4 Remote Kashima, QR15x110"
+            "value": "FOX 34SL Factory PTL 2P 110mm"
           }
         ]
       },
@@ -29817,16 +30968,28 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano XT M8100"
+            "label": "Cambio Trasero",
+            "value": "Shimano XTR DI2 9200 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "34T"
+            "label": "Manetas de Cambio",
+            "value": "Shimano XTR DI2 9200"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano XTR 9200, 34T, 175mm, 55mm"
           },
           {
             "label": "Cassette",
-            "value": "10-51T"
+            "value": "Shimano XTR 9200 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XTR 9100, 116L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano XTR 9200, 34T, 175mm, 55mm"
           }
         ]
       },
@@ -29834,8 +30997,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano XT M8100 Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano XTR 9200, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano XTR 9200, 160mm"
           }
         ]
       },
@@ -29844,11 +31011,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Oquo Mountain Performance MP30TEAM Carbon Tubeless Ready"
+            "value": "EVO Carbon SL 28H 30mm Internal 6H Ratchet 40T"
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
+            "value": "Pirelli Scorpion XC RC Lite 2.4"
           }
         ]
       },
@@ -29857,87 +31024,81 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Mountain Performance MP21 Alu SL, Width 760"
+            "value": "Stealth integrated, 760mm, 60mm, 9º 14º"
           },
           {
-            "label": "Potencia",
-            "value": "OC Mountain Performance MP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+            "label": "Tija",
+            "value": "Bike Yoke Divine SL 31,6mm, 125mm"
           },
           {
             "label": "Sillín",
-            "value": "Fizik Taiga S-alloy rail"
+            "value": "Prologo Nago R4 Nack"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-oiz-m20-2025",
-    "brand": "Orbea",
-    "model": "Oiz M20",
-    "year": 2025,
+    "id": "bh-lynx-sls-8-5-2026",
+    "brand": "BH",
+    "model": "LYNX SLS 8.5",
+    "year": 2026,
     "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m20-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 4799,
-    "currentPriceEur": 4799,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-sls-8-5-ds857?c=rov",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
     "discountPercentage": 0,
     "isOutlet": false,
     "frameMaterial": "carbon",
     "forkMaterial": "suspension",
-    "weightKg": 11.2,
-    "weightSizeReference": "M",
     "maxTireClearanceMm": 62,
     "integratedCockpit": false,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "sram",
-      "name": "SRAM GX Eagle AXS Transmission",
+      "name": "SRAM GX AXS TType 12sp",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32T",
-      "cassette": "10-52T",
-      "minGearRatio": 0.62,
-      "maxGearRatio": 3.2
+      "chainrings": "34T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.67,
+      "maxGearRatio": 3.4
     },
     "geometry": {
-      "stackMm": 605,
-      "reachMm": 450,
-      "stackReachRatio": 1.34,
+      "stackMm": 609,
+      "reachMm": 470,
+      "stackReachRatio": 1.3,
       "headTubeAngleDeg": 67,
-      "chainstayLengthMm": 432,
-      "topTubeLengthMm": 598,
-      "seatTubeLengthMm": 432,
-      "headTubeLengthMm": 95,
-      "seatTubeAngleDeg": 76.5,
-      "wheelbaseMm": 1163,
-      "bbDropMm": 42
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 617,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 110,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1177,
+      "bbDropMm": 50
     },
-    "description": "Bicicleta oficial Orbea Oiz M20 (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial SRAM GX Eagle AXS Transmission.",
+    "description": "Bicicleta oficial BH LYNX SLS 8.5 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial SRAM GX AXS TType 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo SRAM GX Eagle AXS Transmission (12v)",
+      "Cuadro oficial BH CARBON",
+      "Grupo SRAM GX AXS TType 12sp (12v)",
       "Paso de rueda hasta 62 mm",
       "Cambio electrónico Di2 / AXS"
     ],
-    "brakes": "Shimano M6100 Hydraulic Disc",
-    "wheels": "Oquo Mountain Performance MP28PRO Alloy Tubeless Ready",
-    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
+    "brakes": "Shimano XT 8220, 180mm",
+    "wheels": "EVO Carbon SL 28H 30mm Internal 6H Ratchet 40T",
+    "tires": "Maxxis Rekon WT 2.4 DR/ Maxxis Aspen WT 2.4 R",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Oiz Carbon OMR, Fiberlink, Boost, BSA, UFO, I-line shock, 120mm travel"
+            "value": "Lynx SLS, ECL Evo Carbon Layup 29\", 80mm, PF92, Boost"
           },
           {
             "label": "Horquilla",
-            "value": "Fox 34 Float SC Performance 120 Grip Remote, QR15x110"
+            "value": "FOX 34SC Factory PTL 2P 110mm"
           }
         ]
       },
@@ -29945,16 +31106,28 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "SRAM GX Eagle AXS Transmission"
+            "label": "Cambio Trasero",
+            "value": "SRAM GX AXS TType 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "32T"
+            "label": "Manetas de Cambio",
+            "value": "SRAM GX AXS POD"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "SRAM GX DUB, 34T, 175mm, 55mm"
           },
           {
             "label": "Cassette",
-            "value": "10-52T"
+            "value": "SRAM GX 1052 TType"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM GX TType, 116L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "SRAM GX DUB, 34T, 175mm, 55mm"
           }
         ]
       },
@@ -29962,8 +31135,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano M6100 Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano XT 8220, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano XT 8220, 160mm"
           }
         ]
       },
@@ -29972,11 +31149,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Oquo Mountain Performance MP28PRO Alloy Tubeless Ready"
+            "value": "EVO Carbon SL 28H 30mm Internal 6H Ratchet 40T"
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
+            "value": "Maxxis Rekon WT 2.4 DR/ Maxxis Aspen WT 2.4 R"
           }
         ]
       },
@@ -29985,850 +31162,81 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Mountain Performance MP30, Width 760"
+            "value": "Stealth integrated, 760mm, 60mm, 9º 14º"
           },
           {
-            "label": "Potencia",
-            "value": "OC Mountain Performance MP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+            "label": "Tija",
+            "value": "Bike Yoke Divine SL 31,6mm, 125mm"
           },
           {
             "label": "Sillín",
-            "value": "Fizik Taiga S-alloy rail"
+            "value": "Prologo Nago R4 PAS STN"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-oiz-m30-2025",
-    "brand": "Orbea",
-    "model": "Oiz M30",
-    "year": 2025,
+    "id": "bh-lynx-sls-8-0-2026",
+    "brand": "BH",
+    "model": "LYNX SLS 8.0",
+    "year": 2026,
     "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m30-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 3999,
-    "currentPriceEur": 3999,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-sls-8-0-ds807?c=sbg",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
     "discountPercentage": 0,
     "isOutlet": false,
     "frameMaterial": "carbon",
     "forkMaterial": "suspension",
-    "weightKg": 11.6,
-    "weightSizeReference": "M",
     "maxTireClearanceMm": 62,
     "integratedCockpit": false,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano SLX M7100 / Deore M6100",
-      "isElectronic": false,
+      "name": "Shimano XT DI2 12sp",
+      "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32T",
-      "cassette": "10-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 3.2
-    },
-    "geometry": {
-      "stackMm": 605,
-      "reachMm": 450,
-      "stackReachRatio": 1.34,
-      "headTubeAngleDeg": 67,
-      "chainstayLengthMm": 432,
-      "topTubeLengthMm": 598,
-      "seatTubeLengthMm": 432,
-      "headTubeLengthMm": 95,
-      "seatTubeAngleDeg": 76.5,
-      "wheelbaseMm": 1163,
-      "bbDropMm": 42
-    },
-    "description": "Bicicleta oficial Orbea Oiz M30 (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano SLX M7100 / Deore M6100.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano SLX M7100 / Deore M6100 (12v)",
-      "Paso de rueda hasta 62 mm"
-    ],
-    "brakes": "Shimano M6100 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 29, 25c, 32H",
-    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Oiz Carbon OMR, Fiberlink, Boost, BSA, UFO, I-line shock, 120mm travel"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Fox 34 Float SC Performance 120 Grip Remote, QR15x110"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano SLX M7100 / Deore M6100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "32T"
-          },
-          {
-            "label": "Cassette",
-            "value": "10-51T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano M6100 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Alloy, Tubeless, 29, 25c, 32H"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Mountain Performance MP30, Width 760"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Mountain Performance MP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Selle Italia Model X FecAlloy Rail"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-oiz-h10-2025",
-    "brand": "Orbea",
-    "model": "Oiz H10",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-h10-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 3299,
-    "currentPriceEur": 3299,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "aluminum",
-    "forkMaterial": "suspension",
-    "weightKg": 12.6,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 62,
-    "integratedCockpit": false,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano XT M8100 / SLX M7100",
-      "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "32T",
-      "cassette": "10-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 3.2
-    },
-    "geometry": {
-      "stackMm": 605,
-      "reachMm": 450,
-      "stackReachRatio": 1.34,
-      "headTubeAngleDeg": 67,
-      "chainstayLengthMm": 432,
-      "topTubeLengthMm": 598,
-      "seatTubeLengthMm": 432,
-      "headTubeLengthMm": 95,
-      "seatTubeAngleDeg": 76.5,
-      "wheelbaseMm": 1163,
-      "bbDropMm": 42
-    },
-    "description": "Bicicleta oficial Orbea Oiz H10 (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano XT M8100 / SLX M7100.",
-    "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano XT M8100 / SLX M7100 (12v)",
-      "Paso de rueda hasta 62 mm"
-    ],
-    "brakes": "Shimano M6100 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 29, 25c, 32H",
-    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Oiz Hydro High Polished, Alloy link, Boost, BSA, UFO, I-line shock, 120mm travel"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Fox 34 Float SC Performance 120 Grip Remote, QR15x110"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano XT M8100 / SLX M7100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "32T"
-          },
-          {
-            "label": "Cassette",
-            "value": "10-51T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano M6100 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Alloy, Tubeless, 29, 25c, 32H"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Mountain Performance MP30, Width 760"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Mountain Performance MP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Selle Italia Model X FecAlloy"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-oiz-h30-2025",
-    "brand": "Orbea",
-    "model": "Oiz H30",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-h30-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 2499,
-    "currentPriceEur": 2499,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "aluminum",
-    "forkMaterial": "suspension",
-    "weightKg": 13.1,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 62,
-    "integratedCockpit": false,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano Deore M6100",
-      "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "32T",
-      "cassette": "10-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 3.2
-    },
-    "geometry": {
-      "stackMm": 605,
-      "reachMm": 450,
-      "stackReachRatio": 1.34,
-      "headTubeAngleDeg": 67,
-      "chainstayLengthMm": 432,
-      "topTubeLengthMm": 598,
-      "seatTubeLengthMm": 432,
-      "headTubeLengthMm": 95,
-      "seatTubeAngleDeg": 76.5,
-      "wheelbaseMm": 1163,
-      "bbDropMm": 42
-    },
-    "description": "Bicicleta oficial Orbea Oiz H30 (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M6100.",
-    "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano Deore M6100 (12v)",
-      "Paso de rueda hasta 62 mm"
-    ],
-    "brakes": "Shimano MT201 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 29, 25c, 32H",
-    "tires": "Maxxis Ikon 2.20 FB 60 TPI Dual",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Oiz Hydro High Polished, Boost, BSA, 120mm travel"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Fox 32 Float Rhythm 120 Remote QR15x110"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano Deore M6100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "32T"
-          },
-          {
-            "label": "Cassette",
-            "value": "10-51T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano MT201 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Alloy, Tubeless, 29, 25c, 32H"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Maxxis Ikon 2.20 FB 60 TPI Dual"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Mountain Performance MP30, Width 760"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Mountain Performance MP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "Alloy, 31.6mm, Setback 0"
-          },
-          {
-            "label": "Sillín",
-            "value": "Selle Italia Model X"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-alma-m-pro-2025",
-    "brand": "Orbea",
-    "model": "Alma M-PRO",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/alma/cat/alma-m-pro-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 5499,
-    "currentPriceEur": 5499,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "suspension",
-    "weightKg": 8.9,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 60,
-    "integratedCockpit": true,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano XTR M9100 / XT M8100",
-      "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "34T",
+      "chainrings": "00T",
       "cassette": "10-51T",
       "minGearRatio": 0.67,
-      "maxGearRatio": 3.4
+      "maxGearRatio": 5
     },
     "geometry": {
-      "stackMm": 615,
-      "reachMm": 426,
-      "stackReachRatio": 1.44,
-      "headTubeAngleDeg": 68,
-      "chainstayLengthMm": 430,
-      "topTubeLengthMm": 602,
-      "seatTubeLengthMm": 445,
-      "headTubeLengthMm": 95,
-      "seatTubeAngleDeg": 74.5,
-      "wheelbaseMm": 1115,
-      "bbDropMm": 61
-    },
-    "description": "Bicicleta oficial Orbea Alma M-PRO (2025) gama Alma de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XTR M9100 / XT M8100.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano XTR M9100 / XT M8100 (12v)",
-      "Paso de rueda hasta 60 mm",
-      "Cockpit integrado y cableado interno ICR"
-    ],
-    "brakes": "Shimano XT M8100 Hydraulic Disc",
-    "wheels": "Oquo Mountain Performance MP30TEAM Carbon",
-    "tires": "Maxxis Rekon Race 2.35 120 TPI Exo TLR",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Alma Carbon OMX, Boost 12x148, PF BB, Internal cable routing"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Fox 32 Float SC Factory 100 FIT4 Remote-Adj Push-Unlock QR15x110 Kashima"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano XTR M9100 / XT M8100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "34T"
-          },
-          {
-            "label": "Cassette",
-            "value": "10-51T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano XT M8100 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Oquo Mountain Performance MP30TEAM Carbon"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Maxxis Rekon Race 2.35 120 TPI Exo TLR"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Mountain Performance MP10 Carbon, Width 760"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Mountain Performance MP20, -8º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Performance XP10 Carbon, 27.2mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Selle Italia SLR Boost Titanio Rail"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-alma-m30-2025",
-    "brand": "Orbea",
-    "model": "Alma M30",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/alma/cat/alma-m30-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 2199,
-    "currentPriceEur": 2199,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "suspension",
-    "weightKg": 11.2,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 60,
-    "integratedCockpit": false,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano SLX M7100 / Deore M6100",
-      "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "32T",
-      "cassette": "10-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 3.2
-    },
-    "geometry": {
-      "stackMm": 615,
-      "reachMm": 426,
-      "stackReachRatio": 1.44,
-      "headTubeAngleDeg": 68,
-      "chainstayLengthMm": 430,
-      "topTubeLengthMm": 602,
-      "seatTubeLengthMm": 445,
-      "headTubeLengthMm": 95,
-      "seatTubeAngleDeg": 74.5,
-      "wheelbaseMm": 1115,
-      "bbDropMm": 61
-    },
-    "description": "Bicicleta oficial Orbea Alma M30 (2025) gama Alma de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano SLX M7100 / Deore M6100.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano SLX M7100 / Deore M6100 (12v)",
-      "Paso de rueda hasta 60 mm"
-    ],
-    "brakes": "Shimano MT201 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 29, 25c, 32H",
-    "tires": "Maxxis Rekon Race 2.35 60 TPI Exo TLR",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Alma Carbon OMR, Boost 12x148, PF BB, Internal cable routing"
-          },
-          {
-            "label": "Horquilla",
-            "value": "RockShox Judy Silver TK Remote Solo Air 100 QR15x110 Boost"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano SLX M7100 / Deore M6100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "32T"
-          },
-          {
-            "label": "Cassette",
-            "value": "10-51T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano MT201 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Alloy, Tubeless, 29, 25c, 32H"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Maxxis Rekon Race 2.35 60 TPI Exo TLR"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Mountain Performance MP30, Width 760"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Mountain Performance MP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "Alloy, 27.2mm, Setback 0"
-          },
-          {
-            "label": "Sillín",
-            "value": "Selle Italia Model X"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-alma-h30-2025",
-    "brand": "Orbea",
-    "model": "Alma H30",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/alma/cat/alma-h30-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 1099,
-    "currentPriceEur": 1099,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "aluminum",
-    "forkMaterial": "suspension",
-    "weightKg": 12.8,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 60,
-    "integratedCockpit": false,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano Deore M5100",
-      "isElectronic": false,
-      "speedCount": 11,
-      "chainrings": "32T",
-      "cassette": "11-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 2.91
-    },
-    "geometry": {
-      "stackMm": 615,
-      "reachMm": 426,
-      "stackReachRatio": 1.44,
-      "headTubeAngleDeg": 68,
-      "chainstayLengthMm": 430,
-      "topTubeLengthMm": 602,
-      "seatTubeLengthMm": 445,
-      "headTubeLengthMm": 95,
-      "seatTubeAngleDeg": 74.5,
-      "wheelbaseMm": 1115,
-      "bbDropMm": 61
-    },
-    "description": "Bicicleta oficial Orbea Alma H30 (2025) gama Alma de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M5100.",
-    "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano Deore M5100 (11v)",
-      "Paso de rueda hasta 60 mm"
-    ],
-    "brakes": "Shimano MT201 Hydraulic Disc",
-    "wheels": "Mach1 Klixx 23c Tubeless Ready",
-    "tires": "Maxxis Ikon 2.20 FB 60 TPI Dual",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Alma Hydro Alloy, Boost 12x148, BSA BB, Internal cable routing"
-          },
-          {
-            "label": "Horquilla",
-            "value": "SR Suntour Raidon 32 RLR 100mm QR15x110 Boost"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano Deore M5100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "32T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-51T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano MT201 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Mach1 Klixx 23c Tubeless Ready"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Maxxis Ikon 2.20 FB 60 TPI Dual"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Mountain Performance MP30, Width 760"
-          },
-          {
-            "label": "Potencia",
-            "value": "Alloy 7º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "Alloy, 27.2mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Selle Royal 2058 DRN"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-occam-sl-m10-2025",
-    "brand": "Orbea",
-    "model": "Occam SL M10",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/occam/cat/occam-sl-m10-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 5999,
-    "currentPriceEur": 5999,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "suspension",
-    "weightKg": 12.2,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 62,
-    "integratedCockpit": true,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano XT M8100",
-      "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "32T",
-      "cassette": "10-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 3.2
-    },
-    "geometry": {
-      "stackMm": 618,
-      "reachMm": 465,
-      "stackReachRatio": 1.33,
-      "headTubeAngleDeg": 65.5,
-      "chainstayLengthMm": 440,
-      "topTubeLengthMm": 595,
-      "seatTubeLengthMm": 415,
+      "stackMm": 609,
+      "reachMm": 470,
+      "stackReachRatio": 1.3,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 617,
+      "seatTubeLengthMm": 480,
       "headTubeLengthMm": 110,
-      "seatTubeAngleDeg": 78,
-      "wheelbaseMm": 1205,
-      "bbDropMm": 35
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1177,
+      "bbDropMm": 50
     },
-    "description": "Bicicleta oficial Orbea Occam SL M10 (2025) gama Occam de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XT M8100.",
+    "description": "Bicicleta oficial BH LYNX SLS 8.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT DI2 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano XT M8100 (12v)",
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT DI2 12sp (12v)",
       "Paso de rueda hasta 62 mm",
-      "Cockpit integrado y cableado interno ICR"
+      "Cambio electrónico Di2 / AXS"
     ],
-    "brakes": "Shimano XT M8120 4-Piston Hydraulic Disc",
-    "wheels": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready",
-    "tires": "Maxxis Dissector 2.40 WT 60 TPI 3C MaxxTerra Exo TLR",
+    "brakes": "Shimano XT 8220, 180mm",
+    "wheels": "EVO Carbon 28H 30mm Internal 6H",
+    "tires": "Pirelli Scorpion XCM 2.4 SP FR/ Pirelli Scorpion XCH 2.4 SP R",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Occam OMR Carbon 140mm travel, Concentric Boost 12x148, LOCKR internal storage"
+            "value": "Lynx SLS, ECL Evo Carbon Layup 29\", 80mm, PF92, Boost"
           },
           {
             "label": "Horquilla",
-            "value": "Fox 34 Float Factory 140 FIT4 Remote-Adj QR15x110 Kashima"
+            "value": "FOX 34SL Factory PTL 2P 110mm"
           }
         ]
       },
@@ -30836,16 +31244,28 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano XT M8100"
+            "label": "Cambio Trasero",
+            "value": "Shimano XT DI2 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "32T"
+            "label": "Manetas de Cambio",
+            "value": "Shimano XT DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano XT 8200, 34T, 175mm, 55mm"
           },
           {
             "label": "Cassette",
-            "value": "10-51T"
+            "value": "Shimano XT 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT, 116L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano XT 8200, 34T, 175mm, 55mm"
           }
         ]
       },
@@ -30853,8 +31273,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano XT M8120 4-Piston Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano XT 8220, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano XT 8220, 160mm"
           }
         ]
       },
@@ -30863,11 +31287,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready"
+            "value": "EVO Carbon 28H 30mm Internal 6H"
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Dissector 2.40 WT 60 TPI 3C MaxxTerra Exo TLR"
+            "value": "Pirelli Scorpion XCM 2.4 SP FR/ Pirelli Scorpion XCH 2.4 SP R"
           }
         ]
       },
@@ -30876,86 +31300,80 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Mountain Control MC10 Carbon, Rise 20, Width 800"
+            "value": "Stealth integrated, 760mm, 60mm, 9º 14º"
           },
           {
-            "label": "Potencia",
-            "value": "OC Mountain Control MC20, 0º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+            "label": "Tija",
+            "value": "XFusion Manic 31,6mm, 125mm"
           },
           {
             "label": "Sillín",
-            "value": "Fizik Terra Ridon X5 145mm"
+            "value": "Prologo Nago R4 PAS STN"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-occam-sl-h30-2025",
-    "brand": "Orbea",
-    "model": "Occam SL H30",
-    "year": 2025,
+    "id": "bh-lynx-sls-7-0-2026",
+    "brand": "BH",
+    "model": "LYNX SLS 7.0",
+    "year": 2026,
     "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/occam/cat/occam-sl-h30-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 2799,
-    "currentPriceEur": 2799,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-sls-7-0-ds707?c=sbg",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
     "discountPercentage": 0,
     "isOutlet": false,
-    "frameMaterial": "aluminum",
+    "frameMaterial": "carbon",
     "forkMaterial": "suspension",
-    "weightKg": 14.3,
-    "weightSizeReference": "M",
     "maxTireClearanceMm": 62,
     "integratedCockpit": false,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano Deore M6100",
+      "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32T",
+      "chainrings": "20T",
       "cassette": "10-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 3.2
+      "minGearRatio": 0.39,
+      "maxGearRatio": 2
     },
     "geometry": {
-      "stackMm": 618,
-      "reachMm": 465,
-      "stackReachRatio": 1.33,
-      "headTubeAngleDeg": 65.5,
-      "chainstayLengthMm": 440,
-      "topTubeLengthMm": 595,
-      "seatTubeLengthMm": 415,
+      "stackMm": 609,
+      "reachMm": 470,
+      "stackReachRatio": 1.3,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 617,
+      "seatTubeLengthMm": 480,
       "headTubeLengthMm": 110,
-      "seatTubeAngleDeg": 78,
-      "wheelbaseMm": 1205,
-      "bbDropMm": 35
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1177,
+      "bbDropMm": 50
     },
-    "description": "Bicicleta oficial Orbea Occam SL H30 (2025) gama Occam de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M6100.",
+    "description": "Bicicleta oficial BH LYNX SLS 7.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano Deore M6100 (12v)",
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 12sp (12v)",
       "Paso de rueda hasta 62 mm"
     ],
-    "brakes": "Shimano MT201 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 29, 29c, 32H",
-    "tires": "Maxxis Dissector 2.40 WT 60 TPI Exo TLR",
+    "brakes": "Shimano XT 8220, 180mm",
+    "wheels": "EVO Alloy 28H 30mm Internal 6H Ratchet 40T",
+    "tires": "Maxxis Rekon WT 2.4 DR/ Maxxis Aspen WT 2.4 R",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Occam Hydro High Polished 140mm travel, Concentric Boost 12x148"
+            "value": "Lynx SLS, ECL Evo Carbon Layup 29\", 80mm, PF92, Boost"
           },
           {
             "label": "Horquilla",
-            "value": "Marzocchi Bomber Z2 140mm QR15x110"
+            "value": "FOX 34SL Factory PTL 2P 110mm"
           }
         ]
       },
@@ -30963,16 +31381,28 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano Deore M6100"
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "32T"
+            "label": "Manetas de Cambio",
+            "value": "Shimano XT"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano XT 8120, 175mm, 34T, 55mm"
           },
           {
             "label": "Cassette",
-            "value": "10-51T"
+            "value": "Shimano XT 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT, 116L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano XT 8120, 175mm, 34T, 55mm"
           }
         ]
       },
@@ -30980,8 +31410,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano MT201 Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano XT 8220, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano XT 8220, 160mm"
           }
         ]
       },
@@ -30990,11 +31424,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Alloy, Tubeless, 29, 29c, 32H"
+            "value": "EVO Alloy 28H 30mm Internal 6H Ratchet 40T"
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Dissector 2.40 WT 60 TPI Exo TLR"
+            "value": "Maxxis Rekon WT 2.4 DR/ Maxxis Aspen WT 2.4 R"
           }
         ]
       },
@@ -31003,341 +31437,80 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Mountain Control MC30, Rise 20, Width 800"
+            "value": "Stealth integrated, 760mm, 60mm, 9º 14º"
           },
           {
-            "label": "Potencia",
-            "value": "OC Mountain Control MC20, 0º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+            "label": "Tija",
+            "value": "XFusion Manic 31,6mm, 125mm"
           },
           {
             "label": "Sillín",
-            "value": "Selle Italia Model X"
+            "value": "Prologo Nago R4 PAS STN"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-rallon-m-team-2025",
-    "brand": "Orbea",
-    "model": "Rallon M-TEAM",
-    "year": 2025,
+    "id": "bh-lynx-sls-6-5-2026",
+    "brand": "BH",
+    "model": "LYNX SLS 6.5",
+    "year": 2026,
     "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/rallon/cat/rallon-m-team-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 6999,
-    "currentPriceEur": 6999,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-sls-6-5-ds657?c=sbg",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
     "discountPercentage": 0,
     "isOutlet": false,
     "frameMaterial": "carbon",
     "forkMaterial": "suspension",
-    "weightKg": 14.6,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 64,
-    "integratedCockpit": true,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano XT M8100",
-      "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "32T",
-      "cassette": "10-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 3.2
-    },
-    "geometry": {
-      "stackMm": 632,
-      "reachMm": 460,
-      "stackReachRatio": 1.37,
-      "headTubeAngleDeg": 64,
-      "chainstayLengthMm": 442,
-      "topTubeLengthMm": 605,
-      "seatTubeLengthMm": 415,
-      "headTubeLengthMm": 115,
-      "seatTubeAngleDeg": 77.5,
-      "wheelbaseMm": 1235,
-      "bbDropMm": 28
-    },
-    "description": "Bicicleta oficial Orbea Rallon M-TEAM (2025) gama Rallon de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XT M8100.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano XT M8100 (12v)",
-      "Paso de rueda hasta 64 mm",
-      "Cockpit integrado y cableado interno ICR"
-    ],
-    "brakes": "Shimano XT M8120 4-Piston Hydraulic Disc",
-    "wheels": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready",
-    "tires": "Maxxis Assegai 2.50 WT FB 120 TPI 3C MaxxTerra EXO+ TR",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Rallon OMR Carbon 167mm travel, Concentric Boost 12x148, LOCKR internal storage"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Fox 38 Float Factory 170 Grip2 QR15x110 Kashima"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano XT M8100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "32T"
-          },
-          {
-            "label": "Cassette",
-            "value": "10-51T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano XT M8120 4-Piston Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Maxxis Assegai 2.50 WT FB 120 TPI 3C MaxxTerra EXO+ TR"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Mountain Control MC10 Carbon, Rise 20, Width 800"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Mountain Control MC20, 0º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Fizik Terra Ridon X5 145mm"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-rallon-m20-2025",
-    "brand": "Orbea",
-    "model": "Rallon M20",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/rallon/cat/rallon-m20-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 4999,
-    "currentPriceEur": 4999,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "suspension",
-    "weightKg": 15.2,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 64,
+    "maxTireClearanceMm": 62,
     "integratedCockpit": false,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano SLX M7100 / Deore M6100",
+      "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32T",
+      "chainrings": "01T",
       "cassette": "10-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 3.2
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
     },
     "geometry": {
-      "stackMm": 632,
-      "reachMm": 460,
-      "stackReachRatio": 1.37,
-      "headTubeAngleDeg": 64,
-      "chainstayLengthMm": 442,
-      "topTubeLengthMm": 605,
-      "seatTubeLengthMm": 415,
-      "headTubeLengthMm": 115,
-      "seatTubeAngleDeg": 77.5,
-      "wheelbaseMm": 1235,
-      "bbDropMm": 28
-    },
-    "description": "Bicicleta oficial Orbea Rallon M20 (2025) gama Rallon de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano SLX M7100 / Deore M6100.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano SLX M7100 / Deore M6100 (12v)",
-      "Paso de rueda hasta 64 mm"
-    ],
-    "brakes": "Shimano M6120 4-Piston Hydraulic Disc",
-    "wheels": "Race Face AR 30c Tubeless Ready",
-    "tires": "Maxxis Assegai 2.50 WT FB 60 TPI 3C MaxxTerra EXO+ TR",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Rallon OMR Carbon 167mm travel, Concentric Boost 12x148, LOCKR storage"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Fox 38 Float Performance 170 Grip 3-Pos QR15x110"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano SLX M7100 / Deore M6100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "32T"
-          },
-          {
-            "label": "Cassette",
-            "value": "10-51T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano M6120 4-Piston Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Race Face AR 30c Tubeless Ready"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Maxxis Assegai 2.50 WT FB 60 TPI 3C MaxxTerra EXO+ TR"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Mountain Control MC30, Rise 20, Width 800"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Mountain Control MC20, 0º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Fizik Terra Ridon X5"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-laufey-h-ltd-2025",
-    "brand": "Orbea",
-    "model": "Laufey H-LTD",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/laufey/cat/laufey-h-ltd-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 2499,
-    "currentPriceEur": 2499,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "aluminum",
-    "forkMaterial": "suspension",
-    "weightKg": 13.5,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 65,
-    "integratedCockpit": false,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano XT M8100 / SLX M7100",
-      "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "32T",
-      "cassette": "10-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 3.2
-    },
-    "geometry": {
-      "stackMm": 635,
-      "reachMm": 445,
-      "stackReachRatio": 1.43,
-      "headTubeAngleDeg": 64.5,
-      "chainstayLengthMm": 435,
-      "topTubeLengthMm": 610,
-      "seatTubeLengthMm": 415,
+      "stackMm": 609,
+      "reachMm": 470,
+      "stackReachRatio": 1.3,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 617,
+      "seatTubeLengthMm": 480,
       "headTubeLengthMm": 110,
-      "seatTubeAngleDeg": 77,
-      "wheelbaseMm": 1180,
-      "bbDropMm": 45
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1177,
+      "bbDropMm": 50
     },
-    "description": "Bicicleta oficial Orbea Laufey H-LTD (2025) gama Laufey de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano XT M8100 / SLX M7100.",
+    "description": "Bicicleta oficial BH LYNX SLS 6.5 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano XT M8100 / SLX M7100 (12v)",
-      "Paso de rueda hasta 65 mm"
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
     ],
-    "brakes": "Shimano M6120 4-Piston Hydraulic Disc",
-    "wheels": "Race Face AR 30c Tubeless Ready",
-    "tires": "Maxxis Dissector 2.60 WT 60 TPI Exo TLR",
+    "brakes": "Shimano Deore, 180mm",
+    "wheels": "Race Face Aeffect 32H 27mm internal",
+    "tires": "Pirelli Scorpion XCM2.4SP FR/ Pirelli Scorpion XCH2.4SP R",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Laufey Hydro Triple Butted 29 Boost 12x148 with LOCKR internal downtube storage"
+            "value": "Lynx SLS, ECL Evo Carbon Layup 29\", 80mm, PF92, Boost"
           },
           {
             "label": "Horquilla",
-            "value": "Fox 34 Float Performance 140 Grip 3-Pos QR15x110"
+            "value": "FOX 34SL Performance PTL 2P 110mm"
           }
         ]
       },
@@ -31345,16 +31518,28 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano XT M8100 / SLX M7100"
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "32T"
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101 175mm, 32T, 55mm"
           },
           {
             "label": "Cassette",
-            "value": "10-51T"
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore, 116L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101 175mm, 32T, 55mm"
           }
         ]
       },
@@ -31362,8 +31547,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano M6120 4-Piston Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano Deore, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano Deore, 160mm"
           }
         ]
       },
@@ -31372,11 +31561,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Race Face AR 30c Tubeless Ready"
+            "value": "Race Face Aeffect 32H 27mm internal"
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Dissector 2.60 WT 60 TPI Exo TLR"
+            "value": "Pirelli Scorpion XCM2.4SP FR/ Pirelli Scorpion XCH2.4SP R"
           }
         ]
       },
@@ -31385,596 +31574,84 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Mountain Control MC30, Rise 20, Width 800"
+            "value": "Lite 31,8mm 780mm 9º"
           },
           {
             "label": "Potencia",
-            "value": "OC Mountain Control MC20, 0º"
+            "value": "FIT Race EVO 60mm 31,8mm 6º"
           },
           {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+            "label": "Tija",
+            "value": "XFusion Manic 31,6mm, 125mm"
           },
           {
             "label": "Sillín",
-            "value": "Fizik Ridon X5"
+            "value": "Prologo Nago R4 PAS STN"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-laufey-h30-2025",
-    "brand": "Orbea",
-    "model": "Laufey H30",
-    "year": 2025,
+    "id": "bh-ultimate-7-5-2026",
+    "brand": "BH",
+    "model": "ULTIMATE 7.5",
+    "year": 2026,
     "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/laufey/cat/laufey-h30-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 1499,
-    "currentPriceEur": 1499,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "aluminum",
-    "forkMaterial": "suspension",
-    "weightKg": 14.4,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 65,
-    "integratedCockpit": false,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano Deore M5100",
-      "isElectronic": false,
-      "speedCount": 11,
-      "chainrings": "32T",
-      "cassette": "11-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 2.91
-    },
-    "geometry": {
-      "stackMm": 635,
-      "reachMm": 445,
-      "stackReachRatio": 1.43,
-      "headTubeAngleDeg": 64.5,
-      "chainstayLengthMm": 435,
-      "topTubeLengthMm": 610,
-      "seatTubeLengthMm": 415,
-      "headTubeLengthMm": 110,
-      "seatTubeAngleDeg": 77,
-      "wheelbaseMm": 1180,
-      "bbDropMm": 45
-    },
-    "description": "Bicicleta oficial Orbea Laufey H30 (2025) gama Laufey de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M5100.",
-    "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano Deore M5100 (11v)",
-      "Paso de rueda hasta 65 mm"
-    ],
-    "brakes": "Shimano MT201 Hydraulic Disc",
-    "wheels": "Mach1 Klixx 23c Tubeless Ready",
-    "tires": "Maxxis Dissector 2.60 WT 60 TPI Exo TLR",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Laufey Hydro Triple Butted 29 Boost 12x148 with LOCKR storage"
-          },
-          {
-            "label": "Horquilla",
-            "value": "RockShox Recon Silver RL 140mm Solo Air QR15x110 Boost"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano Deore M5100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "32T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-51T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano MT201 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Mach1 Klixx 23c Tubeless Ready"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Maxxis Dissector 2.60 WT 60 TPI Exo TLR"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Mountain Control MC30, Width 800"
-          },
-          {
-            "label": "Potencia",
-            "value": "Alloy 35mm"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Selle Royal 2058 DRN"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-onna-10-2025",
-    "brand": "Orbea",
-    "model": "Onna 10",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/onna/cat/onna-10-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 899,
-    "currentPriceEur": 899,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "aluminum",
-    "forkMaterial": "suspension",
-    "weightKg": 13.8,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 57,
-    "integratedCockpit": false,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano Deore M5100",
-      "isElectronic": false,
-      "speedCount": 11,
-      "chainrings": "32T",
-      "cassette": "11-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 2.91
-    },
-    "geometry": {
-      "stackMm": 620,
-      "reachMm": 418,
-      "stackReachRatio": 1.48,
-      "headTubeAngleDeg": 68.5,
-      "chainstayLengthMm": 440,
-      "topTubeLengthMm": 595,
-      "seatTubeLengthMm": 445,
-      "headTubeLengthMm": 105,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 1115,
-      "bbDropMm": 65
-    },
-    "description": "Bicicleta oficial Orbea Onna 10 (2025) gama Onna de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M5100.",
-    "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano Deore M5100 (11v)",
-      "Paso de rueda hasta 57 mm"
-    ],
-    "brakes": "Shimano MT201 Hydraulic Disc",
-    "wheels": "Orbea Black Rock 23c Disc",
-    "tires": "Kenda K1153 2.35 22TPI",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Onna Alloy, Dropout 9x135, BSA BB, Internal cable routing"
-          },
-          {
-            "label": "Horquilla",
-            "value": "RockShox Judy Silver TK Solo Air 100mm QR"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano Deore M5100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "32T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-51T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano MT201 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Orbea Black Rock 23c Disc"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Kenda K1153 2.35 22TPI"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "Alloy Flat 31.8mm 720mm"
-          },
-          {
-            "label": "Potencia",
-            "value": "Alloy 31.8mm 7º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "Alloy 27.2mm Offset 0"
-          },
-          {
-            "label": "Sillín",
-            "value": "Selle Royal 2058 DRN"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-onna-20-2025",
-    "brand": "Orbea",
-    "model": "Onna 20",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/onna/cat/onna-20-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 799,
-    "currentPriceEur": 799,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "aluminum",
-    "forkMaterial": "suspension",
-    "weightKg": 14.1,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 57,
-    "integratedCockpit": false,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano Deore M4100",
-      "isElectronic": false,
-      "speedCount": 10,
-      "chainrings": "32T",
-      "cassette": "11-46T",
-      "minGearRatio": 0.7,
-      "maxGearRatio": 2.91
-    },
-    "geometry": {
-      "stackMm": 620,
-      "reachMm": 418,
-      "stackReachRatio": 1.48,
-      "headTubeAngleDeg": 68.5,
-      "chainstayLengthMm": 440,
-      "topTubeLengthMm": 595,
-      "seatTubeLengthMm": 445,
-      "headTubeLengthMm": 105,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 1115,
-      "bbDropMm": 65
-    },
-    "description": "Bicicleta oficial Orbea Onna 20 (2025) gama Onna de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M4100.",
-    "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano Deore M4100 (10v)",
-      "Paso de rueda hasta 57 mm"
-    ],
-    "brakes": "Shimano MT200 Hydraulic Disc",
-    "wheels": "Orbea Black Rock 23c Disc",
-    "tires": "Kenda K1153 2.35 22TPI",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Onna Alloy, Dropout 9x135, BSA BB, Internal cable routing"
-          },
-          {
-            "label": "Horquilla",
-            "value": "SR Suntour XCR Air LO 100mm QR"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano Deore M4100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "32T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-46T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano MT200 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Orbea Black Rock 23c Disc"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Kenda K1153 2.35 22TPI"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "Alloy Flat 31.8mm 720mm"
-          },
-          {
-            "label": "Potencia",
-            "value": "Alloy 31.8mm 7º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "Alloy 27.2mm Offset 0"
-          },
-          {
-            "label": "Sillín",
-            "value": "Selle Royal 2058 DRN"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-rise-sl-m10-2025",
-    "brand": "Orbea",
-    "model": "Rise SL M10",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/rise/cat/rise-sl-m10-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 7999,
-    "currentPriceEur": 7999,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/ultimate-7-5-a7597?c=coo",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
     "discountPercentage": 0,
     "isOutlet": false,
     "frameMaterial": "carbon",
     "forkMaterial": "suspension",
-    "weightKg": 16.4,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 64,
-    "integratedCockpit": true,
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano XT M8100 / EP801-RS",
+      "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32T",
+      "chainrings": "20T",
       "cassette": "10-51T",
-      "minGearRatio": 0.63,
-      "maxGearRatio": 3.2
+      "minGearRatio": 0.39,
+      "maxGearRatio": 2
     },
     "geometry": {
-      "stackMm": 622,
-      "reachMm": 450,
-      "stackReachRatio": 1.38,
-      "headTubeAngleDeg": 65.5,
-      "chainstayLengthMm": 445,
-      "topTubeLengthMm": 595,
-      "seatTubeLengthMm": 415,
-      "headTubeLengthMm": 110,
-      "seatTubeAngleDeg": 77,
-      "wheelbaseMm": 1210,
-      "bbDropMm": 33
-    },
-    "description": "Bicicleta oficial Orbea Rise SL M10 (2025) gama Rise de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XT M8100 / EP801-RS.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano XT M8100 / EP801-RS (12v)",
-      "Paso de rueda hasta 64 mm",
-      "Cockpit integrado y cableado interno ICR"
-    ],
-    "brakes": "Shimano XT M8120 4-Piston Hydraulic Disc",
-    "wheels": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready",
-    "tires": "Maxxis Dissector 2.40 WT 60 TPI 3C MaxxTerra Exo TLR",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Rise SL OMR Carbon 140mm travel, Shimano EP801-RS motor, integrated 420Wh / 630Wh battery, Concentric Boost 12x148"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Fox 34 Float Factory 140 FIT4 Kashima, QR15x110"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano XT M8100 / EP801-RS"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "32T"
-          },
-          {
-            "label": "Cassette",
-            "value": "10-51T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano XT M8120 4-Piston Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Maxxis Dissector 2.40 WT 60 TPI 3C MaxxTerra Exo TLR"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Mountain Control MC10 Carbon, Width 800"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Mountain Control MC20, 0º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Fizik Terra Ridon X5"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-wild-m-team-2025",
-    "brand": "Orbea",
-    "model": "Wild M-TEAM",
-    "year": 2025,
-    "discipline": "mtb",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/wild/cat/wild-m-team-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 8999,
-    "currentPriceEur": 8999,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "suspension",
-    "weightKg": 20.9,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 65,
-    "integratedCockpit": true,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano XT M8100 / Bosch CX",
-      "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "34T",
-      "cassette": "10-51T",
-      "minGearRatio": 0.67,
-      "maxGearRatio": 3.4
-    },
-    "geometry": {
-      "stackMm": 638,
+      "stackMm": 624,
       "reachMm": 455,
-      "stackReachRatio": 1.4,
-      "headTubeAngleDeg": 64,
-      "chainstayLengthMm": 448,
-      "topTubeLengthMm": 605,
-      "seatTubeLengthMm": 415,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 631,
+      "seatTubeLengthMm": 460,
       "headTubeLengthMm": 115,
-      "seatTubeAngleDeg": 77.5,
-      "wheelbaseMm": 1245,
-      "bbDropMm": 25
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 1145,
+      "bbDropMm": 65
     },
-    "description": "Bicicleta oficial Orbea Wild M-TEAM (2025) gama Wild de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XT M8100 / Bosch CX.",
+    "description": "Bicicleta oficial BH ULTIMATE 7.5 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano XT M8100 / Bosch CX (12v)",
-      "Paso de rueda hasta 65 mm",
-      "Cockpit integrado y cableado interno ICR"
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
     ],
-    "brakes": "Shimano XT M8120 4-Piston Hydraulic Disc",
-    "wheels": "Oquo Mountain Control MC32TEAM e-MTB Tubeless Ready",
-    "tires": "Maxxis Minion DHF 2.60 120 TPI 3C MaxxTerra Exo+ TR",
+    "brakes": "Shimano XT, 180mm",
+    "wheels": "Race Face Aeffect 32H 27mm internal",
+    "tires": "Pirelli Scorpion XCM2.4SP FR/ Pirelli Scorpion XCH2.4SP R",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Wild Carbon OMR 160mm travel, Bosch Performance Line CX, integrated 750Wh battery, Boost 12x148"
+            "value": "Ultimate,PCL Carbon Layup, AcrosICR,PF92BB 148x12,UDH"
           },
           {
             "label": "Horquilla",
-            "value": "Fox 38 Float Factory 160 Grip2 QR15x110 Kashima"
+            "value": "Fox 34 SC Performance Remote Lock 100mm"
           }
         ]
       },
@@ -31982,16 +31659,28 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano XT M8100 / Bosch CX"
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "34T"
+            "label": "Manetas de Cambio",
+            "value": "Shimano SLX"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano XT 8120, 175mm, 34T, 55mm"
           },
           {
             "label": "Cassette",
-            "value": "10-51T"
+            "value": "Shimano XT 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano XT 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano XT 8120, 175mm, 34T, 55mm"
           }
         ]
       },
@@ -31999,8 +31688,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano XT M8120 4-Piston Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano XT, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano XT, 160mm"
           }
         ]
       },
@@ -32009,11 +31702,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Oquo Mountain Control MC32TEAM e-MTB Tubeless Ready"
+            "value": "Race Face Aeffect 32H 27mm internal"
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 2.60 120 TPI 3C MaxxTerra Exo+ TR"
+            "value": "Pirelli Scorpion XCM2.4SP FR/ Pirelli Scorpion XCH2.4SP R"
           }
         ]
       },
@@ -32022,19 +31715,1429 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Mountain Control MC10 Carbon, Width 800"
+            "value": "BH SL midfla,t 780mm, 10mm rise, 6Âºback"
           },
           {
             "label": "Potencia",
-            "value": "OC Mountain Control MC20, 0º"
+            "value": "BH SL 80mm, 31,8mm, +/6º"
           },
           {
-            "label": "Tija de Sillín",
-            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+            "label": "Tija",
+            "value": "Race Face Aeffect 31,6mm, 125mm Drop"
           },
           {
             "label": "Sillín",
-            "value": "Fizik Aidon X5 145mm"
+            "value": "Prologo Scratch M5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-lynx-sls-6-0-2026",
+    "brand": "BH",
+    "model": "LYNX SLS 6.0",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/lynx-sls-6-0-ds607?c=nob",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "01T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
+    },
+    "geometry": {
+      "stackMm": 609,
+      "reachMm": 470,
+      "stackReachRatio": 1.3,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 617,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 110,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1177,
+      "bbDropMm": 50
+    },
+    "description": "Bicicleta oficial BH LYNX SLS 6.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT410, 180mm",
+    "wheels": "Race Face Aeffect 32H 27mm internal",
+    "tires": "Pirelli Scorpion XCM2.4SP FR/ Pirelli Scorpion XCH2.4SP R",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Lynx SLS, ECL Evo Carbon Layup 29\", 80mm, PF92, Boost"
+          },
+          {
+            "label": "Horquilla",
+            "value": "FOX Rhythm PTL 2P 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101 175mm, 32T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore, 116L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101 175mm, 32T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT410, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT410, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Race Face Aeffect 32H 27mm internal"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Pirelli Scorpion XCM2.4SP FR/ Pirelli Scorpion XCH2.4SP R"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Lite 31,8mm 780mm 9º"
+          },
+          {
+            "label": "Potencia",
+            "value": "FIT Race EVO 60mm 31,8mm 6º"
+          },
+          {
+            "label": "Tija",
+            "value": "XFusion Manic 31,6mm, 125mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago R4 PAS STN"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-ultimate-7-0-2026",
+    "brand": "BH",
+    "model": "ULTIMATE 7.0",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/ultimate-7-0-a7097?c=rcc",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "01T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
+    },
+    "geometry": {
+      "stackMm": 624,
+      "reachMm": 455,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 631,
+      "seatTubeLengthMm": 460,
+      "headTubeLengthMm": 115,
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 1145,
+      "bbDropMm": 65
+    },
+    "description": "Bicicleta oficial BH ULTIMATE 7.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT400, 180mm",
+    "wheels": "Race Face Aeffect 32H 27mm internal",
+    "tires": "Continental RaceKing2.20/Maxxis Arden RaceIkonEXO2.20",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Ultimate,PCLCarbon Layup, AcrosICR,PF92BB 148x12,UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 32 Rythm Grip Lock 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore 12sp, 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT400, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT400, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Race Face Aeffect 32H 27mm internal"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Continental RaceKing2.20/Maxxis Arden RaceIkonEXO2.20"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Lite flat 780mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH SL 80mm, 31,8mm, +/6º"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 31,6mm, 420mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago RS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-ultimate-6-5-2026",
+    "brand": "BH",
+    "model": "ULTIMATE 6.5",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/ultimate-6-5-a6597?c=coo",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "01T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
+    },
+    "geometry": {
+      "stackMm": 624,
+      "reachMm": 455,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 631,
+      "seatTubeLengthMm": 460,
+      "headTubeLengthMm": 115,
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 1145,
+      "bbDropMm": 65
+    },
+    "description": "Bicicleta oficial BH ULTIMATE 6.5 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT201, 180mm",
+    "wheels": "BH Lite",
+    "tires": "Maxxis Ikon 2.20/ Continental Race King 2.20",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Ultimate,PCL Carbon Layup, AcrosICR,PF92BB 148x12,UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Rock Shox Recon RL 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore 12sp, 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT201, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT201, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "BH Lite"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Ikon 2.20/ Continental Race King 2.20"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Lite flat 780mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH SL 80mm, 31,8mm, +/6º"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 31,6mm, 420mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago RS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-ultimate-6-0-2026",
+    "brand": "BH",
+    "model": "ULTIMATE 6.0",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/xc-cross-country-y-down-country/ultimate-6-0-a6097?c=nss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "01T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
+    },
+    "geometry": {
+      "stackMm": 624,
+      "reachMm": 455,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 631,
+      "seatTubeLengthMm": 460,
+      "headTubeLengthMm": 115,
+      "seatTubeAngleDeg": 75,
+      "wheelbaseMm": 1145,
+      "bbDropMm": 65
+    },
+    "description": "Bicicleta oficial BH ULTIMATE 6.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT201, 180mm",
+    "wheels": "BH Lite",
+    "tires": "Maxxis Ikon 2.20/ Continental Race King 2.20",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Ultimate,PCL Carbon Layup, AcrosICR,PF92BB 148x12,UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Rock Shox Judy TK Remote Lock 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore 12sp, 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT201, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT201, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "BH Lite"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Ikon 2.20/ Continental Race King 2.20"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Lite flat 780mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH SL 80mm, 31,8mm, +/6º"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 31,6mm, 420mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago RS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-expert-5-5-2026",
+    "brand": "BH",
+    "model": "EXPERT 5.5",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/sport/expert-5-5-a5597?c=ggg",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "01T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
+    },
+    "geometry": {
+      "stackMm": 628,
+      "reachMm": 435,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 622,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1136,
+      "bbDropMm": 60
+    },
+    "description": "Bicicleta oficial BH EXPERT 5.5 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT400, 180mm",
+    "wheels": "Race Face Aeffect 32H 27mm internal",
+    "tires": "Maxxis Ikon 2.20/ Continental Race King 2.20",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Expert Alloy 29\", 148x12, Integrated Headset 42ACB"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 32 Rythm Grip Lock 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore 12sp, 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT400, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT400, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Race Face Aeffect 32H 27mm internal"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Ikon 2.20/ Continental Race King 2.20"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Lite flat 780mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH SL 80mm, 31,8mm, +/6º"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 31,6mm, 420mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago RS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-expert-5-0-2026",
+    "brand": "BH",
+    "model": "EXPERT 5.0",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/sport/expert-5-0-a5097?c=ggg",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "01T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
+    },
+    "geometry": {
+      "stackMm": 628,
+      "reachMm": 435,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 622,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1136,
+      "bbDropMm": 60
+    },
+    "description": "Bicicleta oficial BH EXPERT 5.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT201, 180mm",
+    "wheels": "BH Lite",
+    "tires": "Continental Race King 2.20/ Maxxis Ikon 2.20",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Expert Alloy 29\", 148x12, Integrated Headset 42ACB"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Rock Shox Recon RL 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore 12sp, 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT201, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT201, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "BH Lite"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Continental Race King 2.20/ Maxxis Ikon 2.20"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Lite flat 780mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH SL 80mm, 31,8mm, +/6º"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 31,6mm, 420mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago RS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-expert-4-5-2026",
+    "brand": "BH",
+    "model": "EXPERT 4.5",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/sport/expert-4-5-a4597?c=rrr",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "01T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
+    },
+    "geometry": {
+      "stackMm": 628,
+      "reachMm": 435,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 622,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1136,
+      "bbDropMm": 60
+    },
+    "description": "Bicicleta oficial BH EXPERT 4.5 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano XT 12sp.",
+    "highlights": [
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano XT 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT201, 180mm",
+    "wheels": "BH Lite",
+    "tires": "Maxxis Ikon 2.20/ Continental Race",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Expert Alloy 29\", 148x12, Integrated Headset 42ACB"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Rock Shox Judy TK Remote Lock 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano XT 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore 12sp, 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT201, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT201, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "BH Lite"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Ikon 2.20/ Continental Race"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Lite flat 780mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH SL 80mm, 31,8mm, +/6º"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 31,6mm, 420mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago RS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-expert-4-0-2026",
+    "brand": "BH",
+    "model": "EXPERT 4.0",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/sport/expert-4-0-a4097?c=ggg",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Deore 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "01T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.02,
+      "maxGearRatio": 0.1
+    },
+    "geometry": {
+      "stackMm": 628,
+      "reachMm": 435,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 622,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1136,
+      "bbDropMm": 60
+    },
+    "description": "Bicicleta oficial BH EXPERT 4.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano Deore 12sp.",
+    "highlights": [
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano Deore 12sp (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT201, 180mm",
+    "wheels": "BH Lite",
+    "tires": "Continental Cross King 2.20/ Maxxis Ikon 2.20",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Expert Alloy 29\", 148x12, Integrated Headset 42ACB"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SR Suntour Raidon RLR Remote Lock 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Deore 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 10/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore 12sp, 118L"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano MT5101, 175mm, 32T, 55mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT201, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT201, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "BH Lite"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Continental Cross King 2.20/ Maxxis Ikon 2.20"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Lite flat 780mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH SL 80mm, 31,8mm, +/6º"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 31,6mm, 420mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-spike-3-0-2026",
+    "brand": "BH",
+    "model": "SPIKE 3.0",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/sport/spike-3-0-a3097?c=rgg",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Deore 11sp",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "00T",
+      "cassette": "11-51T",
+      "minGearRatio": 0.67,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 633,
+      "reachMm": 406,
+      "stackReachRatio": 1.56,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 455,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1124,
+      "bbDropMm": 60
+    },
+    "description": "Bicicleta oficial BH SPIKE 3.0 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano Deore 11sp.",
+    "highlights": [
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano Deore 11sp (11v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT200, 180mm",
+    "wheels": "BH, Shimano TX505 32H",
+    "tires": "Mitas Ocelot 2.35",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Spike Alloy 29\", 135x9, Integrated Headset 42ACB"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SR Suntour Raidon RLR Remote Lock 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Deore 11sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano M5100, 30T, 175mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore M5100 11/51"
+          },
+          {
+            "label": "Cadena",
+            "value": "FSA Team Issue 11sp"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano M5100, 30T, 175mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT200, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT200, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "BH, Shimano TX505 32H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Mitas Ocelot 2.35"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH 90mm"
+          },
+          {
+            "label": "Tija",
+            "value": "BH"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-spike-2-5-2026",
+    "brand": "BH",
+    "model": "SPIKE 2.5",
+    "year": 2026,
+    "discipline": "mtb",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/montana/sport/spike-2-5-a2597?c=syy",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Deore 10sp",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "00T",
+      "cassette": "11-46T",
+      "minGearRatio": 0.74,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 633,
+      "reachMm": 406,
+      "stackReachRatio": 1.56,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 455,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 480,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1124,
+      "bbDropMm": 60
+    },
+    "description": "Bicicleta oficial BH SPIKE 2.5 (2026) de categoría mtb. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano Deore 10sp.",
+    "highlights": [
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano Deore 10sp (11v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT200, 180mm",
+    "wheels": "BH, Shimano TX505 32H",
+    "tires": "Mitas Ocelot 2.35",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Spike Alloy 29\", 135x9, Integrated Headset 42ACB"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SR Suntour XCM RLR Remote Lock 100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Deore 10sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano M5100, 30T, 175mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore M4100 11/46"
+          },
+          {
+            "label": "Cadena",
+            "value": "FSA Team Issue 10sp"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano M5100, 30T, 175mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano MT200, 180mm"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano MT200, 160mm"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "BH, Shimano TX505 32H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Mitas Ocelot 2.35"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH 90mm"
+          },
+          {
+            "label": "Tija",
+            "value": "BH"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH"
           }
         ]
       }

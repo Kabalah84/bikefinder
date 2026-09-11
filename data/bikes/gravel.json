@@ -12667,70 +12667,1786 @@
     ]
   },
   {
-    "id": "orbea-terra-m21eteam-2025",
-    "brand": "Orbea",
-    "model": "Terra M21eTEAM",
-    "year": 2025,
+    "id": "bh-gravelx-6-5-r-2026",
+    "brand": "BH",
+    "model": "GRAVELX 6.5 R",
+    "year": 2026,
     "discipline": "gravel",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m21eteam-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 5799,
-    "currentPriceEur": 5799,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/gravel/gravelx-6-5-r-lg657?c=rss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
     "discountPercentage": 0,
     "isOutlet": false,
     "frameMaterial": "carbon",
     "forkMaterial": "carbon",
-    "weightKg": 8.4,
-    "weightSizeReference": "M",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX 825 DI2",
+      "isElectronic": true,
+      "speedCount": 11,
+      "chainrings": "46/30T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 577,
+      "reachMm": 387,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 567,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 72.8,
+      "wheelbaseMm": 1031,
+      "bbDropMm": 73
+    },
+    "description": "Bicicleta oficial BH GRAVELX 6.5 R (2026) de categoría gravel. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano GRX 825 DI2.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano GRX 825 DI2 (11v)",
+      "Paso de rueda hasta 45 mm",
+      "Cambio electrónico Di2 / AXS"
+    ],
+    "brakes": "Shimano GRX 825",
+    "wheels": "Vision TC45 Carbon",
+    "tires": "Pirelli Cinturato Gravel 700x40",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "GravelX R, BCL Carbon Layup, Monocoque, Disc, UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "GravelX Racing, Integrated Tapered, Full Carbon 1.5"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 825 DI2"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX 825 DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX 825 DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 6140 46/30T"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 6140 46/30T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX 825"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX 825"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision TC45 Carbon"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Pirelli Cinturato Gravel 700x40"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Gravel Monocoque"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO Gravel Monocoque"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Gravel X"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo AGX"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-gravelx-6-0-at-2026",
+    "brand": "BH",
+    "model": "GRAVELX 6.0 AT",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/gravel/gravelx-6-0-at-lg607?c=rss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX 825 DI2",
+      "isElectronic": true,
+      "speedCount": 11,
+      "chainrings": "46/30T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 577,
+      "reachMm": 387,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 428,
+      "topTubeLengthMm": 567,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 72.8,
+      "wheelbaseMm": 1031,
+      "bbDropMm": 73
+    },
+    "description": "Bicicleta oficial BH GRAVELX 6.0 AT (2026) de categoría gravel. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano GRX 825 DI2.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano GRX 825 DI2 (11v)",
+      "Paso de rueda hasta 45 mm",
+      "Cambio electrónico Di2 / AXS"
+    ],
+    "brakes": "Shimano GRX 825",
+    "wheels": "Vision TC45 Carbon",
+    "tires": "Hutchinson Touareg Tan 700x40",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "GravelX AT, BCL Carbon Layup, Monocoque, Disc, UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "GravelX All Terrain, Integrated Tapered, Full Carbon 1.5"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 825 DI2"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX 825 DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX 825 DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 610 46/30T"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 610 46/30T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX 825"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX 825"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision TC45 Carbon"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Touareg Tan 700x40"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Gravel Monocoque"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO Gravel Monocoque"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Gravel X"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH Tud XGR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-gravelx-5-5-r-2026",
+    "brand": "BH",
+    "model": "GRAVELX 5.5 R",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/gravel/gravelx-5-5-r-lg557?c=gcc",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX 820 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "46/30T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 577,
+      "reachMm": 387,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 567,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 72.8,
+      "wheelbaseMm": 1031,
+      "bbDropMm": 73
+    },
+    "description": "Bicicleta oficial BH GRAVELX 5.5 R (2026) de categoría gravel. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano GRX 820 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano GRX 820 12sp (12v)",
+      "Paso de rueda hasta 45 mm"
+    ],
+    "brakes": "Shimano GRX 820",
+    "wheels": "Vision Team TC30 Disc",
+    "tires": "Pirelli Cinturato Gravel 700x40",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "GravelX R, BCL Carbon Layup, Monocoque, Disc, UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "GravelX Racing, Integrated Tapered, Full Carbon 1.5"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 820 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX 820"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX 820"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 610 46/30T"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra 11/36"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 610 46/30T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX 820"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX 820"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision Team TC30 Disc"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Pirelli Cinturato Gravel 700x40"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Gravel Monocoque"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO Gravel Monocoque"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Gravel X"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo AGX"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-gravelx-5-0-at-2026",
+    "brand": "BH",
+    "model": "GRAVELX 5.0 AT",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/gravel/gravelx-5-0-at-lg507?c=sno",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX 820 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "46/30T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 577,
+      "reachMm": 387,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 428,
+      "topTubeLengthMm": 567,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 72.8,
+      "wheelbaseMm": 1031,
+      "bbDropMm": 73
+    },
+    "description": "Bicicleta oficial BH GRAVELX 5.0 AT (2026) de categoría gravel. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano GRX 820 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano GRX 820 12sp (12v)",
+      "Paso de rueda hasta 45 mm"
+    ],
+    "brakes": "Shimano GRX 820",
+    "wheels": "Vision Team TC30 Disc",
+    "tires": "Hutchinson Touareg Tan 700x40",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "GravelX AT, BCL Carbon Layup, Monocoque, Disc, UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "GravelX All Terrain, Integrated Tapered, Full Carbon 1.5"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 820 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX 820"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX 820"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 610 46/30T"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra 11/36"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 610 46/30T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX 820"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX 820"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision Team TC30 Disc"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Touareg Tan 700x40"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Gravel Monocoque"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO Gravel Monocoque"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Gravel X"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH Tud XGR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-gravelx-3-5-r-2026",
+    "brand": "BH",
+    "model": "GRAVELX 3.5 R",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/gravel/gravelx-3-5-r-lg357?c=sno",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX 820 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "20T",
+      "cassette": "10-45T",
+      "minGearRatio": 0.44,
+      "maxGearRatio": 2
+    },
+    "geometry": {
+      "stackMm": 577,
+      "reachMm": 387,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 567,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 72.8,
+      "wheelbaseMm": 1031,
+      "bbDropMm": 73
+    },
+    "description": "Bicicleta oficial BH GRAVELX 3.5 R (2026) de categoría gravel. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano GRX 820 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano GRX 820 12sp (12v)",
+      "Paso de rueda hasta 45 mm"
+    ],
+    "brakes": "Shimano GRX 610",
+    "wheels": "Shimano RX180 Disc",
+    "tires": "Pirelli Cinturato Gravel 700x40",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "GravelX R, BCL Carbon Layup, Monocoque, Disc, UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "GravelX Racing, Integrated Tapered, Full Carbon 1.5"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 820 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX hydra"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 820 Mono 40T"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano SLX 10/45"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 820 Mono 40T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX 610"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX 610"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Shimano RX180 Disc"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Pirelli Cinturato Gravel 700x40"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "FSA NS Gravel"
+          },
+          {
+            "label": "Potencia",
+            "value": "FSA NS SMR"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Gravel X"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH Ergo G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-gravelx-3-0-at-2026",
+    "brand": "BH",
+    "model": "GRAVELX 3.0 AT",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/gravel/gravelx-3-0-at-lg307?c=gcc",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX 820 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "20T",
+      "cassette": "10-45T",
+      "minGearRatio": 0.44,
+      "maxGearRatio": 2
+    },
+    "geometry": {
+      "stackMm": 577,
+      "reachMm": 387,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 428,
+      "topTubeLengthMm": 567,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 72.8,
+      "wheelbaseMm": 1031,
+      "bbDropMm": 73
+    },
+    "description": "Bicicleta oficial BH GRAVELX 3.0 AT (2026) de categoría gravel. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano GRX 820 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano GRX 820 12sp (12v)",
+      "Paso de rueda hasta 45 mm"
+    ],
+    "brakes": "Shimano GRX 610",
+    "wheels": "Shimano RX180 Disc",
+    "tires": "Hutchinson Touareg Tan 700x40",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "GravelX AT, BCL Carbon Layup, Monocoque, Disc, UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "GravelX All Terrain, Integrated Tapered, Full Carbon 1.5"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 820 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX hydra"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 820 Mono 40T"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano SLX 10/45"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 820 Mono 40T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX 610"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX 610"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Shimano RX180 Disc"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Touareg Tan 700x40"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "FSA NS Gravel"
+          },
+          {
+            "label": "Potencia",
+            "value": "FSA NS SMR"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Gravel X"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH Tud XGR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-gravelx-2-5-r-2026",
+    "brand": "BH",
+    "model": "GRAVELX 2.5 R",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/gravel/gravelx-2-5-r-lg257?c=sno",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX 400 10sp",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "46/30T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 580,
+      "reachMm": 385,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 425
+    },
+    "description": "Bicicleta oficial BH GRAVELX 2.5 R (2026) de categoría gravel. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano GRX 400 10sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano GRX 400 10sp (11v)",
+      "Paso de rueda hasta 45 mm"
+    ],
+    "brakes": "Shimano GRX400",
+    "wheels": "Shimano RS170 Disc",
+    "tires": "Pirelli Cinturato Gravel 700x40",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "GravelX R, BCL Carbon Layup, Monocoque, Disc, UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "GravelX Racing, Integrated Tapered, Full Carbon 1.5"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 400 10sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX 400"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX 400"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 400 46/30"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 11/36"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Tiagra"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 400 46/30"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX400"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX400"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Shimano RS170 Disc"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Pirelli Cinturato Gravel 700x40"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "FSA NS Gravel"
+          },
+          {
+            "label": "Potencia",
+            "value": "FSA NS SMR"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Gravel X"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH Ergo G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-gravelx-2-0-at-2026",
+    "brand": "BH",
+    "model": "GRAVELX 2.0 AT",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/gravel/gravelx-2-0-at-lg207?c=rss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX 400 10sp",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "46/30T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 580,
+      "reachMm": 385,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 425
+    },
+    "description": "Bicicleta oficial BH GRAVELX 2.0 AT (2026) de categoría gravel. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano GRX 400 10sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano GRX 400 10sp (11v)",
+      "Paso de rueda hasta 45 mm"
+    ],
+    "brakes": "Shimano GRX400",
+    "wheels": "Shimano RS170 Disc",
+    "tires": "Hutchinson Touareg Tan 700x40",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "GravelX AT, BCL Carbon Layup, Monocoque, Disc, UDH"
+          },
+          {
+            "label": "Horquilla",
+            "value": "GravelX All Terrain, Integrated Tapered, Full Carbon 1.5"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 400 10sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX 400"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX 400"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 400 46/30"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Deore 11/36"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Tiagra"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 400 46/30"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX400"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX400"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Shimano RS170 Disc"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Touareg Tan 700x40"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "FSA NS Gravel"
+          },
+          {
+            "label": "Potencia",
+            "value": "FSA NS SMR"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Gravel X"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH Tud XGR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-gravelx-1-8-2026",
+    "brand": "BH",
+    "model": "GRAVELX 1.8",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/gravel/gravelx-1-8-lg187?c=sno",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX 820 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "46/30T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 582,
+      "reachMm": 387,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 561,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 145,
+      "seatTubeAngleDeg": 72.8,
+      "wheelbaseMm": 1031,
+      "bbDropMm": 75
+    },
+    "description": "Bicicleta oficial BH GRAVELX 1.8 (2026) de categoría gravel. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano GRX 820 12sp.",
+    "highlights": [
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano GRX 820 12sp (12v)",
+      "Paso de rueda hasta 45 mm"
+    ],
+    "brakes": "Shimano GRX 820",
+    "wheels": "Vision Team TC30 i23 Disc",
+    "tires": "Hutchinson Touareg Tan 700x40",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Gravel X Alloy 7005, Hydroforming"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Gravel X Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 820 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX 820"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX 820"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 610 46/30"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 610 46/30"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX 820"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX 820"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision Team TC30 i23 Disc"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Touareg Tan 700x40"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Lite Gravel"
+          },
+          {
+            "label": "Potencia",
+            "value": "FSA NS SMR"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 27,2"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH Era XGR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-gravelx-1-5-2026",
+    "brand": "BH",
+    "model": "GRAVELX 1.5",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/gravel/gravelx-1-5-lg157?c=rss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX 820 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "20T",
+      "cassette": "11-45T",
+      "minGearRatio": 0.44,
+      "maxGearRatio": 1.82
+    },
+    "geometry": {
+      "stackMm": 582,
+      "reachMm": 387,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 561,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 145,
+      "seatTubeAngleDeg": 72.8,
+      "wheelbaseMm": 1031,
+      "bbDropMm": 75
+    },
+    "description": "Bicicleta oficial BH GRAVELX 1.5 (2026) de categoría gravel. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano GRX 820 12sp.",
+    "highlights": [
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano GRX 820 12sp (12v)",
+      "Paso de rueda hasta 45 mm"
+    ],
+    "brakes": "Shimano GRX 610",
+    "wheels": "Shimano RX180 Disc",
+    "tires": "Maxxis Rambler 700x45",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Gravel X Alloy 7005, Hydroforming"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Gravel X Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 820 12sp"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX 610"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 820 Mono 40T"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano SLX 11/45"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Deore"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 820 Mono 40T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX 610"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX 610"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Shimano RX180 Disc"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rambler 700x45"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Lite Gravel"
+          },
+          {
+            "label": "Potencia",
+            "value": "FSA NS SMR"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 27,2"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH Era XGR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-gravelx-1-0-2026",
+    "brand": "BH",
+    "model": "GRAVELX 1.0",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/gravel/gravelx-1-0-lg107?c=rss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX 400 10 sp",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "46/30T",
+      "cassette": "11-39T",
+      "minGearRatio": 0.77,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 582,
+      "reachMm": 387,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 561,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 145,
+      "seatTubeAngleDeg": 72.8,
+      "wheelbaseMm": 1031,
+      "bbDropMm": 75
+    },
+    "description": "Bicicleta oficial BH GRAVELX 1.0 (2026) de categoría gravel. Diseñada por BH Bikes con cuadro aluminum y montaje oficial Shimano GRX 400 10 sp.",
+    "highlights": [
+      "Cuadro oficial BH ALUMINUM",
+      "Grupo Shimano GRX 400 10 sp (11v)",
+      "Paso de rueda hasta 45 mm"
+    ],
+    "brakes": "Shimano GRX400",
+    "wheels": "BH SLite Disc",
+    "tires": "Hutchinson Overide 700x38",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Gravel X Alloy 7005, Hydroforming"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Gravel X Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 400 10 sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX 400"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX 400"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 400 46/30"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Cues 11/39"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Tiagra"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 400 46/30"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX400"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX400"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "BH SLite Disc"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Overide 700x38"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Lite Gravel"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH SL"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 27,2"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH Era XGR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-rx-team-5-0-2026",
+    "brand": "BH",
+    "model": "RX TEAM 5.0",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/ciclocross/rx-team-5-0-lc506?c=snn",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/5f3076/lc506_snn_n1.jpg",
+    "msrpEur": 4500,
+    "currentPriceEur": 3825,
+    "discountPercentage": 15,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
     "maxTireClearanceMm": 45,
     "integratedCockpit": true,
     "bikepackingMounts": true,
     "groupset": {
-      "brand": "sram",
-      "name": "SRAM Force XPLR AXS",
+      "brand": "shimano",
+      "name": "Shimano GRX 825 DI2",
       "isElectronic": true,
-      "speedCount": 12,
+      "speedCount": 11,
+      "chainrings": "46/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 577,
+      "reachMm": 387,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 567,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 72.8,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 73
+    },
+    "description": "Bicicleta oficial BH RX TEAM 5.0 (2026) de categoría gravel. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano GRX 825 DI2.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano GRX 825 DI2 (11v)",
+      "Paso de rueda hasta 45 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano GRX 825",
+    "wheels": "Vision Team TC30",
+    "tires": "Michelin Mud2 700 x33",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "RX Team Evo 2 Carbon Monocoque"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Rx Team Evo 2, Integrated Tapered,Full Carbon 1.5"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX 825 DI2"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX 825 DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Rotor Vegast 46/36"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Rotor Vegast 46/36"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano GRX 825"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano GRX 825"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision Team TC30"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Michelin Mud2 700 x33"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "EVO SL Monocoque ACR"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO SL Monocoque ACR"
+          },
+          {
+            "label": "Tija",
+            "value": "BH RX"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Dimension"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-rx-team-4-0-2026",
+    "brand": "BH",
+    "model": "RX TEAM 4.0",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/ciclocross/rx-team-4-0-lc406?c=snn",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/ad4f3a/lc406_snn_n1.jpg",
+    "msrpEur": 3700,
+    "currentPriceEur": 3145,
+    "discountPercentage": 15,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "Sram Apex AXS",
+      "isElectronic": true,
+      "speedCount": 10,
       "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
     },
     "geometry": {
-      "stackMm": 580,
-      "reachMm": 385,
-      "stackReachRatio": 1.51,
+      "stackMm": 577,
+      "reachMm": 387,
+      "stackReachRatio": 1.49,
       "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 420,
-      "topTubeLengthMm": 555,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 155,
-      "seatTubeAngleDeg": 73.5,
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 567,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 72.8,
       "wheelbaseMm": 1025,
-      "bbDropMm": 78
+      "bbDropMm": 73
     },
-    "description": "Bicicleta oficial Orbea Terra M21eTEAM (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro carbon y montaje oficial SRAM Force XPLR AXS.",
+    "description": "Bicicleta oficial BH RX TEAM 4.0 (2026) de categoría gravel. Diseñada por BH Bikes con cuadro carbon y montaje oficial Sram Apex AXS.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo SRAM Force XPLR AXS (12v)",
+      "Cuadro oficial BH CARBON",
+      "Grupo Sram Apex AXS (10v)",
       "Paso de rueda hasta 45 mm",
-      "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR",
-      "Anclajes para bolsas / almacenamiento LOCKR"
+      "Cambio electrónico Di2 / AXS"
     ],
-    "brakes": "SRAM Force AXS Hydraulic Disc",
-    "wheels": "Oquo Gravel Control GC25TEAM Carbon Tubeless Ready",
-    "tires": "Pirelli Cinturato Gravel H 700x40c TLR",
+    "brakes": "Sram Apex",
+    "wheels": "Vision Team TC30 Disc XDR",
+    "tires": "Michelin Mud2 700 x33",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Terra carbon OMR Disc, monocoque construction, HS 1,5, LOCKR internal downtube storage, thru axle 12x142mm"
+            "value": "RX Team Evo 2Carbon Monocoque"
           },
           {
             "label": "Horquilla",
-            "value": "Orbea Terra OMR carbon disc fork, full carbon steerer, thru axle 12x100mm"
+            "value": "Rx Team Evo 2, Integrated Tapered,Full Carbon 1.5"
           }
         ]
       },
@@ -12738,16 +14454,28 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "SRAM Force XPLR AXS"
+            "label": "Cambio Trasero",
+            "value": "Sram Apex AXS"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "40T"
+            "label": "Manetas de Cambio",
+            "value": "Sram Apex AXS"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Sram Apex Mono 40T"
           },
           {
             "label": "Cassette",
-            "value": "10-44T"
+            "value": "Sram Apex 10/44"
+          },
+          {
+            "label": "Cadena",
+            "value": "Sram 12 sp"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Sram Apex Mono 40T"
           }
         ]
       },
@@ -12755,8 +14483,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "SRAM Force AXS Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Sram Apex"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Sram Apex"
           }
         ]
       },
@@ -12765,11 +14497,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Oquo Gravel Control GC25TEAM Carbon Tubeless Ready"
+            "value": "Vision Team TC30 Disc XDR"
           },
           {
             "label": "Cubiertas",
-            "value": "Pirelli Cinturato Gravel H 700x40c TLR"
+            "value": "Michelin Mud2 700 x33"
           }
         ]
       },
@@ -12778,217 +14510,84 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Gravel GR31-R Carbon, Flare 12º, Drop 110"
+            "value": "BH Lite Compact"
           },
           {
             "label": "Potencia",
-            "value": "OC Road Performance RP10, -8º"
+            "value": "FSA NS SMR"
           },
           {
-            "label": "Tija de Sillín",
-            "value": "OC Performance XP10 Carbon, 27.2mm"
+            "label": "Tija",
+            "value": "BH RX"
           },
           {
             "label": "Sillín",
-            "value": "Prologo Akero AGX STN 150mm"
+            "value": "BH Ergo G"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-terra-m20iteam-2025",
-    "brand": "Orbea",
-    "model": "Terra M20iTEAM",
-    "year": 2025,
+    "id": "bh-rx-team-3-0-2026",
+    "brand": "BH",
+    "model": "RX TEAM 3.0",
+    "year": 2026,
     "discipline": "gravel",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m20iteam-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 5399,
-    "currentPriceEur": 5399,
-    "discountPercentage": 0,
-    "isOutlet": false,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/ciclocross/rx-team-3-0-lc306?c=snn",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/c9f13a/lc306_snn_n1.jpg",
+    "msrpEur": 3200,
+    "currentPriceEur": 2720,
+    "discountPercentage": 15,
+    "isOutlet": true,
     "frameMaterial": "carbon",
     "forkMaterial": "carbon",
-    "weightKg": 8.6,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 45,
-    "integratedCockpit": true,
-    "bikepackingMounts": true,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano GRX Di2 RX825",
-      "isElectronic": true,
-      "speedCount": 12,
-      "chainrings": "31/48T",
-      "cassette": "11-36T",
-      "minGearRatio": 0.86,
-      "maxGearRatio": 4.36
-    },
-    "geometry": {
-      "stackMm": 580,
-      "reachMm": 385,
-      "stackReachRatio": 1.51,
-      "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 420,
-      "topTubeLengthMm": 555,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 155,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 1025,
-      "bbDropMm": 78
-    },
-    "description": "Bicicleta oficial Orbea Terra M20iTEAM (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano GRX Di2 RX825.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano GRX Di2 RX825 (12v)",
-      "Paso de rueda hasta 45 mm",
-      "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR",
-      "Anclajes para bolsas / almacenamiento LOCKR"
-    ],
-    "brakes": "Shimano RX820 Hydraulic Disc",
-    "wheels": "Oquo Gravel Control GC25TEAM Carbon Tubeless Ready",
-    "tires": "Pirelli Cinturato Gravel H 700x40c TLR",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Terra carbon OMR Disc, monocoque, LOCKR storage, thru axle 12x142mm"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Orbea Terra OMR carbon disc fork, full carbon, 12x100mm"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano GRX Di2 RX825"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "31/48T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-36T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano RX820 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Oquo Gravel Control GC25TEAM Carbon Tubeless Ready"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Pirelli Cinturato Gravel H 700x40c TLR"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Gravel GR31-R Carbon, Flare 12º"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Road Performance RP10, -8º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Performance XP10 Carbon, 27.2mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Prologo Akero AGX STN"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-terra-m30team-2025",
-    "brand": "Orbea",
-    "model": "Terra M30TEAM",
-    "year": 2025,
-    "discipline": "gravel",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m30team-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 3199,
-    "currentPriceEur": 3199,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "carbon",
-    "weightKg": 9.1,
-    "weightSizeReference": "M",
     "maxTireClearanceMm": 45,
     "integratedCockpit": false,
     "bikepackingMounts": true,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano GRX RX820 / RX610",
+      "name": "Shimano 105",
       "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "30/46T",
-      "cassette": "11-36T",
-      "minGearRatio": 0.83,
+      "speedCount": 11,
+      "chainrings": "46/34T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
       "maxGearRatio": 4.18
     },
     "geometry": {
-      "stackMm": 580,
-      "reachMm": 385,
-      "stackReachRatio": 1.51,
+      "stackMm": 577,
+      "reachMm": 387,
+      "stackReachRatio": 1.49,
       "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 420,
-      "topTubeLengthMm": 555,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 155,
-      "seatTubeAngleDeg": 73.5,
+      "chainstayLengthMm": 426,
+      "topTubeLengthMm": 567,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 72.8,
       "wheelbaseMm": 1025,
-      "bbDropMm": 78
+      "bbDropMm": 73
     },
-    "description": "Bicicleta oficial Orbea Terra M30TEAM (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano GRX RX820 / RX610.",
+    "description": "Bicicleta oficial BH RX TEAM 3.0 (2026) de categoría gravel. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano 105.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano GRX RX820 / RX610 (12v)",
-      "Paso de rueda hasta 45 mm",
-      "Anclajes para bolsas / almacenamiento LOCKR"
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano 105 (11v)",
+      "Paso de rueda hasta 45 mm"
     ],
-    "brakes": "Shimano RX400 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
-    "tires": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c",
+    "brakes": "Shimano 105",
+    "wheels": "Shimano RS171",
+    "tires": "Michelin Mud2 700 x33",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Terra carbon OMR Disc, monocoque construction, LOCKR downtube storage, thru axle 12x142mm"
+            "value": "RX Team Evo 2 Carbon Monocoque"
           },
           {
             "label": "Horquilla",
-            "value": "Orbea Terra OMR carbon disc fork, full carbon, 12x100mm"
+            "value": "Rx Team Evo 2, Integrated Tapered,Full Carbon 1.5"
           }
         ]
       },
@@ -12996,16 +14595,32 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano GRX RX820 / RX610"
+            "label": "Cambio Trasero",
+            "value": "Shimano 105"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "30/46T"
+            "label": "Desviador Delantero",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX 610 46/34"
           },
           {
             "label": "Cassette",
-            "value": "11-36T"
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano GRX 610 46/34"
           }
         ]
       },
@@ -13013,8 +14628,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano RX400 Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano 105"
           }
         ]
       },
@@ -13023,11 +14642,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Alloy, Tubeless, 700c, 21c, 28H"
+            "value": "Shimano RS171"
           },
           {
             "label": "Cubiertas",
-            "value": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c"
+            "value": "Michelin Mud2 700 x33"
           }
         ]
       },
@@ -13036,403 +14655,19 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Gravel GR31, Flare 12º, Reach 70, Drop 110"
+            "value": "BH Lite Compact"
           },
           {
             "label": "Potencia",
-            "value": "OC Road Performance RP21, -6º"
+            "value": "BH SL"
           },
           {
-            "label": "Tija de Sillín",
-            "value": "OC Performance XP10 Carbon, 27.2mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Prologo Akero AGX STN 150mm"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-terra-m30team-1x-2025",
-    "brand": "Orbea",
-    "model": "Terra M30TEAM 1X",
-    "year": 2025,
-    "discipline": "gravel",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m30team-1x-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 3099,
-    "currentPriceEur": 3099,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "carbon",
-    "weightKg": 8.9,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 45,
-    "integratedCockpit": false,
-    "bikepackingMounts": true,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano GRX RX820 1X",
-      "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "40T",
-      "cassette": "10-45T",
-      "minGearRatio": 0.89,
-      "maxGearRatio": 4
-    },
-    "geometry": {
-      "stackMm": 580,
-      "reachMm": 385,
-      "stackReachRatio": 1.51,
-      "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 420,
-      "topTubeLengthMm": 555,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 155,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 1025,
-      "bbDropMm": 78
-    },
-    "description": "Bicicleta oficial Orbea Terra M30TEAM 1X (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano GRX RX820 1X.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano GRX RX820 1X (12v)",
-      "Paso de rueda hasta 45 mm",
-      "Anclajes para bolsas / almacenamiento LOCKR"
-    ],
-    "brakes": "Shimano RX400 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
-    "tires": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Terra carbon OMR Disc, monocoque, LOCKR storage, thru axle 12x142mm"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Orbea Terra OMR carbon disc fork, full carbon, 12x100mm"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano GRX RX820 1X"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "40T"
-          },
-          {
-            "label": "Cassette",
-            "value": "10-45T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano RX400 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Alloy, Tubeless, 700c, 21c, 28H"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Gravel GR31, Flare 12º"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Road Performance RP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Performance XP10 Carbon, 27.2mm"
+            "label": "Tija",
+            "value": "BH RX"
           },
           {
             "label": "Sillín",
-            "value": "Prologo Akero AGX STN 150mm"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-terra-h30-2025",
-    "brand": "Orbea",
-    "model": "Terra H30",
-    "year": 2025,
-    "discipline": "gravel",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-h30-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 2299,
-    "currentPriceEur": 2299,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "aluminum",
-    "forkMaterial": "carbon",
-    "weightKg": 9.9,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 45,
-    "integratedCockpit": false,
-    "bikepackingMounts": true,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano GRX RX820 / RX610",
-      "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "30/46T",
-      "cassette": "11-36T",
-      "minGearRatio": 0.83,
-      "maxGearRatio": 4.18
-    },
-    "geometry": {
-      "stackMm": 580,
-      "reachMm": 385,
-      "stackReachRatio": 1.51,
-      "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 420,
-      "topTubeLengthMm": 555,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 155,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 1025,
-      "bbDropMm": 78
-    },
-    "description": "Bicicleta oficial Orbea Terra H30 (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano GRX RX820 / RX610.",
-    "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano GRX RX820 / RX610 (12v)",
-      "Paso de rueda hasta 45 mm",
-      "Anclajes para bolsas / almacenamiento LOCKR"
-    ],
-    "brakes": "Shimano RX400 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
-    "tires": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Terra Hydro disc, hydroformed triple butted aluminum, HS 1,5 ICR, thru axle 12x142mm"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Orbea Terra OMR carbon disc fork, full carbon, 12x100mm"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano GRX RX820 / RX610"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "30/46T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-36T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano RX400 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Alloy, Tubeless, 700c, 21c, 28H"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Gravel GR31, Flare 12º"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Road Performance RP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "Alloy, 27.2mm, Setback 0"
-          },
-          {
-            "label": "Sillín",
-            "value": "Prologo Akero AGX STN"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-terra-h40-2025",
-    "brand": "Orbea",
-    "model": "Terra H40",
-    "year": 2025,
-    "discipline": "gravel",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-h40-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 1899,
-    "currentPriceEur": 1899,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "aluminum",
-    "forkMaterial": "carbon",
-    "weightKg": 10.3,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 45,
-    "integratedCockpit": false,
-    "bikepackingMounts": true,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano GRX RX400",
-      "isElectronic": false,
-      "speedCount": 10,
-      "chainrings": "30/46T",
-      "cassette": "11-36T",
-      "minGearRatio": 0.83,
-      "maxGearRatio": 4.18
-    },
-    "geometry": {
-      "stackMm": 580,
-      "reachMm": 385,
-      "stackReachRatio": 1.51,
-      "headTubeAngleDeg": 71,
-      "chainstayLengthMm": 420,
-      "topTubeLengthMm": 555,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 155,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 1025,
-      "bbDropMm": 78
-    },
-    "description": "Bicicleta oficial Orbea Terra H40 (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano GRX RX400.",
-    "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano GRX RX400 (10v)",
-      "Paso de rueda hasta 45 mm",
-      "Anclajes para bolsas / almacenamiento LOCKR"
-    ],
-    "brakes": "Shimano RX400 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
-    "tires": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Terra Hydro disc, hydroformed triple butted aluminum, thru axle 12x142mm"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Orbea Terra OMR carbon disc fork, full carbon, 12x100mm"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano GRX RX400"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "30/46T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-36T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano RX400 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Alloy, Tubeless, 700c, 21c, 28H"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Gravel GR31, Flare 12º"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Road Performance RP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "Alloy, 27.2mm, Setback 0"
-          },
-          {
-            "label": "Sillín",
-            "value": "Prologo Akero AGX STN"
+            "value": "Prologo Dimension"
           }
         ]
       }

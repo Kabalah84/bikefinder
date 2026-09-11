@@ -52,7 +52,7 @@ export function generateMetadata({ searchParams }: PageProps): Metadata {
 
 export default function HomePage({ searchParams }: PageProps) {
   const bikes = getAllBikes();
-  const brandSet = new Set([...getAllBrands().map((b) => b.name), ...bikes.map((b) => b.brand)]);
+  const brandSet = new Set(bikes.map((b) => b.brand));
   const brands = Array.from(brandSet).sort();
   const categories = getAllCategories();
 
@@ -99,7 +99,7 @@ export default function HomePage({ searchParams }: PageProps) {
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 max-w-2xl leading-relaxed">
-            Sin intermediarios ni enlaces de Amazon. Confronta pesos reales en báscula, paso de rueda máximo, desarrollos para escalada y geometría de marcas líderes: Canyon, Orbea, Trek y Specialized.
+            Sin intermediarios ni enlaces de Amazon. Confronta pesos reales en báscula, paso de rueda máximo, desarrollos para escalada y geometría de marcas líderes: BH, Canyon, Giant, Liv, Scott, Specialized y más.
           </p>
 
           {/* Quick value badges */}

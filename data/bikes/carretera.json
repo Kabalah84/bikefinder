@@ -21215,69 +21215,67 @@
     ]
   },
   {
-    "id": "orbea-orca-m10iltd-2025",
-    "brand": "Orbea",
-    "model": "Orca M10iLTD",
-    "year": 2025,
+    "id": "bh-ultralight-9-0-2026",
+    "brand": "BH",
+    "model": "ULTRALIGHT 9.0",
+    "year": 2026,
     "discipline": "road_race",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m10iltd-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 10999,
-    "currentPriceEur": 10999,
-    "discountPercentage": 0,
-    "isOutlet": false,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/ultralight-9-0-lr906?c=nww",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/c96085/lr906_nrr_n1.jpg",
+    "msrpEur": 9000,
+    "currentPriceEur": 7650,
+    "discountPercentage": 15,
+    "isOutlet": true,
     "frameMaterial": "carbon",
     "forkMaterial": "carbon",
-    "weightKg": 6.7,
-    "weightSizeReference": "M",
     "maxTireClearanceMm": 32,
     "integratedCockpit": true,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano Dura-Ace Di2 R9200",
+      "name": "Shimano Dura Ace DI2 12sp",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
-      "cassette": "11-30T",
-      "minGearRatio": 1.2,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
       "maxGearRatio": 4.73
     },
     "geometry": {
-      "stackMm": 550,
-      "reachMm": 385,
+      "stackMm": 557,
+      "reachMm": 389,
       "stackReachRatio": 1.43,
-      "headTubeAngleDeg": 72.8,
-      "chainstayLengthMm": 408,
-      "topTubeLengthMm": 548,
-      "seatTubeLengthMm": 490,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 517,
       "headTubeLengthMm": 140,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 980,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 988,
       "bbDropMm": 70
     },
-    "description": "Bicicleta oficial Orbea Orca M10iLTD (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano Dura-Ace Di2 R9200.",
+    "description": "Bicicleta oficial BH ULTRALIGHT 9.0 (2026) de categoría road_race. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano Dura Ace DI2 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano Dura-Ace Di2 R9200 (12v)",
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano Dura Ace DI2 12sp (12v)",
       "Paso de rueda hasta 32 mm",
       "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR"
+      "Cockpit aerodinámico integrado ACR"
     ],
-    "brakes": "Shimano R9270 Hydraulic Disc",
-    "wheels": "Oquo Road Performance RP45LTD Carbon Tubeless Ready",
-    "tires": "Vittoria Corsa Speed G2.0 TLR 700x28c",
+    "brakes": "Shimano Dura Ace hydraulic",
+    "wheels": "Vison Metron 45",
+    "tires": "Pirelli Pzero Race 700x 28",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Orca carbon OMX Disc, monocoque construction, HS 1,5, BB 386 EVO, thru axle 12x142mm"
+            "value": "Ultralight Evo Disc ACR Carbon Monocoque"
           },
           {
             "label": "Horquilla",
-            "value": "Orbea Orca OMX ICR fork 2024, full carbon, 1-1/8 - 1,5 tapared head tube compatible, thru axle 12x100mm"
+            "value": "Ultralight Evo Disc, Integrated Tapered Full Carbon 1.5"
           }
         ]
       },
@@ -21285,16 +21283,32 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano Dura-Ace Di2 R9200"
+            "label": "Cambio Trasero",
+            "value": "Shimano Dura Ace DI2 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "36/52T"
+            "label": "Desviador Delantero",
+            "value": "Shimano Dura Ace DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Dura Ace DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano Dura Ace 52/36 X Pedalier Shimano Dura Ace 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
           },
           {
             "label": "Cassette",
-            "value": "11-30T"
+            "value": "Shimano Dura Ace 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Dura Ace 12sp"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano Dura Ace 52/36 X Pedalier Shimano Dura Ace 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
           }
         ]
       },
@@ -21302,8 +21316,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano R9270 Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano Dura Ace hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano Dura Ace hydraulic"
           }
         ]
       },
@@ -21312,11 +21330,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Oquo Road Performance RP45LTD Carbon Tubeless Ready"
+            "value": "Vison Metron 45"
           },
           {
             "label": "Cubiertas",
-            "value": "Vittoria Corsa Speed G2.0 TLR 700x28c"
+            "value": "Pirelli Pzero Race 700x 28"
           }
         ]
       },
@@ -21325,88 +21343,86 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Road Performance RP11 Carbon, Reach 80, Drop 125, with Di2 hole"
+            "value": "Vision Metron 5D ACR X Manillar Vision Metron 5D ACR XS 400mm SM 420mm MD 420mm LA 440mm XL 440mm"
           },
           {
             "label": "Potencia",
-            "value": "OC Road Performance RP10, -8º"
+            "value": "Vision Metron 5D ACR X Potencia Vision Metron 5D ACR XS 90mm SM 100mm MD 100mm LA 110mm XL 110mm"
           },
           {
-            "label": "Tija de Sillín",
-            "value": "OC Performance XP10-S Carbon, 27.2mm, Setback 20"
+            "label": "Tija",
+            "value": "BH Ultralight"
           },
           {
             "label": "Sillín",
-            "value": "Fizik Vento Antares R1 Carbon 140mm"
+            "value": "Prologo Dimension Nack"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-orca-m20iltd-2025",
-    "brand": "Orbea",
-    "model": "Orca M20iLTD",
-    "year": 2025,
+    "id": "bh-ultralight-8-0-2026",
+    "brand": "BH",
+    "model": "ULTRALIGHT 8.0",
+    "year": 2026,
     "discipline": "road_race",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m20iltd-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 6999,
-    "currentPriceEur": 6999,
-    "discountPercentage": 0,
-    "isOutlet": false,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/ultralight-8-0-lr806?c=nrr",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/2dd160/lr806_nrr_n1.jpg",
+    "msrpEur": 8000,
+    "currentPriceEur": 6800,
+    "discountPercentage": 15,
+    "isOutlet": true,
     "frameMaterial": "carbon",
     "forkMaterial": "carbon",
-    "weightKg": 7.2,
-    "weightSizeReference": "M",
     "maxTireClearanceMm": 32,
     "integratedCockpit": true,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano Ultegra Di2 R8100",
+      "name": "Shimano Ultegra DI2 12sp",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34/50T",
-      "cassette": "11-30T",
-      "minGearRatio": 1.13,
-      "maxGearRatio": 4.55
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
-      "stackMm": 550,
-      "reachMm": 385,
+      "stackMm": 557,
+      "reachMm": 389,
       "stackReachRatio": 1.43,
-      "headTubeAngleDeg": 72.8,
-      "chainstayLengthMm": 408,
-      "topTubeLengthMm": 548,
-      "seatTubeLengthMm": 490,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 517,
       "headTubeLengthMm": 140,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 980,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 988,
       "bbDropMm": 70
     },
-    "description": "Bicicleta oficial Orbea Orca M20iLTD (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano Ultegra Di2 R8100.",
+    "description": "Bicicleta oficial BH ULTRALIGHT 8.0 (2026) de categoría road_race. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano Ultegra DI2 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano Ultegra Di2 R8100 (12v)",
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano Ultegra DI2 12sp (12v)",
       "Paso de rueda hasta 32 mm",
       "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR"
+      "Cockpit aerodinámico integrado ACR"
     ],
-    "brakes": "Shimano R8170 Hydraulic Disc",
-    "wheels": "Oquo Road Performance RP45TEAM Carbon Tubeless Ready",
-    "tires": "Vittoria Corsa Pro G2.0 TLR 700x28c",
+    "brakes": "Shimano Ultegra hydraulic",
+    "wheels": "BH EVO Stealth",
+    "tires": "Pirelli Pzero Race 700x 28",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Orca carbon OMX Disc, monocoque, HS 1,5, BB 386 EVO, thru axle 12x142mm"
+            "value": "Ultralight Evo Disc ACR Carbon Monocoque"
           },
           {
             "label": "Horquilla",
-            "value": "Orbea Orca OMX ICR fork, full carbon, 12x100mm"
+            "value": "Ultralight Evo Disc, Integrated Tapered Full Carbon 1.5"
           }
         ]
       },
@@ -21414,16 +21430,32 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano Ultegra Di2 R8100"
+            "label": "Cambio Trasero",
+            "value": "Shimano Ultegra DI2 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "34/50T"
+            "label": "Desviador Delantero",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano Ultegra Powermeter 52/36 X Pedalier Shimano Ultegra Powermeter 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
           },
           {
             "label": "Cassette",
-            "value": "11-30T"
+            "value": "Shimano Ultegra 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Ultegra"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano Ultegra Powermeter 52/36 X Pedalier Shimano Ultegra Powermeter 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
           }
         ]
       },
@@ -21431,8 +21463,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano R8170 Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano Ultegra hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano Ultegra hydraulic"
           }
         ]
       },
@@ -21441,11 +21477,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Oquo Road Performance RP45TEAM Carbon Tubeless Ready"
+            "value": "BH EVO Stealth"
           },
           {
             "label": "Cubiertas",
-            "value": "Vittoria Corsa Pro G2.0 TLR 700x28c"
+            "value": "Pirelli Pzero Race 700x 28"
           }
         ]
       },
@@ -21454,731 +21490,1409 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Road Performance RP11 Carbon"
+            "value": "EVO SL Monocoque ACR X Manillar EVO SL Monocoque ACR XS 400mm SM 420mm MD 420mm LA 440mm XL 440mm"
           },
           {
             "label": "Potencia",
-            "value": "OC Road Performance RP10, -8º"
+            "value": "EVO SL Monocoque ACR X Potencia EVO SL Monocoque ACR XS 90mm SM 100mm MD 100mm LA 110mm XL 110mm"
           },
           {
-            "label": "Tija de Sillín",
-            "value": "OC Performance XP10-S Carbon, 27.2mm"
+            "label": "Tija",
+            "value": "BH Ultralight"
           },
           {
             "label": "Sillín",
-            "value": "Fizik Vento Antares R3 k:ium"
+            "value": "Prologo Nago R4 PAS"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-orca-m21eltd-2025",
-    "brand": "Orbea",
-    "model": "Orca M21eLTD",
-    "year": 2025,
+    "id": "bh-ultralight-6-0-2026",
+    "brand": "BH",
+    "model": "ULTRALIGHT 6.0",
+    "year": 2026,
     "discipline": "road_race",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m21eltd-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 8799,
-    "currentPriceEur": 8799,
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/ultralight-6-0-lr606?c=nrr",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/1775da/lr606_nrr_n1.jpg",
+    "msrpEur": 4600,
+    "currentPriceEur": 3910,
+    "discountPercentage": 15,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 Di2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 557,
+      "reachMm": 389,
+      "stackReachRatio": 1.43,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 517,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 988,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial BH ULTRALIGHT 6.0 (2026) de categoría road_race. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano 105 Di2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano 105 Di2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano 105 hydraulic",
+    "wheels": "Vision Team35",
+    "tires": "Hutchinson Nitro 700x 28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Ultralight Evo Disc ACR Carbon Monocoque"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Ultralight Evo Disc, Integrated Tapered Full Carbon 1.5"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano 105 Di2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano 105 Di2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano 105 DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano 105 52/36 X Pedalier Shimano 105 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano 105 52/36 X Pedalier Shimano 105 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano 105 hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano 105 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision Team35"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Nitro 700x 28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "EVO SL Monocoque ACR X Manillar EVO SL Monocoque ACR XS 400mm SM 420mm MD 420mm LA 440mm XL 440mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO SL Monocoque ACR X Potencia EVO SL Monocoque ACR XS 90mm SM 100mm MD 100mm LA 110mm XL 110mm"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Ultralight"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Dimension"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-ultralight-7-0-2026",
+    "brand": "BH",
+    "model": "ULTRALIGHT 7.0",
+    "year": 2026,
+    "discipline": "road_race",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/ultralight-7-0-lr706?c=nww",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/cfd803/lr706_nrr_n1.jpg",
+    "msrpEur": 6300,
+    "currentPriceEur": 5355,
+    "discountPercentage": 15,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra DI2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 557,
+      "reachMm": 389,
+      "stackReachRatio": 1.43,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 517,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 988,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial BH ULTRALIGHT 7.0 (2026) de categoría road_race. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano Ultegra DI2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano Ultegra DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano Ultegra hydraulic",
+    "wheels": "Vision SC45",
+    "tires": "Pirelli Pzero Race 700x 28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Ultralight Evo Disc ACR Carbon Monocoque"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Ultralight Evo Disc, Integrated Tapered Full Carbon 1.5"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Ultegra DI2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano Ultegra 52/36 X Pedalier Shimano Ultegra 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Ultegra 12v"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano Ultegra 52/36 X Pedalier Shimano Ultegra 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano Ultegra hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano Ultegra hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision SC45"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Pirelli Pzero Race 700x 28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "EVO SL Monocoque ACR X Manillar EVO SL Monocoque ACR XS 400mm SM 420mm MD 420mm LA 440mm XL 440mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO SL Monocoque ACR X Potencia EVO SL Monocoque ACR XS 90mm SM 100mm MD 100mm LA 110mm XL 110mm"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Ultralight"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago R4 PAS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-aerolight-9-0-2026",
+    "brand": "BH",
+    "model": "AEROLIGHT 9.0",
+    "year": 2026,
+    "discipline": "road_race",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/aerolight-9-0-la906?c=wss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/fd508e/la906_ncs_n1.jpg",
+    "msrpEur": 9000,
+    "currentPriceEur": 7650,
+    "discountPercentage": 15,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Dura Ace DI2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 554,
+      "reachMm": 390,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 605,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 989,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial BH AEROLIGHT 9.0 (2026) de categoría road_race. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano Dura Ace DI2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano Dura Ace DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano Dura Ace hydraulic",
+    "wheels": "BH EVO Stealth",
+    "tires": "Pirelli Pzero Race 700x 28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aerolight Disc ACR Carbon Monocoque"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Aerolight, Integrated Tapered Full Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Dura Ace DI2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Dura Ace DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Dura Ace DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano Dura Ace 52/36 X Pedalier Shimano Dura Ace 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Dura Ace 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Dura Ace"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano Dura Ace 52/36 X Pedalier Shimano Dura Ace 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano Dura Ace hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano Dura Ace hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "BH EVO Stealth"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Pirelli Pzero Race 700x 28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Vision Metron 5D ACR X Manillar Vision Metron 5D ACR XS 400mm SM 420mm MD 420mm LA 440mm XL 440mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Vision Metron 5D ACR X Potencia Vision Metron 5D ACR XS 90mm SM 100mm MD 100mm LA 110mm XL 110mm"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Aerolight"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago R4 PAS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-aerolight-8-0-2026",
+    "brand": "BH",
+    "model": "AEROLIGHT 8.0",
+    "year": 2026,
+    "discipline": "road_race",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/aerolight-8-0-la806?c=wss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/030f18/la806_ncs_n1.jpg",
+    "msrpEur": 8000,
+    "currentPriceEur": 6800,
+    "discountPercentage": 15,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra DI2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 554,
+      "reachMm": 390,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 605,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 989,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial BH AEROLIGHT 8.0 (2026) de categoría road_race. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano Ultegra DI2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano Ultegra DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano Ultegra hydraulic",
+    "wheels": "BH EVO Stealth",
+    "tires": "Pirelli Pzero Race 700x 28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aerolight Disc ACR Carbon Monocoque"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Aerolight, Integrated Tapered Full Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Ultegra DI2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano Ultegra Powermeter 52/36 X Pedalier Shimano Ultegra Powermeter 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Ultegra"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano Ultegra Powermeter 52/36 X Pedalier Shimano Ultegra Powermeter 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano Ultegra hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano Ultegra hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "BH EVO Stealth"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Pirelli Pzero Race 700x 28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "EVO SL Monocoque ACR X Manillar EVO SL Monocoque ACR XS 400mm SM 420mm MD 420mm LA 440mm XL 440mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO SL Monocoque ACR X Potencia EVO SL Monocoque ACR XS 90mm SM 100mm MD 100mm LA 110mm XL 110mm"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Aerolight"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago R4 PAS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-aerolight-7-0-2026",
+    "brand": "BH",
+    "model": "AEROLIGHT 7.0",
+    "year": 2026,
+    "discipline": "road_race",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/aerolight-7-0-la706?c=rss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/7b15d6/la706_ncs_n1.jpg",
+    "msrpEur": 6300,
+    "currentPriceEur": 5355,
+    "discountPercentage": 15,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra DI2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 554,
+      "reachMm": 390,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 605,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 989,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial BH AEROLIGHT 7.0 (2026) de categoría road_race. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano Ultegra DI2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano Ultegra DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano Ultegra hydraulic",
+    "wheels": "Vision SC60",
+    "tires": "Hutchinson Blackbird 700x 28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aerolight Disc ACR Carbon Monocoque"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Aerolight, Integrated Tapered Full Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Ultegra DI2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano Ultegra 52/36 X Pedalier Shimano Ultegra 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Ultegra"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano Ultegra 52/36 X Pedalier Shimano Ultegra 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano Ultegra hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano Ultegra hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision SC60"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Blackbird 700x 28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "EVO SL Monocoque ACR X Manillar EVO SL Monocoque ACR XS 400mm SM 420mm MD 420mm LA 440mm XL 440mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO SL Monocoque ACR X Potencia EVO SL Monocoque ACR XS 90mm SM 100mm MD 100mm LA 110mm XL 110mm"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Aerolight"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Dimension"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-aerolight-6-0-2026",
+    "brand": "BH",
+    "model": "AEROLIGHT 6.0",
+    "year": 2026,
+    "discipline": "road_race",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/aerolight-6-0-la606?c=ncs",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/61ae22/la606_ncs_n1.jpg",
+    "msrpEur": 4600,
+    "currentPriceEur": 3910,
+    "discountPercentage": 15,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 Di2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 554,
+      "reachMm": 390,
+      "stackReachRatio": 1.42,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 559,
+      "seatTubeLengthMm": 605,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 989,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial BH AEROLIGHT 6.0 (2026) de categoría road_race. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano 105 Di2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano 105 Di2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano 105 hydraulic",
+    "wheels": "Vision Team35",
+    "tires": "Hutchinson Nitro 700x 28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aerolight Disc ACR Carbon Monocoque"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Aerolight, Integrated Tapered Full Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano 105 Di2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano 105 Di2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano 105 DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano 105 52/36 X Pedalier Shimano 105 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano 105 52/36 X Pedalier Shimano 105 52/36 XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm XS 165mm SM 165mm MD 170mm LA 172,5mm XL 172,5mm"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano 105 hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano 105 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision Team35"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Nitro 700x 28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "EVO SL Monocoque ACR X Manillar EVO SL Monocoque ACR XS 400mm SM 420mm MD 420mm LA 440mm XL 440mm XS 400mm SM 420mm MD 420mm LA 440mm XL 440mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO SL Monocoque ACR X Potencia EVO SL Monocoque ACR XS 90mm SM 100mm MD 100mm LA 110mm XL 110mm XS 90mm SM 100mm MD 100mm LA 110mm XL 110mm"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Aerolight"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Dimension"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-rs1-5-5-2026",
+    "brand": "BH",
+    "model": "RS1 5.5",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/rs1-5-5-la557?c=rss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
     "discountPercentage": 0,
     "isOutlet": false,
     "frameMaterial": "carbon",
     "forkMaterial": "carbon",
-    "weightKg": 7,
-    "weightSizeReference": "M",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra DI2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 583,
+      "reachMm": 388,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 415,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 520,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1009,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial BH RS1 5.5 (2026) de categoría road_endurance. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano Ultegra DI2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano Ultegra DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano Ultegra Hydraulic",
+    "wheels": "Vision TC45 Carbon",
+    "tires": "Hutchinson Nitro 700x28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "RS1, PCL Carbon Layup, Monocoque, Disc, ACR"
+          },
+          {
+            "label": "Horquilla",
+            "value": "RS1, Integrated Tapered, Full Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Ultegra DI2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano Ultegra 52/36"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Ultegra"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano Ultegra 52/36"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano Ultegra Hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano Ultegra Hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision TC45 Carbon"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Nitro 700x28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "EVO SL Monocoque ACR"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO SL Monocoque ACR"
+          },
+          {
+            "label": "Tija",
+            "value": "RS1 Aero"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago R4 PAS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-rs1-5-0-2026",
+    "brand": "BH",
+    "model": "RS1 5.0",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/rs1-5-0-la507?c=wnw",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra DI2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 583,
+      "reachMm": 388,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 415,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 520,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1009,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial BH RS1 5.0 (2026) de categoría road_endurance. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano Ultegra DI2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano Ultegra DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano Ultegra Hydraulic",
+    "wheels": "Vision Team35",
+    "tires": "Hutchinson Challenger 700x28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "RS1, PCL Carbon Layup, Monocoque, Disc, ACR"
+          },
+          {
+            "label": "Horquilla",
+            "value": "RS1, Integrated Tapered, Full Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Ultegra DI2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano Ultegra 52/36"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Ultegra"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano Ultegra 52/36"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano Ultegra Hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano Ultegra Hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision Team35"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Challenger 700x28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "EVO SL Monocoque ACR"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO SL Monocoque ACR"
+          },
+          {
+            "label": "Tija",
+            "value": "RS1 Aero"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago R4 PAS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-rs1-4-5-2026",
+    "brand": "BH",
+    "model": "RS1 4.5",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/rs1-4-5-la457?c=nsr",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 DI2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 583,
+      "reachMm": 388,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 415,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 520,
+      "headTubeLengthMm": 160,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1009,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial BH RS1 4.5 (2026) de categoría road_endurance. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano 105 DI2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano 105 DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano 105 Hydraulic",
+    "wheels": "Vision TC45 Carbon",
+    "tires": "Michelin Power Cup 700x28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "RS1, PCL Carbon Layup, Monocoque, Disc, ACR"
+          },
+          {
+            "label": "Horquilla",
+            "value": "RS1, Integrated Tapered, Full Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano 105 DI2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano 105 DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano 105 DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano 105 52/36"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano 105 52/36"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano 105 Hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano 105 Hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision TC45 Carbon"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Michelin Power Cup 700x28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "EVO SL Monocoque ACR"
+          },
+          {
+            "label": "Potencia",
+            "value": "EVO SL Monocoque ACR"
+          },
+          {
+            "label": "Tija",
+            "value": "RS1 Aero"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Dimension"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-rs1-4-2-2026",
+    "brand": "BH",
+    "model": "RS1 4.2",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/rs1-4-2-la427?c=nsr",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
     "maxTireClearanceMm": 32,
     "integratedCockpit": true,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "sram",
-      "name": "SRAM Force AXS Power Meter",
+      "name": "Srram Rival AXS",
       "isElectronic": true,
-      "speedCount": 12,
-      "chainrings": "35/48T",
-      "cassette": "10-33T",
-      "minGearRatio": 1.06,
+      "speedCount": 10,
+      "chainrings": "48/35T",
+      "cassette": "10-36T",
+      "minGearRatio": 0.97,
       "maxGearRatio": 4.8
     },
     "geometry": {
-      "stackMm": 550,
-      "reachMm": 385,
-      "stackReachRatio": 1.43,
-      "headTubeAngleDeg": 72.8,
-      "chainstayLengthMm": 408,
-      "topTubeLengthMm": 548,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 140,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 980,
-      "bbDropMm": 70
-    },
-    "description": "Bicicleta oficial Orbea Orca M21eLTD (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial SRAM Force AXS Power Meter.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo SRAM Force AXS Power Meter (12v)",
-      "Paso de rueda hasta 32 mm",
-      "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR"
-    ],
-    "brakes": "SRAM Force AXS Hydraulic Disc",
-    "wheels": "Oquo Road Performance RP45LTD Carbon Tubeless Ready",
-    "tires": "Vittoria Corsa Pro G2.0 TLR 700x28c",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Orca carbon OMX Disc, monocoque, thru axle 12x142mm"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Orbea Orca OMX ICR fork, full carbon, 12x100mm"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "SRAM Force AXS Power Meter"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "35/48T"
-          },
-          {
-            "label": "Cassette",
-            "value": "10-33T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "SRAM Force AXS Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Oquo Road Performance RP45LTD Carbon Tubeless Ready"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Vittoria Corsa Pro G2.0 TLR 700x28c"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Road Performance RP11 Carbon"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Road Performance RP10, -8º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Performance XP10-S Carbon, 27.2mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Fizik Vento Antares R1 Carbon"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-orca-m20iteam-2025",
-    "brand": "Orbea",
-    "model": "Orca M20iTEAM",
-    "year": 2025,
-    "discipline": "road_race",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m20iteam-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 4599,
-    "currentPriceEur": 4599,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "carbon",
-    "weightKg": 7.7,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 32,
-    "integratedCockpit": true,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano Ultegra Di2 R8100",
-      "isElectronic": true,
-      "speedCount": 12,
-      "chainrings": "34/50T",
-      "cassette": "11-30T",
-      "minGearRatio": 1.13,
-      "maxGearRatio": 4.55
-    },
-    "geometry": {
-      "stackMm": 550,
-      "reachMm": 385,
-      "stackReachRatio": 1.43,
-      "headTubeAngleDeg": 72.8,
-      "chainstayLengthMm": 408,
-      "topTubeLengthMm": 548,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 140,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 980,
-      "bbDropMm": 70
-    },
-    "description": "Bicicleta oficial Orbea Orca M20iTEAM (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano Ultegra Di2 R8100.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano Ultegra Di2 R8100 (12v)",
-      "Paso de rueda hasta 32 mm",
-      "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR"
-    ],
-    "brakes": "Shimano R8170 Hydraulic Disc",
-    "wheels": "Oquo Road Performance RP35TEAM Carbon Tubeless Ready",
-    "tires": "Vittoria Corsa N.Ext G2.0 Foldable 700x28c",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Orca carbon OMR Disc, monocoque construction, HS 1,5, BB 386 EVO, thru axle 12x142mm"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Orbea Orca OMR ICR fork 2024, full carbon, 12x100mm"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano Ultegra Di2 R8100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "34/50T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-30T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano R8170 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Oquo Road Performance RP35TEAM Carbon Tubeless Ready"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Vittoria Corsa N.Ext G2.0 Foldable 700x28c"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Road Performance RP21 Alu SL, Reach 80, Drop 125"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Road Performance RP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Performance XP10-S Carbon, 27.2mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Fizik Vento Antares R5"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-orca-m35i-2025",
-    "brand": "Orbea",
-    "model": "Orca M35i",
-    "year": 2025,
-    "discipline": "road_race",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m35i-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 3799,
-    "currentPriceEur": 3799,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "carbon",
-    "weightKg": 8.1,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 32,
-    "integratedCockpit": true,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano 105 Di2 R7100",
-      "isElectronic": true,
-      "speedCount": 12,
-      "chainrings": "34/50T",
-      "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
-    },
-    "geometry": {
-      "stackMm": 550,
-      "reachMm": 385,
-      "stackReachRatio": 1.43,
-      "headTubeAngleDeg": 72.8,
-      "chainstayLengthMm": 408,
-      "topTubeLengthMm": 548,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 140,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 980,
-      "bbDropMm": 70
-    },
-    "description": "Bicicleta oficial Orbea Orca M35i (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano 105 Di2 R7100.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano 105 Di2 R7100 (12v)",
-      "Paso de rueda hasta 32 mm",
-      "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR"
-    ],
-    "brakes": "Shimano R7170 Hydraulic Disc",
-    "wheels": "Oquo Road Performance RP35PRO Carbon Tubeless Ready",
-    "tires": "Vittoria Rubino IV G2.0 Foldable 700x28c",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Orca carbon OMR Disc, monocoque, thru axle 12x142mm"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Orbea Orca OMR ICR fork, full carbon, 12x100mm"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano 105 Di2 R7100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "34/50T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-34T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano R7170 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Oquo Road Performance RP35PRO Carbon Tubeless Ready"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Vittoria Rubino IV G2.0 Foldable 700x28c"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Road Performance RP21 Alu SL"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Road Performance RP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Performance XP10-S Carbon, 27.2mm"
-          },
-          {
-            "label": "Sillín",
-            "value": "Fizik Aliante R5"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-orca-m30i-2025",
-    "brand": "Orbea",
-    "model": "Orca M30i",
-    "year": 2025,
-    "discipline": "road_race",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m30i-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 3399,
-    "currentPriceEur": 3399,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "carbon",
-    "weightKg": 8.3,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 32,
-    "integratedCockpit": true,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano 105 Di2 R7100",
-      "isElectronic": true,
-      "speedCount": 12,
-      "chainrings": "34/50T",
-      "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
-    },
-    "geometry": {
-      "stackMm": 550,
-      "reachMm": 385,
-      "stackReachRatio": 1.43,
-      "headTubeAngleDeg": 72.8,
-      "chainstayLengthMm": 408,
-      "topTubeLengthMm": 548,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 140,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 980,
-      "bbDropMm": 70
-    },
-    "description": "Bicicleta oficial Orbea Orca M30i (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano 105 Di2 R7100.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano 105 Di2 R7100 (12v)",
-      "Paso de rueda hasta 32 mm",
-      "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR"
-    ],
-    "brakes": "Shimano R7170 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
-    "tires": "Vittoria Zafiro V Rigid bead 700x28c",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Orca carbon OMR Disc, monocoque, thru axle 12x142mm"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Orbea Orca OMR ICR fork, full carbon, 12x100mm"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano 105 Di2 R7100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "34/50T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-34T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano R7170 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Alloy, Tubeless, 700c, 21c, 28H"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Vittoria Zafiro V Rigid bead 700x28c"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Road Performance RP31, Reach 80, Drop 125"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Road Performance RP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "Carbon, 27.2mm, Setback 20"
-          },
-          {
-            "label": "Sillín",
-            "value": "Fizik Aliante R5"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-orca-m30-2025",
-    "brand": "Orbea",
-    "model": "Orca M30",
-    "year": 2025,
-    "discipline": "road_race",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m30-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 2599,
-    "currentPriceEur": 2599,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "carbon",
-    "weightKg": 8.6,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 32,
-    "integratedCockpit": false,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano 105 R7100",
-      "isElectronic": false,
-      "speedCount": 12,
-      "chainrings": "34/50T",
-      "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
-    },
-    "geometry": {
-      "stackMm": 550,
-      "reachMm": 385,
-      "stackReachRatio": 1.43,
-      "headTubeAngleDeg": 72.8,
-      "chainstayLengthMm": 408,
-      "topTubeLengthMm": 548,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 140,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 980,
-      "bbDropMm": 70
-    },
-    "description": "Bicicleta oficial Orbea Orca M30 (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano 105 R7100.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano 105 R7100 (12v)",
-      "Paso de rueda hasta 32 mm"
-    ],
-    "brakes": "Shimano R7170 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
-    "tires": "Vittoria Zafiro V Rigid bead 700x28c",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Orca carbon OMR Disc, monocoque construction, HS 1,5, BB 386 EVO, thru axle 12x142mm"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Orbea Orca OMR ICR fork, full carbon, 12x100mm"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano 105 R7100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "34/50T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-34T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano R7170 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Alloy, Tubeless, 700c, 21c, 28H"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Vittoria Zafiro V Rigid bead 700x28c"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Road Performance RP31, Reach 80, Drop 125"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Road Performance RP21, -6º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "Carbon, 27.2mm, Setback 20"
-          },
-          {
-            "label": "Sillín",
-            "value": "Fizik Aliante R5"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-orca-aero-m10iltd-2025",
-    "brand": "Orbea",
-    "model": "Orca Aero M10iLTD",
-    "year": 2025,
-    "discipline": "road_race",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca-aero/cat/orca-aero-m10iltd-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 10499,
-    "currentPriceEur": 10499,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "carbon",
-    "weightKg": 7.4,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 30,
-    "integratedCockpit": true,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano Dura-Ace Di2 R9200",
-      "isElectronic": true,
-      "speedCount": 12,
-      "chainrings": "36/52T",
-      "cassette": "11-30T",
-      "minGearRatio": 1.2,
-      "maxGearRatio": 4.73
-    },
-    "geometry": {
-      "stackMm": 546,
+      "stackMm": 583,
       "reachMm": 388,
-      "stackReachRatio": 1.41,
-      "headTubeAngleDeg": 72.8,
-      "chainstayLengthMm": 408,
-      "topTubeLengthMm": 550,
-      "seatTubeLengthMm": 485,
-      "headTubeLengthMm": 138,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 415,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 520,
+      "headTubeLengthMm": 160,
       "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 980,
+      "wheelbaseMm": 1009,
       "bbDropMm": 70
     },
-    "description": "Bicicleta oficial Orbea Orca Aero M10iLTD (2025) gama Orca Aero de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano Dura-Ace Di2 R9200.",
+    "description": "Bicicleta oficial BH RS1 4.2 (2026) de categoría road_endurance. Diseñada por BH Bikes con cuadro carbon y montaje oficial Srram Rival AXS.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano Dura-Ace Di2 R9200 (12v)",
-      "Paso de rueda hasta 30 mm",
+      "Cuadro oficial BH CARBON",
+      "Grupo Srram Rival AXS (10v)",
+      "Paso de rueda hasta 32 mm",
       "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR"
+      "Cockpit aerodinámico integrado ACR"
     ],
-    "brakes": "Shimano R9270 Hydraulic Disc",
-    "wheels": "Oquo Road Performance RP57LTD Carbon Tubeless Ready",
-    "tires": "Vittoria Corsa Pro TLR 700x28c",
+    "brakes": "Sram Rival",
+    "wheels": "Vision Team35 XDR",
+    "tires": "Hutchinson Nitro 700x28",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Orca Aero Carbon OMX disc, monocoque construction, HS 1,5, BB 386 EVO, thru axle 12x142mm"
+            "value": "RS1, PCL Carbon Layup, Monocoque, Disc, ACR"
           },
           {
             "label": "Horquilla",
-            "value": "Orbea Orca Aero OMX ICR, full carbon, 1-1/8 - 1,5, thru axle 12x100mm"
+            "value": "RS1, Integrated Tapered, Full Carbon 1.5\""
           }
         ]
       },
@@ -22186,16 +22900,32 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano Dura-Ace Di2 R9200"
+            "label": "Cambio Trasero",
+            "value": "Srram Rival AXS"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "36/52T"
+            "label": "Desviador Delantero",
+            "value": "Sram Rival AXS"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Sram Rival AXS"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Sram Rival 48/35"
           },
           {
             "label": "Cassette",
-            "value": "11-30T"
+            "value": "Sram Rival 10/36"
+          },
+          {
+            "label": "Cadena",
+            "value": "Sram Rival E1"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Sram Rival 48/35"
           }
         ]
       },
@@ -22203,8 +22933,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano R9270 Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Sram Rival"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Sram Rival"
           }
         ]
       },
@@ -22213,11 +22947,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Oquo Road Performance RP57LTD Carbon Tubeless Ready"
+            "value": "Vision Team35 XDR"
           },
           {
             "label": "Cubiertas",
-            "value": "Vittoria Corsa Pro TLR 700x28c"
+            "value": "Hutchinson Nitro 700x28"
           }
         ]
       },
@@ -22226,217 +22960,86 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Road Aero RA10 Carbon, Reach 80, Drop 125"
+            "value": "EVO SL Monocoque ACR"
           },
           {
             "label": "Potencia",
-            "value": "OC Road Performance RP10, -8º"
+            "value": "EVO SL Monocoque ACR"
           },
           {
-            "label": "Tija de Sillín",
-            "value": "OC Road Aero AERO10 Carbon, Setback 0-25mm"
+            "label": "Tija",
+            "value": "RS1 Aero"
           },
           {
             "label": "Sillín",
-            "value": "Prologo Scratch M5 Nack Carbon 140mm"
+            "value": "Prologo Dimension"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-orca-aero-m20iltd-2025",
-    "brand": "Orbea",
-    "model": "Orca Aero M20iLTD",
-    "year": 2025,
-    "discipline": "road_race",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca-aero/cat/orca-aero-m20iltd-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 6499,
-    "currentPriceEur": 6499,
+    "id": "bh-rs1-4-0-2026",
+    "brand": "BH",
+    "model": "RS1 4.0",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/rs1-4-0-la407?c=nsr",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
     "discountPercentage": 0,
     "isOutlet": false,
     "frameMaterial": "carbon",
     "forkMaterial": "carbon",
-    "weightKg": 7.9,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 30,
+    "maxTireClearanceMm": 32,
     "integratedCockpit": true,
     "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano Ultegra Di2 R8100",
+      "name": "Shimano 105 DI2 12sp",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
-      "cassette": "11-30T",
-      "minGearRatio": 1.2,
-      "maxGearRatio": 4.73
-    },
-    "geometry": {
-      "stackMm": 546,
-      "reachMm": 388,
-      "stackReachRatio": 1.41,
-      "headTubeAngleDeg": 72.8,
-      "chainstayLengthMm": 408,
-      "topTubeLengthMm": 550,
-      "seatTubeLengthMm": 485,
-      "headTubeLengthMm": 138,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 980,
-      "bbDropMm": 70
-    },
-    "description": "Bicicleta oficial Orbea Orca Aero M20iLTD (2025) gama Orca Aero de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano Ultegra Di2 R8100.",
-    "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano Ultegra Di2 R8100 (12v)",
-      "Paso de rueda hasta 30 mm",
-      "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR"
-    ],
-    "brakes": "Shimano R8170 Hydraulic Disc",
-    "wheels": "Oquo Road Performance RP57TEAM Carbon Tubeless Ready",
-    "tires": "Vittoria Corsa N.Ext TLR 700x28c",
-    "detailedSpecs": [
-      {
-        "category": "Cuadro y Horquilla",
-        "items": [
-          {
-            "label": "Cuadro",
-            "value": "Orbea Orca Aero Carbon OMX disc, monocoque, thru axle 12x142mm"
-          },
-          {
-            "label": "Horquilla",
-            "value": "Orbea Orca Aero OMX ICR, full carbon, 12x100mm"
-          }
-        ]
-      },
-      {
-        "category": "Transmisión",
-        "items": [
-          {
-            "label": "Grupo",
-            "value": "Shimano Ultegra Di2 R8100"
-          },
-          {
-            "label": "Desarrollo Platos",
-            "value": "36/52T"
-          },
-          {
-            "label": "Cassette",
-            "value": "11-30T"
-          }
-        ]
-      },
-      {
-        "category": "Frenos",
-        "items": [
-          {
-            "label": "Frenos",
-            "value": "Shimano R8170 Hydraulic Disc"
-          }
-        ]
-      },
-      {
-        "category": "Ruedas y Neumáticos",
-        "items": [
-          {
-            "label": "Ruedas",
-            "value": "Oquo Road Performance RP57TEAM Carbon Tubeless Ready"
-          },
-          {
-            "label": "Cubiertas",
-            "value": "Vittoria Corsa N.Ext TLR 700x28c"
-          }
-        ]
-      },
-      {
-        "category": "Componentes",
-        "items": [
-          {
-            "label": "Manillar",
-            "value": "OC Road Aero RA10 Carbon"
-          },
-          {
-            "label": "Potencia",
-            "value": "OC Road Performance RP10, -8º"
-          },
-          {
-            "label": "Tija de Sillín",
-            "value": "OC Road Aero AERO10 Carbon"
-          },
-          {
-            "label": "Sillín",
-            "value": "Prologo Scratch M5 T2.0"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "orbea-orca-aero-m30iltd-2025",
-    "brand": "Orbea",
-    "model": "Orca Aero M30iLTD",
-    "year": 2025,
-    "discipline": "road_race",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca-aero/cat/orca-aero-m30iltd-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 4499,
-    "currentPriceEur": 4499,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "carbon",
-    "forkMaterial": "carbon",
-    "weightKg": 8.4,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 30,
-    "integratedCockpit": true,
-    "bikepackingMounts": false,
-    "groupset": {
-      "brand": "shimano",
-      "name": "Shimano 105 Di2 R7100",
-      "isElectronic": true,
-      "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
     },
     "geometry": {
-      "stackMm": 546,
+      "stackMm": 583,
       "reachMm": 388,
-      "stackReachRatio": 1.41,
-      "headTubeAngleDeg": 72.8,
-      "chainstayLengthMm": 408,
-      "topTubeLengthMm": 550,
-      "seatTubeLengthMm": 485,
-      "headTubeLengthMm": 138,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 415,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 520,
+      "headTubeLengthMm": 160,
       "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 980,
+      "wheelbaseMm": 1009,
       "bbDropMm": 70
     },
-    "description": "Bicicleta oficial Orbea Orca Aero M30iLTD (2025) gama Orca Aero de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano 105 Di2 R7100.",
+    "description": "Bicicleta oficial BH RS1 4.0 (2026) de categoría road_endurance. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano 105 DI2 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea CARBON",
-      "Grupo Shimano 105 Di2 R7100 (12v)",
-      "Paso de rueda hasta 30 mm",
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano 105 DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
       "Cambio electrónico Di2 / AXS",
-      "Cockpit integrado y cableado interno ICR"
+      "Cockpit aerodinámico integrado ACR"
     ],
-    "brakes": "Shimano R7170 Hydraulic Disc",
-    "wheels": "Oquo Road Performance RP45PRO Carbon Tubeless Ready",
-    "tires": "Vittoria Rubino IV G2.0 Foldable 700x28c",
+    "brakes": "Shimano 105 Hydraulic",
+    "wheels": "Vision Team35",
+    "tires": "Hutchinson Nitro 700x28",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Orca Aero Carbon OMX disc, monocoque, thru axle 12x142mm"
+            "value": "RS1, PCL Carbon Layup, Monocoque, Disc, ACR"
           },
           {
             "label": "Horquilla",
-            "value": "Orbea Orca Aero OMX ICR, full carbon, 12x100mm"
+            "value": "RS1, Integrated Tapered, Full Carbon 1.5\""
           }
         ]
       },
@@ -22444,16 +23047,32 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano 105 Di2 R7100"
+            "label": "Cambio Trasero",
+            "value": "Shimano 105 DI2 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "36/52T"
+            "label": "Desviador Delantero",
+            "value": "Shimano 105 DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano 105 DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano 105 52/36"
           },
           {
             "label": "Cassette",
-            "value": "11-34T"
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano 105 52/36"
           }
         ]
       },
@@ -22461,8 +23080,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano R7170 Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano 105 Hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano 105 Hydraulic"
           }
         ]
       },
@@ -22471,11 +23094,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Oquo Road Performance RP45PRO Carbon Tubeless Ready"
+            "value": "Vision Team35"
           },
           {
             "label": "Cubiertas",
-            "value": "Vittoria Rubino IV G2.0 Foldable 700x28c"
+            "value": "Hutchinson Nitro 700x28"
           }
         ]
       },
@@ -22484,87 +23107,231 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Road Aero RA10 Carbon"
+            "value": "EVO SL Monocoque ACR"
           },
           {
             "label": "Potencia",
-            "value": "OC Road Performance RP10, -8º"
+            "value": "EVO SL Monocoque ACR"
           },
           {
-            "label": "Tija de Sillín",
-            "value": "OC Road Aero AERO10 Carbon"
+            "label": "Tija",
+            "value": "RS1 Aero"
           },
           {
             "label": "Sillín",
-            "value": "Prologo Dimension T4.0"
+            "value": "Prologo Dimension"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-avant-h30-2025",
-    "brand": "Orbea",
-    "model": "Avant H30",
-    "year": 2025,
+    "id": "bh-sl1-4-5-2026",
+    "brand": "BH",
+    "model": "SL1 4.5",
+    "year": 2026,
     "discipline": "road_endurance",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/avant/cat/avant-h30-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 1799,
-    "currentPriceEur": 1799,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "aluminum",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/sl1-4-5-lr456?c=ssn",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/5e969c/lr456_cwg_n1.jpg",
+    "msrpEur": 4000,
+    "currentPriceEur": 3400,
+    "discountPercentage": 15,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
     "forkMaterial": "carbon",
-    "weightKg": 9.6,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 35,
-    "integratedCockpit": false,
-    "bikepackingMounts": true,
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano 105 R7100",
+      "name": "Shimano Ultegra DI2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 583,
+      "reachMm": 386,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 570,
+      "seatTubeLengthMm": 493,
+      "headTubeLengthMm": 185,
+      "seatTubeAngleDeg": 72.5,
+      "wheelbaseMm": 994,
+      "bbDropMm": 65
+    },
+    "description": "Bicicleta oficial BH SL1 4.5 (2026) de categoría road_endurance. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano Ultegra DI2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano Ultegra DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano Ultegra hydraulic",
+    "wheels": "Vision Team TC30 i23",
+    "tires": "Hutchinson Nitro 700x 28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "SL1 Disc ICR Monocoque"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SL1 Disc Full Integrated Tapeder, Full Carbon 1.5Â´"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Ultegra DI2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano Ultegra 52/36"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Ultegra"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano Ultegra 52/36"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano Ultegra hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano Ultegra hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision Team TC30 i23"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Nitro 700x 28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "FSA Energy ACR"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH SL"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 27,2"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Nago RS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-rs1-3-5-2026",
+    "brand": "BH",
+    "model": "RS1 3.5",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/rs1-3-5-la357?c=wnw",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "34/50T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
-      "stackMm": 570,
-      "reachMm": 375,
-      "stackReachRatio": 1.52,
-      "headTubeAngleDeg": 72,
+      "stackMm": 583,
+      "reachMm": 388,
+      "stackReachRatio": 1.5,
+      "headTubeAngleDeg": 73,
       "chainstayLengthMm": 415,
-      "topTubeLengthMm": 545,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 165,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 520,
+      "headTubeLengthMm": 160,
       "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 995,
-      "bbDropMm": 72
+      "wheelbaseMm": 1009,
+      "bbDropMm": 70
     },
-    "description": "Bicicleta oficial Orbea Avant H30 (2025) gama Avant de categoría road_endurance. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano 105 R7100.",
+    "description": "Bicicleta oficial BH RS1 3.5 (2026) de categoría road_endurance. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano 105 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano 105 R7100 (12v)",
-      "Paso de rueda hasta 35 mm",
-      "Anclajes para bolsas / almacenamiento LOCKR"
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano 105 12sp (12v)",
+      "Paso de rueda hasta 32 mm"
     ],
-    "brakes": "Shimano R7170 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
-    "tires": "Vittoria Zafiro V Rigid bead 700x28c",
+    "brakes": "Shimano 105 Hydraulic",
+    "wheels": "Shimano RX180",
+    "tires": "Hutchinson Nitro 700x28",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Avant Hydro disc, hydroformed triple butted aluminum, HS 1,5 ICR, BB 68mm, thru axle 12x142mm"
+            "value": "RS1, PCL Carbon Layup, Monocoque, Disc, ACR"
           },
           {
             "label": "Horquilla",
-            "value": "Orbea carbon fork, full carbon, 1-1/8 - 1,5, thru axle 12x100mm"
+            "value": "RS1, Integrated Tapered, Full Carbon 1.5\""
           }
         ]
       },
@@ -22572,16 +23339,32 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano 105 R7100"
+            "label": "Cambio Trasero",
+            "value": "Shimano 105 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "34/50T"
+            "label": "Desviador Delantero",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano 105 52/36"
           },
           {
             "label": "Cassette",
-            "value": "11-34T"
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano 105 52/36"
           }
         ]
       },
@@ -22589,8 +23372,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano R7170 Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano 105 Hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano 105 Hydraulic"
           }
         ]
       },
@@ -22599,11 +23386,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Alloy, Tubeless, 700c, 21c, 28H"
+            "value": "Shimano RX180"
           },
           {
             "label": "Cubiertas",
-            "value": "Vittoria Zafiro V Rigid bead 700x28c"
+            "value": "Hutchinson Nitro 700x28"
           }
         ]
       },
@@ -22612,87 +23399,85 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Road Performance RP31, Reach 80, Drop 125"
+            "value": "FSA Gossamer Compact"
           },
           {
             "label": "Potencia",
-            "value": "OC Road Performance RP21, -6º"
+            "value": "FSA NS SMR"
           },
           {
-            "label": "Tija de Sillín",
-            "value": "Alloy, 27.2mm, Setback 20"
+            "label": "Tija",
+            "value": "RS1 Aero"
           },
           {
             "label": "Sillín",
-            "value": "Fizik Aliante R5"
+            "value": "BH Erog G"
           }
         ]
       }
     ]
   },
   {
-    "id": "orbea-avant-h40-2025",
-    "brand": "Orbea",
-    "model": "Avant H40",
-    "year": 2025,
+    "id": "bh-sl1-4-0-2026",
+    "brand": "BH",
+    "model": "SL1 4.0",
+    "year": 2026,
     "discipline": "road_endurance",
-    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/avant/cat/avant-h40-2025",
-    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
-    "msrpEur": 1399,
-    "currentPriceEur": 1399,
-    "discountPercentage": 0,
-    "isOutlet": false,
-    "frameMaterial": "aluminum",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/sl1-4-0-lr406?c=wss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/476d19/lr406_cwg_n1.jpg",
+    "msrpEur": 3300,
+    "currentPriceEur": 2805,
+    "discountPercentage": 15,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
     "forkMaterial": "carbon",
-    "weightKg": 9.9,
-    "weightSizeReference": "M",
-    "maxTireClearanceMm": 35,
+    "maxTireClearanceMm": 32,
     "integratedCockpit": false,
-    "bikepackingMounts": true,
+    "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "Shimano Tiagra 4700",
-      "isElectronic": false,
-      "speedCount": 10,
-      "chainrings": "34/50T",
+      "name": "Shimano 105 Di2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
-      "stackMm": 570,
-      "reachMm": 375,
-      "stackReachRatio": 1.52,
-      "headTubeAngleDeg": 72,
-      "chainstayLengthMm": 415,
-      "topTubeLengthMm": 545,
-      "seatTubeLengthMm": 490,
-      "headTubeLengthMm": 165,
-      "seatTubeAngleDeg": 73.5,
-      "wheelbaseMm": 995,
-      "bbDropMm": 72
+      "stackMm": 583,
+      "reachMm": 386,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 570,
+      "seatTubeLengthMm": 493,
+      "headTubeLengthMm": 185,
+      "seatTubeAngleDeg": 72.5,
+      "wheelbaseMm": 994,
+      "bbDropMm": 65
     },
-    "description": "Bicicleta oficial Orbea Avant H40 (2025) gama Avant de categoría road_endurance. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Tiagra 4700.",
+    "description": "Bicicleta oficial BH SL1 4.0 (2026) de categoría road_endurance. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano 105 Di2 12sp.",
     "highlights": [
-      "Cuadro oficial Orbea ALUMINUM",
-      "Grupo Shimano Tiagra 4700 (10v)",
-      "Paso de rueda hasta 35 mm",
-      "Anclajes para bolsas / almacenamiento LOCKR"
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano 105 Di2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS"
     ],
-    "brakes": "Shimano Tiagra 4770 Hydraulic Disc",
-    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
-    "tires": "Vittoria Zafiro V Rigid bead 700x28c",
+    "brakes": "Shimano 105 hydraulic",
+    "wheels": "Vision Team35",
+    "tires": "Hutchinson Nitro 700x 28",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "Orbea Avant Hydro disc, hydroformed triple butted aluminum, thru axle 12x142mm"
+            "value": "SL1 Disc ICR Monocoque"
           },
           {
             "label": "Horquilla",
-            "value": "Orbea carbon fork, full carbon, 12x100mm"
+            "value": "SL1 Disc Full Integrated Tapeder, Full Carbon 1.5Â´"
           }
         ]
       },
@@ -22700,16 +23485,32 @@
         "category": "Transmisión",
         "items": [
           {
-            "label": "Grupo",
-            "value": "Shimano Tiagra 4700"
+            "label": "Cambio Trasero",
+            "value": "Shimano 105 Di2 12sp"
           },
           {
-            "label": "Desarrollo Platos",
-            "value": "34/50T"
+            "label": "Desviador Delantero",
+            "value": "Shimano 105 Di2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano 105 DI2"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano 105 52/36"
           },
           {
             "label": "Cassette",
-            "value": "11-34T"
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Shimano 105 52/36"
           }
         ]
       },
@@ -22717,8 +23518,12 @@
         "category": "Frenos",
         "items": [
           {
-            "label": "Frenos",
-            "value": "Shimano Tiagra 4770 Hydraulic Disc"
+            "label": "Freno Delantero",
+            "value": "Shimano 105 hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano 105 hydraulic"
           }
         ]
       },
@@ -22727,11 +23532,11 @@
         "items": [
           {
             "label": "Ruedas",
-            "value": "Alloy, Tubeless, 700c, 21c, 28H"
+            "value": "Vision Team35"
           },
           {
             "label": "Cubiertas",
-            "value": "Vittoria Zafiro V Rigid bead 700x28c"
+            "value": "Hutchinson Nitro 700x 28"
           }
         ]
       },
@@ -22740,19 +23545,605 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "OC Road Performance RP31"
+            "value": "BH Lite Compact"
           },
           {
             "label": "Potencia",
-            "value": "OC Road Performance RP21, -6º"
+            "value": "BH SL"
           },
           {
-            "label": "Tija de Sillín",
-            "value": "Alloy, 27.2mm, Setback 20"
+            "label": "Tija",
+            "value": "BH Lite 27,2"
           },
           {
             "label": "Sillín",
-            "value": "Fizik Aliante R5"
+            "value": "San Marco Monza"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-aero-tt-8-0-2026",
+    "brand": "BH",
+    "model": "AERO TT 8.0",
+    "year": 2026,
+    "discipline": "road_race",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/triatlon/aero-tt-8-0-lt807?c=nws",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 6000,
+    "currentPriceEur": 6000,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano DA DI2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "55/44T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.29,
+      "maxGearRatio": 5
+    },
+    "geometry": {
+      "stackMm": 528,
+      "reachMm": 431,
+      "stackReachRatio": 1.23,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 380,
+      "topTubeLengthMm": 562,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1001,
+      "bbDropMm": 74
+    },
+    "description": "Bicicleta oficial BH AERO TT 8.0 (2026) de categoría road_race. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano DA DI2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano DA DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano DA Hydraulic",
+    "wheels": "Vision Metron 81",
+    "tires": "Hutchinson Challenger 700x28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aero TT ECL Evo Carbon Layup, Monocoque, Disc, ACR"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Aero TT, Integrated Tapered Full Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano DA DI2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano DA DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano DA DI2 Hydra"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Vision Metron 55/44"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano DA 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano DA"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Vision Metron 55/44"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano DA Hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano DA Hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision Metron 81"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Challenger 700x28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Vision Trimax Carbon ACR"
+          },
+          {
+            "label": "Potencia",
+            "value": "Aero TT"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Aero TT"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo TGale Pas TT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-sl1-3-5-2026",
+    "brand": "BH",
+    "model": "SL1 3.5",
+    "year": 2026,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/competicion-carretera/sl1-3-5-lr356?c=wss",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/100658/lr356_cwg_n1.jpg",
+    "msrpEur": 2500,
+    "currentPriceEur": 2125,
+    "discountPercentage": 15,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 12sp",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 583,
+      "reachMm": 386,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 73,
+      "chainstayLengthMm": 410,
+      "topTubeLengthMm": 570,
+      "seatTubeLengthMm": 493,
+      "headTubeLengthMm": 185,
+      "seatTubeAngleDeg": 72.5,
+      "wheelbaseMm": 994,
+      "bbDropMm": 65
+    },
+    "description": "Bicicleta oficial BH SL1 3.5 (2026) de categoría road_endurance. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano 105 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano 105 12sp (12v)",
+      "Paso de rueda hasta 32 mm"
+    ],
+    "brakes": "Shimano 105 hydraulic",
+    "wheels": "Shimano RS171",
+    "tires": "Chaoyang Shark 700x 28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "SL1 Disc ICR Monocoque"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SL1 Disc Full Integrated Tapeder, Full Carbon 1.5Â´"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano 105 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "FSA Gossamer 50/34"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "FSA Gossamer 50/34"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano 105 hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano 105 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Shimano RS171"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Chaoyang Shark 700x 28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "BH Lite Compact"
+          },
+          {
+            "label": "Potencia",
+            "value": "BH SL"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Lite 27,2"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH Era XGR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-aero-tt-7-0-2026",
+    "brand": "BH",
+    "model": "AERO TT 7.0",
+    "year": 2026,
+    "discipline": "road_race",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/triatlon/aero-tt-7-0-lt707?c=nws",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 6000,
+    "currentPriceEur": 6000,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra DI2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "54/39T",
+      "cassette": "11-30T",
+      "minGearRatio": 1.3,
+      "maxGearRatio": 4.91
+    },
+    "geometry": {
+      "stackMm": 528,
+      "reachMm": 431,
+      "stackReachRatio": 1.23,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 380,
+      "topTubeLengthMm": 562,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1001,
+      "bbDropMm": 74
+    },
+    "description": "Bicicleta oficial BH AERO TT 7.0 (2026) de categoría road_race. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano Ultegra DI2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano Ultegra DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano Ultegra Hydraulic",
+    "wheels": "Vision Metron 61",
+    "tires": "Hutchinson Challenger 700x28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aero TT ECL Evo Carbon Layup, Monocoque, Disc, ACR"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Aero TT, Integrated Tapered Full Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Ultegra DI2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Ultegra DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Ultegra DI2 Hydra"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Rotor Aldhu 54/39"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano Ultegra 11/30"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano Ultegra"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Rotor Aldhu 54/39"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano Ultegra Hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano Ultegra Hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision Metron 61"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Challenger 700x28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Vision Trimax Carbon ACR"
+          },
+          {
+            "label": "Potencia",
+            "value": "Aero TT"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Aero TT"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo TGale Pas TT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bh-aero-tt-6-0-2026",
+    "brand": "BH",
+    "model": "AERO TT 6.0",
+    "year": 2026,
+    "discipline": "road_race",
+    "officialUrl": "https://www.bhbikes.com/es_ES/bicicletas/carretera/triatlon/aero-tt-6-0-lt607?c=nws",
+    "officialImageUrl": "https://bhbikes.b-cdn.net/cache/general/aae09f/bici_ls.jpg",
+    "msrpEur": 6000,
+    "currentPriceEur": 6000,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 DI2 12sp",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "54/39T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.15,
+      "maxGearRatio": 4.91
+    },
+    "geometry": {
+      "stackMm": 528,
+      "reachMm": 431,
+      "stackReachRatio": 1.23,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 380,
+      "topTubeLengthMm": 562,
+      "seatTubeLengthMm": 540,
+      "headTubeLengthMm": 120,
+      "seatTubeAngleDeg": 76,
+      "wheelbaseMm": 1001,
+      "bbDropMm": 74
+    },
+    "description": "Bicicleta oficial BH AERO TT 6.0 (2026) de categoría road_race. Diseñada por BH Bikes con cuadro carbon y montaje oficial Shimano 105 DI2 12sp.",
+    "highlights": [
+      "Cuadro oficial BH CARBON",
+      "Grupo Shimano 105 DI2 12sp (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit aerodinámico integrado ACR"
+    ],
+    "brakes": "Shimano 105 Hydraulic",
+    "wheels": "Vision Team TC 30",
+    "tires": "Hutchinson Challenger 700x28",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Aero TT ECL Evo Carbon Layup, Monocoque, Disc, ACR"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Aero TT, Integrated Tapered Full Carbon 1.5\""
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano 105 DI2 12sp"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano 105 DI2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano 105 DI2 Hydra"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Rotor Aldhu 54/39"
+          },
+          {
+            "label": "Cassette",
+            "value": "Shimano 105 11/34"
+          },
+          {
+            "label": "Cadena",
+            "value": "Shimano 105"
+          },
+          {
+            "label": "Pedalier",
+            "value": "Rotor Aldhu 54/39"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Freno Delantero",
+            "value": "Shimano 105 Hydraulic"
+          },
+          {
+            "label": "Freno Trasero",
+            "value": "Shimano 105 Hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Vision Team TC 30"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Hutchinson Challenger 700x28"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Vision Trimax Carbon ACR"
+          },
+          {
+            "label": "Potencia",
+            "value": "Aero TT"
+          },
+          {
+            "label": "Tija",
+            "value": "BH Aero TT"
+          },
+          {
+            "label": "Sillín",
+            "value": "BH Ergo G"
           }
         ]
       }

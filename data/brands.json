@@ -47,5 +47,12 @@
     "country": "Taiwán",
     "officialWebsite": "https://www.liv-cycling.com/es",
     "description": "Marca de Giant Group dedicada al ciclismo femenino de alto rendimiento con modelos de referencia como Langma, Avail, Devote y Pique."
+  },
+  {
+    "id": "bh",
+    "name": "BH",
+    "country": "España",
+    "officialWebsite": "https://www.bhbikes.com/es_ES",
+    "description": "Histórica marca española de Vitoria-Gasteiz con más de un siglo de innovación en ciclismo, referente con sus modelos Ultralight y Aerolight en carretera, GravelX en gravel, y la serie Lynx en montaña."
   }
 ]

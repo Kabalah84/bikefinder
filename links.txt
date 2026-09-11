@@ -9,7 +9,7 @@
 # 3. Scott:        links/scott.txt        (Addict RC, Foil, Addict Gravel, Speedster, Spark RC, Scale, Ransom...)
 # 4. Giant:        links/giant.txt        (TCR, Defy, Propel, Revolt, TCX, Anthem, Reign, Trance, Talon...)
 # 5. Liv:          links/liv.txt          (Langma, Avail, Enviliv, Devote, Pique, Intrigue, Embolden, Tempt...)
-# 6. Orbea:        links/orbea.txt        (Orca OMX/OMR, Orca Aero, Avant, Terra, Oiz, Alma, Occam, Rallon, Rise, Wild...)
+# 6. BH:           links/bh.txt           (Ultralight, Aerolight, RS1, SL1, GravelX, Lynx Trail/Race/SLS, Ultimate, Spike...)
 #
 # ==============================================================================
 # Para añadir nuevos modelos de cualquier marca, puedes editar directamente el
