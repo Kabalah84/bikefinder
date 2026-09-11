@@ -88,6 +88,8 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
     if (filters.disciplines && filters.disciplines.length > 0) count += filters.disciplines.length;
     if (filters.brands && filters.brands.length > 0) count += filters.brands.length;
     if (filters.frameMaterials && filters.frameMaterials.length > 0) count += filters.frameMaterials.length;
+    if (filters.suspensionTypes && filters.suspensionTypes.length > 0) count += filters.suspensionTypes.length;
+    if (filters.isElectric !== undefined && filters.isElectric !== null) count += 1;
     if (filters.isElectronic !== undefined && filters.isElectronic !== null) count += 1;
     if (filters.isOneBy !== undefined && filters.isOneBy !== null) count += 1;
     if (filters.minTireClearanceMm) count += 1;
@@ -245,6 +247,33 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
                 </button>
               </span>
             ))}
+            {filters.suspensionTypes?.map((s) => (
+              <span
+                key={s}
+                className="inline-flex items-center gap-1 rounded-lg bg-teal-50 px-2.5 py-1 text-xs font-semibold text-teal-900 border border-teal-200"
+              >
+                {s === "rigid" ? "Suspensión: Rígida" : s === "hardtail" ? "Suspensión: Delantera" : "Doble Suspensión"}
+                <button
+                  onClick={() =>
+                    setFilters({
+                      ...filters,
+                      suspensionTypes: filters.suspensionTypes?.filter((x) => x !== s),
+                    })
+                  }
+                  aria-label={`Eliminar filtro ${s}`}
+                >
+                  <X className="w-3 h-3 text-teal-700 hover:text-rose-600" />
+                </button>
+              </span>
+            ))}
+            {filters.isElectric !== undefined && filters.isElectric !== null && (
+              <span className="inline-flex items-center gap-1 rounded-lg bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-900 border border-amber-200">
+                {filters.isElectric ? "⚡ E-Bike Eléctrica" : "Convencional (Sin motor)"}
+                <button onClick={() => setFilters({ ...filters, isElectric: null })}>
+                  <X className="w-3 h-3 hover:text-rose-600" />
+                </button>
+              </span>
+            )}
             {filters.isElectronic !== undefined && filters.isElectronic !== null && (
               <span className="inline-flex items-center gap-1 rounded-lg bg-teal-50 px-2.5 py-1 text-xs font-semibold text-teal-800 border border-teal-200">
                 {filters.isElectronic ? "Electrónico Di2/AXS" : "Mecánico"}

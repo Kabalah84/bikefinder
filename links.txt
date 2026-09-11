@@ -10,6 +10,11 @@
 # 4. Giant:        links/giant.txt        (TCR, Defy, Propel, Revolt, TCX, Anthem, Reign, Trance, Talon...)
 # 5. Liv:          links/liv.txt          (Langma, Avail, Enviliv, Devote, Pique, Intrigue, Embolden, Tempt...)
 # 6. BH:           links/bh.txt           (Ultralight, Aerolight, RS1, SL1, GravelX, Lynx Trail/Race/SLS, Ultimate, Spike...)
+# 7. Merida:       links/merida.txt       (Reacto, Scultura, Scultura Endurance, Silex, Mission, Ninety-Six, Big.Nine...)
+# 8. Megamo:       links/megamo.txt       (Pulse, Raise, Silk, West, Jakar, Track, Factory, Natural...)
+# 9. Bianchi:      links/bianchi.txt      (Aquila, Oltre, Specialissima, Sprint, Infinito, Arcadex, Impulso, Methanol, Nitron...)
+# 10. Pinarello:   links/pinarello.txt    (Dogma F, Dogma X, series F y X, Grevil F, Dogma XC...)
+# 11. Cannondale:  links/cannondale.txt   (SuperSix EVO, Synapse, Topstone, SuperX, Scalpel, Habit, Moterra...)
 #
 # ==============================================================================
 # Para añadir nuevos modelos de cualquier marca, puedes editar directamente el

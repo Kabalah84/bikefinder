@@ -78,6 +78,16 @@ export function BikeCard({ bike }: BikeCardProps) {
           <span className="rounded-lg bg-slate-900/80 backdrop-blur-xs px-2 py-0.5 text-[11px] font-bold text-white shadow-xs">
             {bike.year}
           </span>
+          {bike.isElectric && (
+            <span className="rounded-lg bg-amber-400 text-slate-950 px-2 py-0.5 text-[11px] font-black border border-amber-500 shadow-xs">
+              ⚡ E-Bike
+            </span>
+          )}
+          {bike.suspensionType === "full" && (
+            <span className="rounded-lg bg-purple-900/80 text-purple-200 backdrop-blur-xs px-2 py-0.5 text-[11px] font-bold border border-purple-400/40 shadow-xs">
+              Doble
+            </span>
+          )}
         </div>
 
         {/* Top right discount badge */}

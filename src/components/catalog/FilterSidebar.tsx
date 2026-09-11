@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Discipline, FrameMaterial, GroupsetBrand } from "@/lib/schema/bike";
+import { Discipline, FrameMaterial, GroupsetBrand, SuspensionType } from "@/lib/schema/bike";
 import { BikeFilterCriteria } from "@/lib/data/bikes";
 import {
   RotateCcw,
@@ -39,6 +39,14 @@ export function FilterSidebar({
       ? current.filter((d) => d !== disc)
       : [...current, disc];
     onFilterChange({ ...filters, disciplines: updated });
+  };
+
+  const handleSuspensionToggle = (susp: SuspensionType) => {
+    const current = filters.suspensionTypes || [];
+    const updated = current.includes(susp)
+      ? current.filter((s) => s !== susp)
+      : [...current, susp];
+    onFilterChange({ ...filters, suspensionTypes: updated });
   };
 
   const handleBrandToggle = (brand: string) => {
@@ -115,6 +123,81 @@ export function FilterSidebar({
               </button>
             );
           })}
+        </div>
+      </div>
+
+      {/* Tipo de Suspensión */}
+      <div>
+        <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2.5">
+          Suspensión
+        </label>
+        <div className="grid grid-cols-3 gap-1.5">
+          {[
+            { id: "rigid", label: "Rígida" },
+            { id: "hardtail", label: "Delantera" },
+            { id: "full", label: "Doble" },
+          ].map((item) => {
+            const isSelected = (filters.suspensionTypes || []).includes(item.id as SuspensionType);
+            return (
+              <button
+                key={item.id}
+                type="button"
+                onClick={() => handleSuspensionToggle(item.id as SuspensionType)}
+                className={`py-2 px-1 rounded-xl text-xs font-semibold text-center border transition-all ${
+                  isSelected
+                    ? "bg-slate-900 text-white border-slate-900 shadow-xs"
+                    : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+                }`}
+              >
+                {item.label}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Motorización / Asistencia */}
+      <div>
+        <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2.5 flex items-center justify-between">
+          <span>Motor / Asistencia</span>
+          {filters.isElectric !== undefined && filters.isElectric !== null && (
+            <span className="text-[10px] font-bold text-amber-600 uppercase">Filtrado</span>
+          )}
+        </label>
+        <div className="grid grid-cols-3 gap-1.5">
+          <button
+            type="button"
+            onClick={() => onFilterChange({ ...filters, isElectric: null })}
+            className={`py-2 px-1 rounded-xl text-xs font-semibold border transition-all text-center ${
+              filters.isElectric === null || filters.isElectric === undefined
+                ? "bg-slate-900 text-white border-slate-900"
+                : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+            }`}
+          >
+            Todas
+          </button>
+          <button
+            type="button"
+            onClick={() => onFilterChange({ ...filters, isElectric: false })}
+            className={`py-2 px-1 rounded-xl text-xs font-semibold border transition-all text-center ${
+              filters.isElectric === false
+                ? "bg-slate-900 text-white border-slate-900 shadow-xs"
+                : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+            }`}
+          >
+            Pulmonar
+          </button>
+          <button
+            type="button"
+            onClick={() => onFilterChange({ ...filters, isElectric: true })}
+            className={`py-2 px-1 rounded-xl text-xs font-semibold border transition-all text-center flex items-center justify-center gap-1 ${
+              filters.isElectric === true
+                ? "bg-amber-500 text-slate-950 border-amber-500 shadow-xs font-black"
+                : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+            }`}
+          >
+            <span>⚡ E-Bike</span>
+          </button>
         </div>
       </div>
 

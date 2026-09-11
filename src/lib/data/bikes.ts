@@ -8,6 +8,7 @@ import {
   Discipline,
   FrameMaterial,
   GroupsetBrand,
+  SuspensionType,
 } from "@/lib/schema/bike";
 
 import gravelData from "../../../data/bikes/gravel.json";
@@ -60,6 +61,8 @@ export interface BikeFilterCriteria {
   disciplines?: Discipline[];
   brands?: string[];
   frameMaterials?: FrameMaterial[];
+  suspensionTypes?: SuspensionType[];
+  isElectric?: boolean | null; // null = all, true = ebikes, false = conventional
   isElectronic?: boolean | null; // null = all
   isOneBy?: boolean | null; // null = all
   minTireClearanceMm?: number;
@@ -100,6 +103,15 @@ export function filterBikes(bikes: BikeProduct[], criteria: BikeFilterCriteria):
   if (criteria.frameMaterials && criteria.frameMaterials.length > 0) {
     const matSet = new Set(criteria.frameMaterials);
     result = result.filter((b) => matSet.has(b.frameMaterial));
+  }
+
+  if (criteria.suspensionTypes && criteria.suspensionTypes.length > 0) {
+    const suspSet = new Set(criteria.suspensionTypes);
+    result = result.filter((b) => suspSet.has(b.suspensionType || "rigid"));
+  }
+
+  if (criteria.isElectric !== undefined && criteria.isElectric !== null) {
+    result = result.filter((b) => Boolean(b.isElectric) === criteria.isElectric);
   }
 
   if (criteria.isElectronic !== undefined && criteria.isElectronic !== null) {

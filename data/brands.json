@@ -54,5 +54,40 @@
     "country": "España",
     "officialWebsite": "https://www.bhbikes.com/es_ES",
     "description": "Histórica marca española de Vitoria-Gasteiz con más de un siglo de innovación en ciclismo, referente con sus modelos Ultralight y Aerolight en carretera, GravelX en gravel, y la serie Lynx en montaña."
+  },
+  {
+    "id": "merida",
+    "name": "Merida",
+    "country": "Taiwán",
+    "officialWebsite": "https://www.merida-bikes.com/es-es/",
+    "description": "Uno de los mayores fabricantes globales de bicicletas, célebre por sus modelos Scultura y Reacto en carretera, la gama Silex campeona del mundo en gravel, y Ninety-Six en MTB."
+  },
+  {
+    "id": "megamo",
+    "name": "Megamo",
+    "country": "España",
+    "officialWebsite": "https://www.megamo.com/es",
+    "description": "Marca española de Girona referente en gravel con sus súper ventas Jakar y West, aerodinámica Pulse Elite y gama de montaña Track y Factory."
+  },
+  {
+    "id": "bianchi",
+    "name": "Bianchi",
+    "country": "Italia",
+    "officialWebsite": "https://www.bianchistore.es",
+    "description": "Mítica firma italiana de Milán en su icónico color Celeste, con los modelos Oltre y Specialissima en carretera, Arcadex e Impulso en gravel, y Methanol en MTB."
+  },
+  {
+    "id": "pinarello",
+    "name": "Pinarello",
+    "country": "Italia",
+    "officialWebsite": "https://www.pinarello.es",
+    "description": "Prestigiosa marca italiana de Treviso, múltiple ganadora del Tour de Francia con la icónica Dogma F, series X y F, Grevil F en gravel y Dogma XC en competición MTB."
+  },
+  {
+    "id": "cannondale",
+    "name": "Cannondale",
+    "country": "Estados Unidos",
+    "officialWebsite": "https://www.cannondale.com/es-es",
+    "description": "Pionero estadounidense en innovación ciclista con sus cuadros SuperSix EVO, la absorción Kingpin y horquilla Lefty en Topstone, y la campeona Scalpel en montaña."
   }
 ]

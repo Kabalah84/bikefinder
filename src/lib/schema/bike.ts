@@ -38,6 +38,9 @@ export type FrameMaterial = z.infer<typeof FrameMaterialEnum>;
 export const ForkMaterialEnum = z.enum(["carbon", "aluminum", "suspension", "steel"]);
 export type ForkMaterial = z.infer<typeof ForkMaterialEnum>;
 
+export const SuspensionTypeEnum = z.enum(["rigid", "hardtail", "full"]);
+export type SuspensionType = z.infer<typeof SuspensionTypeEnum>;
+
 export const GroupsetBrandEnum = z.enum([
   "shimano",
   "sram",
@@ -100,6 +103,8 @@ export const BikeProductSchema = z.object({
   currentPriceEur: z.number().positive().max(50000),
   discountPercentage: z.number().min(0).max(100).optional(),
   isOutlet: z.boolean().default(false),
+  suspensionType: SuspensionTypeEnum.default("rigid"),
+  isElectric: z.boolean().default(false),
   frameMaterial: FrameMaterialEnum,
   forkMaterial: ForkMaterialEnum.default("carbon"),
   weightKg: z.number().positive().max(30).optional(),
