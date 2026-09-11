@@ -103,22 +103,22 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
   return (
     <div className="space-y-6">
       {/* Top Search & Filter Bar */}
-      <div className="rounded-2xl bg-white p-4 sm:p-5 border border-slate-200 shadow-xs">
+      <div className="rounded-3xl bg-white p-4 sm:p-5 border border-slate-200/90 shadow-2xs">
         <div className="flex flex-col md:flex-row items-center gap-3">
           {/* Search Box */}
           <div className="relative w-full flex-1">
-            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
             <input
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Buscar por modelo, marca, grupo (ej. Grizl, Shimano GRX, Rival AXS)..."
-              className="w-full pl-10 pr-10 py-2.5 rounded-xl border border-slate-200 bg-slate-50 text-xs sm:text-sm text-slate-900 placeholder:text-slate-400 focus:bg-white focus:border-teal-500 focus:outline-hidden transition-all"
+              className="w-full pl-11 pr-10 py-3 rounded-2xl border border-slate-200 bg-slate-50/80 text-xs sm:text-sm text-slate-900 placeholder:text-slate-400 focus:bg-white focus:border-teal-500 focus:ring-4 focus:ring-teal-500/10 focus:outline-hidden transition-all"
             />
             {searchTerm && (
               <button
                 onClick={() => setSearchTerm("")}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600"
+                className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1 rounded-md"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -129,14 +129,14 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
           <div className="flex items-center gap-2.5 w-full md:w-auto justify-between md:justify-end">
             <button
               onClick={() => setMobileFilterOpen(!mobileFilterOpen)}
-              className="md:hidden flex-1 inline-flex items-center justify-center gap-2 rounded-xl bg-slate-100 px-4 py-2.5 text-xs font-bold text-slate-700 hover:bg-slate-200"
+              className="md:hidden flex-1 inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-xs font-bold text-slate-700 hover:bg-slate-200 transition-colors"
             >
               <SlidersHorizontal className="w-4 h-4 text-teal-600" />
               <span>Filtros {activeFiltersCount > 0 && `(${activeFiltersCount})`}</span>
             </button>
 
             {/* Sort Dropdown */}
-            <div className="flex items-center gap-1.5 shrink-0">
+            <div className="flex items-center gap-2 shrink-0">
               <ArrowUpDown className="w-4 h-4 text-slate-400 hidden sm:inline" />
               <select
                 value={filters.sortBy || "price_asc"}
@@ -146,7 +146,7 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
                     sortBy: e.target.value as any,
                   })
                 }
-                className="rounded-xl border border-slate-200 bg-slate-50 py-2.5 px-3 text-xs font-semibold text-slate-800 focus:border-teal-500 focus:outline-hidden"
+                className="rounded-2xl border border-slate-200 bg-slate-50/80 py-3 px-3.5 text-xs font-bold text-slate-800 focus:border-teal-500 focus:bg-white focus:outline-hidden transition-all cursor-pointer"
               >
                 <option value="price_asc">Precio: Menor a Mayor</option>
                 <option value="price_desc">Precio: Mayor a Menor</option>
@@ -391,26 +391,26 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
 
               {/* Paginación progresiva / Cargar más */}
               {filteredBikes.length > visibleCount && (
-                <div className="flex flex-col items-center justify-center pt-8 pb-4 space-y-3.5 border-t border-slate-200">
-                  <div className="text-xs font-semibold text-slate-500">
-                    Mostrando <span className="font-bold text-slate-800">{displayedBikes.length}</span> de{" "}
-                    <span className="font-bold text-slate-800">{filteredBikes.length}</span> bicicletas
+                <div className="flex flex-col items-center justify-center pt-8 pb-4 space-y-4 border-t border-slate-200">
+                  <div className="text-xs font-bold text-slate-500">
+                    Mostrando <span className="text-slate-900 font-black">{displayedBikes.length}</span> de{" "}
+                    <span className="text-slate-900 font-black">{filteredBikes.length}</span> bicicletas
                   </div>
-                  <div className="w-full max-w-xs h-1.5 bg-slate-200 rounded-full overflow-hidden">
+                  <div className="w-full max-w-xs h-2 bg-slate-200/80 rounded-full overflow-hidden p-0.5">
                     <div
-                      className="h-full bg-teal-600 rounded-full transition-all duration-300"
+                      className="h-full bg-gradient-to-r from-teal-500 to-emerald-400 rounded-full transition-all duration-300"
                       style={{
                         width: `${Math.min(100, Math.round((displayedBikes.length / filteredBikes.length) * 100))}%`,
                       }}
                     />
                   </div>
-                  <div className="flex flex-wrap items-center justify-center gap-2.5 pt-1">
+                  <div className="flex flex-wrap items-center justify-center gap-3 pt-1">
                     <button
                       type="button"
                       onClick={() =>
                         setVisibleCount((prev) => Math.min(prev + PAGE_SIZE, filteredBikes.length))
                       }
-                      className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 text-white text-xs sm:text-sm font-bold shadow-xs hover:bg-teal-700 active:scale-98 transition-all cursor-pointer"
+                      className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-slate-950 hover:bg-teal-600 text-white text-xs sm:text-sm font-bold shadow-md shadow-slate-950/10 active:scale-98 transition-all cursor-pointer"
                     >
                       <span>Cargar más (+{Math.min(PAGE_SIZE, filteredBikes.length - visibleCount)})</span>
                       <ChevronDown className="w-4 h-4" />
@@ -418,7 +418,7 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
                     <button
                       type="button"
                       onClick={() => setVisibleCount(filteredBikes.length)}
-                      className="px-4 py-2.5 rounded-xl border border-slate-300 bg-white text-slate-700 text-xs sm:text-sm font-semibold hover:bg-slate-50 transition-colors cursor-pointer"
+                      className="px-5 py-3 rounded-2xl border border-slate-200 bg-white text-slate-700 text-xs sm:text-sm font-bold hover:bg-slate-50 transition-colors cursor-pointer shadow-2xs"
                     >
                       Ver todas ({filteredBikes.length})
                     </button>
@@ -435,7 +435,7 @@ export function CatalogView({ initialBikes, brands, initialDiscipline }: Catalog
         <button
           onClick={scrollToTop}
           aria-label="Volver arriba"
-          className="fixed bottom-6 right-6 z-40 p-3 rounded-full bg-slate-900/90 text-white shadow-xl backdrop-blur-xs hover:bg-teal-600 transition-all active:scale-95 cursor-pointer"
+          className="fixed bottom-6 right-6 z-40 p-3.5 rounded-2xl bg-slate-950/90 text-white shadow-xl backdrop-blur-md hover:bg-teal-600 transition-all active:scale-95 cursor-pointer ring-1 ring-white/10"
         >
           <ArrowUp className="w-5 h-5" />
         </button>

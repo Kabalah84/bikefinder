@@ -12,7 +12,11 @@ import {
   ShieldCheck,
   Scale,
   Sparkles,
-  CircleDot,
+  Mountain,
+  CheckCircle2,
+  ChevronRight,
+  Layers,
+  Activity,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -59,6 +63,12 @@ export default function HomePage({ searchParams }: PageProps) {
   const selectedDiscipline = searchParams.discipline as Discipline | undefined;
   const activeCategory = categories.find((c) => c.id === selectedDiscipline);
 
+  // Conteo dinámico de modelos por categoría
+  const countByDiscipline = bikes.reduce<Record<string, number>>((acc, bike) => {
+    acc[bike.discipline] = (acc[bike.discipline] || 0) + 1;
+    return acc;
+  }, {});
+
   const breadcrumbsSchema = generateBreadcrumbsSchema([
     { name: "Inicio", url: "/" },
     ...(activeCategory
@@ -66,7 +76,6 @@ export default function HomePage({ searchParams }: PageProps) {
       : []),
   ]);
 
-  // ItemList Schema para el catálogo destacado
   const itemListSchema = {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -79,107 +88,206 @@ export default function HomePage({ searchParams }: PageProps) {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-6 sm:pt-10 space-y-8">
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-5 sm:pt-8 space-y-8">
       {/* JSON-LD Structured Data */}
       <JsonLd data={[breadcrumbsSchema, itemListSchema]} />
 
-      {/* Hero Section */}
-      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-950 via-slate-900 to-teal-950 px-6 py-10 sm:px-12 sm:py-14 text-white shadow-xl">
-        <div className="relative z-10 max-w-3xl space-y-4">
-          <div className="inline-flex items-center gap-2 rounded-full bg-teal-500/20 px-3 py-1 text-xs font-semibold text-teal-300 border border-teal-500/30 backdrop-blur-xs">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>Comparador Técnico de Ciclismo Oficial · Temporadas 2025 - 2027</span>
+      {/* Hero Section "Pro Performance" */}
+      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#060a13] via-[#091122] to-[#041a1a] p-6 sm:p-10 lg:p-12 text-white shadow-2xl border border-slate-800/80">
+        {/* Subtle radial ambient grid aura */}
+        <div className="absolute -right-24 -top-24 h-96 w-96 rounded-full bg-teal-500/15 blur-3xl pointer-events-none" />
+        <div className="absolute right-1/3 -bottom-24 h-80 w-80 rounded-full bg-emerald-500/10 blur-3xl pointer-events-none" />
+        <div className="absolute left-1/4 top-1/2 h-64 w-64 rounded-full bg-blue-600/10 blur-3xl pointer-events-none" />
+
+        <div className="relative z-10 max-w-3xl space-y-5">
+          {/* Top Pill Tag */}
+          <div className="inline-flex items-center gap-2 rounded-full bg-slate-900/90 px-3.5 py-1.5 text-xs font-bold text-teal-300 border border-teal-500/30 shadow-inner backdrop-blur-md">
+            <span className="flex h-2 w-2 rounded-full bg-teal-400 animate-pulse" />
+            <span>Índice Técnico Oficial de Ciclismo · Temporadas 2025 – 2027</span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight text-white">
-            Encuentra y compara tu bicicleta de{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-emerald-400 to-amber-300">
+          {/* Headline */}
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1] text-white">
+            El comparador definitivo de{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 via-emerald-300 to-cyan-200">
               Carretera, Gravel y Montaña
             </span>
           </h1>
 
-          <p className="text-sm sm:text-base text-slate-300 max-w-2xl leading-relaxed">
-            Sin intermediarios ni enlaces de Amazon. Confronta pesos reales en báscula, suspensión rígida o doble, asistencia eléctrica, desarrollos para escalada y geometría de marcas líderes: BH, Bianchi, Cannondale, Canyon, Giant, Liv, Megamo, Merida, Pinarello, Scott, Specialized y más.
+          {/* Copy */}
+          <p className="text-xs sm:text-base text-slate-300 max-w-2xl leading-relaxed">
+            Sin intermediarios ni comisiones de Amazon. Confronta pesos reales en báscula,
+            pasos de rueda al milímetro, suspensiones rígidas y dobles, e-bikes y geometrías
+            Stack/Reach de los 15 mayores fabricantes del mundo.
           </p>
 
-          {/* Quick value badges */}
-          <div className="pt-2 flex flex-wrap gap-4 text-xs font-medium text-slate-300">
+          {/* Live Metrics Grid */}
+          <div className="grid grid-cols-3 gap-3 pt-2 max-w-lg">
+            <div className="rounded-2xl bg-white/5 border border-white/10 p-3 backdrop-blur-xs">
+              <span className="block text-xl sm:text-2xl font-black text-teal-400">
+                {bikes.length}+
+              </span>
+              <span className="text-[11px] font-semibold text-slate-300 uppercase tracking-wider">
+                Bicis Analizadas
+              </span>
+            </div>
+            <div className="rounded-2xl bg-white/5 border border-white/10 p-3 backdrop-blur-xs">
+              <span className="block text-xl sm:text-2xl font-black text-emerald-400">
+                {brands.length}
+              </span>
+              <span className="text-[11px] font-semibold text-slate-300 uppercase tracking-wider">
+                Marcas Oficiales
+              </span>
+            </div>
+            <div className="rounded-2xl bg-white/5 border border-white/10 p-3 backdrop-blur-xs">
+              <span className="block text-xl sm:text-2xl font-black text-amber-400">
+                100%
+              </span>
+              <span className="text-[11px] font-semibold text-slate-300 uppercase tracking-wider">
+                Datos Verificados
+              </span>
+            </div>
+          </div>
+
+          {/* Value Badges */}
+          <div className="pt-1 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs font-semibold text-slate-300">
             <div className="flex items-center gap-1.5">
-              <ShieldCheck className="w-4 h-4 text-emerald-400" />
-              <span>Enlaces 100% Oficiales</span>
+              <CheckCircle2 className="w-4 h-4 text-teal-400" />
+              <span>Enlaces a webs oficiales</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <Zap className="w-4 h-4 text-amber-400" />
+              <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+              <span>Cálculo automático ratio subida</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <CheckCircle2 className="w-4 h-4 text-amber-400" />
               <span>Filtro E-Bikes y Suspensión</span>
-            </div>
-            <div className="flex items-center gap-1.5">
-              <Scale className="w-4 h-4 text-teal-400" />
-              <span>Comparador 1v1 y Multivía</span>
             </div>
           </div>
         </div>
-
-        {/* Decorative background glow */}
-        <div className="absolute -right-20 -top-20 h-96 w-96 rounded-full bg-teal-500/15 blur-3xl" />
-        <div className="absolute right-40 -bottom-20 h-64 w-64 rounded-full bg-emerald-500/10 blur-2xl" />
       </section>
 
-      {/* Category Pills Selector */}
-      <section aria-label="Categorías de bicicletas" className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4">
-        {categories.map((cat) => {
-          const isActive = selectedDiscipline === cat.id;
-          return (
+      {/* Category Cards Selector (Refined Glassmorphic) */}
+      <section aria-label="Categorías de bicicletas">
+        <div className="flex items-center justify-between mb-3 px-1">
+          <h2 className="text-xs font-black uppercase tracking-wider text-slate-600 flex items-center gap-1.5">
+            <Layers className="w-3.5 h-3.5 text-slate-500" />
+            <span>Explorar por Disciplina</span>
+          </h2>
+          {selectedDiscipline && (
             <Link
-              key={cat.id}
-              href={isActive ? "/" : `/?discipline=${cat.id}`}
-              className={`p-4 rounded-2xl border transition-all ${
-                isActive
-                  ? "bg-slate-900 text-white border-slate-900 shadow-md ring-2 ring-teal-500/50"
-                  : "bg-white text-slate-800 border-slate-200 hover:border-teal-400 hover:shadow-xs"
-              }`}
+              href="/"
+              className="text-xs font-bold text-teal-600 hover:text-teal-700 hover:underline"
             >
-              <div className="flex items-center justify-between mb-2">
-                <span
-                  className={`text-xs font-extrabold uppercase tracking-wider ${
-                    isActive ? "text-teal-300" : "text-teal-600"
-                  }`}
-                >
-                  {cat.targetClearanceRange}
-                </span>
-                {cat.id === "gravel" ? (
-                  <Compass className="w-4 h-4 text-amber-500" />
-                ) : cat.id === "road_endurance" ? (
-                  <Zap className="w-4 h-4 text-sky-500" />
-                ) : cat.id === "road_race" ? (
-                  <Flame className="w-4 h-4 text-rose-500" />
-                ) : (
-                  <Sparkles className="w-4 h-4 text-emerald-400" />
-                )}
-              </div>
-              <h2 className="font-bold text-sm sm:text-base leading-snug">{cat.name}</h2>
-              <p
-                className={`text-xs mt-1 line-clamp-1 ${
-                  isActive ? "text-slate-300" : "text-slate-500"
+              Ver todas ({bikes.length})
+            </Link>
+          )}
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+          {categories.map((cat) => {
+            const isActive = selectedDiscipline === cat.id;
+            const count = countByDiscipline[cat.id] || 0;
+
+            const getCatAccent = () => {
+              switch (cat.id) {
+                case "gravel":
+                  return {
+                    icon: <Compass className="w-4 h-4 text-amber-500" />,
+                    tagBg: "bg-amber-50 text-amber-900 border-amber-200",
+                    borderActive: "border-amber-500 ring-2 ring-amber-500/20",
+                  };
+                case "road_endurance":
+                  return {
+                    icon: <Zap className="w-4 h-4 text-sky-500" />,
+                    tagBg: "bg-sky-50 text-sky-900 border-sky-200",
+                    borderActive: "border-sky-500 ring-2 ring-sky-500/20",
+                  };
+                case "road_race":
+                  return {
+                    icon: <Flame className="w-4 h-4 text-rose-500" />,
+                    tagBg: "bg-rose-50 text-rose-900 border-rose-200",
+                    borderActive: "border-rose-500 ring-2 ring-rose-500/20",
+                  };
+                case "mtb":
+                  return {
+                    icon: <Mountain className="w-4 h-4 text-purple-500" />,
+                    tagBg: "bg-purple-50 text-purple-900 border-purple-200",
+                    borderActive: "border-purple-500 ring-2 ring-purple-500/20",
+                  };
+                default:
+                  return {
+                    icon: <Sparkles className="w-4 h-4 text-emerald-500" />,
+                    tagBg: "bg-emerald-50 text-emerald-900 border-emerald-200",
+                    borderActive: "border-emerald-500 ring-2 ring-emerald-500/20",
+                  };
+              }
+            };
+
+            const accent = getCatAccent();
+
+            return (
+              <Link
+                key={cat.id}
+                href={isActive ? "/" : `/?discipline=${cat.id}`}
+                className={`p-4 rounded-2xl border transition-all duration-200 card-hover-lift flex flex-col justify-between ${
+                  isActive
+                    ? `bg-slate-950 text-white border-slate-950 shadow-lg ${accent.borderActive}`
+                    : "bg-white text-slate-800 border-slate-200/90 hover:border-slate-300 shadow-2xs hover:shadow-md"
                 }`}
               >
-                {cat.subtitle}
-              </p>
-            </Link>
-          );
-        })}
+                <div>
+                  <div className="flex items-center justify-between mb-2.5">
+                    <span
+                      className={`text-[10px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded-md border ${
+                        isActive
+                          ? "bg-white/15 text-teal-300 border-white/20"
+                          : accent.tagBg
+                      }`}
+                    >
+                      {cat.targetClearanceRange}
+                    </span>
+                    {accent.icon}
+                  </div>
+                  <h3 className="font-extrabold text-sm sm:text-base tracking-tight leading-snug">
+                    {cat.name}
+                  </h3>
+                  <p
+                    className={`text-xs mt-0.5 line-clamp-1 ${
+                      isActive ? "text-slate-300" : "text-slate-600"
+                    }`}
+                  >
+                    {cat.subtitle}
+                  </p>
+                </div>
+
+                <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] font-bold">
+                  <span className={isActive ? "text-slate-300" : "text-slate-600"}>
+                    {count} bicicletas
+                  </span>
+                  <ChevronRight
+                    className={`w-3.5 h-3.5 ${
+                      isActive ? "text-teal-400" : "text-slate-400"
+                    }`}
+                  />
+                </div>
+              </Link>
+            );
+          })}
+        </div>
       </section>
 
       {/* Main Catalog with Live Filters and Grid */}
-      <section aria-label="Listado de bicicletas">
+      <section aria-label="Listado de bicicletas" className="pt-2">
         <div className="flex items-baseline justify-between mb-4">
           <div>
-            <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+            <h2 className="text-xl sm:text-2xl font-black text-slate-950 tracking-tight">
               {selectedDiscipline
                 ? `Catálogo: ${categories.find((c) => c.id === selectedDiscipline)?.name}`
                 : "Catálogo Completo de Bicicletas"}
             </h2>
-            <p className="text-xs sm:text-sm text-slate-500">
-              Filtra por paso de rueda, transmisión electrónica Di2/AXS, peso y presupuesto.
+            <p className="text-xs sm:text-sm text-slate-600 mt-0.5">
+              Filtra por paso de rueda, transmisión electrónica Di2/AXS, suspensión, motor y presupuesto.
             </p>
           </div>
         </div>

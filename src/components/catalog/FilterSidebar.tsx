@@ -74,18 +74,25 @@ export function FilterSidebar({
   };
 
   return (
-    <aside className="w-full rounded-2xl bg-white border border-slate-200 shadow-xs md:max-h-[calc(100vh-6rem)] md:flex md:flex-col overflow-hidden">
+    <aside className="w-full rounded-3xl bg-white border border-slate-200/90 shadow-2xs md:max-h-[calc(100vh-6rem)] md:flex md:flex-col overflow-hidden">
       {/* Header & Reset (Fixed at top of filter card) */}
-      <div className="p-4 sm:p-5 border-b border-slate-100 bg-white flex items-center justify-between shrink-0">
-        <div className="flex items-center gap-2">
-          <SlidersHorizontal className="w-4 h-4 text-teal-600" />
-          <h2 className="font-bold text-slate-900 text-sm">Filtros Técnicos</h2>
+      <div className="p-4 sm:p-5 border-b border-slate-100 bg-slate-50/50 flex items-center justify-between shrink-0">
+        <div className="flex items-center gap-2.5">
+          <div className="p-2 rounded-xl bg-teal-50 text-teal-600 border border-teal-100 shadow-2xs">
+            <SlidersHorizontal className="w-4 h-4" />
+          </div>
+          <div>
+            <h2 className="font-black text-slate-950 text-sm">Filtros Técnicos</h2>
+            <span className="text-[10px] font-bold text-slate-500">
+              {filteredBikesCount} disponibles
+            </span>
+          </div>
         </div>
         <button
           onClick={onReset}
-          className="flex items-center gap-1 text-xs font-semibold text-slate-500 hover:text-teal-600 hover:underline transition-colors"
+          className="flex items-center gap-1 text-xs font-bold text-slate-500 hover:text-rose-600 transition-colors px-2 py-1 rounded-lg hover:bg-rose-50 cursor-pointer"
         >
-          <RotateCcw className="w-3 h-3" />
+          <RotateCcw className="w-3.5 h-3.5" />
           Limpiar
         </button>
       </div>
