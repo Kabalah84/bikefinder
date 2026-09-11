@@ -9303,5 +9303,3367 @@
         ]
       }
     ]
+  },
+  {
+    "id": "giant-revolt-advanced-pro-1-2026",
+    "brand": "Giant",
+    "model": "Revolt Advanced Pro 1",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-advanced-pro-1",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/zqpdwszujczee8ihu91i/MY26RevoltAdvancedPro1_ColorAOceanTwilight.jpg",
+    "msrpEur": 6999,
+    "currentPriceEur": 5499,
+    "discountPercentage": 21,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Rival AXS E1",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "30/43T",
+      "cassette": "10-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.3
+    },
+    "geometry": {
+      "stackMm": 586,
+      "reachMm": 387,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 80,
+      "standoverHeightMm": 757
+    },
+    "description": "Bicicleta oficial Giant Revolt Advanced Pro 1 (2026) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes SRAM Rival AXS E1.",
+    "highlights": [
+      "Cuadro Giant Composite Carbon",
+      "Grupo SRAM Rival AXS E1",
+      "Paso de rueda hasta 53 mm",
+      "Cambio electrónico",
+      "Cockpit aerodinámico integrado"
+    ],
+    "brakes": "SRAM Rival AXS E1 hydraulic, SRAM PaceLine rotors [F]160mm, [R]160mm",
+    "wheels": "Giant CXR 2 WheelSystem, [F] 35mm, [R] 35mm",
+    "tires": "CADEX GX, 700x40c, tubeless",
+    "colors": [
+      "Ocean Twilight",
+      "Chrome"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-grade composite, 12x142mm thru-axle, disc, flip chip dropout, down tube storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced SL-grade composite, full-composite OverDrive steerer, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Ocean Twilight/Chrome"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "SRAM Rival AXS E1"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "SRAM Rival AXS D1"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "SRAM Rival AXS E1, 2x12"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "SRAM Rival D1 DUB, 30/43 XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "SRAM Rival D1, 12-speed, 10x36"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Rival E1"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "SRAM DUB, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM Rival AXS E1 hydraulic, SRAM PaceLine rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "SRAM Rival AXS E1 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant CXR 2 WheelSystem, [F] 35mm, [R] 35mm"
+          },
+          {
+            "label": "Bujes",
+            "value": "[F] Giant AR alloy, CenterLock, 12mm thru-axle, [R] Giant AR alloy, DT350 36t ratchet driver, CenterLock, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim CX-Ray"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "CADEX GX, 700x40c, tubeless"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact SLR XR D-Fuse, 31.8mm XS:42cm, S:42cm, M:44cm, M/L:44cm, L:46cm, XL:46cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact AeroLight, -10 degree XS:50mm, S:60mm, M:70mm, M/L:80mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse SLR, composite, -5/+15mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-revolt-advanced-pro-0-2026",
+    "brand": "Giant",
+    "model": "Revolt Advanced Pro 0",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-advanced-pro-0",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/kairpcniftfft4yaxy4h/MY26RevoltAdvancedPro0_ColorACyberLime.jpg",
+    "msrpEur": 6999,
+    "currentPriceEur": 6999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Force AXS E1",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "30/43T",
+      "cassette": "10-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.3
+    },
+    "geometry": {
+      "stackMm": 586,
+      "reachMm": 387,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 80,
+      "standoverHeightMm": 757
+    },
+    "description": "Bicicleta oficial Giant Revolt Advanced Pro 0 (2026) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes SRAM Force AXS E1.",
+    "highlights": [
+      "Cuadro Giant Composite Carbon",
+      "Grupo SRAM Force AXS E1",
+      "Paso de rueda hasta 53 mm",
+      "Cambio electrónico",
+      "Cockpit aerodinámico integrado"
+    ],
+    "brakes": "SRAM Force AXS E1 hydraulic, SRAM CenterLine rotors [F]160mm, [R]160mm",
+    "wheels": "Giant CXR 1 WheelSystem, [F] 35mm, [R] 35mm",
+    "tires": "CADEX GX, 700x40c, tubeless",
+    "colors": [
+      "Cyber Lime"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-grade composite, 12x142mm thru-axle, disc, flip chip dropout, down tube storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced SL-grade composite, full-composite OverDrive steerer, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Cyber Lime"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "SRAM Force AXS E1"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "SRAM Force AXS D2"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "SRAM Force AXS E1, 2x12"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "SRAM Force D2 DUB, 30/43 XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "SRAM Force E1, 12-speed, 10x36"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Force E1"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "SRAM DUB, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM Force AXS E1 hydraulic, SRAM CenterLine rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "SRAM Force AXS E1 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant CXR 1 WheelSystem, [F] 35mm, [R] 35mm"
+          },
+          {
+            "label": "Bujes",
+            "value": "[F] Giant AR alloy, CenterLock, 12mm thru-axle, [R] Giant AR alloy, DT350 36t ratchet driver, CenterLock, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim CX-Ray"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "CADEX GX, 700x40c, tubeless"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact SLR XR D-Fuse, 31.8mm XS:42cm, S:42cm, M:44cm, M/L:44cm, L:46cm, XL:46cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact AeroLight, -10 degree XS:50mm, S:60mm, M:70mm, M/L:80mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse SLR, composite, -5/+15mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-revolt-advanced-0-2026",
+    "brand": "Giant",
+    "model": "Revolt Advanced 0",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-advanced-0",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/hrfcu983yxzz5afvckdz/MY26RevoltAdvanced0_ColorASnowDrift1.jpg",
+    "msrpEur": 4299,
+    "currentPriceEur": 4299,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RX-820",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "31/48T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.86,
+      "maxGearRatio": 4.36
+    },
+    "geometry": {
+      "stackMm": 586,
+      "reachMm": 387,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 80,
+      "standoverHeightMm": 757
+    },
+    "description": "Bicicleta oficial Giant Revolt Advanced 0 (2026) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes Shimano GRX RX-820.",
+    "highlights": [
+      "Cuadro Giant Composite Carbon",
+      "Grupo Shimano GRX RX-820",
+      "Paso de rueda hasta 53 mm",
+      "Cockpit aerodinámico integrado"
+    ],
+    "brakes": "Shimano GRX RX-820 hydraulic, Shimano SM-RT70 rotors [F]160mm, [R]160mm",
+    "wheels": "Giant CXR 2 WheelSystem, [F] 35mm, [R] 35mm",
+    "tires": "Crosscut Grip 45c",
+    "colors": [
+      "Snow Drift"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-grade composite, 12x142mm thru-axle, disc, flip chip dropout, down tube storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive steerer, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Snow Drift"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX RX-820"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX RX-820"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX RX-820, 2x12"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX RX-820, 31/48 XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano CS-HG710, 12-speed, 11x36"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X12L-1"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "Shimano, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano GRX RX-820 hydraulic, Shimano SM-RT70 rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Shimano GRX RX-820 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant CXR 2 WheelSystem, [F] 35mm, [R] 35mm"
+          },
+          {
+            "label": "Bujes",
+            "value": "[F] Giant alloy, CenterLock, 12mm thru-axle, [R] Giant alloy, 3-pawl 36t driver, CenterLock, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim Sprint"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Crosscut Grip 45c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact XR D-Fuse, 31.8mm XS:42cm, S:42cm, M:44cm, M/L:44cm, L:46cm, XL:46cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact AeroLight, -10 degree XS:50mm, S:60mm, M:70mm, M/L:80mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse SL, composite, -5/+15mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-revolt-advanced-1-2026",
+    "brand": "Giant",
+    "model": "Revolt Advanced 1",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-advanced-1",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/z5miospretv3qt1ogbsw/MY26RevoltAdvanced1_ColorAMidnightMoon.jpg",
+    "msrpEur": 4299,
+    "currentPriceEur": 3399,
+    "discountPercentage": 21,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Apex XPLR",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "40T",
+      "cassette": "11-44T",
+      "minGearRatio": 0.91,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 586,
+      "reachMm": 387,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 80,
+      "standoverHeightMm": 757
+    },
+    "description": "Bicicleta oficial Giant Revolt Advanced 1 (2026) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes SRAM Apex XPLR.",
+    "highlights": [
+      "Cuadro Giant Composite Carbon",
+      "Grupo SRAM Apex XPLR",
+      "Paso de rueda hasta 53 mm",
+      "Cockpit aerodinámico integrado"
+    ],
+    "brakes": "SRAM Apex hydraulic, Giant MPH rotors [F]160mm, [R]160mm",
+    "wheels": "Giant P-X2 , alloy",
+    "tires": "Crosscut Grip 45c",
+    "colors": [
+      "Midnight Moon"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-grade composite, 12x142mm thru-axle, disc, flip chip dropout, down tube storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive steerer, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Midnight Moon"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "SRAM Apex XPLR"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "SRAM Apex 1, 1x12"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "SRAM Apex 1 Wide DUB, 40t XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "SRAM PG-1231, 12-speed, 11x44"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Apex D1"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "SRAM DUB, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM Apex hydraulic, Giant MPH rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "SRAM Apex 1, left lever dropper switch"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant P-X2 , alloy"
+          },
+          {
+            "label": "Bujes",
+            "value": "Giant alloy, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Crosscut Grip 45c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact XR D-Fuse, 31.8mm XS:42cm, S:42cm, M:44cm, M/L:44cm, L:46cm, XL:46cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact AeroLight, -10 degree XS:50mm, S:60mm, M:70mm, M/L:80mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Post Moderne, dropper, 30.9mm, 30mm suspension XS:295mm, S:345mm, M:345mm, M/L:345mm, L:395mm, XL:395mm"
+          },
+          {
+            "label": "Extras",
+            "value": "Giant 1x chain guide, tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-revolt-advanced-2-2026",
+    "brand": "Giant",
+    "model": "Revolt Advanced 2",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-advanced-2",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/xoxkocpsbkg3hetpomcl/MY26RevoltAdvanced2_ColorACarbonSmoke1.jpg",
+    "msrpEur": 4299,
+    "currentPriceEur": 2999,
+    "discountPercentage": 30,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RX-820",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "30/46T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 586,
+      "reachMm": 387,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 80,
+      "standoverHeightMm": 757
+    },
+    "description": "Bicicleta oficial Giant Revolt Advanced 2 (2026) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes Shimano GRX RX-820.",
+    "highlights": [
+      "Cuadro Giant Composite Carbon",
+      "Grupo Shimano GRX RX-820",
+      "Paso de rueda hasta 53 mm",
+      "Cockpit aerodinámico integrado"
+    ],
+    "brakes": "Shimano BR-RX410hydraulic, Giant MPH rotors [F]160mm, [R]160mm",
+    "wheels": "Giant P-X2 , alloy",
+    "tires": "Giant Crosscut Grip, 700x45c, tubeless",
+    "colors": [
+      "Carbon"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-grade composite, 12x142mm thru-axle, disc, flip chip dropout, down tube storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive steerer, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Carbon"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX RX-820"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX RX-820"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX RX-610, 2x12"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano FC-RX610-2, 30/46 XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano CS-HG710, 12-speed, 11x36"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X12L-1"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "Shimano, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RX410hydraulic, Giant MPH rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Shimano GRX RX-610 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant P-X2 , alloy"
+          },
+          {
+            "label": "Bujes",
+            "value": "Giant alloy, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Giant Crosscut Grip, 700x45c, tubeless"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact XR D-Fuse, 31.8mm XS:42cm, S:42cm, M:44cm, M/L:44cm, L:46cm, XL:46cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact AeroLight, -10 degree XS:50mm, S:60mm, M:70mm, M/L:80mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse, composite, 14mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-revolt-advanced-3-2026",
+    "brand": "Giant",
+    "model": "Revolt Advanced 3",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-advanced-3",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/ingsprcoxwn7clbi90xn/MY26RevoltAdvanced3_ColorAAquarium.jpg",
+    "msrpEur": 4299,
+    "currentPriceEur": 2599,
+    "discountPercentage": 40,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano CUES U6000",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "30T",
+      "cassette": "11-50T",
+      "minGearRatio": 0.6,
+      "maxGearRatio": 2.73
+    },
+    "geometry": {
+      "stackMm": 586,
+      "reachMm": 387,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 80,
+      "standoverHeightMm": 757
+    },
+    "description": "Bicicleta oficial Giant Revolt Advanced 3 (2026) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes Shimano CUES U6000.",
+    "highlights": [
+      "Cuadro Giant Composite Carbon",
+      "Grupo Shimano CUES U6000",
+      "Paso de rueda hasta 53 mm",
+      "Cockpit aerodinámico integrado"
+    ],
+    "brakes": "Shimano CUES U6030 hydraulic, Giant MPH rotors [F]160mm, [R]160mm",
+    "wheels": "Giant P-X2 , alloy",
+    "tires": "Giant Crosscut Grip, 700x45c, tubeless",
+    "colors": [
+      "Aquarium"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-grade composite, 12x142mm thru-axle, disc, flip chip dropout, down tube storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive steerer, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Aquarium"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano CUES U6000"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano CUES U6030, 1x11"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano FC-U6030-1, 42t XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano CS-LG400, 11x50"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X11"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "Shimano, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano CUES U6030 hydraulic, Giant MPH rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Shimano CUES U6030 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant P-X2 , alloy"
+          },
+          {
+            "label": "Bujes",
+            "value": "Giant alloy, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Giant Crosscut Grip, 700x45c, tubeless"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact XR D-Fuse, 31.8mm XS:42cm, S:42cm, M:44cm, M/L:44cm, L:46cm, XL:46cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact AeroLight, -10 degree XS:50mm, S:60mm, M:70mm, M/L:80mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse, composite, 14mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-revolt-2-2026",
+    "brand": "Giant",
+    "model": "Revolt 2",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-2",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/xdo1xq51wlouibwwlb5h/MY26Revolt2_ColorBIcicleWhite.jpg",
+    "msrpEur": 1699,
+    "currentPriceEur": 1399,
+    "discountPercentage": 18,
+    "isOutlet": true,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano CUES U4020",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "32/46T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.89,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 586,
+      "reachMm": 387,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1030,
+      "bbDropMm": 80,
+      "standoverHeightMm": 752
+    },
+    "description": "Bicicleta oficial Giant Revolt 2 (2026) de categoría gravel. Diseñada por Giant Group con cuadro aluminum y componentes Shimano CUES U4020.",
+    "highlights": [
+      "Grupo Shimano CUES U4020",
+      "Paso de rueda hasta 53 mm"
+    ],
+    "brakes": "Shimano BR-RS305 mechanical, Giant MPH rotors [F]160mm, [R]160mm",
+    "wheels": "Giant S-X2, alloy",
+    "tires": "CrossCut GRIP 1; 700x45c",
+    "colors": [
+      "Icicle White"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "ALUXX-grade aluminum, 12x142mm thru-axle, disc, flip chip dropout"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive steerer, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Icicle White"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano CUES U4020"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano CUES U6030"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano CUES U3030, 2x9"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano FC-U6030-2, 32/46 XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano CS-LG300, 11x36"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X11"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "Shimano, threaded"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano BR-RS305 mechanical, Giant MPH rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Shimano CUES U3030 mechanical"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant S-X2, alloy"
+          },
+          {
+            "label": "Bujes",
+            "value": "Giant alloy, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "stainless"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "CrossCut GRIP 1; 700x45c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact XR Ergo-Control, 31.8mm XS:42cm, S:42cm, M:44cm, M/L:44cm, L:46cm, XL:46cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact, 8-degree XS:50mm, S:60mm, M:70mm, M/L:80mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse, alloy, 14mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-revolt-1-2026",
+    "brand": "Giant",
+    "model": "Revolt 1",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-1",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/fiesndmthkvstarsjgf3/MY26Revolt1_ColorAAlpineGreen.jpg",
+    "msrpEur": 1699,
+    "currentPriceEur": 1699,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano CUES U6020",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "32/46T",
+      "cassette": "11-39T",
+      "minGearRatio": 0.82,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 586,
+      "reachMm": 387,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1030,
+      "bbDropMm": 80,
+      "standoverHeightMm": 752
+    },
+    "description": "Bicicleta oficial Giant Revolt 1 (2026) de categoría gravel. Diseñada por Giant Group con cuadro aluminum y componentes Shimano CUES U6020.",
+    "highlights": [
+      "Grupo Shimano CUES U6020",
+      "Paso de rueda hasta 53 mm"
+    ],
+    "brakes": "Shimano CUES U6030 hydraulic, Giant MPH rotors [F]160mm, [R]160mm",
+    "wheels": "Giant S-X2, alloy",
+    "tires": "CrossCut GRIP 1; 700x45c",
+    "colors": [
+      "Alpine Green"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "ALUXX-grade aluminum, 12x142mm thru-axle, disc, flip chip dropout"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive steerer, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Alpine Green"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano CUES U6020"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano CUES U6030"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano CUES U6030, 2x10"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano FC-U6030-2, 32/46 XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano CS-LG300, 11x39"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X11"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "Shimano, threaded"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano CUES U6030 hydraulic, Giant MPH rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Shimano CUES U6030 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant S-X2, alloy"
+          },
+          {
+            "label": "Bujes",
+            "value": "Giant alloy, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "stainless"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "CrossCut GRIP 1; 700x45c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact XR D-Fuse, 31.8mm XS:42cm, S:42cm, M:44cm, M/L:44cm, L:46cm, XL:46cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact, 8-degree XS:50mm, S:60mm, M:70mm, M/L:80mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse, alloy, 14mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-roam-4-2026",
+    "brand": "Giant",
+    "model": "Roam 4",
+    "year": 2026,
+    "discipline": "all_road",
+    "officialUrl": "https://www.giant-bicycles.com/es/roam-4",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/prw5obpofmsdwtyxtuyc/K-018MY26Roam4_ColorAStealthChrome.jpg",
+    "msrpEur": 599,
+    "currentPriceEur": 599,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Altus RD-M310",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "30/46T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 620,
+      "reachMm": 410,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 70.5,
+      "chainstayLengthMm": 450,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 460,
+      "headTubeLengthMm": 130,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1098,
+      "bbDropMm": 62,
+      "standoverHeightMm": 756
+    },
+    "description": "Bicicleta oficial Giant Roam 4 (2026) de categoría all_road. Diseñada por Giant Group con cuadro aluminum y componentes Shimano Altus RD-M310.",
+    "highlights": [
+      "Grupo Shimano Altus RD-M310",
+      "Paso de rueda hasta 53 mm"
+    ],
+    "brakes": "Tektro TKD-143 hydraulic [F]160mm, [R]160mm rotors",
+    "wheels": "Giant double wall aluminum",
+    "tires": "Giant CrossCut, anti-puncture, 700x42c",
+    "colors": [
+      "Stealth Chrome"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "ALUXX-grade aluminum, disc"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SR Suntour NEX 700C, 63mm"
+          },
+          {
+            "label": "Colores",
+            "value": "Stealth Chrome"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Altus RD-M310"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Tourney FD-TY606"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Altus, 2x8"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "forged alloy, 30/46 S:170mm, M:170mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano CS-HG31, 11x34"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC Z7"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "threaded"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Tektro TKD-143 hydraulic [F]160mm, [R]160mm rotors"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Tektro TKD-173"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant double wall aluminum"
+          },
+          {
+            "label": "Bujes",
+            "value": "alloy, 32h"
+          },
+          {
+            "label": "Radios",
+            "value": "stainless, 14g"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Giant CrossCut, anti-puncture, 700x42c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Sport XC, 31.8mm S:64cm, M:68cm, L:68cm, XL:68cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact, 8-degree S:70mm, M:80mm, L:90mm, XL:100mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse, alloy, 350mm"
+          },
+          {
+            "label": "Extras",
+            "value": "53mm max tire size"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-roam-2-2025",
+    "brand": "Giant",
+    "model": "Roam 2",
+    "year": 2025,
+    "discipline": "all_road",
+    "officialUrl": "https://www.giant-bicycles.com/es/roam-2-2025",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/r2pfp7rheh5juibawrmc/MY25Roam2_ColorAAsphaltGreen.jpg",
+    "msrpEur": 849,
+    "currentPriceEur": 849,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano RDU602010",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "30/46T",
+      "cassette": "11-39T",
+      "minGearRatio": 0.77,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 620,
+      "reachMm": 410,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 70.5,
+      "chainstayLengthMm": 450,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 460,
+      "headTubeLengthMm": 130,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1098,
+      "bbDropMm": 62,
+      "standoverHeightMm": 756
+    },
+    "description": "Bicicleta oficial Giant Roam 2 (2025) de categoría all_road. Diseñada por Giant Group con cuadro aluminum y componentes Shimano RDU602010.",
+    "highlights": [
+      "Grupo Shimano RDU602010",
+      "Paso de rueda hasta 53 mm"
+    ],
+    "brakes": "Tektro TKD-143 hydraulic, [F]160mm, [R]160mm rotors",
+    "wheels": "Giant double wall aluminum",
+    "tires": "Giant CrossCut, anti-puncture, 700x42c",
+    "colors": [
+      "Asphalt Green"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "ALUXX-grade aluminum, disc"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SR Suntour NEX HLO 700C, 63mm"
+          },
+          {
+            "label": "Colores",
+            "value": "Asphalt Green"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano RDU602010"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano CUES FDU6010"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano CUES U6000, 10-speed"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "forged alloy, 30/46 S:170mm, M:170mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano CS-LG40010D, 11x39"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X11"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "threaded"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Tektro TKD-143 hydraulic, [F]160mm, [R]160mm rotors"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Tektro TKD-143"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant double wall aluminum"
+          },
+          {
+            "label": "Bujes",
+            "value": "alloy, 28h"
+          },
+          {
+            "label": "Radios",
+            "value": "stainless, 14g"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Giant CrossCut, anti-puncture, 700x42c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Sport XC, 31.8mm S:64cm, M:68cm, L:68cm, XL:68cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Sport, 8-degree S:60mm, M:70mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse, alloy, 350mm"
+          },
+          {
+            "label": "Extras",
+            "value": "53mm max tire size"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-tcx-advanced-pro-2-2024",
+    "brand": "Giant",
+    "model": "TCX Advanced Pro 2",
+    "year": 2024,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/tcx-advanced-pro-2-2024",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/xtzpzjx5dkelburijmzy/MY24TCXAdvancedPro2_ColorAKelpForest.jpg",
+    "msrpEur": 3199,
+    "currentPriceEur": 3199,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "Sram Apex 1X12",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "40T",
+      "cassette": "11-44T",
+      "minGearRatio": 0.91,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 556,
+      "reachMm": 375,
+      "stackReachRatio": 1.48,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 545,
+      "seatTubeLengthMm": 525,
+      "headTubeLengthMm": 148,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1020,
+      "bbDropMm": 60,
+      "standoverHeightMm": 807
+    },
+    "description": "Bicicleta oficial Giant TCX Advanced Pro 2 (2024) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes Sram Apex 1X12.",
+    "highlights": [
+      "Cuadro Giant Composite Carbon",
+      "Grupo Sram Apex 1X12",
+      "Paso de rueda hasta 45 mm"
+    ],
+    "brakes": "Sram Apex 1X12 HRD (hydraulic road disc), Giant MPH rotors [F]160mm, [R]160mm",
+    "wheels": "Giant P-X2 Disc wheelset, alloy",
+    "tires": "Maxxis All-Terrene, 700x33c, tubeless",
+    "colors": [
+      "Kelp Forest",
+      "Iris"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-grade composite, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive 2 steerer, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Kelp Forest/Iris"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Sram Apex 1X12"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "SRAM Apex, 1x12"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "SRAM Apex 1 Wide, DUB 1X 40T XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Sram Apex XPLR PG-1231, 11X44"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Apex D1, 12-speed, CN-APX-D1"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "SRAM DUB, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Sram Apex 1X12 HRD (hydraulic road disc), Giant MPH rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Sram Apex 1X12 HRD"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant P-X2 Disc wheelset, alloy"
+          },
+          {
+            "label": "Bujes",
+            "value": "Giant alloy, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis All-Terrene, 700x33c, tubeless"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact SL XS:40cm, S:40cm, M:42cm, M/L:42cm, L:44cm, XL:44cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact SL XS:70mm, S:80mm, M:90mm, M/L:100mm, L:100mm, XL:110mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse SL, composite, 16mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "Giant 1x chainguide, tubeless prepared, 45mm max tire size"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-revolt-advanced-0-2025",
+    "brand": "Giant",
+    "model": "Revolt Advanced 0",
+    "year": 2025,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-advanced-0-2025",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/xffeizs3rr8xwe2umifn/MY25RevoltAdvanced0_ColorAAuroraNoise.jpg",
+    "msrpEur": 4499,
+    "currentPriceEur": 4499,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RX-820",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "31/48T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.86,
+      "maxGearRatio": 4.36
+    },
+    "geometry": {
+      "stackMm": 586,
+      "reachMm": 387,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 80,
+      "standoverHeightMm": 757
+    },
+    "description": "Bicicleta oficial Giant Revolt Advanced 0 (2025) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes Shimano GRX RX-820.",
+    "highlights": [
+      "Cuadro Giant Composite Carbon",
+      "Grupo Shimano GRX RX-820",
+      "Paso de rueda hasta 53 mm",
+      "Cockpit aerodinámico integrado"
+    ],
+    "brakes": "Shimano GRX RX-820 hydraulic, Shimano SM-RT70 rotors [F]160mm, [R]160mm",
+    "wheels": "Giant CXR 2 Carbon Disc WheelSystem, [F] 35mm, [R] 35mm",
+    "tires": "CADEX GX, 700x40c, tubeless",
+    "colors": [
+      "Aurora Noise"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-grade composite, 12x142mm thru-axle, disc, flip chip dropout, down tube storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive steerer, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Aurora Noise"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX RX-820"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX RX-820"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX RX-820, 2x12"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX RX-820, 31/48 XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano CS-HG710, 12-speed, 11x36"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X12L-1"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "Shimano, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano GRX RX-820 hydraulic, Shimano SM-RT70 rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Shimano GRX RX-820 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant CXR 2 Carbon Disc WheelSystem, [F] 35mm, [R] 35mm"
+          },
+          {
+            "label": "Bujes",
+            "value": "[F] Giant alloy, CenterLock, 12mm thru-axle [R] Giant alloy, 3-pawl 36t driver, CenterLock, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim Sprint"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "CADEX GX, 700x40c, tubeless"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact XR D-Fuse, 31.8mm XS:42cm, S:42cm, M:44cm, M/L:44cm, L:46cm, XL:46cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact AeroLight, -10 degree XS:50mm, S:60mm, M:70mm, M/L:80mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse SL, composite, -5/+15mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 53mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-revolt-x-advanced-pro-2-2024",
+    "brand": "Giant",
+    "model": "Revolt X Advanced Pro 2",
+    "year": 2024,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-x-advanced-pro-2-2024",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/peeapkthjc1tuasop2io/MY24RevoltXAdvancedPro2_ColorABlack_SeaSparkle.jpg",
+    "msrpEur": 4599,
+    "currentPriceEur": 4599,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "Sram X1 AXS Eagle w/ battery protector 1X12",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "40T",
+      "cassette": "11-50T",
+      "minGearRatio": 0.8,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 576,
+      "reachMm": 389,
+      "stackReachRatio": 1.48,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 115,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 68,
+      "standoverHeightMm": 755
+    },
+    "description": "Bicicleta oficial Giant Revolt X Advanced Pro 2 (2024) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes Sram X1 AXS Eagle w/ battery protector 1X12.",
+    "highlights": [
+      "Cuadro Giant Composite Carbon",
+      "Grupo Sram X1 AXS Eagle w/ battery protector 1X12",
+      "Paso de rueda hasta 53 mm",
+      "Cambio electrónico"
+    ],
+    "brakes": "SRAM hydraulic, SRAM PaceLine rotors [F]160mm, [R]160mm",
+    "wheels": "Giant CXR X1 WheelSystem, [F] 25.8mm, [R] 25.8mm",
+    "tires": "Maxxis Rambler, 700x45c, tubeless prepared",
+    "colors": [
+      "Black",
+      "Sea Sparkle"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-grade composite, 12x142mm thru-axle, disc, flip chip dropout"
+          },
+          {
+            "label": "Horquilla",
+            "value": "RockShox Rudy XPLR, 40mm, cartridge damper12x100mm thru-axle"
+          },
+          {
+            "label": "Colores",
+            "value": "Black/Sea Sparkle"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Sram X1 AXS Eagle w/ battery protector 1X12"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Sram Apex AXS 1X12"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "SRAM Apex 1 Wide DUB, 1X40t XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "SRAM PG-1230, 12-speed, 11x50"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM CN-EAGL-NX-A1, 12-speed"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "SRAM DUB, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM hydraulic, SRAM PaceLine rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "SRAM Apex AXS hydraulic, left lever dropper switch"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant CXR X1 WheelSystem, [F] 25.8mm, [R] 25.8mm"
+          },
+          {
+            "label": "Bujes",
+            "value": "[F] Giant CXR X alloy, CenterLock, 12mm thru-axle, [R] Giant CXR X alloy, 60t ratchet driver, CenterLock, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim Laser"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rambler, 700x45c, tubeless prepared"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact SL XR D-Fuse, 31.8mm XS:44cm, S:44cm, M:46cm, M/L:46cm, L:48cm, XL:48cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact, 8-degree XS:50mm, S:50mm, M:60mm, M/L:70mm, L:70mm, XL:80mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Post Moderne Suspension dropper, 30.9mm with 30mm of suspension XS:365mm / 75mm drop S:415mm / 100mm drop"
+          },
+          {
+            "label": "Extras",
+            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-revolt-x-1-2024",
+    "brand": "Giant",
+    "model": "Revolt X 1",
+    "year": 2024,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-x-1-2024",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/gilmeh4mdm8ieksuslc3/MY24RevoltX1_ColorAPanther_HeliosOrange.jpg",
+    "msrpEur": 2999,
+    "currentPriceEur": 2999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "Sram X1 Eagle 1X12",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "40T",
+      "cassette": "11-50T",
+      "minGearRatio": 0.8,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 576,
+      "reachMm": 389,
+      "stackReachRatio": 1.48,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 115,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 68,
+      "standoverHeightMm": 750
+    },
+    "description": "Bicicleta oficial Giant Revolt X 1 (2024) de categoría gravel. Diseñada por Giant Group con cuadro aluminum y componentes Sram X1 Eagle 1X12.",
+    "highlights": [
+      "Grupo Sram X1 Eagle 1X12",
+      "Paso de rueda hasta 53 mm"
+    ],
+    "brakes": "SRAM hydraulic, Giant MPH rotors [F]160mm, [R]160mm",
+    "wheels": "Giant P-X2 EVO Disc wheelset",
+    "tires": "Crosscut GRIP 700x45c, tubeless prepared",
+    "colors": [
+      "Panther",
+      "Helios Orange"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "ALUXX-grade aluminum, 12x142mm thru-axle, disc, flip chip dropout"
+          },
+          {
+            "label": "Horquilla",
+            "value": "RockShox Rudy XPLR, 40mm, cartridge damper12x100mm thru-axle"
+          },
+          {
+            "label": "Colores",
+            "value": "Panther/Helios Orange"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Sram X1 Eagle 1X12"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "SRAM Apex, 1x12"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "SRAM Apex 1 Wide, DUB 1X 40T XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "SRAM PG-1210, 12-speed, 11x50"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM CN-EAGL-NX-A1, 12-speed"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "SRAM DUB, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM hydraulic, Giant MPH rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Sram Apex 1X12 HRD (hydraulic road disc), left lever dropper switch"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant P-X2 EVO Disc wheelset"
+          },
+          {
+            "label": "Bujes",
+            "value": "Alloy"
+          },
+          {
+            "label": "Radios",
+            "value": "Stainless"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Crosscut GRIP 700x45c, tubeless prepared"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact SL XR D-Fuse, 31.8mm XS:44cm, S:44cm, M:46cm, M/L:46cm, L:48cm, XL:48cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact, 8-degree XS:50mm, S:50mm, M:60mm, M/L:70mm, L:70mm, XL:80mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Post Moderne suspension dropper, 30.9mm with 30mm of suspension XS:365mm / 75mm drop S:415mm / 100mm drop"
+          },
+          {
+            "label": "Extras",
+            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-revolt-1-2024",
+    "brand": "Giant",
+    "model": "Revolt 1",
+    "year": 2024,
+    "discipline": "gravel",
+    "officialUrl": "https://www.giant-bicycles.com/es/revolt-1-2024",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/dgskxzbtksvs55aevh68/MY24Revolt1_ColorACordovan.jpg",
+    "msrpEur": 1699,
+    "currentPriceEur": 1699,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "microshift",
+      "name": "Shimano GRX RX-400",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "32/48T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.94,
+      "maxGearRatio": 4.36
+    },
+    "geometry": {
+      "stackMm": 586,
+      "reachMm": 387,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 560,
+      "seatTubeLengthMm": 470,
+      "headTubeLengthMm": 150,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1030,
+      "bbDropMm": 80,
+      "standoverHeightMm": 752
+    },
+    "description": "Bicicleta oficial Giant Revolt 1 (2024) de categoría gravel. Diseñada por Giant Group con cuadro aluminum y componentes Shimano GRX RX-400.",
+    "highlights": [
+      "Grupo Shimano GRX RX-400",
+      "Paso de rueda hasta 53 mm"
+    ],
+    "brakes": "Shimano GRX RX-400 hydraulic, Giant MPH rotors [F]160mm, [R]160mm",
+    "wheels": "Giant S-X2 Disc wheelset, alloy",
+    "tires": "Giant CrossCut AT 2, 700x38c, tubeless",
+    "colors": [
+      "Cordovan"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "ALUXX-grade aluminum, 12x142mm thru-axle, disc, flip chip dropout"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive steerer, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Cordovan"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX RX-400"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Tiagra"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX RX-400, 2x10"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "FSA Omega Adventure, 32/48 XS:170mm, S:170mm, M:172.5mm, M/L:172.5mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano HG500, 11x34"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X10 with Missing Link"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "FSA Mega EXO"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano GRX RX-400 hydraulic, Giant MPH rotors [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Shimano GRX RX-400 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant S-X2 Disc wheelset, alloy"
+          },
+          {
+            "label": "Bujes",
+            "value": "Giant alloy, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "stainless"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Giant CrossCut AT 2, 700x38c, tubeless"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact XR D-Fuse, 31.8mm XS:42cm, S:42cm, M:44cm, M/L:44cm, L:46cm, XL:46cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact, 8-degree XS:50mm, S:60mm, M:70mm, M/L:80mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse, alloy, 14mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-roam-disc-2-2022-2025",
+    "brand": "Giant",
+    "model": "Roam Disc 2 (2022)",
+    "year": 2025,
+    "discipline": "all_road",
+    "officialUrl": "https://www.giant-bicycles.com/es/roam-disc-2-2022",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/qagifrhpufcczulwhuyk/MY22Roam2Disc_ColorABlack.jpg",
+    "msrpEur": 849,
+    "currentPriceEur": 849,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Alivio",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "30/46T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 620,
+      "reachMm": 410,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 70.5,
+      "chainstayLengthMm": 450,
+      "topTubeLengthMm": 600,
+      "seatTubeLengthMm": 460,
+      "headTubeLengthMm": 130,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1098,
+      "bbDropMm": 62,
+      "standoverHeightMm": 756
+    },
+    "description": "Bicicleta oficial Giant Roam Disc 2 (2022) (2025) de categoría all_road. Diseñada por Giant Group con cuadro aluminum y componentes Shimano Alivio.",
+    "highlights": [
+      "Grupo Shimano Alivio",
+      "Paso de rueda hasta 53 mm"
+    ],
+    "brakes": "Tektro TKD-143 hydraulic, [F]160mm, [R]160mm rotors",
+    "wheels": "Giant double wall aluminum",
+    "tires": "Giant CrossCut, anti-puncture, 700x42c",
+    "colors": [
+      "Black"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "ALUXX-Grade Aluminum, disc"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SR Suntour NEX HLO 700C, 63mm"
+          },
+          {
+            "label": "Colores",
+            "value": "Black"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Alivio"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Acera"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Altus, 2x9"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "forged alloy, 30/46 S:170mm, M:170mm, L:175mm, XL:175mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano HG200, 11x36"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X9 with Missing Link"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "threaded"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Tektro TKD-143 hydraulic, [F]160mm, [R]160mm rotors"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Tektro TKD-143"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant double wall aluminum"
+          },
+          {
+            "label": "Bujes",
+            "value": "alloy, 28h"
+          },
+          {
+            "label": "Radios",
+            "value": "stainless, 14g"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Giant CrossCut, anti-puncture, 700x42c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Sport XC, 31.8mm S:64cm, M:68cm, L:68cm, XL:68cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Sport, 7-degree S:60mm, M:70mm, L:80mm, XL:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse, alloy, 350mm"
+          },
+          {
+            "label": "Extras",
+            "value": "53mm max tire size"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "liv-brava-advanced-pro-2-2023",
+    "brand": "Liv",
+    "model": "Brava Advanced Pro 2",
+    "year": 2023,
+    "discipline": "gravel",
+    "officialUrl": "https://www.liv-cycling.com/es/brava-advanced-pro-2-2023",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/dhebhubg38evs0qjok80/MY23BravaAdvancedPro2_ColorAAirglow.jpg",
+    "msrpEur": 3099,
+    "currentPriceEur": 3099,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RX-812",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "00T",
+      "cassette": "11-40T",
+      "minGearRatio": 0.85,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 547,
+      "reachMm": 373,
+      "stackReachRatio": 1.47,
+      "headTubeAngleDeg": 71.5,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 535,
+      "seatTubeLengthMm": 520,
+      "headTubeLengthMm": 138,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1014,
+      "bbDropMm": 60,
+      "standoverHeightMm": 802
+    },
+    "description": "Bicicleta oficial Liv Brava Advanced Pro 2 (2023) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes Shimano GRX RX-812.",
+    "highlights": [
+      "Cuadro Liv Composite Carbon",
+      "Grupo Shimano GRX RX-812",
+      "Paso de rueda hasta 45 mm"
+    ],
+    "brakes": "Shimano GRX RX-400 hydraulic, Giant MPH rotors [F]160mm, [R]140mm",
+    "wheels": "Giant P-X2 Disc wheelset, alloy",
+    "tires": "Maxxis All-Terrene, 700x33c, tubeless",
+    "colors": [
+      "Airglow",
+      "Carbon",
+      "Chrome"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-Grade Composite, 12mm thru-axle, disc"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-Grade Composite, full-composite OverDrive 2 steerer, disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Airglow/Carbon/Chrome"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX RX-812"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX RX-600, 1x11"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano GRX RX-600, 40t XS:165mm, S:170mm, M:170mm, L:172.5mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano CS-M7000, 11-speed, 11x40"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X11"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "Shimano, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano GRX RX-400 hydraulic, Giant MPH rotors [F]160mm, [R]140mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Shimano GRX RX-600 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant P-X2 Disc wheelset, alloy"
+          },
+          {
+            "label": "Bujes",
+            "value": "Giant alloy, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis All-Terrene, 700x33c, tubeless"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Connect XS:38cm, S:38cm, M:40cm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact XS:70mm, S:80mm, M:90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse SL, composite, 16mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "45mm max tire size"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "liv-devote-advanced-2-2026",
+    "brand": "Liv",
+    "model": "Devote Advanced 2",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.liv-cycling.com/es/devote-advanced-2",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/fmkomusrwk3frto2wuzp/MY26DevoteAdvanced2_ColorALunarEclipse.jpg",
+    "msrpEur": 3399,
+    "currentPriceEur": 2999,
+    "discountPercentage": 12,
+    "isOutlet": true,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RX-820",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "30/46T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 574,
+      "reachMm": 386,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 545,
+      "seatTubeLengthMm": 465,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 74.5,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 80,
+      "standoverHeightMm": 748
+    },
+    "description": "Bicicleta oficial Liv Devote Advanced 2 (2026) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes Shimano GRX RX-820.",
+    "highlights": [
+      "Cuadro Liv Composite Carbon",
+      "Grupo Shimano GRX RX-820",
+      "Paso de rueda hasta 53 mm",
+      "Cockpit aerodinámico integrado"
+    ],
+    "brakes": "Shimano GRX BR-RX410 hydraulic, Giant MPH rotors, [F]160mm, [R]160mm",
+    "wheels": "Giant P-X2 Disc, alloy",
+    "tires": "Giant Crosscut Grip, 700x45c, tubeless",
+    "colors": [
+      "Lunar Eclipse"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-grade composite, 12x142mm thru-axle, flat mount disc, flip chip – dropout, integrated down tube storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive steerer, 12mm thru-axle, flat mount disc, FSA stainless upper/lower bearings"
+          },
+          {
+            "label": "Colores",
+            "value": "Lunar Eclipse"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano GRX RX-820"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano GRX RX-820"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano GRX RX-610, 2x12"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano FC-RX610, 30/46, XS: 165mm, S: 170mm, M: 172.5mm, L: 172.5mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano CS-HG710, 12-speed, 11x36"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X12L-1"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "Shimano, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano GRX BR-RX410 hydraulic, Giant MPH rotors, [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Shimano GRX RX-610 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant P-X2 Disc, alloy"
+          },
+          {
+            "label": "Bujes",
+            "value": "Giant alloy, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Giant Crosscut Grip, 700x45c, tubeless"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact XR D-Fuse, 31.8mm, 5-degree back sweep, flare drop, XS: 400mm, S: 400mm, M: 420mm, L: 420mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact AeroLight, -10-degree, XS: 50mm, S: 60mm, M: 70mm, L: 80mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse, composite, 14mm offset"
+          },
+          {
+            "label": "Extras",
+            "value": "53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, tubeless prepared, ISC clamp, in-frame storage bag"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "liv-devote-advanced-1-2026",
+    "brand": "Liv",
+    "model": "Devote Advanced 1",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.liv-cycling.com/es/devote-advanced-1",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/qfqppgcehil8inhbv65i/MY26DevoteAdvanced1_ColorALavenderBlush.jpg",
+    "msrpEur": 3399,
+    "currentPriceEur": 3399,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Apex XPLR",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "40T",
+      "cassette": "11-44T",
+      "minGearRatio": 0.91,
+      "maxGearRatio": 3.64
+    },
+    "geometry": {
+      "stackMm": 574,
+      "reachMm": 386,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 425,
+      "topTubeLengthMm": 545,
+      "seatTubeLengthMm": 465,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 74.5,
+      "wheelbaseMm": 1026,
+      "bbDropMm": 80,
+      "standoverHeightMm": 748
+    },
+    "description": "Bicicleta oficial Liv Devote Advanced 1 (2026) de categoría gravel. Diseñada por Giant Group con cuadro carbon y componentes SRAM Apex XPLR.",
+    "highlights": [
+      "Cuadro Liv Composite Carbon",
+      "Grupo SRAM Apex XPLR",
+      "Paso de rueda hasta 53 mm",
+      "Cockpit aerodinámico integrado"
+    ],
+    "brakes": "SRAM Apex hydraulic, Giant MPH rotors, [F]160mm, [R]160mm",
+    "wheels": "Giant P-X2 Disc, alloy",
+    "tires": "Giant Crosscut Grip, 700x45c, tubeless",
+    "colors": [
+      "Lavender Blush"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Advanced-grade composite, 12x142mm thru-axle, flat mount disc, flip chip – dropout, integrated down tube storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive steerer, 12mm thru-axle, flat mount disc, FSA stainless upper/lower bearings"
+          },
+          {
+            "label": "Colores",
+            "value": "Lavender Blush"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "SRAM Apex XPLR"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "SRAM Apex 1, 1x12"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "SRAM Apex 1 Wide DUB, 40t, XS: 165mm, S: 170mm, M: 172.5mm, L: 172.5mm"
+          },
+          {
+            "label": "Casette",
+            "value": "SRAM PG-1231 D1 XPLR, 12-speed, 11x44"
+          },
+          {
+            "label": "Cadena",
+            "value": "SRAM Apex 12SCN-APX-D1"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "SRAM DUB, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM Apex hydraulic, Giant MPH rotors, [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "SRAM Apex hydraulic, left lever dropper switch"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant P-X2 Disc, alloy"
+          },
+          {
+            "label": "Bujes",
+            "value": "Giant alloy, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "Sapim"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Giant Crosscut Grip, 700x45c, tubeless"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact XR D-Fuse, 31.8mm, 5-degree back sweep, flare drop, XS: 400mm, S: 400mm, M: 420mm, L: 420mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact AeroLight, -10-degree, XS: 50mm, S: 60mm, M: 70mm, L: 80mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Post Moderne, dropper, 30mm suspension, XS: 75mm, S: 75mm, M: 75mm, L: 100mm"
+          },
+          {
+            "label": "Extras",
+            "value": "Giant 1x chain guide, tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, ISC clamp, in-frame storage bag"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "liv-devote-1-2026",
+    "brand": "Liv",
+    "model": "Devote 1",
+    "year": 2026,
+    "discipline": "gravel",
+    "officialUrl": "https://www.liv-cycling.com/es/devote-1",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/bn5i6drzj7cytxpioyda/MY26Devote1_ColorADuneBeige1.jpg",
+    "msrpEur": 1849,
+    "currentPriceEur": 1849,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 53,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano CUES U6020",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "32/46T",
+      "cassette": "11-39T",
+      "minGearRatio": 0.82,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 574,
+      "reachMm": 386,
+      "stackReachRatio": 1.49,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 545,
+      "seatTubeLengthMm": 465,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 74.5,
+      "wheelbaseMm": 1031,
+      "bbDropMm": 80,
+      "standoverHeightMm": 748
+    },
+    "description": "Bicicleta oficial Liv Devote 1 (2026) de categoría gravel. Diseñada por Giant Group con cuadro aluminum y componentes Shimano CUES U6020.",
+    "highlights": [
+      "Grupo Shimano CUES U6020",
+      "Paso de rueda hasta 53 mm"
+    ],
+    "brakes": "Shimano CUES BR-U6030 hydraulic, Giant MPH rotors, [F]160mm, [R]160mm",
+    "wheels": "Giant S-X2 Disc, alloy",
+    "tires": "CrossCut GRIP 1; 700x45c",
+    "colors": [
+      "Dune Beige"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "ALUXX-grade aluminum, 12x142mm thru-axle, flat mount disc, flip chip – dropout"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Advanced-grade composite, full-composite OverDrive steerer, 12mm thru-axle, flat mount disc"
+          },
+          {
+            "label": "Colores",
+            "value": "Dune Beige"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano CUES U6020"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano CUES U6030"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano CUES U6030, 2x10"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "Shimano FC-U6030, 32/46, XS: 165mm, S: 170mm, M: 172.5mm, L: 172.5mm"
+          },
+          {
+            "label": "Casette",
+            "value": "Shimano CS-LG300, 11x39"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC X11 with Missing Link"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "Shimano, press fit"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano CUES BR-U6030 hydraulic, Giant MPH rotors, [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Shimano CUES BR-U6030 hydraulic"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant S-X2 Disc, alloy"
+          },
+          {
+            "label": "Bujes",
+            "value": "Giant alloy, 12mm thru-axle"
+          },
+          {
+            "label": "Radios",
+            "value": "stainless steel"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "CrossCut GRIP 1; 700x45c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Contact XR D-Fuse, 31.8mm, 5-degree back sweep, flare drop, XS: 400mm, S: 400mm, M: 420mm, L: 420mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Contact, 8-degree, XS: 50mm, S: 60mm, M: 70mm, L: 80mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse, alloy"
+          },
+          {
+            "label": "Extras",
+            "value": "53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, tubeless prepared, ISC clamp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "liv-rove-4-2026",
+    "brand": "Liv",
+    "model": "Rove 4",
+    "year": 2026,
+    "discipline": "all_road",
+    "officialUrl": "https://www.liv-cycling.com/es/rove-4",
+    "officialImageUrl": "https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_600%2Cq_80%2Cw_800/rdakwiczvlkocvipxsxu/MY26Rove4_ColorARosyBrown.jpg",
+    "msrpEur": 549,
+    "currentPriceEur": 549,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "maxTireClearanceMm": 38,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Altus",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "30/46T",
+      "cassette": "11-34T",
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 625,
+      "reachMm": 399,
+      "stackReachRatio": 1.57,
+      "headTubeAngleDeg": 70.5,
+      "chainstayLengthMm": 450,
+      "topTubeLengthMm": 590,
+      "seatTubeLengthMm": 460,
+      "headTubeLengthMm": 135,
+      "seatTubeAngleDeg": 73,
+      "wheelbaseMm": 1089,
+      "bbDropMm": 62,
+      "standoverHeightMm": 708
+    },
+    "description": "Bicicleta oficial Liv Rove 4 (2026) de categoría all_road. Diseñada por Giant Group con cuadro aluminum y componentes Shimano Altus.",
+    "highlights": [
+      "Grupo Shimano Altus",
+      "Paso de rueda hasta 38 mm"
+    ],
+    "brakes": "Tektro TKD143, hydraulic disc, [F]160mm, [R]160mm",
+    "wheels": "Giant SX Disc",
+    "tires": "Giant CrossCut, 700x42c, puncture protect",
+    "colors": [
+      "Rosy Brown"
+    ],
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "ALUXX-grade aluminum, disc"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SR Suntour 700c, 63mm, QR"
+          },
+          {
+            "label": "Colores",
+            "value": "Rosy Brown"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Cambio Trasero",
+            "value": "Shimano Altus"
+          },
+          {
+            "label": "Desviador Delantero",
+            "value": "Shimano Tourney"
+          },
+          {
+            "label": "Manetas de Cambio",
+            "value": "Shimano Altus, 2x8"
+          },
+          {
+            "label": "Platos y Bielas",
+            "value": "forged alloy, 30/46 with chain guard, XS: 165mm, S: 170mm, M: 170mm, L: 170mm"
+          },
+          {
+            "label": "Casette",
+            "value": "CS-HG31, 11x34"
+          },
+          {
+            "label": "Cadena",
+            "value": "KMC Z8.3"
+          },
+          {
+            "label": "Caja de Pedalier",
+            "value": "threaded"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Tektro TKD143, hydraulic disc, [F]160mm, [R]160mm"
+          },
+          {
+            "label": "Palancas de Freno",
+            "value": "Tektro TKD149"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Llantas / Ruedas",
+            "value": "Giant SX Disc"
+          },
+          {
+            "label": "Bujes",
+            "value": "alloy, 28h"
+          },
+          {
+            "label": "Radios",
+            "value": "stainless steel, 14g"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Giant CrossCut, 700x42c, puncture protect"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Giant Connect XC, 31.8mm, 9-degree/6-degree rise, XS: 640mm, S: 640mm, M: 680mm, L: 680mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Giant Sport, XS: 70mm, S: 80mm, M: 80mm, L: 90mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Giant D-Fuse, alloy, XS: 300mm, S: 300mm, M: 300mm, L: 350mm"
+          },
+          {
+            "label": "Extras",
+            "value": "55c max tire size without fender, 45c max tire size with fender, reflective stickers, kickstand, fender and rack frame mounts"
+          }
+        ]
+      }
+    ]
   }
 ]
