@@ -28,6 +28,7 @@ interface BikeCardProps {
 export function BikeCard({ bike }: BikeCardProps) {
   const { isInComparison, toggleBike } = useComparison();
   const selected = isInComparison(bike.id);
+  const [imageError, setImageError] = React.useState(false);
 
   const gearRatio = analyzeGearRatio(
     bike.groupset.chainrings,
@@ -60,13 +61,25 @@ export function BikeCard({ bike }: BikeCardProps) {
       }`}
     >
       {/* Top Image & Badges */}
-      <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-100">
-        <img
-          src={bike.officialImageUrl}
-          alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year}) de ${formatDisciplineName(bike.discipline)}`}
-          className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
-          loading="lazy"
-        />
+      <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-100 flex items-center justify-center">
+        {!imageError ? (
+          <img
+            src={bike.officialImageUrl}
+            alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year}) de ${formatDisciplineName(bike.discipline)}`}
+            className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
+            loading="lazy"
+            referrerPolicy="no-referrer"
+            onError={() => setImageError(true)}
+          />
+        ) : (
+          <div className="flex flex-col items-center justify-center p-4 text-center select-none w-full h-full bg-slate-50">
+            <div className="w-12 h-12 rounded-2xl bg-slate-200/70 flex items-center justify-center mb-2 text-slate-400 shadow-2xs">
+              <Layers className="w-6 h-6" />
+            </div>
+            <span className="text-[11px] font-extrabold uppercase tracking-wider text-slate-500">{bike.brand}</span>
+            <span className="text-xs font-bold text-slate-700 line-clamp-1 max-w-[200px]">{bike.model}</span>
+          </div>
+        )}
 
         {/* Top left discipline & year badges */}
         <div className="absolute top-2.5 left-2.5 flex flex-wrap gap-1.5 z-10">

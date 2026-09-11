@@ -55,6 +55,7 @@ export function ComparisonDrawer() {
                 src={bike.officialImageUrl}
                 alt={bike.model}
                 className="h-9 w-12 rounded-lg object-cover bg-white"
+                referrerPolicy="no-referrer"
               />
               <div className="text-left">
                 <p className="text-[11px] font-bold text-slate-900 line-clamp-1 max-w-[100px] sm:max-w-[130px]">

@@ -85,7 +85,9 @@ export async function parseMeridaHtml(
   let officialImageUrl = "";
   const imgMatch = html.match(/(https:\/\/merida-cdn\.m-c-g\.net\/merida-v2\/[^\s"']+\/bikes\/[^\s"']+\.(?:png|jpg|webp|tif)\?p1)/i) ||
                    html.match(/src=["'](https:\/\/[^"']*merida-cdn[^"']+\/bikes\/[^"']+\.(?:png|jpg|webp|tif)[^"']*)["']/i);
-  if (imgMatch) officialImageUrl = imgMatch[1];
+  if (imgMatch) {
+    officialImageUrl = imgMatch[1].replace(/\.tif(?:\?.*)?$/i, ".jpg");
+  }
 
   if (!officialImageUrl || !officialImageUrl.startsWith("http")) {
     officialImageUrl = "https://www.merida-bikes.com/media/merida-default.jpg";

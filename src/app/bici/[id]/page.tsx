@@ -132,6 +132,7 @@ export default function BikeDetailPage({ params }: BikePageProps) {
               src={bike.officialImageUrl}
               alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year}) de ${formatDisciplineName(bike.discipline)} - Vista oficial`}
               className="h-full w-full object-cover"
+              referrerPolicy="no-referrer"
             />
             {bike.discountPercentage && bike.discountPercentage > 0 && (
               <div className="absolute top-4 right-4 flex items-center gap-1 rounded-xl bg-rose-600 px-3 py-1 text-xs font-black text-white shadow-md">

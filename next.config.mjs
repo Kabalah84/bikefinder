@@ -5,7 +5,7 @@ const ContentSecurityPolicy = `
   default-src 'self';
   script-src 'self' 'unsafe-inline' 'unsafe-eval';
   style-src 'self' 'unsafe-inline';
-  img-src 'self' data: blob: https://images.unsplash.com https://*.canyon.com https://*.orbea.com https://*.trekbikes.com https://*.specialized.com https://*.giant-bicycles.com https://*.scott-sports.com https://*.cannondale.com https://*.bmc-switzerland.com;
+  img-src 'self' data: blob: https:;
   font-src 'self' data:;
   connect-src 'self' https:;
   media-src 'none';
@@ -62,39 +62,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "images.unsplash.com",
-      },
-      {
-        protocol: "https",
-        hostname: "**.canyon.com",
-      },
-      {
-        protocol: "https",
-        hostname: "**.orbea.com",
-      },
-      {
-        protocol: "https",
-        hostname: "**.trekbikes.com",
-      },
-      {
-        protocol: "https",
-        hostname: "**.specialized.com",
-      },
-      {
-        protocol: "https",
-        hostname: "**.giant-bicycles.com",
-      },
-      {
-        protocol: "https",
-        hostname: "**.scott-sports.com",
-      },
-      {
-        protocol: "https",
-        hostname: "**.cannondale.com",
-      },
-      {
-        protocol: "https",
-        hostname: "**.bmc-switzerland.com",
+        hostname: "**",
       },
     ],
   },

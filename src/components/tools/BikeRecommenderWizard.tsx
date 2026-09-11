@@ -450,6 +450,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                         src={bike.officialImageUrl}
                         alt={`Bicicleta recomendada ${bike.brand} ${bike.model} (${bike.year})`}
                         className="h-full w-full object-cover"
+                        referrerPolicy="no-referrer"
                       />
                     </div>
 

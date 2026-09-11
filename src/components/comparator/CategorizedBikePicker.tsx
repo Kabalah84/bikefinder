@@ -157,6 +157,7 @@ export function CategorizedBikePicker({
                     alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year})`}
                     className="h-full w-full object-cover group-hover:scale-103 transition-transform"
                     loading="lazy"
+                    referrerPolicy="no-referrer"
                   />
                   {selected && (
                     <div className="absolute top-2 right-2 flex h-6 w-6 items-center justify-center rounded-full bg-teal-600 text-white shadow-md">

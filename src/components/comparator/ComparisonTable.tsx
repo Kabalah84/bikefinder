@@ -160,6 +160,7 @@ export function ComparisonTable({ bikes, onRemoveBike, onAddMoreBikes }: Compari
                       src={bike.officialImageUrl}
                       alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year})`}
                       className="h-full w-full object-cover"
+                      referrerPolicy="no-referrer"
                     />
                   </div>
 
