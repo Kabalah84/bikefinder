@@ -29489,5 +29489,2555 @@
         ]
       }
     ]
+  },
+  {
+    "id": "orbea-oiz-m-ltd-2025",
+    "brand": "Orbea",
+    "model": "Oiz M-LTD",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m-ltd-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 10499,
+    "currentPriceEur": 10499,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 9.9,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM XX SL Eagle AXS Transmission",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "34T",
+      "cassette": "10-52T",
+      "minGearRatio": 0.65,
+      "maxGearRatio": 3.4
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 450,
+      "stackReachRatio": 1.34,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 432,
+      "topTubeLengthMm": 598,
+      "seatTubeLengthMm": 432,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 76.5,
+      "wheelbaseMm": 1163,
+      "bbDropMm": 42
+    },
+    "description": "Bicicleta oficial Orbea Oiz M-LTD (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial SRAM XX SL Eagle AXS Transmission.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo SRAM XX SL Eagle AXS Transmission (12v)",
+      "Paso de rueda hasta 62 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "SRAM Level Ultimate Stealth 4-piston Hydraulic Disc",
+    "wheels": "Oquo Mountain Performance MP30LTD Carbon Tubeless Ready",
+    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Oiz Carbon OMX, Fiberlink, Boost, BSA, UFO, I-line shock, 120mm travel, thru axle 12x148mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34 Float SC Factory 120 FIT4 Remote-Adj Push-Unlock QR15x110 Kashima"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "SRAM XX SL Eagle AXS Transmission"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-52T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM Level Ultimate Stealth 4-piston Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Mountain Performance MP30LTD Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Performance MP10 Carbon, Width 760, Sweep 9"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Performance MP10 Alu SL, -10º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Fox Transfer SL Factory Kashima 31.6mm Dropper"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Italia SLR Boost Fill Carbon Rail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-oiz-m-pro-2025",
+    "brand": "Orbea",
+    "model": "Oiz M-PRO",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m-pro-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 6299,
+    "currentPriceEur": 6299,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 10.4,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XTR M9100 / XT M8100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "34T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.67,
+      "maxGearRatio": 3.4
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 450,
+      "stackReachRatio": 1.34,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 432,
+      "topTubeLengthMm": 598,
+      "seatTubeLengthMm": 432,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 76.5,
+      "wheelbaseMm": 1163,
+      "bbDropMm": 42
+    },
+    "description": "Bicicleta oficial Orbea Oiz M-PRO (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XTR M9100 / XT M8100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano XTR M9100 / XT M8100 (12v)",
+      "Paso de rueda hasta 62 mm",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano XT M8100 Hydraulic Disc",
+    "wheels": "Oquo Mountain Performance MP30TEAM Carbon Tubeless Ready",
+    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Oiz Carbon OMX, Fiberlink, Boost, BSA, UFO, I-line shock, 120mm travel"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34 Float SC Factory 120 FIT4 Remote Kashima, QR15x110"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano XTR M9100 / XT M8100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano XT M8100 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Mountain Performance MP30TEAM Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Performance MP10 Carbon, Width 760"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Performance MP20, -8º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Italia SLR Boost Titanio Rail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-oiz-m10-2025",
+    "brand": "Orbea",
+    "model": "Oiz M10",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m10-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 5499,
+    "currentPriceEur": 5499,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 10.7,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT M8100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "34T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.67,
+      "maxGearRatio": 3.4
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 450,
+      "stackReachRatio": 1.34,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 432,
+      "topTubeLengthMm": 598,
+      "seatTubeLengthMm": 432,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 76.5,
+      "wheelbaseMm": 1163,
+      "bbDropMm": 42
+    },
+    "description": "Bicicleta oficial Orbea Oiz M10 (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XT M8100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano XT M8100 (12v)",
+      "Paso de rueda hasta 62 mm",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano XT M8100 Hydraulic Disc",
+    "wheels": "Oquo Mountain Performance MP30TEAM Carbon Tubeless Ready",
+    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Oiz Carbon OMR, Fiberlink, Boost, BSA, UFO, I-line shock, 120mm travel"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34 Float SC Factory 120 FIT4 Remote Kashima, QR15x110"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano XT M8100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano XT M8100 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Mountain Performance MP30TEAM Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Performance MP21 Alu SL, Width 760"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Performance MP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Taiga S-alloy rail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-oiz-m20-2025",
+    "brand": "Orbea",
+    "model": "Oiz M20",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m20-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 4799,
+    "currentPriceEur": 4799,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 11.2,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM GX Eagle AXS Transmission",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "32T",
+      "cassette": "10-52T",
+      "minGearRatio": 0.62,
+      "maxGearRatio": 3.2
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 450,
+      "stackReachRatio": 1.34,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 432,
+      "topTubeLengthMm": 598,
+      "seatTubeLengthMm": 432,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 76.5,
+      "wheelbaseMm": 1163,
+      "bbDropMm": 42
+    },
+    "description": "Bicicleta oficial Orbea Oiz M20 (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial SRAM GX Eagle AXS Transmission.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo SRAM GX Eagle AXS Transmission (12v)",
+      "Paso de rueda hasta 62 mm",
+      "Cambio electrónico Di2 / AXS"
+    ],
+    "brakes": "Shimano M6100 Hydraulic Disc",
+    "wheels": "Oquo Mountain Performance MP28PRO Alloy Tubeless Ready",
+    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Oiz Carbon OMR, Fiberlink, Boost, BSA, UFO, I-line shock, 120mm travel"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34 Float SC Performance 120 Grip Remote, QR15x110"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "SRAM GX Eagle AXS Transmission"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-52T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano M6100 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Mountain Performance MP28PRO Alloy Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Performance MP30, Width 760"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Performance MP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Taiga S-alloy rail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-oiz-m30-2025",
+    "brand": "Orbea",
+    "model": "Oiz M30",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m30-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 3999,
+    "currentPriceEur": 3999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 11.6,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano SLX M7100 / Deore M6100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "32T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 450,
+      "stackReachRatio": 1.34,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 432,
+      "topTubeLengthMm": 598,
+      "seatTubeLengthMm": 432,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 76.5,
+      "wheelbaseMm": 1163,
+      "bbDropMm": 42
+    },
+    "description": "Bicicleta oficial Orbea Oiz M30 (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano SLX M7100 / Deore M6100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano SLX M7100 / Deore M6100 (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano M6100 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 29, 25c, 32H",
+    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Oiz Carbon OMR, Fiberlink, Boost, BSA, UFO, I-line shock, 120mm travel"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34 Float SC Performance 120 Grip Remote, QR15x110"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano SLX M7100 / Deore M6100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano M6100 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 29, 25c, 32H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Performance MP30, Width 760"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Performance MP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Italia Model X FecAlloy Rail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-oiz-h10-2025",
+    "brand": "Orbea",
+    "model": "Oiz H10",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-h10-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 3299,
+    "currentPriceEur": 3299,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "weightKg": 12.6,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT M8100 / SLX M7100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "32T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 450,
+      "stackReachRatio": 1.34,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 432,
+      "topTubeLengthMm": 598,
+      "seatTubeLengthMm": 432,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 76.5,
+      "wheelbaseMm": 1163,
+      "bbDropMm": 42
+    },
+    "description": "Bicicleta oficial Orbea Oiz H10 (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano XT M8100 / SLX M7100.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano XT M8100 / SLX M7100 (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano M6100 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 29, 25c, 32H",
+    "tires": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Oiz Hydro High Polished, Alloy link, Boost, BSA, UFO, I-line shock, 120mm travel"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34 Float SC Performance 120 Grip Remote, QR15x110"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano XT M8100 / SLX M7100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano M6100 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 29, 25c, 32H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon Race 2.40 WT 120 TPI Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Performance MP30, Width 760"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Performance MP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Italia Model X FecAlloy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-oiz-h30-2025",
+    "brand": "Orbea",
+    "model": "Oiz H30",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-h30-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 2499,
+    "currentPriceEur": 2499,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "weightKg": 13.1,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Deore M6100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "32T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
+    },
+    "geometry": {
+      "stackMm": 605,
+      "reachMm": 450,
+      "stackReachRatio": 1.34,
+      "headTubeAngleDeg": 67,
+      "chainstayLengthMm": 432,
+      "topTubeLengthMm": 598,
+      "seatTubeLengthMm": 432,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 76.5,
+      "wheelbaseMm": 1163,
+      "bbDropMm": 42
+    },
+    "description": "Bicicleta oficial Orbea Oiz H30 (2025) gama Oiz de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M6100.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano Deore M6100 (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT201 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 29, 25c, 32H",
+    "tires": "Maxxis Ikon 2.20 FB 60 TPI Dual",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Oiz Hydro High Polished, Boost, BSA, 120mm travel"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 32 Float Rhythm 120 Remote QR15x110"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Deore M6100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano MT201 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 29, 25c, 32H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Ikon 2.20 FB 60 TPI Dual"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Performance MP30, Width 760"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Performance MP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Alloy, 31.6mm, Setback 0"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Italia Model X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-alma-m-pro-2025",
+    "brand": "Orbea",
+    "model": "Alma M-PRO",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/alma/cat/alma-m-pro-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 5499,
+    "currentPriceEur": 5499,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 8.9,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 60,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XTR M9100 / XT M8100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "34T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.67,
+      "maxGearRatio": 3.4
+    },
+    "geometry": {
+      "stackMm": 615,
+      "reachMm": 426,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 68,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 602,
+      "seatTubeLengthMm": 445,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 74.5,
+      "wheelbaseMm": 1115,
+      "bbDropMm": 61
+    },
+    "description": "Bicicleta oficial Orbea Alma M-PRO (2025) gama Alma de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XTR M9100 / XT M8100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano XTR M9100 / XT M8100 (12v)",
+      "Paso de rueda hasta 60 mm",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano XT M8100 Hydraulic Disc",
+    "wheels": "Oquo Mountain Performance MP30TEAM Carbon",
+    "tires": "Maxxis Rekon Race 2.35 120 TPI Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Alma Carbon OMX, Boost 12x148, PF BB, Internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 32 Float SC Factory 100 FIT4 Remote-Adj Push-Unlock QR15x110 Kashima"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano XTR M9100 / XT M8100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano XT M8100 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Mountain Performance MP30TEAM Carbon"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon Race 2.35 120 TPI Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Performance MP10 Carbon, Width 760"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Performance MP20, -8º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Performance XP10 Carbon, 27.2mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Italia SLR Boost Titanio Rail"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-alma-m30-2025",
+    "brand": "Orbea",
+    "model": "Alma M30",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/alma/cat/alma-m30-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 2199,
+    "currentPriceEur": 2199,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 11.2,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 60,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano SLX M7100 / Deore M6100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "32T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
+    },
+    "geometry": {
+      "stackMm": 615,
+      "reachMm": 426,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 68,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 602,
+      "seatTubeLengthMm": 445,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 74.5,
+      "wheelbaseMm": 1115,
+      "bbDropMm": 61
+    },
+    "description": "Bicicleta oficial Orbea Alma M30 (2025) gama Alma de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano SLX M7100 / Deore M6100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano SLX M7100 / Deore M6100 (12v)",
+      "Paso de rueda hasta 60 mm"
+    ],
+    "brakes": "Shimano MT201 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 29, 25c, 32H",
+    "tires": "Maxxis Rekon Race 2.35 60 TPI Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Alma Carbon OMR, Boost 12x148, PF BB, Internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "RockShox Judy Silver TK Remote Solo Air 100 QR15x110 Boost"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano SLX M7100 / Deore M6100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano MT201 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 29, 25c, 32H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Rekon Race 2.35 60 TPI Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Performance MP30, Width 760"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Performance MP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Alloy, 27.2mm, Setback 0"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Italia Model X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-alma-h30-2025",
+    "brand": "Orbea",
+    "model": "Alma H30",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/alma/cat/alma-h30-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 1099,
+    "currentPriceEur": 1099,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "weightKg": 12.8,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 60,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Deore M5100",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "32T",
+      "cassette": "11-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 2.91
+    },
+    "geometry": {
+      "stackMm": 615,
+      "reachMm": 426,
+      "stackReachRatio": 1.44,
+      "headTubeAngleDeg": 68,
+      "chainstayLengthMm": 430,
+      "topTubeLengthMm": 602,
+      "seatTubeLengthMm": 445,
+      "headTubeLengthMm": 95,
+      "seatTubeAngleDeg": 74.5,
+      "wheelbaseMm": 1115,
+      "bbDropMm": 61
+    },
+    "description": "Bicicleta oficial Orbea Alma H30 (2025) gama Alma de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M5100.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano Deore M5100 (11v)",
+      "Paso de rueda hasta 60 mm"
+    ],
+    "brakes": "Shimano MT201 Hydraulic Disc",
+    "wheels": "Mach1 Klixx 23c Tubeless Ready",
+    "tires": "Maxxis Ikon 2.20 FB 60 TPI Dual",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Alma Hydro Alloy, Boost 12x148, BSA BB, Internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SR Suntour Raidon 32 RLR 100mm QR15x110 Boost"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Deore M5100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano MT201 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Mach1 Klixx 23c Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Ikon 2.20 FB 60 TPI Dual"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Performance MP30, Width 760"
+          },
+          {
+            "label": "Potencia",
+            "value": "Alloy 7º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Alloy, 27.2mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Royal 2058 DRN"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-occam-sl-m10-2025",
+    "brand": "Orbea",
+    "model": "Occam SL M10",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/occam/cat/occam-sl-m10-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 5999,
+    "currentPriceEur": 5999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 12.2,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT M8100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "32T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
+    },
+    "geometry": {
+      "stackMm": 618,
+      "reachMm": 465,
+      "stackReachRatio": 1.33,
+      "headTubeAngleDeg": 65.5,
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 595,
+      "seatTubeLengthMm": 415,
+      "headTubeLengthMm": 110,
+      "seatTubeAngleDeg": 78,
+      "wheelbaseMm": 1205,
+      "bbDropMm": 35
+    },
+    "description": "Bicicleta oficial Orbea Occam SL M10 (2025) gama Occam de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XT M8100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano XT M8100 (12v)",
+      "Paso de rueda hasta 62 mm",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano XT M8120 4-Piston Hydraulic Disc",
+    "wheels": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready",
+    "tires": "Maxxis Dissector 2.40 WT 60 TPI 3C MaxxTerra Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Occam OMR Carbon 140mm travel, Concentric Boost 12x148, LOCKR internal storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34 Float Factory 140 FIT4 Remote-Adj QR15x110 Kashima"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano XT M8100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano XT M8120 4-Piston Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Dissector 2.40 WT 60 TPI 3C MaxxTerra Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Control MC10 Carbon, Rise 20, Width 800"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Control MC20, 0º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Terra Ridon X5 145mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-occam-sl-h30-2025",
+    "brand": "Orbea",
+    "model": "Occam SL H30",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/occam/cat/occam-sl-h30-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 2799,
+    "currentPriceEur": 2799,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "weightKg": 14.3,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 62,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Deore M6100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "32T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
+    },
+    "geometry": {
+      "stackMm": 618,
+      "reachMm": 465,
+      "stackReachRatio": 1.33,
+      "headTubeAngleDeg": 65.5,
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 595,
+      "seatTubeLengthMm": 415,
+      "headTubeLengthMm": 110,
+      "seatTubeAngleDeg": 78,
+      "wheelbaseMm": 1205,
+      "bbDropMm": 35
+    },
+    "description": "Bicicleta oficial Orbea Occam SL H30 (2025) gama Occam de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M6100.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano Deore M6100 (12v)",
+      "Paso de rueda hasta 62 mm"
+    ],
+    "brakes": "Shimano MT201 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 29, 29c, 32H",
+    "tires": "Maxxis Dissector 2.40 WT 60 TPI Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Occam Hydro High Polished 140mm travel, Concentric Boost 12x148"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Marzocchi Bomber Z2 140mm QR15x110"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Deore M6100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano MT201 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 29, 29c, 32H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Dissector 2.40 WT 60 TPI Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Control MC30, Rise 20, Width 800"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Control MC20, 0º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Italia Model X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-rallon-m-team-2025",
+    "brand": "Orbea",
+    "model": "Rallon M-TEAM",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/rallon/cat/rallon-m-team-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 6999,
+    "currentPriceEur": 6999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 14.6,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 64,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT M8100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "32T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
+    },
+    "geometry": {
+      "stackMm": 632,
+      "reachMm": 460,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 64,
+      "chainstayLengthMm": 442,
+      "topTubeLengthMm": 605,
+      "seatTubeLengthMm": 415,
+      "headTubeLengthMm": 115,
+      "seatTubeAngleDeg": 77.5,
+      "wheelbaseMm": 1235,
+      "bbDropMm": 28
+    },
+    "description": "Bicicleta oficial Orbea Rallon M-TEAM (2025) gama Rallon de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XT M8100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano XT M8100 (12v)",
+      "Paso de rueda hasta 64 mm",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano XT M8120 4-Piston Hydraulic Disc",
+    "wheels": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready",
+    "tires": "Maxxis Assegai 2.50 WT FB 120 TPI 3C MaxxTerra EXO+ TR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Rallon OMR Carbon 167mm travel, Concentric Boost 12x148, LOCKR internal storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 38 Float Factory 170 Grip2 QR15x110 Kashima"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano XT M8100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano XT M8120 4-Piston Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Assegai 2.50 WT FB 120 TPI 3C MaxxTerra EXO+ TR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Control MC10 Carbon, Rise 20, Width 800"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Control MC20, 0º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Terra Ridon X5 145mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-rallon-m20-2025",
+    "brand": "Orbea",
+    "model": "Rallon M20",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/rallon/cat/rallon-m20-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 4999,
+    "currentPriceEur": 4999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 15.2,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 64,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano SLX M7100 / Deore M6100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "32T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
+    },
+    "geometry": {
+      "stackMm": 632,
+      "reachMm": 460,
+      "stackReachRatio": 1.37,
+      "headTubeAngleDeg": 64,
+      "chainstayLengthMm": 442,
+      "topTubeLengthMm": 605,
+      "seatTubeLengthMm": 415,
+      "headTubeLengthMm": 115,
+      "seatTubeAngleDeg": 77.5,
+      "wheelbaseMm": 1235,
+      "bbDropMm": 28
+    },
+    "description": "Bicicleta oficial Orbea Rallon M20 (2025) gama Rallon de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano SLX M7100 / Deore M6100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano SLX M7100 / Deore M6100 (12v)",
+      "Paso de rueda hasta 64 mm"
+    ],
+    "brakes": "Shimano M6120 4-Piston Hydraulic Disc",
+    "wheels": "Race Face AR 30c Tubeless Ready",
+    "tires": "Maxxis Assegai 2.50 WT FB 60 TPI 3C MaxxTerra EXO+ TR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Rallon OMR Carbon 167mm travel, Concentric Boost 12x148, LOCKR storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 38 Float Performance 170 Grip 3-Pos QR15x110"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano SLX M7100 / Deore M6100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano M6120 4-Piston Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Race Face AR 30c Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Assegai 2.50 WT FB 60 TPI 3C MaxxTerra EXO+ TR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Control MC30, Rise 20, Width 800"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Control MC20, 0º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Terra Ridon X5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-laufey-h-ltd-2025",
+    "brand": "Orbea",
+    "model": "Laufey H-LTD",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/laufey/cat/laufey-h-ltd-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 2499,
+    "currentPriceEur": 2499,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "weightKg": 13.5,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 65,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT M8100 / SLX M7100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "32T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
+    },
+    "geometry": {
+      "stackMm": 635,
+      "reachMm": 445,
+      "stackReachRatio": 1.43,
+      "headTubeAngleDeg": 64.5,
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 610,
+      "seatTubeLengthMm": 415,
+      "headTubeLengthMm": 110,
+      "seatTubeAngleDeg": 77,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 45
+    },
+    "description": "Bicicleta oficial Orbea Laufey H-LTD (2025) gama Laufey de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano XT M8100 / SLX M7100.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano XT M8100 / SLX M7100 (12v)",
+      "Paso de rueda hasta 65 mm"
+    ],
+    "brakes": "Shimano M6120 4-Piston Hydraulic Disc",
+    "wheels": "Race Face AR 30c Tubeless Ready",
+    "tires": "Maxxis Dissector 2.60 WT 60 TPI Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Laufey Hydro Triple Butted 29 Boost 12x148 with LOCKR internal downtube storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34 Float Performance 140 Grip 3-Pos QR15x110"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano XT M8100 / SLX M7100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano M6120 4-Piston Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Race Face AR 30c Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Dissector 2.60 WT 60 TPI Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Control MC30, Rise 20, Width 800"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Control MC20, 0º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Ridon X5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-laufey-h30-2025",
+    "brand": "Orbea",
+    "model": "Laufey H30",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/laufey/cat/laufey-h30-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 1499,
+    "currentPriceEur": 1499,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "weightKg": 14.4,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 65,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Deore M5100",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "32T",
+      "cassette": "11-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 2.91
+    },
+    "geometry": {
+      "stackMm": 635,
+      "reachMm": 445,
+      "stackReachRatio": 1.43,
+      "headTubeAngleDeg": 64.5,
+      "chainstayLengthMm": 435,
+      "topTubeLengthMm": 610,
+      "seatTubeLengthMm": 415,
+      "headTubeLengthMm": 110,
+      "seatTubeAngleDeg": 77,
+      "wheelbaseMm": 1180,
+      "bbDropMm": 45
+    },
+    "description": "Bicicleta oficial Orbea Laufey H30 (2025) gama Laufey de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M5100.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano Deore M5100 (11v)",
+      "Paso de rueda hasta 65 mm"
+    ],
+    "brakes": "Shimano MT201 Hydraulic Disc",
+    "wheels": "Mach1 Klixx 23c Tubeless Ready",
+    "tires": "Maxxis Dissector 2.60 WT 60 TPI Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Laufey Hydro Triple Butted 29 Boost 12x148 with LOCKR storage"
+          },
+          {
+            "label": "Horquilla",
+            "value": "RockShox Recon Silver RL 140mm Solo Air QR15x110 Boost"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Deore M5100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano MT201 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Mach1 Klixx 23c Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Dissector 2.60 WT 60 TPI Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Control MC30, Width 800"
+          },
+          {
+            "label": "Potencia",
+            "value": "Alloy 35mm"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Royal 2058 DRN"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-onna-10-2025",
+    "brand": "Orbea",
+    "model": "Onna 10",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/onna/cat/onna-10-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 899,
+    "currentPriceEur": 899,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "weightKg": 13.8,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 57,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Deore M5100",
+      "isElectronic": false,
+      "speedCount": 11,
+      "chainrings": "32T",
+      "cassette": "11-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 2.91
+    },
+    "geometry": {
+      "stackMm": 620,
+      "reachMm": 418,
+      "stackReachRatio": 1.48,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 595,
+      "seatTubeLengthMm": 445,
+      "headTubeLengthMm": 105,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1115,
+      "bbDropMm": 65
+    },
+    "description": "Bicicleta oficial Orbea Onna 10 (2025) gama Onna de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M5100.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano Deore M5100 (11v)",
+      "Paso de rueda hasta 57 mm"
+    ],
+    "brakes": "Shimano MT201 Hydraulic Disc",
+    "wheels": "Orbea Black Rock 23c Disc",
+    "tires": "Kenda K1153 2.35 22TPI",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Onna Alloy, Dropout 9x135, BSA BB, Internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "RockShox Judy Silver TK Solo Air 100mm QR"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Deore M5100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano MT201 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Orbea Black Rock 23c Disc"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Kenda K1153 2.35 22TPI"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Alloy Flat 31.8mm 720mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Alloy 31.8mm 7º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Alloy 27.2mm Offset 0"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Royal 2058 DRN"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-onna-20-2025",
+    "brand": "Orbea",
+    "model": "Onna 20",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/onna/cat/onna-20-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 799,
+    "currentPriceEur": 799,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "suspension",
+    "weightKg": 14.1,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 57,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Deore M4100",
+      "isElectronic": false,
+      "speedCount": 10,
+      "chainrings": "32T",
+      "cassette": "11-46T",
+      "minGearRatio": 0.7,
+      "maxGearRatio": 2.91
+    },
+    "geometry": {
+      "stackMm": 620,
+      "reachMm": 418,
+      "stackReachRatio": 1.48,
+      "headTubeAngleDeg": 68.5,
+      "chainstayLengthMm": 440,
+      "topTubeLengthMm": 595,
+      "seatTubeLengthMm": 445,
+      "headTubeLengthMm": 105,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1115,
+      "bbDropMm": 65
+    },
+    "description": "Bicicleta oficial Orbea Onna 20 (2025) gama Onna de categoría mtb. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Deore M4100.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano Deore M4100 (10v)",
+      "Paso de rueda hasta 57 mm"
+    ],
+    "brakes": "Shimano MT200 Hydraulic Disc",
+    "wheels": "Orbea Black Rock 23c Disc",
+    "tires": "Kenda K1153 2.35 22TPI",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Onna Alloy, Dropout 9x135, BSA BB, Internal cable routing"
+          },
+          {
+            "label": "Horquilla",
+            "value": "SR Suntour XCR Air LO 100mm QR"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Deore M4100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-46T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano MT200 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Orbea Black Rock 23c Disc"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Kenda K1153 2.35 22TPI"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "Alloy Flat 31.8mm 720mm"
+          },
+          {
+            "label": "Potencia",
+            "value": "Alloy 31.8mm 7º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Alloy 27.2mm Offset 0"
+          },
+          {
+            "label": "Sillín",
+            "value": "Selle Royal 2058 DRN"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-rise-sl-m10-2025",
+    "brand": "Orbea",
+    "model": "Rise SL M10",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/rise/cat/rise-sl-m10-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 7999,
+    "currentPriceEur": 7999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 16.4,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 64,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT M8100 / EP801-RS",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "32T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
+    },
+    "geometry": {
+      "stackMm": 622,
+      "reachMm": 450,
+      "stackReachRatio": 1.38,
+      "headTubeAngleDeg": 65.5,
+      "chainstayLengthMm": 445,
+      "topTubeLengthMm": 595,
+      "seatTubeLengthMm": 415,
+      "headTubeLengthMm": 110,
+      "seatTubeAngleDeg": 77,
+      "wheelbaseMm": 1210,
+      "bbDropMm": 33
+    },
+    "description": "Bicicleta oficial Orbea Rise SL M10 (2025) gama Rise de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XT M8100 / EP801-RS.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano XT M8100 / EP801-RS (12v)",
+      "Paso de rueda hasta 64 mm",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano XT M8120 4-Piston Hydraulic Disc",
+    "wheels": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready",
+    "tires": "Maxxis Dissector 2.40 WT 60 TPI 3C MaxxTerra Exo TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Rise SL OMR Carbon 140mm travel, Shimano EP801-RS motor, integrated 420Wh / 630Wh battery, Concentric Boost 12x148"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 34 Float Factory 140 FIT4 Kashima, QR15x110"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano XT M8100 / EP801-RS"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "32T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano XT M8120 4-Piston Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Mountain Control MC32TEAM Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Dissector 2.40 WT 60 TPI 3C MaxxTerra Exo TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Control MC10 Carbon, Width 800"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Control MC20, 0º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Terra Ridon X5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-wild-m-team-2025",
+    "brand": "Orbea",
+    "model": "Wild M-TEAM",
+    "year": 2025,
+    "discipline": "mtb",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/montana/wild/cat/wild-m-team-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 8999,
+    "currentPriceEur": 8999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "suspension",
+    "weightKg": 20.9,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 65,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano XT M8100 / Bosch CX",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "34T",
+      "cassette": "10-51T",
+      "minGearRatio": 0.67,
+      "maxGearRatio": 3.4
+    },
+    "geometry": {
+      "stackMm": 638,
+      "reachMm": 455,
+      "stackReachRatio": 1.4,
+      "headTubeAngleDeg": 64,
+      "chainstayLengthMm": 448,
+      "topTubeLengthMm": 605,
+      "seatTubeLengthMm": 415,
+      "headTubeLengthMm": 115,
+      "seatTubeAngleDeg": 77.5,
+      "wheelbaseMm": 1245,
+      "bbDropMm": 25
+    },
+    "description": "Bicicleta oficial Orbea Wild M-TEAM (2025) gama Wild de categoría mtb. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano XT M8100 / Bosch CX.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano XT M8100 / Bosch CX (12v)",
+      "Paso de rueda hasta 65 mm",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano XT M8120 4-Piston Hydraulic Disc",
+    "wheels": "Oquo Mountain Control MC32TEAM e-MTB Tubeless Ready",
+    "tires": "Maxxis Minion DHF 2.60 120 TPI 3C MaxxTerra Exo+ TR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Wild Carbon OMR 160mm travel, Bosch Performance Line CX, integrated 750Wh battery, Boost 12x148"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Fox 38 Float Factory 160 Grip2 QR15x110 Kashima"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano XT M8100 / Bosch CX"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-51T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano XT M8120 4-Piston Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Mountain Control MC32TEAM e-MTB Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Maxxis Minion DHF 2.60 120 TPI 3C MaxxTerra Exo+ TR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Mountain Control MC10 Carbon, Width 800"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Mountain Control MC20, 0º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Mountain Control MC21 Dropper, 31.6mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Aidon X5 145mm"
+          }
+        ]
+      }
+    ]
   }
 ]

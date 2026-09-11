@@ -21213,5 +21213,1549 @@
         ]
       }
     ]
+  },
+  {
+    "id": "orbea-orca-m10iltd-2025",
+    "brand": "Orbea",
+    "model": "Orca M10iLTD",
+    "year": 2025,
+    "discipline": "road_race",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m10iltd-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 10999,
+    "currentPriceEur": 10999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 6.7,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Dura-Ace Di2 R9200",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "36/52T",
+      "cassette": "11-30T",
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 550,
+      "reachMm": 385,
+      "stackReachRatio": 1.43,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 408,
+      "topTubeLengthMm": 548,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 980,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial Orbea Orca M10iLTD (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano Dura-Ace Di2 R9200.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano Dura-Ace Di2 R9200 (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano R9270 Hydraulic Disc",
+    "wheels": "Oquo Road Performance RP45LTD Carbon Tubeless Ready",
+    "tires": "Vittoria Corsa Speed G2.0 TLR 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Orca carbon OMX Disc, monocoque construction, HS 1,5, BB 386 EVO, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Orca OMX ICR fork 2024, full carbon, 1-1/8 - 1,5 tapared head tube compatible, thru axle 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Dura-Ace Di2 R9200"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "36/52T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-30T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano R9270 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Road Performance RP45LTD Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Corsa Speed G2.0 TLR 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Performance RP11 Carbon, Reach 80, Drop 125, with Di2 hole"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP10, -8º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Performance XP10-S Carbon, 27.2mm, Setback 20"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Vento Antares R1 Carbon 140mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-orca-m20iltd-2025",
+    "brand": "Orbea",
+    "model": "Orca M20iLTD",
+    "year": 2025,
+    "discipline": "road_race",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m20iltd-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 6999,
+    "currentPriceEur": 6999,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.2,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra Di2 R8100",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "34/50T",
+      "cassette": "11-30T",
+      "minGearRatio": 1.13,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 550,
+      "reachMm": 385,
+      "stackReachRatio": 1.43,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 408,
+      "topTubeLengthMm": 548,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 980,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial Orbea Orca M20iLTD (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano Ultegra Di2 R8100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano Ultegra Di2 R8100 (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano R8170 Hydraulic Disc",
+    "wheels": "Oquo Road Performance RP45TEAM Carbon Tubeless Ready",
+    "tires": "Vittoria Corsa Pro G2.0 TLR 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Orca carbon OMX Disc, monocoque, HS 1,5, BB 386 EVO, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Orca OMX ICR fork, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Ultegra Di2 R8100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34/50T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-30T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano R8170 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Road Performance RP45TEAM Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Corsa Pro G2.0 TLR 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Performance RP11 Carbon"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP10, -8º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Performance XP10-S Carbon, 27.2mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Vento Antares R3 k:ium"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-orca-m21eltd-2025",
+    "brand": "Orbea",
+    "model": "Orca M21eLTD",
+    "year": 2025,
+    "discipline": "road_race",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m21eltd-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 8799,
+    "currentPriceEur": 8799,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Force AXS Power Meter",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "35/48T",
+      "cassette": "10-33T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.8
+    },
+    "geometry": {
+      "stackMm": 550,
+      "reachMm": 385,
+      "stackReachRatio": 1.43,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 408,
+      "topTubeLengthMm": 548,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 980,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial Orbea Orca M21eLTD (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial SRAM Force AXS Power Meter.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo SRAM Force AXS Power Meter (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "SRAM Force AXS Hydraulic Disc",
+    "wheels": "Oquo Road Performance RP45LTD Carbon Tubeless Ready",
+    "tires": "Vittoria Corsa Pro G2.0 TLR 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Orca carbon OMX Disc, monocoque, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Orca OMX ICR fork, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "SRAM Force AXS Power Meter"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "35/48T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-33T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM Force AXS Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Road Performance RP45LTD Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Corsa Pro G2.0 TLR 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Performance RP11 Carbon"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP10, -8º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Performance XP10-S Carbon, 27.2mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Vento Antares R1 Carbon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-orca-m20iteam-2025",
+    "brand": "Orbea",
+    "model": "Orca M20iTEAM",
+    "year": 2025,
+    "discipline": "road_race",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m20iteam-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 4599,
+    "currentPriceEur": 4599,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.7,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra Di2 R8100",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "34/50T",
+      "cassette": "11-30T",
+      "minGearRatio": 1.13,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 550,
+      "reachMm": 385,
+      "stackReachRatio": 1.43,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 408,
+      "topTubeLengthMm": 548,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 980,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial Orbea Orca M20iTEAM (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano Ultegra Di2 R8100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano Ultegra Di2 R8100 (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano R8170 Hydraulic Disc",
+    "wheels": "Oquo Road Performance RP35TEAM Carbon Tubeless Ready",
+    "tires": "Vittoria Corsa N.Ext G2.0 Foldable 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Orca carbon OMR Disc, monocoque construction, HS 1,5, BB 386 EVO, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Orca OMR ICR fork 2024, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Ultegra Di2 R8100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34/50T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-30T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano R8170 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Road Performance RP35TEAM Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Corsa N.Ext G2.0 Foldable 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Performance RP21 Alu SL, Reach 80, Drop 125"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Performance XP10-S Carbon, 27.2mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Vento Antares R5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-orca-m35i-2025",
+    "brand": "Orbea",
+    "model": "Orca M35i",
+    "year": 2025,
+    "discipline": "road_race",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m35i-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 3799,
+    "currentPriceEur": 3799,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.1,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 Di2 R7100",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "34/50T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 550,
+      "reachMm": 385,
+      "stackReachRatio": 1.43,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 408,
+      "topTubeLengthMm": 548,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 980,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial Orbea Orca M35i (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano 105 Di2 R7100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano 105 Di2 R7100 (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano R7170 Hydraulic Disc",
+    "wheels": "Oquo Road Performance RP35PRO Carbon Tubeless Ready",
+    "tires": "Vittoria Rubino IV G2.0 Foldable 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Orca carbon OMR Disc, monocoque, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Orca OMR ICR fork, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano 105 Di2 R7100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34/50T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-34T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano R7170 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Road Performance RP35PRO Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Rubino IV G2.0 Foldable 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Performance RP21 Alu SL"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Performance XP10-S Carbon, 27.2mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Aliante R5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-orca-m30i-2025",
+    "brand": "Orbea",
+    "model": "Orca M30i",
+    "year": 2025,
+    "discipline": "road_race",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m30i-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 3399,
+    "currentPriceEur": 3399,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.3,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 Di2 R7100",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "34/50T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 550,
+      "reachMm": 385,
+      "stackReachRatio": 1.43,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 408,
+      "topTubeLengthMm": 548,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 980,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial Orbea Orca M30i (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano 105 Di2 R7100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano 105 Di2 R7100 (12v)",
+      "Paso de rueda hasta 32 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano R7170 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
+    "tires": "Vittoria Zafiro V Rigid bead 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Orca carbon OMR Disc, monocoque, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Orca OMR ICR fork, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano 105 Di2 R7100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34/50T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-34T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano R7170 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 700c, 21c, 28H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Zafiro V Rigid bead 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Performance RP31, Reach 80, Drop 125"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Carbon, 27.2mm, Setback 20"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Aliante R5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-orca-m30-2025",
+    "brand": "Orbea",
+    "model": "Orca M30",
+    "year": 2025,
+    "discipline": "road_race",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m30-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 2599,
+    "currentPriceEur": 2599,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.6,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 32,
+    "integratedCockpit": false,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 R7100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "34/50T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 550,
+      "reachMm": 385,
+      "stackReachRatio": 1.43,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 408,
+      "topTubeLengthMm": 548,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 140,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 980,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial Orbea Orca M30 (2025) gama Orca de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano 105 R7100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano 105 R7100 (12v)",
+      "Paso de rueda hasta 32 mm"
+    ],
+    "brakes": "Shimano R7170 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
+    "tires": "Vittoria Zafiro V Rigid bead 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Orca carbon OMR Disc, monocoque construction, HS 1,5, BB 386 EVO, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Orca OMR ICR fork, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano 105 R7100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34/50T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-34T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano R7170 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 700c, 21c, 28H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Zafiro V Rigid bead 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Performance RP31, Reach 80, Drop 125"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Carbon, 27.2mm, Setback 20"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Aliante R5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-orca-aero-m10iltd-2025",
+    "brand": "Orbea",
+    "model": "Orca Aero M10iLTD",
+    "year": 2025,
+    "discipline": "road_race",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca-aero/cat/orca-aero-m10iltd-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 10499,
+    "currentPriceEur": 10499,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.4,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 30,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Dura-Ace Di2 R9200",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "36/52T",
+      "cassette": "11-30T",
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 546,
+      "reachMm": 388,
+      "stackReachRatio": 1.41,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 408,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 485,
+      "headTubeLengthMm": 138,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 980,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial Orbea Orca Aero M10iLTD (2025) gama Orca Aero de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano Dura-Ace Di2 R9200.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano Dura-Ace Di2 R9200 (12v)",
+      "Paso de rueda hasta 30 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano R9270 Hydraulic Disc",
+    "wheels": "Oquo Road Performance RP57LTD Carbon Tubeless Ready",
+    "tires": "Vittoria Corsa Pro TLR 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Orca Aero Carbon OMX disc, monocoque construction, HS 1,5, BB 386 EVO, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Orca Aero OMX ICR, full carbon, 1-1/8 - 1,5, thru axle 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Dura-Ace Di2 R9200"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "36/52T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-30T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano R9270 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Road Performance RP57LTD Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Corsa Pro TLR 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Aero RA10 Carbon, Reach 80, Drop 125"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP10, -8º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Road Aero AERO10 Carbon, Setback 0-25mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Scratch M5 Nack Carbon 140mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-orca-aero-m20iltd-2025",
+    "brand": "Orbea",
+    "model": "Orca Aero M20iLTD",
+    "year": 2025,
+    "discipline": "road_race",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca-aero/cat/orca-aero-m20iltd-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 6499,
+    "currentPriceEur": 6499,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 7.9,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 30,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Ultegra Di2 R8100",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "36/52T",
+      "cassette": "11-30T",
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 546,
+      "reachMm": 388,
+      "stackReachRatio": 1.41,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 408,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 485,
+      "headTubeLengthMm": 138,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 980,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial Orbea Orca Aero M20iLTD (2025) gama Orca Aero de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano Ultegra Di2 R8100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano Ultegra Di2 R8100 (12v)",
+      "Paso de rueda hasta 30 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano R8170 Hydraulic Disc",
+    "wheels": "Oquo Road Performance RP57TEAM Carbon Tubeless Ready",
+    "tires": "Vittoria Corsa N.Ext TLR 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Orca Aero Carbon OMX disc, monocoque, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Orca Aero OMX ICR, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Ultegra Di2 R8100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "36/52T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-30T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano R8170 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Road Performance RP57TEAM Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Corsa N.Ext TLR 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Aero RA10 Carbon"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP10, -8º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Road Aero AERO10 Carbon"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Scratch M5 T2.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-orca-aero-m30iltd-2025",
+    "brand": "Orbea",
+    "model": "Orca Aero M30iLTD",
+    "year": 2025,
+    "discipline": "road_race",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/orca-aero/cat/orca-aero-m30iltd-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 4499,
+    "currentPriceEur": 4499,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.4,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 30,
+    "integratedCockpit": true,
+    "bikepackingMounts": false,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 Di2 R7100",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "36/52T",
+      "cassette": "11-34T",
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
+    },
+    "geometry": {
+      "stackMm": 546,
+      "reachMm": 388,
+      "stackReachRatio": 1.41,
+      "headTubeAngleDeg": 72.8,
+      "chainstayLengthMm": 408,
+      "topTubeLengthMm": 550,
+      "seatTubeLengthMm": 485,
+      "headTubeLengthMm": 138,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 980,
+      "bbDropMm": 70
+    },
+    "description": "Bicicleta oficial Orbea Orca Aero M30iLTD (2025) gama Orca Aero de categoría road_race. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano 105 Di2 R7100.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano 105 Di2 R7100 (12v)",
+      "Paso de rueda hasta 30 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR"
+    ],
+    "brakes": "Shimano R7170 Hydraulic Disc",
+    "wheels": "Oquo Road Performance RP45PRO Carbon Tubeless Ready",
+    "tires": "Vittoria Rubino IV G2.0 Foldable 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Orca Aero Carbon OMX disc, monocoque, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Orca Aero OMX ICR, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano 105 Di2 R7100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "36/52T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-34T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano R7170 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Road Performance RP45PRO Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Rubino IV G2.0 Foldable 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Aero RA10 Carbon"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP10, -8º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Road Aero AERO10 Carbon"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Dimension T4.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-avant-h30-2025",
+    "brand": "Orbea",
+    "model": "Avant H30",
+    "year": 2025,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/avant/cat/avant-h30-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 1799,
+    "currentPriceEur": 1799,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 9.6,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 35,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano 105 R7100",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "34/50T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 570,
+      "reachMm": 375,
+      "stackReachRatio": 1.52,
+      "headTubeAngleDeg": 72,
+      "chainstayLengthMm": 415,
+      "topTubeLengthMm": 545,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 165,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 995,
+      "bbDropMm": 72
+    },
+    "description": "Bicicleta oficial Orbea Avant H30 (2025) gama Avant de categoría road_endurance. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano 105 R7100.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano 105 R7100 (12v)",
+      "Paso de rueda hasta 35 mm",
+      "Anclajes para bolsas / almacenamiento LOCKR"
+    ],
+    "brakes": "Shimano R7170 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
+    "tires": "Vittoria Zafiro V Rigid bead 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Avant Hydro disc, hydroformed triple butted aluminum, HS 1,5 ICR, BB 68mm, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea carbon fork, full carbon, 1-1/8 - 1,5, thru axle 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano 105 R7100"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34/50T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-34T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano R7170 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 700c, 21c, 28H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Zafiro V Rigid bead 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Performance RP31, Reach 80, Drop 125"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Alloy, 27.2mm, Setback 20"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Aliante R5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-avant-h40-2025",
+    "brand": "Orbea",
+    "model": "Avant H40",
+    "year": 2025,
+    "discipline": "road_endurance",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/carretera/avant/cat/avant-h40-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 1399,
+    "currentPriceEur": 1399,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 9.9,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 35,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano Tiagra 4700",
+      "isElectronic": false,
+      "speedCount": 10,
+      "chainrings": "34/50T",
+      "cassette": "11-34T",
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
+    },
+    "geometry": {
+      "stackMm": 570,
+      "reachMm": 375,
+      "stackReachRatio": 1.52,
+      "headTubeAngleDeg": 72,
+      "chainstayLengthMm": 415,
+      "topTubeLengthMm": 545,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 165,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 995,
+      "bbDropMm": 72
+    },
+    "description": "Bicicleta oficial Orbea Avant H40 (2025) gama Avant de categoría road_endurance. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano Tiagra 4700.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano Tiagra 4700 (10v)",
+      "Paso de rueda hasta 35 mm",
+      "Anclajes para bolsas / almacenamiento LOCKR"
+    ],
+    "brakes": "Shimano Tiagra 4770 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
+    "tires": "Vittoria Zafiro V Rigid bead 700x28c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Avant Hydro disc, hydroformed triple butted aluminum, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea carbon fork, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano Tiagra 4700"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "34/50T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-34T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano Tiagra 4770 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 700c, 21c, 28H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Zafiro V Rigid bead 700x28c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Road Performance RP31"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Alloy, 27.2mm, Setback 20"
+          },
+          {
+            "label": "Sillín",
+            "value": "Fizik Aliante R5"
+          }
+        ]
+      }
+    ]
   }
 ]

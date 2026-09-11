@@ -40,5 +40,12 @@
     "country": "Taiwán",
     "officialWebsite": "https://www.giant-bicycles.com/es",
     "description": "Mayor fabricante mundial de cuadros de carbono y aluminio, famoso por la gama Revolt en gravel y TCR / Defy en carretera."
+  },
+  {
+    "id": "liv",
+    "name": "Liv",
+    "country": "Taiwán",
+    "officialWebsite": "https://www.liv-cycling.com/es",
+    "description": "Marca de Giant Group dedicada al ciclismo femenino de alto rendimiento con modelos de referencia como Langma, Avail, Devote y Pique."
   }
 ]

@@ -52,7 +52,8 @@ export function generateMetadata({ searchParams }: PageProps): Metadata {
 
 export default function HomePage({ searchParams }: PageProps) {
   const bikes = getAllBikes();
-  const brands = getAllBrands().map((b) => b.name);
+  const brandSet = new Set([...getAllBrands().map((b) => b.name), ...bikes.map((b) => b.brand)]);
+  const brands = Array.from(brandSet).sort();
   const categories = getAllCategories();
 
   const selectedDiscipline = searchParams.discipline as Discipline | undefined;

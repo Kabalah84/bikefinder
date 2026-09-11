@@ -12665,5 +12665,777 @@
         ]
       }
     ]
+  },
+  {
+    "id": "orbea-terra-m21eteam-2025",
+    "brand": "Orbea",
+    "model": "Terra M21eTEAM",
+    "year": 2025,
+    "discipline": "gravel",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m21eteam-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 5799,
+    "currentPriceEur": 5799,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.4,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "sram",
+      "name": "SRAM Force XPLR AXS",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "40T",
+      "cassette": "10-44T",
+      "minGearRatio": 0.91,
+      "maxGearRatio": 4
+    },
+    "geometry": {
+      "stackMm": 580,
+      "reachMm": 385,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 155,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 78
+    },
+    "description": "Bicicleta oficial Orbea Terra M21eTEAM (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro carbon y montaje oficial SRAM Force XPLR AXS.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo SRAM Force XPLR AXS (12v)",
+      "Paso de rueda hasta 45 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR",
+      "Anclajes para bolsas / almacenamiento LOCKR"
+    ],
+    "brakes": "SRAM Force AXS Hydraulic Disc",
+    "wheels": "Oquo Gravel Control GC25TEAM Carbon Tubeless Ready",
+    "tires": "Pirelli Cinturato Gravel H 700x40c TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Terra carbon OMR Disc, monocoque construction, HS 1,5, LOCKR internal downtube storage, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Terra OMR carbon disc fork, full carbon steerer, thru axle 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "SRAM Force XPLR AXS"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "40T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-44T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "SRAM Force AXS Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Gravel Control GC25TEAM Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Pirelli Cinturato Gravel H 700x40c TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Gravel GR31-R Carbon, Flare 12º, Drop 110"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP10, -8º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Performance XP10 Carbon, 27.2mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Akero AGX STN 150mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-terra-m20iteam-2025",
+    "brand": "Orbea",
+    "model": "Terra M20iTEAM",
+    "year": 2025,
+    "discipline": "gravel",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m20iteam-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 5399,
+    "currentPriceEur": 5399,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.6,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": true,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX Di2 RX825",
+      "isElectronic": true,
+      "speedCount": 12,
+      "chainrings": "31/48T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.86,
+      "maxGearRatio": 4.36
+    },
+    "geometry": {
+      "stackMm": 580,
+      "reachMm": 385,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 155,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 78
+    },
+    "description": "Bicicleta oficial Orbea Terra M20iTEAM (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano GRX Di2 RX825.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano GRX Di2 RX825 (12v)",
+      "Paso de rueda hasta 45 mm",
+      "Cambio electrónico Di2 / AXS",
+      "Cockpit integrado y cableado interno ICR",
+      "Anclajes para bolsas / almacenamiento LOCKR"
+    ],
+    "brakes": "Shimano RX820 Hydraulic Disc",
+    "wheels": "Oquo Gravel Control GC25TEAM Carbon Tubeless Ready",
+    "tires": "Pirelli Cinturato Gravel H 700x40c TLR",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Terra carbon OMR Disc, monocoque, LOCKR storage, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Terra OMR carbon disc fork, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano GRX Di2 RX825"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "31/48T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-36T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano RX820 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Oquo Gravel Control GC25TEAM Carbon Tubeless Ready"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Pirelli Cinturato Gravel H 700x40c TLR"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Gravel GR31-R Carbon, Flare 12º"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP10, -8º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Performance XP10 Carbon, 27.2mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Akero AGX STN"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-terra-m30team-2025",
+    "brand": "Orbea",
+    "model": "Terra M30TEAM",
+    "year": 2025,
+    "discipline": "gravel",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m30team-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 3199,
+    "currentPriceEur": 3199,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 9.1,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RX820 / RX610",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "30/46T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 580,
+      "reachMm": 385,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 155,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 78
+    },
+    "description": "Bicicleta oficial Orbea Terra M30TEAM (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano GRX RX820 / RX610.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano GRX RX820 / RX610 (12v)",
+      "Paso de rueda hasta 45 mm",
+      "Anclajes para bolsas / almacenamiento LOCKR"
+    ],
+    "brakes": "Shimano RX400 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
+    "tires": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Terra carbon OMR Disc, monocoque construction, LOCKR downtube storage, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Terra OMR carbon disc fork, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano GRX RX820 / RX610"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "30/46T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-36T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano RX400 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 700c, 21c, 28H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Gravel GR31, Flare 12º, Reach 70, Drop 110"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Performance XP10 Carbon, 27.2mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Akero AGX STN 150mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-terra-m30team-1x-2025",
+    "brand": "Orbea",
+    "model": "Terra M30TEAM 1X",
+    "year": 2025,
+    "discipline": "gravel",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m30team-1x-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 3099,
+    "currentPriceEur": 3099,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "carbon",
+    "forkMaterial": "carbon",
+    "weightKg": 8.9,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RX820 1X",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "40T",
+      "cassette": "10-45T",
+      "minGearRatio": 0.89,
+      "maxGearRatio": 4
+    },
+    "geometry": {
+      "stackMm": 580,
+      "reachMm": 385,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 155,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 78
+    },
+    "description": "Bicicleta oficial Orbea Terra M30TEAM 1X (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro carbon y montaje oficial Shimano GRX RX820 1X.",
+    "highlights": [
+      "Cuadro oficial Orbea CARBON",
+      "Grupo Shimano GRX RX820 1X (12v)",
+      "Paso de rueda hasta 45 mm",
+      "Anclajes para bolsas / almacenamiento LOCKR"
+    ],
+    "brakes": "Shimano RX400 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
+    "tires": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Terra carbon OMR Disc, monocoque, LOCKR storage, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Terra OMR carbon disc fork, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano GRX RX820 1X"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "40T"
+          },
+          {
+            "label": "Cassette",
+            "value": "10-45T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano RX400 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 700c, 21c, 28H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Gravel GR31, Flare 12º"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "OC Performance XP10 Carbon, 27.2mm"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Akero AGX STN 150mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-terra-h30-2025",
+    "brand": "Orbea",
+    "model": "Terra H30",
+    "year": 2025,
+    "discipline": "gravel",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-h30-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 2299,
+    "currentPriceEur": 2299,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 9.9,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RX820 / RX610",
+      "isElectronic": false,
+      "speedCount": 12,
+      "chainrings": "30/46T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 580,
+      "reachMm": 385,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 155,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 78
+    },
+    "description": "Bicicleta oficial Orbea Terra H30 (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano GRX RX820 / RX610.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano GRX RX820 / RX610 (12v)",
+      "Paso de rueda hasta 45 mm",
+      "Anclajes para bolsas / almacenamiento LOCKR"
+    ],
+    "brakes": "Shimano RX400 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
+    "tires": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Terra Hydro disc, hydroformed triple butted aluminum, HS 1,5 ICR, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Terra OMR carbon disc fork, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano GRX RX820 / RX610"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "30/46T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-36T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano RX400 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 700c, 21c, 28H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Gravel GR31, Flare 12º"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Alloy, 27.2mm, Setback 0"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Akero AGX STN"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "orbea-terra-h40-2025",
+    "brand": "Orbea",
+    "model": "Terra H40",
+    "year": 2025,
+    "discipline": "gravel",
+    "officialUrl": "https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-h40-2025",
+    "officialImageUrl": "https://cdn.deporvillage.com/cdn-cgi/image/f=auto,q=75,fit=contain,background=white/product-vertical/orb-s10749aj_001.jpg",
+    "msrpEur": 1899,
+    "currentPriceEur": 1899,
+    "discountPercentage": 0,
+    "isOutlet": false,
+    "frameMaterial": "aluminum",
+    "forkMaterial": "carbon",
+    "weightKg": 10.3,
+    "weightSizeReference": "M",
+    "maxTireClearanceMm": 45,
+    "integratedCockpit": false,
+    "bikepackingMounts": true,
+    "groupset": {
+      "brand": "shimano",
+      "name": "Shimano GRX RX400",
+      "isElectronic": false,
+      "speedCount": 10,
+      "chainrings": "30/46T",
+      "cassette": "11-36T",
+      "minGearRatio": 0.83,
+      "maxGearRatio": 4.18
+    },
+    "geometry": {
+      "stackMm": 580,
+      "reachMm": 385,
+      "stackReachRatio": 1.51,
+      "headTubeAngleDeg": 71,
+      "chainstayLengthMm": 420,
+      "topTubeLengthMm": 555,
+      "seatTubeLengthMm": 490,
+      "headTubeLengthMm": 155,
+      "seatTubeAngleDeg": 73.5,
+      "wheelbaseMm": 1025,
+      "bbDropMm": 78
+    },
+    "description": "Bicicleta oficial Orbea Terra H40 (2025) gama Terra de categoría gravel. Diseñada en Mallabia con cuadro aluminum y montaje oficial Shimano GRX RX400.",
+    "highlights": [
+      "Cuadro oficial Orbea ALUMINUM",
+      "Grupo Shimano GRX RX400 (10v)",
+      "Paso de rueda hasta 45 mm",
+      "Anclajes para bolsas / almacenamiento LOCKR"
+    ],
+    "brakes": "Shimano RX400 Hydraulic Disc",
+    "wheels": "Alloy, Tubeless, 700c, 21c, 28H",
+    "tires": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c",
+    "detailedSpecs": [
+      {
+        "category": "Cuadro y Horquilla",
+        "items": [
+          {
+            "label": "Cuadro",
+            "value": "Orbea Terra Hydro disc, hydroformed triple butted aluminum, thru axle 12x142mm"
+          },
+          {
+            "label": "Horquilla",
+            "value": "Orbea Terra OMR carbon disc fork, full carbon, 12x100mm"
+          }
+        ]
+      },
+      {
+        "category": "Transmisión",
+        "items": [
+          {
+            "label": "Grupo",
+            "value": "Shimano GRX RX400"
+          },
+          {
+            "label": "Desarrollo Platos",
+            "value": "30/46T"
+          },
+          {
+            "label": "Cassette",
+            "value": "11-36T"
+          }
+        ]
+      },
+      {
+        "category": "Frenos",
+        "items": [
+          {
+            "label": "Frenos",
+            "value": "Shimano RX400 Hydraulic Disc"
+          }
+        ]
+      },
+      {
+        "category": "Ruedas y Neumáticos",
+        "items": [
+          {
+            "label": "Ruedas",
+            "value": "Alloy, Tubeless, 700c, 21c, 28H"
+          },
+          {
+            "label": "Cubiertas",
+            "value": "Vittoria Terreno Dry CX-Gravel G2.0 TNT 700x38c"
+          }
+        ]
+      },
+      {
+        "category": "Componentes",
+        "items": [
+          {
+            "label": "Manillar",
+            "value": "OC Gravel GR31, Flare 12º"
+          },
+          {
+            "label": "Potencia",
+            "value": "OC Road Performance RP21, -6º"
+          },
+          {
+            "label": "Tija de Sillín",
+            "value": "Alloy, 27.2mm, Setback 0"
+          },
+          {
+            "label": "Sillín",
+            "value": "Prologo Akero AGX STN"
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -1,0 +1,53 @@
+# ==============================================================================
+# BIKEFINDER.ES - ENLACES OFICIALES: ORBEA (Mallabia, España)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# CARRETERA (12 modelos de serie: Orca OMX, Orca OMR, Orca Aero, Avant)
+# ------------------------------------------------------------------------------
+https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m10iltd-2025
+https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m20iltd-2025
+https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m21eltd-2025
+https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m20iteam-2025
+https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m35i-2025
+https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m30i-2025
+https://www.orbea.com/es-es/bicicletas/carretera/orca/cat/orca-m30-2025
+https://www.orbea.com/es-es/bicicletas/carretera/orca-aero/cat/orca-aero-m10iltd-2025
+https://www.orbea.com/es-es/bicicletas/carretera/orca-aero/cat/orca-aero-m20iltd-2025
+https://www.orbea.com/es-es/bicicletas/carretera/orca-aero/cat/orca-aero-m30iltd-2025
+https://www.orbea.com/es-es/bicicletas/carretera/avant/cat/avant-h30-2025
+https://www.orbea.com/es-es/bicicletas/carretera/avant/cat/avant-h40-2025
+
+# ------------------------------------------------------------------------------
+# GRAVEL & ALL-ROAD (6 modelos de serie: Terra OMR, Terra Hydro)
+# ------------------------------------------------------------------------------
+https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m21eteam-2025
+https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m20iteam-2025
+https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m30team-2025
+https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-m30team-1x-2025
+https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-h30-2025
+https://www.orbea.com/es-es/bicicletas/gravel/terra/cat/terra-h40-2025
+
+# ------------------------------------------------------------------------------
+# MONTAÑA (MTB) (20 modelos de serie: Oiz OMX/OMR/H, Alma OMX/OMR/H, Occam, Rallon, Laufey, Onna, Rise, Wild)
+# ------------------------------------------------------------------------------
+https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m-ltd-2025
+https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m-pro-2025
+https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m10-2025
+https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m20-2025
+https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-m30-2025
+https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-h10-2025
+https://www.orbea.com/es-es/bicicletas/montana/oiz/cat/oiz-h30-2025
+https://www.orbea.com/es-es/bicicletas/montana/alma/cat/alma-m-pro-2025
+https://www.orbea.com/es-es/bicicletas/montana/alma/cat/alma-m30-2025
+https://www.orbea.com/es-es/bicicletas/montana/alma/cat/alma-h30-2025
+https://www.orbea.com/es-es/bicicletas/montana/occam/cat/occam-sl-m10-2025
+https://www.orbea.com/es-es/bicicletas/montana/occam/cat/occam-sl-h30-2025
+https://www.orbea.com/es-es/bicicletas/montana/rallon/cat/rallon-m-team-2025
+https://www.orbea.com/es-es/bicicletas/montana/rallon/cat/rallon-m20-2025
+https://www.orbea.com/es-es/bicicletas/montana/laufey/cat/laufey-h-ltd-2025
+https://www.orbea.com/es-es/bicicletas/montana/laufey/cat/laufey-h30-2025
+https://www.orbea.com/es-es/bicicletas/montana/onna/cat/onna-10-2025
+https://www.orbea.com/es-es/bicicletas/montana/onna/cat/onna-20-2025
+https://www.orbea.com/es-es/bicicletas/montana/rise/cat/rise-sl-m10-2025
+https://www.orbea.com/es-es/bicicletas/montana/wild/cat/wild-m-team-2025
