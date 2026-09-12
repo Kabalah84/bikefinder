@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "validate:catalog": "tsx scripts/validate-catalog.ts",
+    "pages:build": "npx @cloudflare/next-on-pages",
     "bike:import": "tsx scripts/import-bike.ts",
     "bike:import:links": "tsx scripts/import-links-file.ts",
     "bike:sync": "tsx scripts/sync-official-prices.ts"
@@ -22,6 +23,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.7",
     "@types/node": "^20.17.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",

@@ -8,6 +8,8 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { generateOrganizationSchema, generateWebSiteSchema } from "@/lib/seo/schema";
 import { SITE_CONFIG } from "@/lib/seo/metadata";
 
+export const runtime = "edge";
+
 export const viewport: Viewport = {
   themeColor: "#0d9488",
   width: "device-width",
