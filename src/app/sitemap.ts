@@ -3,6 +3,8 @@ import { getAllBikes, getAllCategories } from "@/lib/data/bikes";
 import { POPULAR_DUELS } from "@/lib/data/duels";
 import { SITE_CONFIG } from "@/lib/seo/metadata";
 
+export const runtime = "edge";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_CONFIG.baseUrl;
   const now = new Date();

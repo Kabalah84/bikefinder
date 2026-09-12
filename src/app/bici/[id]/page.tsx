@@ -41,6 +41,9 @@ interface BikePageProps {
   };
 }
 
+export const runtime = "edge";
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   const bikes = getAllBikes();
   return bikes.map((bike) => ({

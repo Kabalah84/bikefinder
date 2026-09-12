@@ -15,6 +15,9 @@ import {
   Sparkles,
 } from "lucide-react";
 
+export const runtime = "edge";
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return POPULAR_DUELS.map((d) => ({
     slug: d.slug,
