@@ -16,7 +16,7 @@ export function generateOrganizationSchema() {
     logo: {
       "@type": "ImageObject",
       url: `${SITE_CONFIG.baseUrl}/icon-512.png`,
-      caption: SITE_CONFIG.name,
+      caption: `${SITE_CONFIG.name} · Comparador Oficial de Bicicletas`,
     },
     description: SITE_CONFIG.defaultDescription,
     sameAs: [
@@ -77,83 +77,174 @@ export function generateBreadcrumbsSchema(
 }
 
 /**
+ * Mapeo de categoría Google Product Taxonomy
+ */
+function getGoogleProductCategory(discipline: string): string {
+  switch (discipline) {
+    case "mtb":
+      return "Sporting Goods > Outdoor Recreation > Cycling > Bicycles > Mountain Bikes";
+    case "gravel":
+      return "Sporting Goods > Outdoor Recreation > Cycling > Bicycles > Gravel Bikes";
+    case "road_race":
+      return "Sporting Goods > Outdoor Recreation > Cycling > Bicycles > Road Bikes > Racing Bicycles";
+    case "road_endurance":
+      return "Sporting Goods > Outdoor Recreation > Cycling > Bicycles > Road Bikes > Endurance Bicycles";
+    case "all_road":
+      return "Sporting Goods > Outdoor Recreation > Cycling > Bicycles > All-Road Bicycles";
+    default:
+      return "Sporting Goods > Outdoor Recreation > Cycling > Bicycles";
+  }
+}
+
+/**
  * Genera el Schema.org Product enriquecido para fichas técnicas individuales de bicicletas
  */
 export function generateProductSchema(bike: BikeProduct) {
   const productUrl = `${SITE_CONFIG.baseUrl}/bici/${bike.id}`;
   const disciplineName = formatDisciplineName(bike.discipline);
+  const nextYear = new Date().getFullYear() + 1;
+
+  // Propiedades adicionales específicas según tecnología
+  const additionalProps: { "@type": string; name: string; value: string }[] = [
+    {
+      "@type": "PropertyValue",
+      name: "Paso de Rueda Máximo (Tire Clearance)",
+      value: `${bike.maxTireClearanceMm} mm`,
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Peso Declarado Oficial",
+      value: bike.weightKg ? `${bike.weightKg} kg` : "Verificado fabricante",
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Grupo de Transmisión",
+      value: bike.groupset.name,
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Tipo de Cambio",
+      value: bike.groupset.isElectronic ? "Electrónico Inalámbrico (Di2/AXS)" : "Mecánico",
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Material del Cuadro",
+      value: formatMaterialName(bike.frameMaterial),
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Disciplina Ciclista",
+      value: disciplineName,
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Ratio Stack / Reach",
+      value: bike.geometry.stackReachRatio.toFixed(2),
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Ratio Mínimo de Subida",
+      value: bike.groupset.minGearRatio.toFixed(2),
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Tipo de Asistencia",
+      value: bike.isElectric ? "Bicicleta Eléctrica (e-Bike)" : "Convencional (Muscular)",
+    },
+    {
+      "@type": "PropertyValue",
+      name: "Tipo de Suspensión",
+      value:
+        bike.suspensionType === "full"
+          ? "Doble Suspensión (Full Suspension)"
+          : bike.suspensionType === "hardtail"
+          ? "Suspensión Delantera (Hardtail)"
+          : "Rígida",
+    },
+  ];
+
+  if (bike.brakes) {
+    additionalProps.push({
+      "@type": "PropertyValue",
+      name: "Frenos",
+      value: bike.brakes,
+    });
+  }
+
+  if (bike.wheels) {
+    additionalProps.push({
+      "@type": "PropertyValue",
+      name: "Ruedas",
+      value: bike.wheels,
+    });
+  }
+
+  if (bike.tires) {
+    additionalProps.push({
+      "@type": "PropertyValue",
+      name: "Cubiertas",
+      value: bike.tires,
+    });
+  }
 
   return {
     "@context": "https://schema.org",
     "@type": "Product",
     "@id": `${productUrl}#product`,
     name: `${bike.brand} ${bike.model} (${bike.year})`,
+    model: bike.model,
     image: [bike.officialImageUrl],
     description:
       bike.description ||
-      `Bicicleta ${bike.brand} ${bike.model} de ${disciplineName}. Cuadro ${formatMaterialName(bike.frameMaterial)}, grupo ${bike.groupset.name}, paso de rueda de hasta ${bike.maxTireClearanceMm} mm y peso oficial declarado de ${bike.weightKg ? `${bike.weightKg} kg` : "catálogo"}.`,
+      `Bicicleta ${bike.brand} ${bike.model} (${bike.year}) de ${disciplineName}. ${
+        bike.isElectric ? "Asistencia eléctrica e-bike. " : ""
+      }${
+        bike.suspensionType === "full"
+          ? "Doble suspensión. "
+          : bike.suspensionType === "hardtail"
+          ? "Suspensión delantera. "
+          : ""
+      }Cuadro ${formatMaterialName(bike.frameMaterial)}, grupo ${bike.groupset.name}, paso de rueda de hasta ${bike.maxTireClearanceMm} mm y PVP oficial ${bike.currentPriceEur} €.`,
     sku: bike.id,
     mpn: bike.id,
     brand: {
       "@type": "Brand",
       name: bike.brand,
     },
-    category: `Sporting Goods > Outdoor Recreation > Cycling > Bicycles > ${disciplineName}`,
+    category: getGoogleProductCategory(bike.discipline),
+    ...(bike.colors && bike.colors.length > 0 ? { color: bike.colors.join(", ") } : {}),
     offers: {
       "@type": "Offer",
       url: bike.officialUrl,
       priceCurrency: "EUR",
       price: bike.currentPriceEur,
-      priceValidUntil: "2026-12-31",
+      priceValidUntil: `${nextYear}-12-31`,
       availability: "https://schema.org/InStock",
       itemCondition: "https://schema.org/NewCondition",
       seller: {
         "@type": "Organization",
         name: bike.brand,
       },
+      hasMerchantReturnPolicy: {
+        "@type": "MerchantReturnPolicy",
+        returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
+        merchantReturnDays: 30,
+        returnMethod: "https://schema.org/ReturnByMail",
+      },
+      shippingDetails: {
+        "@type": "OfferShippingDetails",
+        shippingRate: {
+          "@type": "MonetaryAmount",
+          value: "0",
+          currency: "EUR",
+        },
+        shippingDestination: {
+          "@type": "DefinedRegion",
+          addressCountry: "ES",
+        },
+      },
     },
-    additionalProperty: [
-      {
-        "@type": "PropertyValue",
-        name: "Paso de Rueda Máximo (Tire Clearance)",
-        value: `${bike.maxTireClearanceMm} mm`,
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Peso Declarado Oficial",
-        value: bike.weightKg ? `${bike.weightKg} kg` : "N/D",
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Grupo de Transmisión",
-        value: bike.groupset.name,
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Tipo de Cambio",
-        value: bike.groupset.isElectronic ? "Electrónico Inalámbrico (Di2/AXS)" : "Mecánico",
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Material del Cuadro",
-        value: formatMaterialName(bike.frameMaterial),
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Disciplina Ciclista",
-        value: disciplineName,
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Ratio Stack / Reach",
-        value: bike.geometry.stackReachRatio.toFixed(2),
-      },
-      {
-        "@type": "PropertyValue",
-        name: "Ratio Mínimo de Subida",
-        value: bike.groupset.minGearRatio.toFixed(2),
-      },
-    ],
+    additionalProperty: additionalProps,
   };
 }
 

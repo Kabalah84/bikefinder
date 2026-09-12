@@ -9,6 +9,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const bikes = getAllBikes();
   const categories = getAllCategories();
+  const brandSet = new Set(bikes.map((b) => b.brand.toLowerCase()));
+  const brands = Array.from(brandSet).sort();
 
   // Páginas estáticas principales
   const staticRoutes: MetadataRoute.Sitemap = [
@@ -46,12 +48,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  // Fichas de producto individuales (/bici/[id])
-  const bikeRoutes: MetadataRoute.Sitemap = bikes.map((bike) => ({
-    url: `${baseUrl}/bici/${bike.id}`,
+  // Páginas de marcas principales
+  const brandRoutes: MetadataRoute.Sitemap = brands.map((brand) => ({
+    url: `${baseUrl}/?brand=${brand}`,
     lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.8,
+    changeFrequency: "daily",
+    priority: 0.85,
   }));
 
   // Duelos comparativos populares (/comparativa/[slug])
@@ -59,8 +61,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}/comparativa/${duel.slug}`,
     lastModified: now,
     changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+
+  // Fichas de producto individuales (/bici/[id]) - más de 800 modelos
+  const bikeRoutes: MetadataRoute.Sitemap = bikes.map((bike) => ({
+    url: `${baseUrl}/bici/${bike.id}`,
+    lastModified: now,
+    changeFrequency: "weekly",
     priority: 0.75,
   }));
 
-  return [...staticRoutes, ...categoryRoutes, ...bikeRoutes, ...duelRoutes];
+  return [...staticRoutes, ...categoryRoutes, ...brandRoutes, ...duelRoutes, ...bikeRoutes];
 }

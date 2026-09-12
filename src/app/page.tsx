@@ -23,18 +23,60 @@ import Link from "next/link";
 interface PageProps {
   searchParams: {
     discipline?: string;
+    brand?: string;
   };
 }
 
 export function generateMetadata({ searchParams }: PageProps): Metadata {
+  const bikes = getAllBikes();
+  const brandSet = new Set(bikes.map((b) => b.brand));
+  const brands = Array.from(brandSet);
+
   const discipline = searchParams.discipline as Discipline | undefined;
   const categories = getAllCategories();
   const currentCategory = categories.find((c) => c.id === discipline);
 
+  const brandParam = searchParams.brand;
+  const brandMatch = brandParam
+    ? brands.find((b) => b.toLowerCase() === brandParam.toLowerCase())
+    : undefined;
+
+  // 1. Meta para combinación Disciplina + Marca
+  if (currentCategory && brandMatch) {
+    return constructMetadata({
+      title: `Bicicletas ${brandMatch} de ${currentCategory.name} · Fichas y Precios Oficiales`,
+      description: `Gama oficial ${brandMatch} en ${currentCategory.name} (${currentCategory.targetClearanceRange}). Consulta pesos reales, paso de rueda, transmisión y precio de catálogo del fabricante.`,
+      canonicalPath: `/?discipline=${discipline}&brand=${brandParam!.toLowerCase()}`,
+      keywords: [
+        `${brandMatch.toLowerCase()} ${currentCategory.name.toLowerCase()}`,
+        `bicicletas ${brandMatch.toLowerCase()} ${currentCategory.name.toLowerCase()}`,
+        "comparador bicicletas",
+        brandMatch.toLowerCase(),
+      ],
+    });
+  }
+
+  // 2. Meta para Marca
+  if (brandMatch) {
+    return constructMetadata({
+      title: `Bicicletas ${brandMatch} · Catálogo Oficial, Modelos y Precios`,
+      description: `Compara especificaciones oficiales de bicicletas ${brandMatch}: modelos de carretera, gravel y montaña, pesos reales en báscula, suspensiones y PVP oficial sin intermediarios.`,
+      canonicalPath: `/?brand=${brandParam!.toLowerCase()}`,
+      keywords: [
+        brandMatch.toLowerCase(),
+        `bicicletas ${brandMatch.toLowerCase()}`,
+        `catalogo ${brandMatch.toLowerCase()}`,
+        `precios ${brandMatch.toLowerCase()}`,
+        "comparador bicicletas",
+      ],
+    });
+  }
+
+  // 3. Meta para Disciplina
   if (currentCategory) {
     return constructMetadata({
       title: `Bicicletas de ${currentCategory.name} · Catálogo y Comparador Oficial`,
-      description: `Compara bicicletas de ${currentCategory.name} (${currentCategory.targetClearanceRange}). Pesos reales, paso de rueda máximo, desarrollos y PVP oficial de primeras marcas.`,
+      description: `Compara bicicletas de ${currentCategory.name} (${currentCategory.targetClearanceRange}). Pesos reales, paso de rueda máximo, suspensiones, desarrollos y PVP oficial de primeras marcas.`,
       canonicalPath: `/?discipline=${discipline}`,
       keywords: [
         `${currentCategory.name.toLowerCase()}`,
@@ -46,10 +88,11 @@ export function generateMetadata({ searchParams }: PageProps): Metadata {
     });
   }
 
+  // 4. Meta Default Home
   return constructMetadata({
     title: "Buscador y Comparador de Bicicletas de Carretera, Gravel y Montaña",
     description:
-      "Compara especificaciones oficiales reales: pesos en báscula, suspensiones rígidas y dobles, e-bikes, grupos Di2/AXS, ratios de desarrollo y tablas de geometría sin intermediarios.",
+      "Compara especificaciones oficiales reales de más de 800 bicicletas: pesos en báscula, suspensiones rígidas y dobles, e-bikes, grupos Di2/AXS, ratios de desarrollo y tablas de geometría sin intermediarios.",
     canonicalPath: "/",
   });
 }
@@ -63,18 +106,35 @@ export default function HomePage({ searchParams }: PageProps) {
   const selectedDiscipline = searchParams.discipline as Discipline | undefined;
   const activeCategory = categories.find((c) => c.id === selectedDiscipline);
 
+  const brandParam = searchParams.brand;
+  const brandMatch = brandParam
+    ? brands.find((b) => b.toLowerCase() === brandParam.toLowerCase())
+    : undefined;
+
   // Conteo dinámico de modelos por categoría
   const countByDiscipline = bikes.reduce<Record<string, number>>((acc, bike) => {
     acc[bike.discipline] = (acc[bike.discipline] || 0) + 1;
     return acc;
   }, {});
 
-  const breadcrumbsSchema = generateBreadcrumbsSchema([
-    { name: "Inicio", url: "/" },
-    ...(activeCategory
-      ? [{ name: activeCategory.name, url: `/?discipline=${activeCategory.id}` }]
-      : []),
-  ]);
+  // Breadcrumbs dinámicos
+  const breadcrumbItems: { name: string; url?: string }[] = [{ name: "Inicio", url: "/" }];
+  if (activeCategory) {
+    breadcrumbItems.push({
+      name: activeCategory.name,
+      url: `/?discipline=${activeCategory.id}`,
+    });
+  }
+  if (brandMatch) {
+    breadcrumbItems.push({
+      name: brandMatch,
+      url: activeCategory
+        ? `/?discipline=${activeCategory.id}&brand=${brandMatch.toLowerCase()}`
+        : `/?brand=${brandMatch.toLowerCase()}`,
+    });
+  }
+
+  const breadcrumbsSchema = generateBreadcrumbsSchema(breadcrumbItems);
 
   const itemListSchema = {
     "@context": "https://schema.org",
@@ -118,7 +178,7 @@ export default function HomePage({ searchParams }: PageProps) {
           <p className="text-xs sm:text-base text-slate-300 max-w-2xl leading-relaxed">
             Sin intermediarios ni comisiones de Amazon. Confronta pesos reales en báscula,
             pasos de rueda al milímetro, suspensiones rígidas y dobles, e-bikes y geometrías
-            Stack/Reach de los 15 mayores fabricantes del mundo.
+            Stack/Reach de los mayores fabricantes del mundo.
           </p>
 
           {/* Live Metrics Grid */}
@@ -174,7 +234,7 @@ export default function HomePage({ searchParams }: PageProps) {
             <Layers className="w-3.5 h-3.5 text-slate-500" />
             <span>Explorar por Disciplina</span>
           </h2>
-          {selectedDiscipline && (
+          {(selectedDiscipline || brandMatch) && (
             <Link
               href="/"
               className="text-xs font-bold text-teal-600 hover:text-teal-700 hover:underline"
@@ -282,7 +342,11 @@ export default function HomePage({ searchParams }: PageProps) {
         <div className="flex items-baseline justify-between mb-4">
           <div>
             <h2 className="text-xl sm:text-2xl font-black text-slate-950 tracking-tight">
-              {selectedDiscipline
+              {brandMatch && selectedDiscipline
+                ? `Catálogo: ${brandMatch} en ${categories.find((c) => c.id === selectedDiscipline)?.name}`
+                : brandMatch
+                ? `Catálogo Oficial ${brandMatch} (${bikes.filter((b) => b.brand.toLowerCase() === brandMatch.toLowerCase()).length} modelos)`
+                : selectedDiscipline
                 ? `Catálogo: ${categories.find((c) => c.id === selectedDiscipline)?.name}`
                 : "Catálogo Completo de Bicicletas"}
             </h2>
@@ -293,10 +357,11 @@ export default function HomePage({ searchParams }: PageProps) {
         </div>
 
         <CatalogView
-          key={selectedDiscipline || "all"}
+          key={`${selectedDiscipline || "all"}-${brandMatch || "all"}`}
           initialBikes={bikes}
           brands={brands}
           initialDiscipline={selectedDiscipline}
+          initialBrand={brandMatch}
         />
       </section>
     </div>

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { Metadata } from "next";
 import { getAllBikes, getBikeById, getBikesByDiscipline } from "@/lib/data/bikes";
+import { POPULAR_DUELS } from "@/lib/data/duels";
 import {
   formatCurrencyEur,
   formatDisciplineName,
@@ -29,6 +30,9 @@ import {
   CheckCircle2,
   Flame,
   ArrowLeft,
+  Scale,
+  ArrowUpRight,
+  Mountain,
 } from "lucide-react";
 
 interface BikePageProps {
@@ -55,8 +59,34 @@ export function generateMetadata({ params }: BikePageProps): Metadata {
   }
 
   const discipline = formatDisciplineName(bike.discipline);
-  const title = `${bike.brand} ${bike.model} (${bike.year}) · Ficha Técnica y Precio Oficial`;
-  const description = `Especificaciones oficiales de la ${bike.brand} ${bike.model} de ${discipline}: peso ${bike.weightKg ? `${bike.weightKg} kg` : "oficial"}, paso de rueda ${bike.maxTireClearanceMm} mm, grupo ${bike.groupset.name} (${bike.groupset.isElectronic ? "electrónico" : "mecánico"}) y PVP oficial ${bike.currentPriceEur} €. Enlace directo al fabricante.`;
+
+  // Titular dinámico según disciplina y tecnología
+  let typePrefix = "";
+  if (bike.isElectric) {
+    typePrefix = " · Bicicleta Eléctrica (e-Bike)";
+  } else if (bike.discipline === "mtb") {
+    typePrefix = bike.suspensionType === "full" ? " · MTB Doble Suspensión" : " · MTB Rígida";
+  } else if (bike.discipline === "gravel") {
+    typePrefix = " · Bicicleta Gravel";
+  } else if (bike.discipline === "road_race") {
+    typePrefix = " · Bicicleta Carretera Competición";
+  } else if (bike.discipline === "road_endurance") {
+    typePrefix = " · Bicicleta Gran Fondo";
+  }
+
+  const title = `${bike.brand} ${bike.model} (${bike.year})${typePrefix} | Ficha y Precio Oficial`;
+
+  // Descripción optimizada para Search Snippets con métricas clave
+  const techDetails: string[] = [];
+  if (bike.isElectric) techDetails.push("asistencia eléctrica (e-bike)");
+  if (bike.suspensionType === "full") techDetails.push("doble suspensión");
+  if (bike.weightKg) techDetails.push(`peso ${bike.weightKg} kg`);
+  techDetails.push(`paso de rueda ${bike.maxTireClearanceMm} mm`);
+  techDetails.push(`grupo ${bike.groupset.name}`);
+
+  const description = `Especificaciones oficiales de la ${bike.brand} ${bike.model} (${bike.year}) de ${discipline}: ${techDetails.join(
+    ", "
+  )} y PVP oficial ${bike.currentPriceEur} €. Consulta geometrías y stock oficial.`;
 
   return constructMetadata({
     title,
@@ -71,6 +101,9 @@ export function generateMetadata({ params }: BikePageProps): Metadata {
       `paso de rueda ${bike.model.toLowerCase()}`,
       `${bike.groupset.name.toLowerCase()}`,
       `bicicleta ${discipline.toLowerCase()}`,
+      ...(bike.isElectric ? ["bicicleta electrica", "ebike"] : []),
+      ...(bike.discipline === "mtb" ? ["bicicleta montana", "mtb", "btt"] : []),
+      ...(bike.suspensionType === "full" ? ["doble suspension mtb"] : []),
     ],
   });
 }
@@ -93,7 +126,12 @@ export default function BikeDetailPage({ params }: BikePageProps) {
 
   const relatedBikes = getBikesByDiscipline(bike.discipline)
     .filter((b) => b.id !== bike.id)
-    .slice(0, 3);
+    .slice(0, 4);
+
+  // Buscar si esta bicicleta participa en alguna de las comparativas oficiales
+  const matchingDuel = POPULAR_DUELS.find(
+    (d) => d.bikeIdA === bike.id || d.bikeIdB === bike.id
+  );
 
   // JSON-LD Structured Data
   const productSchema = generateProductSchema(bike);
@@ -154,13 +192,25 @@ export default function BikeDetailPage({ params }: BikePageProps) {
         {/* Right: Key Info, Price & Actions */}
         <div className="lg:col-span-5 space-y-6">
           <div>
-            <div className="flex items-center gap-2 mb-2">
+            <div className="flex items-center gap-2 mb-2 flex-wrap">
               <span className="rounded-lg bg-teal-100 text-teal-900 px-2.5 py-0.5 text-xs font-bold border border-teal-200">
                 {formatDisciplineName(bike.discipline)}
               </span>
               <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
                 {bike.brand}
               </span>
+              {bike.isElectric && (
+                <span className="rounded-lg bg-amber-100 text-amber-900 px-2 py-0.5 text-xs font-extrabold border border-amber-200 flex items-center gap-1">
+                  <Zap className="w-3 h-3 text-amber-600" />
+                  E-Bike
+                </span>
+              )}
+              {bike.discipline === "mtb" && (
+                <span className="rounded-lg bg-purple-100 text-purple-900 px-2 py-0.5 text-xs font-bold border border-purple-200 flex items-center gap-1">
+                  <Mountain className="w-3 h-3 text-purple-600" />
+                  {bike.suspensionType === "full" ? "Doble Suspensión" : "Rígida"}
+                </span>
+              )}
             </div>
             <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
               {bike.model}
@@ -261,6 +311,28 @@ export default function BikeDetailPage({ params }: BikePageProps) {
                 ))}
               </ul>
             </div>
+          )}
+
+          {/* Banner de comparativa popular relacionada si existe */}
+          {matchingDuel && (
+            <Link
+              href={`/comparativa/${matchingDuel.slug}`}
+              className="block p-4 rounded-2xl bg-gradient-to-r from-teal-900 via-slate-900 to-slate-900 text-white border border-teal-500/40 hover:border-teal-400 transition-all shadow-md group"
+            >
+              <div className="flex items-center justify-between text-xs font-bold text-teal-300 mb-1">
+                <span className="flex items-center gap-1.5">
+                  <Scale className="w-3.5 h-3.5" />
+                  Duelo Técnico Destacado
+                </span>
+                <ArrowUpRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+              </div>
+              <p className="text-sm font-extrabold text-white leading-snug">
+                {matchingDuel.title}
+              </p>
+              <span className="text-[11px] text-slate-300 mt-1 block">
+                Ver análisis técnico 1v1 con veredicto, pesos y geometrías →
+              </span>
+            </Link>
           )}
         </div>
       </section>
@@ -458,15 +530,32 @@ export default function BikeDetailPage({ params }: BikePageProps) {
         fallbackModel={bike.model}
       />
 
-      {/* Related Bikes in Same Category */}
+      {/* Related Bikes in Same Category with Direct Comparison Actions */}
       {relatedBikes.length > 0 && (
         <section aria-label="Modelos alternativos" className="space-y-4 pt-6">
-          <h2 className="text-xl font-extrabold text-slate-900">
-            Modelos Alternativos en {formatDisciplineName(bike.discipline)}
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="flex items-center justify-between">
+            <h2 className="text-xl font-extrabold text-slate-900">
+              Modelos Rivales en {formatDisciplineName(bike.discipline)}
+            </h2>
+            <Link
+              href={`/?discipline=${bike.discipline}`}
+              className="text-xs font-bold text-teal-700 hover:text-teal-900"
+            >
+              Ver catálogo completo →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {relatedBikes.map((relBike) => (
-              <BikeCard key={relBike.id} bike={relBike} />
+              <div key={relBike.id} className="flex flex-col justify-between">
+                <BikeCard bike={relBike} />
+                <Link
+                  href={`/comparador?ids=${bike.id},${relBike.id}`}
+                  className="mt-2 inline-flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl bg-slate-100 hover:bg-teal-50 hover:text-teal-800 text-slate-700 text-xs font-bold border border-slate-200 transition-colors"
+                >
+                  <Scale className="w-3.5 h-3.5 text-teal-600" />
+                  <span>Comparar frente a {relBike.brand}</span>
+                </Link>
+              </div>
             ))}
           </div>
         </section>

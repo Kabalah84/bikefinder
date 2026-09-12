@@ -3,10 +3,24 @@ import Link from "next/link";
 import { Bike, ShieldCheck, Sparkles, Scale, TrendingUp, Compass, Zap, Mountain, ArrowUpRight } from "lucide-react";
 
 export function Footer() {
+  const brands = [
+    { name: "Specialized", slug: "specialized" },
+    { name: "Canyon", slug: "canyon" },
+    { name: "Giant", slug: "giant" },
+    { name: "Scott", slug: "scott" },
+    { name: "Cannondale", slug: "cannondale" },
+    { name: "Megamo", slug: "megamo" },
+    { name: "Merida", slug: "merida" },
+    { name: "BH", slug: "bh" },
+    { name: "Bianchi", slug: "bianchi" },
+    { name: "Pinarello", slug: "pinarello" },
+    { name: "Liv", slug: "liv" },
+  ];
+
   return (
     <footer className="border-t border-slate-900 bg-[#070b14] text-slate-400 mt-24">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mb-14">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-10 mb-12">
           {/* Brand & Manifesto */}
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
@@ -19,8 +33,9 @@ export function Footer() {
             </div>
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-md">
               El índice técnico independiente de referencia para el ciclismo moderno.
-              Analizamos especificaciones oficiales verificadas (pesos en báscula, suspensiones,
-              ratios de escalada y geometría Stack/Reach) sin comisiones ocultas ni enlaces de Amazon.
+              Analizamos especificaciones oficiales verificadas de más de 800 modelos
+              (pesos reales en báscula, suspensiones, e-bikes, desarrollos y geometrías Stack/Reach)
+              sin comisiones ocultas ni enlaces de Amazon.
             </p>
             <div className="inline-flex items-center gap-2 rounded-xl bg-teal-950/60 px-3 py-1.5 text-xs font-semibold text-teal-300 border border-teal-800/50">
               <ShieldCheck className="h-4 w-4 text-teal-400 shrink-0" />
@@ -135,37 +150,46 @@ export function Footer() {
             <ul className="space-y-2.5 text-xs">
               <li>
                 <Link
-                  href="/comparativa/canyon-grizl-vs-orbea-terra"
+                  href="/comparativa/specialized-tarmac-vs-pinarello-dogma"
                   className="hover:text-teal-400 transition-colors flex items-center justify-between"
                 >
-                  <span>Grizl vs Terra</span>
+                  <span>Tarmac SL9 vs Dogma F</span>
                   <ArrowUpRight className="w-3 h-3 text-slate-600" />
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/comparativa/canyon-grizl-vs-trek-checkpoint"
+                  href="/comparativa/megamo-jakar-vs-canyon-grizl"
                   className="hover:text-teal-400 transition-colors flex items-center justify-between"
                 >
-                  <span>Grizl vs Checkpoint</span>
+                  <span>Megamo Jakar vs Grizl</span>
                   <ArrowUpRight className="w-3 h-3 text-slate-600" />
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/comparativa/trek-domane-vs-specialized-roubaix"
+                  href="/comparativa/cannondale-scalpel-vs-scott-spark"
                   className="hover:text-teal-400 transition-colors flex items-center justify-between"
                 >
-                  <span>Domane vs Roubaix</span>
+                  <span>Scalpel vs Spark (MTB)</span>
                   <ArrowUpRight className="w-3 h-3 text-slate-600" />
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/comparativa/canyon-ultimate-vs-specialized-tarmac"
+                  href="/comparativa/giant-defy-vs-specialized-roubaix"
                   className="hover:text-teal-400 transition-colors flex items-center justify-between"
                 >
-                  <span>Ultimate vs Tarmac</span>
+                  <span>Defy vs Roubaix SL8</span>
+                  <ArrowUpRight className="w-3 h-3 text-slate-600" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/comparativa/canyon-lux-vs-bh-lynx"
+                  className="hover:text-teal-400 transition-colors flex items-center justify-between"
+                >
+                  <span>Lux Trail vs Lynx Race</span>
                   <ArrowUpRight className="w-3 h-3 text-slate-600" />
                 </Link>
               </li>
@@ -173,8 +197,26 @@ export function Footer() {
           </div>
         </div>
 
+        {/* Marcas de Referencia (SEO Crawl Hub) */}
+        <div className="border-t border-slate-900/80 pt-8 pb-4">
+          <span className="text-[11px] font-black uppercase tracking-wider text-slate-500 block mb-3">
+            Catálogos Oficiales por Fabricante:
+          </span>
+          <div className="flex flex-wrap gap-2 text-xs">
+            {brands.map((b) => (
+              <Link
+                key={b.slug}
+                href={`/?brand=${b.slug}`}
+                className="px-2.5 py-1 rounded-lg bg-slate-900/80 hover:bg-teal-950 text-slate-300 hover:text-teal-300 border border-slate-800 transition-colors"
+              >
+                Bicicletas {b.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+
         {/* Bottom copyright */}
-        <div className="border-t border-slate-900 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
+        <div className="border-t border-slate-900 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>© {new Date().getFullYear()} BikeFinder.es — Índice Técnico Oficial de Bicicletas. Todos los derechos reservados.</p>
           <p className="flex items-center gap-1.5 text-slate-400">
             <span>Hecho con pasión por la geometría y el ciclismo</span>

@@ -25,25 +25,28 @@ interface CatalogViewProps {
   initialBikes: BikeProduct[];
   brands: string[];
   initialDiscipline?: Discipline;
+  initialBrand?: string;
 }
 
-export function CatalogView({ initialBikes, brands, initialDiscipline }: CatalogViewProps) {
+export function CatalogView({ initialBikes, brands, initialDiscipline, initialBrand }: CatalogViewProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [filters, setFilters] = useState<BikeFilterCriteria>({
     disciplines: initialDiscipline ? [initialDiscipline] : [],
+    brands: initialBrand ? [initialBrand] : [],
     sortBy: "price_asc",
   });
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [showScrollTop, setShowScrollTop] = useState(false);
 
-  // Sincronizar disciplina cuando cambia la URL / navegación
+  // Sincronizar disciplina y marca cuando cambia la URL / navegación
   useEffect(() => {
     setFilters((prev) => ({
       ...prev,
       disciplines: initialDiscipline ? [initialDiscipline] : [],
+      brands: initialBrand ? [initialBrand] : [],
     }));
-  }, [initialDiscipline]);
+  }, [initialDiscipline, initialBrand]);
 
   // Restablecer paginación progresiva cuando cambian los filtros o la búsqueda
   useEffect(() => {
