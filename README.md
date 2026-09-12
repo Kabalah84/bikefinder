@@ -1,10 +1,10 @@
-# 🚴‍♂️ BikeFinder.es — Comparador & Buscador de Bicicletas de Gravel y Carretera
+# 🚴‍♂️ ComparaBici.es — Comparador & Buscador de Bicicletas de Gravel, Carretera y Montaña
 
-> Plataforma web de alto rendimiento y SEO técnico especializada en **encontrar, filtrar y comparar técnicamente bicicletas oficiales de Gravel y Carretera** de los principales fabricantes del sector ciclista.
+> Plataforma web de alto rendimiento y SEO técnico especializada en **encontrar, filtrar y comparar técnicamente bicicletas oficiales de Carretera, Gravel y Montaña** de los principales fabricantes del sector ciclista.
 
 ## 🎯 Propósito del Proyecto
 
-A diferencia de webs de afiliados de productos genéricos, **BikeFinder.es** se centra en **bicicletas completas de las marcas líderes oficiales** (Canyon, Orbea, Trek, Specialized, Giant, Scott, Cannondale, BMC, Bianchi, Merida, Rose, etc.):
+A diferencia de webs de afiliados de productos genéricos, **ComparaBici.es** se centra en **bicicletas completas de las marcas líderes oficiales** (Canyon, Orbea, Trek, Specialized, Giant, Scott, Cannondale, Megamo, Merida, BH, Bianchi, Pinarello, etc.):
 
 - ❌ **Sin afiliación de Amazon**: Foco 100% en producto oficial ciclista.
 - 🔗 **Enlaces directos oficiales**: Cada modelo enlaza a su ficha oficial del fabricante.
@@ -23,7 +23,7 @@ A diferencia de webs de afiliados de productos genéricos, **BikeFinder.es** se 
 ## 📁 Estructura del Proyecto
 
 ```
-bikefinder.es/
+comparabici.es/
 ├── data/                         # Catálogo maestro en JSON
 │   ├── categories.json           # Disciplinas (Gravel, Carretera Endurance, Aero, etc.)
 │   ├── brands.json               # Marcas soportadas y metadatos oficiales

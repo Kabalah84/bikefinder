@@ -20,7 +20,7 @@ export function generateOrganizationSchema() {
     },
     description: SITE_CONFIG.defaultDescription,
     sameAs: [
-      "https://twitter.com/bikefinder_es",
+      "https://twitter.com/comparabici_es",
       "https://github.com/Kabalah84/bikefinder",
     ],
   };

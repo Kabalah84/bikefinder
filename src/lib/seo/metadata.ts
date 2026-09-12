@@ -1,16 +1,16 @@
 import { Metadata } from "next";
 
 export const SITE_CONFIG = {
-  name: "BikeFinder.es",
-  shortName: "BikeFinder",
-  domain: "bikefinder.es",
-  baseUrl: "https://bikefinder.es",
-  defaultTitle: "BikeFinder.es · Comparador de Bicicletas de Carretera, Gravel, Montaña (MTB) y Eléctricas",
-  titleTemplate: "%s · BikeFinder.es",
+  name: "ComparaBici.es",
+  shortName: "ComparaBici",
+  domain: "comparabici.es",
+  baseUrl: "https://comparabici.es",
+  defaultTitle: "ComparaBici.es · Comparador de Bicicletas de Carretera, Gravel, Montaña (MTB) y Eléctricas",
+  titleTemplate: "%s · ComparaBici.es",
   defaultDescription:
     "Buscador y comparador técnico oficial de más de 800 bicicletas: pesos reales en báscula, pasos de rueda al milímetro, suspensiones rígidas y dobles, e-bikes y geometrías de Specialized, Canyon, Giant, Scott, Cannondale, Megamo, Merida, BH, Bianchi, Pinarello y Liv.",
-  defaultOgImage: "https://bikefinder.es/og-image.jpg",
-  twitterHandle: "@bikefinder_es",
+  defaultOgImage: "https://comparabici.es/og-image.jpg",
+  twitterHandle: "@comparabici_es",
   locale: "es_ES",
   keywords: [
     "comparador bicicletas",

@@ -135,7 +135,7 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
       <section aria-label="Veredicto técnico" className="rounded-3xl bg-gradient-to-br from-slate-900 via-slate-800 to-teal-950 p-6 sm:p-8 text-white shadow-xl space-y-4">
         <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-teal-400">
           <Sparkles className="w-4 h-4" />
-          <h2 className="text-xs font-bold uppercase tracking-wider text-teal-400">Veredicto Técnico BikeFinder</h2>
+          <h2 className="text-xs font-bold uppercase tracking-wider text-teal-400">Veredicto Técnico ComparaBici</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">

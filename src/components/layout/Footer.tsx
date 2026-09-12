@@ -28,7 +28,7 @@ export function Footer() {
                 <Bike className="h-5 w-5" />
               </div>
               <span className="text-xl font-black text-white tracking-tight">
-                BikeFinder<span className="text-teal-400 font-extrabold">.es</span>
+                ComparaBici<span className="text-teal-400 font-extrabold">.es</span>
               </span>
             </div>
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-md">
@@ -217,7 +217,7 @@ export function Footer() {
 
         {/* Bottom copyright */}
         <div className="border-t border-slate-900 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} BikeFinder.es — Índice Técnico Oficial de Bicicletas. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} ComparaBici.es — Índice Técnico Oficial de Bicicletas. Todos los derechos reservados.</p>
           <p className="flex items-center gap-1.5 text-slate-400">
             <span>Hecho con pasión por la geometría y el ciclismo</span>
             <Sparkles className="w-3.5 h-3.5 text-teal-400" />

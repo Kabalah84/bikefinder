@@ -24,7 +24,7 @@ export const metadata: Metadata = constructMetadata({
 
 export default function ComparadorPage() {
   const webAppSchema = generateWebApplicationSchema({
-    name: "Comparador Técnico de Bicicletas BikeFinder",
+    name: "Comparador Técnico de Bicicletas ComparaBici",
     description:
       "Herramienta interactiva para confrontar especificaciones oficiales, pesos, geometrías y transmisiones de hasta 4 bicicletas.",
     path: "/comparador",

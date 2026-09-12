@@ -34,7 +34,7 @@ export function Navbar() {
             <div>
               <div className="flex items-center gap-1.5">
                 <span className="text-lg font-black tracking-tight text-slate-950">
-                  BikeFinder<span className="text-teal-600">.es</span>
+                  ComparaBici<span className="text-teal-600">.es</span>
                 </span>
                 <span className="hidden sm:inline-block px-1.5 py-0.2 rounded bg-slate-100 text-[9px] font-extrabold uppercase tracking-wider text-slate-600 border border-slate-200/70">
                   Pro Index

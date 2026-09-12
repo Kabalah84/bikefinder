@@ -2,9 +2,9 @@ import { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "BikeFinder.es · Comparador y Buscador de Bicicletas",
-    short_name: "BikeFinder",
-    description: "Comparador técnico de bicicletas de Gravel y Carretera con datos oficiales de fabricantes.",
+    name: "ComparaBici.es · Comparador y Buscador de Bicicletas",
+    short_name: "ComparaBici",
+    description: "Comparador técnico de bicicletas de Carretera, Gravel y Montaña con datos oficiales de fabricantes.",
     start_url: "/",
     display: "standalone",
     background_color: "#f8fafc",

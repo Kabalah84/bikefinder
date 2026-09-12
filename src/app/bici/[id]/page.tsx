@@ -53,7 +53,7 @@ export function generateMetadata({ params }: BikePageProps): Metadata {
   if (!bike) {
     return constructMetadata({
       title: "Bicicleta no encontrada",
-      description: "La ficha técnica solicitada no está disponible en el catálogo de BikeFinder.es.",
+      description: "La ficha técnica solicitada no está disponible en el catálogo de ComparaBici.es.",
       noIndex: true,
     });
   }

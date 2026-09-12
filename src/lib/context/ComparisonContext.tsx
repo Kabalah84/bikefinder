@@ -20,7 +20,7 @@ interface ComparisonContextType {
 
 const ComparisonContext = createContext<ComparisonContextType | undefined>(undefined);
 const MAX_COMPARISON_ITEMS = 4;
-const STORAGE_KEY = "bikefinder_comparison_v2";
+const STORAGE_KEY = "comparabici_comparison_v2";
 
 // Esquema de validación para almacenamiento local
 const SavedComparisonSchema = z.array(BikeProductSchema).max(MAX_COMPARISON_ITEMS);
@@ -36,7 +36,7 @@ export function ComparisonProvider({ children }: { children: React.ReactNode }) 
       // Limpiar versiones anteriores para garantizar que el comparador empiece limpio si el usuario lo desea
       localStorage.removeItem("bikefinder_comparison");
 
-      const saved = localStorage.getItem(STORAGE_KEY);
+      const saved = localStorage.getItem(STORAGE_KEY) || localStorage.getItem("bikefinder_comparison_v2");
       if (saved) {
         const rawJson = JSON.parse(saved);
         const parsed = SavedComparisonSchema.safeParse(rawJson);
