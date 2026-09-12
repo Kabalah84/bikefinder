@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useMemo, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { BikeProduct, Discipline } from "@/lib/schema/bike";
 import { BikeFilterCriteria, filterBikes } from "@/lib/data/bikes";
 import { formatDisciplineName, formatMaterialName } from "@/lib/utils/formatters";
@@ -38,15 +39,21 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const searchParams = useSearchParams();
+  const queryDiscipline = (searchParams?.get("discipline") as Discipline) || null;
+  const queryBrand = searchParams?.get("brand") || null;
 
   // Sincronizar disciplina y marca cuando cambia la URL / navegación
   useEffect(() => {
+    const activeDiscipline = queryDiscipline || initialDiscipline;
+    const activeBrand = queryBrand || initialBrand;
+
     setFilters((prev) => ({
       ...prev,
-      disciplines: initialDiscipline ? [initialDiscipline] : [],
-      brands: initialBrand ? [initialBrand] : [],
+      disciplines: activeDiscipline ? [activeDiscipline] : [],
+      brands: activeBrand ? [activeBrand] : [],
     }));
-  }, [initialDiscipline, initialBrand]);
+  }, [queryDiscipline, queryBrand, initialDiscipline, initialBrand]);
 
   // Restablecer paginación progresiva cuando cambian los filtros o la búsqueda
   useEffect(() => {
