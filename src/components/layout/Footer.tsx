@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Bike, ShieldCheck, Sparkles, Scale, TrendingUp, Compass, Zap, Mountain, ArrowUpRight } from "lucide-react";
+import { Bike, ShieldCheck, Sparkles, Scale, TrendingUp, Compass, Zap, Mountain, ArrowUpRight, Mail } from "lucide-react";
 
 export function Footer() {
   const brands = [
@@ -215,8 +215,30 @@ export function Footer() {
           </div>
         </div>
 
+        {/* Legal & Compliance Links */}
+        <div className="border-t border-slate-900 pt-6 pb-2 flex flex-wrap items-center justify-center sm:justify-between gap-x-6 gap-y-2 text-xs text-slate-400">
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+            <Link href="/aviso-legal" className="hover:text-teal-400 transition-colors">
+              Aviso Legal
+            </Link>
+            <Link href="/politica-privacidad" className="hover:text-teal-400 transition-colors">
+              Política de Privacidad
+            </Link>
+            <Link href="/politica-cookies" className="hover:text-teal-400 transition-colors">
+              Política de Cookies
+            </Link>
+            <Link href="/contacto" className="hover:text-teal-400 transition-colors flex items-center gap-1.5">
+              <Mail className="w-3.5 h-3.5 text-teal-400" />
+              <span>Contacto</span>
+            </Link>
+          </div>
+          <div className="text-[11px] text-slate-500">
+            Atención oficial: <a href="mailto:contacto@comparabici.es" className="text-teal-400 hover:underline">contacto@comparabici.es</a>
+          </div>
+        </div>
+
         {/* Bottom copyright */}
-        <div className="border-t border-slate-900 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <div className="border-t border-slate-900/60 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>© {new Date().getFullYear()} ComparaBici.es — Índice Técnico Oficial de Bicicletas. Todos los derechos reservados.</p>
           <p className="flex items-center gap-1.5 text-slate-400">
             <span>Hecho con pasión por la geometría y el ciclismo</span>
