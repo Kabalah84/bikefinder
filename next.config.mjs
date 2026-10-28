@@ -1,15 +1,20 @@
 /** @type {import('next').NextConfig} */
 
 // Content Security Policy adaptada para Next.js 14 App Router
+// Solo se habilita 'unsafe-eval' en entorno de desarrollo (HMR)
+const isDev = process.env.NODE_ENV === "development";
+
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-inline' 'unsafe-eval';
+  script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""};
   style-src 'self' 'unsafe-inline';
   img-src 'self' data: blob: https:;
   font-src 'self' data:;
   connect-src 'self' https:;
   media-src 'none';
   object-src 'none';
+  frame-src 'none';
+  worker-src 'self' blob:;
   base-uri 'self';
   form-action 'self';
   frame-ancestors 'none';
@@ -48,6 +53,10 @@ const securityHeaders = [
   },
   {
     key: "Cross-Origin-Opener-Policy",
+    value: "same-origin",
+  },
+  {
+    key: "Cross-Origin-Resource-Policy",
     value: "same-origin",
   },
   {
@@ -93,4 +102,3 @@ const nextConfig = {
 };
 
 export default nextConfig;
-

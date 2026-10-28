@@ -249,6 +249,65 @@ export function generateProductSchema(bike: BikeProduct) {
 }
 
 /**
+ * Genera el Schema.org ItemList estructurado para listados, rankings y comparativas
+ * garantizando que brand, model y category estén mapeados dentro de cada Product.
+ */
+export function generateComparisonItemListSchema({
+  name,
+  description,
+  urlPath,
+  bikes,
+}: {
+  name: string;
+  description: string;
+  urlPath: string;
+  bikes: BikeProduct[];
+}) {
+  const fullUrl = urlPath.startsWith("http")
+    ? urlPath
+    : `${SITE_CONFIG.baseUrl}${urlPath.startsWith("/") ? urlPath : `/${urlPath}`}`;
+  const nextYear = new Date().getFullYear() + 1;
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "@id": `${fullUrl}#itemlist`,
+    name,
+    description,
+    url: fullUrl,
+    numberOfItems: bikes.length,
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    itemListElement: bikes.map((bike, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${SITE_CONFIG.baseUrl}/bici/${bike.id}`,
+      item: {
+        "@type": "Product",
+        "@id": `${SITE_CONFIG.baseUrl}/bici/${bike.id}#product`,
+        name: `${bike.brand} ${bike.model} (${bike.year})`,
+        model: bike.model,
+        brand: {
+          "@type": "Brand",
+          name: bike.brand,
+        },
+        category: getGoogleProductCategory(bike.discipline),
+        image: bike.officialImageUrl,
+        url: `${SITE_CONFIG.baseUrl}/bici/${bike.id}`,
+        offers: {
+          "@type": "Offer",
+          url: bike.officialUrl,
+          priceCurrency: "EUR",
+          price: bike.currentPriceEur,
+          priceValidUntil: `${nextYear}-12-31`,
+          availability: "https://schema.org/InStock",
+          itemCondition: "https://schema.org/NewCondition",
+        },
+      },
+    })),
+  };
+}
+
+/**
  * Genera el Schema.org TechArticle para páginas de comparativas y duelos 1v1
  */
 export function generateArticleComparisonSchema({

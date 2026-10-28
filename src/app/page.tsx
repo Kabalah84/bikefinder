@@ -1,23 +1,22 @@
 import React, { Suspense } from "react";
 import { Metadata } from "next";
-import { getAllBikes, getAllBrands, getAllCategories } from "@/lib/data/bikes";
+import { getAllBikes, getAllCategories } from "@/lib/data/bikes";
 import { CatalogView } from "@/components/catalog/CatalogView";
-import { Discipline } from "@/lib/schema/bike";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { generateBreadcrumbsSchema } from "@/lib/seo/schema";
-import { constructMetadata, SITE_CONFIG } from "@/lib/seo/metadata";
+import {
+  generateBreadcrumbsSchema,
+  generateComparisonItemListSchema,
+} from "@/lib/seo/schema";
+import { constructMetadata } from "@/lib/seo/metadata";
 import {
   Compass,
   Zap,
   Flame,
-  ShieldCheck,
-  Scale,
   Sparkles,
   Mountain,
   CheckCircle2,
   ChevronRight,
   Layers,
-  Activity,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -44,16 +43,13 @@ export default function HomePage() {
 
   const breadcrumbsSchema = generateBreadcrumbsSchema([{ name: "Inicio", url: "/" }]);
 
-  const itemListSchema = {
-    "@context": "https://schema.org",
-    "@type": "ItemList",
-    itemListElement: bikes.slice(0, 10).map((bike, index) => ({
-      "@type": "ListItem",
-      position: index + 1,
-      name: `${bike.brand} ${bike.model} (${bike.year})`,
-      url: `${SITE_CONFIG.baseUrl}/bici/${bike.id}`,
-    })),
-  };
+  const itemListSchema = generateComparisonItemListSchema({
+    name: "Catálogo Destacado de Bicicletas Oficiales ComparaBici",
+    description:
+      "Selección de bicicletas de carretera, gravel, MTB y e-bikes con especificaciones técnicas verificadas.",
+    urlPath: "/",
+    bikes: bikes.slice(0, 12),
+  });
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-5 sm:pt-8 space-y-8">
@@ -83,8 +79,8 @@ export default function HomePage() {
           </h1>
 
           {/* Copy */}
-          <p className="text-xs sm:text-base text-slate-300 max-w-2xl leading-relaxed">
-            Sin intermediarios ni comisiones de Amazon. Confronta pesos reales en báscula,
+          <p className="text-xs sm:text-base text-slate-200 max-w-2xl leading-relaxed">
+            Sin intermediarios ni comisiones de afiliados. Confronta pesos reales en báscula,
             pasos de rueda al milímetro, suspensiones rígidas y dobles, e-bikes y geometrías
             Stack/Reach de los mayores fabricantes del mundo.
           </p>
@@ -95,7 +91,7 @@ export default function HomePage() {
               <span className="block text-xl sm:text-2xl font-black text-teal-400">
                 {bikes.length}+
               </span>
-              <span className="text-[11px] font-semibold text-slate-300 uppercase tracking-wider">
+              <span className="text-[11px] font-semibold text-slate-200 uppercase tracking-wider">
                 Bicis Analizadas
               </span>
             </div>
@@ -103,7 +99,7 @@ export default function HomePage() {
               <span className="block text-xl sm:text-2xl font-black text-emerald-400">
                 {brands.length}
               </span>
-              <span className="text-[11px] font-semibold text-slate-300 uppercase tracking-wider">
+              <span className="text-[11px] font-semibold text-slate-200 uppercase tracking-wider">
                 Marcas Oficiales
               </span>
             </div>
@@ -111,17 +107,17 @@ export default function HomePage() {
               <span className="block text-xl sm:text-2xl font-black text-amber-400">
                 100%
               </span>
-              <span className="text-[11px] font-semibold text-slate-300 uppercase tracking-wider">
+              <span className="text-[11px] font-semibold text-slate-200 uppercase tracking-wider">
                 Datos Verificados
               </span>
             </div>
           </div>
 
           {/* Value Badges */}
-          <div className="pt-1 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs font-semibold text-slate-300">
+          <div className="pt-1 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs font-semibold text-slate-200">
             <div className="flex items-center gap-1.5">
               <CheckCircle2 className="w-4 h-4 text-teal-400" />
-              <span>Enlaces a webs oficiales</span>
+              <span>Enlaces directos a webs oficiales</span>
             </div>
             <div className="flex items-center gap-1.5">
               <CheckCircle2 className="w-4 h-4 text-emerald-400" />
@@ -135,17 +131,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Category Cards Selector (Refined Glassmorphic) */}
+      {/* Category Cards Selector */}
       <section aria-label="Categorías de bicicletas">
         <div className="flex items-center justify-between mb-3 px-1">
-          <h2 className="text-xs font-black uppercase tracking-wider text-slate-600 flex items-center gap-1.5">
-            <Layers className="w-3.5 h-3.5 text-slate-500" />
+          <h2 className="text-xs font-black uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
+            <Layers className="w-3.5 h-3.5 text-slate-600" />
             <span>Explorar por Disciplina</span>
           </h2>
           {(selectedDiscipline || brandMatch) && (
             <Link
               href="/"
-              className="text-xs font-bold text-teal-600 hover:text-teal-700 hover:underline"
+              className="text-xs font-bold text-teal-700 hover:text-teal-800 hover:underline"
             >
               Ver todas ({bikes.length})
             </Link>
@@ -161,32 +157,32 @@ export default function HomePage() {
               switch (cat.id) {
                 case "gravel":
                   return {
-                    icon: <Compass className="w-4 h-4 text-amber-500" />,
-                    tagBg: "bg-amber-50 text-amber-900 border-amber-200",
+                    icon: <Compass className="w-4 h-4 text-amber-600" />,
+                    tagBg: "bg-amber-50 text-amber-950 border-amber-200",
                     borderActive: "border-amber-500 ring-2 ring-amber-500/20",
                   };
                 case "road_endurance":
                   return {
-                    icon: <Zap className="w-4 h-4 text-sky-500" />,
-                    tagBg: "bg-sky-50 text-sky-900 border-sky-200",
+                    icon: <Zap className="w-4 h-4 text-sky-600" />,
+                    tagBg: "bg-sky-50 text-sky-950 border-sky-200",
                     borderActive: "border-sky-500 ring-2 ring-sky-500/20",
                   };
                 case "road_race":
                   return {
-                    icon: <Flame className="w-4 h-4 text-rose-500" />,
-                    tagBg: "bg-rose-50 text-rose-900 border-rose-200",
+                    icon: <Flame className="w-4 h-4 text-rose-600" />,
+                    tagBg: "bg-rose-50 text-rose-950 border-rose-200",
                     borderActive: "border-rose-500 ring-2 ring-rose-500/20",
                   };
                 case "mtb":
                   return {
-                    icon: <Mountain className="w-4 h-4 text-purple-500" />,
-                    tagBg: "bg-purple-50 text-purple-900 border-purple-200",
+                    icon: <Mountain className="w-4 h-4 text-purple-600" />,
+                    tagBg: "bg-purple-50 text-purple-950 border-purple-200",
                     borderActive: "border-purple-500 ring-2 ring-purple-500/20",
                   };
                 default:
                   return {
-                    icon: <Sparkles className="w-4 h-4 text-emerald-500" />,
-                    tagBg: "bg-emerald-50 text-emerald-900 border-emerald-200",
+                    icon: <Sparkles className="w-4 h-4 text-emerald-600" />,
+                    tagBg: "bg-emerald-50 text-emerald-950 border-emerald-200",
                     borderActive: "border-emerald-500 ring-2 ring-emerald-500/20",
                   };
               }
@@ -201,7 +197,7 @@ export default function HomePage() {
                 className={`p-4 rounded-2xl border transition-all duration-200 card-hover-lift flex flex-col justify-between ${
                   isActive
                     ? `bg-slate-950 text-white border-slate-950 shadow-lg ${accent.borderActive}`
-                    : "bg-white text-slate-800 border-slate-200/90 hover:border-slate-300 shadow-2xs hover:shadow-md"
+                    : "bg-white text-slate-900 border-slate-200/90 hover:border-slate-300 shadow-2xs hover:shadow-md"
                 }`}
               >
                 <div>
@@ -222,7 +218,7 @@ export default function HomePage() {
                   </h3>
                   <p
                     className={`text-xs mt-0.5 line-clamp-1 ${
-                      isActive ? "text-slate-300" : "text-slate-600"
+                      isActive ? "text-slate-200" : "text-slate-600"
                     }`}
                   >
                     {cat.subtitle}
@@ -230,12 +226,12 @@ export default function HomePage() {
                 </div>
 
                 <div className="mt-3 pt-2 border-t border-slate-100 flex items-center justify-between text-[11px] font-bold">
-                  <span className={isActive ? "text-slate-300" : "text-slate-600"}>
+                  <span className={isActive ? "text-slate-200" : "text-slate-700"}>
                     {count} bicicletas
                   </span>
                   <ChevronRight
                     className={`w-3.5 h-3.5 ${
-                      isActive ? "text-teal-400" : "text-slate-400"
+                      isActive ? "text-teal-400" : "text-slate-500"
                     }`}
                   />
                 </div>
@@ -258,7 +254,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <Suspense fallback={<div className="py-12 text-center text-slate-500 font-medium">Cargando catálogo oficial...</div>}>
+        <Suspense fallback={<div className="py-12 text-center text-slate-600 font-medium">Cargando catálogo oficial...</div>}>
           <CatalogView
             initialBikes={bikes}
             brands={brands}

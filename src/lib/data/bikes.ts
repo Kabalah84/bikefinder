@@ -10,6 +10,7 @@ import {
   GroupsetBrand,
   SuspensionType,
 } from "@/lib/schema/bike";
+import { sanitizeSearchInput, sanitizeSlugParam } from "@/lib/utils/security";
 
 import gravelData from "../../../data/bikes/gravel.json";
 import carreteraData from "../../../data/bikes/carretera.json";
@@ -36,11 +37,16 @@ export function getAllBikes(): BikeProduct[] {
 }
 
 export function getBikeById(id: string): BikeProduct | undefined {
-  return parsedBikes.find((bike) => bike.id === id);
+  const safeId = sanitizeSlugParam(id);
+  if (!safeId) return undefined;
+  return parsedBikes.find((bike) => bike.id === safeId);
 }
 
 export function getBikesByIds(ids: string[]): BikeProduct[] {
-  const idSet = new Set(ids);
+  const safeIds = ids
+    .map((id) => sanitizeSlugParam(id))
+    .filter((id): id is string => Boolean(id));
+  const idSet = new Set(safeIds);
   return parsedBikes.filter((bike) => idSet.has(bike.id));
 }
 
@@ -78,8 +84,9 @@ export interface BikeFilterCriteria {
 export function filterBikes(bikes: BikeProduct[], criteria: BikeFilterCriteria): BikeProduct[] {
   let result = [...bikes];
 
-  if (criteria.searchTerm && criteria.searchTerm.trim() !== "") {
-    const term = criteria.searchTerm.toLowerCase().trim();
+  const sanitizedSearch = sanitizeSearchInput(criteria.searchTerm);
+  if (sanitizedSearch && sanitizedSearch.trim() !== "") {
+    const term = sanitizedSearch.toLowerCase().trim();
     result = result.filter(
       (b) =>
         b.brand.toLowerCase().includes(term) ||
@@ -96,7 +103,9 @@ export function filterBikes(bikes: BikeProduct[], criteria: BikeFilterCriteria):
   }
 
   if (criteria.brands && criteria.brands.length > 0) {
-    const brandSet = new Set(criteria.brands.map((br) => br.toLowerCase()));
+    const brandSet = new Set(
+      criteria.brands.map((br) => sanitizeSearchInput(br, 50).toLowerCase())
+    );
     result = result.filter((b) => brandSet.has(b.brand.toLowerCase()));
   }
 

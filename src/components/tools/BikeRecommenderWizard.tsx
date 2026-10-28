@@ -11,7 +11,6 @@ import {
 import { useComparison } from "@/lib/context/ComparisonContext";
 import {
   formatCurrencyEur,
-  formatDisciplineName,
   formatSuspensionName,
 } from "@/lib/utils/formatters";
 import { sanitizeExternalUrl } from "@/lib/utils/security";
@@ -84,7 +83,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
       {/* Progress Header */}
       {step <= 4 && (
         <div className="mb-8 space-y-3">
-          <div className="flex items-center justify-between text-xs font-bold text-slate-500 uppercase tracking-wider">
+          <div className="flex items-center justify-between text-xs font-bold text-slate-600 uppercase tracking-wider">
             <span>Paso {step} de 4</span>
             <span>
               {step === 1 && "Terreno y Rutas"}
@@ -95,7 +94,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
           </div>
           <div className="h-2 w-full rounded-full bg-slate-100 overflow-hidden">
             <div
-              className="h-full bg-gradient-to-r from-teal-500 to-emerald-500 transition-all duration-300 rounded-full"
+              className="h-full bg-gradient-to-r from-teal-600 to-emerald-500 transition-all duration-300 rounded-full"
               style={{ width: `${(step / 4) * 100}%` }}
             />
           </div>
@@ -109,7 +108,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               ¿Por qué tipo de terreno rodarás principalmente?
             </h2>
-            <p className="text-sm text-slate-500 mt-1">
+            <p className="text-sm text-slate-600 mt-1">
               Selecciona el entorno que mejor describa tus salidas habituales.
             </p>
           </div>
@@ -121,49 +120,49 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                 title: "Gravel & Aventura Off-Road",
                 desc: "Pistas forestales, grava, senderos y viajes de bikepacking (Paso de rueda 45-50mm+).",
                 icon: Compass,
-                color: "text-amber-600 bg-amber-50 border-amber-200",
+                color: "text-amber-700 bg-amber-50 border-amber-200",
               },
               {
                 id: "road_endurance",
                 title: "Carretera Gran Fondo / Confort",
                 desc: "Rutas de más de 80-100 km, asfalto secundario y marchas cicloturistas sin dolor de espalda.",
                 icon: Zap,
-                color: "text-sky-600 bg-sky-50 border-sky-200",
+                color: "text-sky-700 bg-sky-50 border-sky-200",
               },
               {
                 id: "road_race",
                 title: "Carretera Competición & Aero",
                 desc: "Máxima velocidad, aceleración y aerodinámica para sprints y puertos a ritmo exigente.",
                 icon: Flame,
-                color: "text-rose-600 bg-rose-50 border-rose-200",
+                color: "text-rose-700 bg-rose-50 border-rose-200",
               },
               {
                 id: "all_road",
                 title: "All-Road Mixto (70% Asfalto / 30% Pistas)",
                 desc: "Bicicleta rápida en carretera con capacidad para enlazar pistas de tierra compacta.",
                 icon: Sparkles,
-                color: "text-emerald-600 bg-emerald-50 border-emerald-200",
+                color: "text-emerald-700 bg-emerald-50 border-emerald-200",
               },
               {
                 id: "mtb_hardtail",
                 title: "Montaña XC & Rally (Rígida / Delantera)",
                 desc: "Pistas rotas, senderos rápidos y subidas exigentes con suspensión delantera y gran ligereza.",
                 icon: Mountain,
-                color: "text-purple-600 bg-purple-50 border-purple-200",
+                color: "text-purple-700 bg-purple-50 border-purple-200",
               },
               {
                 id: "mtb_full",
                 title: "Montaña Doble Suspensión (Trail & Enduro)",
                 desc: "Trialeras técnicas, piedras, bajadas agresivas y máxima absorción integral delantera y trasera.",
                 icon: Activity,
-                color: "text-indigo-600 bg-indigo-50 border-indigo-200",
+                color: "text-indigo-700 bg-indigo-50 border-indigo-200",
               },
               {
                 id: "ebike",
                 title: "Bicicleta Eléctrica (E-Bike Asistida)",
                 desc: "Motor eléctrico integrado (25 km/h) para conquistar grandes desniveles y rodar sin barreras físicas.",
                 icon: Zap,
-                color: "text-amber-600 bg-amber-50 border-amber-200",
+                color: "text-amber-700 bg-amber-50 border-amber-200",
               },
             ].map((option) => {
               const isSelected = preferences.terrain === option.id;
@@ -175,10 +174,10 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                   onClick={() =>
                     setPreferences({
                       ...preferences,
-                      terrain: option.id as any,
+                      terrain: option.id as UserPreferences["terrain"],
                     })
                   }
-                  className={`p-5 rounded-2xl border-2 text-left transition-all flex flex-col justify-between ${
+                  className={`p-5 rounded-2xl border-2 text-left transition-all flex flex-col justify-between cursor-pointer ${
                     isSelected
                       ? "border-teal-600 bg-teal-50/40 shadow-md ring-2 ring-teal-500/20"
                       : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50/50"
@@ -189,14 +188,14 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                       <Icon className="w-5 h-5" />
                     </div>
                     {isSelected && (
-                      <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-600 text-white">
+                      <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-700 text-white">
                         <Check className="w-4 h-4" />
                       </span>
                     )}
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-900 text-base">{option.title}</h3>
-                    <p className="text-xs text-slate-500 mt-1 leading-relaxed">{option.desc}</p>
+                    <p className="text-xs text-slate-600 mt-1 leading-relaxed">{option.desc}</p>
                   </div>
                 </button>
               );
@@ -212,7 +211,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               ¿Cuál es tu presupuesto aproximado?
             </h2>
-            <p className="text-sm text-slate-500 mt-1">
+            <p className="text-sm text-slate-600 mt-1">
               Filtraremos opciones con la mejor relación componentes/precio en tu rango.
             </p>
           </div>
@@ -246,7 +245,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                   key={option.budget}
                   type="button"
                   onClick={() => setPreferences({ ...preferences, budgetMax: option.budget })}
-                  className={`p-5 rounded-2xl border-2 text-left transition-all ${
+                  className={`p-5 rounded-2xl border-2 text-left transition-all cursor-pointer ${
                     isSelected
                       ? "border-teal-600 bg-teal-50/40 shadow-md ring-2 ring-teal-500/20"
                       : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50/50"
@@ -255,12 +254,12 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                   <div className="flex items-center justify-between mb-2">
                     <span className="text-lg font-black text-slate-900">{option.title}</span>
                     {isSelected && (
-                      <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-600 text-white">
+                      <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-700 text-white">
                         <Check className="w-4 h-4" />
                       </span>
                     )}
                   </div>
-                  <p className="text-xs text-slate-500 leading-relaxed">{option.desc}</p>
+                  <p className="text-xs text-slate-600 leading-relaxed">{option.desc}</p>
                 </button>
               );
             })}
@@ -275,7 +274,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               ¿Qué tipo de cambio prefieres?
             </h2>
-            <p className="text-sm text-slate-500 mt-1">
+            <p className="text-sm text-slate-600 mt-1">
               Electrónico inalámbrico vs mecánico tradicional.
             </p>
           </div>
@@ -310,10 +309,10 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                   onClick={() =>
                     setPreferences({
                       ...preferences,
-                      shifting: option.id as any,
+                      shifting: option.id as UserPreferences["shifting"],
                     })
                   }
-                  className={`p-5 rounded-2xl border-2 text-left transition-all flex flex-col justify-between ${
+                  className={`p-5 rounded-2xl border-2 text-left transition-all flex flex-col justify-between cursor-pointer ${
                     isSelected
                       ? "border-teal-600 bg-teal-50/40 shadow-md ring-2 ring-teal-500/20"
                       : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50/50"
@@ -324,14 +323,14 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                       <Icon className="w-5 h-5" />
                     </div>
                     {isSelected && (
-                      <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-600 text-white">
+                      <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-700 text-white">
                         <Check className="w-4 h-4" />
                       </span>
                     )}
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-900 text-base">{option.title}</h3>
-                    <p className="text-xs text-slate-500 mt-1">{option.desc}</p>
+                    <p className="text-xs text-slate-600 mt-1">{option.desc}</p>
                   </div>
                 </button>
               );
@@ -347,7 +346,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               ¿Cuál es tu máxima prioridad técnica?
             </h2>
-            <p className="text-sm text-slate-500 mt-1">
+            <p className="text-sm text-slate-600 mt-1">
               Esto nos ayudará a desempatar entre los mejores modelos del catálogo.
             </p>
           </div>
@@ -380,7 +379,6 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
               },
             ].map((option) => {
               const isSelected = preferences.priority === option.id;
-              const Icon = option.icon;
               return (
                 <button
                   key={option.id}
@@ -388,10 +386,10 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                   onClick={() =>
                     setPreferences({
                       ...preferences,
-                      priority: option.id as any,
+                      priority: option.id as UserPreferences["priority"],
                     })
                   }
-                  className={`p-5 rounded-2xl border-2 text-left transition-all ${
+                  className={`p-5 rounded-2xl border-2 text-left transition-all cursor-pointer ${
                     isSelected
                       ? "border-teal-600 bg-teal-50/40 shadow-md ring-2 ring-teal-500/20"
                       : "border-slate-200 bg-white hover:border-slate-300 hover:bg-slate-50/50"
@@ -400,12 +398,12 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                   <div className="flex items-center justify-between mb-2">
                     <span className="font-bold text-slate-900 text-base">{option.title}</span>
                     {isSelected && (
-                      <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-600 text-white">
+                      <span className="flex h-6 w-6 items-center justify-center rounded-full bg-teal-700 text-white">
                         <Check className="w-4 h-4" />
                       </span>
                     )}
                   </div>
-                  <p className="text-xs text-slate-500">{option.desc}</p>
+                  <p className="text-xs text-slate-600">{option.desc}</p>
                 </button>
               );
             })}
@@ -418,8 +416,8 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
         <div className="space-y-8 animate-fadeIn">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-4 border-b border-slate-200">
             <div>
-              <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1 text-xs font-bold text-emerald-800 border border-emerald-200 mb-2">
-                <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
+              <div className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1 text-xs font-bold text-emerald-900 border border-emerald-200 mb-2">
+                <Sparkles className="w-3.5 h-3.5 text-emerald-700" />
                 <span>Recomendación Personalizada</span>
               </div>
               <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
@@ -427,8 +425,9 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
               </h2>
             </div>
             <button
+              type="button"
               onClick={handleReset}
-              className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-600 hover:text-teal-700 bg-slate-100 hover:bg-slate-200 px-3 py-2 rounded-xl transition-colors"
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-slate-700 hover:text-teal-800 bg-slate-100 hover:bg-slate-200 px-3 py-2 rounded-xl transition-colors cursor-pointer"
             >
               <RotateCcw className="w-3.5 h-3.5" />
               Repetir Asistente
@@ -445,7 +444,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                   key={bike.id}
                   className={`rounded-3xl border-2 p-5 sm:p-6 flex flex-col justify-between transition-all ${
                     index === 0
-                      ? "border-teal-500 bg-gradient-to-b from-teal-50/40 via-white to-white shadow-xl ring-2 ring-teal-500/20"
+                      ? "border-teal-600 bg-gradient-to-b from-teal-50/40 via-white to-white shadow-xl ring-2 ring-teal-500/20"
                       : "border-slate-200 bg-white shadow-sm hover:border-slate-300"
                   }`}
                 >
@@ -455,17 +454,17 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                       <span
                         className={`rounded-lg px-2.5 py-1 text-xs font-black ${
                           index === 0
-                            ? "bg-teal-600 text-white shadow-xs"
-                            : "bg-slate-100 text-slate-800"
+                            ? "bg-teal-700 text-white shadow-xs"
+                            : "bg-slate-100 text-slate-900"
                         }`}
                       >
                         {item.badge}
                       </span>
                       <div className="text-right">
-                        <span className="text-xs font-bold text-slate-500 block text-[10px] uppercase">
+                        <span className="font-bold text-slate-600 block text-[10px] uppercase">
                           Afinidad
                         </span>
-                        <span className="text-base font-black text-teal-700">
+                        <span className="text-base font-black text-teal-800">
                           {item.score}% Match
                         </span>
                       </div>
@@ -476,35 +475,39 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                       <img
                         src={bike.officialImageUrl}
                         alt={`Bicicleta recomendada ${bike.brand} ${bike.model} (${bike.year})`}
+                        width={640}
+                        height={400}
+                        loading="lazy"
+                        decoding="async"
                         className="h-full w-full object-cover"
                         referrerPolicy="no-referrer"
                       />
                     </div>
 
-                    <span className="text-xs font-bold uppercase tracking-wider text-slate-500">
+                    <span className="text-xs font-bold uppercase tracking-wider text-slate-600">
                       {bike.brand}
                     </span>
-                    <h3 className="text-lg font-bold text-slate-900 mb-1">
-                      <Link href={`/bici/${bike.id}`} className="hover:text-teal-600">
+                    <h3 className="text-lg font-bold text-slate-950 mb-1">
+                      <Link href={`/bici/${bike.id}`} className="hover:text-teal-700">
                         {bike.model} ({bike.year})
                       </Link>
                     </h3>
-                    <p className="text-xs text-slate-600 font-medium mb-3">
+                    <p className="text-xs text-slate-700 font-medium mb-3">
                       {bike.groupset.name} · {bike.groupset.chainrings}
                     </p>
 
                     {/* Spec badges */}
                     <div className="flex flex-wrap gap-1.5 mb-4 text-xs font-semibold">
                       {bike.discipline === "mtb" ? (
-                        <span className="rounded-md bg-purple-100 text-purple-900 px-2 py-0.5 font-bold">
+                        <span className="rounded-md bg-purple-100 text-purple-950 px-2 py-0.5 font-bold">
                           {formatSuspensionName(bike.suspensionType)}
                         </span>
                       ) : (
-                        <span className="rounded-md bg-slate-100 px-2 py-0.5 text-slate-700">
+                        <span className="rounded-md bg-slate-100 px-2 py-0.5 text-slate-800">
                           Ø {bike.maxTireClearanceMm} mm
                         </span>
                       )}
-                      <span className="rounded-md bg-slate-100 px-2 py-0.5 text-slate-700">
+                      <span className="rounded-md bg-slate-100 px-2 py-0.5 text-slate-800">
                         {bike.weightKg ? `${bike.weightKg} kg` : "Peso N/D"}
                       </span>
                       {bike.isElectric && (
@@ -512,20 +515,20 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                           ⚡ E-Bike
                         </span>
                       )}
-                      <span className="rounded-md bg-slate-100 px-2 py-0.5 text-slate-700">
+                      <span className="rounded-md bg-slate-100 px-2 py-0.5 text-slate-800">
                         {bike.groupset.isElectronic ? "⚡ Di2/AXS" : "⚙️ Mecánico"}
                       </span>
                     </div>
 
                     {/* Why this bike matches */}
                     <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-100 mb-4 space-y-1.5">
-                      <span className="text-[11px] font-bold text-slate-700 block uppercase tracking-wider">
+                      <span className="text-[11px] font-bold text-slate-800 block uppercase tracking-wider">
                         ¿Por qué encaja contigo?
                       </span>
-                      <ul className="space-y-1 text-xs text-slate-600">
+                      <ul className="space-y-1 text-xs text-slate-700">
                         {item.reasons.map((reason, rIdx) => (
                           <li key={rIdx} className="flex items-start gap-1.5">
-                            <CheckCircle2 className="w-3.5 h-3.5 text-teal-600 shrink-0 mt-0.5" />
+                            <CheckCircle2 className="w-3.5 h-3.5 text-teal-700 shrink-0 mt-0.5" />
                             <span>{reason}</span>
                           </li>
                         ))}
@@ -536,18 +539,19 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                   {/* Actions */}
                   <div className="pt-3 border-t border-slate-100 space-y-2.5">
                     <div className="flex items-baseline justify-between">
-                      <span className="text-xl font-black text-slate-900">
+                      <span className="text-xl font-black text-slate-950">
                         {formatCurrencyEur(bike.currentPriceEur)}
                       </span>
-                      <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
+                      <span className="text-[11px] font-bold text-emerald-900 bg-emerald-50 px-2 py-0.5 rounded-md border border-emerald-200">
                         PVP Oficial
                       </span>
                     </div>
 
-                    <div className="grid grid-cols-2 gap-2">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       <button
+                        type="button"
                         onClick={() => addBike(bike)}
-                        className={`rounded-xl py-2 px-2.5 text-xs font-bold transition-all flex items-center justify-center gap-1.5 ${
+                        className={`rounded-xl py-2.5 px-2.5 text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
                           inComp
                             ? "bg-teal-700 text-white"
                             : "bg-slate-100 text-slate-800 hover:bg-slate-200"
@@ -561,10 +565,11 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                         href={sanitizeExternalUrl(bike.officialUrl)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="rounded-xl bg-slate-900 hover:bg-teal-700 py-2 px-2.5 text-xs font-bold text-white transition-colors flex items-center justify-center gap-1 shadow-xs"
+                        aria-label={`Ver en web oficial de ${bike.brand} (se abre en pestaña nueva)`}
+                        className="rounded-xl bg-slate-950 hover:bg-teal-700 py-2.5 px-2.5 text-xs font-bold text-white transition-colors flex items-center justify-center gap-1.5 shadow-xs"
                       >
-                        <span>Web Oficial</span>
-                        <ExternalLink className="w-3.5 h-3.5 text-slate-400" />
+                        <span className="truncate">Ver en web oficial de {bike.brand}</span>
+                        <ExternalLink className="w-3.5 h-3.5 text-teal-300 shrink-0" aria-hidden="true" />
                       </a>
                     </div>
                   </div>
@@ -584,8 +589,8 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
             disabled={step === 1}
             className={`inline-flex items-center gap-1.5 rounded-xl px-4 py-2.5 text-xs font-bold transition-colors ${
               step === 1
-                ? "text-slate-300 cursor-not-allowed"
-                : "text-slate-700 hover:bg-slate-100"
+                ? "text-slate-400 cursor-not-allowed"
+                : "text-slate-700 hover:bg-slate-100 cursor-pointer"
             }`}
           >
             <ArrowLeft className="w-4 h-4" />
@@ -595,7 +600,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
           <button
             type="button"
             onClick={handleNextStep}
-            className="inline-flex items-center gap-2 rounded-xl bg-teal-600 px-6 py-2.5 text-xs sm:text-sm font-bold text-white shadow-md shadow-teal-600/25 hover:bg-teal-700 transition-all"
+            className="inline-flex items-center gap-2 rounded-xl bg-teal-700 px-6 py-2.5 text-xs sm:text-sm font-bold text-white shadow-md shadow-teal-700/25 hover:bg-teal-800 transition-all cursor-pointer"
           >
             <span>{step === 4 ? "Ver Mis Recomendaciones" : "Siguiente"}</span>
             <ArrowRight className="w-4 h-4" />

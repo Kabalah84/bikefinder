@@ -60,3 +60,57 @@ export function formatSuspensionName(suspension: string): string {
   }
 }
 
+export interface ComponentTierInfo {
+  label: string;
+  shortLabel: string;
+  badgeClass: string;
+}
+
+/**
+ * Determina el nivel de gama de componentes (WorldTour/Pro, Performance, Sport)
+ * según grupo de transmisión, cambio electrónico y precio oficial.
+ */
+export function getComponentTierBadge(
+  groupsetName: string,
+  isElectronic: boolean,
+  priceEur: number
+): ComponentTierInfo {
+  const lower = groupsetName.toLowerCase();
+
+  if (
+    lower.includes("dura-ace") ||
+    lower.includes("sram red") ||
+    lower.includes("xx sl") ||
+    lower.includes("xtr") ||
+    lower.includes("super record") ||
+    priceEur >= 7000
+  ) {
+    return {
+      label: "Gama WorldTour · Tope",
+      shortLabel: "Gama Pro / WorldTour",
+      badgeClass: "bg-slate-900 text-amber-300 border-amber-500/40",
+    };
+  }
+
+  if (
+    lower.includes("ultegra") ||
+    lower.includes("force") ||
+    lower.includes("x0 ") ||
+    lower.includes("xt ") ||
+    lower.includes("grx 825") ||
+    isElectronic ||
+    priceEur >= 3500
+  ) {
+    return {
+      label: "Gama Performance · Competición",
+      shortLabel: "Gama Performance",
+      badgeClass: "bg-teal-950/90 text-teal-200 border-teal-500/40",
+    };
+  }
+
+  return {
+    label: "Gama Sport · Entrenamiento",
+    shortLabel: "Gama Sport",
+    badgeClass: "bg-slate-800/90 text-slate-100 border-slate-600/50",
+  };
+}

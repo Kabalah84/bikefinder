@@ -10,6 +10,7 @@ import {
   formatDisciplineName,
   formatMaterialName,
   formatSuspensionName,
+  getComponentTierBadge,
 } from "@/lib/utils/formatters";
 import { sanitizeExternalUrl } from "@/lib/utils/security";
 import { analyzeGearRatio } from "@/lib/utils/gear-calculator";
@@ -26,6 +27,7 @@ import {
   Flame,
   Activity,
   ArrowRight,
+  Award,
 } from "lucide-react";
 
 interface BikeCardProps {
@@ -53,20 +55,26 @@ export function BikeCard({ bike }: BikeCardProps) {
     bike.groupset.maxGearRatio
   );
 
+  const componentTier = getComponentTierBadge(
+    bike.groupset.name,
+    bike.groupset.isElectronic,
+    bike.currentPriceEur
+  );
+
   const getDisciplinePillClass = () => {
     switch (bike.discipline) {
       case "gravel":
-        return "bg-amber-100/90 text-amber-950 border-amber-300/80";
+        return "bg-amber-100 text-amber-950 border-amber-300";
       case "road_endurance":
-        return "bg-sky-100/90 text-sky-950 border-sky-300/80";
+        return "bg-sky-100 text-sky-950 border-sky-300";
       case "road_race":
-        return "bg-rose-100/90 text-rose-950 border-rose-300/80";
+        return "bg-rose-100 text-rose-950 border-rose-300";
       case "all_road":
-        return "bg-emerald-100/90 text-emerald-950 border-emerald-300/80";
+        return "bg-emerald-100 text-emerald-950 border-emerald-300";
       case "mtb":
-        return "bg-purple-100/90 text-purple-950 border-purple-300/80";
+        return "bg-purple-100 text-purple-950 border-purple-300";
       default:
-        return "bg-slate-100/90 text-slate-900 border-slate-300/80";
+        return "bg-slate-100 text-slate-900 border-slate-300";
     }
   };
 
@@ -75,7 +83,7 @@ export function BikeCard({ bike }: BikeCardProps) {
       onClick={handleCardClick}
       className={`group flex flex-col justify-between rounded-3xl bg-white border card-hover-lift overflow-hidden cursor-pointer relative ${
         selected
-          ? "border-teal-500 ring-2 ring-teal-500/30 shadow-lg shadow-teal-500/10"
+          ? "border-teal-600 ring-2 ring-teal-500/30 shadow-lg shadow-teal-500/10"
           : "border-slate-200/90 hover:border-slate-300 shadow-2xs hover:shadow-xl"
       }`}
     >
@@ -85,33 +93,36 @@ export function BikeCard({ bike }: BikeCardProps) {
           <img
             src={bike.officialImageUrl}
             alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year}) de ${formatDisciplineName(bike.discipline)}`}
-            className="h-full w-full object-cover object-center group-hover:scale-108 transition-transform duration-500 ease-out"
+            width={800}
+            height={500}
             loading="lazy"
+            decoding="async"
+            className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-500 ease-out"
             referrerPolicy="no-referrer"
             onError={() => setImageError(true)}
           />
         ) : (
           <div className="flex flex-col items-center justify-center p-4 text-center select-none w-full h-full bg-slate-50">
-            <div className="w-12 h-12 rounded-2xl bg-slate-200/70 flex items-center justify-center mb-2 text-slate-400">
+            <div className="w-12 h-12 rounded-2xl bg-slate-200 flex items-center justify-center mb-2 text-slate-600">
               <Layers className="w-6 h-6" />
             </div>
-            <span className="text-[11px] font-black uppercase tracking-wider text-slate-400">
+            <span className="text-[11px] font-black uppercase tracking-wider text-slate-600">
               {bike.brand}
             </span>
-            <span className="text-xs font-bold text-slate-700 line-clamp-1 max-w-[200px]">
+            <span className="text-xs font-bold text-slate-800 line-clamp-1 max-w-[200px]">
               {bike.model}
             </span>
           </div>
         )}
 
         {/* Top left floating discipline & year tags */}
-        <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10">
+        <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10 pr-12">
           <span
             className={`rounded-full px-2.5 py-0.5 text-[10px] font-black uppercase tracking-wider border backdrop-blur-xs shadow-2xs ${getDisciplinePillClass()}`}
           >
             {formatDisciplineName(bike.discipline)}
           </span>
-          <span className="rounded-full bg-slate-950/80 backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold text-white shadow-2xs">
+          <span className="rounded-full bg-slate-950/90 backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold text-white shadow-2xs">
             {bike.year}
           </span>
           {bike.isElectric && (
@@ -120,7 +131,7 @@ export function BikeCard({ bike }: BikeCardProps) {
             </span>
           )}
           {bike.suspensionType === "full" && (
-            <span className="rounded-full bg-purple-950/80 text-purple-200 backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold shadow-2xs">
+            <span className="rounded-full bg-purple-950/90 text-purple-100 backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold shadow-2xs">
               Doble
             </span>
           )}
@@ -128,25 +139,32 @@ export function BikeCard({ bike }: BikeCardProps) {
 
         {/* Top right discount badge */}
         {bike.discountPercentage && bike.discountPercentage > 0 ? (
-          <div className="absolute top-3 right-3 flex items-center gap-1 rounded-full bg-rose-600 px-2.5 py-0.5 text-[10px] font-black text-white shadow-xs">
+          <div className="absolute top-3 right-3 flex items-center gap-1 rounded-full bg-rose-700 px-2.5 py-0.5 text-[10px] font-black text-white shadow-xs z-10">
             <Flame className="w-3 h-3 fill-white" />
             <span>-{bike.discountPercentage}%</span>
           </div>
         ) : null}
 
-        {/* Bottom Shifting tech pill */}
-        <div className="absolute bottom-2.5 left-3 z-10">
+        {/* Bottom Shifting tech & Component Tier pills */}
+        <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between gap-1.5 z-10">
           {bike.groupset.isElectronic ? (
-            <span className="inline-flex items-center gap-1 rounded-md bg-teal-950/85 backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold text-teal-200 border border-teal-500/30">
-              <Zap className="w-3 h-3 text-teal-400" />
+            <span className="inline-flex items-center gap-1 rounded-md bg-teal-950/90 backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold text-teal-200 border border-teal-500/40">
+              <Zap className="w-3 h-3 text-teal-300" />
               Di2 / AXS
             </span>
           ) : (
-            <span className="inline-flex items-center gap-1 rounded-md bg-slate-950/80 backdrop-blur-xs px-2 py-0.5 text-[10px] font-medium text-slate-200">
-              <Cog className="w-3 h-3 text-slate-400" />
+            <span className="inline-flex items-center gap-1 rounded-md bg-slate-950/85 backdrop-blur-xs px-2 py-0.5 text-[10px] font-semibold text-slate-100">
+              <Cog className="w-3 h-3 text-slate-300" />
               Mecánico {bike.groupset.speedCount}v
             </span>
           )}
+
+          <span
+            className={`inline-flex items-center gap-1 rounded-md backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold border ${componentTier.badgeClass}`}
+          >
+            <Award className="w-3 h-3 shrink-0" />
+            <span>{componentTier.shortLabel}</span>
+          </span>
         </div>
       </div>
 
@@ -155,10 +173,10 @@ export function BikeCard({ bike }: BikeCardProps) {
         <div>
           {/* Brand & Model Headline */}
           <div className="mb-2">
-            <span className="text-[11px] font-black uppercase tracking-wider text-slate-600">
+            <span className="text-[11px] font-black uppercase tracking-wider text-slate-700">
               {bike.brand}
             </span>
-            <h3 className="text-base font-black text-slate-950 group-hover:text-teal-600 transition-colors line-clamp-1">
+            <h3 className="text-base font-black text-slate-950 group-hover:text-teal-700 transition-colors line-clamp-1">
               <Link href={`/bici/${bike.id}`} onClick={(e) => e.stopPropagation()}>
                 {bike.model}
               </Link>
@@ -166,53 +184,53 @@ export function BikeCard({ bike }: BikeCardProps) {
           </div>
 
           {/* Groupset summary */}
-          <p className="text-xs text-slate-600 font-semibold line-clamp-1 mb-3">
+          <p className="text-xs text-slate-700 font-semibold line-clamp-1 mb-3">
             {bike.groupset.name} · {bike.groupset.chainrings} ({bike.groupset.cassette})
           </p>
 
           {/* Technical Spec Matrix (Redesigned Capsule) */}
-          <div className="grid grid-cols-3 gap-1 py-2.5 px-3 rounded-2xl bg-slate-50 border border-slate-100 text-center mb-3">
+          <div className="grid grid-cols-3 gap-1 py-2.5 px-3 rounded-2xl bg-slate-50 border border-slate-200/80 text-center mb-3">
             {/* Suspensión en MTB o Paso de rueda en Carretera/Gravel */}
             {bike.discipline === "mtb" ? (
               <div className="flex flex-col items-center">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-600 flex items-center gap-0.5">
-                  <Activity className="w-3 h-3 text-purple-600" />
+                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 flex items-center gap-0.5">
+                  <Activity className="w-3 h-3 text-purple-700" />
                   Suspensión
                 </span>
-                <span className="text-xs font-black text-slate-900 mt-0.5">
+                <span className="text-xs font-black text-slate-950 mt-0.5">
                   {formatSuspensionName(bike.suspensionType)}
                 </span>
               </div>
             ) : (
               <div className="flex flex-col items-center">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-600 flex items-center gap-0.5">
-                  <CircleDot className="w-3 h-3 text-teal-600" />
+                <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 flex items-center gap-0.5">
+                  <CircleDot className="w-3 h-3 text-teal-700" />
                   Paso Rueda
                 </span>
-                <span className="text-xs font-black text-slate-900 mt-0.5">
+                <span className="text-xs font-black text-slate-950 mt-0.5">
                   {bike.maxTireClearanceMm} mm
                 </span>
               </div>
             )}
 
             {/* Peso */}
-            <div className="flex flex-col items-center border-x border-slate-200/70 px-1">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-600 flex items-center gap-0.5">
-                <Weight className="w-3 h-3 text-slate-600" />
+            <div className="flex flex-col items-center border-x border-slate-200 px-1">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 flex items-center gap-0.5">
+                <Weight className="w-3 h-3 text-slate-700" />
                 Peso
               </span>
-              <span className="text-xs font-black text-slate-900 mt-0.5">
+              <span className="text-xs font-black text-slate-950 mt-0.5">
                 {bike.weightKg ? `${bike.weightKg} kg` : "N/D"}
               </span>
             </div>
 
             {/* Material Cuadro */}
             <div className="flex flex-col items-center">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-600 flex items-center gap-0.5">
-                <Layers className="w-3 h-3 text-slate-600" />
+              <span className="text-[10px] font-bold uppercase tracking-wider text-slate-700 flex items-center gap-0.5">
+                <Layers className="w-3 h-3 text-slate-700" />
                 Cuadro
               </span>
-              <span className="text-xs font-black text-slate-900 mt-0.5">
+              <span className="text-xs font-black text-slate-950 mt-0.5">
                 {formatMaterialName(bike.frameMaterial)}
               </span>
             </div>
@@ -222,23 +240,23 @@ export function BikeCard({ bike }: BikeCardProps) {
           <div
             className={`flex items-center justify-between text-[11px] px-2.5 py-1.5 rounded-xl border mb-3 ${
               bike.isElectric
-                ? "bg-amber-50/90 border-amber-200/90 text-amber-950"
-                : "bg-teal-50/80 border-teal-100/90 text-teal-950"
+                ? "bg-amber-50 border-amber-200 text-amber-950"
+                : "bg-teal-50/90 border-teal-200 text-teal-950"
             }`}
           >
             <span
-              className={`font-semibold flex items-center gap-1 ${
-                bike.isElectric ? "text-amber-900" : "text-teal-900"
+              className={`font-bold flex items-center gap-1 ${
+                bike.isElectric ? "text-amber-950" : "text-teal-950"
               }`}
             >
               {bike.isElectric ? (
                 <>
-                  <Zap className="w-3 h-3 text-amber-600 fill-amber-500" />
+                  <Zap className="w-3 h-3 text-amber-700 fill-amber-500" />
                   Motor & Asistencia:
                 </>
               ) : (
                 <>
-                  <TrendingUp className="w-3 h-3 text-teal-600" />
+                  <TrendingUp className="w-3 h-3 text-teal-700" />
                   Subida (Ratio Mín):
                 </>
               )}
@@ -258,27 +276,40 @@ export function BikeCard({ bike }: BikeCardProps) {
         </div>
 
         {/* Pricing & Footer Actions */}
-        <div className="pt-3 border-t border-slate-100">
+        <div className="pt-3 border-t border-slate-200/80 space-y-2.5">
           {/* Price Row */}
-          <div className="flex items-baseline justify-between mb-3">
+          <div className="flex items-baseline justify-between">
             <div>
               <span className="text-xl font-black text-slate-950 tracking-tight">
                 {formatCurrencyEur(bike.currentPriceEur)}
               </span>
               {bike.msrpEur > bike.currentPriceEur && (
-                <span className="ml-2 text-xs text-slate-500 line-through font-medium">
+                <span className="ml-2 text-xs text-slate-600 line-through font-semibold">
                   {formatCurrencyEur(bike.msrpEur)}
                 </span>
               )}
             </div>
-            <span className="text-[10px] font-bold text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
+            <span className="text-[10px] font-bold text-emerald-900 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-300">
               PVP Oficial
             </span>
           </div>
 
-          {/* Action Buttons */}
+          {/* Primary External CTA: Clearly identifiable official brand store link */}
+          <a
+            href={sanitizeExternalUrl(bike.officialUrl)}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            aria-label={`Ver ${bike.brand} ${bike.model} en web oficial de ${bike.brand} (se abre en pestaña nueva)`}
+            className="w-full flex items-center justify-center gap-1.5 rounded-xl bg-slate-950 py-2.5 px-3 text-xs font-bold text-white hover:bg-teal-700 transition-colors shadow-xs"
+            title={`Ver ${bike.brand} ${bike.model} en la web oficial de ${bike.brand}`}
+          >
+            <span className="truncate">Ver en web oficial de {bike.brand}</span>
+            <ExternalLink className="w-3.5 h-3.5 text-teal-300 shrink-0" aria-hidden="true" />
+          </a>
+
+          {/* Secondary Row: Compare Toggle & View Full Specs */}
           <div className="grid grid-cols-2 gap-2">
-            {/* Compare Toggle */}
             <button
               onClick={(e) => {
                 e.stopPropagation();
@@ -287,8 +318,8 @@ export function BikeCard({ bike }: BikeCardProps) {
               type="button"
               className={`flex items-center justify-center gap-1.5 rounded-xl py-2 px-2.5 text-xs font-bold transition-all cursor-pointer ${
                 selected
-                  ? "bg-teal-600 text-white hover:bg-teal-700 shadow-xs"
-                  : "bg-slate-100 text-slate-700 hover:bg-slate-200 hover:text-slate-900 border border-slate-200/80"
+                  ? "bg-teal-700 text-white hover:bg-teal-800 shadow-xs"
+                  : "bg-slate-100 text-slate-800 hover:bg-slate-200 hover:text-slate-950 border border-slate-200"
               }`}
             >
               {selected ? (
@@ -298,35 +329,19 @@ export function BikeCard({ bike }: BikeCardProps) {
                 </>
               ) : (
                 <>
-                  <Scale className="w-3.5 h-3.5 text-slate-500" />
+                  <Scale className="w-3.5 h-3.5 text-teal-700" />
                   <span>Comparar</span>
                 </>
               )}
             </button>
 
-            {/* Official Web Link */}
-            <a
-              href={sanitizeExternalUrl(bike.officialUrl)}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
-              className="flex items-center justify-center gap-1.5 rounded-xl bg-slate-950 py-2 px-2.5 text-xs font-bold text-white hover:bg-teal-600 transition-colors shadow-xs"
-              title={`Ver ${bike.brand} ${bike.model} en la web oficial`}
-            >
-              <span>Web Oficial</span>
-              <ExternalLink className="w-3 h-3 text-slate-400 group-hover:text-white" />
-            </a>
-          </div>
-
-          {/* View Specs link */}
-          <div className="mt-2.5 text-center">
             <Link
               href={`/bici/${bike.id}`}
               onClick={(e) => e.stopPropagation()}
-              className="inline-flex items-center gap-1 text-[11px] font-bold text-slate-600 hover:text-teal-600 hover:underline transition-colors"
+              className="flex items-center justify-center gap-1 rounded-xl bg-white hover:bg-teal-50 text-slate-800 hover:text-teal-800 border border-slate-200 py-2 px-2.5 text-xs font-bold transition-colors"
             >
-              <span>Ver geometría y ficha técnica</span>
-              <ArrowRight className="w-3 h-3" />
+              <span>Ficha y Geometría</span>
+              <ArrowRight className="w-3 h-3 shrink-0" />
             </Link>
           </div>
         </div>

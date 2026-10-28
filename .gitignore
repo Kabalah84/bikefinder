@@ -28,6 +28,8 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
+.env.*
+!.env.example
 
 # vercel & cloudflare
 .vercel
@@ -39,4 +41,3 @@ next-env.d.ts
 
 # scratch / cache
 scratch/
-

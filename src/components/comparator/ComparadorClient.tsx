@@ -7,8 +7,8 @@ import { useComparison } from "@/lib/context/ComparisonContext";
 import { ComparisonTable } from "@/components/comparator/ComparisonTable";
 import { CategorizedBikePicker } from "@/components/comparator/CategorizedBikePicker";
 import { Discipline } from "@/lib/schema/bike";
-import { Scale, Sparkles, ArrowLeft } from "lucide-react";
-import Link from "next/link";
+import { sanitizeSlugArray, sanitizeSlugParam } from "@/lib/utils/security";
+import { Scale, Sparkles } from "lucide-react";
 
 export function ComparadorClient() {
   const searchParams = useSearchParams();
@@ -17,21 +17,23 @@ export function ComparadorClient() {
 
   const idsParam = searchParams.get("ids");
 
-  // Si se pasa query param ids, sincronizar con el contexto de forma atómica y limpia
+  // Si se pasa query param ids, sanitizar slugs y sincronizar con el contexto de forma atómica
   useEffect(() => {
     if (idsParam) {
-      const ids = idsParam.split(",").filter(Boolean);
-      const urlBikes = getBikesByIds(ids);
-      if (urlBikes.length > 0) {
-        setComparisonBikes(urlBikes);
+      const safeIds = sanitizeSlugArray(idsParam, maxBikes);
+      if (safeIds.length > 0) {
+        const urlBikes = getBikesByIds(safeIds);
+        if (urlBikes.length > 0) {
+          setComparisonBikes(urlBikes);
+        }
       }
     }
-  }, [idsParam, setComparisonBikes]);
+  }, [idsParam, maxBikes, setComparisonBikes]);
 
   const handleAddBikeFromSelect = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const bikeId = e.target.value;
-    if (!bikeId) return;
-    const bike = allBikes.find((b) => b.id === bikeId);
+    const safeId = sanitizeSlugParam(e.target.value);
+    if (!safeId) return;
+    const bike = allBikes.find((b) => b.id === safeId);
     if (bike) {
       addBike(bike);
       e.target.value = "";
@@ -70,10 +72,10 @@ export function ComparadorClient() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-200">
         <div>
           <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight flex items-center gap-2">
-            <Scale className="w-6 h-6 text-teal-600" />
+            <Scale className="w-6 h-6 text-teal-700" />
             Tabla Comparativa Oficial
           </h2>
-          <p className="text-xs sm:text-sm text-slate-500 mt-1">
+          <p className="text-xs sm:text-sm text-slate-600 mt-1">
             Confrontación milimétrica de pasos de rueda, pesos oficiales, ratios de desarrollo y geometría Stack/Reach.
           </p>
         </div>
@@ -82,14 +84,14 @@ export function ComparadorClient() {
         <div className="flex items-center gap-2">
           {selectedBikes.length < maxBikes && (
             <div className="flex items-center gap-2">
-              <label htmlFor="add-bike-select" className="text-xs font-bold text-slate-600 shrink-0">
+              <label htmlFor="add-bike-select" className="text-xs font-bold text-slate-700 shrink-0">
                 Añadir modelo:
               </label>
               <select
                 id="add-bike-select"
                 onChange={handleAddBikeFromSelect}
                 defaultValue=""
-                className="rounded-xl border border-slate-300 bg-white py-2 px-3 text-xs font-semibold text-slate-800 focus:border-teal-500 focus:outline-hidden shadow-2xs max-w-[260px] truncate"
+                className="rounded-xl border border-slate-300 bg-white py-2 px-3 text-xs font-semibold text-slate-900 focus:border-teal-600 focus:outline-hidden shadow-2xs max-w-[260px] truncate cursor-pointer"
               >
                 <option value="" disabled>
                   Seleccionar bicicleta...
@@ -109,8 +111,9 @@ export function ComparadorClient() {
 
           {selectedBikes.length > 0 && (
             <button
+              type="button"
               onClick={clearAll}
-              className="rounded-xl border border-slate-200 bg-slate-100 hover:bg-rose-50 hover:border-rose-200 hover:text-rose-700 py-2 px-3 text-xs font-bold text-slate-600 transition-colors"
+              className="rounded-xl border border-slate-200 bg-slate-100 hover:bg-rose-50 hover:border-rose-200 hover:text-rose-800 py-2 px-3 text-xs font-bold text-slate-700 transition-colors cursor-pointer"
             >
               Vaciar ({selectedBikes.length})
             </button>
@@ -119,13 +122,14 @@ export function ComparadorClient() {
       </div>
 
       {/* Preset Comparisons */}
-      <div className="rounded-2xl bg-gradient-to-r from-teal-50 via-slate-50 to-emerald-50 p-4 border border-teal-100">
-        <div className="flex items-center gap-1.5 text-xs font-bold text-teal-900 mb-2">
-          <Sparkles className="w-3.5 h-3.5 text-teal-600" />
+      <div className="rounded-2xl bg-gradient-to-r from-teal-50 via-slate-50 to-emerald-50 p-4 border border-teal-200">
+        <div className="flex items-center gap-1.5 text-xs font-bold text-teal-950 mb-2">
+          <Sparkles className="w-3.5 h-3.5 text-teal-700" />
           <span>Comparativas Rápidas Recomendadas:</span>
         </div>
         <div className="flex flex-wrap gap-2">
           <button
+            type="button"
             onClick={() =>
               handleLoadPreset([
                 "canyon-grizl-cf-sl-7-2025",
@@ -133,11 +137,12 @@ export function ComparadorClient() {
                 "trek-checkpoint-sl-6-axs-gen-3-2025",
               ])
             }
-            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-400 hover:text-teal-700 shadow-2xs transition-all"
+            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-500 hover:text-teal-800 shadow-2xs transition-all cursor-pointer"
           >
             🚴‍♂️ Duelo Gravel Referencia: Canyon Grizl vs Orbea Terra vs Trek Checkpoint
           </button>
           <button
+            type="button"
             onClick={() =>
               handleLoadPreset([
                 "canyon-endurace-cf-7-2025",
@@ -145,11 +150,12 @@ export function ComparadorClient() {
                 "specialized-roubaix-sl8-expert-2025",
               ])
             }
-            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-400 hover:text-teal-700 shadow-2xs transition-all"
+            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-500 hover:text-teal-800 shadow-2xs transition-all cursor-pointer"
           >
             ⚡ Batalla Gran Fondo: Endurace vs Domane vs Roubaix
           </button>
           <button
+            type="button"
             onClick={() =>
               handleLoadPreset([
                 "canyon-ultimate-cf-sl-8-aero-2025",
@@ -157,7 +163,7 @@ export function ComparadorClient() {
                 "specialized-tarmac-sl8-pro-2025",
               ])
             }
-            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-400 hover:text-teal-700 shadow-2xs transition-all"
+            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-500 hover:text-teal-800 shadow-2xs transition-all cursor-pointer"
           >
             🏆 Escaladoras y Racing: Ultimate vs Orca OMX vs Tarmac SL8
           </button>

@@ -36,15 +36,16 @@ export function ComparisonDrawer() {
                   {selectedBikes.length}/4
                 </span>
               </div>
-              <span className="text-[10px] text-slate-400 hidden sm:block">
+              <span className="text-[10px] text-slate-300 hidden sm:block">
                 Confrontación milimétrica de pesos, desarrollos y Stack/Reach
               </span>
             </div>
           </div>
 
           <button
+            type="button"
             onClick={clearAll}
-            className="text-xs text-slate-400 hover:text-rose-400 flex items-center gap-1 transition-colors px-2 py-1 rounded-lg hover:bg-white/5 cursor-pointer"
+            className="text-xs text-slate-300 hover:text-rose-400 flex items-center gap-1 transition-colors px-2 py-1 rounded-lg hover:bg-white/5 cursor-pointer"
             title="Vaciar comparador"
           >
             <Trash2 className="w-3.5 h-3.5" />
@@ -61,7 +62,11 @@ export function ComparisonDrawer() {
             >
               <img
                 src={bike.officialImageUrl}
-                alt={bike.model}
+                alt={`${bike.brand} ${bike.model}`}
+                width={96}
+                height={72}
+                loading="lazy"
+                decoding="async"
                 className="h-9 w-12 rounded-xl object-cover bg-white"
                 referrerPolicy="no-referrer"
               />
@@ -74,8 +79,10 @@ export function ComparisonDrawer() {
                 </p>
               </div>
               <button
+                type="button"
                 onClick={() => removeBike(bike.id)}
-                className="p-1 rounded-full text-slate-400 hover:text-rose-400 hover:bg-white/10 transition-colors cursor-pointer"
+                aria-label={`Quitar ${bike.brand} ${bike.model}`}
+                className="p-1 rounded-full text-slate-300 hover:text-rose-400 hover:bg-white/10 transition-colors cursor-pointer"
                 title={`Quitar ${bike.model}`}
               >
                 <X className="w-3.5 h-3.5" />
