@@ -199,7 +199,7 @@ export function Footer() {
 
         {/* Marcas de Referencia (SEO Crawl Hub) */}
         <div className="border-t border-slate-900/80 pt-8 pb-4">
-          <span className="text-[11px] font-black uppercase tracking-wider text-slate-500 block mb-3">
+          <span className="text-[11px] font-black uppercase tracking-wider text-slate-400 block mb-3">
             Catálogos Oficiales por Fabricante:
           </span>
           <div className="flex flex-wrap gap-2 text-xs">
@@ -232,13 +232,13 @@ export function Footer() {
               <span>Contacto</span>
             </Link>
           </div>
-          <div className="text-[11px] text-slate-500">
+          <div className="text-[11px] text-slate-400">
             Atención oficial: <a href="mailto:contacto@comparabici.es" className="text-teal-400 hover:underline">contacto@comparabici.es</a>
           </div>
         </div>
 
         {/* Bottom copyright */}
-        <div className="border-t border-slate-900/60 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <div className="border-t border-slate-900/60 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <p>© {new Date().getFullYear()} ComparaBici.es — Índice Técnico Oficial de Bicicletas. Todos los derechos reservados.</p>
           <p className="flex items-center gap-1.5 text-slate-400">
             <span>Hecho con pasión por la geometría y el ciclismo</span>

@@ -23,10 +23,10 @@
       "name": "Shimano Deore 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 628,
@@ -166,10 +166,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 628,
@@ -309,10 +309,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 628,
@@ -452,10 +452,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 628,
@@ -595,10 +595,10 @@
       "name": "Shimano SLX 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 595,
@@ -738,10 +738,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 595,
@@ -881,10 +881,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 598,
@@ -1024,10 +1024,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 598,
@@ -1167,10 +1167,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "20T",
+      "chainrings": "34T",
       "cassette": "10-51T",
-      "minGearRatio": 0.39,
-      "maxGearRatio": 2
+      "minGearRatio": 0.67,
+      "maxGearRatio": 3.4
     },
     "geometry": {
       "stackMm": 598,
@@ -1310,10 +1310,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "20T",
+      "chainrings": "34T",
       "cassette": "10-51T",
-      "minGearRatio": 0.39,
-      "maxGearRatio": 2
+      "minGearRatio": 0.67,
+      "maxGearRatio": 3.4
     },
     "geometry": {
       "stackMm": 598,
@@ -1453,10 +1453,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 609,
@@ -1596,10 +1596,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 609,
@@ -1739,10 +1739,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "20T",
+      "chainrings": "34T",
       "cassette": "10-51T",
-      "minGearRatio": 0.39,
-      "maxGearRatio": 2
+      "minGearRatio": 0.67,
+      "maxGearRatio": 3.4
     },
     "geometry": {
       "stackMm": 609,
@@ -1878,10 +1878,10 @@
       "name": "Shimano XT DI2 12sp",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "00T",
+      "chainrings": "34T",
       "cassette": "10-51T",
       "minGearRatio": 0.67,
-      "maxGearRatio": 5
+      "maxGearRatio": 3.4
     },
     "geometry": {
       "stackMm": 609,
@@ -2158,10 +2158,10 @@
       "name": "Shimano XTR DI2 9200 12sp",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "00T",
+      "chainrings": "34T",
       "cassette": "10-51T",
       "minGearRatio": 0.67,
-      "maxGearRatio": 5
+      "maxGearRatio": 3.4
     },
     "geometry": {
       "stackMm": 609,
@@ -2870,10 +2870,10 @@
       "name": "Shimano Deore 10sp",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "00T",
+      "chainrings": "30T",
       "cassette": "11-46T",
-      "minGearRatio": 0.74,
-      "maxGearRatio": 4.55
+      "minGearRatio": 0.65,
+      "maxGearRatio": 2.73
     },
     "geometry": {
       "stackMm": 633,
@@ -3013,10 +3013,10 @@
       "name": "Shimano Deore 11sp",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "00T",
+      "chainrings": "30T",
       "cassette": "11-51T",
-      "minGearRatio": 0.67,
-      "maxGearRatio": 4.55
+      "minGearRatio": 0.59,
+      "maxGearRatio": 2.73
     },
     "geometry": {
       "stackMm": 633,
@@ -3156,10 +3156,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 624,
@@ -3299,10 +3299,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 624,
@@ -3442,10 +3442,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "01T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.02,
-      "maxGearRatio": 0.1
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 624,
@@ -3585,10 +3585,10 @@
       "name": "Shimano XT 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "20T",
+      "chainrings": "34T",
       "cassette": "10-51T",
-      "minGearRatio": 0.39,
-      "maxGearRatio": 2
+      "minGearRatio": 0.67,
+      "maxGearRatio": 3.4
     },
     "geometry": {
       "stackMm": 624,
@@ -3995,7 +3995,7 @@
       "Aerodinámica y rigidez en ruta"
     ],
     "brakes": "Shimano XTR M9100",
-    "wheels": "DT Swiss XRC 1501 Spline One 29&quot; Carbon 30mm",
+    "wheels": "DT Swiss XRC 1501 Spline One 29\" Carbon 30mm",
     "tires": "Pirelli P Zero Race 700x28"
   },
   {
@@ -4191,7 +4191,7 @@
       "Aerodinámica y rigidez en ruta"
     ],
     "brakes": "Shimano XT BR-M8100",
-    "wheels": "DT Swiss XR 1700 Spline 29&quot; 25mm",
+    "wheels": "DT Swiss XR 1700 Spline 29\" 25mm",
     "tires": "Pirelli P Zero Race 700x28"
   },
   {
@@ -4240,7 +4240,7 @@
       "Aerodinámica y rigidez en ruta"
     ],
     "brakes": "Shimano M6100",
-    "wheels": "Velomann KOM light i25 29&quot;",
+    "wheels": "Velomann KOM light i25 29\"",
     "tires": "Pirelli P Zero Race 700x28"
   },
   {
@@ -4289,7 +4289,7 @@
       "Aerodinámica y rigidez en ruta"
     ],
     "brakes": "Shimano M4100",
-    "wheels": "Velomann KOM light i25 29&quot;",
+    "wheels": "Velomann KOM light i25 29\"",
     "tires": "Pirelli P Zero Race 700x28"
   },
   {
@@ -4338,7 +4338,7 @@
       "Aerodinámica y rigidez en ruta"
     ],
     "brakes": "Shimano BR-MT200",
-    "wheels": "Velomann KOM light i25 29&quot;",
+    "wheels": "Velomann KOM light i25 29\"",
     "tires": "Pirelli P Zero Race 700x28"
   },
   {
@@ -6180,7 +6180,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "34",
+      "chainrings": "34T",
       "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
@@ -6262,7 +6262,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "34",
+      "chainrings": "34T",
       "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
@@ -6344,7 +6344,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "34",
+      "chainrings": "34T",
       "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
@@ -6426,7 +6426,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "38",
+      "chainrings": "38T",
       "cassette": "10-52T",
       "minGearRatio": 0.73,
       "maxGearRatio": 3.8
@@ -6504,7 +6504,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "30",
+      "chainrings": "30T",
       "cassette": "10-52T",
       "minGearRatio": 0.58,
       "maxGearRatio": 3
@@ -6586,7 +6586,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
+      "chainrings": "32T",
       "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
@@ -6664,7 +6664,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
+      "chainrings": "32T",
       "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
@@ -6746,7 +6746,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
+      "chainrings": "32T",
       "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
@@ -6828,7 +6828,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "34",
+      "chainrings": "34T",
       "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
@@ -6906,7 +6906,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "34",
+      "chainrings": "34T",
       "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
@@ -7052,7 +7052,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "36",
+      "chainrings": "36T",
       "cassette": "10-52T",
       "minGearRatio": 0.69,
       "maxGearRatio": 3.6
@@ -7134,7 +7134,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
+      "chainrings": "32T",
       "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
@@ -7212,7 +7212,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
+      "chainrings": "32T",
       "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
@@ -7438,7 +7438,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "34",
+      "chainrings": "34T",
       "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
@@ -7649,7 +7649,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 34t max chainring size, Giant/MRP CS chain guide"
+            "value": "tubeless prepared, 2.4\" max tire size, 34t max chainring size, Giant/MRP CS chain guide"
           }
         ]
       }
@@ -7813,7 +7813,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 34t max chainring size, Giant/MRP CS chain guide"
+            "value": "tubeless prepared, 2.4\" max tire size, 34t max chainring size, Giant/MRP CS chain guide"
           }
         ]
       }
@@ -7976,7 +7976,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 34t max chainring size, Giant/MRP CS chain guide"
+            "value": "tubeless prepared, 2.4\" max tire size, 34t max chainring size, Giant/MRP CS chain guide"
           }
         ]
       }
@@ -8141,7 +8141,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless compatible, 2.4&quot; max tire size, 34t max chainring size, Giant/MRP CS chain guide"
+            "value": "tubeless compatible, 2.4\" max tire size, 34t max chainring size, Giant/MRP CS chain guide"
           }
         ]
       }
@@ -8306,7 +8306,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 34t max chainring size, MRP 1x CS chain guide"
+            "value": "tubeless prepared, 2.4\" max tire size, 34t max chainring size, MRP 1x CS chain guide"
           }
         ]
       }
@@ -8471,7 +8471,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 34t max chainring size, MRP 1x CS chain guide"
+            "value": "tubeless prepared, 2.4\" max tire size, 34t max chainring size, MRP 1x CS chain guide"
           }
         ]
       }
@@ -8501,10 +8501,10 @@
       "name": "SRAM Eagle 90 Transmission",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "90T",
+      "chainrings": "34T",
       "cassette": "10-52T",
       "minGearRatio": 0.65,
-      "maxGearRatio": 5
+      "maxGearRatio": 3.4
     },
     "geometry": {
       "stackMm": 607,
@@ -8636,7 +8636,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 34t max chainring size, MRP 1x CS chain guide"
+            "value": "tubeless prepared, 2.4\" max tire size, 34t max chainring size, MRP 1x CS chain guide"
           }
         ]
       }
@@ -8666,10 +8666,10 @@
       "name": "Shimano Deore",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "24T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.47,
-      "maxGearRatio": 2.4
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 607,
@@ -8800,7 +8800,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 34t max chainring size, MRP 1x CS chain guide"
+            "value": "tubeless prepared, 2.4\" max tire size, 34t max chainring size, MRP 1x CS chain guide"
           }
         ]
       }
@@ -8965,7 +8965,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 34t max chainring size, MRP 1x CS chain guide"
+            "value": "tubeless prepared, 2.4\" max tire size, 34t max chainring size, MRP 1x CS chain guide"
           }
         ]
       }
@@ -9094,7 +9094,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant TRA WheelSystem, aluminio, llanta de pared hueca, hookless, 30mm de ancho interno, 40mm de ancho exterior, 21mm de altura, Wide Guard Technology, [D] 27.5&quot; [T] 26 &quot;"
+            "value": "Giant TRA WheelSystem, aluminio, llanta de pared hueca, hookless, 30mm de ancho interno, 40mm de ancho exterior, 21mm de altura, Wide Guard Technology, [D] 27.5\" [T] 26 \""
           },
           {
             "label": "Bujes",
@@ -9255,7 +9255,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant TRA WheelSystem, Aluminio, construcción de pared de llanta hueca, hokless, 30mm ancho interior, 40mm ancho exterior, 21mm altura, Wide Guard Technology [D] 24&quot; [T] 24&quot;"
+            "value": "Giant TRA WheelSystem, Aluminio, construcción de pared de llanta hueca, hokless, 30mm ancho interior, 40mm ancho exterior, 21mm altura, Wide Guard Technology [D] 24\" [T] 24\""
           },
           {
             "label": "Bujes",
@@ -9344,7 +9344,7 @@
     ],
     "brakes": "Shimano MT200, hydraulic disc,180mm [F/R]",
     "wheels": "Giant XCT 29 Tubeless Ready 25mm e-bike optimized",
-    "tires": "Maxxis Rekon 29x2.4&quot;, EXO, 60TPI",
+    "tires": "Maxxis Rekon 29x2.4\", EXO, 60TPI",
     "colors": [
       "Deep Lake"
     ],
@@ -9354,7 +9354,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX aluminum, Overdrive 1.125&quot; - 1.8&quot; head tube, 148x12mm Thru-axle, integrated KSA40 kickstand mount"
+            "value": "ALUXX aluminum, Overdrive 1.125\" - 1.8\" head tube, 148x12mm Thru-axle, integrated KSA40 kickstand mount"
           },
           {
             "label": "Horquilla",
@@ -9425,7 +9425,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon 29x2.4&quot;, EXO, 60TPI"
+            "value": "Maxxis Rekon 29x2.4\", EXO, 60TPI"
           }
         ]
       },
@@ -9498,7 +9498,7 @@
     ],
     "brakes": "Tektro HD-M285, hydraulic disc, 160/180mm",
     "wheels": "Giant XCT 29 Tubeless Ready 25mm e-bike optimized",
-    "tires": "Maxxis Rekon 29x2.4&quot;, EXO, 60 TPI",
+    "tires": "Maxxis Rekon 29x2.4\", EXO, 60 TPI",
     "colors": [
       "Graphite"
     ],
@@ -9508,11 +9508,11 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛&quot; head tube, integrated KS18 kickstand mount"
+            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛\" head tube, integrated KS18 kickstand mount"
           },
           {
             "label": "Horquilla",
-            "value": "SR Suntour XCM32 Coil NLOR 29, 120mm travel, Tapered 1&#189; - 1⅛&quot; steerer"
+            "value": "SR Suntour XCM32 Coil NLOR 29, 120mm travel, Tapered 1&#189; - 1⅛\" steerer"
           },
           {
             "label": "Amortiguador",
@@ -9583,7 +9583,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon 29x2.4&quot;, EXO, 60 TPI"
+            "value": "Maxxis Rekon 29x2.4\", EXO, 60 TPI"
           }
         ]
       },
@@ -9656,7 +9656,7 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Shimano Saint M-820, hydraulic, Shimano RT-66 rotors [F]220mm, [R]203mm",
-    "wheels": "Giant TRA 2 rims, 6061 alloy, hookless, 30mm inner width, 40mm outer width, 21mm height, Wide Guard ",
+    "wheels": "Giant TRA 2 rims, 6061 alloy, hookless, 30mm inner width, 40mm outer width, 21mm height, Wide Guard",
     "tires": "[F] Maxxis Assegai 29x2.5 WT, 3C MaxxGrip, DH, TR [R] Maxxis Minion DHR II 27.5x2.4 WT, 3C, MaxxGrip",
     "colors": [
       "Black Lava",
@@ -9765,7 +9765,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 36t max chainring size, MRP SXg chain guide, full down tube protector"
+            "value": "tubeless prepared, 2.5\" max tire size, 36t max chainring size, MRP SXg chain guide, full down tube protector"
           }
         ]
       }
@@ -9795,10 +9795,10 @@
       "name": "Shimano SLX RD-M7100",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "12T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.24,
-      "maxGearRatio": 1.2
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 632,
@@ -9929,7 +9929,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 36t max chainring size, MRP AMG CS chain guide"
+            "value": "tubeless prepared, 2.5\" max tire size, 36t max chainring size, MRP AMG CS chain guide"
           }
         ]
       }
@@ -9959,10 +9959,10 @@
       "name": "Shimano SLX RD-M7100",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "24T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.47,
-      "maxGearRatio": 2.4
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 632,
@@ -10092,7 +10092,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 36t max chainring size, MRP AMG CS chain guide"
+            "value": "tubeless prepared, 2.5\" max tire size, 36t max chainring size, MRP AMG CS chain guide"
           }
         ]
       }
@@ -10257,7 +10257,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 36t max chainring size, MRP AMG CS chain guide, 3M tailgate protector"
+            "value": "tubeless prepared, 2.5\" max tire size, 36t max chainring size, MRP AMG CS chain guide, 3M tailgate protector"
           }
         ]
       }
@@ -10315,7 +10315,7 @@
     ],
     "brakes": "SRAM Maven Ultimate, 4-piston, 200mm CenterLine [F/R]",
     "wheels": "Giant TRX Carbon, 30mm inner width, Wide Side Wall Design for improved strength and flat protection",
-    "tires": "Maxxis Assagai 29x2.5&quot; foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4&qu",
+    "tires": "Maxxis Assagai 29x2.5\" foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4\"",
     "colors": [
       "Purple Haze",
       "Metallic Navy"
@@ -10330,7 +10330,7 @@
           },
           {
             "label": "Horquilla",
-            "value": "Fox 38 Factory, 29&quot;, 180mm travel, Grip X2 damper, 44mm offset, KaboltX 110x15mm Boost axle"
+            "value": "Fox 38 Factory, 29\", 180mm travel, Grip X2 damper, 44mm offset, KaboltX 110x15mm Boost axle"
           },
           {
             "label": "Amortiguador",
@@ -10397,7 +10397,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Assagai 29x2.5&quot; foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4&quot; WT foldable, Tubeless, DoubleDown, 3C MaxxGrip Compound [R]"
+            "value": "Maxxis Assagai 29x2.5\" foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4\" WT foldable, Tubeless, DoubleDown, 3C MaxxGrip Compound [R]"
           }
         ]
       },
@@ -10475,7 +10475,7 @@
     ],
     "brakes": "TRP DH-R EVO, hydraulic disc, E2.3 caliper, 4-piston, 220mm [F/R]",
     "wheels": "Giant e-TRA, Hookless, 30mm inner width, Hollow Side-Wall Design for improved strength and flat prot",
-    "tires": "Maxxis Assagai 29x2.5&quot; foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4&qu",
+    "tires": "Maxxis Assagai 29x2.5\" foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4\"",
     "colors": [
       "Mercury",
       "Carbon Smoke"
@@ -10490,7 +10490,7 @@
           },
           {
             "label": "Horquilla",
-            "value": "Fox 38 Performance Elite, 29&quot;, 180mm travel, Grip X2 damper, 44mm offset, KaboltX 110x15mm Boost axle"
+            "value": "Fox 38 Performance Elite, 29\", 180mm travel, Grip X2 damper, 44mm offset, KaboltX 110x15mm Boost axle"
           },
           {
             "label": "Amortiguador",
@@ -10557,7 +10557,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Assagai 29x2.5&quot; foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4&quot; WT foldable, Tubeless, DoubleDown, 3C MaxxGrip Compound [R]"
+            "value": "Maxxis Assagai 29x2.5\" foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4\" WT foldable, Tubeless, DoubleDown, 3C MaxxGrip Compound [R]"
           }
         ]
       },
@@ -10633,8 +10633,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Shimano SLX, hydraulic disc, 4-piston, 220mm [F/R]",
-    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot; [F] 27.5&quot; [R]",
-    "tires": "Maxxis Assagai 29x2.5&quot; foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4&qu",
+    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29\" [F] 27.5\" [R]",
+    "tires": "Maxxis Assagai 29x2.5\" foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4\"",
     "colors": [
       "Moon Dust"
     ],
@@ -10648,7 +10648,7 @@
           },
           {
             "label": "Horquilla",
-            "value": "RockShox Zeb select, 29&quot;, 180mm travel, Charge RC damper, 44mm offset, Maxle Stealth, 110x15mm Boost axle"
+            "value": "RockShox Zeb select, 29\", 180mm travel, Charge RC damper, 44mm offset, Maxle Stealth, 110x15mm Boost axle"
           },
           {
             "label": "Amortiguador",
@@ -10703,7 +10703,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot; [F] 27.5&quot; [R]"
+            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29\" [F] 27.5\" [R]"
           },
           {
             "label": "Bujes",
@@ -10715,7 +10715,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Assagai 29x2.5&quot; foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4&quot; WT foldable, Tubeless, DoubleDown, 3C MaxxGrip Compound [R]"
+            "value": "Maxxis Assagai 29x2.5\" foldable, tubeless, EXO+ 3C MaxxGrip[F] Maxxis MINION DHR II 27.5x2.4\" WT foldable, Tubeless, DoubleDown, 3C MaxxGrip Compound [R]"
           }
         ]
       },
@@ -10902,7 +10902,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 36t max chainring size, MRP AMG chain guide, 3M tailgate protector"
+            "value": "tubeless prepared, 2.5\" max tire size, 36t max chainring size, MRP AMG chain guide, 3M tailgate protector"
           }
         ]
       }
@@ -10933,8 +10933,8 @@
       "isElectronic": false,
       "speedCount": 11,
       "chainrings": "36T",
-      "cassette": "00-11T",
-      "minGearRatio": 3.27,
+      "cassette": "11-50T",
+      "minGearRatio": 0.72,
       "maxGearRatio": 3.27
     },
     "geometry": {
@@ -10958,7 +10958,7 @@
     ],
     "brakes": "Shimano XT, BR-8120, 4-piston, hydraulic disc, RT66, 220mm",
     "wheels": "E-TRA Hookless Tubeless ready Alloy 29 [F] / 27.5 [R], 30mm inner width",
-    "tires": "Maxxis Minion DHF 29x2.6&quot;&quot; foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II",
+    "tires": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II",
     "colors": [
       "Blue Dragonfly",
       "Black"
@@ -10969,7 +10969,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, Advanced Forged Composite Upper Rocker, 160mm Maestro suspension system, &#39;Boost&#39; 148x12mm, Universal Derailleur Hanger"
+            "value": "ALUXX SL-grade aluminum, Advanced Forged Composite Upper Rocker, 160mm Maestro suspension system, 'Boost' 148x12mm, Universal Derailleur Hanger"
           },
           {
             "label": "Horquilla",
@@ -11048,7 +11048,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 29x2.6&quot;&quot; foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II 27.5x2.5&quot;&quot; foldable, Tubeless, DoubleDown, 3C MaxxTerra Compound [R]"
+            "value": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II 27.5x2.5\" foldable, Tubeless, DoubleDown, 3C MaxxTerra Compound [R]"
           }
         ]
       },
@@ -11125,8 +11125,8 @@
       "Cambio electrónico"
     ],
     "brakes": "SRAM Code R, hydraulic disc, 220mm[F] /200mm[R]",
-    "wheels": "TRX 2 Hookless Clincher, 29&quot; [F] / 27.5&quot; [R], 30mm inner width",
-    "tires": "Maxxis Minion DHF 29x2.6&quot; foldable, Tubeless, EXO+, 3C MaxxTerra[F]Maxxis High Roller II 27.5x2",
+    "wheels": "TRX 2 Hookless Clincher, 29\" [F] / 27.5\" [R], 30mm inner width",
+    "tires": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra[F]Maxxis High Roller II 27.5x2",
     "colors": [
       "Mirage",
       "Black"
@@ -11137,7 +11137,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, Advanced Forged Composite Upper Rocker, 160mm Maestro suspension system, &#39;Boost&#39; 148x12mm, patilla de cambio UDH"
+            "value": "ALUXX SL-grade aluminum, Advanced Forged Composite Upper Rocker, 160mm Maestro suspension system, 'Boost' 148x12mm, patilla de cambio UDH"
           },
           {
             "label": "Horquilla",
@@ -11200,7 +11200,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "TRX 2 Hookless Clincher, 29&quot; [F] / 27.5&quot; [R], 30mm inner width"
+            "value": "TRX 2 Hookless Clincher, 29\" [F] / 27.5\" [R], 30mm inner width"
           },
           {
             "label": "Bujes",
@@ -11208,7 +11208,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 29x2.6&quot; foldable, Tubeless, EXO+, 3C MaxxTerra[F]Maxxis High Roller II 27.5x2.5&quot; foldable, Tubeless, DoubleDown, 3C MaxxTerra Compound [R]"
+            "value": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra[F]Maxxis High Roller II 27.5x2.5\" foldable, Tubeless, DoubleDown, 3C MaxxTerra Compound [R]"
           }
         ]
       },
@@ -11260,8 +11260,8 @@
       "isElectronic": false,
       "speedCount": 11,
       "chainrings": "36T",
-      "cassette": "00-11T",
-      "minGearRatio": 3.27,
+      "cassette": "11-50T",
+      "minGearRatio": 0.72,
       "maxGearRatio": 3.27
     },
     "geometry": {
@@ -11284,8 +11284,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Shimano Deore, BR-M6120, 4-piston, hydraulic disc, 220mm[F], 203mm [R]",
-    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot; [F] / 27.5&quot; [R]",
-    "tires": "Maxxis Minion DHF 29x2.6&quot;&quot; foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II",
+    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29\" [F] / 27.5\" [R]",
+    "tires": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II",
     "colors": [
       "Sangria",
       "Black"
@@ -11296,7 +11296,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, Advanced Forged Composite Upper Rocker, 160mm Maestro suspension system, &#39;Boost&#39; 148x12mm, Universal Derailleur Hanger"
+            "value": "ALUXX SL-grade aluminum, Advanced Forged Composite Upper Rocker, 160mm Maestro suspension system, 'Boost' 148x12mm, Universal Derailleur Hanger"
           },
           {
             "label": "Horquilla",
@@ -11363,7 +11363,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot; [F] / 27.5&quot; [R]"
+            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29\" [F] / 27.5\" [R]"
           },
           {
             "label": "Bujes",
@@ -11375,7 +11375,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 29x2.6&quot;&quot; foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II 27.5x2.5&quot;&quot; foldable, Tubeless, DoubleDown, 3C MaxxTerra Compound [R]"
+            "value": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II 27.5x2.5\" foldable, Tubeless, DoubleDown, 3C MaxxTerra Compound [R]"
           }
         ]
       },
@@ -11427,8 +11427,8 @@
       "isElectronic": false,
       "speedCount": 11,
       "chainrings": "36T",
-      "cassette": "00-11T",
-      "minGearRatio": 3.27,
+      "cassette": "11-50T",
+      "minGearRatio": 0.72,
       "maxGearRatio": 3.27
     },
     "geometry": {
@@ -11451,8 +11451,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Shimano BR-MT420, 4-piston, hydraulic disc, 203mm",
-    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot; [F] / 27.5&quot; [R]",
-    "tires": "Maxxis Minion DHF 29x2.6&quot;&quot; foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II",
+    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29\" [F] / 27.5\" [R]",
+    "tires": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II",
     "colors": [
       "Raw Aluminum",
       "Black"
@@ -11463,7 +11463,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, Advanced Forged Composite Upper Rocker, 160mm Maestro suspension system, &#39;Boost&#39; 148x12mm, Universal Derailleur Hanger"
+            "value": "ALUXX SL-grade aluminum, Advanced Forged Composite Upper Rocker, 160mm Maestro suspension system, 'Boost' 148x12mm, Universal Derailleur Hanger"
           },
           {
             "label": "Horquilla",
@@ -11530,7 +11530,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot; [F] / 27.5&quot; [R]"
+            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29\" [F] / 27.5\" [R]"
           },
           {
             "label": "Bujes",
@@ -11542,7 +11542,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 29x2.6&quot;&quot; foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II 27.5x2.5&quot;&quot; foldable, Tubeless, DoubleDown, 3C MaxxTerra Compound [R]"
+            "value": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra[F] Maxxis High Roller II 27.5x2.5\" foldable, Tubeless, DoubleDown, 3C MaxxTerra Compound [R]"
           }
         ]
       },
@@ -11593,10 +11593,10 @@
       "name": "Shimano CUES RD-U6000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "24T",
+      "chainrings": "32T",
       "cassette": "11-48T",
-      "minGearRatio": 0.5,
-      "maxGearRatio": 2.18
+      "minGearRatio": 0.67,
+      "maxGearRatio": 2.91
     },
     "geometry": {
       "stackMm": 635,
@@ -11726,7 +11726,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 36t max chainring size, MRP AMG CS chain guide"
+            "value": "tubeless prepared, 2.5\" max tire size, 36t max chainring size, MRP AMG CS chain guide"
           }
         ]
       }
@@ -11756,10 +11756,10 @@
       "name": "Shimano Deore RD-M5120",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "24T",
+      "chainrings": "32T",
       "cassette": "11-46T",
-      "minGearRatio": 0.52,
-      "maxGearRatio": 2.18
+      "minGearRatio": 0.7,
+      "maxGearRatio": 2.91
     },
     "geometry": {
       "stackMm": 635,
@@ -11889,7 +11889,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 36t max chainring size, MRP AMG CS chain guide"
+            "value": "tubeless prepared, 2.5\" max tire size, 36t max chainring size, MRP AMG CS chain guide"
           }
         ]
       }
@@ -11919,10 +11919,10 @@
       "name": "Shimano CUES RD-U6000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "00T",
+      "chainrings": "30T",
       "cassette": "11-48T",
-      "minGearRatio": 0.71,
-      "maxGearRatio": 4.55
+      "minGearRatio": 0.63,
+      "maxGearRatio": 2.73
     },
     "geometry": {
       "stackMm": 624,
@@ -12052,7 +12052,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, max tire size 2.5&quot;, max chainring size 32t"
+            "value": "tubeless prepared, max tire size 2.5\", max chainring size 32t"
           }
         ]
       }
@@ -12214,7 +12214,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, max tire size 2.4&quot;, max chainring size 32t"
+            "value": "tubeless prepared, max tire size 2.4\", max chainring size 32t"
           }
         ]
       }
@@ -12270,14 +12270,14 @@
     ],
     "brakes": "Shimano Deore XT, BR-M8120, hydraulic disc 4-piston, 220mm [F] 203mm [R]",
     "wheels": "Giant TRA2, Tubeless ready, 30mm inner width",
-    "tires": "Maxxis Minion DHF 29X2.50&quot;&quot; WT Foldable, TLR, EXO, 3C Maxx Terra [F] Maxxis Dissector 29X2",
+    "tires": "Maxxis Minion DHF 29X2.50\" WT Foldable, TLR, EXO, 3C Maxx Terra [F] Maxxis Dissector 29X2",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185x52.5mm shock, 1.5~1.8&quot; headset (ZS62/ZS72)"
+            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185x52.5mm shock, 1.5~1.8\" headset (ZS62/ZS72)"
           },
           {
             "label": "Horquilla",
@@ -12344,7 +12344,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 29X2.50&quot;&quot; WT Foldable, TLR, EXO, 3C Maxx Terra [F] Maxxis Dissector 29X2.40&quot;&quot; WT Foldable TLR EXO+ [R]"
+            "value": "Maxxis Minion DHF 29X2.50\" WT Foldable, TLR, EXO, 3C Maxx Terra [F] Maxxis Dissector 29X2.40\" WT Foldable TLR EXO+ [R]"
           }
         ]
       },
@@ -12421,14 +12421,14 @@
     ],
     "brakes": "Shimano Deore, BR-M420, hydraulic disc, 4-piston, 220mm [F] 203mm [R]",
     "wheels": "Giant AM30, Tubeless ready, 30mm inner width",
-    "tires": "Maxxis Minion DHF 29X2.50&quot;&quot; WT Foldable, TLR, EXO [F] Maxxis Dissector 29X2.40&quot;&quot;",
+    "tires": "Maxxis Minion DHF 29X2.50\" WT Foldable, TLR, EXO [F] Maxxis Dissector 29X2.40\"",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185x52.5mm shock, 1.5~1.8&quot; headset (ZS62/ZS72)"
+            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185x52.5mm shock, 1.5~1.8\" headset (ZS62/ZS72)"
           },
           {
             "label": "Horquilla",
@@ -12495,7 +12495,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 29X2.50&quot;&quot; WT Foldable, TLR, EXO [F] Maxxis Dissector 29X2.40&quot;&quot; WT Foldable TLR EXO [R]"
+            "value": "Maxxis Minion DHF 29X2.50\" WT Foldable, TLR, EXO [F] Maxxis Dissector 29X2.40\" WT Foldable TLR EXO [R]"
           }
         ]
       },
@@ -12543,9 +12543,9 @@
       "isElectronic": false,
       "speedCount": 12,
       "chainrings": "36T",
-      "cassette": "00-12T",
-      "minGearRatio": 3,
-      "maxGearRatio": 3
+      "cassette": "10-51T",
+      "minGearRatio": 0.71,
+      "maxGearRatio": 3.6
     },
     "geometry": {
       "stackMm": 627,
@@ -12567,8 +12567,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Tektro HD-M750 Orion, 4-piston, hydraulic disc, 203mm",
-    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot;",
-    "tires": "Maxxis Minion DHF 29X2.50&quot;&quot; Foldable, TLR, EXO, 60TPI [F] Maxxis Dissector 29X2.40&quot;&q",
+    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29\"",
+    "tires": "Maxxis Minion DHF 29X2.50\" Foldable, TLR, EXO, 60TPI [F] Maxxis Dissector 29X2.40\"&q",
     "colors": [
       "Cordovan"
     ],
@@ -12578,11 +12578,11 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, 125mm travel FlexPoint suspension system, 148x12 rear axle, patilla de cambio UDH, 184x44 shock, 1.5~1.8&quot; headset"
+            "value": "ALUXX SL-grade aluminum, 125mm travel FlexPoint suspension system, 148x12 rear axle, patilla de cambio UDH, 184x44 shock, 1.5~1.8\" headset"
           },
           {
             "label": "Horquilla",
-            "value": "RockShox 35 Silver, 140mm, 1.8&quot; tapered steerer, 110x15 Maxle Stealth"
+            "value": "RockShox 35 Silver, 140mm, 1.8\" tapered steerer, 110x15 Maxle Stealth"
           },
           {
             "label": "Amortiguador",
@@ -12645,7 +12645,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot;"
+            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29\""
           },
           {
             "label": "Bujes",
@@ -12657,7 +12657,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 29X2.50&quot;&quot; Foldable, TLR, EXO, 60TPI [F] Maxxis Dissector 29X2.40&quot;&quot; Foldable, WT, TLR, EXO, 60TPI [R]"
+            "value": "Maxxis Minion DHF 29X2.50\" Foldable, TLR, EXO, 60TPI [F] Maxxis Dissector 29X2.40\" Foldable, WT, TLR, EXO, 60TPI [R]"
           }
         ]
       },
@@ -12734,14 +12734,14 @@
     ],
     "brakes": "Tektro Orion, hydraulic disc, 4-piston, 203mm [F/R]",
     "wheels": "Giant AM30, Tubeless ready, 30mm inner width",
-    "tires": "Maxxis Minion DHF 29X2.50&quot; WT Foldable, TLR, EXO [F] Maxxis Dissector 29X2.40&quot;&quot; WT Fo",
+    "tires": "Maxxis Minion DHF 29X2.50\" WT Foldable, TLR, EXO [F] Maxxis Dissector 29X2.40\" WT Fo",
     "detailedSpecs": [
       {
         "category": "Cuadro y Horquilla",
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185x52.5mm shock, 1.5~1.8&quot; headset (ZS62/ZS72)"
+            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185x52.5mm shock, 1.5~1.8\" headset (ZS62/ZS72)"
           },
           {
             "label": "Horquilla",
@@ -12808,7 +12808,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 29X2.50&quot; WT Foldable, TLR, EXO [F] Maxxis Dissector 29X2.40&quot;&quot; WT Foldable TLR EXO [R]"
+            "value": "Maxxis Minion DHF 29X2.50\" WT Foldable, TLR, EXO [F] Maxxis Dissector 29X2.40\" WT Foldable TLR EXO [R]"
           }
         ]
       },
@@ -12856,9 +12856,9 @@
       "isElectronic": false,
       "speedCount": 11,
       "chainrings": "36T",
-      "cassette": "00-10T",
-      "minGearRatio": 3.6,
-      "maxGearRatio": 3.6
+      "cassette": "11-43T",
+      "minGearRatio": 0.84,
+      "maxGearRatio": 3.27
     },
     "geometry": {
       "stackMm": 627,
@@ -12880,8 +12880,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Tektro HD-M745 Orion, 4-piston, hydraulic disc, 203mm",
-    "wheels": "Giant AM30, Tubeless ready, 30mm inner width [F] 27.5&quot; (S size), 29&quot; (M/L/XL size) [R] 27.",
-    "tires": "Maxxis Rekon 27.5x2.4&quot;(S size), 29x2.4&quot; (M/L/XL size), Foldable, TLR, EXO, 60TPI [F], Maxx",
+    "wheels": "Giant AM30, Tubeless ready, 30mm inner width [F] 27.5\" (S size), 29\" (M/L/XL size) [R] 27.",
+    "tires": "Maxxis Rekon 27.5x2.4\"(S size), 29x2.4\" (M/L/XL size), Foldable, TLR, EXO, 60TPI [F], Maxx",
     "colors": [
       "Charcoal Plum"
     ],
@@ -12891,7 +12891,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, 1.5&quot;~1.8&quot; head tube,125mm travel FlexPoint suspension system, &#39;Boost&#39; 148x12 UDH rear axle, EnergyPak Plus Range Extender Compatible"
+            "value": "ALUXX SL-grade aluminum, 1.5\"~1.8\" head tube,125mm travel FlexPoint suspension system, 'Boost' 148x12 UDH rear axle, EnergyPak Plus Range Extender Compatible"
           },
           {
             "label": "Horquilla",
@@ -12958,7 +12958,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant AM30, Tubeless ready, 30mm inner width [F] 27.5&quot; (S size), 29&quot; (M/L/XL size) [R] 27.5&quot;"
+            "value": "Giant AM30, Tubeless ready, 30mm inner width [F] 27.5\" (S size), 29\" (M/L/XL size) [R] 27.5\""
           },
           {
             "label": "Bujes",
@@ -12970,7 +12970,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon 27.5x2.4&quot;(S size), 29x2.4&quot; (M/L/XL size), Foldable, TLR, EXO, 60TPI [F], Maxxis Rekon 27.5x2.4&quot; Foldable, TLR, EXO, 60TPI [R]"
+            "value": "Maxxis Rekon 27.5x2.4\"(S size), 29x2.4\" (M/L/XL size), Foldable, TLR, EXO, 60TPI [F], Maxxis Rekon 27.5x2.4\" Foldable, TLR, EXO, 60TPI [R]"
           }
         ]
       },
@@ -13018,7 +13018,7 @@
     "bikepackingMounts": false,
     "groupset": {
       "brand": "shimano",
-      "name": "N/A",
+      "name": "Single Speed Dirt Jump",
       "isElectronic": false,
       "speedCount": 12,
       "chainrings": "30T",
@@ -13046,8 +13046,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "[F] mechanical disc, [R] Shimano MT500, hydraulic TR-55 [F]180mm, [R]160mm rotors",
-    "wheels": "Giant TRA 2, 26&quot;, alloy",
-    "tires": "Kenda Booster, 26x2.25&quot;",
+    "wheels": "Giant TRA 2, 26\", alloy",
+    "tires": "Kenda Booster, 26x2.25\"",
     "colors": [
       "Quicksilver"
     ],
@@ -13108,7 +13108,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant TRA 2, 26&quot;, alloy"
+            "value": "Giant TRA 2, 26\", alloy"
           },
           {
             "label": "Bujes",
@@ -13120,7 +13120,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Kenda Booster, 26x2.25&quot;"
+            "value": "Kenda Booster, 26x2.25\""
           }
         ]
       },
@@ -13193,7 +13193,7 @@
     ],
     "brakes": "Shimano BR-MT200, hydraulic, Shimano RT-10 rotors [F]180mm, [R]160mm",
     "wheels": "Giant GX03V 29 or 27.5, alloy, double wall, 21mm inner width",
-    "tires": "Maxxis Rekon 27.5x2.4&quot; or Maxxis Rekon Race 29x2.4&quot;, wire bead",
+    "tires": "Maxxis Rekon 27.5x2.4\" or Maxxis Rekon Race 29x2.4\", wire bead",
     "colors": [
       "Ultra Navy",
       "Chrome"
@@ -13275,7 +13275,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon 27.5x2.4&quot; or Maxxis Rekon Race 29x2.4&quot;, wire bead"
+            "value": "Maxxis Rekon 27.5x2.4\" or Maxxis Rekon Race 29x2.4\", wire bead"
           }
         ]
       },
@@ -13296,7 +13296,7 @@
           },
           {
             "label": "Extras",
-            "value": "2.4&quot; max tire size"
+            "value": "2.4\" max tire size"
           }
         ]
       }
@@ -13352,7 +13352,7 @@
     ],
     "brakes": "Tektro HDC M275, hydraulic, Tektro rotors [F]180mm, [R]160mm",
     "wheels": "Giant GX03V 29 or 27.5, alloy, double wall, 21mm inner width",
-    "tires": "Maxxis Rekon 27.5x2.4&quot; or Maxxis Rekon Race 29x2.4&quot;, wire bead",
+    "tires": "Maxxis Rekon 27.5x2.4\" or Maxxis Rekon Race 29x2.4\", wire bead",
     "colors": [
       "Charcoal"
     ],
@@ -13433,7 +13433,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon 27.5x2.4&quot; or Maxxis Rekon Race 29x2.4&quot;, wire bead"
+            "value": "Maxxis Rekon 27.5x2.4\" or Maxxis Rekon Race 29x2.4\", wire bead"
           }
         ]
       },
@@ -13454,7 +13454,7 @@
           },
           {
             "label": "Extras",
-            "value": "2.4&quot; max tire size"
+            "value": "2.4\" max tire size"
           }
         ]
       }
@@ -13510,7 +13510,7 @@
     ],
     "brakes": "Tektro HDC M275, hydraulic, Tektro rotors [F]180mm, [R]160mm",
     "wheels": "Giant GX03V 29 or 27.5, alloy, double wall, 21mm inner width",
-    "tires": "Maxxis Rekon 27.5x2.4&quot; or Maxxis Rekon Race 29x2.4&quot;, wire bead",
+    "tires": "Maxxis Rekon 27.5x2.4\" or Maxxis Rekon Race 29x2.4\", wire bead",
     "colors": [
       "Dried Macha"
     ],
@@ -13591,7 +13591,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon 27.5x2.4&quot; or Maxxis Rekon Race 29x2.4&quot;, wire bead"
+            "value": "Maxxis Rekon 27.5x2.4\" or Maxxis Rekon Race 29x2.4\", wire bead"
           }
         ]
       },
@@ -13612,7 +13612,7 @@
           },
           {
             "label": "Extras",
-            "value": "2.4&quot; max tire size"
+            "value": "2.4\" max tire size"
           }
         ]
       }
@@ -13642,7 +13642,7 @@
       "name": "Shimano Altus M2000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "22/36T",
+      "chainrings": "36/22T",
       "cassette": "11-32T",
       "minGearRatio": 0.69,
       "maxGearRatio": 3.27
@@ -13668,7 +13668,7 @@
     ],
     "brakes": "Tektro HDC M275, hydraulic, Tektro rotors [F]180mm, [R]160mm",
     "wheels": "Giant GX03V 29 alloy, double wall, 21mm inner width",
-    "tires": "Kenda Booster 29x2.2&quot;, wire bead",
+    "tires": "Kenda Booster 29x2.2\", wire bead",
     "colors": [
       "Knight Shield",
       "Phantom Green"
@@ -13754,7 +13754,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Kenda Booster 29x2.2&quot;, wire bead"
+            "value": "Kenda Booster 29x2.2\", wire bead"
           }
         ]
       },
@@ -13775,7 +13775,7 @@
           },
           {
             "label": "Extras",
-            "value": "2.4&quot; max tire size"
+            "value": "2.4\" max tire size"
           }
         ]
       }
@@ -13805,7 +13805,7 @@
       "name": "Shimano Acera",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "22/36T",
+      "chainrings": "36/22T",
       "cassette": "11-34T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.27
@@ -13938,7 +13938,7 @@
           },
           {
             "label": "Extras",
-            "value": "2.2&quot; max tire size"
+            "value": "2.2\" max tire size"
           }
         ]
       }
@@ -13968,7 +13968,7 @@
       "name": "Shimano Altus M310",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "22/36T",
+      "chainrings": "36/22T",
       "cassette": "12-32T",
       "minGearRatio": 0.69,
       "maxGearRatio": 3
@@ -13994,7 +13994,7 @@
     ],
     "brakes": "Tektro HDC M275, hydraulic, Tektro rotors [F]180mm, [R]160mm",
     "wheels": "Giant GX03V 29 or 27.5, alloy, double wall, 21mm inner width",
-    "tires": "Kenda Booster 27.5 or 29x2.2&quot;, wire bead",
+    "tires": "Kenda Booster 27.5 or 29x2.2\", wire bead",
     "colors": [
       "Amber Glow"
     ],
@@ -14079,7 +14079,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Kenda Booster 27.5 or 29x2.2&quot;, wire bead"
+            "value": "Kenda Booster 27.5 or 29x2.2\", wire bead"
           }
         ]
       },
@@ -14100,7 +14100,7 @@
           },
           {
             "label": "Extras",
-            "value": "2.4&quot; max tire size"
+            "value": "2.4\" max tire size"
           }
         ]
       }
@@ -14156,7 +14156,7 @@
     ],
     "brakes": "Shimano MT200, hydraulic disc, 180mm [F/R]",
     "wheels": "Giant GX03V alluminum",
-    "tires": "Maxxis Rekon 29x2.4&quot;",
+    "tires": "Maxxis Rekon 29x2.4\"",
     "colors": [
       "Asphalt Green"
     ],
@@ -14166,11 +14166,11 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛&quot; head tube, integrated KSA40 kickstand mount"
+            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛\" head tube, integrated KSA40 kickstand mount"
           },
           {
             "label": "Horquilla",
-            "value": "SR Suntour XCM ATB DS coil 29&quot; 100mm travel 15x110 AH axle"
+            "value": "SR Suntour XCM ATB DS coil 29\" 100mm travel 15x110 AH axle"
           },
           {
             "label": "Amortiguador",
@@ -14241,7 +14241,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon 29x2.4&quot;"
+            "value": "Maxxis Rekon 29x2.4\""
           }
         ]
       },
@@ -14314,7 +14314,7 @@
     ],
     "brakes": "Tektro HD-M285, hydraulic disc, 180mm [F],160mm [R]",
     "wheels": "Giant GX03V, 29er, Alluminum",
-    "tires": "Maxxis Rekon 29x2.4&quot; Wire Bead 60TPI",
+    "tires": "Maxxis Rekon 29x2.4\" Wire Bead 60TPI",
     "colors": [
       "Amber Glow",
       "Cobalt"
@@ -14325,11 +14325,11 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛&quot; head tube, integrated KSA18 kickstand mount"
+            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛\" head tube, integrated KSA18 kickstand mount"
           },
           {
             "label": "Horquilla",
-            "value": "SR Suntour XCM 32 ATB Coil NLO, 29&quot; 100mm travel, Tapered 1&#189;&quot; - 1⅛&quot; steerer"
+            "value": "SR Suntour XCM 32 ATB Coil NLO, 29\" 100mm travel, Tapered 1&#189;\" - 1⅛\" steerer"
           },
           {
             "label": "Colores",
@@ -14400,7 +14400,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon 29x2.4&quot; Wire Bead 60TPI"
+            "value": "Maxxis Rekon 29x2.4\" Wire Bead 60TPI"
           }
         ]
       },
@@ -14473,7 +14473,7 @@
     ],
     "brakes": "Shimano MT200, hydraulic disc, 180mm [F/R]",
     "wheels": "Giant GX03V alluminum",
-    "tires": "Maxxis Rekon 29x2.4&quot;",
+    "tires": "Maxxis Rekon 29x2.4\"",
     "colors": [
       "Metallic Navy"
     ],
@@ -14483,11 +14483,11 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛&quot; head tube, integrated KSA40 kickstand mount"
+            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛\" head tube, integrated KSA40 kickstand mount"
           },
           {
             "label": "Horquilla",
-            "value": "SR Suntour XCM ATB DS coil 29&quot; 100mm travel 15x110 AH axle"
+            "value": "SR Suntour XCM ATB DS coil 29\" 100mm travel 15x110 AH axle"
           },
           {
             "label": "Amortiguador",
@@ -14558,7 +14558,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon 29x2.4&quot;"
+            "value": "Maxxis Rekon 29x2.4\""
           }
         ]
       },
@@ -14605,10 +14605,10 @@
       "name": "Shimano SLX RD-M7100",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "12T",
+      "chainrings": "30T",
       "cassette": "10-51T",
-      "minGearRatio": 0.24,
-      "maxGearRatio": 1.2
+      "minGearRatio": 0.59,
+      "maxGearRatio": 3
     },
     "geometry": {
       "stackMm": 619,
@@ -14740,7 +14740,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.6&quot; max tire size, 34t max chainring size"
+            "value": "tubeless prepared, 2.6\" max tire size, 34t max chainring size"
           }
         ]
       }
@@ -14770,10 +14770,10 @@
       "name": "Shimano SLX M-7100",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "12T",
+      "chainrings": "30T",
       "cassette": "10-51T",
-      "minGearRatio": 0.24,
-      "maxGearRatio": 1.2
+      "minGearRatio": 0.59,
+      "maxGearRatio": 3
     },
     "geometry": {
       "stackMm": 621,
@@ -14902,7 +14902,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 34t max chainring size, 3M tailgate protector, down tube and chainstay protection"
+            "value": "tubeless prepared, 2.5\" max tire size, 34t max chainring size, 3M tailgate protector, down tube and chainstay protection"
           }
         ]
       }
@@ -14932,10 +14932,10 @@
       "name": "Shimano Deore",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "24T",
+      "chainrings": "30T",
       "cassette": "10-51T",
-      "minGearRatio": 0.47,
-      "maxGearRatio": 2.4
+      "minGearRatio": 0.59,
+      "maxGearRatio": 3
     },
     "geometry": {
       "stackMm": 621,
@@ -15064,7 +15064,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 34t max chainring size, 3M tailgate protector, down tube and chainstay protection"
+            "value": "tubeless prepared, 2.5\" max tire size, 34t max chainring size, 3M tailgate protector, down tube and chainstay protection"
           }
         ]
       }
@@ -15229,7 +15229,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 34t max chainring size, 3M tailgate protector, down tube and chainstay protection"
+            "value": "tubeless prepared, 2.5\" max tire size, 34t max chainring size, 3M tailgate protector, down tube and chainstay protection"
           }
         ]
       }
@@ -15394,7 +15394,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 34t max chainring size, 3M tailgate protector, down tube and chainstay protection"
+            "value": "tubeless prepared, 2.5\" max tire size, 34t max chainring size, 3M tailgate protector, down tube and chainstay protection"
           }
         ]
       }
@@ -15424,10 +15424,10 @@
       "name": "Shimano SLX M-7100",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "12T",
+      "chainrings": "30T",
       "cassette": "10-51T",
-      "minGearRatio": 0.24,
-      "maxGearRatio": 1.2
+      "minGearRatio": 0.59,
+      "maxGearRatio": 3
     },
     "geometry": {
       "stackMm": 621,
@@ -15557,7 +15557,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.5&quot; max tire size, 34t max chainring size, 3M tailgate protector, down tube and chainstay protection"
+            "value": "tubeless prepared, 2.5\" max tire size, 34t max chainring size, 3M tailgate protector, down tube and chainstay protection"
           }
         ]
       }
@@ -15588,9 +15588,9 @@
       "isElectronic": false,
       "speedCount": 12,
       "chainrings": "36T",
-      "cassette": "00-12T",
-      "minGearRatio": 3,
-      "maxGearRatio": 3
+      "cassette": "10-51T",
+      "minGearRatio": 0.71,
+      "maxGearRatio": 3.6
     },
     "geometry": {
       "stackMm": 611,
@@ -15612,8 +15612,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Shimano Deore XT, BR-M8120, 4-piston, hydraulic disc, 220mm [F], 203mm [R]",
-    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot;",
-    "tires": "Maxxis Minion DHF 29x2.6&quot; foldable, Tubeless, EXO+, 3C MaxxTerra [F]Maxxis Dissector 29x2.6&quo",
+    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29\"",
+    "tires": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra [F]Maxxis Dissector 29x2.6&quo",
     "colors": [
       "Cold Night",
       "Cobalt"
@@ -15624,7 +15624,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade Aluminum, Advanced Forged Composite linkage, 140mm Maestro Suspension System, &#39;Boost&#39; 148x12 UDH rear axle, Giant EnergyPak Plus Range Extender Compatible"
+            "value": "ALUXX SL-grade Aluminum, Advanced Forged Composite linkage, 140mm Maestro Suspension System, 'Boost' 148x12 UDH rear axle, Giant EnergyPak Plus Range Extender Compatible"
           },
           {
             "label": "Horquilla",
@@ -15691,7 +15691,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot;"
+            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29\""
           },
           {
             "label": "Bujes",
@@ -15703,7 +15703,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 29x2.6&quot; foldable, Tubeless, EXO+, 3C MaxxTerra [F]Maxxis Dissector 29x2.6&quot; Foldable, Tubeless, EXO+, 3C MaxxTerra [R]"
+            "value": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra [F]Maxxis Dissector 29x2.6\" Foldable, Tubeless, EXO+, 3C MaxxTerra [R]"
           }
         ]
       },
@@ -15755,9 +15755,9 @@
       "isElectronic": false,
       "speedCount": 12,
       "chainrings": "36T",
-      "cassette": "00-12T",
-      "minGearRatio": 3,
-      "maxGearRatio": 3
+      "cassette": "10-51T",
+      "minGearRatio": 0.71,
+      "maxGearRatio": 3.6
     },
     "geometry": {
       "stackMm": 611,
@@ -15779,8 +15779,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Shimano Deore, BR-M6120, 4-piston, hydraulic disc, 203mm",
-    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot;",
-    "tires": "Maxxis Minion DHF 29x2.6&quot; foldable, Tubeless, EXO+, 3C MaxxTerra [F]Maxxis Dissector 29x2.6&quo",
+    "wheels": "Giant AM30, Tubeless ready, 30mm inner width, 29\"",
+    "tires": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra [F]Maxxis Dissector 29x2.6&quo",
     "colors": [
       "Messier",
       "Black"
@@ -15791,7 +15791,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade Aluminum, Advanced Forged Composite linkage, 140mm Maestro Suspension System, &#39;Boost&#39; 148x12 UDH rear axle, Giant EnergyPak Plus Range Extender Compatible"
+            "value": "ALUXX SL-grade Aluminum, Advanced Forged Composite linkage, 140mm Maestro Suspension System, 'Boost' 148x12 UDH rear axle, Giant EnergyPak Plus Range Extender Compatible"
           },
           {
             "label": "Horquilla",
@@ -15858,7 +15858,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29&quot;"
+            "value": "Giant AM30, Tubeless ready, 30mm inner width, 29\""
           },
           {
             "label": "Bujes",
@@ -15870,7 +15870,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 29x2.6&quot; foldable, Tubeless, EXO+, 3C MaxxTerra [F]Maxxis Dissector 29x2.6&quot; Foldable, Tubeless, EXO+, 3C MaxxTerra [R]"
+            "value": "Maxxis Minion DHF 29x2.6\" foldable, Tubeless, EXO+, 3C MaxxTerra [F]Maxxis Dissector 29x2.6\" Foldable, Tubeless, EXO+, 3C MaxxTerra [R]"
           }
         ]
       },
@@ -15921,10 +15921,10 @@
       "name": "Shimano Deore XT M8100",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "20T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.39,
-      "maxGearRatio": 2
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 604,
@@ -16051,7 +16051,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.25&quot; max tire size, 38t max chainring size"
+            "value": "tubeless prepared, 2.25\" max tire size, 38t max chainring size"
           }
         ]
       }
@@ -16210,7 +16210,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.25&quot; max tire size, 38t max chainring size"
+            "value": "tubeless prepared, 2.25\" max tire size, 38t max chainring size"
           }
         ]
       }
@@ -16370,7 +16370,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.25&quot; max tire size, 38t max chainring size"
+            "value": "tubeless prepared, 2.25\" max tire size, 38t max chainring size"
           }
         ]
       }
@@ -16400,10 +16400,10 @@
       "name": "Shimano Deore",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "24T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.47,
-      "maxGearRatio": 2.4
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 604,
@@ -16529,7 +16529,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.25&quot; max tire size, 38t max chainring size"
+            "value": "tubeless prepared, 2.25\" max tire size, 38t max chainring size"
           }
         ]
       }
@@ -16559,10 +16559,10 @@
       "name": "Shimano Deore",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "24T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.47,
-      "maxGearRatio": 2.4
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 604,
@@ -16689,7 +16689,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.25&quot; max tire size, 38t max chainring size"
+            "value": "tubeless prepared, 2.25\" max tire size, 38t max chainring size"
           }
         ]
       }
@@ -16847,7 +16847,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 36t max chainring size"
+            "value": "tubeless prepared, 2.4\" max tire size, 36t max chainring size"
           }
         ]
       }
@@ -17005,7 +17005,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 36t max chainring size"
+            "value": "tubeless prepared, 2.4\" max tire size, 36t max chainring size"
           }
         ]
       }
@@ -17163,7 +17163,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 36t max chainring size"
+            "value": "tubeless prepared, 2.4\" max tire size, 36t max chainring size"
           }
         ]
       }
@@ -17193,10 +17193,10 @@
       "name": "Shimano CUES RD-U6000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "00T",
+      "chainrings": "34T",
       "cassette": "11-48T",
       "minGearRatio": 0.71,
-      "maxGearRatio": 4.55
+      "maxGearRatio": 3.09
     },
     "geometry": {
       "stackMm": 618,
@@ -17259,7 +17259,7 @@
           },
           {
             "label": "Platos y Bielas",
-            "value": "Shimano CUES FC-U6000, XS: 165mm, S: 165mm, M: 165mm, L: 165mm, 34T for 27.5&quot;, 32T for 29&quot;"
+            "value": "Shimano CUES FC-U6000, XS: 165mm, S: 165mm, M: 165mm, L: 165mm, 34T for 27.5\", 32T for 29\""
           },
           {
             "label": "Casette",
@@ -17326,7 +17326,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, max tire size 2.5&quot;, max chainring size 34t"
+            "value": "tubeless prepared, max tire size 2.5\", max chainring size 34t"
           }
         ]
       }
@@ -17489,7 +17489,7 @@
           },
           {
             "label": "Extras",
-            "value": "For 27.5: tubeless prepared, max tire size 2.6&quot;, max chainring size 32t For 29: tubeless prepared, max tire size 2.4&quot;, max chainring size 32t"
+            "value": "For 27.5: tubeless prepared, max tire size 2.6\", max chainring size 32t For 29: tubeless prepared, max tire size 2.4\", max chainring size 32t"
           }
         ]
       }
@@ -17590,7 +17590,7 @@
     ],
     "brakes": "Shimano Deore XT, BR-M8120, hydraulic disc 4-piston, 220mm [F], 203mm [R]",
     "wheels": "Giant TRA2, tubeless ready, 30mm inner width",
-    "tires": "Maxxis Minion DHF 27x2.5&quot; (XS), 29x2.50&quot; (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector",
+    "tires": "Maxxis Minion DHF 27x2.5\" (XS), 29x2.50\" (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector",
     "colors": [
       "Atmosphere"
     ],
@@ -17600,7 +17600,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185X52.5mm shock, 1.5~1.8&quot; headset (ZS62/ZS72)"
+            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185X52.5mm shock, 1.5~1.8\" headset (ZS62/ZS72)"
           },
           {
             "label": "Horquilla",
@@ -17671,7 +17671,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 27x2.5&quot; (XS), 29x2.50&quot; (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector 27.5x2.4&quot; (XS), 29x2.40&quot; (S, M, L) foldable WT, TLR, EXO [R]"
+            "value": "Maxxis Minion DHF 27x2.5\" (XS), 29x2.50\" (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector 27.5x2.4\" (XS), 29x2.40\" (S, M, L) foldable WT, TLR, EXO [R]"
           }
         ]
       },
@@ -17747,7 +17747,7 @@
     ],
     "brakes": "Shimano Deore, BR-M420, hydraulic disc, 4-piston, 220mm [F], 203mm [R]",
     "wheels": "Giant AM30, tubeless ready, 30mm inner width",
-    "tires": "Maxxis Minion DHF 27x2.5&quot; (XS), 29x2.50&quot; (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector",
+    "tires": "Maxxis Minion DHF 27x2.5\" (XS), 29x2.50\" (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector",
     "colors": [
       "Pale Moss"
     ],
@@ -17757,7 +17757,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185X52.5mm shock, 1.5~1.8&quot; headset (ZS62/ZS72)"
+            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185X52.5mm shock, 1.5~1.8\" headset (ZS62/ZS72)"
           },
           {
             "label": "Horquilla",
@@ -17828,7 +17828,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 27x2.5&quot; (XS), 29x2.50&quot; (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector 27.5x2.4&quot; (XS), 29x2.40&quot; (S, M, L) foldable WT, TLR, EXO [R]"
+            "value": "Maxxis Minion DHF 27x2.5\" (XS), 29x2.50\" (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector 27.5x2.4\" (XS), 29x2.40\" (S, M, L) foldable WT, TLR, EXO [R]"
           }
         ]
       },
@@ -17880,9 +17880,9 @@
       "isElectronic": false,
       "speedCount": 12,
       "chainrings": "36T",
-      "cassette": "00-12T",
-      "minGearRatio": 3,
-      "maxGearRatio": 3
+      "cassette": "10-51T",
+      "minGearRatio": 0.71,
+      "maxGearRatio": 3.6
     },
     "geometry": {
       "stackMm": 630,
@@ -17904,8 +17904,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Tektro HD-M750 Orion, 4-piston, hydraulic disc, 203mm",
-    "wheels": "Giant AM 27.5&quot; (XS), 29&quot;(S, M, L), Tubeless ready, 30mm inner width",
-    "tires": "Maxxis Minion DHF 27x2.5&quot;(XS), 29X2.50&quot;(S, M, L) Foldable, TLR, EXO, 60TPI [F]Maxxis Disse",
+    "wheels": "Giant AM 27.5\" (XS), 29\"(S, M, L), Tubeless ready, 30mm inner width",
+    "tires": "Maxxis Minion DHF 27x2.5\"(XS), 29X2.50\"(S, M, L) Foldable, TLR, EXO, 60TPI [F]Maxxis Disse",
     "colors": [
       "Black Diamond"
     ],
@@ -17915,7 +17915,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, 125mm travel FlexPoint suspension system, 148x12 rear axle, Universal Derrailleur hanger, 184x44 shock, 1.5~1.8&quot; headset"
+            "value": "ALUXX SL-grade aluminum, 125mm travel FlexPoint suspension system, 148x12 rear axle, Universal Derrailleur hanger, 184x44 shock, 1.5~1.8\" headset"
           },
           {
             "label": "Horquilla",
@@ -17982,7 +17982,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant AM 27.5&quot; (XS), 29&quot;(S, M, L), Tubeless ready, 30mm inner width"
+            "value": "Giant AM 27.5\" (XS), 29\"(S, M, L), Tubeless ready, 30mm inner width"
           },
           {
             "label": "Bujes",
@@ -17994,7 +17994,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 27x2.5&quot;(XS), 29X2.50&quot;(S, M, L) Foldable, TLR, EXO, 60TPI [F]Maxxis Dissector 27.5x2.4&quot;(XS), 29X2.40&quot;(S, M, L) Foldable WT, TLR, EXO, 60TPI [R]"
+            "value": "Maxxis Minion DHF 27x2.5\"(XS), 29X2.50\"(S, M, L) Foldable, TLR, EXO, 60TPI [F]Maxxis Dissector 27.5x2.4\"(XS), 29X2.40\"(S, M, L) Foldable WT, TLR, EXO, 60TPI [R]"
           }
         ]
       },
@@ -18070,7 +18070,7 @@
     ],
     "brakes": "Tektro Orion, hydraulic disc, 4-piston, 203mm [F/R]",
     "wheels": "Giant AM30, tubeless ready, 30mm inner width",
-    "tires": "Maxxis Minion DHF 27x2.5&quot; (XS), 29x2.50&quot; (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector",
+    "tires": "Maxxis Minion DHF 27x2.5\" (XS), 29x2.50\" (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector",
     "colors": [
       "Slate Gray"
     ],
@@ -18080,7 +18080,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185X52.5mm shock, 1.5~1.8&quot; headset (ZS62/ZS72)"
+            "value": "ALUXX SL-grade aluminum, 140mm travel FlexPoint linkage driven suspension system, 148x12 Boost rear axle, UDHTM Universal Derailleur hanger, KSA40 compatible, 185X52.5mm shock, 1.5~1.8\" headset (ZS62/ZS72)"
           },
           {
             "label": "Horquilla",
@@ -18151,7 +18151,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Minion DHF 27x2.5&quot; (XS), 29x2.50&quot; (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector 27.5x2.4&quot; (XS), 29x2.40&quot; (S, M, L) foldable WT, TLR, EXO [R]"
+            "value": "Maxxis Minion DHF 27x2.5\" (XS), 29x2.50\" (S, M, L) foldable, TLR EXO [F}, Maxxis Dissector 27.5x2.4\" (XS), 29x2.40\" (S, M, L) foldable WT, TLR, EXO [R]"
           }
         ]
       },
@@ -18202,10 +18202,10 @@
       "name": "Shimano SLX M7100",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "11T",
+      "chainrings": "30T",
       "cassette": "10-51T",
-      "minGearRatio": 0.22,
-      "maxGearRatio": 1.1
+      "minGearRatio": 0.59,
+      "maxGearRatio": 3
     },
     "geometry": {
       "stackMm": 625,
@@ -18335,7 +18335,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, max tire size 2.5&quot;, max chainring size 32t"
+            "value": "tubeless prepared, max tire size 2.5\", max chainring size 32t"
           }
         ]
       }
@@ -18499,7 +18499,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, max tire size 2.5&quot;, max chainring size 32t"
+            "value": "tubeless prepared, max tire size 2.5\", max chainring size 32t"
           }
         ]
       }
@@ -18556,7 +18556,7 @@
       "Cockpit aerodinámico integrado"
     ],
     "brakes": "SRAM G2 RSC, hydraulic, SRAM CenterLine rotors [F]200mm, [R]180mm",
-    "wheels": "Giant TRX 2 29 WheelSystem, composite, 30mm inner width XS and S: [F] 29&quot;&quot;, [R] 27.5&quot;",
+    "wheels": "Giant TRX 2 29 WheelSystem, composite, 30mm inner width XS and S: [F] 29\", [R] 27.5\"",
     "tires": "[Size XS, S, M and L, F] Maxxis Minion DHF 29x2.5WT, 3C Max Terra, EXO, TR, tubeless [Size XS and S,",
     "colors": [
       "Raw Carbon",
@@ -18631,7 +18631,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "Giant TRX 2 29 WheelSystem, composite, 30mm inner width XS and S: [F] 29&quot;&quot;, [R] 27.5&quot;&quot; M and L: [F] 29&quot;&quot;, [R] 29&quot;"
+            "value": "Giant TRX 2 29 WheelSystem, composite, 30mm inner width XS and S: [F] 29\", [R] 27.5\" M and L: [F] 29\", [R] 29\""
           },
           {
             "label": "Bujes",
@@ -18664,7 +18664,7 @@
           },
           {
             "label": "Extras",
-            "value": "MRP AMg V2 chainguide, 3M tailgate protector, tubeless prepared, max tire size 2.5&quot;, max chainring size 32t, integrated down tube storage bag"
+            "value": "MRP AMg V2 chainguide, 3M tailgate protector, tubeless prepared, max tire size 2.5\", max chainring size 32t, integrated down tube storage bag"
           }
         ]
       }
@@ -18694,10 +18694,10 @@
       "name": "Shimano SLX M7100",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "12T",
+      "chainrings": "30T",
       "cassette": "10-51T",
-      "minGearRatio": 0.24,
-      "maxGearRatio": 1.2
+      "minGearRatio": 0.59,
+      "maxGearRatio": 3
     },
     "geometry": {
       "stackMm": 621,
@@ -18827,7 +18827,7 @@
           },
           {
             "label": "Extras",
-            "value": "3M tailgate protector, tubeless prepared, integrated down tube storage bag, max tire size 2.5&quot;, max chainring size 34t"
+            "value": "3M tailgate protector, tubeless prepared, integrated down tube storage bag, max tire size 2.5\", max chainring size 34t"
           }
         ]
       }
@@ -18857,10 +18857,10 @@
       "name": "Shimano Deore",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "24T",
+      "chainrings": "30T",
       "cassette": "10-51T",
-      "minGearRatio": 0.47,
-      "maxGearRatio": 2.4
+      "minGearRatio": 0.59,
+      "maxGearRatio": 3
     },
     "geometry": {
       "stackMm": 621,
@@ -18989,7 +18989,7 @@
           },
           {
             "label": "Extras",
-            "value": "3M tailgate protector, tubeless prepared, integrated down tube storage bag, max tire size 2.5&quot;, max chainring size 34t"
+            "value": "3M tailgate protector, tubeless prepared, integrated down tube storage bag, max tire size 2.5\", max chainring size 34t"
           }
         ]
       }
@@ -19044,7 +19044,7 @@
     ],
     "brakes": "Shimano MT200, hydraulic disc,180mm [F/R]",
     "wheels": "Giant XCT 29 Tubeless Ready 25mm e-bike optimized",
-    "tires": "Maxxis Rekon 29x2.4&quot;, EXO, 60TPI",
+    "tires": "Maxxis Rekon 29x2.4\", EXO, 60TPI",
     "colors": [
       "Lunar Eclipse"
     ],
@@ -19054,7 +19054,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX aluminum, Overdrive 1.125&quot; - 1.8&quot; head tube, 148x12mm Thru-axle, integrated KSA40 kickstand mount"
+            "value": "ALUXX aluminum, Overdrive 1.125\" - 1.8\" head tube, 148x12mm Thru-axle, integrated KSA40 kickstand mount"
           },
           {
             "label": "Horquilla",
@@ -19121,7 +19121,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon 29x2.4&quot;, EXO, 60TPI"
+            "value": "Maxxis Rekon 29x2.4\", EXO, 60TPI"
           }
         ]
       },
@@ -19301,7 +19301,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, max tire size 2.25&quot;, max chainring size 32t"
+            "value": "tubeless prepared, max tire size 2.25\", max chainring size 32t"
           }
         ]
       }
@@ -19498,10 +19498,10 @@
       "name": "Shimano XT M8100",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "20T",
+      "chainrings": "30T",
       "cassette": "10-51T",
-      "minGearRatio": 0.39,
-      "maxGearRatio": 2
+      "minGearRatio": 0.59,
+      "maxGearRatio": 3
     },
     "geometry": {
       "stackMm": 612,
@@ -19855,7 +19855,7 @@
     ],
     "brakes": "Shimano MT500, hydraulic, Shimano RT-56 rotors [F]180mm, [R]160mm",
     "wheels": "Giant XCR 2 Carbon 29 WheelSystem",
-    "tires": "[F] Maxxis Recon Race, 29x2.25&quot;, foldable, TLR, EXO, tubeless [R] Maxxis Recon Race, 29x2.25&qu",
+    "tires": "[F] Maxxis Recon Race, 29x2.25\", foldable, TLR, EXO, tubeless [R] Maxxis Recon Race, 29x2.25\"",
     "colors": [
       "Fanatic Teal",
       "Dark Green",
@@ -19942,7 +19942,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "[F] Maxxis Recon Race, 29x2.25&quot;, foldable, TLR, EXO, tubeless [R] Maxxis Recon Race, 29x2.25&quot;, foldable, TLR, EXO, tubeless"
+            "value": "[F] Maxxis Recon Race, 29x2.25\", foldable, TLR, EXO, tubeless [R] Maxxis Recon Race, 29x2.25\", foldable, TLR, EXO, tubeless"
           }
         ]
       },
@@ -19963,7 +19963,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, max tire size 2.25&quot;, max chainring size 32t"
+            "value": "tubeless prepared, max tire size 2.25\", max chainring size 32t"
           }
         ]
       }
@@ -20128,7 +20128,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 34t max chainring size, MRP SL TR2 chain guide"
+            "value": "tubeless prepared, 2.4\" max tire size, 34t max chainring size, MRP SL TR2 chain guide"
           }
         ]
       }
@@ -20158,10 +20158,10 @@
       "name": "Shimano Deore",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "24T",
+      "chainrings": "32T",
       "cassette": "10-51T",
-      "minGearRatio": 0.47,
-      "maxGearRatio": 2.4
+      "minGearRatio": 0.63,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 616,
@@ -20292,7 +20292,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 34t max chainring size, MRP SL TR2 chain guide"
+            "value": "tubeless prepared, 2.4\" max tire size, 34t max chainring size, MRP SL TR2 chain guide"
           }
         ]
       }
@@ -20457,7 +20457,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 2.4&quot; max tire size, 34t max chainring size, MRP SL TR2 chain guide"
+            "value": "tubeless prepared, 2.4\" max tire size, 34t max chainring size, MRP SL TR2 chain guide"
           }
         ]
       }
@@ -20512,8 +20512,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Shimano BR-MT200, hydraulic, Shimano RT-10 rotors [F]180mm, [R]160mm",
-    "wheels": "27.5&quot;: Giant GX03V 27.5&quot;, alloy, double wall, 21mm inner width 29&quot;: Giant GX03V 29&qu",
-    "tires": "Maxxis Recon Race 27.5x2.4&quot; or 29x2.4&quot;, 60tpi wire bead",
+    "wheels": "27.5\": Giant GX03V 27.5\", alloy, double wall, 21mm inner width 29\": Giant GX03V 29\"",
+    "tires": "Maxxis Recon Race 27.5x2.4\" or 29x2.4\", 60tpi wire bead",
     "colors": [
       "Asphalt Green"
     ],
@@ -20527,7 +20527,7 @@
           },
           {
             "label": "Horquilla",
-            "value": "Giant SXC32-2 RCL Alloy SingleAir 29&quot;/27.5&quot; 15x110 TA 1.5&quot; Taper steerer 27.5&quot; XS: 80mm, S: 80mm 29&quot; S: 100mm, M: 100mm, L: 100mm"
+            "value": "Giant SXC32-2 RCL Alloy SingleAir 29\"/27.5\" 15x110 TA 1.5\" Taper steerer 27.5\" XS: 80mm, S: 80mm 29\" S: 100mm, M: 100mm, L: 100mm"
           },
           {
             "label": "Colores",
@@ -20548,7 +20548,7 @@
           },
           {
             "label": "Platos y Bielas",
-            "value": "ProWheel MPX, 32t (27.5&quot;) or 30t (29&quot;) 27.5&quot; XS: 165mm, S: 165mm 29&quot; S: 170mm, M: 170mm, L: 170mm"
+            "value": "ProWheel MPX, 32t (27.5\") or 30t (29\") 27.5\" XS: 165mm, S: 165mm 29\" S: 170mm, M: 170mm, L: 170mm"
           },
           {
             "label": "Casette",
@@ -20582,7 +20582,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "27.5&quot;: Giant GX03V 27.5&quot;, alloy, double wall, 21mm inner width 29&quot;: Giant GX03V 29&quot;, alloy, double wall, 21mm inner width"
+            "value": "27.5\": Giant GX03V 27.5\", alloy, double wall, 21mm inner width 29\": Giant GX03V 29\", alloy, double wall, 21mm inner width"
           },
           {
             "label": "Bujes",
@@ -20594,7 +20594,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Recon Race 27.5x2.4&quot; or 29x2.4&quot;, 60tpi wire bead"
+            "value": "Maxxis Recon Race 27.5x2.4\" or 29x2.4\", 60tpi wire bead"
           }
         ]
       },
@@ -20603,19 +20603,19 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "Giant Connect Trail, 31.8mm 27.5&quot; XS: 690mm, S: 690mm 29&quot; S: 750mm, M: 750mm, L: 750mm"
+            "value": "Giant Connect Trail, 31.8mm 27.5\" XS: 690mm, S: 690mm 29\" S: 750mm, M: 750mm, L: 750mm"
           },
           {
             "label": "Potencia",
-            "value": "Giant Sport, 7-degree 27.5&quot; XS: 40mm, S: 40mm 29&quot; S: 40mm, M: 50mm, L: 50"
+            "value": "Giant Sport, 7-degree 27.5\" XS: 40mm, S: 40mm 29\" S: 40mm, M: 50mm, L: 50"
           },
           {
             "label": "Tija de Sillín",
-            "value": "Giant Contact Swith Core, 30.9mm27.5&quot;XS:100x350mm, S: 100x350mm29&quot;S: 100x350mm, M:100x400mm, L : 100x400mm"
+            "value": "Giant Contact Swith Core, 30.9mm27.5\"XS:100x350mm, S: 100x350mm29\"S: 100x350mm, M:100x400mm, L : 100x400mm"
           },
           {
             "label": "Extras",
-            "value": "2.4&quot; max tire size, max chainring 32T"
+            "value": "2.4\" max tire size, max chainring 32T"
           }
         ]
       }
@@ -20670,8 +20670,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Tektro HDC TKD 149, hydraulic, Tektro rotors [F]180mm, [R]160mm",
-    "wheels": "27.5&quot;: Giant GX03V 27.5&quot;, alloy, double wall, 21mm inner width 29&quot;: Giant GX03V 29&qu",
-    "tires": "Maxxis Recon Race 27.5x2.4&quot; or 29x2.4&quot;, 60tpi wire bead",
+    "wheels": "27.5\": Giant GX03V 27.5\", alloy, double wall, 21mm inner width 29\": Giant GX03V 29\"",
+    "tires": "Maxxis Recon Race 27.5x2.4\" or 29x2.4\", 60tpi wire bead",
     "colors": [
       "Black Diamond"
     ],
@@ -20685,7 +20685,7 @@
           },
           {
             "label": "Horquilla",
-            "value": "Giant SXC32-3 RL Coil w/Pre-load Adj & 15x110 TA 1.5&quot; Taper Steerer 27.5&quot; XS: 80mm, S: 80mm 29&quot; S: 100mm, M: 100mm, L: 100mm"
+            "value": "Giant SXC32-3 RL Coil w/Pre-load Adj & 15x110 TA 1.5\" Taper Steerer 27.5\" XS: 80mm, S: 80mm 29\" S: 100mm, M: 100mm, L: 100mm"
           },
           {
             "label": "Colores",
@@ -20706,7 +20706,7 @@
           },
           {
             "label": "Platos y Bielas",
-            "value": "ProWheel Charm, steel, 52.5mm chainline 32t (27.5&quot;) & 30t (29&quot;) 27.5&quot; XS: 165mm, S: 165mm 29&quot; S: 170mm, M: 170mm, L: 170mm"
+            "value": "ProWheel Charm, steel, 52.5mm chainline 32t (27.5\") & 30t (29\") 27.5\" XS: 165mm, S: 165mm 29\" S: 170mm, M: 170mm, L: 170mm"
           },
           {
             "label": "Casette",
@@ -20740,7 +20740,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "27.5&quot;: Giant GX03V 27.5&quot;, alloy, double wall, 21mm inner width 29&quot;: Giant GX03V 29&quot;, alloy, double wall, 21mm inner width"
+            "value": "27.5\": Giant GX03V 27.5\", alloy, double wall, 21mm inner width 29\": Giant GX03V 29\", alloy, double wall, 21mm inner width"
           },
           {
             "label": "Bujes",
@@ -20752,7 +20752,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Recon Race 27.5x2.4&quot; or 29x2.4&quot;, 60tpi wire bead"
+            "value": "Maxxis Recon Race 27.5x2.4\" or 29x2.4\", 60tpi wire bead"
           }
         ]
       },
@@ -20761,19 +20761,19 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "Giant Connect Trail, 31.8mm 27.5&quot; XS: 690mm, S: 690mm 29&quot; S: 750mm, M: 750mm, L: 750mm"
+            "value": "Giant Connect Trail, 31.8mm 27.5\" XS: 690mm, S: 690mm 29\" S: 750mm, M: 750mm, L: 750mm"
           },
           {
             "label": "Potencia",
-            "value": "Giant Sport, 7-degree 27.5&quot; XS: 40mm, S: 40mm 29&quot; S: 40mm, M: 50mm, L: 50"
+            "value": "Giant Sport, 7-degree 27.5\" XS: 40mm, S: 40mm 29\" S: 40mm, M: 50mm, L: 50"
           },
           {
             "label": "Tija de Sillín",
-            "value": "Giant Contact Swith Core, 30.9mm 27.5&quot; XS:100x350mm, S: 100x350mm 29&quot; S: 100x350mm, M:100x400mm, L : 100x400mm"
+            "value": "Giant Contact Swith Core, 30.9mm 27.5\" XS:100x350mm, S: 100x350mm 29\" S: 100x350mm, M:100x400mm, L : 100x400mm"
           },
           {
             "label": "Extras",
-            "value": "2.4&quot; max tire size, max chainring 32T"
+            "value": "2.4\" max tire size, max chainring 32T"
           }
         ]
       }
@@ -20828,8 +20828,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Tektro HDC TKD 149, hydraulic, Tektro rotors [F]180mm, [R]160mm",
-    "wheels": "27.5&quot;: Giant GX03V 27.5&quot;, alloy, double wall, 21mm inner width 29&quot;: Giant GX03V 29&qu",
-    "tires": "Maxxis Recon Race 27.5x2.4&quot; or 29x2.4&quot;, 60tpi wire bead",
+    "wheels": "27.5\": Giant GX03V 27.5\", alloy, double wall, 21mm inner width 29\": Giant GX03V 29\"",
+    "tires": "Maxxis Recon Race 27.5x2.4\" or 29x2.4\", 60tpi wire bead",
     "colors": [
       "Mars Dust"
     ],
@@ -20843,7 +20843,7 @@
           },
           {
             "label": "Horquilla",
-            "value": "Giant SXC32-3 RL Coil w/Pre-load Adj & 15x110 TA 1.5&quot; Taper steerer 27.5&quot; XS: 80mm, S: 80mm 29&quot; S: 100mm, M: 100mm, L: 100mm"
+            "value": "Giant SXC32-3 RL Coil w/Pre-load Adj & 15x110 TA 1.5\" Taper steerer 27.5\" XS: 80mm, S: 80mm 29\" S: 100mm, M: 100mm, L: 100mm"
           },
           {
             "label": "Colores",
@@ -20864,7 +20864,7 @@
           },
           {
             "label": "Platos y Bielas",
-            "value": "ProWheel Charm, steel, 52.5mm chainline 32t (27.5&quot;) & 30t (29&quot;) 27.5&quot; XS: 165mm, S: 165mm 29&quot; S: 170mm, M: 170mm, L: 170mm"
+            "value": "ProWheel Charm, steel, 52.5mm chainline 32t (27.5\") & 30t (29\") 27.5\" XS: 165mm, S: 165mm 29\" S: 170mm, M: 170mm, L: 170mm"
           },
           {
             "label": "Casette",
@@ -20898,7 +20898,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "27.5&quot;: Giant GX03V 27.5&quot;, alloy, double wall, 21mm inner width 29&quot;: Giant GX03V 29&quot;, alloy, double wall, 21mm inner width"
+            "value": "27.5\": Giant GX03V 27.5\", alloy, double wall, 21mm inner width 29\": Giant GX03V 29\", alloy, double wall, 21mm inner width"
           },
           {
             "label": "Bujes",
@@ -20910,7 +20910,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Recon Race 27.5x2.4&quot; or 29x2.4&quot;, 60tpi wire bead"
+            "value": "Maxxis Recon Race 27.5x2.4\" or 29x2.4\", 60tpi wire bead"
           }
         ]
       },
@@ -20919,19 +20919,19 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "Giant Connect Trail, 31.8mm 27.5&quot; XS: 690mm, S: 690mm 29&quot; S: 750mm, M: 750mm, L: 750mm"
+            "value": "Giant Connect Trail, 31.8mm 27.5\" XS: 690mm, S: 690mm 29\" S: 750mm, M: 750mm, L: 750mm"
           },
           {
             "label": "Potencia",
-            "value": "Giant Sport, 7-degree 27.5&quot; XS: 40mm, S: 40mm 29&quot; S: 40mm, M: 50mm, L: 50"
+            "value": "Giant Sport, 7-degree 27.5\" XS: 40mm, S: 40mm 29\" S: 40mm, M: 50mm, L: 50"
           },
           {
             "label": "Tija de Sillín",
-            "value": "Giant Sport, 30.9mm 27.5&quot; XS:100x350mm, S: 100x350mm 29&quot; S: 100x350mm, M:100x375mm, L : 100x375mm"
+            "value": "Giant Sport, 30.9mm 27.5\" XS:100x350mm, S: 100x350mm 29\" S: 100x350mm, M:100x375mm, L : 100x375mm"
           },
           {
             "label": "Extras",
-            "value": "2.4&quot; max tire size, max chainring 32T"
+            "value": "2.4\" max tire size, max chainring 32T"
           }
         ]
       }
@@ -20961,7 +20961,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "22/36T",
+      "chainrings": "36/22T",
       "cassette": "11-34T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.27
@@ -20986,8 +20986,8 @@
       "Paso de rueda hasta 62 mm"
     ],
     "brakes": "Tektro HDC TKD 149, hydraulic, Tektro rotors [F]180mm, [R]160mm",
-    "wheels": "27.5&quot;: Giant GX03V 27.5&quot;, alloy, double wall, 21mm inner width 29&quot;: Giant GX03V 29&qu",
-    "tires": "Maxxis Ikon 27.5x2.2&quot; or 29x2.2&quot;, 60tpi wire bead",
+    "wheels": "27.5\": Giant GX03V 27.5\", alloy, double wall, 21mm inner width 29\": Giant GX03V 29\"",
+    "tires": "Maxxis Ikon 27.5x2.2\" or 29x2.2\", 60tpi wire bead",
     "colors": [
       "Tyrian Purple",
       "Golden Wheat"
@@ -21002,7 +21002,7 @@
           },
           {
             "label": "Horquilla",
-            "value": "SR Suntour XCE, QR, steel steerer 27.5&quot; XS: 80mm, S: 80mm 29&quot; S: 100mm, M: 100mm, L: 100mm"
+            "value": "SR Suntour XCE, QR, steel steerer 27.5\" XS: 80mm, S: 80mm 29\" S: 100mm, M: 100mm, L: 100mm"
           },
           {
             "label": "Colores",
@@ -21027,7 +21027,7 @@
           },
           {
             "label": "Platos y Bielas",
-            "value": "Shimano Acera FC-M315-2, 22/36, 49mm chainline 27.5&quot; XS: 170mm, S: 170mm 29&quot; S: 170mm, M: 170mm, L: 170mm"
+            "value": "Shimano Acera FC-M315-2, 22/36, 49mm chainline 27.5\" XS: 170mm, S: 170mm 29\" S: 170mm, M: 170mm, L: 170mm"
           },
           {
             "label": "Casette",
@@ -21061,7 +21061,7 @@
         "items": [
           {
             "label": "Llantas / Ruedas",
-            "value": "27.5&quot;: Giant GX03V 27.5&quot;, alloy, double wall, 21mm inner width 29&quot;: Giant GX03V 29&quot;, alloy, double wall, 21mm inner width"
+            "value": "27.5\": Giant GX03V 27.5\", alloy, double wall, 21mm inner width 29\": Giant GX03V 29\", alloy, double wall, 21mm inner width"
           },
           {
             "label": "Bujes",
@@ -21073,7 +21073,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Ikon 27.5x2.2&quot; or 29x2.2&quot;, 60tpi wire bead"
+            "value": "Maxxis Ikon 27.5x2.2\" or 29x2.2\", 60tpi wire bead"
           }
         ]
       },
@@ -21082,19 +21082,19 @@
         "items": [
           {
             "label": "Manillar",
-            "value": "Giant Connect Trail, 31.8mm 27.5&quot; XS: 690mm, S: 690mm 29&quot; S: 750mm, M: 750mm, L: 750mm"
+            "value": "Giant Connect Trail, 31.8mm 27.5\" XS: 690mm, S: 690mm 29\" S: 750mm, M: 750mm, L: 750mm"
           },
           {
             "label": "Potencia",
-            "value": "Giant Sport, 7-degree 27.5&quot; XS: 40mm, S: 40mm 29&quot; S: 40mm, M: 50mm, L: 50"
+            "value": "Giant Sport, 7-degree 27.5\" XS: 40mm, S: 40mm 29\" S: 40mm, M: 50mm, L: 50"
           },
           {
             "label": "Tija de Sillín",
-            "value": "Giant Sport, 30.9mm27.5&quot;XS:100x350mm, S: 100x350mm29&quot;S: 100x350mm, M:100x375mm, L : 100x375mm"
+            "value": "Giant Sport, 30.9mm27.5\"XS:100x350mm, S: 100x350mm29\"S: 100x350mm, M:100x375mm, L : 100x375mm"
           },
           {
             "label": "Extras",
-            "value": "2.4&quot; max tire size, max chainring 32T"
+            "value": "2.4\" max tire size, max chainring 32T"
           }
         ]
       }
@@ -21150,7 +21150,7 @@
     ],
     "brakes": "Shimano MT200, hydraulic disc, 180mm [F/R]",
     "wheels": "Liv, GX03V, 27.5 / 29, Alluminum (XS-S: 27.5, M-L: 29)",
-    "tires": "Maxxis Rekon Tanwall XS-S: 27.5x2.4&quot; / M-L: 29 x 2.4&quot; Wire Bead 60TPI",
+    "tires": "Maxxis Rekon Tanwall XS-S: 27.5x2.4\" / M-L: 29 x 2.4\" Wire Bead 60TPI",
     "colors": [
       "Lunar Eclipse"
     ],
@@ -21160,11 +21160,11 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛&quot; head tube, integrated KSA40 kickstand mount"
+            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛\" head tube, integrated KSA40 kickstand mount"
           },
           {
             "label": "Horquilla",
-            "value": "SR Suntour XCM ATB DS coil 29&quot; 100mm travel 15x110 AH axle"
+            "value": "SR Suntour XCM ATB DS coil 29\" 100mm travel 15x110 AH axle"
           },
           {
             "label": "Amortiguador",
@@ -21235,7 +21235,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon Tanwall XS-S: 27.5x2.4&quot; / M-L: 29 x 2.4&quot; Wire Bead 60TPI"
+            "value": "Maxxis Rekon Tanwall XS-S: 27.5x2.4\" / M-L: 29 x 2.4\" Wire Bead 60TPI"
           }
         ]
       },
@@ -21400,7 +21400,7 @@
     ],
     "brakes": "Shimano MT200, hydraulic disc, 180mm [F/R]",
     "wheels": "Liv, GX03V, 27.5 / 29, Alluminum (XS-S: 27.5, M-L: 29)",
-    "tires": "Maxxis Rekon XS-S: 27.5x2.4&quot; / M-L: 29 x 2.4&quot; Wire Bead 60TPI",
+    "tires": "Maxxis Rekon XS-S: 27.5x2.4\" / M-L: 29 x 2.4\" Wire Bead 60TPI",
     "colors": [
       "Sandshell"
     ],
@@ -21410,11 +21410,11 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛&quot; head tube, integrated KSA40 kickstand mount"
+            "value": "ALUXX aluminum, Overdrive 1&#189; - 1⅛\" head tube, integrated KSA40 kickstand mount"
           },
           {
             "label": "Horquilla",
-            "value": "SR Suntour XCM ATB DS coil 29&quot; 100mm travel 15x110 AH axle"
+            "value": "SR Suntour XCM ATB DS coil 29\" 100mm travel 15x110 AH axle"
           },
           {
             "label": "Amortiguador",
@@ -21485,7 +21485,7 @@
           },
           {
             "label": "Cubiertas",
-            "value": "Maxxis Rekon XS-S: 27.5x2.4&quot; / M-L: 29 x 2.4&quot; Wire Bead 60TPI"
+            "value": "Maxxis Rekon XS-S: 27.5x2.4\" / M-L: 29 x 2.4\" Wire Bead 60TPI"
           }
         ]
       },
@@ -31532,8 +31532,8 @@
       "name": "SRAM NX Eagle",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "11-50",
+      "chainrings": "32T",
+      "cassette": "11-50T",
       "minGearRatio": 0.64,
       "maxGearRatio": 2.91
     },
@@ -31716,8 +31716,8 @@
       "name": "SRAM Eagle 70 T-Type",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-52",
+      "chainrings": "32T",
+      "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
     },
@@ -31901,8 +31901,8 @@
       "name": "SRAM GX Eagle",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "11-50",
+      "chainrings": "32T",
+      "cassette": "11-50T",
       "minGearRatio": 0.64,
       "maxGearRatio": 2.91
     },
@@ -31933,7 +31933,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "Specialized D'Aluisio Smartweld M5 Alloy, Hydroformed tubes, Progressive XC Geometry, 110mm travel, internal cable routing, BSA BB, 12x148mm spacing, "
+            "value": "Specialized D'Aluisio Smartweld M5 Alloy, Hydroformed tubes, Progressive XC Geometry, 110mm travel, internal cable routing, BSA BB, 12x148mm spacing,"
           },
           {
             "label": "Abrazadera del sillín",
@@ -32085,8 +32085,8 @@
       "name": "SRAM GX Eagle",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "11-50",
+      "chainrings": "32T",
+      "cassette": "11-50T",
       "minGearRatio": 0.64,
       "maxGearRatio": 2.91
     },
@@ -32117,7 +32117,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "Specialized D'Aluisio Smartweld M5 Alloy, Hydroformed tubes, Progressive XC Geometry, 110mm travel, internal cable routing, BSA BB, 12x148mm spacing, "
+            "value": "Specialized D'Aluisio Smartweld M5 Alloy, Hydroformed tubes, Progressive XC Geometry, 110mm travel, internal cable routing, BSA BB, 12x148mm spacing,"
           },
           {
             "label": "Abrazadera del sillín",
@@ -32269,8 +32269,8 @@
       "name": "SRAM NX Eagle",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "11-50",
+      "chainrings": "32T",
+      "cassette": "11-50T",
       "minGearRatio": 0.64,
       "maxGearRatio": 2.91
     },
@@ -32449,8 +32449,8 @@
       "name": "SRAM X0 Eagle Transmission Derailleur",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-52",
+      "chainrings": "32T",
+      "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
     },
@@ -32631,8 +32631,8 @@
       "name": "Shimano XT Di2",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-51",
+      "chainrings": "32T",
+      "cassette": "10-51T",
       "minGearRatio": 0.63,
       "maxGearRatio": 3.2
     },
@@ -32657,7 +32657,7 @@
       "Ruedas Roval Control SL V"
     ],
     "brakes": "Shimano XT 8200, 2-piston caliper, hydraulic disc, 180mm rotor",
-    "wheels": "Roval Control SL V, Hookless carbon, 29mm inner width, tubeless ready, DT Swiss 370 hub, Sapim ",
+    "wheels": "Roval Control SL V, Hookless carbon, 29mm inner width, tubeless ready, DT Swiss 370 hub, Sapim",
     "tires": "Specialized Fast Trak, Flex Lite Casing, T5/T7 Compound, TLR, 29x2.35",
     "detailedSpecs": [
       {
@@ -32818,8 +32818,8 @@
       "name": "SRAM X0 Eagle Transmission",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34",
-      "cassette": "10-52",
+      "chainrings": "34T",
+      "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
     },
@@ -33005,8 +33005,8 @@
       "name": "SRAM S1000 Eagle AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34",
-      "cassette": "10-52",
+      "chainrings": "34T",
+      "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
     },
@@ -33191,8 +33191,8 @@
       "name": "SRAM GX Eagle AXS Transmission",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34",
-      "cassette": "10-52",
+      "chainrings": "34T",
+      "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
     },
@@ -33217,7 +33217,7 @@
       "Ruedas Roval Control SL V"
     ],
     "brakes": "SRAM Motive Bronze, 4-piston caliper, hydraulic disc, 180mm rotor",
-    "wheels": "Roval Control SL V, Hookless carbon, 29mm inner width, tubeless ready, DT Swiss 370 hub, Sapim ",
+    "wheels": "Roval Control SL V, Hookless carbon, 29mm inner width, tubeless ready, DT Swiss 370 hub, Sapim",
     "tires": "Specialized Fast Trak, Flex Lite Casing, T5/T7 Compound, 29x2.35",
     "detailedSpecs": [
       {
@@ -33369,8 +33369,8 @@
       "name": "SRAM X0 Eagle Transmission",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34",
-      "cassette": "10-52",
+      "chainrings": "34T",
+      "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
     },
@@ -33547,10 +33547,10 @@
       "name": "SRAM S1000 Eagle AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "65/17",
-      "cassette": "10-52",
-      "minGearRatio": 0.33,
-      "maxGearRatio": 6.5
+      "chainrings": "32T",
+      "cassette": "10-52T",
+      "minGearRatio": 0.62,
+      "maxGearRatio": 3.2
     },
     "geometry": {
       "stackMm": 604,
@@ -33729,8 +33729,8 @@
       "name": "SHIMANO SHADOW RD-M2000 9-spd",
       "isElectronic": false,
       "speedCount": 9,
-      "chainrings": "32",
-      "cassette": "11-36",
+      "chainrings": "32T",
+      "cassette": "11-36T",
       "minGearRatio": 0.89,
       "maxGearRatio": 2.91
     },
@@ -33757,7 +33757,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable "
+            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable"
           },
           {
             "label": "Abrazadera del sillín",
@@ -33905,8 +33905,8 @@
       "name": "Shimano Altus",
       "isElectronic": false,
       "speedCount": 9,
-      "chainrings": "32",
-      "cassette": "11-36",
+      "chainrings": "32T",
+      "cassette": "11-36T",
       "minGearRatio": 0.89,
       "maxGearRatio": 2.91
     },
@@ -33933,7 +33933,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable "
+            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable"
           },
           {
             "label": "Abrazadera del sillín",
@@ -34090,8 +34090,8 @@
       "name": "Shimano Deore",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "11-51",
+      "chainrings": "32T",
+      "cassette": "11-51T",
       "minGearRatio": 0.63,
       "maxGearRatio": 2.91
     },
@@ -34118,7 +34118,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable "
+            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable"
           },
           {
             "label": "Abrazadera del sillín",
@@ -34271,8 +34271,8 @@
       "name": "SRAM S100",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "30",
-      "cassette": "11-50",
+      "chainrings": "30T",
+      "cassette": "11-50T",
       "minGearRatio": 0.6,
       "maxGearRatio": 2.73
     },
@@ -34299,7 +34299,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable "
+            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable"
           },
           {
             "label": "Abrazadera del sillín",
@@ -34452,8 +34452,8 @@
       "name": "SRAM NX Eagle",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "30",
-      "cassette": "11-50",
+      "chainrings": "30T",
+      "cassette": "11-50T",
       "minGearRatio": 0.6,
       "maxGearRatio": 2.73
     },
@@ -34480,7 +34480,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable "
+            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable"
           },
           {
             "label": "Abrazadera del sillín",
@@ -34633,8 +34633,8 @@
       "name": "SRAM NX Eagle",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "11-50",
+      "chainrings": "32T",
+      "cassette": "11-50T",
       "minGearRatio": 0.64,
       "maxGearRatio": 2.91
     },
@@ -34658,7 +34658,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable "
+            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable"
           },
           {
             "label": "Abrazadera del sillín",
@@ -34811,8 +34811,8 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 9,
-      "chainrings": "30",
-      "cassette": "11-46",
+      "chainrings": "30T",
+      "cassette": "11-46T",
       "minGearRatio": 0.65,
       "maxGearRatio": 2.73
     },
@@ -34839,7 +34839,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable "
+            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable"
           },
           {
             "label": "Abrazadera del sillín",
@@ -34990,8 +34990,8 @@
       "name": "microSHIFT Advent",
       "isElectronic": false,
       "speedCount": 9,
-      "chainrings": "32",
-      "cassette": "11-46",
+      "chainrings": "32T",
+      "cassette": "11-46T",
       "minGearRatio": 0.7,
       "maxGearRatio": 2.91
     },
@@ -35015,7 +35015,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable "
+            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable"
           },
           {
             "label": "Abrazadera del sillín",
@@ -35166,8 +35166,8 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 9,
-      "chainrings": "32",
-      "cassette": "11-41",
+      "chainrings": "32T",
+      "cassette": "11-41T",
       "minGearRatio": 0.78,
       "maxGearRatio": 2.91
     },
@@ -35191,7 +35191,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable "
+            "value": "Specialized A1 premium butted alloy, zero-stack head tube, internal cable routing, 135x9mm forged dropouts, chainstay-mounted disc brake, replaceable"
           },
           {
             "label": "Abrazadera del sillín",
@@ -35344,8 +35344,8 @@
       "name": "SRAM XX DH AXS T-Type",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-24",
+      "chainrings": "32T",
+      "cassette": "10-24T",
       "minGearRatio": 1.33,
       "maxGearRatio": 3.2
     },
@@ -35492,7 +35492,7 @@
   {
     "id": "specialized-s-works-demo-11-ltd-built-for-legends-2026",
     "brand": "Specialized",
-    "model": "S-Works Demo 11 LTD: Built for Legends",
+    "model": "S-Works Demo 11 LTD: Built for Legends",
     "year": 2026,
     "discipline": "mtb",
     "officialUrl": "https://www.specialized.com/es/es/s-works-demo-11-ltd-built-for-legends/p/4293956?color=5467307-4293956",
@@ -35514,8 +35514,8 @@
       "name": "SRAM XX DH AXS T-Type",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-24",
+      "chainrings": "32T",
+      "cassette": "10-24T",
       "minGearRatio": 1.33,
       "maxGearRatio": 3.2
     },
@@ -35684,8 +35684,8 @@
       "name": "SRAM XX SL Eagle AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34",
-      "cassette": "10-52",
+      "chainrings": "34T",
+      "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
     },
@@ -35710,7 +35710,7 @@
       "Ruedas Roval Control World Cup"
     ],
     "brakes": "SRAM Motive Ultimate, 4-piston caliper, hydraulic disc, 180mm rotor",
-    "wheels": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control ",
+    "wheels": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control",
     "tires": "Specialized Fast Trak, Flex Lite Casing, T5/T7 Compound, 29x2.35",
     "detailedSpecs": [
       {
@@ -35794,7 +35794,7 @@
           },
           {
             "label": "Rueda delantera",
-            "value": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control World Cup hub, DT Swiss ceramic bearings, Roval Carbon "
+            "value": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control World Cup hub, DT Swiss ceramic bearings, Roval Carbon"
           },
           {
             "label": "Neumático trasero",
@@ -35867,8 +35867,8 @@
       "name": "SRAM XX SL Eagle AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34",
-      "cassette": "10-52",
+      "chainrings": "34T",
+      "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
     },
@@ -35893,7 +35893,7 @@
       "Ruedas Roval Control World Cup"
     ],
     "brakes": "SRAM Motive Ultimate, 4-piston caliper, hydraulic disc, 180mm rotor",
-    "wheels": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control ",
+    "wheels": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control",
     "tires": "Specialized Fast Trak, Flex Lite Casing, T5/T7 Compound, 29x2.35",
     "detailedSpecs": [
       {
@@ -35977,7 +35977,7 @@
           },
           {
             "label": "Rueda delantera",
-            "value": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control World Cup hub, DT Swiss ceramic bearings, Roval Carbon "
+            "value": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control World Cup hub, DT Swiss ceramic bearings, Roval Carbon"
           },
           {
             "label": "Neumático trasero",
@@ -36019,7 +36019,7 @@
   {
     "id": "specialized-s-works-epic-9-ltd-built-for-legends-2026",
     "brand": "Specialized",
-    "model": "S-Works Epic 9 LTD: Built for Legends",
+    "model": "S-Works Epic 9 LTD: Built for Legends",
     "year": 2026,
     "discipline": "mtb",
     "officialUrl": "https://www.specialized.com/es/es/s-works-epic-9-ltd-built-for-legends/p/4296348?color=5473793-4296348",
@@ -36041,8 +36041,8 @@
       "name": "SRAM XX SL Eagle AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-52",
+      "chainrings": "32T",
+      "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
     },
@@ -36067,7 +36067,7 @@
       "Ruedas Roval Control World Cup"
     ],
     "brakes": "SRAM Motive Ultimate, 4-piston caliper, hydraulic disc, 180mm rotor",
-    "wheels": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control ",
+    "wheels": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control",
     "tires": "Specialized Fast Trak, Flex Lite Casing, T5/T7 Compound, 29x2.35",
     "detailedSpecs": [
       {
@@ -36155,7 +36155,7 @@
           },
           {
             "label": "Rueda delantera",
-            "value": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control World Cup hub, DT Swiss ceramic bearings, Roval Carbon "
+            "value": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control World Cup hub, DT Swiss ceramic bearings, Roval Carbon"
           },
           {
             "label": "Neumático trasero",
@@ -36219,8 +36219,8 @@
       "name": "SRAM XX SL Eagle AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34",
-      "cassette": "10-52",
+      "chainrings": "34T",
+      "cassette": "10-52T",
       "minGearRatio": 0.65,
       "maxGearRatio": 3.4
     },
@@ -36245,7 +36245,7 @@
       "Ruedas Roval Control World Cup"
     ],
     "brakes": "TRICKSTUFF Piccola, 2-piston, Carbon lever blade, Ti hardware, 160mm rotor",
-    "wheels": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control ",
+    "wheels": "Roval Control World Cup, Mini hooked carbon, 28.5mm inner width, tubeless ready, Roval Control",
     "tires": "Specialized Air Trak, Flex Lite Casing, T5/T7 Compound, 29x2.35",
     "detailedSpecs": [
       {
@@ -36371,7 +36371,7 @@
   {
     "id": "specialized-s-works-stumpjumper-15-evo-shimano-xtr-di2-fox-factory-2026",
     "brand": "Specialized",
-    "model": "S-Works Stumpjumper 15 EVO  - Shimano XTR Di2, FOX Factory",
+    "model": "S-Works Stumpjumper 15 EVO - Shimano XTR Di2, FOX Factory",
     "year": 2026,
     "discipline": "mtb",
     "officialUrl": "https://www.specialized.com/es/es/s-works-stumpjumper-15-evo-shimano-xtr-di2-fox-factory/p/4291508?color=5461536-4291508",
@@ -36393,8 +36393,8 @@
       "name": "Shimano XTR Di2",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-51",
+      "chainrings": "32T",
+      "cassette": "10-51T",
       "minGearRatio": 0.63,
       "maxGearRatio": 3.2
     },
@@ -36569,8 +36569,8 @@
       "name": "SRAM XX Eagle Transmission Derailleur",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-52",
+      "chainrings": "32T",
+      "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
     },
@@ -36753,8 +36753,8 @@
       "name": "Shimano Deore",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-51",
+      "chainrings": "32T",
+      "cassette": "10-51T",
       "minGearRatio": 0.63,
       "maxGearRatio": 3.2
     },
@@ -36927,8 +36927,8 @@
       "name": "SRAM NX Eagle",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "30",
-      "cassette": "11-50",
+      "chainrings": "30T",
+      "cassette": "11-50T",
       "minGearRatio": 0.6,
       "maxGearRatio": 2.73
     },
@@ -37109,8 +37109,8 @@
       "name": "SRAM S1000 Eagle AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-52",
+      "chainrings": "32T",
+      "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
     },
@@ -37298,8 +37298,8 @@
       "name": "SRAM Eagle 70 T-Type",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-52",
+      "chainrings": "32T",
+      "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
     },
@@ -37486,8 +37486,8 @@
       "name": "SRAM GX Eagle AXS Transmission",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-52",
+      "chainrings": "32T",
+      "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
     },
@@ -37645,7 +37645,7 @@
   {
     "id": "specialized-stumpjumper-15-evo-expert-shimano-xt-di2-fox-performance-elite-2026",
     "brand": "Specialized",
-    "model": "Stumpjumper 15 EVO Expert  - Shimano XT Di2, FOX Performance Elite",
+    "model": "Stumpjumper 15 EVO Expert - Shimano XT Di2, FOX Performance Elite",
     "year": 2026,
     "discipline": "mtb",
     "officialUrl": "https://www.specialized.com/es/es/stumpjumper-15-evo-expert-shimano-xt-di2-fox-performance-elite/p/4291645?color=5462209-4291645",
@@ -37667,8 +37667,8 @@
       "name": "Shimano XT Di2",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-51",
+      "chainrings": "32T",
+      "cassette": "10-51T",
       "minGearRatio": 0.63,
       "maxGearRatio": 3.2
     },
@@ -37848,8 +37848,8 @@
       "name": "SRAM X0 Eagle Transmission",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "32",
-      "cassette": "10-52",
+      "chainrings": "32T",
+      "cassette": "10-52T",
       "minGearRatio": 0.62,
       "maxGearRatio": 3.2
     },
@@ -37897,7 +37897,7 @@
           },
           {
             "label": "Horquilla",
-            "value": "FOX FLOAT 36 Factory, GRIP X2 damper, HS and LS rebound and compression adjustment, 15x110mm QR axle, 44mm offset, S1:150mm of travel, S2-S6:160mm of "
+            "value": "FOX FLOAT 36 Factory, GRIP X2 damper, HS and LS rebound and compression adjustment, 15x110mm QR axle, 44mm offset, S1:150mm of travel, S2-S6:160mm of"
           }
         ]
       },

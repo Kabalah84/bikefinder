@@ -32,9 +32,10 @@ import {
 
 interface BikeCardProps {
   bike: BikeProduct;
+  priority?: boolean;
 }
 
-export function BikeCard({ bike }: BikeCardProps) {
+export function BikeCard({ bike, priority = false }: BikeCardProps) {
   const router = useRouter();
   const { isInComparison, toggleBike } = useComparison();
   const selected = isInComparison(bike.id);
@@ -84,7 +85,7 @@ export function BikeCard({ bike }: BikeCardProps) {
       className={`group flex flex-col justify-between rounded-3xl bg-white border card-hover-lift overflow-hidden cursor-pointer relative ${
         selected
           ? "border-teal-600 ring-2 ring-teal-500/30 shadow-lg shadow-teal-500/10"
-          : "border-slate-200/90 hover:border-slate-300 shadow-2xs hover:shadow-xl"
+          : "border-slate-200/90 hover:border-slate-300 shadow-sm hover:shadow-xl"
       }`}
     >
       {/* Top Image & Floating Badges */}
@@ -95,7 +96,8 @@ export function BikeCard({ bike }: BikeCardProps) {
             alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year}) de ${formatDisciplineName(bike.discipline)}`}
             width={800}
             height={500}
-            loading="lazy"
+            loading={priority ? "eager" : "lazy"}
+            fetchPriority={priority ? "high" : "auto"}
             decoding="async"
             className="h-full w-full object-cover object-center group-hover:scale-105 transition-transform duration-500 ease-out"
             referrerPolicy="no-referrer"
@@ -118,28 +120,33 @@ export function BikeCard({ bike }: BikeCardProps) {
         {/* Top left floating discipline & year tags */}
         <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10 pr-12">
           <span
-            className={`rounded-full px-2.5 py-0.5 text-[10px] font-black uppercase tracking-wider border backdrop-blur-xs shadow-2xs ${getDisciplinePillClass()}`}
+            className={`rounded-full px-2.5 py-0.5 text-[10px] font-black uppercase tracking-wider border backdrop-blur-sm shadow-sm ${getDisciplinePillClass()}`}
           >
             {formatDisciplineName(bike.discipline)}
           </span>
-          <span className="rounded-full bg-slate-950/90 backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold text-white shadow-2xs">
+          <span className="rounded-full bg-slate-950/90 backdrop-blur-sm px-2 py-0.5 text-[10px] font-bold text-white shadow-sm">
             {bike.year}
           </span>
           {bike.isElectric && (
-            <span className="rounded-full bg-amber-400 text-slate-950 px-2 py-0.5 text-[10px] font-black shadow-2xs">
+            <span className="rounded-full bg-amber-400 text-slate-950 px-2 py-0.5 text-[10px] font-black shadow-sm">
               ⚡ E-Bike
             </span>
           )}
           {bike.suspensionType === "full" && (
-            <span className="rounded-full bg-purple-950/90 text-purple-100 backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold shadow-2xs">
+            <span className="rounded-full bg-purple-950/90 text-purple-100 backdrop-blur-sm px-2 py-0.5 text-[10px] font-bold shadow-sm">
               Doble
+            </span>
+          )}
+          {bike.suspensionType === "hardtail" && (
+            <span className="rounded-full bg-indigo-950/90 text-indigo-100 backdrop-blur-sm px-2 py-0.5 text-[10px] font-bold shadow-sm">
+              Hardtail
             </span>
           )}
         </div>
 
         {/* Top right discount badge */}
         {bike.discountPercentage && bike.discountPercentage > 0 ? (
-          <div className="absolute top-3 right-3 flex items-center gap-1 rounded-full bg-rose-700 px-2.5 py-0.5 text-[10px] font-black text-white shadow-xs z-10">
+          <div className="absolute top-3 right-3 flex items-center gap-1 rounded-full bg-rose-700 px-2.5 py-0.5 text-[10px] font-black text-white shadow-sm z-10">
             <Flame className="w-3 h-3 fill-white" />
             <span>-{bike.discountPercentage}%</span>
           </div>
@@ -148,19 +155,19 @@ export function BikeCard({ bike }: BikeCardProps) {
         {/* Bottom Shifting tech & Component Tier pills */}
         <div className="absolute bottom-2.5 left-3 right-3 flex items-center justify-between gap-1.5 z-10">
           {bike.groupset.isElectronic ? (
-            <span className="inline-flex items-center gap-1 rounded-md bg-teal-950/90 backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold text-teal-200 border border-teal-500/40">
+            <span className="inline-flex items-center gap-1 rounded-md bg-teal-950/90 backdrop-blur-sm px-2 py-0.5 text-[10px] font-bold text-teal-200 border border-teal-500/40">
               <Zap className="w-3 h-3 text-teal-300" />
               Di2 / AXS
             </span>
           ) : (
-            <span className="inline-flex items-center gap-1 rounded-md bg-slate-950/85 backdrop-blur-xs px-2 py-0.5 text-[10px] font-semibold text-slate-100">
+            <span className="inline-flex items-center gap-1 rounded-md bg-slate-950/85 backdrop-blur-sm px-2 py-0.5 text-[10px] font-semibold text-slate-100">
               <Cog className="w-3 h-3 text-slate-300" />
               Mecánico {bike.groupset.speedCount}v
             </span>
           )}
 
           <span
-            className={`inline-flex items-center gap-1 rounded-md backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold border ${componentTier.badgeClass}`}
+            className={`inline-flex items-center gap-1 rounded-md backdrop-blur-sm px-2 py-0.5 text-[10px] font-bold border ${componentTier.badgeClass}`}
           >
             <Award className="w-3 h-3 shrink-0" />
             <span>{componentTier.shortLabel}</span>
@@ -301,7 +308,7 @@ export function BikeCard({ bike }: BikeCardProps) {
             rel="noopener noreferrer"
             onClick={(e) => e.stopPropagation()}
             aria-label={`Ver ${bike.brand} ${bike.model} en web oficial de ${bike.brand} (se abre en pestaña nueva)`}
-            className="w-full flex items-center justify-center gap-1.5 rounded-xl bg-slate-950 py-2.5 px-3 text-xs font-bold text-white hover:bg-teal-700 transition-colors shadow-xs"
+            className="w-full flex items-center justify-center gap-1.5 rounded-xl bg-slate-950 py-2.5 px-3 text-xs font-bold text-white hover:bg-teal-700 transition-colors shadow-sm"
             title={`Ver ${bike.brand} ${bike.model} en la web oficial de ${bike.brand}`}
           >
             <span className="truncate">Ver en web oficial de {bike.brand}</span>
@@ -318,7 +325,7 @@ export function BikeCard({ bike }: BikeCardProps) {
               type="button"
               className={`flex items-center justify-center gap-1.5 rounded-xl py-2 px-2.5 text-xs font-bold transition-all cursor-pointer ${
                 selected
-                  ? "bg-teal-700 text-white hover:bg-teal-800 shadow-xs"
+                  ? "bg-teal-700 text-white hover:bg-teal-800 shadow-sm"
                   : "bg-slate-100 text-slate-800 hover:bg-slate-200 hover:text-slate-950 border border-slate-200"
               }`}
             >

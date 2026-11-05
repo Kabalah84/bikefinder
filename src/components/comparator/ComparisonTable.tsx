@@ -1,12 +1,13 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Link from "next/link";
 import { BikeProduct } from "@/lib/schema/bike";
 import {
   formatCurrencyEur,
   formatDisciplineName,
   formatMaterialName,
+  formatSuspensionName,
   formatWeight,
   getComponentTierBadge,
 } from "@/lib/utils/formatters";
@@ -49,9 +50,40 @@ export function ComparisonTable({ bikes, onRemoveBike }: ComparisonTableProps) {
   });
   const [highlightDiffsOnly, setHighlightDiffsOnly] = useState(false);
 
+  const stickyScrollRef = useRef<HTMLDivElement>(null);
+  const tableScrollRef = useRef<HTMLDivElement>(null);
+  const isSyncingScroll = useRef<boolean>(false);
+
+  const syncHorizontalScroll = (
+    source: HTMLDivElement | null,
+    target: HTMLDivElement | null
+  ) => {
+    if (!source || !target || isSyncingScroll.current) return;
+    isSyncingScroll.current = true;
+    const maxSourceScroll = source.scrollWidth - source.clientWidth;
+    const maxTargetScroll = target.scrollWidth - target.clientWidth;
+    if (maxSourceScroll > 0 && maxTargetScroll > 0) {
+      const scrollRatio = source.scrollLeft / maxSourceScroll;
+      target.scrollLeft = Math.round(scrollRatio * maxTargetScroll);
+    } else {
+      target.scrollLeft = source.scrollLeft;
+    }
+    requestAnimationFrame(() => {
+      isSyncingScroll.current = false;
+    });
+  };
+
+  const handleStickyScroll = () => {
+    syncHorizontalScroll(stickyScrollRef.current, tableScrollRef.current);
+  };
+
+  const handleTableScroll = () => {
+    syncHorizontalScroll(tableScrollRef.current, stickyScrollRef.current);
+  };
+
   if (bikes.length === 0) {
     return (
-      <div className="rounded-3xl border border-slate-200 bg-white p-12 text-center shadow-xs">
+      <div className="rounded-3xl border border-slate-200 bg-white p-12 text-center shadow-sm">
         <Compass className="mx-auto h-12 w-12 text-teal-700 mb-4" />
         <h3 className="text-xl font-bold text-slate-900 mb-2">No hay bicicletas seleccionadas</h3>
         <p className="text-sm text-slate-600 max-w-md mx-auto mb-6">
@@ -179,7 +211,7 @@ export function ComparisonTable({ bikes, onRemoveBike }: ComparisonTableProps) {
       )}
 
       {/* Barra de controles de visualización Mobile-First */}
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl bg-white p-3.5 border border-slate-200 shadow-2xs">
+      <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl bg-white p-3.5 border border-slate-200 shadow-sm">
         <div className="flex items-center gap-2">
           <button
             type="button"
@@ -187,7 +219,7 @@ export function ComparisonTable({ bikes, onRemoveBike }: ComparisonTableProps) {
             aria-pressed={highlightDiffsOnly}
             className={`inline-flex items-center gap-1.5 rounded-xl px-3 py-1.5 text-xs font-bold border transition-all cursor-pointer ${
               highlightDiffsOnly
-                ? "bg-teal-700 text-white border-teal-700 shadow-2xs"
+                ? "bg-teal-700 text-white border-teal-700 shadow-sm"
                 : "bg-slate-50 text-slate-800 border-slate-200 hover:bg-slate-100"
             }`}
           >
@@ -223,8 +255,8 @@ export function ComparisonTable({ bikes, onRemoveBike }: ComparisonTableProps) {
         aria-label="Cabecera fija de modelos comparados"
         className="sticky top-16 z-30 rounded-2xl bg-slate-950/95 backdrop-blur-md text-white border border-slate-800 shadow-lg px-3 py-2.5 sm:px-5"
       >
-        <div className="flex items-center gap-3 overflow-x-auto no-scrollbar">
-          <div className="hidden md:flex flex-col shrink-0 w-44 pr-2 border-r border-slate-800">
+        <div className="flex items-center gap-3">
+          <div className="hidden md:flex flex-col shrink-0 w-44 sm:w-52 pr-3 border-r border-slate-800">
             <span className="text-[10px] font-black uppercase tracking-wider text-teal-400">
               Modelos Fijados
             </span>
@@ -232,44 +264,57 @@ export function ComparisonTable({ bikes, onRemoveBike }: ComparisonTableProps) {
               {bikes.length} {bikes.length === 1 ? "bicicleta" : "bicicletas"} en pantalla
             </span>
           </div>
-          <div className="grid grid-flow-col auto-cols-[minmax(175px,1fr)] gap-2.5 flex-1">
-            {bikes.map((bike) => (
-              <div
-                key={`sticky-${bike.id}`}
-                className="flex items-center justify-between gap-2 rounded-xl bg-slate-900/90 border border-slate-800 px-2.5 py-1.5"
-              >
-                <div className="min-w-0">
-                  <span className="text-[10px] font-extrabold uppercase tracking-wider text-teal-400 block truncate">
-                    {bike.brand} · {bike.year}
-                  </span>
-                  <Link
-                    href={`/bici/${bike.id}`}
-                    className="text-xs font-bold text-white hover:text-teal-300 truncate block"
-                  >
-                    {bike.model}
-                  </Link>
-                  <span className="text-[11px] font-black text-emerald-400">
-                    {formatCurrencyEur(bike.currentPriceEur)}
-                  </span>
-                </div>
-                <a
-                  href={sanitizeExternalUrl(bike.officialUrl)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`Ver en web oficial de ${bike.brand}`}
-                  title={`Ver en web oficial de ${bike.brand}`}
-                  className="shrink-0 p-2 rounded-lg bg-teal-500 text-slate-950 hover:bg-teal-400 transition-colors"
+          <div
+            ref={stickyScrollRef}
+            onScroll={handleStickyScroll}
+            className="flex-1 overflow-x-auto no-scrollbar"
+          >
+            <div className="grid grid-flow-col auto-cols-[minmax(220px,1fr)] gap-2.5">
+              {bikes.map((bike) => (
+                <div
+                  key={`sticky-${bike.id}`}
+                  className="flex items-center justify-between gap-2 rounded-xl bg-slate-900/90 border border-slate-800 px-2.5 py-1.5"
                 >
-                  <ExternalLink className="w-3.5 h-3.5" />
-                </a>
-              </div>
-            ))}
+                  <div className="min-w-0">
+                    <span className="text-[10px] font-extrabold uppercase tracking-wider text-teal-400 block truncate">
+                      {bike.brand} · {bike.year}
+                    </span>
+                    <Link
+                      href={`/bici/${bike.id}`}
+                      className="text-xs font-bold text-white hover:text-teal-300 truncate block"
+                    >
+                      {bike.model}
+                    </Link>
+                    <span className="text-[11px] font-black text-emerald-400">
+                      {formatCurrencyEur(bike.currentPriceEur)}
+                    </span>
+                  </div>
+                  <a
+                    href={sanitizeExternalUrl(bike.officialUrl)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Ver en web oficial de ${bike.brand} (se abre en nueva pestaña)`}
+                    title={`Ver en web oficial de ${bike.brand}`}
+                    className="shrink-0 inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-teal-500 text-slate-950 hover:bg-teal-400 transition-colors"
+                  >
+                    <span className="hidden sm:inline text-[11px] font-extrabold">
+                      Web de {bike.brand}
+                    </span>
+                    <ExternalLink className="w-3.5 h-3.5" aria-hidden="true" />
+                  </a>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
 
       {/* Tabla Comparativa Desplazable Horizontalmente */}
-      <div className="overflow-x-auto rounded-3xl border border-slate-200 bg-white shadow-xs">
+      <div
+        ref={tableScrollRef}
+        onScroll={handleTableScroll}
+        className="overflow-x-auto rounded-3xl border border-slate-200 bg-white shadow-sm"
+      >
         <table className="w-full border-collapse text-left">
           {/* Header Row: Bicicletas, Insignias y Enlaces Oficiales */}
           <thead>
@@ -311,7 +356,7 @@ export function ComparisonTable({ bikes, onRemoveBike }: ComparisonTableProps) {
                     )}
 
                     {/* Imagen con width/height explícitos para evitar CLS */}
-                    <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-slate-100 mb-3 border border-slate-200/70 shadow-2xs">
+                    <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-slate-100 mb-3 border border-slate-200/70 shadow-sm">
                       <img
                         src={bike.officialImageUrl}
                         alt={`Bicicleta ${bike.brand} ${bike.model} (${bike.year})`}
@@ -327,7 +372,7 @@ export function ComparisonTable({ bikes, onRemoveBike }: ComparisonTableProps) {
                       </span>
                     </div>
 
-                    {/* Insignia de gama */}
+                    {/* Insignia de gama, suspensión y e-bike */}
                     <div className="mb-2 flex flex-wrap gap-1">
                       <span
                         className={`inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[10px] font-bold border ${tier.badgeClass}`}
@@ -335,6 +380,17 @@ export function ComparisonTable({ bikes, onRemoveBike }: ComparisonTableProps) {
                         <Award className="w-3 h-3" />
                         <span>{tier.shortLabel}</span>
                       </span>
+                      {bike.suspensionType && bike.suspensionType !== "rigid" && (
+                        <span className="inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[10px] font-bold bg-indigo-50 text-indigo-800 border border-indigo-200">
+                          Susp. {formatSuspensionName(bike.suspensionType)}
+                        </span>
+                      )}
+                      {bike.isElectric && (
+                        <span className="inline-flex items-center gap-1 rounded-md px-2 py-0.5 text-[10px] font-bold bg-amber-100 text-amber-900 border border-amber-300">
+                          <Zap className="w-3 h-3 text-amber-700" />
+                          E-Bike
+                        </span>
+                      )}
                     </div>
 
                     {/* Nombre y Marca */}
@@ -365,7 +421,7 @@ export function ComparisonTable({ bikes, onRemoveBike }: ComparisonTableProps) {
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`Ver en web oficial de ${bike.brand} (se abre en nueva pestaña)`}
-                      className="w-full inline-flex items-center justify-center gap-1.5 rounded-xl bg-slate-950 py-2.5 px-3 text-xs font-bold text-white hover:bg-teal-700 transition-colors shadow-xs"
+                      className="w-full inline-flex items-center justify-center gap-1.5 rounded-xl bg-slate-950 py-2.5 px-3 text-xs font-bold text-white hover:bg-teal-700 transition-colors shadow-sm"
                     >
                       <span className="truncate">Ver en web oficial de {bike.brand}</span>
                       <ExternalLink className="w-3.5 h-3.5 text-teal-300 shrink-0" aria-hidden="true" />
@@ -467,7 +523,7 @@ export function ComparisonTable({ bikes, onRemoveBike }: ComparisonTableProps) {
                 >
                   <h2 className="text-xs font-black uppercase tracking-wider text-slate-900 flex items-center gap-2">
                     <Layers className="w-4 h-4 text-teal-700" />
-                    <span>2. Cuadro, Peso Oficial y Paso de Rueda</span>
+                    <span>2. Cuadro, Suspensión, Peso Oficial y Paso de Rueda</span>
                   </h2>
                   <ChevronDown
                     className={`w-4 h-4 text-slate-700 transition-transform ${
@@ -561,6 +617,42 @@ export function ComparisonTable({ bikes, onRemoveBike }: ComparisonTableProps) {
                   {bikes.map((bike) => (
                     <td key={bike.id} className="p-4 font-bold text-slate-900">
                       {formatMaterialName(bike.forkMaterial)}
+                    </td>
+                  ))}
+                </tr>
+                <tr className={getDiffRowClass(hasDifferences((b) => b.suspensionType || "rigid"))}>
+                  <th
+                    scope="row"
+                    className="sticky left-0 bg-white p-4 sm:px-6 font-bold text-slate-800 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10"
+                  >
+                    Tipo de Suspensión
+                  </th>
+                  {bikes.map((bike) => (
+                    <td key={bike.id} className="p-4 font-bold text-slate-900">
+                      {bike.suspensionType === "full"
+                        ? "Doble Suspensión (Full)"
+                        : bike.suspensionType === "hardtail"
+                        ? "Suspensión Delantera (Hardtail)"
+                        : "Rígida"}
+                    </td>
+                  ))}
+                </tr>
+                <tr className={getDiffRowClass(hasDifferences((b) => Boolean(b.isElectric)))}>
+                  <th
+                    scope="row"
+                    className="sticky left-0 bg-white p-4 sm:px-6 font-bold text-slate-800 shadow-[2px_0_5px_-2px_rgba(0,0,0,0.05)] z-10"
+                  >
+                    Asistencia Eléctrica
+                  </th>
+                  {bikes.map((bike) => (
+                    <td key={bike.id} className="p-4">
+                      {bike.isElectric ? (
+                        <span className="inline-flex items-center gap-1 font-bold text-amber-900 bg-amber-50 px-2.5 py-0.5 rounded-lg border border-amber-200">
+                          <Zap className="w-3.5 h-3.5 text-amber-700" /> E-Bike (Asistida)
+                        </span>
+                      ) : (
+                        <span className="text-slate-700 font-semibold">Muscular (Convencional)</span>
+                      )}
                     </td>
                   ))}
                 </tr>

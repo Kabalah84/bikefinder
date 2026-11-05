@@ -11,7 +11,7 @@ import Link from "next/link";
 export const metadata: Metadata = constructMetadata({
   title: "Calculadora de Desarrollos Ciclistas y Ratios (1x y 2x)",
   description:
-    "Calcula metros de avance por pedalada, ratios de subida y velocidades en km/h a 70, 80, 90 y 100 RPM según tu combinación de platos (48/31, 50/34, 40T) y cassettes (11-36, 10-44, 10-50, 11-34).",
+    "Calcula metros de avance por pedalada, ratios de subida y velocidades en km/h a 70, 80, 90 y 100 RPM para Gravel, Carretera y MTB (platos 32T, 40T, 48/31, 50/34 y cassettes 10-51, 10-52, 10-44, 11-34).",
   canonicalPath: "/calculadora-desarrollos",
   keywords: [
     "calculadora desarrollos ciclismo",
@@ -19,6 +19,7 @@ export const metadata: Metadata = constructMetadata({
     "metros avance pedalada",
     "shimano grx desarrollos",
     "sram axs xplr desarrollos",
+    "calculadora desarrollos mtb 1x12",
     "calculadora 1x gravel",
     "cadencia rpm kmh bicicleta",
   ],
@@ -30,7 +31,7 @@ export default function CalculadoraDesarrollosPage() {
   const webAppSchema = generateWebApplicationSchema({
     name: "Calculadora de Desarrollos Ciclistas y Ratios",
     description:
-      "Calculadora y simulador de transmisiones 1x y 2x para ciclismo de Gravel y Carretera con tablas de cadencia, velocidad y avance por pedalada.",
+      "Calculadora y simulador de transmisiones 1x y 2x para ciclismo de Gravel, Carretera y MTB con tablas de cadencia, velocidad y avance por pedalada.",
     path: "/calculadora-desarrollos",
     applicationCategory: "SportsApplication",
   });
@@ -46,7 +47,7 @@ export default function CalculadoraDesarrollosPage() {
       <JsonLd data={[webAppSchema, breadcrumbsSchema]} />
 
       {/* Breadcrumbs */}
-      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-500">
+      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-600">
         <Link href="/" className="hover:text-teal-600 flex items-center gap-1">
           <ArrowLeft className="w-3.5 h-3.5" /> Inicio
         </Link>
@@ -65,8 +66,8 @@ export default function CalculadoraDesarrollosPage() {
         <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
           Calculadora de Desarrollos y Ratios
         </h1>
-        <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
-          Simula transmisiones completas de Gravel y Carretera (Shimano GRX, 105, Ultegra, SRAM AXS XPLR y Mullet). Comprueba la velocidad real en km/h para cada corona y tus metros de avance por pedalada.
+        <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+          Simula transmisiones completas de Gravel, Carretera y MTB (Shimano GRX, 105, Ultegra, XT/XTR, SRAM AXS XPLR, Eagle y Mullet). Comprueba la velocidad real en km/h para cada corona y tus metros de avance por pedalada.
         </p>
       </header>
 
@@ -76,7 +77,7 @@ export default function CalculadoraDesarrollosPage() {
       </section>
 
       {/* Educational Guide */}
-      <section aria-label="Guía técnica de desarrollos" className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+      <section aria-label="Guía técnica de desarrollos" className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
         <h2 className="text-lg font-bold text-slate-900 flex items-center gap-2">
           <Info className="w-5 h-5 text-teal-600" />
           ¿Cómo entender los desarrollos de tu bicicleta?

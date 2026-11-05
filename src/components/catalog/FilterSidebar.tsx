@@ -74,23 +74,23 @@ export function FilterSidebar({
   };
 
   return (
-    <aside className="w-full rounded-3xl bg-white border border-slate-200/90 shadow-2xs md:max-h-[calc(100vh-6rem)] md:flex md:flex-col overflow-hidden">
+    <aside className="w-full rounded-3xl bg-white border border-slate-200/90 shadow-sm md:max-h-[calc(100vh-6rem)] md:flex md:flex-col overflow-hidden">
       {/* Header & Reset (Fixed at top of filter card) */}
       <div className="p-4 sm:p-5 border-b border-slate-100 bg-slate-50/50 flex items-center justify-between shrink-0">
         <div className="flex items-center gap-2.5">
-          <div className="p-2 rounded-xl bg-teal-50 text-teal-600 border border-teal-100 shadow-2xs">
+          <div className="p-2 rounded-xl bg-teal-50 text-teal-600 border border-teal-100 shadow-sm">
             <SlidersHorizontal className="w-4 h-4" />
           </div>
           <div>
             <h2 className="font-black text-slate-950 text-sm">Filtros Técnicos</h2>
-            <span className="text-[10px] font-bold text-slate-500">
+            <span className="text-[10px] font-bold text-slate-600">
               {filteredBikesCount} disponibles
             </span>
           </div>
         </div>
         <button
           onClick={onReset}
-          className="flex items-center gap-1 text-xs font-bold text-slate-500 hover:text-rose-600 transition-colors px-2 py-1 rounded-lg hover:bg-rose-50 cursor-pointer"
+          className="flex items-center gap-1 text-xs font-bold text-slate-600 hover:text-rose-600 transition-colors px-2 py-1 rounded-lg hover:bg-rose-50 cursor-pointer"
         >
           <RotateCcw className="w-3.5 h-3.5" />
           Limpiar
@@ -122,7 +122,7 @@ export function FilterSidebar({
                 onClick={() => handleDisciplineToggle(item.id as Discipline)}
                 className={`py-2 px-2.5 rounded-xl text-xs font-semibold text-left border transition-all ${
                   isSelected
-                    ? "bg-slate-900 text-white border-slate-900 shadow-xs"
+                    ? "bg-slate-900 text-white border-slate-900 shadow-sm"
                     : `bg-slate-50 text-slate-700 border-slate-200 ${item.color}`
                 }`}
               >
@@ -152,7 +152,7 @@ export function FilterSidebar({
                 onClick={() => handleSuspensionToggle(item.id as SuspensionType)}
                 className={`py-2 px-1 rounded-xl text-xs font-semibold text-center border transition-all ${
                   isSelected
-                    ? "bg-slate-900 text-white border-slate-900 shadow-xs"
+                    ? "bg-slate-900 text-white border-slate-900 shadow-sm"
                     : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
                 }`}
               >
@@ -188,7 +188,7 @@ export function FilterSidebar({
             onClick={() => onFilterChange({ ...filters, isElectric: false })}
             className={`py-2 px-1 rounded-xl text-xs font-semibold border transition-all text-center ${
               filters.isElectric === false
-                ? "bg-slate-900 text-white border-slate-900 shadow-xs"
+                ? "bg-slate-900 text-white border-slate-900 shadow-sm"
                 : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
             }`}
           >
@@ -199,7 +199,7 @@ export function FilterSidebar({
             onClick={() => onFilterChange({ ...filters, isElectric: true })}
             className={`py-2 px-1 rounded-xl text-xs font-semibold border transition-all text-center flex items-center justify-center gap-1 ${
               filters.isElectric === true
-                ? "bg-amber-500 text-slate-950 border-amber-500 shadow-xs font-black"
+                ? "bg-amber-500 text-slate-950 border-amber-500 shadow-sm font-black"
                 : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
             }`}
           >
@@ -230,7 +230,7 @@ export function FilterSidebar({
             onClick={() => onFilterChange({ ...filters, isElectronic: true })}
             className={`py-2 px-2 rounded-xl text-xs font-semibold border transition-all text-center flex items-center justify-center gap-1 ${
               filters.isElectronic === true
-                ? "bg-teal-600 text-white border-teal-600 shadow-xs"
+                ? "bg-teal-600 text-white border-teal-600 shadow-sm"
                 : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
             }`}
           >
@@ -296,7 +296,7 @@ export function FilterSidebar({
       <div>
         <div className="flex items-center justify-between mb-2">
           <label className="text-xs font-bold uppercase tracking-wider text-slate-700 flex items-center gap-1">
-            <Euro className="w-3.5 h-3.5 text-slate-500" />
+            <Euro className="w-3.5 h-3.5 text-slate-600" />
             Precio Máximo
           </label>
           <span className="text-xs font-black text-slate-900">
@@ -328,7 +328,7 @@ export function FilterSidebar({
       {/* Material del Cuadro */}
       <div>
         <label className="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-2 flex items-center gap-1">
-          <Layers className="w-3.5 h-3.5 text-slate-500" />
+          <Layers className="w-3.5 h-3.5 text-slate-600" />
           Material del Cuadro
         </label>
         <div className="grid grid-cols-2 gap-1.5">
@@ -346,7 +346,7 @@ export function FilterSidebar({
                 onClick={() => handleMaterialToggle(mat.id as FrameMaterial)}
                 className={`py-1.5 px-2 rounded-xl text-xs font-semibold text-center border transition-all ${
                   isSelected
-                    ? "bg-slate-900 text-white border-slate-900 shadow-xs"
+                    ? "bg-slate-900 text-white border-slate-900 shadow-sm"
                     : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
                 }`}
               >
@@ -475,7 +475,7 @@ export function FilterSidebar({
       </div>
 
       {/* Resultados counter footer (Fixed at bottom of filter card) */}
-      <div className="p-3 border-t border-slate-100 text-center text-xs font-medium text-slate-500 bg-slate-50/80 shrink-0">
+      <div className="p-3 border-t border-slate-100 text-center text-xs font-medium text-slate-600 bg-slate-50/80 shrink-0">
         Mostrando <span className="font-bold text-slate-900">{filteredBikesCount}</span> de{" "}
         <span className="font-bold text-slate-900">{totalBikesCount}</span> bicicletas
       </div>

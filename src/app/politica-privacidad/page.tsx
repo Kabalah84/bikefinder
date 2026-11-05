@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { constructMetadata } from "@/lib/seo/metadata";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { generateBreadcrumbsSchema } from "@/lib/seo/schema";
 import { ShieldCheck, Lock, ArrowLeft, Mail, CheckCircle2, UserCheck, Eye } from "lucide-react";
 
 export const metadata: Metadata = constructMetadata({
@@ -11,10 +13,17 @@ export const metadata: Metadata = constructMetadata({
 });
 
 export default function PoliticaPrivacidadPage() {
+  const breadcrumbsSchema = generateBreadcrumbsSchema([
+    { name: "Inicio", url: "/" },
+    { name: "Política de Privacidad", url: "/politica-privacidad" },
+  ]);
+
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-6 sm:pt-10 space-y-8">
+      <JsonLd data={breadcrumbsSchema} />
+
       {/* Breadcrumbs */}
-      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-500">
+      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-600">
         <Link href="/" className="hover:text-teal-600 flex items-center gap-1">
           <ArrowLeft className="w-3.5 h-3.5" /> Inicio
         </Link>
@@ -33,7 +42,7 @@ export default function PoliticaPrivacidadPage() {
         <h1 className="text-2xl sm:text-4xl font-black tracking-tight text-slate-950">
           Política de Privacidad
         </h1>
-        <p className="text-xs sm:text-sm text-slate-500">
+        <p className="text-xs sm:text-sm text-slate-600">
           Última actualización: Septiembre de 2026 · Conforme al Reglamento General de Protección de Datos (UE 2016/679) y la Ley Orgánica 3/2018 (LOPDGDD).
         </p>
       </header>
@@ -41,7 +50,7 @@ export default function PoliticaPrivacidadPage() {
       {/* Content */}
       <div className="prose prose-slate max-w-none text-xs sm:text-sm leading-relaxed text-slate-700 space-y-6">
         {/* 1. Responsable */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <UserCheck className="w-5 h-5 text-teal-600 shrink-0" />
             <span>1. Responsable del Tratamiento de Datos</span>
@@ -56,7 +65,7 @@ export default function PoliticaPrivacidadPage() {
         </section>
 
         {/* 2. Datos recopilados y finalidad */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <Eye className="w-5 h-5 text-teal-600 shrink-0" />
             <span>2. Datos que se Recopilan y Finalidad del Tratamiento</span>
@@ -81,7 +90,7 @@ export default function PoliticaPrivacidadPage() {
         </section>
 
         {/* 3. Base Jurídica */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <CheckCircle2 className="w-5 h-5 text-teal-600 shrink-0" />
             <span>3. Base Jurídica del Tratamiento</span>
@@ -97,7 +106,7 @@ export default function PoliticaPrivacidadPage() {
         </section>
 
         {/* 4. Cesión y Conservación */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <ShieldCheck className="w-5 h-5 text-teal-600 shrink-0" />
             <span>4. Destinatarios y Plazo de Conservación</span>
@@ -111,7 +120,7 @@ export default function PoliticaPrivacidadPage() {
         </section>
 
         {/* 5. Derechos del Usuario */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <Lock className="w-5 h-5 text-teal-600 shrink-0" />
             <span>5. Derechos de los Usuarios (Derechos ARCO+)</span>
@@ -138,7 +147,7 @@ export default function PoliticaPrivacidadPage() {
               <span>contacto@comparabici.es (Asunto: Ejercicio de Derechos)</span>
             </a>
           </div>
-          <p className="text-xs text-slate-500 pt-2">
+          <p className="text-xs text-slate-600 pt-2">
             Asimismo, el usuario tiene derecho a presentar una reclamación ante la autoridad de control en materia de protección de datos, la <strong>Agencia Española de Protección de Datos (AEPD)</strong> en <a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">www.aepd.es</a>.
           </p>
         </section>

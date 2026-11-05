@@ -12,6 +12,8 @@ export const TIRE_SIZES: TireSize[] = [
   { id: "700x40", name: "700 x 40c (Gravel Equilibrado)", circumferenceMeters: 2.200 },
   { id: "700x45", name: "700 x 45c (Gravel Aventura)", circumferenceMeters: 2.224 },
   { id: "700x50", name: "700 x 50c (Gravel Monstruo / 2.0\")", circumferenceMeters: 2.240 },
+  { id: "29x2.2", name: "29 x 2.25\" (MTB XC / Maratón)", circumferenceMeters: 2.310 },
+  { id: "29x2.4", name: "29 x 2.40\" (MTB Trail / Enduro)", circumferenceMeters: 2.340 },
 ];
 
 export interface GearCombination {
@@ -28,7 +30,7 @@ export interface GearCombination {
 export interface TransmissionPreset {
   id: string;
   name: string;
-  category: "Gravel" | "Carretera" | "All-Road";
+  category: "Gravel" | "Carretera" | "All-Road" | "MTB";
   chainrings: number[];
   cogs: number[];
   defaultTireId: string;
@@ -81,7 +83,59 @@ export const TRANSMISSION_PRESETS: TransmissionPreset[] = [
     defaultTireId: "700x28",
     description: "Desarrollo de competición escaladora: saltos de 1 diente entre piñones y plato 52T para sprints a >55 km/h.",
   },
+  {
+    id: "mtb-1x12-51",
+    name: "Shimano XT / SRAM Eagle 1x12v (32T + 10-51T)",
+    category: "MTB",
+    chainrings: [32],
+    cogs: [10, 12, 14, 16, 18, 21, 24, 28, 33, 39, 45, 51],
+    defaultTireId: "29x2.2",
+    description: "Transmisión estándar de MTB XC y Trail con 510% de rango y ratio de escalada extrema 0.63.",
+  },
 ];
+
+const KNOWN_CASSETTE_COGS: Record<string, number[]> = {
+  "10-52": [10, 12, 14, 16, 18, 21, 24, 28, 32, 36, 42, 52],
+  "10-51": [10, 12, 14, 16, 18, 21, 24, 28, 33, 39, 45, 51],
+  "11-51": [11, 13, 15, 18, 21, 24, 28, 33, 39, 45, 51],
+  "10-50": [10, 12, 14, 16, 18, 21, 24, 28, 32, 36, 42, 50],
+  "11-50": [11, 13, 15, 17, 19, 22, 25, 28, 32, 36, 42, 50],
+  "10-46": [10, 11, 12, 13, 15, 17, 19, 21, 24, 28, 32, 38, 46],
+  "11-46": [11, 13, 15, 17, 19, 21, 24, 28, 32, 37, 46],
+  "10-45": [10, 12, 14, 16, 18, 21, 24, 28, 32, 36, 40, 45],
+  "11-45": [11, 13, 15, 17, 20, 23, 26, 30, 34, 39, 45],
+  "10-44": [10, 11, 13, 15, 17, 19, 21, 24, 28, 32, 38, 44],
+  "11-44": [11, 12, 13, 15, 17, 19, 21, 24, 28, 32, 38, 44],
+  "11-42": [11, 13, 15, 17, 19, 21, 24, 28, 32, 37, 42],
+  "11-39": [11, 13, 15, 17, 20, 23, 26, 30, 34, 39],
+  "10-36": [10, 11, 12, 13, 15, 17, 19, 21, 24, 28, 32, 36],
+  "11-36": [11, 12, 13, 15, 17, 19, 21, 24, 28, 32, 36],
+  "11-34": [11, 12, 13, 14, 15, 17, 19, 21, 24, 27, 30, 34],
+  "10-33": [10, 11, 12, 13, 14, 15, 17, 19, 21, 24, 28, 33],
+  "11-32": [11, 12, 13, 14, 15, 17, 19, 21, 23, 25, 28, 32],
+  "11-30": [11, 12, 13, 14, 15, 16, 17, 19, 21, 24, 27, 30],
+};
+
+export function buildCogsFromCassette(cassette: string, speedCount: number = 12): number[] {
+  const clean = cassette.replace(/T$/i, "").trim();
+  if (KNOWN_CASSETTE_COGS[clean]) {
+    return KNOWN_CASSETTE_COGS[clean];
+  }
+  const parts = clean.split("-").map((c) => parseInt(c.trim(), 10));
+  if (parts.length === 2 && parts[0] > 5 && parts[1] > parts[0]) {
+    const [minCog, maxCog] = parts;
+    const steps = Math.max(7, Math.min(13, speedCount || 12));
+    const cogs = new Set<number>([minCog]);
+    for (let i = 1; i < steps - 1; i++) {
+      const ratio = i / (steps - 1);
+      const interpolated = Math.round(minCog * Math.pow(maxCog / minCog, ratio));
+      cogs.add(Math.max(minCog + 1, Math.min(maxCog - 1, interpolated)));
+    }
+    cogs.add(maxCog);
+    return Array.from(cogs).sort((a, b) => a - b);
+  }
+  return [11, 13, 15, 17, 19, 21, 24, 28, 32, 36];
+}
 
 export function calculateGearMatrix(
   chainrings: number[],
@@ -91,12 +145,14 @@ export function calculateGearMatrix(
   const result: GearCombination[] = [];
 
   for (const ring of chainrings) {
+    if (!Number.isFinite(ring) || ring <= 5) continue;
     for (const cog of cogs) {
+      if (!Number.isFinite(cog) || cog <= 5) continue;
       const ratio = ring / cog;
       const meters = ratio * tireCircumferenceMeters;
       result.push({
         chainring: ring,
-        cog,
+        cog: cog,
         ratio,
         metersOfDevelopment: Number(meters.toFixed(2)),
         speedAt70Rpm: Number(((meters * 70 * 60) / 1000).toFixed(1)),

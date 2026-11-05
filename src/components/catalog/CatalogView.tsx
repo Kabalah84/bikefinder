@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
-import { BikeProduct, Discipline } from "@/lib/schema/bike";
+import { BikeProduct, Discipline, SuspensionType } from "@/lib/schema/bike";
 import { BikeFilterCriteria, filterBikes } from "@/lib/data/bikes";
 import { formatDisciplineName, formatMaterialName } from "@/lib/utils/formatters";
 import {
@@ -46,22 +46,45 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
   const rawQueryDiscipline = searchParams?.get("discipline");
   const rawQueryBrand = searchParams?.get("brand");
   const rawSearchQuery = searchParams?.get("q");
+  const rawQueryElectric = searchParams?.get("isElectric");
+  const rawQuerySuspension = searchParams?.get("suspension");
 
-  // Sincronizar disciplina, marca y búsqueda desde la URL previa validación/sanitización
+  // Sincronizar disciplina, marca, búsqueda, e-bike y suspensión desde la URL previa validación/sanitización
   useEffect(() => {
     const validDiscipline = validateDisciplineParam(rawQueryDiscipline) || initialDiscipline;
     const validBrand = validateBrandParam(rawQueryBrand, brands) || initialBrand;
+    const validElectric =
+      rawQueryElectric === "true"
+        ? true
+        : rawQueryElectric === "false"
+        ? false
+        : null;
+    const validSuspensions: SuspensionType[] =
+      rawQuerySuspension === "rigid" ||
+      rawQuerySuspension === "hardtail" ||
+      rawQuerySuspension === "full"
+        ? [rawQuerySuspension]
+        : [];
 
     setFilters((prev) => ({
       ...prev,
       disciplines: validDiscipline ? [validDiscipline] : [],
       brands: validBrand ? [validBrand] : [],
+      isElectric: validElectric,
+      suspensionTypes: validSuspensions,
     }));
 
-    if (rawSearchQuery) {
-      setSearchTerm(sanitizeSearchInput(rawSearchQuery, 80));
-    }
-  }, [rawQueryDiscipline, rawQueryBrand, rawSearchQuery, initialDiscipline, initialBrand, brands]);
+    setSearchTerm(rawSearchQuery ? sanitizeSearchInput(rawSearchQuery, 80) : "");
+  }, [
+    rawQueryDiscipline,
+    rawQueryBrand,
+    rawSearchQuery,
+    rawQueryElectric,
+    rawQuerySuspension,
+    initialDiscipline,
+    initialBrand,
+    brands,
+  ]);
 
   // Restablecer paginación progresiva cuando cambian los filtros o la búsqueda
   useEffect(() => {
@@ -121,11 +144,11 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
   return (
     <div className="space-y-6">
       {/* Top Search & Filter Bar */}
-      <div className="rounded-3xl bg-white p-4 sm:p-5 border border-slate-200/90 shadow-2xs">
+      <div className="rounded-3xl bg-white p-4 sm:p-5 border border-slate-200/90 shadow-sm">
         <div className="flex flex-col md:flex-row items-center gap-3">
           {/* Search Box */}
           <div className="relative w-full flex-1">
-            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-500" aria-hidden="true" />
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-600" aria-hidden="true" />
             <input
               type="search"
               maxLength={80}
@@ -133,14 +156,14 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
               value={searchTerm}
               onChange={(e) => setSearchTerm(sanitizeSearchInput(e.target.value, 80))}
               placeholder="Buscar por modelo, marca, grupo (ej. Grizl, Shimano GRX, Rival AXS)..."
-              className="w-full pl-11 pr-10 py-3 rounded-2xl border border-slate-200 bg-slate-50 text-xs sm:text-sm text-slate-900 placeholder:text-slate-500 focus:bg-white focus:border-teal-600 focus:ring-4 focus:ring-teal-500/15 focus:outline-hidden transition-all"
+              className="w-full pl-11 pr-10 py-3 rounded-2xl border border-slate-200 bg-slate-50 text-xs sm:text-sm text-slate-900 placeholder:text-slate-600 focus:bg-white focus:border-teal-600 focus:ring-4 focus:ring-teal-500/15 focus:outline-none transition-all"
             />
             {searchTerm && (
               <button
                 type="button"
                 aria-label="Limpiar búsqueda"
                 onClick={() => setSearchTerm("")}
-                className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-800 p-1 rounded-md cursor-pointer"
+                className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-600 hover:text-slate-800 p-1 rounded-md cursor-pointer"
               >
                 <X className="w-4 h-4" />
               </button>
@@ -161,7 +184,7 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
 
             {/* Sort Dropdown */}
             <div className="flex items-center gap-2 shrink-0">
-              <ArrowUpDown className="w-4 h-4 text-slate-500 hidden sm:inline" aria-hidden="true" />
+              <ArrowUpDown className="w-4 h-4 text-slate-600 hidden sm:inline" aria-hidden="true" />
               <select
                 aria-label="Ordenar catálogo de bicicletas"
                 value={filters.sortBy || "price_asc"}
@@ -171,7 +194,7 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
                     sortBy: e.target.value as BikeFilterCriteria["sortBy"],
                   })
                 }
-                className="rounded-2xl border border-slate-200 bg-slate-50 py-3 px-3.5 text-xs font-bold text-slate-900 focus:border-teal-600 focus:bg-white focus:outline-hidden transition-all cursor-pointer"
+                className="rounded-2xl border border-slate-200 bg-slate-50 py-3 px-3.5 text-xs font-bold text-slate-900 focus:border-teal-600 focus:bg-white focus:outline-none transition-all cursor-pointer"
               >
                 <option value="price_asc">Precio: Menor a Mayor</option>
                 <option value="price_desc">Precio: Mayor a Menor</option>
@@ -303,7 +326,11 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
             {filters.isElectric !== undefined && filters.isElectric !== null && (
               <span className="inline-flex items-center gap-1 rounded-lg bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-950 border border-amber-200">
                 {filters.isElectric ? "⚡ E-Bike Eléctrica" : "Convencional (Sin motor)"}
-                <button type="button" onClick={() => setFilters({ ...filters, isElectric: null })}>
+                <button
+                  type="button"
+                  aria-label="Eliminar filtro de asistencia eléctrica"
+                  onClick={() => setFilters({ ...filters, isElectric: null })}
+                >
                   <X className="w-3 h-3 hover:text-rose-700" />
                 </button>
               </span>
@@ -311,7 +338,11 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
             {filters.isElectronic !== undefined && filters.isElectronic !== null && (
               <span className="inline-flex items-center gap-1 rounded-lg bg-teal-50 px-2.5 py-1 text-xs font-semibold text-teal-900 border border-teal-200">
                 {filters.isElectronic ? "Electrónico Di2/AXS" : "Mecánico"}
-                <button type="button" onClick={() => setFilters({ ...filters, isElectronic: null })}>
+                <button
+                  type="button"
+                  aria-label="Eliminar filtro de cambio electrónico"
+                  onClick={() => setFilters({ ...filters, isElectronic: null })}
+                >
                   <X className="w-3 h-3 hover:text-rose-700" />
                 </button>
               </span>
@@ -319,7 +350,11 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
             {filters.isOneBy !== undefined && filters.isOneBy !== null && (
               <span className="inline-flex items-center gap-1 rounded-lg bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-900 border border-slate-200">
                 {filters.isOneBy ? "1x Monoplato" : "2x Biplato"}
-                <button type="button" onClick={() => setFilters({ ...filters, isOneBy: null })}>
+                <button
+                  type="button"
+                  aria-label="Eliminar filtro de platos"
+                  onClick={() => setFilters({ ...filters, isOneBy: null })}
+                >
                   <X className="w-3 h-3 hover:text-rose-700" />
                 </button>
               </span>
@@ -327,7 +362,11 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
             {filters.minTireClearanceMm && (
               <span className="inline-flex items-center gap-1 rounded-lg bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-950 border border-amber-200">
                 Paso ≥ {filters.minTireClearanceMm}mm
-                <button type="button" onClick={() => setFilters({ ...filters, minTireClearanceMm: undefined })}>
+                <button
+                  type="button"
+                  aria-label="Eliminar filtro de paso de rueda"
+                  onClick={() => setFilters({ ...filters, minTireClearanceMm: undefined })}
+                >
                   <X className="w-3 h-3 hover:text-rose-700" />
                 </button>
               </span>
@@ -335,7 +374,11 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
             {filters.maxPriceEur && (
               <span className="inline-flex items-center gap-1 rounded-lg bg-slate-100 px-2.5 py-1 text-xs font-semibold text-slate-900 border border-slate-200">
                 ≤ {filters.maxPriceEur.toLocaleString("es-ES")} €
-                <button type="button" onClick={() => setFilters({ ...filters, maxPriceEur: undefined })}>
+                <button
+                  type="button"
+                  aria-label="Eliminar filtro de precio máximo"
+                  onClick={() => setFilters({ ...filters, maxPriceEur: undefined })}
+                >
                   <X className="w-3 h-3 hover:text-rose-700" />
                 </button>
               </span>
@@ -343,7 +386,11 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
             {filters.onlyOutlets && (
               <span className="inline-flex items-center gap-1 rounded-lg bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-900 border border-rose-200">
                 Sólo Rebajas
-                <button type="button" onClick={() => setFilters({ ...filters, onlyOutlets: false })}>
+                <button
+                  type="button"
+                  aria-label="Eliminar filtro de rebajas"
+                  onClick={() => setFilters({ ...filters, onlyOutlets: false })}
+                >
                   <X className="w-3 h-3 hover:text-rose-950" />
                 </button>
               </span>
@@ -351,7 +398,11 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
             {filters.bikepackingMounts && (
               <span className="inline-flex items-center gap-1 rounded-lg bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-950 border border-amber-200">
                 Roscas Bikepacking
-                <button type="button" onClick={() => setFilters({ ...filters, bikepackingMounts: undefined })}>
+                <button
+                  type="button"
+                  aria-label="Eliminar filtro de roscas bikepacking"
+                  onClick={() => setFilters({ ...filters, bikepackingMounts: undefined })}
+                >
                   <X className="w-3 h-3 hover:text-rose-900" />
                 </button>
               </span>
@@ -400,8 +451,8 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
         {/* Product Cards Grid */}
         <div className="col-span-1 md:col-span-3 space-y-6">
           {filteredBikes.length === 0 ? (
-            <div className="rounded-3xl border border-slate-200 bg-white p-12 text-center shadow-xs">
-              <Compass className="mx-auto h-12 w-12 text-slate-500 mb-3" />
+            <div className="rounded-3xl border border-slate-200 bg-white p-12 text-center shadow-sm">
+              <Compass className="mx-auto h-12 w-12 text-slate-600 mb-3" />
               <h3 className="text-lg font-bold text-slate-900 mb-1">
                 No se encontraron bicicletas con estos filtros
               </h3>
@@ -420,8 +471,8 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
           ) : (
             <>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                {displayedBikes.map((bike) => (
-                  <BikeCard key={bike.id} bike={bike} />
+                {displayedBikes.map((bike, index) => (
+                  <BikeCard key={bike.id} bike={bike} priority={index < 6} />
                 ))}
               </div>
 
@@ -446,7 +497,7 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
                       onClick={() =>
                         setVisibleCount((prev) => Math.min(prev + PAGE_SIZE, filteredBikes.length))
                       }
-                      className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-slate-950 hover:bg-teal-700 text-white text-xs sm:text-sm font-bold shadow-md shadow-slate-950/10 active:scale-98 transition-all cursor-pointer"
+                      className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-slate-950 hover:bg-teal-700 text-white text-xs sm:text-sm font-bold shadow-md shadow-slate-950/10 active:scale-95 transition-all cursor-pointer"
                     >
                       <span>Cargar más (+{Math.min(PAGE_SIZE, filteredBikes.length - visibleCount)})</span>
                       <ChevronDown className="w-4 h-4" />
@@ -454,7 +505,7 @@ export function CatalogView({ initialBikes, brands, initialDiscipline, initialBr
                     <button
                       type="button"
                       onClick={() => setVisibleCount(filteredBikes.length)}
-                      className="px-5 py-3 rounded-2xl border border-slate-200 bg-white text-slate-800 text-xs sm:text-sm font-bold hover:bg-slate-50 transition-colors cursor-pointer shadow-2xs"
+                      className="px-5 py-3 rounded-2xl border border-slate-200 bg-white text-slate-800 text-xs sm:text-sm font-bold hover:bg-slate-50 transition-colors cursor-pointer shadow-sm"
                     >
                       Ver todas ({filteredBikes.length})
                     </button>

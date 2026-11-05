@@ -110,7 +110,7 @@ export function BikeGeometryDiagram({
   ];
 
   return (
-    <section aria-label="Geometría y dimensiones técnicas" className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+    <section aria-label="Geometría y dimensiones técnicas" className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-slate-100">
         <div>
           <div className="flex items-center gap-2">
@@ -119,7 +119,7 @@ export function BikeGeometryDiagram({
               Geometría y Dimensiones Técnicas
             </h2>
           </div>
-          <p className="text-xs text-slate-500 mt-1">
+          <p className="text-xs text-slate-600 mt-1">
             Plano técnico vectorial oficial y cotas milimétricas normalizadas para la <strong>Talla {sizeRef}</strong>.
           </p>
         </div>
@@ -284,7 +284,7 @@ export function BikeGeometryDiagram({
               </g>
             </svg>
           </div>
-          <div className="text-[11px] text-slate-500 mt-2 flex items-center gap-1">
+          <div className="text-[11px] text-slate-600 mt-2 flex items-center gap-1">
             <Info className="w-3.5 h-3.5 text-teal-600" />
             <span>Pasa el ratón por los círculos o la tabla para resaltar cada cota en el esquema.</span>
           </div>

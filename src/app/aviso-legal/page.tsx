@@ -1,6 +1,8 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { constructMetadata } from "@/lib/seo/metadata";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { generateBreadcrumbsSchema } from "@/lib/seo/schema";
 import { ShieldCheck, Scale, ArrowLeft, Mail, FileText, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = constructMetadata({
@@ -11,10 +13,17 @@ export const metadata: Metadata = constructMetadata({
 });
 
 export default function AvisoLegalPage() {
+  const breadcrumbsSchema = generateBreadcrumbsSchema([
+    { name: "Inicio", url: "/" },
+    { name: "Aviso Legal", url: "/aviso-legal" },
+  ]);
+
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-6 sm:pt-10 space-y-8">
+      <JsonLd data={breadcrumbsSchema} />
+
       {/* Breadcrumbs */}
-      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-500">
+      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-600">
         <Link href="/" className="hover:text-teal-600 flex items-center gap-1">
           <ArrowLeft className="w-3.5 h-3.5" /> Inicio
         </Link>
@@ -33,7 +42,7 @@ export default function AvisoLegalPage() {
         <h1 className="text-2xl sm:text-4xl font-black tracking-tight text-slate-950">
           Aviso Legal y Condiciones de Uso
         </h1>
-        <p className="text-xs sm:text-sm text-slate-500">
+        <p className="text-xs sm:text-sm text-slate-600">
           Última actualización: Septiembre de 2026 · Cumplimiento de la Ley 34/2002 (LSSI-CE).
         </p>
       </header>
@@ -41,7 +50,7 @@ export default function AvisoLegalPage() {
       {/* Content */}
       <div className="prose prose-slate max-w-none text-xs sm:text-sm leading-relaxed text-slate-700 space-y-6">
         {/* 1. Datos Identificativos */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <ShieldCheck className="w-5 h-5 text-teal-600 shrink-0" />
             <span>1. Información General y Datos Identificativos</span>
@@ -58,7 +67,7 @@ export default function AvisoLegalPage() {
         </section>
 
         {/* 2. Objeto y Ámbito de Aplicación */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <Scale className="w-5 h-5 text-teal-600 shrink-0" />
             <span>2. Objeto y Condiciones de Uso</span>
@@ -72,7 +81,7 @@ export default function AvisoLegalPage() {
         </section>
 
         {/* 3. Propiedad Intelectual y Marcas de Terceros */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <CheckCircle2 className="w-5 h-5 text-teal-600 shrink-0" />
             <span>3. Propiedad Intelectual, Industrial y Marcas de Terceros</span>
@@ -94,7 +103,7 @@ export default function AvisoLegalPage() {
         </section>
 
         {/* 4. Exclusión de Responsabilidad */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <ShieldCheck className="w-5 h-5 text-teal-600 shrink-0" />
             <span>4. Exclusión de Responsabilidad y Enlaces Salientes</span>
@@ -111,7 +120,7 @@ export default function AvisoLegalPage() {
         </section>
 
         {/* 5. Legislación Aplicable */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <Scale className="w-5 h-5 text-teal-600 shrink-0" />
             <span>5. Legislación Aplicable y Fuero</span>

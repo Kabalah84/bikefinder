@@ -25,7 +25,7 @@ export function ComparisonDrawer() {
         <div className="flex items-center gap-3 w-full md:w-auto justify-between md:justify-start">
           <div className="flex items-center gap-2.5">
             <div className="flex h-9 w-9 items-center justify-center rounded-2xl bg-teal-500 text-slate-950 shadow-md shadow-teal-500/30 font-black">
-              <Scale className="h-4.5 w-4.5" />
+              <Scale className="h-4 w-4" />
             </div>
             <div>
               <div className="flex items-center gap-2">
@@ -58,7 +58,7 @@ export function ComparisonDrawer() {
           {selectedBikes.map((bike) => (
             <div
               key={bike.id}
-              className="relative flex items-center gap-2 rounded-2xl bg-white/10 border border-white/10 p-1.5 pr-2.5 shrink-0 backdrop-blur-xs group hover:border-teal-500/50 transition-colors"
+              className="relative flex items-center gap-2 rounded-2xl bg-white/10 border border-white/10 p-1.5 pr-2.5 shrink-0 backdrop-blur-sm group hover:border-teal-500/50 transition-colors"
             >
               <img
                 src={bike.officialImageUrl}
@@ -95,7 +95,7 @@ export function ComparisonDrawer() {
         <div className="w-full md:w-auto shrink-0">
           <Link
             href={`/comparador?ids=${queryParams}`}
-            className="w-full md:w-auto inline-flex items-center justify-center gap-2 rounded-2xl bg-teal-500 hover:bg-teal-400 px-5 py-2.5 text-xs sm:text-sm font-black text-slate-950 shadow-lg shadow-teal-500/25 transition-all hover:scale-102 cursor-pointer"
+            className="w-full md:w-auto inline-flex items-center justify-center gap-2 rounded-2xl bg-teal-500 hover:bg-teal-400 px-5 py-2.5 text-xs sm:text-sm font-black text-slate-950 shadow-lg shadow-teal-500/25 transition-all hover:scale-[1.02] cursor-pointer"
           >
             <span>Ver Comparativa Completa</span>
             <ArrowRight className="w-4 h-4" />

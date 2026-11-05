@@ -170,10 +170,10 @@
       "name": "Shimano GRX 820 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "20T",
+      "chainrings": "40T",
       "cassette": "11-45T",
-      "minGearRatio": 0.44,
-      "maxGearRatio": 1.82
+      "minGearRatio": 0.89,
+      "maxGearRatio": 3.64
     },
     "geometry": {
       "stackMm": 582,
@@ -742,10 +742,10 @@
       "name": "Shimano GRX 820 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "20T",
+      "chainrings": "40T",
       "cassette": "10-45T",
-      "minGearRatio": 0.44,
-      "maxGearRatio": 2
+      "minGearRatio": 0.89,
+      "maxGearRatio": 4
     },
     "geometry": {
       "stackMm": 577,
@@ -885,10 +885,10 @@
       "name": "Shimano GRX 820 12sp",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "20T",
+      "chainrings": "40T",
       "cassette": "10-45T",
-      "minGearRatio": 0.44,
-      "maxGearRatio": 2
+      "minGearRatio": 0.89,
+      "maxGearRatio": 4
     },
     "geometry": {
       "stackMm": 577,
@@ -2058,10 +2058,10 @@
       "name": "Campagnolo Ekar 13v",
       "isElectronic": false,
       "speedCount": 13,
-      "chainrings": "13T",
+      "chainrings": "40T",
       "cassette": "9-42T",
-      "minGearRatio": 0.31,
-      "maxGearRatio": 1.44
+      "minGearRatio": 0.95,
+      "maxGearRatio": 4.44
     },
     "geometry": {
       "stackMm": 568,
@@ -2107,10 +2107,10 @@
       "name": "Shimano GRX RX810/RX600",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "60T",
+      "chainrings": "46/30T",
       "cassette": "11-34T",
-      "minGearRatio": 1.76,
-      "maxGearRatio": 5.45
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
     },
     "geometry": {
       "stackMm": 568,
@@ -2156,10 +2156,10 @@
       "name": "Shimano GRX RX810/RX600",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "81T",
+      "chainrings": "46/30T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
     },
     "geometry": {
       "stackMm": 568,
@@ -2205,10 +2205,10 @@
       "name": "Shimano GRX Di2",
       "isElectronic": true,
       "speedCount": 11,
-      "chainrings": "81T",
+      "chainrings": "40T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.18,
+      "maxGearRatio": 3.64
     },
     "geometry": {
       "stackMm": 568,
@@ -2254,10 +2254,10 @@
       "name": "Shimano GRX RX810/RX600",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "61T",
+      "chainrings": "46/30T",
       "cassette": "11-34T",
-      "minGearRatio": 1.79,
-      "maxGearRatio": 5.55
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
     },
     "geometry": {
       "stackMm": 568,
@@ -2303,10 +2303,10 @@
       "name": "Shimano GRX RX810/RX600",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "60T",
+      "chainrings": "46/30T",
       "cassette": "11-34T",
-      "minGearRatio": 1.76,
-      "maxGearRatio": 5.45
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
     },
     "geometry": {
       "stackMm": 568,
@@ -2352,10 +2352,10 @@
       "name": "Shimano GRX RX810/RX600",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "81T",
+      "chainrings": "46/30T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
     },
     "geometry": {
       "stackMm": 568,
@@ -2401,10 +2401,10 @@
       "name": "Campagnolo Ekar 13v",
       "isElectronic": false,
       "speedCount": 13,
-      "chainrings": "13T",
+      "chainrings": "40T",
       "cassette": "9-42T",
-      "minGearRatio": 0.31,
-      "maxGearRatio": 1.44
+      "minGearRatio": 0.95,
+      "maxGearRatio": 4.44
     },
     "geometry": {
       "stackMm": 568,
@@ -2450,10 +2450,10 @@
       "name": "Shimano GRX RX810/RX600",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "60T",
+      "chainrings": "46/30T",
       "cassette": "11-34T",
-      "minGearRatio": 1.76,
-      "maxGearRatio": 5.45
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
     },
     "geometry": {
       "stackMm": 568,
@@ -2499,10 +2499,10 @@
       "name": "Shimano GRX RX810/RX600",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "82T",
+      "chainrings": "46/30T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
     },
     "geometry": {
       "stackMm": 568,
@@ -2597,10 +2597,10 @@
       "name": "Shimano GRX RX810/RX600",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "60T",
+      "chainrings": "46/30T",
       "cassette": "11-34T",
-      "minGearRatio": 1.76,
-      "maxGearRatio": 5.45
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
     },
     "geometry": {
       "stackMm": 568,
@@ -3824,7 +3824,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "46/30",
+      "chainrings": "46/30T",
       "cassette": "10-44T",
       "minGearRatio": 0.68,
       "maxGearRatio": 4.6
@@ -3906,7 +3906,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -3988,7 +3988,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -4066,7 +4066,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -4148,7 +4148,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "48/31",
+      "chainrings": "48/31T",
       "cassette": "10-44T",
       "minGearRatio": 0.7,
       "maxGearRatio": 4.8
@@ -4230,7 +4230,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -4312,7 +4312,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -4394,7 +4394,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "48/31",
+      "chainrings": "48/31T",
       "cassette": "10-44T",
       "minGearRatio": 0.7,
       "maxGearRatio": 4.8
@@ -4476,7 +4476,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "48/31",
+      "chainrings": "48/31T",
       "cassette": "10-44T",
       "minGearRatio": 0.7,
       "maxGearRatio": 4.8
@@ -4558,7 +4558,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -4640,7 +4640,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -4722,7 +4722,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -4804,7 +4804,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -4886,7 +4886,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -4968,7 +4968,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -5050,7 +5050,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -5132,7 +5132,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -5214,7 +5214,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
+      "chainrings": "40T",
       "cassette": "10-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 4
@@ -5510,7 +5510,7 @@
       "name": "Shimano CUES U6020",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "32/46T",
+      "chainrings": "46/32T",
       "cassette": "11-39T",
       "minGearRatio": 0.82,
       "maxGearRatio": 4.18
@@ -5642,7 +5642,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position"
+            "value": "tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position"
           }
         ]
       }
@@ -5672,7 +5672,7 @@
       "name": "Shimano GRX RX-400",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "32/48T",
+      "chainrings": "48/32T",
       "cassette": "11-34T",
       "minGearRatio": 0.94,
       "maxGearRatio": 4.36
@@ -5804,7 +5804,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position"
+            "value": "tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position"
           }
         ]
       }
@@ -5834,7 +5834,7 @@
       "name": "Shimano CUES U4020",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "32/46T",
+      "chainrings": "46/32T",
       "cassette": "11-36T",
       "minGearRatio": 0.89,
       "maxGearRatio": 4.18
@@ -5966,7 +5966,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position"
+            "value": "tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position"
           }
         ]
       }
@@ -5996,7 +5996,7 @@
       "name": "Shimano GRX RX-820",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "31/48T",
+      "chainrings": "48/31T",
       "cassette": "11-36T",
       "minGearRatio": 0.86,
       "maxGearRatio": 4.36
@@ -6130,7 +6130,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+            "value": "tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position, in-frame storage bag"
           }
         ]
       }
@@ -6160,7 +6160,7 @@
       "name": "Shimano GRX RX-820",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "31/48T",
+      "chainrings": "48/31T",
       "cassette": "11-36T",
       "minGearRatio": 0.86,
       "maxGearRatio": 4.36
@@ -6294,7 +6294,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 53mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+            "value": "tubeless prepared, 53mm max tire size in \"long\" flip chip position, 53mm max tire size in \"short\" flip chip position, in-frame storage bag"
           }
         ]
       }
@@ -6454,7 +6454,7 @@
           },
           {
             "label": "Extras",
-            "value": "Giant 1x chain guide, tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+            "value": "Giant 1x chain guide, tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position, in-frame storage bag"
           }
         ]
       }
@@ -6484,7 +6484,7 @@
       "name": "Shimano GRX RX-820",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "30/46T",
+      "chainrings": "46/30T",
       "cassette": "11-36T",
       "minGearRatio": 0.83,
       "maxGearRatio": 4.18
@@ -6618,7 +6618,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+            "value": "tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position, in-frame storage bag"
           }
         ]
       }
@@ -6778,7 +6778,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+            "value": "tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position, in-frame storage bag"
           }
         ]
       }
@@ -6808,7 +6808,7 @@
       "name": "SRAM Force AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "30/43T",
+      "chainrings": "43/30T",
       "cassette": "10-36T",
       "minGearRatio": 0.83,
       "maxGearRatio": 4.3
@@ -6943,7 +6943,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+            "value": "tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position, in-frame storage bag"
           }
         ]
       }
@@ -6973,7 +6973,7 @@
       "name": "SRAM Rival AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "30/43T",
+      "chainrings": "43/30T",
       "cassette": "10-36T",
       "minGearRatio": 0.83,
       "maxGearRatio": 4.3
@@ -7109,7 +7109,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, in-frame storage bag"
+            "value": "tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position, in-frame storage bag"
           }
         ]
       }
@@ -7268,7 +7268,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position"
+            "value": "tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position"
           }
         ]
       }
@@ -7429,7 +7429,7 @@
           },
           {
             "label": "Extras",
-            "value": "tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position"
+            "value": "tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position"
           }
         ]
       }
@@ -7459,7 +7459,7 @@
       "name": "Shimano RDU602010",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "30/46T",
+      "chainrings": "46/30T",
       "cassette": "11-39T",
       "minGearRatio": 0.77,
       "maxGearRatio": 4.18
@@ -7621,7 +7621,7 @@
       "name": "Shimano Altus RD-M310",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "30/46T",
+      "chainrings": "46/30T",
       "cassette": "11-34T",
       "minGearRatio": 0.88,
       "maxGearRatio": 4.18
@@ -7783,7 +7783,7 @@
       "name": "Shimano Alivio",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "30/46T",
+      "chainrings": "46/30T",
       "cassette": "11-36T",
       "minGearRatio": 0.83,
       "maxGearRatio": 4.18
@@ -8105,10 +8105,10 @@
       "name": "Shimano GRX RX-812",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "00T",
+      "chainrings": "40T",
       "cassette": "11-40T",
-      "minGearRatio": 0.85,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1,
+      "maxGearRatio": 3.64
     },
     "geometry": {
       "stackMm": 547,
@@ -8266,7 +8266,7 @@
       "name": "Shimano CUES U6020",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "32/46T",
+      "chainrings": "46/32T",
       "cassette": "11-39T",
       "minGearRatio": 0.82,
       "maxGearRatio": 4.18
@@ -8398,7 +8398,7 @@
           },
           {
             "label": "Extras",
-            "value": "53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, tubeless prepared, ISC clamp"
+            "value": "53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position, tubeless prepared, ISC clamp"
           }
         ]
       }
@@ -8558,7 +8558,7 @@
           },
           {
             "label": "Extras",
-            "value": "Giant 1x chain guide, tubeless prepared, 53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, ISC clamp, in-frame storage bag"
+            "value": "Giant 1x chain guide, tubeless prepared, 53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position, ISC clamp, in-frame storage bag"
           }
         ]
       }
@@ -8588,7 +8588,7 @@
       "name": "Shimano GRX RX-820",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "30/46T",
+      "chainrings": "46/30T",
       "cassette": "11-36T",
       "minGearRatio": 0.83,
       "maxGearRatio": 4.18
@@ -8722,7 +8722,7 @@
           },
           {
             "label": "Extras",
-            "value": "53mm max tire size in &quot;long&quot; flip chip position, 45mm max tire size in &quot;short&quot; flip chip position, tubeless prepared, ISC clamp, in-frame storage bag"
+            "value": "53mm max tire size in \"long\" flip chip position, 45mm max tire size in \"short\" flip chip position, tubeless prepared, ISC clamp, in-frame storage bag"
           }
         ]
       }
@@ -8752,7 +8752,7 @@
       "name": "Shimano Altus",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "30/46T",
+      "chainrings": "46/30T",
       "cassette": "11-34T",
       "minGearRatio": 0.88,
       "maxGearRatio": 4.18
@@ -15070,8 +15070,8 @@
       "name": "SRAM Rival AXS E1 XPLR",
       "isElectronic": true,
       "speedCount": 13,
-      "chainrings": "40",
-      "cassette": "10-46",
+      "chainrings": "40T",
+      "cassette": "10-46T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4
     },
@@ -15240,8 +15240,8 @@
       "name": "SRAM Force AXS E1 XPLR",
       "isElectronic": true,
       "speedCount": 13,
-      "chainrings": "40",
-      "cassette": "10-46",
+      "chainrings": "40T",
+      "cassette": "10-46T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4
     },
@@ -15266,7 +15266,7 @@
       "Ruedas Roval Terra C III"
     ],
     "brakes": "SRAM Force E1, hydraulic disc",
-    "wheels": "Roval Terra C III, 27mm inner width carbon rim, tubeless ready, 25.5mm depth, DT 370 hub, 24h, ",
+    "wheels": "Roval Terra C III, 27mm inner width carbon rim, tubeless ready, 25.5mm depth, DT 370 hub, 24h,",
     "tires": "Pathfinder 700x45, Tubeless Ready",
     "detailedSpecs": [
       {
@@ -15410,8 +15410,8 @@
       "name": "SRAM RED AXS XPLR E1",
       "isElectronic": true,
       "speedCount": 13,
-      "chainrings": "40",
-      "cassette": "10-46",
+      "chainrings": "40T",
+      "cassette": "10-46T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4
     },
@@ -15576,8 +15576,8 @@
       "name": "Shimano GRX RD-RX822-GS",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
-      "cassette": "10-45",
+      "chainrings": "40T",
+      "cassette": "10-45T",
       "minGearRatio": 0.89,
       "maxGearRatio": 4
     },
@@ -15745,8 +15745,8 @@
       "name": "Shimano GRX RD-RX822-GS",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
-      "cassette": "10-45",
+      "chainrings": "40T",
+      "cassette": "10-45T",
       "minGearRatio": 0.89,
       "maxGearRatio": 4
     },
@@ -15914,8 +15914,8 @@
       "name": "SRAM Apex XPLR",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
-      "cassette": "11-44",
+      "chainrings": "40T",
+      "cassette": "11-44T",
       "minGearRatio": 0.91,
       "maxGearRatio": 3.64
     },
@@ -16082,8 +16082,8 @@
       "name": "NEW SRAM Rival XPLR AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "40",
-      "cassette": "10-46",
+      "chainrings": "40T",
+      "cassette": "10-46T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4
     },
@@ -16234,7 +16234,7 @@
   {
     "id": "specialized-diverge-4-comp-alloy-sram-apex-2026",
     "brand": "Specialized",
-    "model": "Diverge 4 Comp Alloy - SRAM Apex",
+    "model": "Diverge 4 Comp Alloy - SRAM Apex",
     "year": 2026,
     "discipline": "gravel",
     "officialUrl": "https://www.specialized.com/es/es/diverge-4-comp-alloy-sram-apex/p/4223512?color=5459909-4223512",
@@ -16256,8 +16256,8 @@
       "name": "SRAM Apex Eagle 12-speed",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
-      "cassette": "11-50",
+      "chainrings": "40T",
+      "cassette": "11-50T",
       "minGearRatio": 0.8,
       "maxGearRatio": 3.64
     },
@@ -16433,8 +16433,8 @@
       "name": "SRAM S1000 Eagle AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "40",
-      "cassette": "10-52",
+      "chainrings": "40T",
+      "cassette": "10-52T",
       "minGearRatio": 0.77,
       "maxGearRatio": 4
     },
@@ -16612,8 +16612,8 @@
       "name": "Shimano GRX Di2 RD-RX827",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "40",
-      "cassette": "10-51",
+      "chainrings": "40T",
+      "cassette": "10-51T",
       "minGearRatio": 0.78,
       "maxGearRatio": 4
     },
@@ -16638,7 +16638,7 @@
       "Ruedas Roval Terra C Rim"
     ],
     "brakes": "NEW Shimano GRX Hydraulic Brake",
-    "wheels": "Roval Terra C Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 370 hub, ",
+    "wheels": "Roval Terra C Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 370 hub,",
     "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready",
     "detailedSpecs": [
       {
@@ -16791,8 +16791,8 @@
       "name": "SRAM Rival AXS E1 XPLR",
       "isElectronic": true,
       "speedCount": 13,
-      "chainrings": "40",
-      "cassette": "10-46",
+      "chainrings": "40T",
+      "cassette": "10-46T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4
     },
@@ -16817,7 +16817,7 @@
       "Ruedas Roval Terra C Rim"
     ],
     "brakes": "SRAM Rival E1, hydraulic disc",
-    "wheels": "Roval Terra C Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 370 hub, ",
+    "wheels": "Roval Terra C Rim, 25mm internal width, 32mm depth, 24h, Tubeless ready, DT for Roval 370 hub,",
     "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready",
     "detailedSpecs": [
       {
@@ -16970,8 +16970,8 @@
       "name": "SRAM Rival AXS E1 XPLR",
       "isElectronic": true,
       "speedCount": 13,
-      "chainrings": "40",
-      "cassette": "10-46",
+      "chainrings": "40T",
+      "cassette": "10-46T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4
     },
@@ -16996,7 +16996,7 @@
       "Ruedas Roval Terra C III"
     ],
     "brakes": "SRAM Rival E1, hydraulic disc",
-    "wheels": "Roval Terra C III, 27mm inner width carbon rim, tubeless ready, 25.5mm depth, DT 370 hub, 24h, ",
+    "wheels": "Roval Terra C III, 27mm inner width carbon rim, tubeless ready, 25.5mm depth, DT 370 hub, 24h,",
     "tires": "Tracer TLR All Terrain Gravel Tire 700x45, Tan Sidewall, Tubeless Ready",
     "detailedSpecs": [
       {
@@ -17127,7 +17127,7 @@
   {
     "id": "specialized-diverge-4-pro-sram-force-xplr-2026",
     "brand": "Specialized",
-    "model": "Diverge 4 Pro - SRAM Force XPLR",
+    "model": "Diverge 4 Pro - SRAM Force XPLR",
     "year": 2026,
     "discipline": "gravel",
     "officialUrl": "https://www.specialized.com/es/es/diverge-4-pro-sram-force-xplr/p/4293747?color=5466666-4293747",
@@ -17149,8 +17149,8 @@
       "name": "New SRAM Force AXS E1 XPLR",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "40",
-      "cassette": "10-46",
+      "chainrings": "40T",
+      "cassette": "10-46T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4
     },
@@ -17328,8 +17328,8 @@
       "name": "Shimano XTR Di2 RD-M9250",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "40",
-      "cassette": "10-51",
+      "chainrings": "40T",
+      "cassette": "10-51T",
       "minGearRatio": 0.78,
       "maxGearRatio": 4
     },
@@ -17476,7 +17476,7 @@
   {
     "id": "specialized-diverge-4-pro-sram-force-xplr-2026-4296445",
     "brand": "Specialized",
-    "model": "Diverge 4 Pro: SRAM Force XPLR",
+    "model": "Diverge 4 Pro: SRAM Force XPLR",
     "year": 2026,
     "discipline": "gravel",
     "officialUrl": "https://www.specialized.com/es/es/diverge-4-pro-sram-force-xplr/p/4296445?color=5473841-4296445",
@@ -17498,8 +17498,8 @@
       "name": "SRAM Force AXS E1 XPLR",
       "isElectronic": true,
       "speedCount": 13,
-      "chainrings": "40",
-      "cassette": "10-46",
+      "chainrings": "40T",
+      "cassette": "10-46T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4
     },
@@ -17646,7 +17646,7 @@
   {
     "id": "specialized-diverge-4-sport-alloy-shimano-cues-2026",
     "brand": "Specialized",
-    "model": "Diverge 4 Sport Alloy - Shimano CUES",
+    "model": "Diverge 4 Sport Alloy - Shimano CUES",
     "year": 2026,
     "discipline": "gravel",
     "officialUrl": "https://www.specialized.com/es/es/diverge-4-sport-alloy-shimano-cues/p/4223511?color=5459925-4223511",
@@ -17668,10 +17668,10 @@
       "name": "Shimano CUES 11-speed w/ Shadow Plus",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "40",
-      "cassette": "00-11",
-      "minGearRatio": 3.64,
-      "maxGearRatio": 4.5
+      "chainrings": "40T",
+      "cassette": "11-50T",
+      "minGearRatio": 0.8,
+      "maxGearRatio": 3.64
     },
     "geometry": {
       "stackMm": 592,
@@ -17845,8 +17845,8 @@
       "name": "Shimano GRX RX822",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "40",
-      "cassette": "10-51",
+      "chainrings": "40T",
+      "cassette": "10-51T",
       "minGearRatio": 0.78,
       "maxGearRatio": 4
     },
@@ -18028,10 +18028,10 @@
       "name": "Shimano CUES RD-U6020",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "46/32",
-      "cassette": "00-10",
-      "minGearRatio": 3.2,
-      "maxGearRatio": 4.5
+      "chainrings": "46/32T",
+      "cassette": "11-39T",
+      "minGearRatio": 0.82,
+      "maxGearRatio": 4.18
     },
     "geometry": {
       "stackMm": 578,
@@ -18200,8 +18200,8 @@
       "name": "SRAM RED AXS XPLR E1",
       "isElectronic": true,
       "speedCount": 13,
-      "chainrings": "40",
-      "cassette": "10-46",
+      "chainrings": "40T",
+      "cassette": "10-46T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4
     },
@@ -18370,8 +18370,8 @@
       "name": "NEW SRAM Red XPLR",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "40",
-      "cassette": "10-46",
+      "chainrings": "40T",
+      "cassette": "10-46T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4
     },
@@ -18480,7 +18480,7 @@
           },
           {
             "label": "Rueda trasera",
-            "value": "Roval Terra CLX II, 25mm internal width, Tubeless Ready, 32mm depth, 24h, Roval AFD2, Centerlock, DT Swiss EXP internals, SRAM XDR, DT Swiss Aerolite "
+            "value": "Roval Terra CLX II, 25mm internal width, Tubeless Ready, 32mm depth, 24h, Roval AFD2, Centerlock, DT Swiss EXP internals, SRAM XDR, DT Swiss Aerolite"
           },
           {
             "label": "Cámaras",
@@ -18522,7 +18522,7 @@
   {
     "id": "specialized-s-works-crux-5-ltd-built-for-legends-2026",
     "brand": "Specialized",
-    "model": "S-Works Crux 5 LTD: Built for Legends",
+    "model": "S-Works Crux 5 LTD: Built for Legends",
     "year": 2026,
     "discipline": "gravel",
     "officialUrl": "https://www.specialized.com/es/es/s-works-crux-5-ltd-built-for-legends/p/4294839?color=5469835-4294839",
@@ -18544,8 +18544,8 @@
       "name": "SRAM RED AXS XPLR E1",
       "isElectronic": true,
       "speedCount": 13,
-      "chainrings": "44",
-      "cassette": "10-46",
+      "chainrings": "44T",
+      "cassette": "10-46T",
       "minGearRatio": 0.96,
       "maxGearRatio": 4.4
     },
@@ -18710,8 +18710,8 @@
       "name": "SRAM RED AXS XPLR E1",
       "isElectronic": true,
       "speedCount": 13,
-      "chainrings": "40",
-      "cassette": "10-46",
+      "chainrings": "40T",
+      "cassette": "10-46T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4
     },

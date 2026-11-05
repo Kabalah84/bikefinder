@@ -47,7 +47,9 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const bikeB = getBikeById(duel.bikeIdB);
   const image = bikeA?.officialImageUrl || bikeB?.officialImageUrl;
 
-  const dynamicTitle =
+  const shortDuelHeading = duel.title.split(":")[0];
+  const dynamicTitle = `${shortDuelHeading}: Comparativa y Geometrías`;
+  const dynamicOgTitle =
     bikeA && bikeB
       ? `${bikeA.brand} ${bikeA.model} vs ${bikeB.brand} ${bikeB.model}: Comparativa técnica y geometrías`
       : duel.title;
@@ -65,6 +67,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
 
   return constructMetadata({
     title: dynamicTitle,
+    ogTitle: dynamicOgTitle,
     description: dynamicDescription,
     canonicalPath: `/comparativa/${duel.slug}`,
     ogImage: image,
@@ -169,7 +172,7 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
 
       {/* Resumen Estructurado por Apartados (H2: Cuadro, Transmisión, Frenos) */}
       <section aria-label="Análisis por apartados clave" className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="rounded-2xl bg-white p-5 border border-slate-200 shadow-2xs space-y-2">
+        <div className="rounded-2xl bg-white p-5 border border-slate-200 shadow-sm space-y-2">
           <h2 className="text-sm font-black uppercase tracking-wider text-slate-950 flex items-center gap-2">
             <Layers className="w-4 h-4 text-teal-700" />
             Cuadro y Geometría
@@ -182,7 +185,7 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
           </p>
         </div>
 
-        <div className="rounded-2xl bg-white p-5 border border-slate-200 shadow-2xs space-y-2">
+        <div className="rounded-2xl bg-white p-5 border border-slate-200 shadow-sm space-y-2">
           <h2 className="text-sm font-black uppercase tracking-wider text-slate-950 flex items-center gap-2">
             <Cog className="w-4 h-4 text-teal-700" />
             Transmisión y Grupo
@@ -194,7 +197,7 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
           </p>
         </div>
 
-        <div className="rounded-2xl bg-white p-5 border border-slate-200 shadow-2xs space-y-2">
+        <div className="rounded-2xl bg-white p-5 border border-slate-200 shadow-sm space-y-2">
           <h2 className="text-sm font-black uppercase tracking-wider text-slate-950 flex items-center gap-2">
             <ShieldCheck className="w-4 h-4 text-teal-700" />
             Frenos y Ruedas
@@ -218,7 +221,7 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
           {/* Precio */}
-          <div className="p-4 rounded-2xl bg-white/10 backdrop-blur-xs border border-white/10 space-y-1">
+          <div className="p-4 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10 space-y-1">
             <span className="text-xs text-slate-200 font-medium">Ventaja en Precio:</span>
             <p className="text-sm font-bold text-white">
               {cheaperBike.brand} {cheaperBike.model}
@@ -230,7 +233,7 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
 
           {/* Peso */}
           {lighterBike && (
-            <div className="p-4 rounded-2xl bg-white/10 backdrop-blur-xs border border-white/10 space-y-1">
+            <div className="p-4 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10 space-y-1">
               <span className="text-xs text-slate-200 font-medium">Ventaja en Ligereza:</span>
               <p className="text-sm font-bold text-white">
                 {lighterBike.brand} {lighterBike.model}
@@ -243,7 +246,7 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
 
           {/* Paso de Rueda */}
           {higherClearanceBike ? (
-            <div className="p-4 rounded-2xl bg-white/10 backdrop-blur-xs border border-white/10 space-y-1">
+            <div className="p-4 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10 space-y-1">
               <span className="text-xs text-slate-200 font-medium">Mayor Paso de Rueda:</span>
               <p className="text-sm font-bold text-white">
                 {higherClearanceBike.brand} {higherClearanceBike.model}
@@ -253,7 +256,7 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
               </span>
             </div>
           ) : (
-            <div className="p-4 rounded-2xl bg-white/10 backdrop-blur-xs border border-white/10 space-y-1">
+            <div className="p-4 rounded-2xl bg-white/10 backdrop-blur-sm border border-white/10 space-y-1">
               <span className="text-xs text-slate-200 font-medium">Paso de Rueda:</span>
               <p className="text-sm font-bold text-white">Empate Técnico</p>
               <span className="text-xs text-teal-300 font-semibold">
@@ -299,7 +302,7 @@ export default function DueloPage({ params }: { params: { slug: string } }) {
             <Link
               key={d.slug}
               href={`/comparativa/${d.slug}`}
-              className="p-4 rounded-2xl bg-white border border-slate-200 hover:border-teal-600 hover:shadow-xs transition-all text-xs font-bold text-slate-800 flex items-center justify-between group"
+              className="p-4 rounded-2xl bg-white border border-slate-200 hover:border-teal-600 hover:shadow-sm transition-all text-xs font-bold text-slate-800 flex items-center justify-between group"
             >
               <span className="line-clamp-1">{d.title.split(":")[0]}</span>
               <span className="text-teal-700 group-hover:translate-x-1 transition-transform">→</span>

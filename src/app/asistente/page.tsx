@@ -9,14 +9,15 @@ import { Sparkles, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
 export const metadata: Metadata = constructMetadata({
-  title: "Asistente: Encuentra tu Bici Ideal de Gravel o Carretera",
+  title: "Asistente: Encuentra tu Bici Ideal de Gravel, Carretera o MTB",
   description:
-    "Responde 4 preguntas sencillas sobre tu terreno, presupuesto, tipo de cambio y prioridades técnicas para recibir recomendaciones personalizadas con scoring de afinidad.",
+    "Responde 4 preguntas sencillas sobre tu terreno (Gravel, Carretera, MTB o E-Bikes), presupuesto, tipo de cambio y prioridades técnicas para recibir recomendaciones personalizadas con scoring de afinidad.",
   canonicalPath: "/asistente",
   keywords: [
     "asistente compra bicicleta",
     "recomendar bicicleta gravel",
     "que bicicleta carretera comprar",
+    "recomendar bicicleta mtb",
     "test eleccion bicicleta",
     "asistente ciclista inteligente",
   ],
@@ -28,7 +29,7 @@ export default function AsistentePage() {
   const webAppSchema = generateWebApplicationSchema({
     name: "Asistente Inteligente de Elección de Bicicletas",
     description:
-      "Herramienta interactiva para encontrar la bicicleta ideal de Gravel o Carretera según terreno, presupuesto y transmisión.",
+      "Herramienta interactiva para encontrar la bicicleta ideal de Gravel, Carretera, MTB o E-Bike según terreno, presupuesto y transmisión.",
     path: "/asistente",
     applicationCategory: "SportsApplication",
   });
@@ -44,7 +45,7 @@ export default function AsistentePage() {
       <JsonLd data={[webAppSchema, breadcrumbsSchema]} />
 
       {/* Breadcrumbs */}
-      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-500">
+      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-600">
         <Link href="/" className="hover:text-teal-600 flex items-center gap-1">
           <ArrowLeft className="w-3.5 h-3.5" /> Inicio
         </Link>
@@ -63,7 +64,7 @@ export default function AsistentePage() {
         <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
           Encuentra tu Bici Ideal en 4 Pasos
         </h1>
-        <p className="text-xs sm:text-sm text-slate-500 leading-relaxed">
+        <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
           Analizamos tus preferencias de terreno, presupuesto, tipo de transmisión y confort para calcular la afinidad técnica exacta con los modelos oficiales del catálogo.
         </p>
       </header>
@@ -74,7 +75,7 @@ export default function AsistentePage() {
       </section>
 
       {/* Trust Badges */}
-      <section aria-label="Garantías de imparcialidad" className="mx-auto max-w-3xl pt-8 border-t border-slate-200 grid grid-cols-1 sm:grid-cols-3 gap-4 text-center text-xs text-slate-500">
+      <section aria-label="Garantías de imparcialidad" className="mx-auto max-w-3xl pt-8 border-t border-slate-200 grid grid-cols-1 sm:grid-cols-3 gap-4 text-center text-xs text-slate-600">
         <div className="p-3 rounded-2xl bg-white border border-slate-100">
           <h2 className="font-bold text-slate-900 block mb-0.5 text-xs">100% Sin Afiliación</h2>
           <span>Recomendaciones técnicas imparciales sin links de Amazon.</span>

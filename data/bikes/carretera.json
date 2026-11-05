@@ -2998,10 +2998,10 @@
       "name": "Shimano Ultegra R8000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "80T",
+      "chainrings": "52/36T",
       "cassette": "11-32T",
-      "minGearRatio": 1.06,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.13,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -3047,10 +3047,10 @@
       "name": "Shimano 105 R7000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "10T",
+      "chainrings": "50/34T",
       "cassette": "11-32T",
-      "minGearRatio": 0.31,
-      "maxGearRatio": 0.91
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.55
     },
     "geometry": {
       "stackMm": 545,
@@ -3061,7 +3061,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "*La fotografía puede no coincidir con el montaje ofertado La ARIA DISC es una bicicleta de carretera aerodinámica orientada al rendimiento rápido. Creado para los amantes de la velocidad, es el compañero perfecto para sus desafíos en la carretera. &amp;nbsp; &amp;nbsp;",
+    "description": "*La fotografía puede no coincidir con el montaje ofertado La ARIA DISC es una bicicleta de carretera aerodinámica orientada al rendimiento rápido. Creado para los amantes de la velocidad, es el compañero perfecto para sus desafíos en la carretera.",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano 105 R7000",
@@ -3110,7 +3110,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "*La fotografía puede no coincidir con el montaje ofertado La ARIA DISC es una bicicleta de carretera aerodinámica orientada al rendimiento rápido. Creado para los amantes de la velocidad, es el compañero perfecto para sus desafíos en la carretera. &amp;nbsp; &amp;nbsp;",
+    "description": "*La fotografía puede no coincidir con el montaje ofertado La ARIA DISC es una bicicleta de carretera aerodinámica orientada al rendimiento rápido. Creado para los amantes de la velocidad, es el compañero perfecto para sus desafíos en la carretera.",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo SRAM Rival eTap AXS",
@@ -3145,10 +3145,10 @@
       "name": "Shimano Ultegra R8000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "80T",
+      "chainrings": "52/36T",
       "cassette": "11-32T",
-      "minGearRatio": 1.06,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.13,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -3159,7 +3159,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "*La fotografía puede no coincidir con el montaje ofertado La ARIA DISC es una bicicleta de carretera aerodinámica orientada al rendimiento rápido. Creado para los amantes de la velocidad, es el compañero perfecto para sus desafíos en la carretera. &amp;nbsp; &amp;nbsp;",
+    "description": "*La fotografía puede no coincidir con el montaje ofertado La ARIA DISC es una bicicleta de carretera aerodinámica orientada al rendimiento rápido. Creado para los amantes de la velocidad, es el compañero perfecto para sus desafíos en la carretera.",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano Ultegra R8000",
@@ -3194,10 +3194,10 @@
       "name": "Shimano Ultegra Di2 R8100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "81T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -3208,7 +3208,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "*La fotografía puede no coincidir con el montaje ofertado La ARIA DISC es una bicicleta de carretera aerodinámica orientada al rendimiento rápido. Creado para los amantes de la velocidad, es el compañero perfecto para sus desafíos en la carretera. &amp;nbsp; &amp;nbsp;",
+    "description": "*La fotografía puede no coincidir con el montaje ofertado La ARIA DISC es una bicicleta de carretera aerodinámica orientada al rendimiento rápido. Creado para los amantes de la velocidad, es el compañero perfecto para sus desafíos en la carretera.",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano Ultegra Di2 R8100",
@@ -3292,10 +3292,10 @@
       "name": "Shimano Ultegra R8000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "80T",
+      "chainrings": "52/36T",
       "cassette": "11-32T",
-      "minGearRatio": 1.06,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.13,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 565,
@@ -3341,10 +3341,10 @@
       "name": "Shimano Ultegra Di2 R8100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "81T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 565,
@@ -3390,10 +3390,10 @@
       "name": "Shimano 105 R7000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "10T",
+      "chainrings": "50/34T",
       "cassette": "11-32T",
-      "minGearRatio": 0.31,
-      "maxGearRatio": 0.91
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.55
     },
     "geometry": {
       "stackMm": 565,
@@ -3439,10 +3439,10 @@
       "name": "Shimano 105 Di2 R7100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "10T",
+      "chainrings": "50/34T",
       "cassette": "11-34T",
-      "minGearRatio": 0.29,
-      "maxGearRatio": 0.91
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
     },
     "geometry": {
       "stackMm": 565,
@@ -3537,10 +3537,10 @@
       "name": "Shimano Ultegra R8000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "80T",
+      "chainrings": "52/36T",
       "cassette": "11-32T",
-      "minGearRatio": 1.06,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.13,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 565,
@@ -3586,10 +3586,10 @@
       "name": "Shimano GRX RX810/RX600",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "60T",
+      "chainrings": "46/30T",
       "cassette": "11-34T",
-      "minGearRatio": 1.76,
-      "maxGearRatio": 5.45
+      "minGearRatio": 0.88,
+      "maxGearRatio": 4.18
     },
     "geometry": {
       "stackMm": 545,
@@ -3635,10 +3635,10 @@
       "name": "Shimano 105 Di2 R7100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "10T",
+      "chainrings": "50/34T",
       "cassette": "11-34T",
-      "minGearRatio": 0.29,
-      "maxGearRatio": 0.91
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
     },
     "geometry": {
       "stackMm": 545,
@@ -3733,10 +3733,10 @@
       "name": "Shimano Ultegra Di2 R8100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "81T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -3782,10 +3782,10 @@
       "name": "Shimano Dura-Ace Di2 R9200",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "92T",
+      "chainrings": "52/36T",
       "cassette": "11-30T",
-      "minGearRatio": 1.13,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -3880,10 +3880,10 @@
       "name": "Shimano Ultegra Di2 R8100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "81T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -3929,10 +3929,10 @@
       "name": "Shimano 105 R7000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "10T",
+      "chainrings": "50/34T",
       "cassette": "11-32T",
-      "minGearRatio": 0.31,
-      "maxGearRatio": 0.91
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.55
     },
     "geometry": {
       "stackMm": 545,
@@ -3978,10 +3978,10 @@
       "name": "Shimano 105 Di2 R7100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "10T",
+      "chainrings": "50/34T",
       "cassette": "11-34T",
-      "minGearRatio": 0.29,
-      "maxGearRatio": 0.91
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
     },
     "geometry": {
       "stackMm": 545,
@@ -4041,7 +4041,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "Oltre RC es la primera hiperbike de Bianchi &amp;nbsp;",
+    "description": "Oltre RC es la primera hiperbike de Bianchi",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano 105",
@@ -4076,10 +4076,10 @@
       "name": "Shimano Dura-Ace Di2 R9200",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "92T",
+      "chainrings": "52/36T",
       "cassette": "11-30T",
-      "minGearRatio": 1.13,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -4090,7 +4090,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "Oltre RC es la primera hiperbike de Bianchi &amp;nbsp;",
+    "description": "Oltre RC es la primera hiperbike de Bianchi",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano Dura-Ace Di2 R9200",
@@ -4125,10 +4125,10 @@
       "name": "SRAM RED eTap AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "12T",
+      "chainrings": "48/35T",
       "cassette": "10-33T",
-      "minGearRatio": 0.36,
-      "maxGearRatio": 1.2
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.8
     },
     "geometry": {
       "stackMm": 545,
@@ -4139,7 +4139,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "Oltre RC es la primera hiperbike de Bianchi &amp;nbsp;",
+    "description": "Oltre RC es la primera hiperbike de Bianchi",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo SRAM RED eTap AXS",
@@ -4188,7 +4188,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "Oltre RC es la primera hiperbike de Bianchi &amp;nbsp;",
+    "description": "Oltre RC es la primera hiperbike de Bianchi",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Campagnolo Super Record EPS",
@@ -4223,10 +4223,10 @@
       "name": "Shimano Ultegra R8000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "80T",
+      "chainrings": "52/36T",
       "cassette": "11-32T",
-      "minGearRatio": 1.06,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.13,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -4237,7 +4237,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "*La fotografía puede no coincidir con el montaje ofertado La renovada geometría de la BICICLETA BIANCHI OLTRE XR3 ULTEGRA DISC ha sido revisada para hacerla todavía más eficiente. Dispuesta para afrontar cualquier tipo de etapa ya sea de alta montaña o totalmente rodadora, con ella verás aumentadas tus prestaciones en todas tus facetas.. &amp;nbsp; &amp;nbsp;",
+    "description": "*La fotografía puede no coincidir con el montaje ofertado La renovada geometría de la BICICLETA BIANCHI OLTRE XR3 ULTEGRA DISC ha sido revisada para hacerla todavía más eficiente. Dispuesta para afrontar cualquier tipo de etapa ya sea de alta montaña o totalmente rodadora, con ella verás aumentadas tus prestaciones en todas tus facetas..",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano Ultegra R8000",
@@ -4272,10 +4272,10 @@
       "name": "Shimano Ultegra Di2 R8100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "81T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -4286,7 +4286,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "*La fotografía puede no coincidir con el montaje ofertado La renovada geometría de la BICICLETA BIANCHI OLTRE XR3 ULTEGRA DISC ha sido revisada para hacerla todavía más eficiente. Dispuesta para afrontar cualquier tipo de etapa ya sea de alta montaña o totalmente rodadora, con ella verás aumentadas tus prestaciones en todas tus facetas.. &amp;nbsp; &amp;nbsp;",
+    "description": "*La fotografía puede no coincidir con el montaje ofertado La renovada geometría de la BICICLETA BIANCHI OLTRE XR3 ULTEGRA DISC ha sido revisada para hacerla todavía más eficiente. Dispuesta para afrontar cualquier tipo de etapa ya sea de alta montaña o totalmente rodadora, con ella verás aumentadas tus prestaciones en todas tus facetas..",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano Ultegra Di2 R8100",
@@ -4321,10 +4321,10 @@
       "name": "Shimano Dura-Ace Di2 R9200",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "92T",
+      "chainrings": "52/36T",
       "cassette": "11-30T",
-      "minGearRatio": 1.13,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -4335,7 +4335,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "POLIVALENCIA EN ESTADO PURO &amp;nbsp;",
+    "description": "POLIVALENCIA EN ESTADO PURO",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano Dura-Ace Di2 R9200",
@@ -4384,7 +4384,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "POLIVALENCIA EN ESTADO PURO &amp;nbsp;",
+    "description": "POLIVALENCIA EN ESTADO PURO",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo SRAM RED eTap AXS",
@@ -4433,7 +4433,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "POLIVALENCIA EN ESTADO PURO &amp;nbsp;",
+    "description": "POLIVALENCIA EN ESTADO PURO",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo SRAM RED eTap AXS",
@@ -4482,7 +4482,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "POLIVALENCIA EN ESTADO PURO &amp;nbsp;",
+    "description": "POLIVALENCIA EN ESTADO PURO",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo SRAM Rival eTap AXS",
@@ -4531,7 +4531,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "POLIVALENCIA EN ESTADO PURO &amp;nbsp;",
+    "description": "POLIVALENCIA EN ESTADO PURO",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo SRAM Rival eTap AXS",
@@ -4566,10 +4566,10 @@
       "name": "Shimano Ultegra R8000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "80T",
+      "chainrings": "52/36T",
       "cassette": "11-32T",
-      "minGearRatio": 1.06,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.13,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -4615,10 +4615,10 @@
       "name": "Shimano Ultegra Di2 R8100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "81T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -4629,7 +4629,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "POLIVALENCIA EN ESTADO PURO &amp;nbsp;",
+    "description": "POLIVALENCIA EN ESTADO PURO",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano Ultegra Di2 R8100",
@@ -4664,10 +4664,10 @@
       "name": "Shimano Ultegra Di2 R8100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "81T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -4678,7 +4678,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "POLIVALENCIA EN ESTADO PURO &amp;nbsp;",
+    "description": "POLIVALENCIA EN ESTADO PURO",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano Ultegra Di2 R8100",
@@ -4713,10 +4713,10 @@
       "name": "Shimano 105 Di2 R7100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "10T",
+      "chainrings": "50/34T",
       "cassette": "11-34T",
-      "minGearRatio": 0.29,
-      "maxGearRatio": 0.91
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
     },
     "geometry": {
       "stackMm": 545,
@@ -4727,7 +4727,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "*La fotografía puede no coincidir con el montaje ofertado &amp;nbsp; Hecha para aquellos que desean experimentar el poder de una bicicleta todoterreno épica, con la opción de mejorar aún más en el futuro. La Comp no cuenta con el manillar integrado Specialissima, pero es completamente compatible, en caso de que el usuario desee hacer una mejora en el futuro. La Specialissima de próxima generación dice no a las concesiones, brindándote la mejor herramienta para montañas y pendientes empinadas. La",
+    "description": "*La fotografía puede no coincidir con el montaje ofertado Hecha para aquellos que desean experimentar el poder de una bicicleta todoterreno épica, con la opción de mejorar aún más en el futuro. La Comp no cuenta con el manillar integrado Specialissima, pero es completamente compatible, en caso de que el usuario desee hacer una mejora en el futuro. La Specialissima de próxima generación dice no a las concesiones, brindándote la mejor herramienta para montañas y pendientes empinadas. La",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano 105 Di2 R7100",
@@ -4811,10 +4811,10 @@
       "name": "Shimano Ultegra Di2 R8100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "81T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -4860,10 +4860,10 @@
       "name": "Shimano Dura-Ace Di2 R9200",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "92T",
+      "chainrings": "52/36T",
       "cassette": "11-30T",
-      "minGearRatio": 1.13,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -4958,10 +4958,10 @@
       "name": "Shimano Ultegra Di2 R8100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "81T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -5007,10 +5007,10 @@
       "name": "Shimano Dura-Ace Di2 R9200",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "92T",
+      "chainrings": "52/36T",
       "cassette": "11-30T",
-      "minGearRatio": 1.13,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.2,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -5105,10 +5105,10 @@
       "name": "SRAM RED eTap AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "12T",
+      "chainrings": "48/35T",
       "cassette": "10-33T",
-      "minGearRatio": 0.36,
-      "maxGearRatio": 1.2
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.8
     },
     "geometry": {
       "stackMm": 545,
@@ -5168,7 +5168,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "VERDADERO RENDIMIENTO, DISPONIBLE EN TODOS LOS TERRENOS. &amp;nbsp;",
+    "description": "VERDADERO RENDIMIENTO, DISPONIBLE EN TODOS LOS TERRENOS.",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo SRAM RED eTap AXS",
@@ -5217,7 +5217,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "VERDADERO RENDIMIENTO, DISPONIBLE EN TODOS LOS TERRENOS. &amp;nbsp;",
+    "description": "VERDADERO RENDIMIENTO, DISPONIBLE EN TODOS LOS TERRENOS.",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo SRAM Force eTap AXS",
@@ -5301,10 +5301,10 @@
       "name": "Shimano Ultegra R8000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "80T",
+      "chainrings": "52/36T",
       "cassette": "11-32T",
-      "minGearRatio": 1.06,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.13,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -5315,7 +5315,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "VERDADERO RENDIMIENTO, DISPONIBLE EN TODOS LOS TERRENOS. &amp;nbsp;",
+    "description": "VERDADERO RENDIMIENTO, DISPONIBLE EN TODOS LOS TERRENOS.",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano Ultegra R8000",
@@ -5350,10 +5350,10 @@
       "name": "Shimano Ultegra Di2 R8100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "81T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
-      "minGearRatio": 1,
-      "maxGearRatio": 4.55
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.73
     },
     "geometry": {
       "stackMm": 545,
@@ -5364,7 +5364,7 @@
       "wheelbaseMm": 988,
       "bbDropMm": 68
     },
-    "description": "VERDADERO RENDIMIENTO, DISPONIBLE EN TODOS LOS TERRENOS. &amp;nbsp;",
+    "description": "VERDADERO RENDIMIENTO, DISPONIBLE EN TODOS LOS TERRENOS.",
     "highlights": [
       "Geometría y diseño exclusivo Bianchi",
       "Grupo Shimano Ultegra Di2 R8100",
@@ -5399,10 +5399,10 @@
       "name": "Shimano 105 Di2 R7100",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "10T",
+      "chainrings": "50/34T",
       "cassette": "11-34T",
-      "minGearRatio": 0.29,
-      "maxGearRatio": 0.91
+      "minGearRatio": 1,
+      "maxGearRatio": 4.55
     },
     "geometry": {
       "stackMm": 545,
@@ -5448,10 +5448,10 @@
       "name": "Shimano 105 R7000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "10T",
+      "chainrings": "50/34T",
       "cassette": "11-32T",
-      "minGearRatio": 0.31,
-      "maxGearRatio": 0.91
+      "minGearRatio": 1.06,
+      "maxGearRatio": 4.55
     },
     "geometry": {
       "stackMm": 545,
@@ -6773,7 +6773,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "50/37",
+      "chainrings": "50/37T",
       "cassette": "11-34T",
       "minGearRatio": 1.09,
       "maxGearRatio": 4.55
@@ -6855,7 +6855,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "52/36",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -6937,7 +6937,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "48/35",
+      "chainrings": "48/35T",
       "cassette": "11-34T",
       "minGearRatio": 1.03,
       "maxGearRatio": 4.36
@@ -7019,7 +7019,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "52/36",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -7101,7 +7101,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "50/37",
+      "chainrings": "50/37T",
       "cassette": "11-34T",
       "minGearRatio": 1.09,
       "maxGearRatio": 4.55
@@ -7183,7 +7183,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "52/36",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -7265,7 +7265,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "50/34",
+      "chainrings": "50/34T",
       "cassette": "11-34T",
       "minGearRatio": 1,
       "maxGearRatio": 4.55
@@ -7347,7 +7347,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "50/34",
+      "chainrings": "50/34T",
       "cassette": "11-34T",
       "minGearRatio": 1,
       "maxGearRatio": 4.55
@@ -7429,7 +7429,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "46/36",
+      "chainrings": "46/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.18
@@ -7511,7 +7511,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "52/36",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -7593,7 +7593,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "50/37",
+      "chainrings": "50/37T",
       "cassette": "11-34T",
       "minGearRatio": 1.09,
       "maxGearRatio": 4.55
@@ -7675,7 +7675,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "52/36",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -7757,7 +7757,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "50/37",
+      "chainrings": "50/37T",
       "cassette": "11-34T",
       "minGearRatio": 1.09,
       "maxGearRatio": 4.55
@@ -7839,7 +7839,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "54/40",
+      "chainrings": "54/40T",
       "cassette": "11-34T",
       "minGearRatio": 1.18,
       "maxGearRatio": 4.91
@@ -7989,7 +7989,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "54/40",
+      "chainrings": "54/40T",
       "cassette": "11-34T",
       "minGearRatio": 1.18,
       "maxGearRatio": 4.91
@@ -8071,7 +8071,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "48/35",
+      "chainrings": "48/35T",
       "cassette": "11-34T",
       "minGearRatio": 1.03,
       "maxGearRatio": 4.36
@@ -8153,7 +8153,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "52/36",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -8235,7 +8235,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "52/36",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -8317,7 +8317,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "50/37",
+      "chainrings": "50/37T",
       "cassette": "11-34T",
       "minGearRatio": 1.09,
       "maxGearRatio": 4.55
@@ -8399,7 +8399,7 @@
       "name": "Shimano",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "48/35",
+      "chainrings": "48/35T",
       "cassette": "11-34T",
       "minGearRatio": 1.03,
       "maxGearRatio": 4.36
@@ -8479,7 +8479,7 @@
       "name": "Shimano CUES U6020-10",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "34/50T",
+      "chainrings": "50/34T",
       "cassette": "11-39T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4.55
@@ -8793,7 +8793,7 @@
       "name": "Shimano 105 Di2",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34/50T",
+      "chainrings": "50/34T",
       "cassette": "11-36T",
       "minGearRatio": 0.94,
       "maxGearRatio": 4.55
@@ -8958,7 +8958,7 @@
       "name": "Shimano 105",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "34/50T",
+      "chainrings": "50/34T",
       "cassette": "11-36T",
       "minGearRatio": 0.94,
       "maxGearRatio": 4.55
@@ -9122,7 +9122,7 @@
       "name": "Shimano Tiagra",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "34/50T",
+      "chainrings": "50/34T",
       "cassette": "11-34T",
       "minGearRatio": 1,
       "maxGearRatio": 4.55
@@ -9286,7 +9286,7 @@
       "name": "Sram RED AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "33/46T",
+      "chainrings": "46/33T",
       "cassette": "10-33T",
       "minGearRatio": 1,
       "maxGearRatio": 4.6
@@ -9448,7 +9448,7 @@
       "name": "Sram Force AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "33/46T",
+      "chainrings": "46/33T",
       "cassette": "10-33T",
       "minGearRatio": 1,
       "maxGearRatio": 4.6
@@ -9605,7 +9605,7 @@
       "name": "Sram Force AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "33/46T",
+      "chainrings": "46/33T",
       "cassette": "10-33T",
       "minGearRatio": 1,
       "maxGearRatio": 4.6
@@ -9767,7 +9767,7 @@
       "name": "Sram Rival AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "33/46T",
+      "chainrings": "46/33T",
       "cassette": "10-36T",
       "minGearRatio": 0.92,
       "maxGearRatio": 4.6
@@ -10089,7 +10089,7 @@
       "name": "Shimano Ultegra Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34/50T",
+      "chainrings": "50/34T",
       "cassette": "11-34T",
       "minGearRatio": 1,
       "maxGearRatio": 4.55
@@ -10254,7 +10254,7 @@
       "name": "SRAM Rival AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "33/46T",
+      "chainrings": "46/33T",
       "cassette": "10-36T",
       "minGearRatio": 0.92,
       "maxGearRatio": 4.6
@@ -10420,7 +10420,7 @@
       "name": "Shimano 105 Di2",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-36T",
       "minGearRatio": 1,
       "maxGearRatio": 4.73
@@ -10587,7 +10587,7 @@
       "name": "Shimano 105",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-36T",
       "minGearRatio": 1,
       "maxGearRatio": 4.73
@@ -10752,7 +10752,7 @@
       "name": "Shimano Dura-Ace Di2 ST-R9250",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-30T",
       "minGearRatio": 1.2,
       "maxGearRatio": 4.73
@@ -10917,7 +10917,7 @@
       "name": "SRAM Force AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "35/48T",
+      "chainrings": "48/35T",
       "cassette": "10-33T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.8
@@ -11082,7 +11082,7 @@
       "name": "Shimano Ultegra Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -11249,7 +11249,7 @@
       "name": "SRAM Rival AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "35/48T",
+      "chainrings": "48/35T",
       "cassette": "10-30T",
       "minGearRatio": 1.17,
       "maxGearRatio": 4.8
@@ -11414,7 +11414,7 @@
       "name": "SRAM Rival AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "35/48T",
+      "chainrings": "48/35T",
       "cassette": "10-36T",
       "minGearRatio": 0.97,
       "maxGearRatio": 4.8
@@ -11579,7 +11579,7 @@
       "name": "Shimano 105 Di2",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-36T",
       "minGearRatio": 1,
       "maxGearRatio": 4.73
@@ -11744,7 +11744,7 @@
       "name": "Shimano Dura-Ace Di2 RD-R9250",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -11905,7 +11905,7 @@
       "name": "SRAM RED AXS RD-RED-E-E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "37/50T",
+      "chainrings": "50/37T",
       "cassette": "10-33T",
       "minGearRatio": 1.12,
       "maxGearRatio": 5
@@ -12071,7 +12071,7 @@
       "name": "Shimano Dura-Ace Di2 RD-R9250",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-30T",
       "minGearRatio": 1.2,
       "maxGearRatio": 4.73
@@ -12236,7 +12236,7 @@
       "name": "SRAM RED AXS RD-RED-E-E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "37/50T",
+      "chainrings": "50/37T",
       "cassette": "10-33T",
       "minGearRatio": 1.12,
       "maxGearRatio": 5
@@ -12401,7 +12401,7 @@
       "name": "Shimano Ultegra Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -12566,7 +12566,7 @@
       "name": "Shimano 105 Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -12731,7 +12731,7 @@
       "name": "Shimano 105 Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -12896,7 +12896,7 @@
       "name": "Shimano 105 Di2 RD-7150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -13062,7 +13062,7 @@
       "name": "Shimano 105",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -13226,7 +13226,7 @@
       "name": "Shimano 105",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -13390,7 +13390,7 @@
       "name": "Shimano Dura-Ace Di2 RD-R9250",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-30T",
       "minGearRatio": 1.2,
       "maxGearRatio": 4.73
@@ -13556,7 +13556,7 @@
       "name": "SRAM Force AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "35/48T",
+      "chainrings": "48/35T",
       "cassette": "10-36T",
       "minGearRatio": 0.97,
       "maxGearRatio": 4.8
@@ -13721,7 +13721,7 @@
       "name": "Shimano Ultegra Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -13886,7 +13886,7 @@
       "name": "Shimano Ultegra Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -14052,7 +14052,7 @@
       "name": "Shimano 105 Di2 RD-R7150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -14217,7 +14217,7 @@
       "name": "Shimano 105 Di2 RD-R7150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -14383,7 +14383,7 @@
       "name": "Shimano Dura-Ace Di2 RD-R9250",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -14549,7 +14549,7 @@
       "name": "SRAM RED AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "35/48T",
+      "chainrings": "48/35T",
       "cassette": "10-33T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.8
@@ -14714,7 +14714,7 @@
       "name": "Shimano Dura-Ace Di2 RD-R9250",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -14880,7 +14880,7 @@
       "name": "SRAM RED AXS RD-RED-E-E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "35/48T",
+      "chainrings": "48/35T",
       "cassette": "10-33T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.8
@@ -15045,7 +15045,7 @@
       "name": "Shimano Ultegra Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -15211,7 +15211,7 @@
       "name": "Shimano Ultegra Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -15538,7 +15538,7 @@
       "name": "SRAM Force AXS D2",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "37/50T",
+      "chainrings": "50/37T",
       "cassette": "10-33T",
       "minGearRatio": 1.12,
       "maxGearRatio": 5
@@ -15703,7 +15703,7 @@
       "name": "SRAM Rival AXS D2",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "35/48T",
+      "chainrings": "48/35T",
       "cassette": "10-36T",
       "minGearRatio": 0.97,
       "maxGearRatio": 4.8
@@ -15868,7 +15868,7 @@
       "name": "Shimano 105 Di2",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "34/50T",
+      "chainrings": "50/34T",
       "cassette": "11-36T",
       "minGearRatio": 0.94,
       "maxGearRatio": 4.55
@@ -16034,7 +16034,7 @@
       "name": "Shimano 105",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "34/50T",
+      "chainrings": "50/34T",
       "cassette": "11-36T",
       "minGearRatio": 0.94,
       "maxGearRatio": 4.55
@@ -16200,7 +16200,7 @@
       "name": "Shimano 105",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "34/50T",
+      "chainrings": "50/34T",
       "cassette": "11-36T",
       "minGearRatio": 0.94,
       "maxGearRatio": 4.55
@@ -16365,7 +16365,7 @@
       "name": "Shimano CUES U6020-10",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "34/50T",
+      "chainrings": "50/34T",
       "cassette": "11-39T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4.55
@@ -16530,7 +16530,7 @@
       "name": "Shimano Tiagra",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "34/50T",
+      "chainrings": "50/34T",
       "cassette": "11-34T",
       "minGearRatio": 1,
       "maxGearRatio": 4.55
@@ -16695,7 +16695,7 @@
       "name": "Sram Force AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "33/46T",
+      "chainrings": "46/33T",
       "cassette": "10-33T",
       "minGearRatio": 1,
       "maxGearRatio": 4.6
@@ -16856,7 +16856,7 @@
       "name": "Sram Force AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "33/46T",
+      "chainrings": "46/33T",
       "cassette": "10-33T",
       "minGearRatio": 1,
       "maxGearRatio": 4.6
@@ -17018,7 +17018,7 @@
       "name": "Sram Rival AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "33/46T",
+      "chainrings": "46/33T",
       "cassette": "10-36T",
       "minGearRatio": 0.92,
       "maxGearRatio": 4.6
@@ -17091,7 +17091,7 @@
           },
           {
             "label": "Platos y Bielas",
-            "value": "Sram Force X-SYNC 33/46T BCD107 chain ring Praxis E crank Alloy ISIS&quot;"
+            "value": "Sram Force X-SYNC 33/46T BCD107 chain ring Praxis E crank Alloy ISIS\""
           },
           {
             "label": "Casette",
@@ -17180,7 +17180,7 @@
       "name": "SRAM Rival AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "33/46T",
+      "chainrings": "46/33T",
       "cassette": "10-36T",
       "minGearRatio": 0.92,
       "maxGearRatio": 4.6
@@ -17347,7 +17347,7 @@
       "name": "Shimano CUES U6020-10",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "34/50T",
+      "chainrings": "50/34T",
       "cassette": "11-39T",
       "minGearRatio": 0.87,
       "maxGearRatio": 4.55
@@ -17509,7 +17509,7 @@
       "name": "SRAM Rival eTap AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "35/48T",
+      "chainrings": "48/35T",
       "cassette": "10-36T",
       "minGearRatio": 0.97,
       "maxGearRatio": 4.8
@@ -17673,7 +17673,7 @@
       "name": "Shimano 105 Di2",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-36T",
       "minGearRatio": 1,
       "maxGearRatio": 4.73
@@ -17839,7 +17839,7 @@
       "name": "Shimano 105",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-36T",
       "minGearRatio": 1,
       "maxGearRatio": 4.73
@@ -18004,7 +18004,7 @@
       "name": "Shimano 105",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -18169,7 +18169,7 @@
       "name": "Shimano Ultegra Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -18334,7 +18334,7 @@
       "name": "SRAM Rival AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "35/48T",
+      "chainrings": "48/35T",
       "cassette": "10-36T",
       "minGearRatio": 0.97,
       "maxGearRatio": 4.8
@@ -18499,7 +18499,7 @@
       "name": "Shimano 105 Di2 RD-R7150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -18665,7 +18665,7 @@
       "name": "Shimano 105 Di2 RD-R7150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -18831,7 +18831,7 @@
       "name": "Shimano 105 Di2 RD-R7150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -18996,7 +18996,7 @@
       "name": "Shimano 105",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -19161,7 +19161,7 @@
       "name": "Shimano Ultegra Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -19326,7 +19326,7 @@
       "name": "Shimano 105 Di2 FD-R7150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -19492,7 +19492,7 @@
       "name": "Shimano Ultegra Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "36/52T",
+      "chainrings": "52/36T",
       "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
@@ -19826,7 +19826,7 @@
       "Geometría deportiva y rendimiento de referencia",
       "Diseño y desarrollo nacional en Girona"
     ],
-    "brakes": "Conjunto de frenos Shimano Dura-Ace Di2 R9270, Hydraulic disc RT-MT900 160 mm / ",
+    "brakes": "Conjunto de frenos Shimano Dura-Ace Di2 R9270, Hydraulic disc RT-MT900 160 mm /",
     "wheels": "DT Swiss ARC 1100 DICUIT, 55mm Tubeless ready Carbon rim",
     "tires": "Pirelli P Zero™ Race TLR RS 622x30"
   },
@@ -19875,7 +19875,7 @@
       "Geometría deportiva y rendimiento de referencia",
       "Diseño y desarrollo nacional en Girona"
     ],
-    "brakes": "Conjunto de frenos Shimano Dura-Ace Di2 R9270, Hydraulic disc RT-MT900 160 mm / ",
+    "brakes": "Conjunto de frenos Shimano Dura-Ace Di2 R9270, Hydraulic disc RT-MT900 160 mm /",
     "wheels": "DT Swiss ARC 1100 DICUIT, 50mm Tubeless ready Carbon rim",
     "tires": "Pirelli P Zero Race TLR Classic 622 x 30"
   },
@@ -20071,7 +20071,7 @@
       "Geometría deportiva y rendimiento de referencia",
       "Diseño y desarrollo nacional en Girona"
     ],
-    "brakes": "Conjunto de frenos Shimano Dura-Ace Di2 R9270, Hydraulic disc RT-MT900 160 mm / ",
+    "brakes": "Conjunto de frenos Shimano Dura-Ace Di2 R9270, Hydraulic disc RT-MT900 160 mm /",
     "wheels": "Zipp 404 S, 50mm Tubeless ready Carbon rim",
     "tires": "Pirelli P Zero™ Race TLR RS 622x30"
   },
@@ -20855,7 +20855,7 @@
       "Geometría deportiva y rendimiento de referencia",
       "Diseño y desarrollo nacional en Girona"
     ],
-    "brakes": "Conjunto de frenos Shimano Dura-Ace Di2 R9270, Hydraulic disc RT-MT900 160 mm / ",
+    "brakes": "Conjunto de frenos Shimano Dura-Ace Di2 R9270, Hydraulic disc RT-MT900 160 mm /",
     "wheels": "DT Swiss ARC 1100 DICUIT, 50mm Tubeless ready Carbon rim",
     "tires": "Pirelli P Zero Race TLR Classic 622 x 30"
   },
@@ -26783,8 +26783,8 @@
       "name": "Shimano Ultegra Di2 R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "52/36",
-      "cassette": "11-30",
+      "chainrings": "52/36T",
+      "cassette": "11-30T",
       "minGearRatio": 1.2,
       "maxGearRatio": 4.73
     },
@@ -26957,8 +26957,8 @@
       "name": "Shimano Ultegra Di2 R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "52/36",
-      "cassette": "11-30",
+      "chainrings": "52/36T",
+      "cassette": "11-30T",
       "minGearRatio": 1.2,
       "maxGearRatio": 4.73
     },
@@ -27131,8 +27131,8 @@
       "name": "SRAM Force AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "48/35",
-      "cassette": "10-33",
+      "chainrings": "48/35T",
+      "cassette": "10-33T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.8
     },
@@ -27305,8 +27305,8 @@
       "name": "Shimano Ultegra Di2 R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "52/36",
-      "cassette": "11-30",
+      "chainrings": "52/36T",
+      "cassette": "11-30T",
       "minGearRatio": 1.2,
       "maxGearRatio": 4.73
     },
@@ -27475,8 +27475,8 @@
       "name": "SRAM Force AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "48/35",
-      "cassette": "10-33",
+      "chainrings": "48/35T",
+      "cassette": "10-33T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.8
     },
@@ -27645,8 +27645,8 @@
       "name": "SRAM Force AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "48/35",
-      "cassette": "10-33",
+      "chainrings": "48/35T",
+      "cassette": "10-33T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.8
     },
@@ -27815,10 +27815,10 @@
       "name": "Shimano CUES RD-U6020",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "50/34",
-      "cassette": "00-10",
-      "minGearRatio": 3.4,
-      "maxGearRatio": 4.5
+      "chainrings": "50/34T",
+      "cassette": "11-39T",
+      "minGearRatio": 0.87,
+      "maxGearRatio": 4.55
     },
     "geometry": {
       "stackMm": 569,
@@ -27987,8 +27987,8 @@
       "name": "Shimnao 105 R7100",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "50/34",
-      "cassette": "11-34",
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
       "minGearRatio": 1,
       "maxGearRatio": 4.55
     },
@@ -28159,8 +28159,8 @@
       "name": "Shimano Tiagra",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "50/34",
-      "cassette": "11-32",
+      "chainrings": "50/34T",
+      "cassette": "11-32T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.55
     },
@@ -28335,8 +28335,8 @@
       "name": "Shimano 105",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "52/36",
-      "cassette": "11-34",
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
     },
@@ -28511,8 +28511,8 @@
       "name": "Shimnao Tiagra",
       "isElectronic": false,
       "speedCount": 10,
-      "chainrings": "50/34",
-      "cassette": "11-34",
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
       "minGearRatio": 1,
       "maxGearRatio": 4.55
     },
@@ -28688,8 +28688,8 @@
       "name": "Shimano 105 Di2 R7150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "50/34",
-      "cassette": "11-36",
+      "chainrings": "50/34T",
+      "cassette": "11-36T",
       "minGearRatio": 0.94,
       "maxGearRatio": 4.55
     },
@@ -28860,8 +28860,8 @@
       "name": "SRAM Rival AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "46/33",
-      "cassette": "10-36",
+      "chainrings": "46/33T",
+      "cassette": "10-36T",
       "minGearRatio": 0.92,
       "maxGearRatio": 4.6
     },
@@ -29027,8 +29027,8 @@
       "name": "Shimano Ultegra R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "50/34",
-      "cassette": "11-34",
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
       "minGearRatio": 1,
       "maxGearRatio": 4.55
     },
@@ -29201,8 +29201,8 @@
       "name": "NEW SRAM Force AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "46/33",
-      "cassette": "10-36",
+      "chainrings": "46/33T",
+      "cassette": "10-36T",
       "minGearRatio": 0.92,
       "maxGearRatio": 4.6
     },
@@ -29380,8 +29380,8 @@
       "name": "Shimnao 105 R7100",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "50/34",
-      "cassette": "11-36",
+      "chainrings": "50/34T",
+      "cassette": "11-36T",
       "minGearRatio": 0.94,
       "maxGearRatio": 4.55
     },
@@ -29553,8 +29553,8 @@
       "name": "Shimano Tiagra RD-R4000",
       "isElectronic": false,
       "speedCount": 11,
-      "chainrings": "50/34",
-      "cassette": "11-36",
+      "chainrings": "50/34T",
+      "cassette": "11-36T",
       "minGearRatio": 0.94,
       "maxGearRatio": 4.55
     },
@@ -29724,8 +29724,8 @@
       "name": "CAMPAGNOLO Super Record",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "48/32",
-      "cassette": "10-29",
+      "chainrings": "48/32T",
+      "cassette": "10-29T",
       "minGearRatio": 1.1,
       "maxGearRatio": 4.8
     },
@@ -29901,8 +29901,8 @@
       "name": "Shimano Dura-Ace Di2 R9250",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "52/36",
-      "cassette": "11-30",
+      "chainrings": "52/36T",
+      "cassette": "11-30T",
       "minGearRatio": 1.2,
       "maxGearRatio": 4.73
     },
@@ -29927,7 +29927,7 @@
       "Ruedas Roval Alpinist CLX III"
     ],
     "brakes": "Shimano Dura-Ace BR-R9270 hydraulic brake",
-    "wheels": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, ",
+    "wheels": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and 21mm internal width carbon rim,",
     "tires": "S-Works Turbo TLR Race Tire, 700x28c",
     "detailedSpecs": [
       {
@@ -29935,7 +29935,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "S-Works Aethos 2 FACT 12r Carbon, Rider First Engineered™, Ceramic Speed SLT Headset Bearings, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, "
+            "value": "S-Works Aethos 2 FACT 12r Carbon, Rider First Engineered™, Ceramic Speed SLT Headset Bearings, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle,"
           }
         ]
       },
@@ -30003,7 +30003,7 @@
           },
           {
             "label": "Rueda delantera",
-            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, Roval LF21-F  21H hub with Sinc Ceramic Bearings, Roval"
+            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and 21mm internal width carbon rim, Roval LF21-F 21H hub with Sinc Ceramic Bearings, Roval"
           },
           {
             "label": "Neumático trasero",
@@ -30011,7 +30011,7 @@
           },
           {
             "label": "Rueda trasera",
-            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, Roval LF19-R  24H hub with Sinc Ceramic Bearings, Roval"
+            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and 21mm internal width carbon rim, Roval LF19-R 24H hub with Sinc Ceramic Bearings, Roval"
           },
           {
             "label": "Cámaras",
@@ -30071,8 +30071,8 @@
       "name": "SRAM RED AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "48/35",
-      "cassette": "10-33",
+      "chainrings": "48/35T",
+      "cassette": "10-33T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.8
     },
@@ -30105,7 +30105,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "S-Works Aethos 2 FACT 12r Carbon, Rider First Engineered™, Ceramic Speed SLT Headset Bearings, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, "
+            "value": "S-Works Aethos 2 FACT 12r Carbon, Rider First Engineered™, Ceramic Speed SLT Headset Bearings, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle,"
           }
         ]
       },
@@ -30241,8 +30241,8 @@
       "name": "SRAM RED AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "48/35",
-      "cassette": "10-33",
+      "chainrings": "48/35T",
+      "cassette": "10-33T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.8
     },
@@ -30267,7 +30267,7 @@
       "Ruedas Roval Alpinist CLX III"
     ],
     "brakes": "SRAM RED E1, hydraulic disc",
-    "wheels": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, ",
+    "wheels": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and 21mm internal width carbon rim,",
     "tires": "S-Works Turbo TLR Race Tire, 700x28c",
     "detailedSpecs": [
       {
@@ -30275,7 +30275,7 @@
         "items": [
           {
             "label": "Cuadro",
-            "value": "S-Works Aethos 2 FACT 12r Carbon, Rider First Engineered™, Ceramic Speed SLT Headset Bearings, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle, "
+            "value": "S-Works Aethos 2 FACT 12r Carbon, Rider First Engineered™, Ceramic Speed SLT Headset Bearings, Threaded BB, Hidden Cable Routing, 12x142mm thru-axle,"
           }
         ]
       },
@@ -30343,7 +30343,7 @@
           },
           {
             "label": "Rueda delantera",
-            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, Roval LF21-F  21H hub with Sinc Ceramic Bearings, Roval"
+            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and 21mm internal width carbon rim, Roval LF21-F 21H hub with Sinc Ceramic Bearings, Roval"
           },
           {
             "label": "Neumático trasero",
@@ -30351,7 +30351,7 @@
           },
           {
             "label": "Rueda trasera",
-            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and  21mm internal width carbon rim, Roval LF19-R  24H hub with Sinc Ceramic Bearings, Roval"
+            "value": "Roval Alpinist CLX III, Tubeless, 33mm depth, 26.5 width, and 21mm internal width carbon rim, Roval LF19-R 24H hub with Sinc Ceramic Bearings, Roval"
           },
           {
             "label": "Cámaras",
@@ -30411,8 +30411,8 @@
       "name": "Shimano Dura-Ace R9250",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "50/34",
-      "cassette": "11-34",
+      "chainrings": "50/34T",
+      "cassette": "11-34T",
       "minGearRatio": 1,
       "maxGearRatio": 4.55
     },
@@ -30586,11 +30586,11 @@
     "bikepackingMounts": true,
     "groupset": {
       "brand": "sram",
-      "name": "NEW SRAM RED  AXS",
+      "name": "NEW SRAM RED AXS",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "46/33",
-      "cassette": "10-36",
+      "chainrings": "46/33T",
+      "cassette": "10-36T",
       "minGearRatio": 0.92,
       "maxGearRatio": 4.6
     },
@@ -30609,7 +30609,7 @@
       "standoverHeightMm": 766
     },
     "highlights": [
-      "Transmisión electrónica inalámbrica de precisión (NEW SRAM RED  AXS)",
+      "Transmisión electrónica inalámbrica de precisión (NEW SRAM RED AXS)",
       "Cuadro de carbono de alto rendimiento (FACT 12R)",
       "Confort de larga distancia con absorción de irregularidades",
       "Ruedas Roval Terra CLX II"
@@ -30662,7 +30662,7 @@
           },
           {
             "label": "Desviador trasero",
-            "value": "NEW SRAM RED  AXS, 12-speed"
+            "value": "NEW SRAM RED AXS, 12-speed"
           },
           {
             "label": "Cassette",
@@ -30767,8 +30767,8 @@
       "name": "SRAM RED AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "50/37",
-      "cassette": "10-36",
+      "chainrings": "50/37T",
+      "cassette": "10-36T",
       "minGearRatio": 1.03,
       "maxGearRatio": 5
     },
@@ -30869,7 +30869,7 @@
           },
           {
             "label": "Rueda delantera",
-            "value": "Roval Rapide Sprint CLX, Tubeless, 21mm internal width carbon rim, 63mm depth, Win Tunnel Engineered, Roval LF18-F hub, 18h, Roval by ARRIS Composite "
+            "value": "Roval Rapide Sprint CLX, Tubeless, 21mm internal width carbon rim, 63mm depth, Win Tunnel Engineered, Roval LF18-F hub, 18h, Roval by ARRIS Composite"
           },
           {
             "label": "Neumático trasero",
@@ -30877,7 +30877,7 @@
           },
           {
             "label": "Rueda trasera",
-            "value": "Roval Rapide Sprint CLX, Tubeless, 21mm internal width carbon rim, 58mm depth, Win Tunnel Engineered, Roval LF19-R hub, 24h, Roval by ARRIS Composite "
+            "value": "Roval Rapide Sprint CLX, Tubeless, 21mm internal width carbon rim, 58mm depth, Win Tunnel Engineered, Roval LF19-R hub, 24h, Roval by ARRIS Composite"
           },
           {
             "label": "Cámaras",
@@ -30937,8 +30937,8 @@
       "name": "Shimano Dura-Ace RD-R9250",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "52/36",
-      "cassette": "11-34",
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
     },
@@ -31047,7 +31047,7 @@
           },
           {
             "label": "Rueda trasera",
-            "value": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 48.5mm depth, Win Tunnel Engineered, Roval LF19-R 24H hub with Sinc Ceramic Bearings, "
+            "value": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 48.5mm depth, Win Tunnel Engineered, Roval LF19-R 24H hub with Sinc Ceramic Bearings,"
           },
           {
             "label": "Cámaras",
@@ -31107,8 +31107,8 @@
       "name": "SRAM RED AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "50/37",
-      "cassette": "10-36",
+      "chainrings": "50/37T",
+      "cassette": "10-36T",
       "minGearRatio": 1.03,
       "maxGearRatio": 5
     },
@@ -31217,7 +31217,7 @@
           },
           {
             "label": "Rueda trasera",
-            "value": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 48.5mm depth, Win Tunnel Engineered, Roval LF19-R 24H hub with Sinc Ceramic Bearings, "
+            "value": "Roval Rapide CLX III, Tubeless, 21mm internal width carbon rim, 48.5mm depth, Win Tunnel Engineered, Roval LF19-R 24H hub with Sinc Ceramic Bearings,"
           },
           {
             "label": "Cámaras",
@@ -31277,8 +31277,8 @@
       "name": "Shimnao 105 R7100",
       "isElectronic": false,
       "speedCount": 12,
-      "chainrings": "52/36",
-      "cassette": "11-34",
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
     },
@@ -31450,8 +31450,8 @@
       "name": "Shimano 105 Di2 R7150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "52/36",
-      "cassette": "11-34",
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
     },
@@ -31624,8 +31624,8 @@
       "name": "SRAM Rival AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "48/35",
-      "cassette": "10-36",
+      "chainrings": "48/35T",
+      "cassette": "10-36T",
       "minGearRatio": 0.97,
       "maxGearRatio": 4.8
     },
@@ -31798,8 +31798,8 @@
       "name": "Shimano Ultegra Di2 RD-R8150",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "52/36",
-      "cassette": "11-34",
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
     },
@@ -31972,8 +31972,8 @@
       "name": "SRAM Force AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "48/35",
-      "cassette": "10-36",
+      "chainrings": "48/35T",
+      "cassette": "10-36T",
       "minGearRatio": 0.97,
       "maxGearRatio": 4.8
     },
@@ -32146,8 +32146,8 @@
       "name": "Shimano Dura-Ace RD-R9250",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "52/36",
-      "cassette": "11-34",
+      "chainrings": "52/36T",
+      "cassette": "11-34T",
       "minGearRatio": 1.06,
       "maxGearRatio": 4.73
     },
@@ -32316,8 +32316,8 @@
       "name": "SRAM RED AXS E1",
       "isElectronic": true,
       "speedCount": 12,
-      "chainrings": "50/37",
-      "cassette": "10-36",
+      "chainrings": "50/37T",
+      "cassette": "10-36T",
       "minGearRatio": 1.03,
       "maxGearRatio": 5
     },

@@ -454,7 +454,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                       <span
                         className={`rounded-lg px-2.5 py-1 text-xs font-black ${
                           index === 0
-                            ? "bg-teal-700 text-white shadow-xs"
+                            ? "bg-teal-700 text-white shadow-sm"
                             : "bg-slate-100 text-slate-900"
                         }`}
                       >
@@ -566,7 +566,7 @@ export function BikeRecommenderWizard({ allBikes }: BikeRecommenderWizardProps) 
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={`Ver en web oficial de ${bike.brand} (se abre en pestaña nueva)`}
-                        className="rounded-xl bg-slate-950 hover:bg-teal-700 py-2.5 px-2.5 text-xs font-bold text-white transition-colors flex items-center justify-center gap-1.5 shadow-xs"
+                        className="rounded-xl bg-slate-950 hover:bg-teal-700 py-2.5 px-2.5 text-xs font-bold text-white transition-colors flex items-center justify-center gap-1.5 shadow-sm"
                       >
                         <span className="truncate">Ver en web oficial de {bike.brand}</span>
                         <ExternalLink className="w-3.5 h-3.5 text-teal-300 shrink-0" aria-hidden="true" />

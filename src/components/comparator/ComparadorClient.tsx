@@ -91,7 +91,7 @@ export function ComparadorClient() {
                 id="add-bike-select"
                 onChange={handleAddBikeFromSelect}
                 defaultValue=""
-                className="rounded-xl border border-slate-300 bg-white py-2 px-3 text-xs font-semibold text-slate-900 focus:border-teal-600 focus:outline-hidden shadow-2xs max-w-[260px] truncate cursor-pointer"
+                className="rounded-xl border border-slate-300 bg-white py-2 px-3 text-xs font-semibold text-slate-900 focus:border-teal-600 focus:outline-none shadow-sm max-w-[260px] truncate cursor-pointer"
               >
                 <option value="" disabled>
                   Seleccionar bicicleta...
@@ -132,40 +132,53 @@ export function ComparadorClient() {
             type="button"
             onClick={() =>
               handleLoadPreset([
-                "canyon-grizl-cf-sl-7-2025",
-                "orbea-terra-m20team-2025",
-                "trek-checkpoint-sl-6-axs-gen-3-2025",
+                "giant-revolt-advanced-2-2026",
+                "specialized-diverge-4-comp-carbon-sram-apex-axs-s1000-2026",
+                "canyon-grail-cf-7-2026",
               ])
             }
-            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-500 hover:text-teal-800 shadow-2xs transition-all cursor-pointer"
+            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-500 hover:text-teal-800 shadow-sm transition-all cursor-pointer"
           >
-            🚴‍♂️ Duelo Gravel Referencia: Canyon Grizl vs Orbea Terra vs Trek Checkpoint
+            🚴‍♂️ Duelo Gravel Referencia: Giant Revolt vs Specialized Diverge vs Canyon Grail
           </button>
           <button
             type="button"
             onClick={() =>
               handleLoadPreset([
-                "canyon-endurace-cf-7-2025",
-                "trek-domane-sl-6-gen-4-2025",
-                "specialized-roubaix-sl8-expert-2025",
+                "giant-defy-advanced-0-2026",
+                "specialized-roubaix-sl8-comp-2026",
+                "canyon-endurace-cf-6-2027",
               ])
             }
-            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-500 hover:text-teal-800 shadow-2xs transition-all cursor-pointer"
+            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-500 hover:text-teal-800 shadow-sm transition-all cursor-pointer"
           >
-            ⚡ Batalla Gran Fondo: Endurace vs Domane vs Roubaix
+            ⚡ Batalla Gran Fondo: Defy vs Roubaix SL8 vs Endurace
           </button>
           <button
             type="button"
             onClick={() =>
               handleLoadPreset([
-                "canyon-ultimate-cf-sl-8-aero-2025",
-                "orbea-orca-m30iltd-2025",
-                "specialized-tarmac-sl8-pro-2025",
+                "specialized-tarmac-sl9-expert-shimano-ultegra-di2-2026",
+                "canyon-aeroad-cf-slx-8-di2-2027",
+                "giant-propel-advanced-pro-0-di2-2027",
               ])
             }
-            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-500 hover:text-teal-800 shadow-2xs transition-all cursor-pointer"
+            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-500 hover:text-teal-800 shadow-sm transition-all cursor-pointer"
           >
-            🏆 Escaladoras y Racing: Ultimate vs Orca OMX vs Tarmac SL8
+            🏆 Escaladoras y Aero: Tarmac SL9 vs Aeroad CF SLX vs Propel Pro
+          </button>
+          <button
+            type="button"
+            onClick={() =>
+              handleLoadPreset([
+                "specialized-epic-9-comp-2026",
+                "canyon-lux-world-cup-cfr-x0-axs-2027",
+                "giant-anthem-advanced-sl-2-2026",
+              ])
+            }
+            className="rounded-lg bg-white px-3 py-1.5 text-xs font-semibold text-slate-800 border border-slate-200 hover:border-teal-500 hover:text-teal-800 shadow-sm transition-all cursor-pointer"
+          >
+            ⛰️ MTB XC Doble: Specialized Epic vs Canyon Lux WC vs Giant Anthem
           </button>
         </div>
       </div>
@@ -192,7 +205,7 @@ export function ComparadorClient() {
         <CategorizedBikePicker
           allBikes={allBikes}
           title="Elige tus Bicicletas para Comparar"
-          subtitle="Selecciona hasta 4 bicicletas filtrando por categorías (Gravel, Gran Fondo, Competición, All-Road) para ver su comparativa técnica al instante."
+          subtitle="Selecciona hasta 4 bicicletas filtrando por categorías (Gravel, Gran Fondo, Competición, MTB, All-Road) para ver su comparativa técnica al instante."
         />
       )}
     </div>

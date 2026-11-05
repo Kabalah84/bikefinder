@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "tsc --noEmit && tsx scripts/validate-catalog.ts",
+    "test": "tsx --test tests/catalog-and-security.test.ts",
     "validate:catalog": "tsx scripts/validate-catalog.ts",
     "pages:build": "npx @cloudflare/next-on-pages",
     "bike:import": "tsx scripts/import-bike.ts",
@@ -16,11 +17,11 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "lucide-react": "^0.454.0",
-    "next": "^14.2.24",
+    "next": "^14.2.35",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwind-merge": "^2.5.4",
-    "zod": "^3.23.8"
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.7",
@@ -28,7 +29,7 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.5.3",
+    "postcss": "^8.5.26",
     "tailwindcss": "^3.4.14",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3",

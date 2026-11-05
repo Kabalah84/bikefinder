@@ -1,7 +1,9 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { constructMetadata } from "@/lib/seo/metadata";
-import { Cookie, ShieldCheck, ArrowLeft, CheckCircle2, Settings, ExternalLink } from "lucide-react";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { generateBreadcrumbsSchema } from "@/lib/seo/schema";
+import { Cookie, ShieldCheck, ArrowLeft, CheckCircle2, Settings } from "lucide-react";
 
 export const metadata: Metadata = constructMetadata({
   title: "Política de Cookies y Almacenamiento Local",
@@ -11,10 +13,17 @@ export const metadata: Metadata = constructMetadata({
 });
 
 export default function PoliticaCookiesPage() {
+  const breadcrumbsSchema = generateBreadcrumbsSchema([
+    { name: "Inicio", url: "/" },
+    { name: "Política de Cookies", url: "/politica-cookies" },
+  ]);
+
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 pt-6 sm:pt-10 space-y-8">
+      <JsonLd data={breadcrumbsSchema} />
+
       {/* Breadcrumbs */}
-      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-500">
+      <nav aria-label="Ruta de navegación" className="flex items-center gap-2 text-xs font-semibold text-slate-600">
         <Link href="/" className="hover:text-teal-600 flex items-center gap-1">
           <ArrowLeft className="w-3.5 h-3.5" /> Inicio
         </Link>
@@ -33,7 +42,7 @@ export default function PoliticaCookiesPage() {
         <h1 className="text-2xl sm:text-4xl font-black tracking-tight text-slate-950">
           Política de Cookies y Almacenamiento
         </h1>
-        <p className="text-xs sm:text-sm text-slate-500">
+        <p className="text-xs sm:text-sm text-slate-600">
           Última actualización: Septiembre de 2026 · Información transparente sobre el uso de cookies y tecnologías similares en ComparaBici.es.
         </p>
       </header>
@@ -41,7 +50,7 @@ export default function PoliticaCookiesPage() {
       {/* Content */}
       <div className="prose prose-slate max-w-none text-xs sm:text-sm leading-relaxed text-slate-700 space-y-6">
         {/* 1. ¿Qué son las cookies? */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <Cookie className="w-5 h-5 text-teal-600 shrink-0" />
             <span>1. ¿Qué son las Cookies y el Almacenamiento Local?</span>
@@ -55,7 +64,7 @@ export default function PoliticaCookiesPage() {
         </section>
 
         {/* 2. ¿Qué cookies y almacenamiento utilizamos? */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-4">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-4">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <ShieldCheck className="w-5 h-5 text-teal-600 shrink-0" />
             <span>2. Tecnologías Empleadas en ComparaBici.es</span>
@@ -128,7 +137,7 @@ export default function PoliticaCookiesPage() {
         </section>
 
         {/* 3. Cookies de Terceros y Publicidad Futura */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <CheckCircle2 className="w-5 h-5 text-teal-600 shrink-0" />
             <span>3. Cookies Analíticas y Publicitarias de Terceros</span>
@@ -139,7 +148,7 @@ export default function PoliticaCookiesPage() {
         </section>
 
         {/* 4. Cómo gestionar y desactivar cookies */}
-        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-2xs space-y-3">
+        <section className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200/90 shadow-sm space-y-3">
           <h2 className="text-base sm:text-lg font-black text-slate-950 flex items-center gap-2">
             <Settings className="w-5 h-5 text-teal-600 shrink-0" />
             <span>4. Cómo Configurar o Desactivar las Cookies en tu Navegador</span>
@@ -161,7 +170,7 @@ export default function PoliticaCookiesPage() {
               <strong>Microsoft Edge:</strong> Configuración → Cookies y permisos del sitio.
             </li>
           </ul>
-          <p className="text-xs text-slate-500 pt-1">
+          <p className="text-xs text-slate-600 pt-1">
             Ten en cuenta que la desactivación de almacenamiento local técnico puede limitar algunas funciones interactivas como mantener las bicicletas seleccionadas en la bandeja del comparador.
           </p>
         </section>

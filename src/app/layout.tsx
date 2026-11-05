@@ -76,10 +76,8 @@ export default function RootLayout({
 
   return (
     <html lang="es" className="scroll-smooth">
-      <head>
-        <JsonLd data={[organizationSchema, webSiteSchema]} />
-      </head>
       <body className="flex flex-col min-h-screen bg-slate-50 text-slate-900 antialiased selection:bg-teal-500 selection:text-white">
+        <JsonLd data={[organizationSchema, webSiteSchema]} />
         <ComparisonProvider>
           <Navbar />
           <main className="flex-1 pb-24">{children}</main>

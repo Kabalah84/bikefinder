@@ -18,7 +18,6 @@ const ContentSecurityPolicy = `
   base-uri 'self';
   form-action 'self';
   frame-ancestors 'none';
-  block-all-mixed-content;
   upgrade-insecure-requests;
 `.replace(/\s{2,}/g, " ").trim();
 

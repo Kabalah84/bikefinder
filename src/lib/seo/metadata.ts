@@ -9,7 +9,7 @@ export const SITE_CONFIG = {
   titleTemplate: "%s · ComparaBici.es",
   defaultDescription:
     "Buscador y comparador técnico oficial de más de 800 bicicletas: pesos reales en báscula, pasos de rueda al milímetro, suspensiones rígidas y dobles, e-bikes y geometrías de Specialized, Canyon, Giant, Scott, Cannondale, Megamo, Merida, BH, Bianchi, Pinarello y Liv.",
-  defaultOgImage: "https://comparabici.es/og-image.jpg",
+  defaultOgImage: "https://comparabici.es/opengraph-image",
   twitterHandle: "@comparabici_es",
   locale: "es_ES",
   keywords: [
@@ -48,6 +48,7 @@ export const SITE_CONFIG = {
 
 export interface ConstructMetadataProps {
   title?: string;
+  ogTitle?: string;
   description?: string;
   canonicalPath?: string;
   ogImage?: string;
@@ -58,6 +59,7 @@ export interface ConstructMetadataProps {
 
 export function constructMetadata({
   title,
+  ogTitle,
   description = SITE_CONFIG.defaultDescription,
   canonicalPath = "/",
   ogImage = SITE_CONFIG.defaultOgImage,
@@ -69,7 +71,11 @@ export function constructMetadata({
     ? canonicalPath
     : `${SITE_CONFIG.baseUrl}${canonicalPath.startsWith("/") ? canonicalPath : `/${canonicalPath}`}`;
 
-  const resolvedTitle = title ? `${title} · ${SITE_CONFIG.name}` : SITE_CONFIG.defaultTitle;
+  const resolvedTitle = ogTitle
+    ? `${ogTitle} · ${SITE_CONFIG.name}`
+    : title
+    ? `${title} · ${SITE_CONFIG.name}`
+    : SITE_CONFIG.defaultTitle;
 
   return {
     title: title ? title : { default: SITE_CONFIG.defaultTitle, template: SITE_CONFIG.titleTemplate },

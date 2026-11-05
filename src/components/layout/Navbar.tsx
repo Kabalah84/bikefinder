@@ -36,7 +36,7 @@ export function Navbar() {
                 <span className="text-lg font-black tracking-tight text-slate-950">
                   ComparaBici<span className="text-teal-600">.es</span>
                 </span>
-                <span className="hidden sm:inline-block px-1.5 py-0.2 rounded bg-slate-100 text-[9px] font-extrabold uppercase tracking-wider text-slate-600 border border-slate-200/70">
+                <span className="hidden sm:inline-block px-1.5 py-0.5 rounded bg-slate-100 text-[9px] font-extrabold uppercase tracking-wider text-slate-600 border border-slate-200/70">
                   Pro Index
                 </span>
               </div>
@@ -77,7 +77,7 @@ export function Navbar() {
             </Link>
             <Link
               href="/asistente"
-              className="px-3 py-1.5 text-xs font-extrabold text-teal-800 bg-gradient-to-r from-teal-50 to-emerald-50 hover:from-teal-100 hover:to-emerald-100 border border-teal-200/80 rounded-lg transition-all flex items-center gap-1.5 shadow-2xs"
+              className="px-3 py-1.5 text-xs font-extrabold text-teal-800 bg-gradient-to-r from-teal-50 to-emerald-50 hover:from-teal-100 hover:to-emerald-100 border border-teal-200/80 rounded-lg transition-all flex items-center gap-1.5 shadow-sm"
             >
               <Sparkles className="w-3.5 h-3.5 text-teal-600" />
               Recomendador IA
@@ -136,7 +136,7 @@ export function Navbar() {
             className="flex items-center justify-between px-3 py-2 text-xs font-bold text-slate-800 hover:bg-slate-100 rounded-xl"
           >
             <span>Catálogo Completo</span>
-            <ChevronRight className="w-4 h-4 text-slate-400" />
+            <ChevronRight className="w-4 h-4 text-slate-500" />
           </Link>
           <Link
             href="/asistente"
@@ -191,7 +191,7 @@ export function Navbar() {
           <Link
             href="/comparador"
             onClick={() => setMobileMenuOpen(false)}
-            className="flex items-center justify-between px-3 py-2.5 text-xs font-black text-white bg-slate-950 rounded-xl shadow-xs"
+            className="flex items-center justify-between px-3 py-2.5 text-xs font-black text-white bg-slate-950 rounded-xl shadow-sm"
           >
             <span className="flex items-center gap-2">
               <Scale className="w-4 h-4 text-teal-400" />

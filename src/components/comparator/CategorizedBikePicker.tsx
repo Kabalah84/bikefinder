@@ -3,7 +3,11 @@
 import React, { useState, useMemo } from "react";
 import { BikeProduct, Discipline } from "@/lib/schema/bike";
 import { useComparison } from "@/lib/context/ComparisonContext";
-import { formatCurrencyEur, formatDisciplineName } from "@/lib/utils/formatters";
+import {
+  formatCurrencyEur,
+  formatDisciplineName,
+  formatSuspensionName,
+} from "@/lib/utils/formatters";
 import { sanitizeSearchInput } from "@/lib/utils/security";
 import {
   Compass,
@@ -56,7 +60,7 @@ export function CategorizedBikePicker({
   }, [allBikes, activeCategory, searchTerm]);
 
   return (
-    <div className="rounded-3xl bg-white p-5 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+    <div className="rounded-3xl bg-white p-5 sm:p-8 border border-slate-200 shadow-sm space-y-6">
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-100">
         <div>
@@ -98,14 +102,14 @@ export function CategorizedBikePicker({
                 type="button"
                 className={`flex items-center gap-1.5 rounded-xl px-3 py-2 text-xs font-bold transition-all cursor-pointer ${
                   isActive
-                    ? "bg-slate-900 text-white shadow-xs"
+                    ? "bg-slate-900 text-white shadow-sm"
                     : "bg-slate-50 text-slate-800 hover:bg-slate-100 border border-slate-200"
                 }`}
               >
                 <Icon className={`w-3.5 h-3.5 ${isActive ? "text-teal-400" : cat.color}`} />
                 <span>{cat.label}</span>
                 <span
-                  className={`text-[10px] px-1.5 py-0.2 rounded-full font-extrabold ${
+                  className={`text-[10px] px-1.5 py-0.5 rounded-full font-extrabold ${
                     isActive ? "bg-slate-800 text-teal-300" : "bg-slate-200 text-slate-700"
                   }`}
                 >
@@ -118,7 +122,7 @@ export function CategorizedBikePicker({
 
         {/* Search filter inside picker */}
         <div className="relative min-w-[200px] sm:w-64">
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-slate-500" aria-hidden="true" />
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-slate-600" aria-hidden="true" />
           <input
             type="search"
             maxLength={80}
@@ -126,7 +130,7 @@ export function CategorizedBikePicker({
             value={searchTerm}
             onChange={(e) => setSearchTerm(sanitizeSearchInput(e.target.value, 80))}
             placeholder="Buscar marca o modelo..."
-            className="w-full pl-9 pr-3 py-1.5 rounded-xl border border-slate-200 bg-slate-50 text-xs font-medium text-slate-900 placeholder:text-slate-500 focus:bg-white focus:border-teal-600 focus:outline-hidden transition-all"
+            className="w-full pl-9 pr-3 py-1.5 rounded-xl border border-slate-200 bg-slate-50 text-xs font-medium text-slate-900 placeholder:text-slate-600 focus:bg-white focus:border-teal-600 focus:outline-none transition-all"
           />
         </div>
       </div>
@@ -150,7 +154,7 @@ export function CategorizedBikePicker({
                   ? "border-teal-600 bg-teal-50/40 ring-2 ring-teal-500/20 shadow-md"
                   : isMaxReached
                   ? "border-slate-200 bg-slate-50/50 opacity-60 cursor-not-allowed"
-                  : "border-slate-200 bg-white hover:border-teal-500 hover:shadow-xs"
+                  : "border-slate-200 bg-white hover:border-teal-500 hover:shadow-sm"
               }`}
             >
               {/* Image & Selected Badge */}
@@ -163,7 +167,7 @@ export function CategorizedBikePicker({
                     height={300}
                     loading="lazy"
                     decoding="async"
-                    className="h-full w-full object-cover group-hover:scale-103 transition-transform"
+                    className="h-full w-full object-cover group-hover:scale-105 transition-transform"
                     referrerPolicy="no-referrer"
                   />
                   {selected && (
@@ -171,9 +175,16 @@ export function CategorizedBikePicker({
                       <Check className="w-3.5 h-3.5 stroke-[3]" />
                     </div>
                   )}
-                  <span className="absolute bottom-1.5 left-1.5 rounded-md bg-slate-900/85 backdrop-blur-xs px-2 py-0.5 text-[10px] font-bold text-white">
-                    {formatDisciplineName(bike.discipline)}
-                  </span>
+                  <div className="absolute bottom-1.5 left-1.5 flex flex-wrap gap-1">
+                    <span className="rounded-md bg-slate-900/85 backdrop-blur-sm px-2 py-0.5 text-[10px] font-bold text-white">
+                      {formatDisciplineName(bike.discipline)}
+                    </span>
+                    {bike.isElectric && (
+                      <span className="rounded-md bg-amber-400 px-1.5 py-0.5 text-[10px] font-black text-slate-950">
+                        ⚡ E-Bike
+                      </span>
+                    )}
+                  </div>
                 </div>
 
                 {/* Brand & Model */}
@@ -199,6 +210,11 @@ export function CategorizedBikePicker({
                       {bike.weightKg} kg
                     </span>
                   )}
+                  {bike.suspensionType && bike.suspensionType !== "rigid" && (
+                    <span className="rounded-md bg-indigo-50 text-indigo-800 border border-indigo-200 px-1.5 py-0.5">
+                      Susp. {formatSuspensionName(bike.suspensionType)}
+                    </span>
+                  )}
                   <span className="rounded-md bg-slate-100 px-1.5 py-0.5">
                     {bike.groupset.isElectronic ? "⚡ Di2/AXS" : "⚙️ Mec"}
                   </span>
@@ -221,9 +237,9 @@ export function CategorizedBikePicker({
                   disabled={isMaxReached}
                   className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-bold transition-all cursor-pointer ${
                     selected
-                      ? "bg-teal-700 text-white shadow-xs"
+                      ? "bg-teal-700 text-white shadow-sm"
                       : isMaxReached
-                      ? "bg-slate-200 text-slate-500 cursor-not-allowed"
+                      ? "bg-slate-200 text-slate-600 cursor-not-allowed"
                       : "bg-slate-100 text-slate-800 hover:bg-teal-700 hover:text-white"
                   }`}
                 >

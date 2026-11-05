@@ -70,7 +70,12 @@ export function generateMetadata({ params }: BikePageProps): Metadata {
   if (bike.isElectric) {
     typePrefix = " · Bicicleta Eléctrica (e-Bike)";
   } else if (bike.discipline === "mtb") {
-    typePrefix = bike.suspensionType === "full" ? " · MTB Doble Suspensión" : " · MTB Rígida";
+    typePrefix =
+      bike.suspensionType === "full"
+        ? " · MTB Doble Suspensión"
+        : bike.suspensionType === "hardtail"
+        ? " · MTB Hardtail"
+        : " · MTB Rígida";
   } else if (bike.discipline === "gravel") {
     typePrefix = " · Bicicleta Gravel";
   } else if (bike.discipline === "road_race") {
@@ -79,12 +84,15 @@ export function generateMetadata({ params }: BikePageProps): Metadata {
     typePrefix = " · Bicicleta Gran Fondo";
   }
 
-  const title = `${bike.brand} ${bike.model} (${bike.year})${typePrefix}: Especificaciones, Geometría y Precio Oficial`;
+  // Título conciso para SERP (< 65 chars antes del sufijo) y título enriquecido para OpenGraph
+  const title = `${bike.brand} ${bike.model} (${bike.year}): Ficha y Precio`;
+  const ogTitle = `${bike.brand} ${bike.model} (${bike.year})${typePrefix}: Especificaciones, Geometría y Precio Oficial`;
 
   // Descripción optimizada para Search Snippets con métricas clave
   const techDetails: string[] = [];
   if (bike.isElectric) techDetails.push("asistencia eléctrica (e-bike)");
   if (bike.suspensionType === "full") techDetails.push("doble suspensión");
+  if (bike.suspensionType === "hardtail") techDetails.push("suspensión delantera");
   if (bike.weightKg) techDetails.push(`peso ${bike.weightKg} kg`);
   techDetails.push(`paso de rueda ${bike.maxTireClearanceMm} mm`);
   techDetails.push(`grupo ${bike.groupset.name}`);
@@ -95,6 +103,7 @@ export function generateMetadata({ params }: BikePageProps): Metadata {
 
   return constructMetadata({
     title,
+    ogTitle,
     description,
     canonicalPath: `/bici/${bike.id}`,
     ogImage: bike.officialImageUrl,
@@ -230,7 +239,11 @@ export default function BikeDetailPage({ params }: BikePageProps) {
               {bike.discipline === "mtb" && (
                 <span className="rounded-lg bg-purple-100 text-purple-950 px-2 py-0.5 text-xs font-bold border border-purple-200 flex items-center gap-1">
                   <Mountain className="w-3 h-3 text-purple-700" />
-                  {bike.suspensionType === "full" ? "Doble Suspensión" : "Rígida"}
+                  {bike.suspensionType === "full"
+                    ? "Doble Suspensión"
+                    : bike.suspensionType === "hardtail"
+                    ? "Suspensión Delantera"
+                    : "Rígida"}
                 </span>
               )}
             </div>
@@ -363,7 +376,7 @@ export default function BikeDetailPage({ params }: BikePageProps) {
       {/* Technical Deep Dive: Gear Ratios & Geometry */}
       <section aria-label="Análisis técnico y geometría" className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Gear Calculator & Ratio Analysis */}
-        <div className="rounded-3xl bg-white p-6 border border-slate-200 shadow-xs space-y-5">
+        <div className="rounded-3xl bg-white p-6 border border-slate-200 shadow-sm space-y-5">
           <div className="flex items-center justify-between pb-3 border-b border-slate-100">
             <h2 className="text-base font-bold text-slate-950 flex items-center gap-2">
               <TrendingUp className="w-5 h-5 text-teal-700" />
@@ -419,7 +432,7 @@ export default function BikeDetailPage({ params }: BikePageProps) {
         </div>
 
         {/* Posture Analyzer Card */}
-        <div className="rounded-3xl bg-white p-6 border border-slate-200 shadow-xs space-y-5 flex flex-col justify-between">
+        <div className="rounded-3xl bg-white p-6 border border-slate-200 shadow-sm space-y-5 flex flex-col justify-between">
           <div className="space-y-4">
             <div className="flex items-center justify-between pb-3 border-b border-slate-100">
               <h2 className="text-base font-bold text-slate-950 flex items-center gap-2">
@@ -471,7 +484,7 @@ export default function BikeDetailPage({ params }: BikePageProps) {
       />
 
       {/* Full Specs Table */}
-      <section aria-label="Ficha técnica detallada" className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+      <section aria-label="Ficha técnica detallada" className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
         <h2 className="text-lg font-bold text-slate-950 pb-3 border-b border-slate-100">
           Especificaciones de Cuadro, Frenos, Ruedas y Componentes
         </h2>
@@ -500,6 +513,22 @@ export default function BikeDetailPage({ params }: BikePageProps) {
           <div className="flex justify-between py-2 border-b border-slate-100">
             <span className="font-semibold text-slate-600">Horquilla</span>
             <span className="font-bold text-slate-950">{formatMaterialName(bike.forkMaterial)}</span>
+          </div>
+          <div className="flex justify-between py-2 border-b border-slate-100">
+            <span className="font-semibold text-slate-600">Tipo de Suspensión</span>
+            <span className="font-bold text-slate-950">
+              {bike.suspensionType === "full"
+                ? "Doble Suspensión (Full)"
+                : bike.suspensionType === "hardtail"
+                ? "Suspensión Delantera (Hardtail)"
+                : "Rígida"}
+            </span>
+          </div>
+          <div className="flex justify-between py-2 border-b border-slate-100">
+            <span className="font-semibold text-slate-600">Asistencia Eléctrica</span>
+            <span className="font-bold text-slate-950">
+              {bike.isElectric ? "E-Bike (Asistida)" : "Muscular (Convencional)"}
+            </span>
           </div>
           <div className="flex justify-between py-2 border-b border-slate-100">
             <span className="font-semibold text-slate-600">Paso de Rueda Máximo</span>

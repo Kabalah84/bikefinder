@@ -87,7 +87,7 @@ export default function HomePage() {
 
           {/* Live Metrics Grid */}
           <div className="grid grid-cols-3 gap-3 pt-2 max-w-lg">
-            <div className="rounded-2xl bg-white/5 border border-white/10 p-3 backdrop-blur-xs">
+            <div className="rounded-2xl bg-white/5 border border-white/10 p-3 backdrop-blur-sm">
               <span className="block text-xl sm:text-2xl font-black text-teal-400">
                 {bikes.length}+
               </span>
@@ -95,7 +95,7 @@ export default function HomePage() {
                 Bicis Analizadas
               </span>
             </div>
-            <div className="rounded-2xl bg-white/5 border border-white/10 p-3 backdrop-blur-xs">
+            <div className="rounded-2xl bg-white/5 border border-white/10 p-3 backdrop-blur-sm">
               <span className="block text-xl sm:text-2xl font-black text-emerald-400">
                 {brands.length}
               </span>
@@ -103,7 +103,7 @@ export default function HomePage() {
                 Marcas Oficiales
               </span>
             </div>
-            <div className="rounded-2xl bg-white/5 border border-white/10 p-3 backdrop-blur-xs">
+            <div className="rounded-2xl bg-white/5 border border-white/10 p-3 backdrop-blur-sm">
               <span className="block text-xl sm:text-2xl font-black text-amber-400">
                 100%
               </span>
@@ -197,7 +197,7 @@ export default function HomePage() {
                 className={`p-4 rounded-2xl border transition-all duration-200 card-hover-lift flex flex-col justify-between ${
                   isActive
                     ? `bg-slate-950 text-white border-slate-950 shadow-lg ${accent.borderActive}`
-                    : "bg-white text-slate-900 border-slate-200/90 hover:border-slate-300 shadow-2xs hover:shadow-md"
+                    : "bg-white text-slate-900 border-slate-200/90 hover:border-slate-300 shadow-sm hover:shadow-md"
                 }`}
               >
                 <div>

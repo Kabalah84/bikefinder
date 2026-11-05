@@ -8,18 +8,19 @@ import { isSafeExternalUrl } from "../src/lib/utils/security";
 const GRAVEL_FILE = path.join(process.cwd(), "data", "bikes", "gravel.json");
 const CARRETERA_FILE = path.join(process.cwd(), "data", "bikes", "carretera.json");
 
-function isPrivateHost(hostname: string): boolean {
+export function isPrivateHost(hostname: string): boolean {
   const lower = hostname.toLowerCase();
   return (
     lower === "localhost" ||
     lower.endsWith(".local") ||
     lower.endsWith(".internal") ||
     lower === "127.0.0.1" ||
+    lower === "0.0.0.0" ||
     lower === "::1" ||
     lower.startsWith("10.") ||
     lower.startsWith("192.168.") ||
     lower.startsWith("169.254.") || // Link-local / Cloud Metadata
-    lower.startsWith("172.16.")
+    /^172\.(1[6-9]|2\d|3[0-1])\./.test(lower)
   );
 }
 
@@ -141,6 +142,8 @@ export async function importBikeFromUrl(url: string) {
     isOutlet: false,
     frameMaterial: "carbon",
     forkMaterial: "carbon",
+    suspensionType: "rigid",
+    isElectric: false,
     weightKg: isGravel ? 8.9 : 7.8,
     weightSizeReference: "M",
     maxTireClearanceMm: isGravel ? 48 : 34,
@@ -204,12 +207,14 @@ export async function importBikeFromUrl(url: string) {
 }
 
 // Ejecución directa por CLI
-if (process.argv[2]) {
-  const urlArg = process.argv[2];
-  importBikeFromUrl(urlArg).catch((err) => {
-    console.error("Error en importación:", err);
-    process.exit(1);
-  });
-} else {
-  console.log("Uso: npm run bike:import <URL_OFICIAL>");
+if (process.argv[1]?.includes("import-bike")) {
+  if (process.argv[2]) {
+    const urlArg = process.argv[2];
+    importBikeFromUrl(urlArg).catch((err) => {
+      console.error("Error en importación:", err);
+      process.exit(1);
+    });
+  } else {
+    console.log("Uso: npm run bike:import <URL_OFICIAL>");
+  }
 }

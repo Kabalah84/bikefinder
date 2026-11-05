@@ -54,9 +54,21 @@ export const GroupsetSpecSchema = z.object({
   name: z.string().min(1).max(100),
   isElectronic: z.boolean(),
   speedCount: z.number().int().positive().max(15),
-  chainrings: z.string().min(1).max(20), // e.g. "48/31T" or "40T"
-  cassette: z.string().min(1).max(20), // e.g. "11-36T" or "10-44T"
-  minGearRatio: z.number().positive().max(10), // Subida (ej. 31/36 = 0.86)
+  chainrings: z
+    .string()
+    .min(1)
+    .max(20)
+    .regex(/^[2-6]\d(?:\/[2-6]\d)?T$/, {
+      message: "El plato debe indicar dientes válidos terminados en T (ej: 40T o 48/31T)",
+    }), // e.g. "48/31T" or "40T"
+  cassette: z
+    .string()
+    .min(1)
+    .max(20)
+    .regex(/^(?:9|1[0-4])-[2-5]\dT$/, {
+      message: "El cassette debe indicar rango válido terminado en T (ej: 11-36T o 10-52T)",
+    }), // e.g. "11-36T" or "10-44T"
+  minGearRatio: z.number().min(0.4).max(10), // Subida (ej. 31/36 = 0.86)
   maxGearRatio: z.number().positive().max(10), // Llano (ej. 48/11 = 4.36)
 });
 export type GroupsetSpec = z.infer<typeof GroupsetSpecSchema>;

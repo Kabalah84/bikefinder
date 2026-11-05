@@ -15,13 +15,13 @@ export function generateOrganizationSchema() {
     url: SITE_CONFIG.baseUrl,
     logo: {
       "@type": "ImageObject",
-      url: `${SITE_CONFIG.baseUrl}/icon-512.png`,
+      url: `${SITE_CONFIG.baseUrl}/icon`,
       caption: `${SITE_CONFIG.name} · Comparador Oficial de Bicicletas`,
     },
     description: SITE_CONFIG.defaultDescription,
     sameAs: [
       "https://twitter.com/comparabici_es",
-      "https://github.com/Kabalah84/bikefinder",
+      "https://github.com/Kabalah84/comparativabicicletas",
     ],
   };
 }
@@ -225,24 +225,6 @@ export function generateProductSchema(bike: BikeProduct) {
         "@type": "Organization",
         name: bike.brand,
       },
-      hasMerchantReturnPolicy: {
-        "@type": "MerchantReturnPolicy",
-        returnPolicyCategory: "https://schema.org/MerchantReturnFiniteReturnWindow",
-        merchantReturnDays: 30,
-        returnMethod: "https://schema.org/ReturnByMail",
-      },
-      shippingDetails: {
-        "@type": "OfferShippingDetails",
-        shippingRate: {
-          "@type": "MonetaryAmount",
-          value: "0",
-          currency: "EUR",
-        },
-        shippingDestination: {
-          "@type": "DefinedRegion",
-          addressCountry: "ES",
-        },
-      },
     },
     additionalProperty: additionalProps,
   };
@@ -324,6 +306,9 @@ export function generateArticleComparisonSchema({
   bikeB?: BikeProduct;
 }) {
   const comparisonUrl = `${SITE_CONFIG.baseUrl}/comparativa/${slug}`;
+  const articleImages = [bikeA?.officialImageUrl, bikeB?.officialImageUrl].filter(
+    (img): img is string => Boolean(img)
+  );
 
   return {
     "@context": "https://schema.org",
@@ -331,6 +316,10 @@ export function generateArticleComparisonSchema({
     "@id": `${comparisonUrl}#article`,
     headline: title,
     description: summary,
+    image:
+      articleImages.length > 0
+        ? articleImages
+        : [`${SITE_CONFIG.baseUrl}/opengraph-image`],
     inLanguage: "es-ES",
     url: comparisonUrl,
     mainEntityOfPage: comparisonUrl,
@@ -347,7 +336,7 @@ export function generateArticleComparisonSchema({
       url: SITE_CONFIG.baseUrl,
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_CONFIG.baseUrl}/icon-512.png`,
+        url: `${SITE_CONFIG.baseUrl}/icon`,
       },
     },
     about: [

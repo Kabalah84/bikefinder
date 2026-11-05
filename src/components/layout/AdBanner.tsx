@@ -59,7 +59,7 @@ export function AdBanner({
           <Sparkles className="w-3 h-3 text-amber-500" />
           Destacado Oficial
         </span>
-        <span className="text-slate-400">Patrocinado</span>
+        <span className="text-slate-600">Patrocinado</span>
       </div>
 
       <div className="my-auto py-2">

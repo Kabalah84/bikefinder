@@ -128,6 +128,10 @@ export const POPULAR_DUELS: DuelConfig[] = [
   },
 ];
 
+import { sanitizeSlugParam } from "@/lib/utils/security";
+
 export function getDuelBySlug(slug: string): DuelConfig | undefined {
-  return POPULAR_DUELS.find((d) => d.slug === slug);
+  const safeSlug = sanitizeSlugParam(slug);
+  if (!safeSlug) return undefined;
+  return POPULAR_DUELS.find((d) => d.slug === safeSlug);
 }

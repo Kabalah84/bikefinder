@@ -5,6 +5,7 @@ import { BikeProduct } from "@/lib/schema/bike";
 import {
   TIRE_SIZES,
   TRANSMISSION_PRESETS,
+  buildCogsFromCassette,
   calculateGearMatrix,
   TransmissionPreset,
 } from "@/lib/utils/gear-physics";
@@ -57,38 +58,26 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
     const bike = catalogBikes.find((b) => b.id === bikeId);
     if (!bike) return;
 
-    // Parsear platos
+    // Parsear platos validando dientes reales (> 5)
     const rings = bike.groupset.chainrings
-      .replace("T", "")
+      .replace(/T$/i, "")
       .split("/")
       .map((r) => parseInt(r.trim(), 10))
-      .filter((n) => !isNaN(n));
+      .filter((n) => !isNaN(n) && n > 5);
 
-    // Parsear cassette aproximado según min/max
-    const isOneBy = rings.length === 1;
-    let newCogs: number[] = [];
-    if (bike.groupset.cassette.includes("10-44")) {
-      newCogs = [10, 11, 13, 15, 17, 19, 21, 24, 28, 32, 38, 44];
-    } else if (bike.groupset.cassette.includes("10-50")) {
-      newCogs = [10, 12, 14, 16, 18, 21, 24, 28, 32, 36, 42, 50];
-    } else if (bike.groupset.cassette.includes("11-36")) {
-      newCogs = [11, 13, 15, 17, 19, 21, 24, 27, 30, 33, 36];
-    } else if (bike.groupset.cassette.includes("11-34")) {
-      newCogs = [11, 12, 13, 14, 15, 17, 19, 21, 24, 27, 30, 34];
-    } else if (bike.groupset.cassette.includes("11-30")) {
-      newCogs = [11, 12, 13, 14, 15, 16, 17, 19, 21, 24, 27, 30];
-    } else {
-      newCogs = [11, 13, 15, 17, 19, 21, 24, 28, 32, 36];
-    }
+    const safeRings = rings.length > 0 ? rings : bike.discipline === "mtb" ? [32] : [48, 31];
+    const newCogs = buildCogsFromCassette(bike.groupset.cassette, bike.groupset.speedCount);
 
-    setChainrings(rings.length > 0 ? rings : [48, 31]);
+    setChainrings(safeRings);
     setCogs(newCogs);
-    setCustomChainringText(rings.join("/"));
+    setCustomChainringText(safeRings.join("/"));
     setCustomCassetteText(newCogs.join(", "));
     setSelectedPresetId("custom");
 
     // Asignar neumático adecuado
-    if (bike.discipline === "gravel") {
+    if (bike.discipline === "mtb") {
+      setSelectedTireId(bike.maxTireClearanceMm >= 60 ? "29x2.4" : "29x2.2");
+    } else if (bike.discipline === "gravel") {
       setSelectedTireId(bike.maxTireClearanceMm >= 48 ? "700x50" : "700x45");
     } else if (bike.discipline === "road_race") {
       setSelectedTireId("700x28");
@@ -105,15 +94,18 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
   // Cálculos resumen
   const minRatio = useMemo(() => {
     if (matrix.length === 0) return 1;
-    return Math.min(...matrix.map((m) => m.ratio));
+    const minVal = Math.min(...matrix.map((m) => m.ratio));
+    return Number.isFinite(minVal) && minVal > 0 ? minVal : 1;
   }, [matrix]);
 
   const maxRatio = useMemo(() => {
     if (matrix.length === 0) return 4;
-    return Math.max(...matrix.map((m) => m.ratio));
+    const maxVal = Math.max(...matrix.map((m) => m.ratio));
+    return Number.isFinite(maxVal) && maxVal > 0 ? maxVal : 4;
   }, [matrix]);
 
   const totalRangePercentage = useMemo(() => {
+    if (minRatio <= 0) return 100;
     return Math.round((maxRatio / minRatio) * 100);
   }, [maxRatio, minRatio]);
 
@@ -133,10 +125,10 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
   return (
     <div className="space-y-8">
       {/* Controles Superiores: Presets y Carga de Catálogo */}
-      <div className="rounded-3xl bg-white p-6 border border-slate-200 shadow-xs space-y-5">
+      <div className="rounded-3xl bg-white p-6 border border-slate-200 shadow-sm space-y-5">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-100">
           <div>
-            <span className="text-xs font-bold uppercase tracking-wider text-teal-600 block mb-1">
+            <span className="text-xs font-bold uppercase tracking-wider text-teal-700 block mb-1">
               Configurador Rápido
             </span>
             <h3 className="text-lg font-bold text-slate-900">
@@ -146,11 +138,12 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
 
           {/* Selector de modelos del catálogo */}
           <div className="flex items-center gap-2">
-            <Bike className="w-4 h-4 text-slate-400" />
+            <Bike className="w-4 h-4 text-slate-500" />
             <select
+              aria-label="Cargar bicicleta oficial del catálogo"
               onChange={(e) => handleLoadBike(e.target.value)}
               defaultValue=""
-              className="rounded-xl border border-slate-300 bg-slate-50 py-2 px-3 text-xs font-bold text-slate-800 focus:border-teal-500 focus:outline-hidden"
+              className="rounded-xl border border-slate-300 bg-slate-50 py-2 px-3 text-xs font-bold text-slate-800 focus:border-teal-500 focus:outline-none"
             >
               <option value="" disabled>
                 Cargar bicicleta oficial...
@@ -166,7 +159,7 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
 
         {/* Presets Estándar */}
         <div>
-          <label className="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
+          <label className="block text-xs font-bold text-slate-600 uppercase tracking-wider mb-2">
             Presets de Referencia:
           </label>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
@@ -179,17 +172,17 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
                   onClick={() => handleSelectPreset(preset)}
                   className={`p-3 rounded-2xl border text-left transition-all ${
                     isSelected
-                      ? "border-teal-600 bg-teal-50/50 shadow-xs ring-1 ring-teal-500"
+                      ? "border-teal-600 bg-teal-50/50 shadow-sm ring-1 ring-teal-500"
                       : "border-slate-200 bg-slate-50 hover:bg-white hover:border-slate-300"
                   }`}
                 >
                   <div className="flex items-center justify-between mb-1">
                     <span className="text-xs font-extrabold text-slate-900">{preset.name}</span>
-                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-white border border-slate-200 text-slate-600">
+                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700">
                       {preset.category}
                     </span>
                   </div>
-                  <p className="text-[11px] text-slate-500 line-clamp-1">{preset.description}</p>
+                  <p className="text-[11px] text-slate-600 line-clamp-1">{preset.description}</p>
                 </button>
               );
             })}
@@ -207,7 +200,7 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
             <select
               value={selectedTireId}
               onChange={(e) => setSelectedTireId(e.target.value)}
-              className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 px-3 text-xs font-semibold text-slate-800 focus:border-teal-500 focus:outline-hidden"
+              className="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 px-3 text-xs font-semibold text-slate-800 focus:border-teal-500 focus:outline-none"
             >
               {TIRE_SIZES.map((tire) => (
                 <option key={tire.id} value={tire.id}>
@@ -247,7 +240,7 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
       {/* Tarjetas de Métricas Clave */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         {/* Ratio Mínimo (Subida) */}
-        <div className="p-5 rounded-3xl bg-teal-50/80 border border-teal-200 shadow-xs space-y-2">
+        <div className="p-5 rounded-3xl bg-teal-50/80 border border-teal-200 shadow-sm space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-xs font-bold uppercase tracking-wider text-teal-900 flex items-center gap-1">
               <TrendingUp className="w-4 h-4 text-teal-600" />
@@ -273,7 +266,7 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
         </div>
 
         {/* Ratio Máximo (Llano / Sprint) */}
-        <div className="p-5 rounded-3xl bg-slate-900 text-white shadow-xs space-y-2">
+        <div className="p-5 rounded-3xl bg-slate-900 text-white shadow-sm space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1">
               <Flame className="w-4 h-4 text-amber-400" />
@@ -297,9 +290,9 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
         </div>
 
         {/* Rango Total */}
-        <div className="p-5 rounded-3xl bg-white border border-slate-200 shadow-xs space-y-2">
+        <div className="p-5 rounded-3xl bg-white border border-slate-200 shadow-sm space-y-2">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1">
+            <span className="text-xs font-bold uppercase tracking-wider text-slate-600 flex items-center gap-1">
               <Layers className="w-4 h-4 text-teal-600" />
               Rango de Transmisión
             </span>
@@ -309,22 +302,22 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
           </div>
           <div className="flex items-baseline gap-2">
             <span className="text-3xl font-black text-slate-900">{totalRangePercentage}%</span>
-            <span className="text-xs font-bold text-slate-500">Amplitud</span>
+            <span className="text-xs font-bold text-slate-600">Amplitud</span>
           </div>
-          <p className="text-xs text-slate-500">
+          <p className="text-xs text-slate-600">
             Diferencia entre la marcha más blanda y la más dura ({minRatio.toFixed(2)} a {maxRatio.toFixed(2)}).
           </p>
         </div>
       </div>
 
       {/* Matriz Completa de Marchas y Velocidades */}
-      <div className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200 shadow-xs space-y-6">
+      <div className="rounded-3xl bg-white p-6 sm:p-8 border border-slate-200 shadow-sm space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-slate-100">
           <div>
             <h3 className="text-lg font-bold text-slate-900">
               Tabla de Marchas, Metros de Avance y Velocidades a {targetCadence} RPM
             </h3>
-            <p className="text-xs text-slate-500 mt-0.5">
+            <p className="text-xs text-slate-600 mt-0.5">
               Cada fila muestra la combinación exacta de plato y piñón con sus metros recorridos por pedalada.
             </p>
           </div>
@@ -333,7 +326,7 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
         <div className="overflow-x-auto">
           <table className="w-full text-left text-xs sm:text-sm border-collapse">
             <thead>
-              <tr className="border-b border-slate-200 text-[11px] font-bold uppercase text-slate-500 bg-slate-50">
+              <tr className="border-b border-slate-200 text-[11px] font-bold uppercase text-slate-600 bg-slate-50">
                 <th className="py-3 px-4">Plato</th>
                 <th className="py-3 px-4">Piñón</th>
                 <th className="py-3 px-4">Ratio</th>
@@ -347,7 +340,7 @@ export function GearCalculatorTool({ catalogBikes }: GearCalculatorToolProps) {
                 const speed = Number(
                   ((item.metersOfDevelopment * targetCadence * 60) / 1000).toFixed(1)
                 );
-                const percentOfMax = (speed / maxSpeedAtCadence) * 100;
+                const percentOfMax = maxSpeedAtCadence > 0 ? (speed / maxSpeedAtCadence) * 100 : 10;
                 const isClimbingGear = item.ratio <= 1.0;
 
                 return (

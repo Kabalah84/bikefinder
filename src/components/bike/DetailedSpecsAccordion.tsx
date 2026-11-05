@@ -48,7 +48,7 @@ export function DetailedSpecsAccordion({
   };
 
   return (
-    <section aria-label="Despiece técnico completo" className="rounded-3xl bg-white border border-slate-200 shadow-xs overflow-hidden">
+    <section aria-label="Despiece técnico completo" className="rounded-3xl bg-white border border-slate-200 shadow-sm overflow-hidden">
       {/* Botón de despliegue / Toggle */}
       <button
         type="button"
@@ -66,7 +66,7 @@ export function DetailedSpecsAccordion({
                 {categories.length} Bloques
               </span>
             </h2>
-            <p className="text-xs text-slate-500 mt-0.5">
+            <p className="text-xs text-slate-600 mt-0.5">
               {isOpen
                 ? "Haz clic para contraer el despiece técnico detallado."
                 : "Consulta cada componente individual: ejes, pinzas, piñones, platos, radios y periféricos."}
@@ -95,7 +95,7 @@ export function DetailedSpecsAccordion({
             {categories.map((cat, idx) => (
               <div
                 key={idx}
-                className="rounded-2xl border border-slate-200 bg-slate-50/50 p-5 space-y-4 shadow-2xs hover:border-slate-300 transition-colors"
+                className="rounded-2xl border border-slate-200 bg-slate-50/50 p-5 space-y-4 shadow-sm hover:border-slate-300 transition-colors"
               >
                 <div className="flex items-center gap-2.5 pb-3 border-b border-slate-200">
                   {getCategoryIcon(cat.category)}
@@ -110,14 +110,14 @@ export function DetailedSpecsAccordion({
                       key={itemIdx}
                       className={itemIdx === 0 ? "space-y-0.5" : "pt-2.5 space-y-0.5"}
                     >
-                      <div className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider">
+                      <div className="text-[11px] font-semibold text-slate-600 uppercase tracking-wider">
                         {item.label}
                       </div>
                       <div className="text-xs sm:text-sm font-bold text-slate-900 leading-snug">
                         {item.value}
                       </div>
                       {item.description && (
-                        <div className="text-[11px] text-slate-500">
+                        <div className="text-[11px] text-slate-600">
                           {item.description}
                         </div>
                       )}
@@ -128,7 +128,7 @@ export function DetailedSpecsAccordion({
             ))}
           </div>
 
-          <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-500 flex items-center gap-2">
+          <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600 flex items-center gap-2">
             <Info className="w-4 h-4 text-teal-600 shrink-0" />
             <span>
               Especificaciones oficiales declaradas por <strong>{fallbackBrand}</strong> para el modelo{" "}
